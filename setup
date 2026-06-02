@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+# dgstack setup — register skills with Claude Code
+set -e
+
+DGSTACK_DIR="$(cd "$(dirname "$0")" && pwd -P)"
+SKILLS_DIR="$HOME/.claude/skills"
+
+QUIET=0
+while [ $# -gt 0 ]; do
+  case "$1" in
+    -q|--quiet) QUIET=1; shift ;;
+    *) shift ;;
+  esac
+done
+
+log() { [ "$QUIET" -eq 0 ] && echo "$@" || true; }
+
+mkdir -p "$SKILLS_DIR"
+
+# ── Link a skill into SKILLS_DIR ──────────────────────────────
+link_skill() {
+  local skill="$1"
+  local src="$2"
+  local dst="$SKILLS_DIR/$skill"
+
+  # Already in the right place — no link needed
+  if [ "$(cd "$src" 2>/dev/null && pwd -P)" = "$(cd "$dst" 2>/dev/null && pwd -P)" ] 2>/dev/null; then
+    log "  ~ /$skill (already in place)"
+    return
+  fi
+
+  [ -e "$dst" ] || [ -L "$dst" ] && rm -rf "$dst"
+  ln -snf "$src" "$dst"
+  log "  ✓ /$skill"
+}
+
+VERSION="$(cat "$DGSTACK_DIR/VERSION" 2>/dev/null | tr -d '[:space:]' || echo "?")"
+log ""
+log "dgstack $VERSION — registering skills..."
+log ""
+
+# Root skill: the repo itself
+link_skill "dgstack" "$DGSTACK_DIR"
+
+# Sub-skills: each sub-directory with a SKILL.md
+for skill_dir in "$DGSTACK_DIR"/*/; do
+  skill_name="$(basename "$skill_dir")"
+  if [ -f "$skill_dir/SKILL.md" ]; then
+    link_skill "$skill_name" "$skill_dir"
+  fi
+done
+
+log ""
+log "Done. Restart Claude Code to pick up new skills."
+log "To update: /dgstack-upgrade"
