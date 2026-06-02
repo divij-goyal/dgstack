@@ -25,6 +25,7 @@ cd ~/.claude/skills/dgstack && git pull && ./setup
 |-------|---------|
 | `/dgstack` | `dgstack help`, `list skills` |
 | `/dgstack-upgrade` | `upgrade dgstack` |
+| `/catalyst` | `find catalyst stocks`, `healthcare catalyst`, `defense catalyst` |
 
 ## Adding a skill
 

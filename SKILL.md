@@ -26,6 +26,7 @@ Personal skill pack by Divij Goyal. Run `/dgstack-upgrade` to update.
 |---------|---------|
 | `/dgstack` | List skills / help |
 | `/dgstack-upgrade` | Upgrade dgstack to latest |
+| `/catalyst` | Find small-cap stocks with one pending catalyst (FDA, DoD contract, etc.) |
 
 ## Routing
 
