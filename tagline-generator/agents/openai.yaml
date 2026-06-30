@@ -1,0 +1,3 @@
+display_name: Tagline Generator
+short_description: Generate and rank sharper startup taglines, headlines, and one-liners.
+default_prompt: Generate startup tagline options and rank the strongest ones.

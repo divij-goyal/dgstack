@@ -1,24 +1,19 @@
-# dgstack
+# DG Stack
 
-Divij's personal Claude Code skill pack.
+DG Stack is a minimalist creative skill pack.
 
-## Skill routing
+## Routing
 
-When user requests match a skill's purpose, invoke via the Skill tool — don't answer inline.
+- Taglines, headlines, slogans, one-liners -> `tagline-generator`
+- Blog posts, essays, articles, founder notes -> `blog-writer`
+- Brainstorming, idea sharpening, advice, creative strategy -> `brainstorming`
+- DG Stack help or skill list -> `dgstack`
+- DG Stack update requests -> `dgstack-upgrade`
 
-- User asks to upgrade dgstack, "update dgstack", "get latest dgstack" → invoke `/dgstack-upgrade`
-- User asks "what skills", "list skills", "dgstack help" → invoke `/dgstack`
-- User asks to find stocks, scan for catalysts, "what stocks could pop", healthcare/defense/biotech stocks with pending events → invoke `/catalyst`
-
-## Installation
+## Install
 
 ```bash
-git clone https://github.com/divij-goyal/dgstack ~/.claude/skills/dgstack
-cd ~/.claude/skills/dgstack && ./setup
+./setup --target claude
+./setup --target codex
+./setup --target both
 ```
-
-## Principles
-
-- Token efficient: do more, say less
-- Opinionated: one right way per task
-- Personal: tuned for Divij's workflow

@@ -1,55 +1,108 @@
 #!/usr/bin/env bash
-# dgstack setup — register skills with Claude Code
-set -e
+# DG Stack setup - register skills with Claude Code, Codex, or both.
+set -euo pipefail
 
 DGSTACK_DIR="$(cd "$(dirname "$0")" && pwd -P)"
-SKILLS_DIR="$HOME/.claude/skills"
-
+TARGET="claude"
 QUIET=0
+
+usage() {
+  cat <<'USAGE'
+Usage: ./setup [--target claude|codex|both] [--quiet]
+
+Registers DG Stack skills by symlinking this repo into an agent skills folder.
+USAGE
+}
+
 while [ $# -gt 0 ]; do
   case "$1" in
-    -q|--quiet) QUIET=1; shift ;;
-    *) shift ;;
+    --target)
+      TARGET="${2:-}"
+      shift 2
+      ;;
+    --target=*)
+      TARGET="${1#*=}"
+      shift
+      ;;
+    -q|--quiet)
+      QUIET=1
+      shift
+      ;;
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    *)
+      echo "Unknown argument: $1" >&2
+      usage >&2
+      exit 1
+      ;;
   esac
 done
 
-log() { [ "$QUIET" -eq 0 ] && echo "$@" || true; }
+case "$TARGET" in
+  claude|codex|both) ;;
+  *)
+    echo "Invalid target: $TARGET" >&2
+    usage >&2
+    exit 1
+    ;;
+esac
 
-mkdir -p "$SKILLS_DIR"
+log() {
+  [ "$QUIET" -eq 0 ] && echo "$@" || true
+}
 
-# ── Link a skill into SKILLS_DIR ──────────────────────────────
 link_skill() {
-  local skill="$1"
-  local src="$2"
-  local dst="$SKILLS_DIR/$skill"
+  local skills_dir="$1"
+  local skill="$2"
+  local src="$3"
+  local dst="$skills_dir/$skill"
 
-  # Already in the right place — no link needed
+  mkdir -p "$skills_dir"
+
   if [ "$(cd "$src" 2>/dev/null && pwd -P)" = "$(cd "$dst" 2>/dev/null && pwd -P)" ] 2>/dev/null; then
     log "  ~ /$skill (already in place)"
     return
   fi
 
-  [ -e "$dst" ] || [ -L "$dst" ] && rm -rf "$dst"
+  if [ -e "$dst" ] || [ -L "$dst" ]; then
+    rm -rf "$dst"
+  fi
+
   ln -snf "$src" "$dst"
-  log "  ✓ /$skill"
+  log "  + /$skill"
+}
+
+register_target() {
+  local label="$1"
+  local skills_dir="$2"
+
+  log ""
+  log "Registering DG Stack for $label at $skills_dir"
+
+  link_skill "$skills_dir" "dgstack" "$DGSTACK_DIR"
+
+  for skill_dir in "$DGSTACK_DIR"/*/; do
+    local skill_name
+    skill_name="$(basename "$skill_dir")"
+    if [ -f "$skill_dir/SKILL.md" ]; then
+      link_skill "$skills_dir" "$skill_name" "$skill_dir"
+    fi
+  done
 }
 
 VERSION="$(cat "$DGSTACK_DIR/VERSION" 2>/dev/null | tr -d '[:space:]' || echo "?")"
 log ""
-log "dgstack $VERSION — registering skills..."
-log ""
+log "DG Stack $VERSION"
 
-# Root skill: the repo itself
-link_skill "dgstack" "$DGSTACK_DIR"
+if [ "$TARGET" = "claude" ] || [ "$TARGET" = "both" ]; then
+  register_target "Claude Code" "$HOME/.claude/skills"
+fi
 
-# Sub-skills: each sub-directory with a SKILL.md
-for skill_dir in "$DGSTACK_DIR"/*/; do
-  skill_name="$(basename "$skill_dir")"
-  if [ -f "$skill_dir/SKILL.md" ]; then
-    link_skill "$skill_name" "$skill_dir"
-  fi
-done
+if [ "$TARGET" = "codex" ] || [ "$TARGET" = "both" ]; then
+  register_target "Codex" "${CODEX_HOME:-$HOME/.codex}/skills"
+fi
 
 log ""
-log "Done. Restart Claude Code to pick up new skills."
-log "To update: /dgstack-upgrade"
+log "Done. Restart your agent app to pick up new skills."

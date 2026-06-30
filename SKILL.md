@@ -1,33 +1,20 @@
 ---
 name: dgstack
-version: 0.1.0
-description: Divij's personal Claude Code skill pack — opinionated tools for shipping fast.
-triggers:
-  - dgstack help
-  - list dgstack skills
-  - what skills do you have
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Edit
-  - Glob
-  - Grep
-  - AskUserQuestion
+description: Minimal creative skill router for DG Stack. Use when the user asks for DG Stack help, asks what DG Stack can do, or asks for better-than-raw-AI creative output involving taglines, headlines, blog writing, or brainstorming.
 ---
 
-# dgstack
+# DG Stack
 
-Personal skill pack by Divij Goyal. Run `/dgstack-upgrade` to update.
+Route the request to the most specific DG Stack skill.
 
-## Skills
+| User intent | Skill |
+| --- | --- |
+| Tagline, headline, slogan, one-liner, positioning line | `tagline-generator` |
+| Blog post, essay, article, founder note, explainer | `blog-writer` |
+| Brainstorming, idea sharpening, creative strategy, advice, thinking partner | `brainstorming` |
+| Upgrade or update DG Stack | `dgstack-upgrade` |
 
-| Command | Purpose |
-|---------|---------|
-| `/dgstack` | List skills / help |
-| `/dgstack-upgrade` | Upgrade dgstack to latest |
-| `/catalyst` | Find small-cap stocks with one pending catalyst (FDA, DoD contract, etc.) |
+If the user asks what DG Stack is, say it is a minimalist skill pack that helps
+AI produce sharper creative output than a raw prompt.
 
-## Routing
-
-When the user asks "what can you do", "list skills", or "dgstack help", show the table above.
+For shared taste rules, read `references/principles.md`.

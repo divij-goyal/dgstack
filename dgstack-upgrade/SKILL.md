@@ -1,57 +1,46 @@
 ---
 name: dgstack-upgrade
-version: 0.1.0
-description: Upgrade dgstack to the latest version from GitHub.
-triggers:
-  - upgrade dgstack
-  - update dgstack
-  - get latest dgstack
-allowed-tools:
-  - Bash
-  - Read
+description: Upgrade an installed DG Stack skill pack from GitHub and rerun setup. Use when the user says upgrade dgstack, update dgstack, get latest dgstack, refresh DG Stack, or asks to update the installed skill pack.
 ---
 
-# /dgstack-upgrade
+# DG Stack Upgrade
 
-Upgrade dgstack and show what changed.
+Upgrade DG Stack and show what changed.
 
 ## Steps
 
-### 1. Detect install
+1. Detect the install directory:
 
 ```bash
-if [ -d "$HOME/.claude/skills/dgstack/.git" ]; then
+if [ -d "$HOME/.dgstack/.git" ]; then
+  INSTALL_DIR="$HOME/.dgstack"
+elif [ -d "$HOME/.claude/skills/dgstack/.git" ]; then
   INSTALL_DIR="$HOME/.claude/skills/dgstack"
 elif [ -L "$HOME/.claude/skills/dgstack" ]; then
   INSTALL_DIR="$(readlink "$HOME/.claude/skills/dgstack")"
+elif [ -L "$HOME/.codex/skills/dgstack" ]; then
+  INSTALL_DIR="$(readlink "$HOME/.codex/skills/dgstack")"
 else
   echo "ERROR: dgstack not found"; exit 1
 fi
 INSTALL_DIR="$(cd "$INSTALL_DIR" && pwd -P)"
 OLD_VERSION=$(cat "$INSTALL_DIR/VERSION" 2>/dev/null | tr -d '[:space:]' || echo "unknown")
-echo "INSTALL_DIR=$INSTALL_DIR  OLD_VERSION=$OLD_VERSION"
+echo "INSTALL_DIR=$INSTALL_DIR OLD_VERSION=$OLD_VERSION"
 ```
 
-### 2. Pull latest
+2. Pull latest and rerun setup:
 
 ```bash
 cd "$INSTALL_DIR"
 git fetch origin
 git reset --hard origin/main
-./setup --quiet
-NEW_VERSION=$(cat VERSION | tr -d '[:space:]')
+./setup --target both --quiet
+NEW_VERSION=$(cat VERSION 2>/dev/null | tr -d '[:space:]' || echo "unknown")
 echo "NEW_VERSION=$NEW_VERSION"
 ```
 
-If `OLD_VERSION == NEW_VERSION`, tell the user they're already on the latest version and stop.
+3. Report the result:
 
-### 3. Report
-
-Read `$INSTALL_DIR/CHANGELOG.md` if present and summarize changes since `$OLD_VERSION` in 3-5 bullets.
-
-Format:
-```
-dgstack v{new} — upgraded from v{old}!
-- bullet 1
-- bullet 2
-```
+If `OLD_VERSION` equals `NEW_VERSION`, say DG Stack is already current. If a
+`CHANGELOG.md` exists, summarize the changes since `OLD_VERSION` in 3-5 bullets.
+Otherwise, summarize the latest commit range.

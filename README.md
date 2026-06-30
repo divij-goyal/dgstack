@@ -1,45 +1,52 @@
-# dgstack
+# DG Stack
 
-Divij's personal Claude Code skill pack.
+DG Stack is a minimalist skill pack for making AI output less generic.
+
+The MVP focuses on three high-value creative workflows:
+
+| Skill | Use it for |
+| --- | --- |
+| `tagline-generator` | Startup taglines, headlines, one-liners, positioning lines |
+| `blog-writer` | Blog posts, essays, explainers, founder notes |
+| `brainstorming` | Creative thinking with a strong point of view |
+
+The goal is simple: produce output that feels 50x better than a raw prompt to a
+general AI assistant.
 
 ## Install
 
 ```bash
-git clone https://github.com/divij-goyal/dgstack ~/.claude/skills/dgstack
-cd ~/.claude/skills/dgstack && ./setup
+git clone https://github.com/divij-goyal/dgstack ~/.dgstack
+cd ~/.dgstack
+./setup --target claude
 ```
 
-Restart Claude Code. Skills are now available.
-
-## Update
-
-Say `upgrade dgstack` or run:
+For Codex:
 
 ```bash
-cd ~/.claude/skills/dgstack && git pull && ./setup
+./setup --target codex
 ```
 
-## Skills
+For both:
 
-| Skill | Trigger |
-|-------|---------|
-| `/dgstack` | `dgstack help`, `list skills` |
-| `/dgstack-upgrade` | `upgrade dgstack` |
-| `/catalyst` | `find catalyst stocks`, `healthcare catalyst`, `defense catalyst` |
+```bash
+./setup --target both
+```
 
-## Adding a skill
+Restart the agent app after setup.
 
-1. `mkdir my-skill && cat > my-skill/SKILL.md` with frontmatter:
-   ```yaml
-   ---
-   name: my-skill
-   version: 0.1.0
-   description: What it does.
-   triggers:
-     - phrase that invokes it
-   allowed-tools:
-     - Bash
-     - Read
-   ---
-   ```
-2. Run `./setup` — it auto-discovers any directory containing `SKILL.md`
+## Structure
+
+```text
+dgstack/
+├── SKILL.md
+├── references/principles.md
+├── tagline-generator/
+├── blog-writer/
+├── brainstorming/
+├── dgstack-upgrade/
+└── setup
+```
+
+Each sub-skill keeps its detailed instructions in `references/instructions.md`.
+That is where the next step should add the actual DG frameworks and examples.
