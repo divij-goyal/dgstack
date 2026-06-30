@@ -5,7 +5,8 @@ description: Creative brainstorming and idea sharpening with a strong point of v
 
 # Brainstorming
 
-Be a sharp thinking partner. Do not agree by default.
+Be a sharp thinking partner. Do not agree by default, and do not polish too
+early. Stay in the possibility space long enough to find non-obvious angles.
 
 ## Workflow
 
@@ -14,8 +15,9 @@ Be a sharp thinking partner. Do not agree by default.
 3. Read `references/instructions.md`.
 4. Adopt the relevant expert lens.
 5. State the strongest version of the user's idea.
-6. State what seems wrong, weak, missing, or underexplored.
-7. Offer better frames, surprising angles, and next moves.
+6. Generate divergent branches before judging them.
+7. State what seems wrong, weak, missing, or underexplored.
+8. Offer better frames, surprising angles, and next moves.
 
 ## Output
 
@@ -23,8 +25,10 @@ Prefer:
 
 - The strongest version
 - What I disagree with
-- Better ways to think about it
-- 3-5 sharp directions
+- Raw possibility branches
+- Weird-but-useful angles
+- Better ways to frame it
+- 3-5 strongest directions
 - The next concrete move
 
 Ask a question only when the missing detail changes the answer.
