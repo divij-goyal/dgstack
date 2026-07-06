@@ -1,0 +1,2972 @@
+
+
+
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>
+        NewsBlur — Personal News Reader with Intelligence Training
+      </title>
+      <link rel="shortcut icon"
+            href="/media/img/favicon.ico"
+            type="image/png" />
+      <link rel="icon" href="/media/img/favicon_32.png" sizes="32x32" />
+      <link rel="icon" href="/media/img/favicon_64.png" sizes="64x64" />
+      <link rel="apple-touch-icon"
+            href="/media/img/mobile/apple-touch-icon-precomposed.png" />
+      <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="msapplication-TileImage"
+            content="/media/img/logo_144.png" />
+      <meta name="msapplication-TileColor" content="#F7E5A8" />
+      <meta name="apple-itunes-app" content="app-id=463981119">
+      <link rel="manifest" href="/manifest.webmanifest">
+      <link rel="canonical" href="https://www.newsblur.com/">
+      
+    <meta name="description" content="NewsBlur is a personal news reader that brings people together to talk about the world. Follow RSS feeds, train stories with intelligence filters, and read smarter with AI.">
+    <meta property="og:title" content="NewsBlur - A Personal News Reader">
+    <meta property="og:description" content="Follow RSS feeds, train stories with intelligence filters, and read smarter. Free on web, iOS, and Android. Open source.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.newsblur.com/">
+    <meta property="og:image" content="https://www.newsblur.com/media/img/welcome/welcome-mac.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@newsblur">
+    <meta name="twitter:title" content="NewsBlur - A Personal News Reader">
+    <meta name="twitter:description" content="Follow RSS feeds, train stories with intelligence filters, and read smarter. Free on web, iOS, and Android. Open source.">
+    <meta name="twitter:image" content="https://www.newsblur.com/media/img/welcome/welcome-mac.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "NewsBlur",
+        "applicationCategory": "NewsApplication",
+        "operatingSystem": "Web, iOS, Android",
+        "offers": [
+            {"@type": "Offer", "price": "0", "priceCurrency": "USD", "name": "Free"},
+            {"@type": "Offer", "price": "36", "priceCurrency": "USD", "name": "Premium"},
+            {"@type": "Offer", "price": "99", "priceCurrency": "USD", "name": "Premium Archive"}
+        ],
+        "description": "Personal news reader with intelligence training, AI summaries, and social sharing. Open source.",
+        "url": "https://www.newsblur.com"
+    }
+    </script>
+
+      
+      <script async src="https://plausible.io/js/pa-AGTOvjd1KjVNLnRT2aQ7m.js"></script>
+      <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+      
+      <!-- <link rel="mask-icon"
+       href="/media/img/favicon_monochrome.svg"
+       color="orange"> -->
+      <script type="text/javascript" charset="utf-8">
+    window.NEWSBLUR = {};
+    NEWSBLUR.Globals = {
+      'is_authenticated'        : false,
+      'is_anonymous'            : true,
+      'is_premium'              : true,
+      'is_archive'              : false,
+      'is_pro'                  : false,
+      'is_usage_billing'        : false,
+      'can_use_ai_classifiers'  : false,
+      'is_self_hosted_ai'       : false,
+      'usage_billing_limit'     : null,
+      'is_admin'                : false,
+      'is_staff'                : false,
+      'premium_expire'          : new Date('2026-11-19'),
+      'premium_renewal'         : true,
+      'active_provider'         : "stripe",
+      'is_premium_trial'        : false,
+      'trial_days_remaining'    : null,
+      'can_start_trial'         : false,
+      'max_feed_limit'          : 1024,
+      'add_feed_limit'          : 1024,
+      'premium_feed_limit'      : 1024,
+      'archive_feed_limit'      : 4096,
+      'pro_feed_limit'          : 10000,
+      'secret_token'            : "75ddb05c6a00",
+      'username'                : "",
+      
+      'email'                   : "",
+      'MEDIA_URL'               : "/media/",
+      'debug'                   : false,
+      'default_days_of_unread'  : 30,
+      'default_days_of_unread_free': 14
+    };
+    NEWSBLUR.Flags = {
+    };
+    NEWSBLUR.Preferences = {
+      'unread_view'             : 0,
+      'lock_mouse_indicator'    : 300,
+      'feed_pane_size'          : 240,
+      'hide_getting_started'    : true,
+      'has_setup_feeds'         : true,
+      'has_found_friends'       : true,
+      'has_trained_intelligence': true,
+      'story_titles_pane_size'  : 420,
+      'story_pane_anchor'       : 'west',
+      'new_window'              : 1,
+      'default_view'            : 'feed',
+      'default_order'           : 'newest',
+      'default_read_filter'     : 'all',
+      'default_stories_discover': 'feed',
+      'default_dashboard_count' : 5,
+      'grid_columns'            : 0,
+      'grid_height'             : 'm',
+      'hide_read_feeds'         : 0,
+      'show_tooltips'           : 1,
+      'show_contextmenus'       : 1,
+      'notification_title_only' : 0,
+      'feed_order'              : 'ALPHABETICAL',
+      'keyboard_verticalarrows' : 'story',
+      'keyboard_horizontalarrows': 'view',
+      'space_scroll_spacing'    : 40,
+      'arrow_scroll_spacing'    : 100,
+      'space_bar_action'        : 'next_unread',
+      'infrequent_stories_per_month': 30,
+      'ssl'                     : 0,
+      'open_feed_action'        : 'newest',
+      'read_story_delay'        : 0,
+      'feed_view_single_story'  : 0,
+      'show_discover'           : true,
+      'animations'              : true,
+      'dateformat'              : "12",
+      'folder_counts'           : false,
+      'send_emails'             : true,
+      'email_cc'                : true,
+      'view_settings'           : {},
+      'story_layout'            : 'split',
+      'collapsed_folders'       : [],
+      'story_styling'           : 'sans-serif',
+      'feed_font'               : 'whitney',
+      'feed_size'               : 'm',
+      'story_size'              : 'm',
+      'story_line_spacing'      : 'm',
+      'hide_public_comments'    : false,
+      'story_button_placement'  : "right",
+      'sticky_story_sideoptions' : true,
+      'days_of_unread'          : 30,
+      'timezone'                : "America/New_York",
+      'title_counts'            : true,
+      'show_global_shared_stories': true,
+      'show_infrequent_site_stories': true,
+      'show_widely_read_stories' : true,
+      'show_long_reads'          : true,
+      'briefing_enabled'         : true,
+      'full_width_story'        : false,
+      'story_position'          : 'center',
+      'truncate_story'          : 'social',
+      'autoopen_folder'         : false,
+      'show_content_preview'    : true,
+      'image_preview'           : 'small-right',
+      'mark_read_on_scroll_titles' : false,
+      'density'                 : 'comfortable',
+      'doubleclick_feed'        : 'open',
+      'doubleclick_unread'      : 'markread',
+      'mark_read_river_confirm' : 'folders_only',
+      'markread_nextfeed'       : 'nextfeed',
+      'story_share_twitter'     : false,
+      'story_share_facebook'    : false,
+      'story_share_copyurl'     : false,
+      'story_share_copytext'    : false,
+      'story_share_print'       : false,
+      'story_share_email'       : true,
+      'show_sideoption_email'   : true,
+      'show_sideoption_save'    : true,
+      'show_sideoption_train'   : true,
+      'show_sideoption_share'   : true,
+      'show_sideoption_related' : true,
+      'show_sideoption_ask_ai'  : true,
+      'theme'                   : 'auto',
+      'highlights'              : true,
+      'dashboard_columns'       : 2,
+      'story_clustering'        : true,
+      'cluster_mark_read'       : false,
+      'mark_read_days'          : 1,
+      'mark_unread_days'        : 14
+    };
+    NEWSBLUR.URLs = {
+      'upload-avatar'           : "/social/upload_avatar",
+      'opml-upload'             : "/import/opml_upload",
+      'opml-export'             : "/import/opml_export",
+      'domain'                  : "www.newsblur.com",
+      'favicon'                 : "/rss_feeds/icon/{id}",
+      'delete-account'          : "/profile/delete_account",
+      'folder_rss'              : "/reader/folder_rss/{user_id}/{secret_token}/{unread_filter}/{folder_title}",
+      'paypal_checkout_js'      : 'https://www.paypal.com/sdk/js?vault=true&intent=subscription&client-id=Ab9ukBA8_fCd925huloC4TXw7dKjiEy4IqmQFIo8mczv9HGSnBnywUXklEKh',
+      'paypal_return'           : "https://www.newsblur.com/profile/paypal_return",
+      'paypal_archive_return'   : "https://www.newsblur.com/profile/paypal_archive_return",
+      'paypal_pro_return'        : "https://www.newsblur.com/profile/paypal_pro_return"
+    };
+    NEWSBLUR.Models = {};
+    NEWSBLUR.Collections = {};
+    NEWSBLUR.Views = {};
+    NEWSBLUR.app = {};
+      </script>
+      <link href="/static/css/common.20613c517406.css" rel="stylesheet" type="text/css" media="all" />
+      
+        <link rel="stylesheet"
+              type="text/css"
+              href="https://cloud.typography.com/6565292/711824/css/fonts.css" />
+      
+    </head>
+    <body class="NB-welcome  NB-premium">
+      <script>(function(){var t=null;try{var r=localStorage.getItem('newsblur:theme');if(r){var o=JSON.parse(r);if(o&&o.theme&&o.ts&&(Date.now()-o.ts<216e5))t=o.theme;else localStorage.removeItem('newsblur:theme')}}catch(e){try{localStorage.removeItem('newsblur:theme')}catch(e2){}}if(!t)t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';if(t==='dark')document.body.classList.add('NB-dark')})()</script>
+      
+    <script>document.body.style.backgroundColor='#c4a870';if(document.body.classList.contains('NB-dark'))document.body.style.backgroundColor='#1a2525';</script>
+    <script type="text/javascript" charset="utf-8">
+// Ask AI prompt templates
+NEWSBLUR.Globals.ask_ai_prompts = [{"id": "sentence", "short_text": "Summarize in one sentence", "order": 1}, {"id": "bullets", "short_text": "Summarize in bullet points", "order": 2}, {"id": "paragraph", "short_text": "Summarize in a paragraph", "order": 3}, {"id": "context", "short_text": "What's the context and background?", "order": 4}, {"id": "people", "short_text": "Identify key people and relationships", "order": 5}, {"id": "arguments", "short_text": "What are the main arguments?", "order": 6}, {"id": "factcheck", "short_text": "Fact check this story", "order": 7}];
+// Ask AI model list (single source of truth from providers.py)
+NEWSBLUR.Globals.ask_ai_models = [{"key": "opus", "display_name": "Claude Opus 4.6", "vendor": "anthropic", "vendor_display": "Anthropic"}, {"key": "gpt-5.2", "display_name": "GPT 5.2", "vendor": "openai", "vendor_display": "OpenAI"}, {"key": "gemini-3", "display_name": "Gemini 3 Pro", "vendor": "google", "vendor_display": "Google"}, {"key": "grok-4.1", "display_name": "Grok 4.1 Fast", "vendor": "xai", "vendor_display": "xAI"}];
+</script>
+
+<div class="NB-layout">
+
+    <div class="left-pane">
+
+        <div class="left-north">
+            <div class="NB-feeds-header-user">
+                <div class="NB-feeds-header-user-image">
+                    
+                        <img src="https://www.gravatar.com/avatar/e3c7a29b7538122f0ee20f8e9cf05f42">
+                    
+                </div>
+                <div class="NB-feeds-header-user-name">homepage</div>
+                <div class="NB-feeds-header-collapse-sidebar" role="button">
+                    <img src="/media//img/icons/nouns/nav-left.svg">
+                </div>
+                <div class="NB-feeds-header-user-interactions" role="button">
+                    <div class="NB-feeds-header-user-interactions-badge NB-hidden"></div>
+                    <img src="/media//img/icons/nouns/pulse.svg">
+                </div>
+                <div class="NB-feeds-header-dashboard"></div>
+            </div>
+            <div class="NB-feeds-selector">
+                <input type="text" name="feeds_selector" class="NB-feeds-selector-input NB-search-input" />
+            </div>
+        </div>
+
+        <div class="left-center">
+
+            <div class="left-center-content NB-sidebar NB-feedlists">
+                <div class="NB-feeds-list-loader">Everything is on its way...</div>
+                <div class="NB-feeds-list-error">
+                    Something went wrong...
+                    <div class="NB-button NB-feeds-list-retry">Retry</div>
+                </div>
+
+                <div class="NB-feeds-header-container NB-feeds-header-river-container NB-feeds-header-river-dashboard-container NB-sticky-sidebar-primary">
+                    <div class="NB-feeds-header NB-feeds-header-river-dashboard NB-empty" role="link">
+                        <img class="NB-feeds-header-icon" src="/media/img/icons/nouns/home.svg" />
+                        <div class="NB-feeds-header-title">
+                            NewsBlur Dashboard
+                        </div>
+                    </div>
+                </div>
+
+                <div class="NB-feeds-header-wrapper">
+
+                    <div class="NB-feeds-header-container NB-feeds-header-tryfeed-container NB-sticky-sidebar-section">
+                        <div class="NB-feeds-header NB-feeds-header-tryfeed">
+                            <img class="NB-feeds-header-icon" src="" />
+                            <div class="NB-feeds-header-title"></div>
+                        </div>
+                    </div>
+
+                    <div class="NB-feeds-header-container NB-feeds-header-river-container NB-feeds-header-add-site-container">
+                        <div class="NB-feeds-header NB-feeds-header-add-site NB-empty" role="link">
+                            <img class="NB-feeds-header-icon" src="/media/img/icons/nouns/add.svg" />
+                            <div class="NB-feeds-header-title">
+                                Add + Discover Sites
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="NB-feeds-header-container NB-feeds-header-river-container NB-feeds-header-river-briefing-container">
+                        <div class="NB-feeds-header NB-feeds-header-river-briefing NB-empty" role="link">
+                            <div class="NB-feeds-header-count unread_count"></div>
+                            <img class="NB-feeds-header-icon" src="/media/img/icons/nouns/briefing.svg" />
+                            <div class="NB-feeds-header-title">
+                                Daily Briefing
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="NB-feeds-header-container NB-feeds-header-river-container NB-feeds-header-river-briefing-admin-container">
+                        <div class="NB-feeds-header NB-feeds-header-river-briefing-admin NB-empty" role="link">
+                            <img class="NB-feeds-header-icon" src="/media/img/icons/nouns/briefing.svg" />
+                            <div class="NB-feeds-header-title">
+                                Briefing Admin
+                            </div>
+                            <span class="NB-staff-badge">Staff Only</span>
+                        </div>
+                    </div>
+
+                    <div class="NB-feeds-header-container NB-feeds-header-river-container NB-feeds-header-river-infrequent-container">
+                        <div class="NB-feeds-header NB-feeds-header-river-infrequent NB-empty" role="link">
+                            <div class="NB-feeds-header-count unread_count"></div>
+                            <img class="NB-feeds-header-icon" src="" />
+                            <div class="NB-feeds-header-title">
+                                Infrequent Site Stories
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="NB-feeds-header-container NB-feeds-header-river-container NB-feeds-header-river-sites-container NB-sticky-sidebar-section">
+                    <div class="NB-feeds-header NB-feeds-header-river-sites NB-empty" role="link">
+                        <div class="NB-feeds-header-count unread_count"></div>
+                        <img class="NB-feeds-header-icon" src="" />
+                        <div class="NB-feeds-header-title">
+                            All Site Stories
+                        </div>
+                        <div class="NB-feedlist-toggle-all-icon" title="Collapse All Folders"></div>
+                    </div>
+                </div>
+
+                <ul class="folder NB-feedlist" id="feed_list"></ul>
+                
+                <div class="NB-feeds-header-container NB-feeds-header-read-container NB-hidden NB-sticky-sidebar-section">
+                    <div class="NB-feeds-header NB-feeds-header-read" role="link">
+                        <img class="NB-feeds-header-icon" src="" />
+                        <div class="NB-feeds-header-title">
+                            Read Stories
+                        </div>
+                    </div>
+                </div>
+
+                <div class="NB-feeds-header-container NB-feeds-header-river-container NB-feeds-header-archive-container NB-hidden NB-sticky-sidebar-section">
+                    <div class="NB-feeds-header NB-feeds-header-archive NB-empty" role="link">
+                        <img class="NB-feeds-header-icon" src="" />
+                        <div class="NB-feeds-header-title">
+                            Reading Archive
+                        </div>
+                        <span class="NB-staff-badge">Staff Only</span>
+                    </div>
+                </div>
+
+                <div class="NB-feeds-header-container NB-feeds-header-river-container NB-feeds-header-river-global-container NB-sticky-sidebar-section">
+                    <div class="NB-feeds-header NB-feeds-header-river-global NB-empty" role="link">
+                        <div class="NB-feeds-header-count unread_count"></div>
+                        <img class="NB-feeds-header-icon" src="" />
+                        <div class="NB-feeds-header-title">
+                            Global Shared Stories
+                        </div>
+                    </div>
+                </div>
+
+                <div class="NB-feeds-header-container NB-feeds-header-river-container NB-feeds-header-river-well-read-container NB-sticky-sidebar-section">
+                    <div class="NB-feeds-header NB-feeds-header-river-well-read NB-empty" role="link">
+                        <div class="NB-feeds-header-count unread_count"></div>
+                        <img class="NB-feeds-header-icon" src="" />
+                        <div class="NB-feeds-header-title">
+                            Widely Read Stories
+                        </div>
+                    </div>
+                </div>
+
+                <div class="NB-feeds-header-container NB-feeds-header-river-container NB-feeds-header-river-long-reads-container NB-sticky-sidebar-section">
+                    <div class="NB-feeds-header NB-feeds-header-river-long-reads NB-empty" role="link">
+                        <div class="NB-feeds-header-count unread_count"></div>
+                        <img class="NB-feeds-header-icon" src="" />
+                        <div class="NB-feeds-header-title">
+                            Long Reads
+                        </div>
+                    </div>
+                </div>
+
+                <div class="NB-feeds-header-container NB-feeds-header-river-container NB-feeds-header-river-blurblogs-container NB-sticky-sidebar-section">
+                    <div class="NB-feeds-header NB-feeds-header-river-blurblogs NB-empty" role="link">
+                        <div class="NB-feeds-header-count unread_count"></div>
+                        <img class="NB-feeds-header-icon" src="" />
+                        <div class="NB-feedlist-collapse-icon"></div>
+                        <div class="NB-feeds-header-title">
+                            All Shared Stories
+                        </div>
+                    </div>
+                </div>
+
+                <div class="NB-socialfeeds-folder">
+                    <ul class="NB-socialfeeds NB-feedlist"></ul>
+                </div>
+                
+                
+                <div class="NB-feeds-header-container NB-feeds-header-searches-container NB-hidden NB-sticky-sidebar-section">
+                    <div class="NB-feeds-header NB-feeds-header-searches">
+                        <img class="NB-feeds-header-icon" src="" />
+                        <div class="NB-feeds-header-title">
+                            Saved Searches
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="NB-searches-folder">
+                    <ul class="NB-searches-feeds NB-feedlist"></ul>
+                </div>
+                
+                <div class="NB-feeds-header-container NB-feeds-header-starred-container NB-sticky-sidebar-section">
+                    <div class="NB-feeds-header NB-feeds-header-starred NB-empty" role="link">
+                        <div class="NB-feeds-header-count feed_counts_floater unread_count"></div>
+                        <img class="NB-feeds-header-icon" src="" />
+                        <div class="NB-feedlist-collapse-icon"></div>
+                        <div class="NB-feeds-header-title">
+                            Saved Stories
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="NB-starred-folder">
+                    <ul class="NB-starred-feeds NB-feedlist"></ul>
+                </div>
+                
+            </div>
+
+            <div class="left-center-footer">
+                <div id="NB-progress">
+                    <div class="NB-progress-container">
+                        <div class="NB-progress-close"></div>
+                        <div class="NB-progress-title">Fetching your feeds</div>
+                        <div class="NB-progress-percentage"></div>
+                        <div class="NB-progress-link"></div>
+                        <div class="NB-progress-counts">
+                            <span class="NB-progress-counts-fetched"></span>
+                            /
+                            <span class="NB-progress-counts-total"></span>
+                        </div>
+                        <div class="NB-progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="left-south">
+            <div class="NB-media-player NB-hidden">
+            </div>
+            <div class="NB-taskbar-container">
+                <div class="NB-feed-taskbar">
+                    <div class="NB-callout-ftux NB-callout">
+                        <div class="NB-callout-container">
+                            <div class="NB-callout-text"></div>
+                            <div class="NB-callout-arrow"></div>
+                        </div>
+                    </div>
+                    <div class="NB-task-button NB-task-add" role="button">
+                        <div class="NB-task-image"></div>
+                    </div>
+                    <div class="NB-task-button NB-task-manage NB-disabled" role="button">
+                        <div class="NB-task-image"></div>
+                    </div>
+                    <div class="NB-taskbar-intelligence">
+                        <div class="NB-intelligence-slider">
+                            <ul class="segmented-control">
+                                <li class="NB-intelligence-slider-control NB-intelligence-slider-red" role="button">
+                                    All
+                                </li>
+                                <li class="NB-intelligence-slider-control NB-intelligence-slider-yellow" role="button">
+                                    <img src="/media/embed/icons/nouns/indicator-unread.svg">
+                                    <span class="NB-intelligence-label">Unread</span>
+                                </li>
+                                <li class="NB-intelligence-slider-control NB-intelligence-slider-green" role="button">
+                                    <img src="/media/embed/icons/nouns/indicator-focus.svg">
+                                    <span class="NB-intelligence-label">Focus</span>
+                                </li>
+                                <li class="NB-intelligence-slider-control NB-intelligence-slider-blue" role="button">
+                                    <img src="/media/embed/icons/nouns/saved-stories.svg">
+                                    <span class="NB-intelligence-label">Saved</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="NB-menu-manage-container"></div>
+
+    <div class="NB-taskbar-sidebar-toggle-open" title="Show sidebar"><div class="NB-taskbar-sidebar-toggle-open-image"></div></div>
+
+    <div class="right-pane">
+
+        <div class="NB-feedbar content-north">
+            
+            <ul class="segmented-control NB-taskbar NB-taskbar-nav">
+                <li class="NB-taskbar-button NB-task-story-previous" role="button">
+                    <div class="NB-task-image"></div>
+                </li>
+                <li class="NB-taskbar-button NB-task-story-next-unread NB-task-story-next-positive" role="button">
+                    <div class="NB-task-image"></div>
+                    <span class="NB-task-title">Next unread</span>
+                </li>
+                <li class="NB-taskbar-button NB-task-story-next" role="button">
+                    <div class="NB-task-image"></div>
+                </li>
+            </ul>
+            
+            <div class="NB-story-titles-expand-sidebar"></div>
+            
+            <div class="NB-story-titles-header"></div>
+            
+        </div>
+
+        <div id="story_taskbar" class="NB-taskbar-container content-south">
+            <div class="NB-taskbar-flex">
+                <ul class="segmented-control NB-taskbar NB-taskbar-view">
+                    <li class="NB-taskbar-button task_view_page NB-tipsy" tipsy-title="Original">
+                        <div class="NB-task-image"></div>
+                        <span class="NB-task-title">Original</span>
+                        <span class="NB-task-original-return NB-task-title">
+                            Return
+                        </span>
+                        <div class="NB-task-view-switch-arrow NB-task-view-page-to-feed-arrow"></div>
+                    </li>
+                    <li class="NB-taskbar-button task_view_feed NB-active NB-tipsy" tipsy-title="Feed">
+                        <div class="NB-task-image"></div>
+                        <span class="NB-task-title">Feed</span>
+                        <div class="NB-task-view-switch-arrow NB-task-view-to-feed-arrow"></div>
+                    </li>
+                    <li class="NB-taskbar-button task_view_text NB-tipsy" tipsy-title="Text">
+                        <div class="NB-task-image"></div>
+                        <span class="NB-task-title">Text</span>
+                        <div class="NB-task-view-switch-arrow NB-task-view-to-text-arrow"></div>
+                    </li>
+                    <li class="NB-taskbar-button task_view_story NB-tipsy" tipsy-title="Story">
+                        <div class="NB-task-image"></div>
+                        <span class="NB-task-title">Story</span>
+                        <div class="NB-task-view-switch-arrow NB-task-view-to-story-arrow"></div>
+                    </li>
+                </ul>
+
+                <div class="NB-taskbar-options-container">
+                    <span class="NB-taskbar-options" role="button">
+                        <div class="NB-icon"></div>
+                        Style
+                    </span>
+                </div>
+                
+                
+
+                <ul class="segmented-control NB-taskbar NB-taskbar-layout">
+                    <li class="NB-taskbar-button NB-task-layout-full NB-tipsy" tipsy-title="Full">
+                        <div class="NB-task-image"></div>
+                        <span class="NB-task-title">Full</span>
+                    </li>
+                    <li class="NB-taskbar-button NB-task-layout-split NB-active NB-tipsy" tipsy-title="Split">
+                        <div class="NB-task-image"></div>
+                        <span class="NB-task-title">Split</span>
+                    </li>
+                    <li class="NB-taskbar-button NB-task-layout-list NB-tipsy" tipsy-title="List">
+                        <div class="NB-task-image"></div>
+                        <span class="NB-task-title">List</span>
+                    </li>
+                    <li class="NB-taskbar-button NB-task-layout-magazine NB-tipsy" tipsy-title="Magazine">
+                        <div class="NB-task-image"></div>
+                        <span class="NB-task-title">Magazine</span>
+                    </li>
+                    <li class="NB-taskbar-button NB-task-layout-grid NB-tipsy" tipsy-title="Grid">
+                        <div class="NB-task-image"></div>
+                        <span class="NB-task-title">Grid</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-pane">
+
+            <div id="story_titles" class="right-north">
+                <div class="NB-search-header">
+                    <div class="NB-search-header-icon"></div>
+                    <div class="NB-search-header-save"></div>
+                    <div class="NB-search-header-title"></div>
+                </div>
+                <div class="NB-story-titles"></div>
+            </div>
+        
+            <div id="story_pane" class="content-center">
+                <div id="mouse-indicator">
+                    <div class="NB-callout-mouse-indicator NB-callout">
+                        <div class="NB-callout-container">
+                            <div class="NB-callout-text"></div>
+                            <div class="NB-callout-arrow"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="NB-story-pane-container">
+                    <iframe id="feed_iframe" class="NB-feed-iframe"></iframe>
+                    <div class="NB-feed-story-view NB-view-hidden">
+                        <div class="NB-feed-stories-container">
+                            <div class="NB-feed-story-view-header NB-feedbar"></div>
+                            <ul class="NB-feed-stories"></ul>
+                        </div>
+                    </div>
+                    <div class="NB-text-view">
+                        <div class="NB-text-view-detail"></div>
+                    </div>
+                    <div class="NB-story-view">
+                        <iframe id="story_iframe" class="NB-story-iframe" sandbox="allow-scripts"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ask_ai_pane" class="right-east">
+                <div class="NB-story-ask-ai-pane-content"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+      <div class="NB-body-inner">
+        <div class="NB-splash-info NB-splash-top">
+          <div class="NB-splash-top-nav">
+            <span class="NB-splash-top-title"></span>
+            <ul class="NB-splash-top-links">
+              <li class="NB-splash-top-link NB-splash-top-link-home"><a href="/">Home</a></li>
+              <li class="NB-splash-top-link NB-splash-top-link-features NB-splash-nav-has-dropdown">
+                <a href="/features">Features</a>
+                <div class="NB-splash-dropdown NB-splash-dropdown-features">
+                  <div class="NB-splash-dropdown-inner">
+                    <div class="NB-splash-dropdown-col NB-splash-dropdown-col-hero">
+                      <div class="NB-splash-dropdown-heading">
+                        <a href="/features" class="NB-splash-dropdown-heading-link">All Features &rarr;</a>
+                      </div>
+                      <a href="/features/intelligence-training" class="NB-splash-dropdown-item NB-splash-dropdown-item-training">
+                        <div class="NB-splash-dropdown-item-name"><img src="/media/embed/icons/nouns/train.svg" class="NB-splash-dropdown-icon NB-splash-dropdown-icon-blue">Intelligence Training</div>
+                        <div class="NB-splash-dropdown-item-desc">Train by author, tag, title, and full text</div>
+                      </a>
+                      <a href="/features/ask-ai" class="NB-splash-dropdown-item NB-splash-dropdown-item-ask-ai">
+                        <div class="NB-splash-dropdown-item-name"><img src="/media/embed/icons/nouns/prompt.svg" class="NB-splash-dropdown-icon NB-splash-dropdown-icon-coral">Ask AI &amp; Daily Briefing</div>
+                        <div class="NB-splash-dropdown-item-desc">AI-powered story analysis and daily summaries</div>
+                      </a>
+                      <a href="/features/web-feeds" class="NB-splash-dropdown-item NB-splash-dropdown-item-web-feeds">
+                        <div class="NB-splash-dropdown-item-name"><img src="/media/embed/icons/nouns/web-feed.svg" class="NB-splash-dropdown-icon NB-splash-dropdown-icon-purple">Web Feeds</div>
+                        <div class="NB-splash-dropdown-item-desc">Follow any website, even without RSS</div>
+                      </a>
+                      <a href="/features/newsletters" class="NB-splash-dropdown-item NB-splash-dropdown-item-newsletters">
+                        <div class="NB-splash-dropdown-item-name"><img src="/media/embed/icons/nouns/email.svg" class="NB-splash-dropdown-icon NB-splash-dropdown-icon-pink">Email Newsletters</div>
+                        <div class="NB-splash-dropdown-item-desc">Read newsletters in your news reader</div>
+                      </a>
+                      <a href="/features/search" class="NB-splash-dropdown-item NB-splash-dropdown-item-search">
+                        <div class="NB-splash-dropdown-item-name"><img src="/media/embed/icons/nouns/search.svg" class="NB-splash-dropdown-icon NB-splash-dropdown-icon-teal">Full-Text Search</div>
+                        <div class="NB-splash-dropdown-item-desc">Search across all your subscriptions</div>
+                      </a>
+                      <a href="/features/archive" class="NB-splash-dropdown-item NB-splash-dropdown-item-archive">
+                        <div class="NB-splash-dropdown-item-name"><img src="/media/embed/icons/nouns/archive.svg" class="NB-splash-dropdown-icon NB-splash-dropdown-icon-orange">Story Archive</div>
+                        <div class="NB-splash-dropdown-item-desc">Every story kept and searchable forever</div>
+                      </a>
+                      <a href="/features/saved-stories" class="NB-splash-dropdown-item NB-splash-dropdown-item-saved">
+                        <div class="NB-splash-dropdown-item-name"><img src="/media/embed/icons/nouns/tag.svg" class="NB-splash-dropdown-icon NB-splash-dropdown-icon-green">Saved Stories &amp; Tags</div>
+                        <div class="NB-splash-dropdown-item-desc">Save stories and organize with custom tags</div>
+                      </a>
+                      <a href="/features/native-apps" class="NB-splash-dropdown-item NB-splash-dropdown-item-native-apps">
+                        <div class="NB-splash-dropdown-item-name"><img src="/media/embed/icons/nouns/dialog-goodies.svg" class="NB-splash-dropdown-icon NB-splash-dropdown-icon-gold">Native Apps</div>
+                        <div class="NB-splash-dropdown-item-desc">First-class iOS &amp; Android apps, not wrappers</div>
+                      </a>
+                      <a href="/features/story-clustering" class="NB-splash-dropdown-item NB-splash-dropdown-item-clustering">
+                        <div class="NB-splash-dropdown-item-name"><img src="/media/embed/icons/nouns/stack.svg" class="NB-splash-dropdown-icon NB-splash-dropdown-icon-indigo">Story Clustering</div>
+                        <div class="NB-splash-dropdown-item-desc">Group duplicate stories across your feeds</div>
+                      </a>
+                    </div>
+                    <div class="NB-splash-dropdown-col NB-splash-dropdown-col-more">
+                      <div class="NB-splash-dropdown-heading">More Features</div>
+                      <div class="NB-splash-dropdown-grid">
+                        <a href="/features#river" class="NB-splash-dropdown-grid-item">River of News</a>
+                        <a href="/features#notifications" class="NB-splash-dropdown-grid-item">Notifications</a>
+                        <a href="/features#text-view" class="NB-splash-dropdown-grid-item">Text View</a>
+                        <a href="/features#changes" class="NB-splash-dropdown-grid-item">Track Changes</a>
+                        <a href="/features#themes" class="NB-splash-dropdown-grid-item">Themes</a>
+                        <a href="/features#shortcuts" class="NB-splash-dropdown-grid-item">Keyboard Shortcuts</a>
+                        <a href="/features#integrations" class="NB-splash-dropdown-grid-item">IFTTT &amp; Zapier</a>
+                        <a href="/features#blurblog" class="NB-splash-dropdown-grid-item">Shared Stories</a>
+                        <a href="/features/mcp" class="NB-splash-dropdown-grid-item">MCP Server</a>
+                        <a href="/features/cli" class="NB-splash-dropdown-grid-item">CLI Tool</a>
+                      </div>
+                      <div class="NB-splash-dropdown-divider"></div>
+                      <div class="NB-splash-dropdown-heading">Compare</div>
+                      <div class="NB-splash-dropdown-grid">
+                        <a href="/compare/feedly" class="NB-splash-dropdown-grid-item NB-splash-dropdown-grid-item-compare-feedly">vs Feedly</a>
+                        <a href="/compare/inoreader" class="NB-splash-dropdown-grid-item NB-splash-dropdown-grid-item-compare-inoreader">vs Inoreader</a>
+                        <a href="/compare/readwise-reader" class="NB-splash-dropdown-grid-item NB-splash-dropdown-grid-item-compare-readwise">vs Readwise</a>
+                        <a href="/compare/the-old-reader" class="NB-splash-dropdown-grid-item NB-splash-dropdown-grid-item-compare-old-reader">vs Old Reader</a>
+                        <a href="/compare/feedbin" class="NB-splash-dropdown-grid-item NB-splash-dropdown-grid-item-compare-feedbin">vs Feedbin</a>
+                      </div>
+                      <div class="NB-splash-dropdown-divider"></div>
+                      <div class="NB-splash-dropdown-heading">Alternatives</div>
+                      <div class="NB-splash-dropdown-grid">
+                        <a href="/alternative/feedly" class="NB-splash-dropdown-grid-item NB-splash-dropdown-grid-item-alt-feedly">Feedly Alternative</a>
+                        <a href="/alternative/google-reader" class="NB-splash-dropdown-grid-item NB-splash-dropdown-grid-item-alt-google-reader">Google Reader Alt</a>
+                        <a href="/alternative/open-source-rss-reader" class="NB-splash-dropdown-grid-item NB-splash-dropdown-grid-item-alt-open-source">Open Source</a>
+                        <a href="/alternative/inoreader" class="NB-splash-dropdown-grid-item NB-splash-dropdown-grid-item-alt-inoreader">Inoreader Alternative</a>
+                        <a href="/alternative/self-hosted-rss-reader" class="NB-splash-dropdown-grid-item NB-splash-dropdown-grid-item-alt-self-hosted">Self-Hosted</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="NB-splash-top-link NB-splash-top-link-pricing NB-splash-nav-has-dropdown">
+                <a href="/pricing">Pricing</a>
+                <div class="NB-splash-dropdown NB-splash-dropdown-pricing">
+                  <div class="NB-splash-dropdown-inner">
+                    <a href="/pricing" class="NB-splash-dropdown-item NB-splash-dropdown-item-allplans">
+                      <div class="NB-splash-dropdown-item-name">All Plans</div>
+                      <div class="NB-splash-dropdown-item-desc">Compare every tier side by side</div>
+                    </a>
+                    <div class="NB-splash-dropdown-divider"></div>
+                    <a href="/pricing/premium" class="NB-splash-dropdown-item NB-splash-dropdown-tier NB-splash-dropdown-tier-premium">
+                      <div class="NB-splash-dropdown-item-name">Premium <span class="NB-splash-dropdown-price">$36/yr</span></div>
+                      <div class="NB-splash-dropdown-item-desc">1,024 sites, search, text view, river of news</div>
+                    </a>
+                    <a href="/pricing/archive" class="NB-splash-dropdown-item NB-splash-dropdown-tier NB-splash-dropdown-tier-archive">
+                      <div class="NB-splash-dropdown-item-name">Premium Archive <span class="NB-splash-dropdown-price">$99/yr</span></div>
+                      <div class="NB-splash-dropdown-item-desc">Full archive, Ask AI, daily briefing, 4,096 sites</div>
+                    </a>
+                    <a href="/pricing/pro" class="NB-splash-dropdown-item NB-splash-dropdown-tier NB-splash-dropdown-tier-pro">
+                      <div class="NB-splash-dropdown-item-name">Premium Pro <span class="NB-splash-dropdown-price">$29/mo</span></div>
+                      <div class="NB-splash-dropdown-item-desc">5-min fetching, regex training, 10,000 sites</div>
+                    </a>
+                    <div class="NB-splash-dropdown-divider"></div>
+                    <a href="/faq" class="NB-splash-dropdown-item NB-splash-dropdown-item-faq">
+                      <div class="NB-splash-dropdown-item-name">FAQ</div>
+                      <div class="NB-splash-dropdown-item-desc">Common questions about plans and billing</div>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="NB-splash-top-link NB-splash-top-link-faq"><a href="/faq">FAQ</a></li>
+              <li class="NB-splash-top-link NB-splash-top-link-about"><a href="/about">About</a></li>
+            </ul>
+            <div class="NB-splash-top-logo">
+              <div class="NB-theme-toggle" title="Toggle theme">
+                <svg class="NB-theme-toggle-sun" viewBox="0 0 24 24" width="14" height="14" fill="none">
+                  <circle cx="12" cy="12" r="4" fill="currentColor"/>
+                  <path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <button class="NB-theme-toggle-track" aria-label="Toggle dark mode" type="button">
+                  <span class="NB-theme-toggle-thumb"></span>
+                </button>
+                <svg class="NB-theme-toggle-moon" viewBox="0 0 24 24" width="14" height="14" fill="none">
+                  <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" fill="currentColor"/>
+                </svg>
+              </div>
+              <a href="/">
+                <div class="NB-splash-blurred-logo"></div>
+              </a>
+            </div>
+          </div>
+          <a href="/" class="NB-splash-top-logo-fallback">
+            <div class="NB-splash-title NB-splash-blurred-logo"></div>
+          </a>
+        </div>
+        <a href="/" class="NB-mobile-logo-link">
+          <div class="NB-mobile-logo"></div>
+        </a>
+        
+
+<div class="NB-welcome-container NB-splash">
+    
+    <div class="NB-welcome-hero-wrap">
+    <canvas id="welcome-canvas" class="NB-welcome-header-canvas"></canvas>
+    <div class="NB-welcome-header">
+        <div class="NB-welcome-header-hero">
+            <div class="NB-welcome-header-branding">
+                <div class="NB-welcome-header-logo">
+                    <a href="/"><img src="/media/img/logo_512.png" class="NB-module-logo-image" /></a>
+                </div>
+                <div class="NB-welcome-header-title">NewsBlur</div>
+                <div class="NB-welcome-header-tagline">A personal news reader bringing people together to talk about the world</div>
+                <div class="NB-welcome-header-actions">
+                    <div class="NB-button NB-button-tryout">
+                        <span class="NB-tryout-chevrons NB-tryout-chevrons-left">
+                            <span class="NB-tryout-chevron"></span>
+                            <span class="NB-tryout-chevron"></span>
+                            <span class="NB-tryout-chevron"></span>
+                        </span>
+                        <img src="/media/img/welcome/04-eye@2x.png" style="width: 20px; height: 13px">
+                        Try out NewsBlur
+                        <span class="NB-tryout-chevrons NB-tryout-chevrons-right">
+                            <span class="NB-tryout-chevron"></span>
+                            <span class="NB-tryout-chevron"></span>
+                            <span class="NB-tryout-chevron"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="NB-welcome-header-formcard">
+                <div class="NB-welcome-header-segment ">
+                    <div class="NB-segment-option NB-segment-login NB-active">Log In</div>
+                    <div class="NB-segment-option NB-segment-signup ">Sign Up</div>
+                </div>
+
+                <div class="NB-formcard-panel NB-formcard-login NB-active">
+                    <form method="post" action="/reader/login">
+                        <input type="hidden" name="csrfmiddlewaretoken" value="zupSEcyqSRYO20bA1dX2kMlf6b0YPgOaWRsydlpRGgT0x4WnHOkmavACREwl8tL2">
+                        <div class="NB-formcard-field">
+                            <input type="text" name="login-username" tabindex="1" class="NB-input" placeholder="Username or email" maxlength="30" required id="id_login-username">
+                        </div>
+                        <div class="NB-formcard-field">
+                            <input type="password" name="login-password" tabindex="2" class="NB-input" placeholder="Password" id="id_login-password">
+                        </div>
+                        <input type="hidden" name="login-add" id="id_login-add">
+                        <input name="submit" type="submit" class="NB-welcome-submit-button" value="log in" />
+                        <input type="hidden" name="next" value="/" />
+                    </form>
+                    
+                    <a href="/profile/forgot_password" class="NB-welcome-forgot">Forgot password?</a>
+                </div>
+
+                <div class="NB-formcard-panel NB-formcard-signup ">
+                    <form method="post" action="/reader/signup">
+                        <input type="hidden" name="csrfmiddlewaretoken" value="zupSEcyqSRYO20bA1dX2kMlf6b0YPgOaWRsydlpRGgT0x4WnHOkmavACREwl8tL2">
+                        <div class="NB-formcard-field">
+                            <input type="text" name="signup-username" class="NB-input" placeholder="Username" maxlength="30" id="id_signup-username">
+                        </div>
+                        <div class="NB-formcard-field">
+                            <input type="password" name="signup-password" class="NB-input" placeholder="Password (optional)" id="id_signup-password">
+                        </div>
+                        <div class="NB-formcard-field">
+                            <input type="text" name="signup-email" maxlength="75" class="NB-input" placeholder="Email address" id="id_signup-email">
+                        </div>
+                        <input name="submit" type="submit" class="NB-welcome-submit-button" value="create account" />
+                        <input type="hidden" name="next" value="/" />
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="NB-welcome-platforms">
+        <div class="NB-welcome-platforms-header">
+            <h2 class="NB-platforms-heading">A new sound of an old instrument</h2>
+            <p class="NB-platforms-subheading">RSS and web feeds, synced on every platform you use.</p>
+        </div>
+
+        <div class="NB-welcome-platform NB-platform-web">
+            <div class="NB-platform-inner">
+                <div class="NB-platform-text">
+                    <div class="NB-platform-badge">Web</div>
+                    <div class="NB-platform-title">The full experience,<br>right in your browser</div>
+                    <div class="NB-platform-description">Every layout, every theme, every keyboard shortcut. Train your feeds to surface what matters.</div>
+                </div>
+                <div class="NB-platform-screenshot">
+                    <img src="/media/img/welcome/welcome-mac.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="NB-welcome-platform NB-platform-ios NB-platform-reversed">
+            <div class="NB-platform-inner">
+                <div class="NB-platform-text">
+                    <div class="NB-platform-badge">iPhone &amp; iPad</div>
+                    <div class="NB-platform-title">Built for iOS<br>from the ground up</div>
+                    <div class="NB-platform-description">Swipe through stories, train with a tap, read offline. A native app that feels right at home.</div>
+                </div>
+                <div class="NB-platform-screenshot">
+                    <img src="/media/img/welcome/welcome-ios.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="NB-welcome-platform NB-platform-android">
+            <div class="NB-platform-inner">
+                <div class="NB-platform-text">
+                    <div class="NB-platform-badge">Android</div>
+                    <div class="NB-platform-title">Native on Android</div>
+                    <div class="NB-platform-description">Every feature from the web, built natively for Android. Free on the Play Store.</div>
+                </div>
+                <div class="NB-platform-screenshot">
+                    <img src="/media/img/welcome/welcome-android.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="NB-welcome-features-wrap">
+    <div class="NB-welcome-features-header">
+        <h2 class="NB-features-heading">Full-featured news reader</h2>
+        <p class="NB-features-subheading">Keep the signal, lose the noise.</p>
+    </div>
+
+    <div class="NB-welcome-feature-groups">
+        <div class="NB-inner">
+
+            <div class="NB-feature-group NB-feature-group-read">
+                <h3 class="NB-feature-group-label">Read Your Way</h3>
+                <div class="NB-feature-group-items">
+                    <a href="/features#speed" class="NB-fgi">
+                        <img src="/media/img/welcome/feature_1.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Real-time RSS</div>
+                            <div class="NB-fgi-desc">Stories are pushed directly to you, so you can read news as it comes in</div>
+                        </div>
+                    </a>
+                    <a href="/features#original" class="NB-fgi">
+                        <img src="/media/img/welcome/feature_2.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Original Site</div>
+                            <div class="NB-fgi-desc">Read the content in context, the way it was meant to be seen</div>
+                        </div>
+                    </a>
+                    <a href="/features#text-view" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_3.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Read the Full Story</div>
+                            <div class="NB-fgi-desc">The original story from truncated RSS feeds is seamlessly expanded</div>
+                        </div>
+                    </a>
+                    <a href="/features#layouts" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_8.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Grid, List, Split, Magazine</div>
+                            <div class="NB-fgi-desc">Every site has its own story layout, so you can mix and match</div>
+                        </div>
+                    </a>
+                    <a href="/features#themes" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_9.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Dark Mode</div>
+                            <div class="NB-fgi-desc">Easy on the eyes and built into the web, iOS, and Android</div>
+                        </div>
+                    </a>
+                    <a href="/features#river" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_16.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">River of News</div>
+                            <div class="NB-fgi-desc">Read all your feeds by folder in one scrollable stream</div>
+                        </div>
+                    </a>
+                    <a href="/features#shortcuts" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_15.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Keyboard Shortcuts</div>
+                            <div class="NB-fgi-desc">Navigate everything without touching the mouse</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="NB-feature-group NB-feature-group-smart">
+                <h3 class="NB-feature-group-label">Stay Smart</h3>
+                <div class="NB-feature-group-items">
+                    <a href="/features#training" class="NB-fgi">
+                        <img src="/media/img/welcome/feature_4.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Intelligence Training</div>
+                            <div class="NB-fgi-desc">Hide the stories you don't like and highlight the stories you do</div>
+                        </div>
+                    </a>
+                    <a href="/features#search" class="NB-fgi">
+                        <img src="/media/img/welcome/feature_5.jpg">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Full Text Search</div>
+                            <div class="NB-fgi-desc">Quickly find stories across all of your subscriptions</div>
+                        </div>
+                    </a>
+                    <a href="/features#search" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_1.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Saved Searches</div>
+                            <div class="NB-fgi-desc">Regularly used searches are conveniently given their own feeds</div>
+                        </div>
+                    </a>
+                    <a href="/features#ask-ai" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_12.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Ask AI</div>
+                            <div class="NB-fgi-desc">Ask questions about any story and get answers powered by AI</div>
+                        </div>
+                    </a>
+                    <a href="/features#briefing" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_13.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Daily Briefing</div>
+                            <div class="NB-fgi-desc">A summary of your top stories, customizable and delivered every day</div>
+                        </div>
+                    </a>
+                    <a href="/features#changes" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_5.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Track Changes</div>
+                            <div class="NB-fgi-desc">See how a story evolved since it was first published</div>
+                        </div>
+                    </a>
+                    <a href="/features#notifications" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_14.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Notifications</div>
+                            <div class="NB-fgi-desc">Get alerted the moment a feed publishes, on web, iOS, or Android</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="NB-feature-group NB-feature-group-share">
+                <h3 class="NB-feature-group-label">Share &amp; Organize</h3>
+                <div class="NB-feature-group-items">
+                    <a href="/features#blurblog" class="NB-fgi">
+                        <img src="/media/img/welcome/feature_3.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Shared Stories</div>
+                            <div class="NB-fgi-desc">Reading news is better with friends. Share stories on your public blurblog</div>
+                        </div>
+                    </a>
+                    <a href="/features#blurblog" class="NB-fgi">
+                        <img src="/media/img/welcome/feature_7.jpg">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Blurblog Privacy</div>
+                            <div class="NB-fgi-desc">Share stories with the world or only with your friends</div>
+                        </div>
+                    </a>
+                    <a href="/features#saved" class="NB-fgi">
+                        <img src="/media/img/welcome/feature_6.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Story Tagging</div>
+                            <div class="NB-fgi-desc">Save stories with custom tags for fast references</div>
+                        </div>
+                    </a>
+                    <a href="/features#newsletters" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_7.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Email Newsletters</div>
+                            <div class="NB-fgi-desc">Read your email newsletters where they belong, in a news reader</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="NB-feature-group NB-feature-group-everywhere">
+                <h3 class="NB-feature-group-label">Works Everywhere</h3>
+                <div class="NB-feature-group-items">
+                    <a href="/features#apps" class="NB-fgi">
+                        <img src="/media/img/welcome/feature_8.jpg">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Third-party Apps</div>
+                            <div class="NB-fgi-desc">Supports Reeder, ReadKit, Unread, and loads more</div>
+                        </div>
+                    </a>
+                    <a href="/features#integrations" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_6.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">IFTTT &amp; Zapier</div>
+                            <div class="NB-fgi-desc">Hook NewsBlur up to nearly every service on the web</div>
+                        </div>
+                    </a>
+                    <a href="/features#web-feeds" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_10.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">YouTube</div>
+                            <div class="NB-fgi-desc">Even sites that don't publish RSS feeds can be followed</div>
+                        </div>
+                    </a>
+                    <a href="/features#web-feeds" class="NB-fgi">
+                        <img src="/media/img/welcome/subfeature_11.png">
+                        <div class="NB-fgi-text">
+                            <div class="NB-fgi-caption">Web Feeds</div>
+                            <div class="NB-fgi-desc">A creative feed for any website, even without RSS</div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="NB-welcome-banner-button-wrap">
+        <a href="/features" class="NB-welcome-banner-button NB-banner-features">
+            See all 30+ features <span class="NB-banner-arrow">&rarr;</span>
+        </a>
+    </div>
+    </div>
+
+    <div class="NB-welcome-pricing">
+        <div class="NB-inner">
+            <h2>Pricing</h2>
+            <p>NewsBlur is free on the web, iPad, iPhone, and Android. By subscribing to a premium account, you support a growing service and unlock a few restrictions.</p>
+            <div class="NB-pricing-trial-callout">
+                New accounts start with a <strong>30 day trial premium subscription</strong> &mdash; no credit card required.
+            </div>
+
+            <div class="NB-pricing-tiers">
+                <div class="NB-pricing-tier NB-pricing-tier-premium">
+                    <div class="NB-pricing-tier-header">
+                        <div class="NB-pricing-tier-name">Premium</div>
+                        <div class="NB-pricing-tier-price">
+                            <span class="NB-pricing-tier-price-amount">$36</span>
+                            <span class="NB-pricing-tier-price-period">/year</span>
+                        </div>
+                    </div>
+                    <ul class="NB-pricing-tier-features">
+                        <li class="NB-pricing-tier-includes">Everything in Free, plus:</li>
+                        <li class="NB-1"><div class="NB-pricing-bullet"></div>Follow up to 1,024 sites</li>
+                        <li class="NB-2"><div class="NB-pricing-bullet"></div>Sites updated up to 5x more often</li>
+                        <li class="NB-3"><div class="NB-pricing-bullet"></div>River of News (reading by folder)</li>
+                        <li class="NB-4"><div class="NB-pricing-bullet"></div>Search sites and folders</li>
+                        <li class="NB-5"><div class="NB-pricing-bullet"></div>Save stories with searchable tags</li>
+                        <li class="NB-6"><div class="NB-pricing-bullet"></div>Privacy options for your blurblog</li>
+                        <li class="NB-7"><div class="NB-pricing-bullet"></div>Custom RSS feeds for saved stories</li>
+                        <li class="NB-8"><div class="NB-pricing-bullet"></div>Text view extracts the story</li>
+                        <li class="NB-9"><div class="NB-pricing-bullet"></div>Discover related stories and sites</li>
+                        <li class="NB-10"><div class="NB-pricing-bullet"></div>Natural language text and image classifiers</li>
+                    </ul>
+                </div>
+
+                <div class="NB-pricing-tier NB-pricing-tier-archive">
+                    <div class="NB-pricing-tier-header">
+                        <div class="NB-pricing-tier-name">Premium Archive</div>
+                        <div class="NB-pricing-tier-price">
+                            <span class="NB-pricing-tier-price-amount">$99</span>
+                            <span class="NB-pricing-tier-price-period">/year</span>
+                        </div>
+                    </div>
+                    <ul class="NB-pricing-tier-features">
+                        <li class="NB-pricing-tier-includes">Everything in Premium, plus:</li>
+                        <li class="NB-1"><div class="NB-pricing-bullet"></div>Follow up to 4,096 sites</li>
+                        <li class="NB-2"><div class="NB-pricing-bullet"></div>Web Feeds from any website, even without RSS</li>
+                        <li class="NB-3"><div class="NB-pricing-bullet"></div>Cluster duplicate stories across all your feeds</li>
+                        <li class="NB-4"><div class="NB-pricing-bullet"></div>Daily briefing with your top stories and keywords</li>
+                        <li class="NB-5"><div class="NB-pricing-bullet"></div>Choose when stories are marked as read</li>
+                        <li class="NB-6"><div class="NB-pricing-bullet"></div>Customize auto-read by site or folder</li>
+                        <li class="NB-7"><div class="NB-pricing-bullet"></div>Every story archived and searchable forever</li>
+                        <li class="NB-8"><div class="NB-pricing-bullet"></div>Feeds back-filled for complete archive</li>
+                        <li class="NB-9"><div class="NB-pricing-bullet"></div>Train stories on full text content</li>
+                        <li class="NB-10"><div class="NB-pricing-bullet"></div>Notifications on trained intelligence classifiers</li>
+                        <li class="NB-11"><div class="NB-pricing-bullet"></div>Discover related stories across your archive</li>
+                        <li class="NB-12"><div class="NB-pricing-bullet"></div>Export trained stories from folders</li>
+                        <li class="NB-13"><div class="NB-pricing-bullet"></div>Stories can stay unread forever</li>
+                        <li class="NB-14"><div class="NB-pricing-bullet"></div>Ask AI questions about stories</li>
+                        <li class="NB-15"><div class="NB-pricing-bullet"></div>Filter stories by date range</li>
+                        <li class="NB-16"><div class="NB-pricing-bullet"></div>Apply training across a folder</li>
+                        <li class="NB-17"><div class="NB-pricing-bullet"></div>Apply training globally</li>
+                        <li class="NB-18"><div class="NB-pricing-bullet"></div>Connect AI agents with MCP server and CLI</li>
+                    </ul>
+                </div>
+
+                <div class="NB-pricing-tier NB-pricing-tier-pro">
+                    <div class="NB-pricing-tier-header">
+                        <div class="NB-pricing-tier-name">Premium Pro</div>
+                        <div class="NB-pricing-tier-price">
+                            <span class="NB-pricing-tier-price-amount">$29</span>
+                            <span class="NB-pricing-tier-price-period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="NB-pricing-tier-features">
+                        <li class="NB-pricing-tier-includes">Everything in Archive, plus:</li>
+                        <li class="NB-1"><div class="NB-pricing-bullet"></div>Follow up to 10,000 sites</li>
+                        <li class="NB-2"><div class="NB-pricing-bullet"></div>All feeds fetched every 5-15 minutes</li>
+                        <li class="NB-3"><div class="NB-pricing-bullet"></div>Train stories with regular expressions</li>
+                        <li class="NB-4"><div class="NB-pricing-bullet"></div>Priority support</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="NB-pricing-tiers-bottom">
+                <div class="NB-pricing-tier NB-pricing-tier-free">
+                    <div class="NB-pricing-tier-header">
+                        <div class="NB-pricing-tier-name">Free</div>
+                    </div>
+                    <ul class="NB-pricing-tier-features">
+                        <li><div class="NB-pricing-bullet"></div><span>Follow up to 64 sites</span></li>
+                        <li><div class="NB-pricing-bullet"></div><span>Real-time RSS updates</span></li>
+                        <li><div class="NB-pricing-bullet"></div><span>Train stories by author, tag, title</span></li>
+                        <li><div class="NB-pricing-bullet"></div><span>Public blurblog sharing</span></li>
+                        <li><div class="NB-pricing-bullet"></div><span>Save stories for later</span></li>
+                        <li><div class="NB-pricing-bullet"></div><span>iOS &amp; Android apps</span></li>
+                    </ul>
+                </div>
+                <div class="NB-pricing-tier NB-pricing-tier-selfhosted">
+                    <div class="NB-pricing-tier-header">
+                        <div class="NB-pricing-tier-label">DIY</div>
+                        <div class="NB-pricing-tier-name">Self-Hosted</div>
+                    </div>
+                    <ul class="NB-pricing-tier-features">
+                        <li><div class="NB-pricing-bullet"></div><span>Run your own NewsBlur</span></li>
+                        <li><div class="NB-pricing-bullet"></div><span>Complete data ownership</span></li>
+                        <li><div class="NB-pricing-bullet"></div><span>Single command install on Docker</span></li>
+                        <li><div class="NB-pricing-bullet"></div><span>Customize with Claude Code</span></li>
+                    </ul>
+                    <div class="NB-pricing-tier-actions">
+                        <a href="https://github.com/samuelclay/NewsBlur" target="_blank" class="NB-pricing-github-button">
+                            <img src="/media/img/reader/github-mark.svg" class="NB-github-icon">
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="NB-pricing-lyric">
+                <img src="/media/img/reader/lyric.jpg" class="NB-lyric-photo">
+                <div class="NB-lyric-text">
+                    <div class="NB-lyric-title">Feed Lyric, NewsBlur's hungry hound</div>
+                    <div class="NB-lyric-description">Premium subscribers help feed Lyric home cooked meals of green beans, sweet potatoes, carrots, and brown rice.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="NB-welcome-banner-button-wrap">
+            <a href="/pricing" class="NB-welcome-banner-button NB-banner-pricing">
+                Compare plans and FAQ <span class="NB-banner-arrow">&rarr;</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="NB-welcome-faq">
+        <div class="NB-inner">
+            <h2>Common Questions</h2>
+            <div class="NB-welcome-faq-grid">
+                <div class="NB-welcome-faq-item">
+                    <h3>Is there a free trial?</h3>
+                    <p>Every new account gets a free 30-day premium trial. No credit card required. When it ends, you keep your feeds and training on the free tier.</p>
+                </div>
+                <div class="NB-welcome-faq-item">
+                    <h3>Can I import feeds from another reader?</h3>
+                    <p>Yes. Upload your OPML file and NewsBlur imports all your subscriptions and folders in seconds. Works with Google Reader exports, Feedly, Inoreader, and more.</p>
+                </div>
+                <div class="NB-welcome-faq-item">
+                    <h3>Is NewsBlur open source?</h3>
+                    <p>Fully open source under the MIT license. Run your own instance with Docker, contribute on <a href="https://github.com/samuelclay/NewsBlur">GitHub</a>, or just read the code. No lock-in, ever.</p>
+                </div>
+                <div class="NB-welcome-faq-item">
+                    <h3>What happens if I cancel?</h3>
+                    <p>Your account reverts to the free tier. You keep all your feeds (up to 64), training, and saved stories. No data is deleted. Upgrade again anytime and everything is restored.</p>
+                </div>
+                <div class="NB-welcome-faq-item">
+                    <h3>Does NewsBlur work with other apps?</h3>
+                    <p>Yes. Full sync with Reeder, ReadKit, Unread, NetNewsWire, and many more. Your read state, saved stories, and training sync across every app.</p>
+                </div>
+                <div class="NB-welcome-faq-item">
+                    <h3>Do I need RSS feeds to follow a site?</h3>
+                    <p>No. <a href="/features#web-feeds">Web Feeds</a> let you follow any website, even without RSS. NewsBlur monitors the page for changes and delivers new content to you automatically.</p>
+                </div>
+                <div class="NB-welcome-faq-item NB-welcome-faq-item-compare">
+                    <h3>How does NewsBlur compare to Feedly?</h3>
+                    <p>NewsBlur offers intelligence training, full-text search, Ask AI, Web Feeds, native apps, and is fully open source. No ads, no tracking, no algorithmic feeds.</p>
+                    <a href="/compare/feedly" class="NB-welcome-faq-compare-link">See the full comparison <span class="NB-banner-arrow">&rarr;</span></a>
+                </div>
+                <div class="NB-welcome-faq-item NB-welcome-faq-item-compare">
+                    <h3>How does NewsBlur compare to Inoreader?</h3>
+                    <p>NewsBlur gives you personal training instead of rules, built-in AI features, story clustering, and a fully open source codebase you can self-host.</p>
+                    <a href="/compare/inoreader" class="NB-welcome-faq-compare-link">See the full comparison <span class="NB-banner-arrow">&rarr;</span></a>
+                </div>
+            </div>
+            <div class="NB-welcome-banner-button-wrap">
+                <a href="/faq" class="NB-welcome-banner-button NB-banner-faq">
+                    See all frequently asked questions <span class="NB-banner-arrow">&rarr;</span>
+                </a>
+            </div>
+            <div class="NB-welcome-compare-header">
+                <div class="NB-welcome-compare-rule"></div>
+                <span class="NB-welcome-compare-label">Compare</span>
+                <div class="NB-welcome-compare-rule"></div>
+            </div>
+            <div class="NB-welcome-compare-versus">
+                <a href="/compare/feedly" class="NB-compare-vs-link">
+                    <span class="NB-compare-vs-tag">vs</span>
+                    <span class="NB-compare-vs-name">Feedly</span>
+                </a>
+                <a href="/compare/inoreader" class="NB-compare-vs-link">
+                    <span class="NB-compare-vs-tag">vs</span>
+                    <span class="NB-compare-vs-name">Inoreader</span>
+                </a>
+                <a href="/compare/readwise-reader" class="NB-compare-vs-link">
+                    <span class="NB-compare-vs-tag">vs</span>
+                    <span class="NB-compare-vs-name">Readwise Reader</span>
+                </a>
+                <a href="/compare/the-old-reader" class="NB-compare-vs-link">
+                    <span class="NB-compare-vs-tag">vs</span>
+                    <span class="NB-compare-vs-name">The Old Reader</span>
+                </a>
+                <a href="/compare/feedbin" class="NB-compare-vs-link">
+                    <span class="NB-compare-vs-tag">vs</span>
+                    <span class="NB-compare-vs-name">Feedbin</span>
+                </a>
+            </div>
+            <div class="NB-welcome-compare-alts">
+                <a href="/alternative/feedly">Feedly Alternative</a>
+                <a href="/alternative/google-reader">Google Reader Alternative</a>
+                <a href="/alternative/open-source-rss-reader">Open Source RSS</a>
+                <a href="/alternative/inoreader">Inoreader Alternative</a>
+                <a href="/alternative/self-hosted-rss-reader">Self-Hosted RSS</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="NB-welcome-testimonials">
+        <div class="NB-testimonials-heading">
+            <h2>Kind words people say about NewsBlur</h2>
+            <div class="NB-testimonials-nav">
+                <button type="button" class="NB-testimonials-nav-btn NB-testimonials-nav-prev" aria-label="Previous page">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <button type="button" class="NB-testimonials-nav-btn NB-testimonials-nav-next" aria-label="Next page">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+            </div>
+        </div>
+        <div class="NB-testimonials-viewport">
+            <div class="NB-testimonials-track NB-testimonials-row-1">
+                
+                <a class="NB-testimonial-card" href="https://pluralistic.net/2024/10/16/keep-it-really-simple-stupid/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/cory_doctorow.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Cory Doctorow</div>
+                <div class="NB-testimonial-role">Author &amp; Journalist</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I have nothing but praise for NewsBlur. The $36 I send them every year is a very good investment.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://www.pcworld.com/article/452315/review-newsblur-is-a-worthy-powerful-google-reader-replacement.html" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/pcworld.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Erez Zukerman</div>
+                <div class="NB-testimonial-role">PCWorld</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur is everything Google Reader should have been.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://werd.io/2022/inputs" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/ben_werdmuller.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Ben Werdmuller</div>
+                <div class="NB-testimonial-role">Tech Entrepreneur</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Less interruptive, less antagonizing, and less annoying as an interface, with no upsells or user engagement hacks.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://www.wired.com/story/best-rss-feed-readers/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/wired.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">WIRED</div>
+                <div class="NB-testimonial-role">Publication</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">A refreshingly simple old-school RSS reader.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://theincidentaleconomist.com/wordpress/a-partial-conversion-to-newsblur/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/austin_frakt.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Austin Frakt</div>
+                <div class="NB-testimonial-role">Health Economist, NY Times</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">The web version is better than Google Reader. NewsBlur can pull in full content of partial feeds more reliably than other methods. I’ve never seen it fail.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://www.linux.com/training-tutorials/newsblur-open-source-feed-reader-brains/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/linux_com.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Linux.com</div>
+                <div class="NB-testimonial-role">Publication</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">The Open Source Feed Reader with Brains.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://flameeyes.blog/2021/01/19/newsblur-review/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/diego_petteno.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Diego Elio Pettenò</div>
+                <div class="NB-testimonial-role">Gentoo Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur is my favorite tool for reading feeds. The Intelligence Trainer is a killer feature.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://searchengineland.com/google-reader-alternative-newsblur-151541" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/search_engine_land.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Search Engine Land</div>
+                <div class="NB-testimonial-role">Publication</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Easy to use, dependable, fast, and gets the job done.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://www.macdrifter.com/2013/05/the-feed-reader-reviews-newsblur.html" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/gabe_weatherhead.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Gabe Weatherhead</div>
+                <div class="NB-testimonial-role">Macdrifter</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur was the fastest feed reader tested.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://lobste.rs/s/k0bmip/what_rss_reader_aggregator_do_you_use" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/lobsters.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Lobsters</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur is indie web software at its best.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://lobste.rs/s/8otsv9/what_rss_reader_do_you_use" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/lobsters.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Lobsters</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Rock solid and worth far more than the paltry annual fee I pay for it.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://www.webfx.com/blog/web-design/free-rss-readers/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/webfx.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">WebFX</div>
+                <div class="NB-testimonial-role">Publication</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">One of our best RSS readers because it lets you read the full text of content on its web reader.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://www.slant.co/options/1450/~newsblur-review" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/slant.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Slant</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur allows users to customize the font size, line spacing, story layout, and typefaces. Very fast to navigate around the UI.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://lobste.rs/s/8otsv9/what_rss_reader_do_you_use" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/lobsters.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Lobsters</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">A small indie developer who has written a brilliant piece of code, building a sustainable business rather than one focused on hyperscaling.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://appmus.com/app/newsblur" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/appmus.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Appmus</div>
+                <div class="NB-testimonial-role">Publication</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Prioritizes control, customization, and a respectful approach to online content.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/gregdotgilbert/status/611534275096260609" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/gregdotgilbert" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Greg Gilbert</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I’ve been using NewsBlur for over two years, and I can’t imagine life without it.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/ethics13/status/1276159485237657611" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/ethics13" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Lénya</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Best RSS client, period.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://news.ycombinator.com/item?id=3140885" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/hn.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Hacker News</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">The best feed reading experience of my life.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://news.ycombinator.com/item?id=28414458" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/hn.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Hacker News</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Been using and paying for NewsBlur for years. Absolutely love it. Cross-platform with an excellent Android app.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/thank-you-newsblur/9601" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">It’s literally the only service I’ve been genuinely delighted to spend money on.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://news.ycombinator.com/item?id=11571400" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/hn.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Hacker News</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">It felt like the most natural successor to Google Reader.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://www.trustpilot.com/review/www.newsblur.com" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/trustpilot.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Trustpilot</div>
+                <div class="NB-testimonial-role">Review</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I moved to NewsBlur when Google Reader was shut down. Excellent styling, features, and no issues.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/newsblur-the-best-replacement-for-google-reader-actually-even-better/2329" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur emerges as by far the best, and better designed in a lot of ways both large and small. It dominates all the Google Reader alternatives.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/so-much-faster-now-great-job/6299" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">The site is so much faster than it has been. Thanks for running a great product!</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://news.ycombinator.com/item?id=16722133" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/hn.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Hacker News</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">The interface is simple and hasn’t largely changed, which to me is a win. It helps with muscle memory.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://news.ycombinator.com/item?id=26581739" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/hn.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Hacker News</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur also lets you subscribe to YouTube channels, which is a much nicer experience than notifications.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://lobste.rs/s/8otsv9/what_rss_reader_do_you_use" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/lobsters.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Lobsters</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I’ve been paying for the hosted version of NewsBlur for 12 years and am very happy with it!</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/the-web-is-bearable-with-rss/13447" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur had the poweruser features I wanted. Much better experience than I had with Feedly and Inoreader.</div>
+                </a>
+                
+            </div>
+            <div class="NB-testimonials-track NB-testimonials-row-2">
+                
+                <a class="NB-testimonial-card" href="https://www.rousette.org.uk/archives/newsblur/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/bsag.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">BSAG</div>
+                <div class="NB-testimonial-role">But She’s A Girl</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">The crowning feature of NewsBlur is the ability to train it with your preferences. The iOS client works extremely well and is cleanly-designed.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://neilpatel.com/blog/google-reader-alternatives/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/neil_patel.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Neil Patel</div>
+                <div class="NB-testimonial-role">neilpatel.com</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur is deceptively sophisticated. After selecting your preferences, it becomes a super helpful tool for accessing only the content you find most valuable.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://www.popsci.com/diy/rss-apps/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/popular_science.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Popular Science</div>
+                <div class="NB-testimonial-role">Publication</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Still got plenty to offer — from story tagging and filtering to a comprehensive search tool, and wide support for third-party integrations.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://www.howtogeek.com/282547/how-to-get-started-with-rss-feeds/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/howtogeek.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">How-To Geek</div>
+                <div class="NB-testimonial-role">Publication</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">The best way to get started with RSS is probably to set up a cloud-based RSS reader like NewsBlur.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/b0rk/status/1393199239640010754" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/b0rk" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Julia Evans</div>
+                <div class="NB-testimonial-role">Engineer &amp; Writer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I recently started using NewsBlur that automatically sorts my RSS feeds into ‘updates infrequently’ and ‘everything’ and it’s a lifesaver.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/zittrain/status/2018139905679925669" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/zittrain" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Jonathan Zittrain</div>
+                <div class="NB-testimonial-role">Harvard Law Professor</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I still use NewsBlur and find RSS feeds to be a great way to see what others are writing while dodging slop.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/koranteng/status/1289264225651695618" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/koranteng" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Koranteng</div>
+                <div class="NB-testimonial-role">Writer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Hands down the best $36 I spend every year. I subscribe to 1916 feeds. It’s my platonic ideal of software.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/viticci/status/593799787155222529" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/viticci" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Federico Viticci</div>
+                <div class="NB-testimonial-role">MacStories</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur keeps giving me reasons to be a very happy subscriber.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/the-web-is-bearable-with-rss/13447" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Other readers pale in comparison to NewsBlur.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://news.ycombinator.com/item?id=39494219" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/hn.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Hacker News</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">It’s open source and you can self host, but for the price of the subscription it’s just not worth the hassle.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://blog.feedspot.com/rss_reader/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/feedspot.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">FeedSpot</div>
+                <div class="NB-testimonial-role">Publication</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Highlight any phrase in article full text, mark it liked or disliked to train the intelligence to show you more of what you want.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://vpntierlists.com/best-rss-readers/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/vpn_tier_lists.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">VPN Tier Lists</div>
+                <div class="NB-testimonial-role">Publication</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">The intelligence trainer genuinely improves over time, learning subtle preferences that keyword filters would miss entirely.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/u_m/status/1308574215579340800" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/u_m" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">carla</div>
+                <div class="NB-testimonial-role">urban_mermaid</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">We got to explain RSS to a college student and it was fun to show what you can do with this ‘old’ tech. Thanks NewsBlur! I rely on you.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/sturek/status/1029647292918390784" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/sturek" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Jens Bonk-Wiltfang</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Going through my 222 RSS subscriptions in NewsBlur every morning. Chronological, full control over what you see.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/dangerousmeta/status/973634066455998464" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/dangerousmeta" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">dangerousmeta</div>
+                <div class="NB-testimonial-role">Blogger</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur is your best replacement for the old Google Reader. Take it from an RSS addict.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/akharlamov/status/1262081501480603648" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/akharlamov" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Alex Kharlamov</div>
+                <div class="NB-testimonial-role">Data Scientist</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">RSS is like a longer form social media minus the vitriol. I switched to NewsBlur and still use it, it’s fantastic.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/tingham/status/692230682408534016" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/tingham" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Thomas Ingham</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">The Global Shared Stories feed is a total black-hole of joyfulness.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/mdriley25519/status/1542713724602941441" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/mdriley25519" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Matthew Riley</div>
+                <div class="NB-testimonial-role">Engineer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I’ve used NewsBlur since 2013 when Google Reader was ‘spring cleaned’. I jumped at the chance to pay the creator more.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/amontalenti/status/1250957854338670593" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/amontalenti" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Andrew Montalenti</div>
+                <div class="NB-testimonial-role">CTO, Parse.ly</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">You can still get the original Google Reader experience, living on as a hosted and open source project, in NewsBlur.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/mrawdon/status/1305587056333041664" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/mrawdon" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Michael Rawdon</div>
+                <div class="NB-testimonial-role">Software Engineer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I switched to NewsBlur and am happy to be supporting a product that isn’t from Google.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/crabmusket/status/1321738495224733702" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/crabmusket" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Daniel Buckmaster</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">An excellent product that lets me feel like I’m on top of my news feed, rather than the other way around.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/wslack/status/1357112227967492102" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/wslack" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Will Slack</div>
+                <div class="NB-testimonial-role">Civic Tech</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur! Most value of a yearly payment of anything I buy.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/bbock23/status/1395272565963304963" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/bbock23" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Bernhard Bock</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Way better than Google Reader ever was.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/Kiffmeister/status/1418888238979239940" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/Kiffmeister" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">John Kiff</div>
+                <div class="NB-testimonial-role">Economist</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I’ve now switched to NewsBlur which is slicker and has some ability to be trained.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/bensherman/status/1198865723499503616" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/bensherman" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Ben Sherman</div>
+                <div class="NB-testimonial-role">Engineer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I was cleaning up my feeds and got an email with a backup automatically, in case I made a mistake. What amazing user experience.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/tilgovi/status/816802544898818048" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/tilgovi" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Randall Leeds</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I deleted a folder of feeds so NewsBlur sent me an OPML backup just in case. I am smitten.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/reconbot/status/930046008972709888" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/reconbot" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Francis Gulotta</div>
+                <div class="NB-testimonial-role">Engineer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Half the appeal was it wasn’t a fully funded tech startup and was open source. Works great, small but nice community.</div>
+                </a>
+                
+            </div>
+            <div class="NB-testimonials-track NB-testimonials-row-3">
+                
+                <a class="NB-testimonial-card" href="https://x.com/AdamFeldman/status/1199411088670052355" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/AdamFeldman" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Adam Feldman</div>
+                <div class="NB-testimonial-role">Political Analyst</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Saves so much time by aggregating RSS feeds from everything I like to pay attention to! It’s been reliably awesome for years.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/CarolHTucker/status/953408983955595264" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/CarolHTucker" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Carol H Tucker</div>
+                <div class="NB-testimonial-role">Writer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Ever since Google Reader was discontinued, I have paid for NewsBlur and it is worth every penny.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/arkadiyt/status/1409697755883139074" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/arkadiyt" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Arkadiy Tetelman</div>
+                <div class="NB-testimonial-role">Security Engineer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I love everything about this NewsBlur data breach postmortem. Clear, specific, detailed timeline. Just excellent.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/kyleniemeyer/status/1410713170214219776" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/kyleniemeyer" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Kyle Niemeyer</div>
+                <div class="NB-testimonial-role">Professor, OSU</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I have been a happy subscriber to NewsBlur for almost nine years and it continues to get better. Highly recommend.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/maryjofoley/status/608670539297792001" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/maryjofoley" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Mary Jo Foley</div>
+                <div class="NB-testimonial-role">Tech Journalist</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I’d recommend NewsBlur for RSS. It’s really quite good.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/jamesbroadhead/status/1409813262393352195" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/jamesbroadhead" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">James Broadhead</div>
+                <div class="NB-testimonial-role">Engineer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur is a home of free speech, allowing users in countries with censored news outlets to bypass restrictions and get access to the world at large.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/Weegee/status/760502400784306176" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/Weegee" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Kevin Smokler</div>
+                <div class="NB-testimonial-role">Author</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">The world’s greatest RSS reader now handles email newsletters too!</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/decadecity/status/1232991053638242305" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/decadecity" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Orde Saunders</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I’ve been using NewsBlur since Google Reader shut down and this kind of attention to detail shows through.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/chesterbr/status/1373766534162747393" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/chesterbr" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Chester</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Feels like the best of the old and new webs.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/Digitalink2008/status/2009286905028804657" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/Digitalink2008" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Digitalink</div>
+                <div class="NB-testimonial-role">Subscriber</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Years later and you are still making NewsBlur even more fancy. Love it.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/quick-thank-you-for-newsblur/6825" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I use it multiple times a day, and I’m not sure what I’d do without it.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://news.ycombinator.com/item?id=39494219" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/hn.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Hacker News</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">The only non-Google reader with good keyboard support.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/thank-you-for-not-disimproving-newsblur/8739" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Thank you for not disimproving NewsBlur.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/holy-crap-the-search-feature-is-good/6201" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Holy crap the search feature is good.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/android-best-rss-reader-so-far/11137" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur is a game-changer. Sleek interface, incredibly intuitive features.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://www.reddit.com/r/NewsBlur/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/reddit.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Reddit</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I love NewsBlur — it’s the only website I pay to use.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/android-best-rss-reader-so-far/11137" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I was so impressed I went premium without hesitation — by far the best reader out there!</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/holy-crap-the-search-feature-is-good/6201" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I can’t praise you enough for the fast and responsive search.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/i-love-the-global-shared-stories-of-newblur/5829" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">This has to be one of the best features — that I can discover new stuff and we can all comment on articles. Excellent.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/youve-just-gone-from-excellent-to-awesome/5358" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Features like this make me feel that I definitely get my money’s worth with this service.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/so-many-awesome-features/6121" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Just wanted to thank you for all the little things and big things added over the years.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/newsletters-in-newsblur/6150" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">IT’S AWESOME.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://lobste.rs/s/8otsv9/what_rss_reader_do_you_use" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/lobsters.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Lobsters</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">A wonderful reader. It handles newsletters so you can subscribe and read them just like any other RSS feed.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://play.google.com/store/apps/details?id=com.newsblur" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/play_store.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Google Play</div>
+                <div class="NB-testimonial-role">Review</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">One of the best news apps. You can create your own feed and it saves lots of time.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://play.google.com/store/apps/details?id=com.newsblur" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/play_store.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Google Play</div>
+                <div class="NB-testimonial-role">Review</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">A great app. The fact that I can self-host if I need to makes paying for the premium subscription worth it.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/android-update/6394" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">The app seems to be much improved. It makes the site lightning fast.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/intelligence-trainer-tips/7892" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Intelligence Trainer and the various options for Site Settings are very useful.</div>
+                </a>
+                
+            </div>
+            <div class="NB-testimonials-track NB-testimonials-row-4">
+                
+                <a class="NB-testimonial-card" href="https://x.com/_anks/status/605223023424069632" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/_anks" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Ankit Solanki</div>
+                <div class="NB-testimonial-role">Engineer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">It’s an indispensable tool — it’s better than Google Reader at its best! Highly recommended.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/viticci/status/667785896838737920" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/viticci" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Federico Viticci</div>
+                <div class="NB-testimonial-role">MacStories</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur’s Focus view is a great way to catch up on important items only.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/jprodgers/status/1409913055333470215" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/jprodgers" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Jimmie P Rodgers</div>
+                <div class="NB-testimonial-role">Maker</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I’ve been a paying NewsBlur user since Google Reader was dropped, and stuff like this makes me happy when my yearly subscription comes due.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://www.windley.com/archives/2025/04/long_live_rss.shtml" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/phil_windley.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Phil Windley</div>
+                <div class="NB-testimonial-role">Technologist, BYU Professor</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I’m wasting less time scrolling past stuff I don’t care about and more time reading things I enjoy.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://zapier.com/blog/best-rss-feed-reader-apps/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/zapier.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Zapier</div>
+                <div class="NB-testimonial-role">Publication</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur’s most interesting feature is its sophisticated AI filtering, which can automatically highlight or hide stories based on certain criteria.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://www.linux-magazine.com/Online/Blogs/Productivity-Sauce/Read-and-Manage-RSS-Feeds-with-NewsBlur" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/linux_magazine.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Linux Magazine</div>
+                <div class="NB-testimonial-role">Publication</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur offers a fresh take on managing multiple RSS feeds and features clever tools for sifting through hundreds of articles.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://bryanquigley.com/posts/libre-software/rss-reading-newsblur.html" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/bryan_quigley.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Bryan Quigley</div>
+                <div class="NB-testimonial-role">bryanquigley.com</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I decided to try NewsBlur and haven’t looked back. The premium account is very reasonable.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://flameeyes.blog/2024/12/01/ten-years-of-newsblur/" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/diego_petteno.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Diego Elio Pettenò</div>
+                <div class="NB-testimonial-role">Gentoo Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I cared enough about feed readers to pay for NewsBlur. Finding NewsBlur was a saviour.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/newsblur-the-best-replacement-for-google-reader-actually-even-better/2329" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I also found NewsBlur the best Google Reader successor out there.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://forum.newsblur.com/t/newsletters-in-newsblur/6150" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="/media/img/testimonials/forum.svg" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">NewsBlur Forum</div>
+                <div class="NB-testimonial-role">Community</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">This is marvelous, thank you so much.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/jpainio/status/1432722508625612814" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/jpainio" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">James Pain</div>
+                <div class="NB-testimonial-role">Subscriber</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">You’ve fixed every issue I’ve had and you’re very responsive. Thanks and keep up the good work.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/PonchoRebound/status/1306637044559601664" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/PonchoRebound" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Eize Basa</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur has filled the Google Reader-sized hole in my heart.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/ItsDiarmaid/status/1408370640030154756" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/ItsDiarmaid" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Diarmaid McManus</div>
+                <div class="NB-testimonial-role">Writer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I learned NewsBlur had been hacked and data wiped through an RSS feed on NewsBlur, since they had restored access before I noticed.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/vinnyrose/status/809962735287107584" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/vinnyrose" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Mario</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Used to just filter all email newsletters to trash. Now I forward them all to my NewsBlur account and actually read them.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/bbock23/status/1542791077786181632" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/bbock23" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Bernhard Bock</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Archive is a game changer for me. Instant upgrade.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/MaggiBot/status/815660888459911168" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/MaggiBot" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">MaggiBot</div>
+                <div class="NB-testimonial-role">Subscriber</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I give a million props to NewsBlur’s customer service. It’s always top notch.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/SusanDennis/status/1067922154279264257" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/SusanDennis" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Susan Dennis</div>
+                <div class="NB-testimonial-role">Writer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">How fabulous the functionality of the NewsBlur newsletter feature.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/gblekkenhorst/status/1604563127743430656" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/gblekkenhorst" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">g. blekkenhorst</div>
+                <div class="NB-testimonial-role">Subscriber</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur has newsletters, affordable subscription, nice layout, save to Pocket, just generally has a nice attitude.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/bmann/status/812390779284910080" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/bmann" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Boris Mann</div>
+                <div class="NB-testimonial-role">Tech Entrepreneur</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Nuked subscriptions. Automatically got email with backup OPML just in case.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/ntaylor963/status/649234737739894784" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/ntaylor963" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Nathan Taylor</div>
+                <div class="NB-testimonial-role">Writer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">Just upgraded to NewsBlur premium. Very happy with it. Recommended.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/clumma/status/1412108263097704450" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/clumma" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Carl Lumma</div>
+                <div class="NB-testimonial-role">Subscriber</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">NewsBlur is awesome and I’m very grateful to you for creating and running it!</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/jonahbishop/status/1321606097246081024" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/jonahbishop" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Jonah Bishop</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I love NewsBlur. Thanks for making such a great product.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/debramastaler/status/1269965280547127297" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/debramastaler" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Debra Mastaler</div>
+                <div class="NB-testimonial-role">SEO Expert</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I don’t know how anyone combs content without a good reader.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/mrgunn/status/1418672972332617729" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/mrgunn" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Jason Gunn</div>
+                <div class="NB-testimonial-role">Researcher</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I’ve been saying this for 15 years. Kudos to NewsBlur keeping the RSS flame alive.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/YuraYu/status/1276905560160550912" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/YuraYu" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Yura Yurchuk</div>
+                <div class="NB-testimonial-role">Developer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">I use NewsBlur for RSS, YouTube subscriptions, and email newsletters. Filtering is incredible.</div>
+                </a>
+                <a class="NB-testimonial-card" href="https://x.com/sandipb/status/2018156882129559951" target="_blank" rel="noopener">
+                <div class="NB-testimonial-header">
+                <img class="NB-testimonial-avatar" src="https://unavatar.io/x/sandipb" onerror="this.onerror=null;this.src='/media/img/testimonials/twitter.svg'" alt="">
+                <div class="NB-testimonial-identity">
+                <div class="NB-testimonial-name">Sandip Bhattacharya</div>
+                <div class="NB-testimonial-role">Engineer</div>
+                </div>
+                </div>
+                <div class="NB-testimonial-text">A big NewsBlur user myself. I love the feed to email feature which lets me have both a push and pull model.</div>
+                </a>
+                
+            </div>
+        </div>
+        <div class="NB-testimonials-fade NB-testimonials-fade-left"></div>
+        <div class="NB-testimonials-fade NB-testimonials-fade-right"></div>
+    </div>
+
+    <div class="NB-welcome-activity">
+        <div class="NB-inner">
+            
+
+<div class="NB-module NB-module-features">
+
+  <h5 class="NB-module-header">
+    <div class="NB-module-header-right">
+      
+      <div class="NB-spinner NB-left"></div>
+      <a href="#" class="NB-module-direction NB-module-previous-page NB-disabled"></a>
+      <a href="#" class="NB-module-direction NB-module-next-page NB-javascript"></a>
+    </div>
+    <div class="NB-module-header-text">What's New</div>
+  </h5>
+
+  <h3 class="NB-module-content-header">
+    New Features
+  </h3>
+  
+  <table class="NB-features" cellpadding="0" cellspacing="0">
+    
+      <tr class="NB-module-feature  ">
+        <td class="NB-module-feature-date">May 15, 2026</td>
+        <td class="NB-module-feature-description">Make NewsBlur match your home screen. Premium subscribers can choose a custom app icon on iOS, Mac, and Android, with 12 color flavors in light and dark variants. <a href="https://blog.newsblur.com/2026/05/15/custom-app-icons/">Read the blog post</a>.</td>
+      </tr>
+    
+      <tr class="NB-module-feature  ">
+        <td class="NB-module-feature-date">Apr 23, 2026</td>
+        <td class="NB-module-feature-description">Premium Pro regex classifiers now cover author bylines. On arXiv and other multi-author feeds, a pattern like Hinton|LeCun|Bengio catches any byline on a paper in one rule instead of&nbsp;fifteen.</td>
+      </tr>
+    
+      <tr class="NB-module-feature last ">
+        <td class="NB-module-feature-date">Apr 11, 2026</td>
+        <td class="NB-module-feature-description">Story clustering now has two modes. Title mode groups only near-duplicate headlines, while Title + Related also pulls in loose topical matches. Each clustered sibling carries a Match or Related pill computed at read time against the story you&#8217;re viewing, so the label tracks actual title similarity rather than a feed-level&nbsp;tag.</td>
+      </tr>
+    
+  </table>
+  
+
+  <h3 class="NB-module-content-header">
+    Community Feedback
+  </h3>
+
+  
+
+  <table class="NB-feedback-table" cellpadding="0" cellspacing="0">
+    
+      <tr class="NB-module-feature ">
+        <td class="NB-module-feature-date">14 hours ago</td>
+        <td class="NB-module-feature-description">
+          <span class="NB-module-feature-tag NB-tag-problem">problem</span>
+          <a href="https://forum.newsblur.com/t/reddit-personalized-rss-feed-is-being-overridden-with-general-reddit-popular-feed/13757/12" target="_blank">Reddit: personalized rss feed is being overridden with general reddit popular&nbsp;feed</a>
+        </td>
+      </tr>
+    
+      <tr class="NB-module-feature ">
+        <td class="NB-module-feature-date">1 day ago</td>
+        <td class="NB-module-feature-description">
+          <span class="NB-module-feature-tag NB-tag-problem">problem</span>
+          <a href="https://forum.newsblur.com/t/adding-tags-and-swapping-stories-malfunctions-on-android/13222/23" target="_blank">Adding tags and swapping stories malfunctions on&nbsp;Android</a>
+        </td>
+      </tr>
+    
+      <tr class="NB-module-feature ">
+        <td class="NB-module-feature-date">2 days ago</td>
+        <td class="NB-module-feature-description">
+          <span class="NB-module-feature-tag NB-tag-problem">problem</span>
+          <a href="https://forum.newsblur.com/t/subreddits-no-longer-showing-up-as-story-tags/13766/3" target="_blank">Subreddits no longer showing up as story&nbsp;tags</a>
+        </td>
+      </tr>
+    
+      <tr class="NB-module-feature last">
+        <td class="NB-module-feature-date">2 days ago</td>
+        <td class="NB-module-feature-description">
+          <span class="NB-module-feature-tag NB-tag-problem">problem</span>
+          <a href="https://forum.newsblur.com/t/reddit-forum-stories-going-to-url-in-thread-rather-than-thread-itself/13752/4" target="_blank">Reddit Forum Stories going to url in thread, rather than thread&nbsp;itself</a>
+        </td>
+      </tr>
+    
+  </table>
+
+</div>
+
+            <h2>Real-time Stats</h2>
+            
+<div class="NB-module NB-module-stats NB-module-site-stats">
+  <!-- <h5 class="NB-module-header">
+    Site Statistics
+  </h5> -->
+  
+  <div class="NB-splash-module-section">
+      <h3 class="NB-module-content-header">
+        Past day
+      </h3>
+  
+      <div class="NB-module-stats-counts">
+          <div class="NB-module-stats-count">
+            <div class="NB-module-stats-count-number">3,899</div>
+            <div class="NB-module-stats-count-description">Premium Users</div>
+          </div>
+          <div class="NB-module-stats-count">
+            <div class="NB-module-stats-count-number">3,622</div>
+            <div class="NB-module-stats-count-description">Standard Users</div>
+          </div>
+          <div class="NB-module-stats-count">
+            <div class="NB-module-stats-count-number">5,049,138</div>
+            <div class="NB-module-stats-count-description">Feeds fetched</div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="NB-splash-module-section">
+      <h3 class="NB-module-content-header NB-module-content-header-hour">
+        Past day by hour
+      </h3>
+  
+      <div class="NB-module-stats-counts">
+          <div class="NB-module-stats-count">
+            <div class="NB-module-stats-count-graph">
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">22,896</div>
+                <div class="NB-graph-bar" style="height:20.631983659738076px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">23,312</div>
+                <div class="NB-graph-bar" style="height:21.006848492130242px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">23,699</div>
+                <div class="NB-graph-bar" style="height:21.355580920341225px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">21,672</div>
+                <div class="NB-graph-bar" style="height:19.52901597981497px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">16,898</div>
+                <div class="NB-graph-bar" style="height:15.227081581160638px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">16,908</div>
+                <div class="NB-graph-bar" style="height:15.236092755016221px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">19,774</div>
+                <div class="NB-graph-bar" style="height:17.81869518202571px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">18,220</div>
+                <div class="NB-graph-bar" style="height:16.418358764868437px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">14,491</div>
+                <div class="NB-graph-bar" style="height:13.058092034122312px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">15,314</div>
+                <div class="NB-graph-bar" style="height:13.799711642436622px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">16,657</div>
+                <div class="NB-graph-bar" style="height:15.00991229124114px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">18,088</div>
+                <div class="NB-graph-bar" style="height:16.29941126997477px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">19,245</div>
+                <div class="NB-graph-bar" style="height:17.342004085065483px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">18,334</div>
+                <div class="NB-graph-bar" style="height:16.521086146822057px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">15,879</div>
+                <div class="NB-graph-bar" style="height:14.308842965276943px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">16,836</div>
+                <div class="NB-graph-bar" style="height:15.171212303256036px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">20,443</div>
+                <div class="NB-graph-bar" style="height:18.421542712964076px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">26,766</div>
+                <div class="NB-graph-bar" style="height:24.119307941847893px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">27,485</div>
+                <div class="NB-graph-bar" style="height:24.767211342064158px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">30,011</div>
+                <div class="NB-graph-bar" style="height:27.0434338579839px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">32,923</div>
+                <div class="NB-graph-bar" style="height:29.667487684729064px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">33,292</div>
+                <div class="NB-graph-bar" style="height:30.0px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">32,693</div>
+                <div class="NB-graph-bar" style="height:29.4602306860507px"></div>
+              </div><div class="NB-graph-value">
+                <div class="NB-graph-label">30,275</div>
+                <div class="NB-graph-bar" style="height:27.28132884777124px"></div>
+              </div>
+            </div>
+            <div class="NB-module-stats-count-number">532,111</div>
+            <div class="NB-module-stats-count-description">Sites loaded</div>
+          </div>
+          <div class="NB-module-stats-count">
+            <div class="NB-module-stats-count-graph">
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:3.84px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:3.7800000000000002px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:4.0200000000000005px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.14</div>
+                <div class="NB-graph-bar" style="height:4.29px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.14</div>
+                <div class="NB-graph-bar" style="height:4.2299999999999995px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.14</div>
+                <div class="NB-graph-bar" style="height:4.2px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:3.9000000000000004px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.14</div>
+                <div class="NB-graph-bar" style="height:4.17px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.14</div>
+                <div class="NB-graph-bar" style="height:4.2px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.14</div>
+                <div class="NB-graph-bar" style="height:4.17px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:3.9000000000000004px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:3.96px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.14</div>
+                <div class="NB-graph-bar" style="height:4.11px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:4.0200000000000005px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:3.99px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.14</div>
+                <div class="NB-graph-bar" style="height:4.140000000000001px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:3.96px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:3.99px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:3.81px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:3.87px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:3.99px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.14</div>
+                <div class="NB-graph-bar" style="height:4.050000000000001px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:4.0200000000000005px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0.13</div>
+                <div class="NB-graph-bar" style="height:3.96px"></div>
+              </div>
+              
+            </div>
+            <div class="NB-module-stats-count-number">0.11 <small>sec</small></div>
+            <div class="NB-module-stats-count-description">Avg. load time</div>
+          </div>
+          <div class="NB-module-stats-count">
+            <div class="NB-module-stats-count-graph">
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">4</div>
+                <div class="NB-graph-bar" style="height:4.137931034482759px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">5</div>
+                <div class="NB-graph-bar" style="height:5.172413793103448px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">1</div>
+                <div class="NB-graph-bar" style="height:1.0344827586206897px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">2</div>
+                <div class="NB-graph-bar" style="height:2.0689655172413794px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">4</div>
+                <div class="NB-graph-bar" style="height:4.137931034482759px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">3</div>
+                <div class="NB-graph-bar" style="height:3.103448275862069px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">7</div>
+                <div class="NB-graph-bar" style="height:7.241379310344828px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">10</div>
+                <div class="NB-graph-bar" style="height:10.344827586206897px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">3</div>
+                <div class="NB-graph-bar" style="height:3.103448275862069px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0</div>
+                <div class="NB-graph-bar" style="height:1px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">1</div>
+                <div class="NB-graph-bar" style="height:1.0344827586206897px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0</div>
+                <div class="NB-graph-bar" style="height:1px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0</div>
+                <div class="NB-graph-bar" style="height:1px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">0</div>
+                <div class="NB-graph-bar" style="height:1px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">2</div>
+                <div class="NB-graph-bar" style="height:2.0689655172413794px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">2</div>
+                <div class="NB-graph-bar" style="height:2.0689655172413794px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">2</div>
+                <div class="NB-graph-bar" style="height:2.0689655172413794px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">23</div>
+                <div class="NB-graph-bar" style="height:23.793103448275865px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">22</div>
+                <div class="NB-graph-bar" style="height:22.75862068965517px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">7</div>
+                <div class="NB-graph-bar" style="height:7.241379310344828px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">11</div>
+                <div class="NB-graph-bar" style="height:11.379310344827585px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">29</div>
+                <div class="NB-graph-bar" style="height:30.0px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">6</div>
+                <div class="NB-graph-bar" style="height:6.206896551724138px"></div>
+              </div>
+              
+              <div class="NB-graph-value">
+                <div class="NB-graph-label">22</div>
+                <div class="NB-graph-bar" style="height:22.75862068965517px"></div>
+              </div>
+              
+            </div>
+            <div class="NB-module-stats-count-number">166</div>
+            <div class="NB-module-stats-count-description">
+                Stories Shared
+            </div>
+          </div>
+      </div>
+  </div>
+  
+</div>
+
+        </div>
+    </div>
+
+    <div class="NB-welcome-bottomactions">
+        <div class="NB-inner">
+            <div class="NB-welcome-bottomactions-heading">Read without the noise</div>
+            <div class="NB-welcome-bottomactions-buttons">
+                <div class="NB-button NB-button-tryout NB-bottomaction-tryout">
+                    <span class="NB-tryout-chevrons NB-tryout-chevrons-left">
+                        <span class="NB-tryout-chevron"></span>
+                        <span class="NB-tryout-chevron"></span>
+                        <span class="NB-tryout-chevron"></span>
+                    </span>
+                    <img src="/media/img/welcome/04-eye@2x.png" style="width: 20px; height: 13px">
+                    Try out NewsBlur
+                    <span class="NB-tryout-chevrons NB-tryout-chevrons-right">
+                        <span class="NB-tryout-chevron"></span>
+                        <span class="NB-tryout-chevron"></span>
+                        <span class="NB-tryout-chevron"></span>
+                    </span>
+                </div>
+                <div class="NB-button NB-button-login NB-bottomaction-signup">
+                    Sign up or Log in
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+        
+
+    <footer class="NB-welcome-footer">
+        <div class="NB-welcome-footer-content NB-inner">
+            <div class="NB-footer-icons">
+                <a href="https://github.com/samuelclay" title="GitHub"><img src="/media/img/reader/github-mark.svg" style="width: 40px;height: auto;bottom: 0px;"></a>
+                <a href="https://x.com/newsblur" title="X/Twitter"><img src="/media/img/welcome/x_favicon.png"></a>
+                <a href="https://mastodon.social/@newsblur" title="Mastodon"><img src="/media/img/welcome/mastodon_logo.svg"></a>
+            </div>
+            <a href="/"><img src="/media//img/logo_newsblur_blur.png" style="height: 32px;" class="NB-footer-logo" title="NewsBlur" alt="NewsBlur" /></a>
+            is built in San Francisco and Western Massachusetts by 
+            <a href="http://x.com/samuelclay" class="NB-splash-link">
+                <img src="/media/img/static/Samuel%20Clay.jpg" class="NB-twitter-avatar">
+                @samuelclay
+            </a>
+        </div>
+        
+        <div class="NB-splash-info NB-splash-bottom">
+    <ul class="NB-splash-links NB-inner">
+        <li class="NB-splash-link NB-splash-link-features "><a href="/features">Features</a></li>
+        <li class="NB-splash-link NB-splash-link-pricing "><a href="/pricing">Pricing</a></li>
+        <li class="NB-splash-link NB-splash-link-about "><a href="/about">About</a></li>
+        <li class="NB-splash-link NB-splash-link-faq "><a href="/faq">FAQ</a></li>
+        <li class="NB-splash-link NB-splash-link-api "><a href="/api">API</a></li>
+        <li class="NB-splash-link NB-splash-link-ios "><a href="/ios">iOS</a></li>
+        <li class="NB-splash-link NB-splash-link-android "><a href="/android">Android</a></li>
+        <li class="NB-splash-link NB-splash-link-github"><a href="https://github.com/samuelclay">GitHub</a></li>
+        <li class="NB-splash-link NB-splash-link-discourse"><a href="https://forum.newsblur.com">Support</a></li>
+        <li class="NB-splash-link NB-splash-link-blog"><a href="https://blog.newsblur.com">The Blog</a></li>
+    </ul>
+
+    <div class="NB-splash-link NB-splash-link-logo">
+        <a href="/"><div class="NB-splash-blurred-logo"></div></a>
+    </div>
+
+</div>
+
+        
+    </footer>
+
+      </div>
+      
+        <script type="text/javascript" src="/static/js/common.9f70a95bf113.js" charset="utf-8"></script>
+      
+      <script type="text/javascript" charset="utf-8">
+    _.extend(NEWSBLUR.Preferences, {"show_contextmenus": "1", "markread_nextfeed": "nextfeed", "story_share_blogger": false, "keyboard_verticalarrows": "story", "mark_read_river_confirm": true, "read_story_delay": "0", "feed_view_single_story": "1", "story_styling": "whitney", "story_share_kippt": false, "hide_story_changes": "0", "story_share_delicious": false, "truncate_story": "social", "default_view": "feed", "story_share_evernote": false, "full_width_story": false, "story_share_diigo": false, "hide_public_comments": false, "dateformat": "12", "default_read_filter": "all", "lock_green_slider": true, "space_scroll_spacing": "40", "story_share_facebook": true, "folder_counts": false, "story_share_twitter": true, "story_share_readability": false, "doubleclick_feed": "open", "show_global_shared_stories": true, "intro_page": "4", "title_counts": false, "space_bar_action": "next_unread", "show_image_preview": "1", "doubleclick_unread": "markread", "story_button_placement": "right", "open_feed_action": "0", "hide_read_feeds": "1", "ssl": "0", "new_window": "1", "story_layout": "split", "story_titles_pane_size": "463", "animations": true, "lock_mouse_indicator": "0", "story_share_tumblr": false, "story_size": "m", "story_share_googleplus": false, "mark_read_on_scroll_titles": true, "arrow_scroll_spacing": "100", "story_share_instapaper": true, "show_content_preview": "1", "show_infrequent_site_stories": true, "autoopen_folder": "0", "story_pane_anchor": "west", "story_share_readitlater": false, "feed_order": "ALPHABETICAL", "story_share_pinterest": false, "show_tooltips": "1", "default_order": "newest", "story_share_buffer": false, "default_folder": "river:", "keyboard_horizontalarrows": "view", "story_share_pinboard": false, "image_preview": "small-right", "density": "comfortable", "show_discover": true, "disable_social": false, "highlights": true, "show_trending_sites": true, "story_share_copyurl": true, "story_share_copytext": true, "story_share_print": true, "story_share_reddit": false, "story_share_raindrop": false, "story_share_whatsapp": false, "story_share_bluesky": false, "story_share_mastodon": false, "story_share_livejournal": false, "story_share_flipboard": false, "story_share_lineme": false, "story_share_hackernews": false, "story_share_telegram": false, "story_share_linkedin": false, "story_share_readwise": false, "show_sideoption_email": true, "show_sideoption_save": true, "show_sideoption_train": true, "show_sideoption_share": true, "show_sideoption_related": true, "show_sideoption_ask_ai": true, "youtube_captions": false});
+    _.extend(NEWSBLUR.Preferences['view_settings'], {"social:3833": {}, "social:12716": {}, "river:Blogs": {"l": "split"}, "500314": {}, "569": {}, "159": {}, "river:Photoblogs": {"l": "grid"}, "1186180": {}, "social:26578": {}, "river:Tech": {"l": "split"}, "776101": {}, "3556": {}, "social:13": {"l": "list"}, "social:11": {}, "526": {"l": "split"}, "social:32048": {}, "3": {}, "2": {}, "5261603": {}, "social:31611": {}, "558041": {}, "5994357": {"l": "split"}, "river:": {"l": "split"}, "social:12218": {}, "98102": {"l": "list"}, "64313": {"l": "split"}, "76": {"v": "page"}, "river:Writers": {"r": "all", "l": "split"}, "38": {}, "169": {}, "1095": {}, "5719080": {"l": "split", "v": "page"}, "21309": {"l": "split"}, "161": {}, "39": {"l": "split"}, "16935": {}, "1627": {"l": "split"}, "social:23766": {}, "34": {"l": "split"}, "river:Cooking": {"r": "all", "l": "grid"}, "social:33405": {}, "12": {"l": "split"}, "3581": {"l": "split"}, "6188470": {"l": "split"}, "1665281": {"l": "split"}, "576138": {"l": "split"}});
+    _.extend(NEWSBLUR.Preferences['collapsed_folders'], ["New York","Cooking","Photoblogs"]);
+    
+      </script>
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        $(document).ready(function() {
+
+            NEWSBLUR.reader = new NEWSBLUR.Reader();
+            NEWSBLUR.reader.init({
+                hide_sidebar: true
+            });
+
+            NEWSBLUR.welcome = new NEWSBLUR.Welcome();
+        });
+    </script>
+
+    </body>
+  </html>
+

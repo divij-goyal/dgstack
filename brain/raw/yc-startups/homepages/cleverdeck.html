@@ -1,0 +1,328 @@
+<html>
+	<head>
+		<title>CleverDeck - Spaced Repetition Flashcards for iPhone</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Learn more efficiently and remember things longer with the power of science. CleverDeck includes 3000-word decks for most major languages." />
+		<meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=yes" />
+
+		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+		<link rel="prefetch" href="https://s3.amazonaws.com/cleverdecksite/images/example-card-back.png" />
+
+		<link rel="shortcut icon" href="https://s3.amazonaws.com/cleverdecksite/images/favicons/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32 64x64" href="https://s3.amazonaws.com/cleverdecksite/images/favicons/favicon.ico">
+		<link rel="icon" type="image/png" sizes="196x196" href="https://s3.amazonaws.com/cleverdecksite/images/favicons/favicon-192.png">
+		<link rel="icon" type="image/png" sizes="160x160" href="https://s3.amazonaws.com/cleverdecksite/images/favicons/favicon-160.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="https://s3.amazonaws.com/cleverdecksite/images/favicons/favicon-96.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="https://s3.amazonaws.com/cleverdecksite/images/favicons/favicon-64.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://s3.amazonaws.com/cleverdecksite/images/favicons/favicon-32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://s3.amazonaws.com/cleverdecksite/images/favicons/favicon-16.png">
+		
+<link rel="prefetch" href="https://s3.amazonaws.com/cleverdecksite/images/example-card-back.png" />
+
+
+		<script src="https://use.fontawesome.com/a9302d97e2.js"></script>
+		
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+
+		<style>
+			html, body { margin: 0; padding: 0; font-family: 'Slabo 27px'; width: 100%;}
+h1,h2,h3,h4 { margin: 0; padding: 0; }
+h1 { font-size: 38px; }
+h2 { font-size: 21px; }
+h3 { font-size: 28px; }
+a { text-decoration: none; color: inherit; }
+a:hover { text-decoration: underline; }
+p a { color: #ed7f32; }
+
+.hidden { display: none; }
+.orange { color: #ed7f32 }
+.green { color: #25aa25; }
+.red { color: #cc2839; }
+.yellow { color: #c1bc17; }
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+
+#container { width: 100%; text-align: center;}
+#front-top { margin: 70px 0 50px; }
+#front-top>#main-logo { width: 153px; height: 159px; margin: 0 0 0 5px;}
+#front-top>h1 { margin: 30px 0 0; font-family: Helvetica, Arial;}
+#front-top>h2 { margin: 10px 0 0; color: #919191;}
+.app-store-button { background-image:url('https://s3.amazonaws.com/cleverdecksite/images/app-store-button.png'); background-size: 216px 76px; width: 216px; height: 76px; margin: 50px 0 0; display: inline-block;}
+
+.divider { width: 80%; border-top: 1px solid #dadada; margin: 0 auto }
+
+#front-languages { background-color: #f1f1f1; padding: 50px 0 50px; }
+#left-front-languages { text-align: left; display: inline-block; width: 450px; vertical-align: top; padding: 10px 0 0;}
+#left-front-languages p { color: #818181; }
+#right-front-languages { display: inline-block; width: 450px; position: relative; padding-top: 50px;}
+.example-card { width: 269px; height: 349px; cursor:pointer; }
+.card { width: 269px; height: 349px; margin: 0 auto;}
+#card-instruction { font-size: 14px; color: #b2b2b2; position: relative; top: 10px;}
+#language-items { margin-top: 30px; }
+.language-item { display: inline-block; height: 30px; margin: 0 70px 20px 0; width: 120px;}
+.language-item>.front-language-text { position: relative; bottom: 10px; padding-left: 7px; color: #818181; cursor: pointer;}
+.language-item>a>img { width: 32px; height: 32px; }
+
+#front-features, #landing-page-features { margin-top: 50px; border-bottom: 1px solid #ddd; }
+#features-container { margin-top: 50px; }
+.feature-item { display: inline-block; width: 150px; height: 150px; margin: 0 20px 30px; vertical-align: top; }
+.feature-item>img { width: 50px; height: 50px; }
+.feature-item>.feature-text { font-size: 14px; margin-top: 15px; color: #777; }
+
+#front-faq, #landing-page-video { padding-top: 60px; }
+.faq-item { width: 400px; display: inline-block; margin: 0 80px 80px; text-align: left; vertical-align: top; }
+.faq-item>.question { font-size: 21px; color: #0071bc;}
+.faq-item>.answer { margin-top: 15px; color: #616161;}
+
+#bottom-download-button { padding-bottom: 80px; }
+
+#header { margin: 15px; text-align: center;}
+#header-logo { height: 50px; }
+
+#people-container { margin: 100px 50px; text-align: center}
+#people-description { width: 80%; font-size: 16px; color:#777; text-align: center; margin: 80px auto; line-height: 30px}
+.person-item { width: 177px; height: 200px; display: inline-block; text-align: center; position: relative; margin: 0 40px 80px;}
+.person-item>.person-pic { width: 177px; height: 177px; }
+.person-name { width: 100%; font-size: 18px; color: #aaaaaa; margin-top: 25px; display: inline-block;} 
+.person-flag { width: 64px; height: 64px; position: absolute; top: 125px; right: 0px; }
+
+#privacy-text { width: 70%; font-size: 16px; text-align: left; margin: 80px auto 200px; color: #777;}	
+
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+.video-wrapper { width: 65%; margin: 0 auto 100px; }
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+footer { width: 100%; padding: 40px 50px 50px; background: #414141; box-sizing: border-box; color: white; font-size: 16px; }
+footer a { color: #ed7f32; }
+footer span { color:white; opacity:0.3; }
+#left-footer { float: left; }
+#right-footer { float: right; }
+
+#manual-index { width: 250px; position: fixed; height: 100%; background: #f6f8fa; top: 0; left: 0; padding-left: 50px; border-right: 1px solid #eee;}
+#manual-index-title { font-size: 20px; margin-top: 30px; }
+#manual-index>nav { margin-top: 60px; }
+#manual-index>nav>a { display: block; margin-bottom: 30px; }
+#manual-index-title>img { width: 30px; height: 33px; margin-right: 4px; position: relative; top: 4px;}
+
+#manual-content { padding: 80px 0 0 130px; min-width: 300px; width: 60%; float: left; height: 100%; margin-left: 250px; position: relative;}
+#manual-content h1 { font-weight: normal; font-size: 32px; margin-bottom: 50px;}
+#manual-content h2 { font-weight: normal; font-size: 22px; margin-top: 80px; margin-bottom: 20px;}
+#manual-content p { color: #666; line-height: 24px; margin-bottom: 30px;}
+#manual-content ul { margin-left: 30px; line-height: 35px;}
+#manual-content .screenshots { text-align: center; margin: 35px 0;}
+#manual-content .screenshot { width: 213px; height: 378px; display: inline-block; border: 1px solid #ddd; margin: 15px 10px; }
+#nav-button { position: absolute; font-size: 50px; top: 0px; left: 70px; cursor: pointer; color: #ddd; display: none;}
+
+@media screen and (max-width: 767px) {
+	#nav-button { display: block !important; }
+	#manual-content { margin-left: -50px; }
+	#manual-index { left: -300px; }
+	#manual-content { width: 80%; }
+}
+
+
+#blog-container { margin: 100px auto 0; text-align: left; width: 90%; max-width: 700px;}
+.blog-article { margin-bottom: 200px; }
+.blog-article>a:hover { text-decoration: none; }
+.blog-article h1 { font-size: 32px; font-weight: normal; }
+.blog-article h3 { font-size: 16px; color: #b1b1b1; font-weight: normal; margin-top: 3px;}
+.blog-content { margin-top: 40px; color: #717171; line-height: 25px;}
+.blog-content a { color: #ed7f32; }
+
+#landing-page-logo-container { width: 175px; height: 175px; background: white; margin: -87px auto 0; border-radius: 87px; }
+#landing-page-logo { width: 122px; height: 126px; position: relative; top: 23px; left: 8px;}
+
+#landing-page-top>h1 { margin-top: 15px;}
+#landing-page-top>h3 { font-size: 16px; color: #999; margin-top: 5px;}
+#landing-page-top>.app-store-button { margin-top: 65px; }
+
+#landing-page-content { background-color: #f1f1f1; padding: 0 0 70px; text-align: center;}
+#landing-page-content-text { text-align: left; display: inline-block; max-width: 450px; vertical-align: top;  margin-top: 30px;}
+#landing-page-content-example { display: inline-block; width: 450px; position: relative; padding-top: 50px; }
+
+#landing-page-cards { background-color: #f1f1f1; padding: 50px 0 50px; margin-top: 100px; vertical-align: top;}
+#landing-page-cards>.card { display: inline-block; margin: 20px; vertical-align: top;}
+#landing-page-header { width: 100%; height: 300px; background-position: center center; background-size: cover;}
+
+#bottom-made-by { padding: 50px 0 10px; color: #666; border-top: 1px solid #ddd;}
+#bottom-made-by img { width: 100px; height: 100px; }
+#bottom-made-by>span { vertical-align: middle; margin-right: 30px; display: inline-block;}
+#bottom-made-by>div { display: inline-block; text-align: center; font-size: 13px; width: 100px; vertical-align: middle; margin-left: 30px; }
+#bottom-made-by>div>span { position: relative; top: 8px; color: #999 }
+
+		</style>
+
+		
+
+		
+<script>
+	$(function() {
+		$('.card').flip({ trigger: 'click'}).click(function() {
+			if ($(".card").data("flip-model").isFlipped) {
+				$('#la-fresa-audio').trigger('play');
+			}
+		});		
+	})
+</script>
+
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			
+
+			<section id="front-top">
+				<img id="main-logo" src="https://s3.amazonaws.com/cleverdecksite/images/main-logo.png" alt="CleverDeck Flashcards" />
+				<h1>CleverDeck</h1>
+				<h2>Spaced repetition flashcards for iOS</h2>
+				<a href="https://itunes.apple.com/us/app/cleverdeck-spaced-repetition-flashcards/id881765907?ls=1&mt=8" class="app-store-button"></a>
+			</section>
+
+
+			<section id="front-languages">
+				<div id="left-front-languages">
+					<h3>Learning a language?</h3>
+					<p>CleverDeck includes decks containing 3000 of the most common words in the most popular foreign languages. Cards include translations, transliterations, images, native-speaker audio, and example sentences in both English and the target language. CleverDeck's content was hand-made by <a href="/people/">language professionals and teachers.</a></p>
+					<div id="language-items">
+						<div class="language-item">
+							<a href="/spanish-flashcards/"><img src="https://s3.amazonaws.com/cleverdecksite/images/spain.png" alt="Spanish" /></a> <a class="front-language-text" href="/spanish-flashcards/">Spanish</a>
+						</div>
+						<div class="language-item">
+							<a href="/french-flashcards/"><img src="https://s3.amazonaws.com/cleverdecksite/images/france.png" alt="French" /></a> <a class="front-language-text" href="/french-flashcards/">French</a>
+						</div>
+						<div class="language-item">
+							<a href="/german-flashcards/"><img src="https://s3.amazonaws.com/cleverdecksite/images/germany.png" alt="German" /></a> <a class="front-language-text" href="/german-flashcards/">German</a>
+						</div>
+						<div class="language-item">
+							<a href="/chinese-flashcards/"><img src="https://s3.amazonaws.com/cleverdecksite/images/china.png" alt="Chinese" /></a> <a class="front-language-text" href="/chinese-flashcards/">Chinese</a>
+						</div>
+						<div class="language-item">
+							<a href="/japanese-flashcards/"><img src="https://s3.amazonaws.com/cleverdecksite/images/japan.png" alt="Japanese" /></a> <a class="front-language-text" href="/japanese-flashcards/">Japanese</a>
+						</div>
+						<div class="language-item">
+							<a href="/arabic-flashcards/"><img src="https://s3.amazonaws.com/cleverdecksite/images/arabic.png" alt="Arabic" /></a> <a class="front-language-text" href="/arabic-flashcards/">Arabic</a>
+						</div>
+						<div class="language-item">
+							<a href="/italian-flashcards/"><img src="https://s3.amazonaws.com/cleverdecksite/images/italy.png" alt="Italian" /></a> <a class="front-language-text" href="/italian-flashcards/">Italian</a>
+						</div>
+						<div class="language-item">
+							<a href="/portuguese-flashcards/"><img src="https://s3.amazonaws.com/cleverdecksite/images/brazil.png" alt="Portuguese" /></a> <a class="front-language-text" href="/portuguese-flashcards/">Portuguese</a>
+						</div>
+						<div class="language-item">
+							<a href="/turkish-flashcards/"><img src="https://s3.amazonaws.com/cleverdecksite/images/turkey.png" alt="Turkish" /></a> <a class="front-language-text" href="/turkish-flashcards/">Turkish</a>
+						</div>
+						<div class="language-item">
+							<a href="/persian-flashcards/"><img src="https://s3.amazonaws.com/cleverdecksite/images/iran.png" alt="Persian" /></a> <a class="front-language-text" href="/persian-flashcards/">Persian</a>
+						</div>
+						<div class="language-item">
+							<a href="/russian-flashcards/"><img src="https://s3.amazonaws.com/cleverdecksite/images/russia.png" alt="Russian" /></a> <a class="front-language-text" href="/russian-flashcards/">Russian</a>
+						</div>
+						<div class="language-item">
+							<a href="/english-flashcards/"><img src="https://s3.amazonaws.com/cleverdecksite/images/united-kingdom.png" alt="Advanced English" /></a> <a class="front-language-text" href="/english-flashcards/">Adv. English</a>
+						</div>
+					</div>
+				</div>
+				<div id="right-front-languages">
+					<div class="card">
+						<div class="front" style="background: url('https://s3.amazonaws.com/cleverdecksite/images/example-card-front.png'); background-size: cover; cursor: pointer"></div>
+						<div class="back" style="background: url('https://s3.amazonaws.com/cleverdecksite/images/example-card-back.png'); background-size: cover; cursor: pointer;"></div>
+						<span id="card-instruction">Click to flip. (plays sound)</span>
+					</div>
+					<span id="card-instruction">Click to flip. (plays sound)</span>
+				</div>	
+			</section>
+
+			<section id="front-features">
+				<h2>Features</h2>
+				<div id="features-container">
+					<div class="feature-item">
+						<img src="https://s3.amazonaws.com/cleverdecksite/images/sync-feature.png" />
+						<div class="feature-text">Sync between devices.</div>
+					</div>
+					<div class="feature-item">
+						<img src="https://s3.amazonaws.com/cleverdecksite/images/customize-feature.png" />
+						<div class="feature-text">Customize learning algorithm, notifications, and scheduling.</div>
+					</div>
+					<div class="feature-item">
+						<img src="https://s3.amazonaws.com/cleverdecksite/images/offline-feature.png" />
+						<div class="feature-text">100% functional offline. Cache images and audio before a trip.</div>
+					</div>
+					<div class="feature-item">
+						<img src="https://s3.amazonaws.com/cleverdecksite/images/import-feature.png" />
+						<div class="feature-text">Import flashcard lists.</div>
+					</div>
+					<div class="feature-item">
+						<img src="https://s3.amazonaws.com/cleverdecksite/images/creation-feature.png" />
+						<div class="feature-text">Robust card creation with siblings and three-sided cards.</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="front-faq">
+
+				<div class="video-wrapper">
+					<div class="video-container"><iframe src="https://www.youtube.com/embed/osK0Agqu7dc?rel=0?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+				</div>
+
+				<div class="faq-item">
+					<div class="question">What is spaced repetition?</div>
+					<div class="answer">Spaced repetition is a method of learning by which you review information at increasingly long intervals. So, for example, I might review something today, then tomorrow, then in four days, then in two weeks. It's a simple idea with incredible results: you end up spending much less time studying while remembering things much better over the long-term. <br /><br />Furthermore, by tracking whether or not you remember things, a spaced repetition system (SRS) can customize review intervals for every individual piece of information - so you spend more time with things you're having trouble learning, and very little time with things you've mastered easily.</div>
+				</div>
+				<div class="faq-item">
+					<div class="question">What learning algorithms does CleverDeck use?</div>
+					<div class="answer">CleverDeck uses the SM-2 algorithm with a few very minor customizations. This is the same algorithm battle-tested and popularized by other spaced repetition systems such as SuperMemo and Anki. Most of the algorithm's parameters can be customized in the app.</div>
+				</div>
+				<div class="faq-item">
+					<div class="question">What does CleverDeck cost?</div>
+					<div class="answer">It's free to create and study your own content. Otherwise, it's $3 per month for unlimited access to all our premium decks. There's a freemium that's big enough to let you decide if the premium content is worth paying for. You should cancel if you no longer find the app useful, and I make it really easy to do that.</div>
+				</div>
+				<div class="faq-item">
+					<div class="question">Will there be an Android version?</div>
+					<div class="answer">As an independent developer, I'm unfortunately very resource-limited and don't have the bandwidth to jump into Android right now. Time or money permitting, I'd love to make an Android version in the near future.</div>
+				</div>
+			</section>
+
+			<section id="bottom-download-button">
+				<a href="https://itunes.apple.com/us/app/cleverdeck-spaced-repetition-flashcards/id881765907?ls=1&mt=8" class="app-store-button" href="/"></a>
+			</section>
+
+			<audio id="la-fresa-audio">
+				<source src="https://s3.amazonaws.com/cleverdecksite/audio/la_fresa.mp3" type="audio/mpeg">
+			</audio>
+
+
+
+			<footer>
+				<div id="left-footer">
+					<a href="/manual/">Manual</a>
+					<span> | </span>
+					<a href="/people/">People</a>
+					<span> | </span>
+					<a href="https://twitter.com/clever_deck">Twitter</a>
+					<span> | </span>
+					<!--<a href="/blog/">Blog</a>
+					<span> | </span>-->
+					<a href="/privacy/">Privacy</a>
+					<span> | </span>
+					<a href="/tos/">Terms</a>
+					<span> | </span>
+					<a href="https://itunes.apple.com/us/app/cleverdeck-spaced-repetition-flashcards/id881765907?ls=1&mt=8">Download</a>
+				</div>
+				<div id="right-footer">Need something? Email <a href="mailto:justin@cleverdeck.com" target="_blank">justin@cleverdeck.com</a>.</div>
+			</footer>
+		</div>
+	</body>
+</html>

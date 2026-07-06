@@ -1,0 +1,2154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="alternate" type="application/rss+xml" title="DemandSphere Blog" href="https://www.demandsphere.com/feed/">
+<meta name="robots" content="max-image-preview:large">
+
+
+<!-- Microsoft Clarity - loaded under legitimate interest, no consent required -->
+<script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","o12jvdeapq");</script>
+<!-- Google Analytics 4 - direct gtag.js, loads only after cookie consent -->
+<script>
+function dsLoadGA(){
+  var s=document.createElement('script');
+  s.async=true;
+  s.src='https://www.googletagmanager.com/gtag/js?id=G-VH2RE89K14';
+  document.head.appendChild(s);
+  window.dataLayer=window.dataLayer||[];
+  window.gtag=function(){dataLayer.push(arguments);};
+  gtag('js',new Date());
+  gtag('config','G-VH2RE89K14');
+}
+if(localStorage.getItem('ds-consent')==='accepted') dsLoadGA();
+</script>
+<!-- Server-side GA4 fallback - fires for users who haven't accepted the cookie
+     banner. Cookieless, anonymized at the Worker layer. When the user has
+     consented, gtag.js handles tracking instead and this script does nothing,
+     so we don't double-count. -->
+<script>
+(function(){
+  try{
+    if(localStorage.getItem('ds-consent')==='accepted') return;
+    var body=JSON.stringify({
+      dl: location.href,
+      dt: document.title||'',
+      dr: document.referrer||''
+    });
+    var send=function(){
+      if(navigator.sendBeacon){
+        navigator.sendBeacon('/api/ga4/collect', new Blob([body], {type:'application/json'}));
+      } else {
+        fetch('/api/ga4/collect', {method:'POST', headers:{'Content-Type':'application/json'}, body:body, keepalive:true}).catch(function(){});
+      }
+    };
+    if(document.readyState==='complete') send();
+    else window.addEventListener('load', send, {once:true});
+  }catch(e){}
+})();
+</script>
+
+<title>Unified AI Search Visibility | DemandSphere</title>
+<meta name="description" content="Global SERP and AI search analytics platform for in-house and agency teams. Track AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, and more.">
+
+<!-- Open Graph + Twitter Card (auto-resolved from OG pipeline) -->
+
+
+
+
+
+
+
+
+<meta property="og:type"         content="website">
+<meta property="og:site_name"    content="DemandSphere">
+<meta property="og:title"        content="Unified AI Search Visibility">
+<meta property="og:description"  content="Global SERP and AI search analytics platform for in-house and agency teams. Track AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, and more.">
+<meta property="og:image"        content="https://www.demandsphere.com/assets/og/index.png">
+<meta property="og:image:width"  content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url"          content="https://www.demandsphere.com/">
+<meta property="og:updated_time" content="2026-07-02T01:12:45+00:00">
+<meta property="article:modified_time" content="2026-07-02T01:12:45+00:00">
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:title"       content="Unified AI Search Visibility">
+<meta name="twitter:description" content="Global SERP and AI search analytics platform for in-house and agency teams. Track AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, and more.">
+<meta name="twitter:image"       content="https://www.demandsphere.com/assets/og/index.png">
+
+
+<!-- Canonical -->
+<link rel="canonical" href="https://www.demandsphere.com/">
+
+<!-- MCP Discovery -->
+<link rel="mcp" href="https://www.demandsphere.com/mcp">
+
+<!-- Styles -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon-96.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/images/favicon-48.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-180.png">
+<link rel="apple-touch-icon" sizes="192x192" href="/assets/images/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+
+
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.demandsphere.com/#organization",
+      "name": "DemandSphere",
+      "legalName": "Ginzamarkets, Inc.",
+      "url": "https://www.demandsphere.com",
+      "logo": "https://www.demandsphere.com/assets/images/demandspherelogo.webp",
+      "description": "Unified AI search visibility platform. SERP analytics, LLM monitoring, log analytics, and BigQuery data warehouse for enterprise teams.",
+      "foundingDate": "2010",
+      "founder": {
+        "@type": "Person",
+        "name": "Ray Grieselhuber",
+        "jobTitle": "CEO"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "659 High Street",
+        "addressLocality": "Columbus",
+        "addressRegion": "OH",
+        "postalCode": "43085",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "email": "hello@demandsphere.com",
+        "url": "https://www.demandsphere.com/contact/"
+      },
+      "sameAs": [
+        "https://foundconf.com"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.demandsphere.com/#website",
+      "name": "DemandSphere",
+      "url": "https://www.demandsphere.com",
+      "publisher": {
+        "@id": "https://www.demandsphere.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.demandsphere.com/blog/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    
+    {
+      "@type": "Question",
+      "name": "What does DemandSphere actually track?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DemandSphere tracks your brand's visibility across three search surfaces: traditional SERPs (rankings, SERP features, AI Overviews, AI Mode), AI search engines (ChatGPT, Perplexity, Gemini, Copilot - mentions, citations, and sentiment), and server logs (crawl behavior from Googlebot, AI bots, and other crawlers). All of this data flows into a unified BigQuery data warehouse you can query directly."
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "How is this different from other platforms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most SEO platforms track SERP rankings. Some have started adding basic AI search features. DemandSphere is the only platform that unifies SERP analytics, AI search visibility tracking, server log analytics, and a BigQuery data warehouse in a single product. We also track at significantly larger scale - 200+ markets, 10+ search engines, and millions of prompts across AI search engines daily."
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "Which AI platforms do you monitor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We track ChatGPT, Perplexity, Gemini, Copilot, Google AI Overviews, Google AI Mode, and more. For each platform, we monitor whether your brand is mentioned, cited with a link, or absent, and how that changes over time. We were the first platform to track Google AI Mode within 24 hours of its launch."
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "Do I need to use all the products, or can I start with just one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The platform is modular. Most teams start with DemandMetrics for SERP analytics or DemandMetrics for Gen AI for AI search visibility, then expand to log analytics or the data warehouse as their program matures. You can add products at any time without migrating data."
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "How does the BigQuery integration work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All DemandSphere data (SERP rankings, AI search mentions, log analytics, GSC, and GA4) flows directly into BigQuery tables in your own Google Cloud project. You can query with SQL, connect Data Studio (formerly Looker Studio) or Tableau, build custom models, or export to Snowflake. No ETL pipeline to build or maintain."
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "What does the demo look like?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It's a 30-minute call where we run DemandSphere on your actual domain. You'll see your current SERP positions, AI visibility across ChatGPT, Perplexity, Gemini, and more, and how your brand appears (or doesn't) in AI-generated answers. All with your real data. No slides, no prep required on your end."
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "How long does it take to get started?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most teams are fully onboarded within a week. SERP tracking starts producing data within 24 hours. AI search visibility monitoring begins immediately. If you add Search Intelligence, your BigQuery tables are provisioned as part of that setup. We handle the configuration - you just provide your keywords and domains."
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "How is pricing structured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Plans start at $79/month and scale based on tracking volume - the number of SERP keywords and AI prompts you monitor. All plans include unlimited users, all search engines, and both SERP and AI visibility tracking. Enterprise plans add BigQuery, log analytics, SSO, and managed services."
+      }
+    }
+    
+  ]
+}
+</script>
+
+
+
+
+
+  
+</head>
+<body>
+  
+
+  <nav class="ds-nav" data-active="home">
+  <div class="nav-inner">
+
+    <div class="nav-left">
+      <a href="/" class="nav-logo">
+        <img src="/assets/images/demandspherelogo.webp" alt="DemandSphere" width="192" height="26">
+      </a>
+      <div class="nav-links">
+
+        <!-- Platform -->
+        <div class="nav-item" data-menu="platform">
+          <button class="nav-btn" data-item="platform">
+            Platform
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-drop drop-platform">
+            <div class="plat-left">
+              <div class="plat-section-label">Products</div>
+              <a href="/platform/demandmetrics/" class="plat-item active" data-panel="panel-dm">
+                <span style="display:flex; align-items:center; gap:8px;"><span style="width:6px; height:6px; border-radius:50%; background:#3b82f6; flex-shrink:0;"></span>DemandMetrics</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M4 2l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a href="/platform/demandmetrics-genai/" class="plat-item" data-panel="panel-genai">
+                <span style="display:flex; align-items:center; gap:8px;"><span style="width:6px; height:6px; border-radius:50%; background:#7c3aed; flex-shrink:0;"></span>DemandMetrics for Gen AI</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M4 2l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a href="/platform/agents/" class="plat-item" data-panel="panel-agents">
+                <span style="display:flex; align-items:center; gap:8px;"><span style="width:6px; height:6px; border-radius:50%; background:#ea580c; flex-shrink:0;"></span>Agents <span style="font-size:9px; font-weight:700; color:#22c55e; background:rgba(34,197,94,.12); padding:1px 5px; border-radius:3px; margin-left:2px; letter-spacing:.04em; text-transform:uppercase;">New</span></span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M4 2l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a href="/platform/analytics-ax/" class="plat-item" data-panel="panel-ax">
+                <span style="display:flex; align-items:center; gap:8px;"><span style="width:6px; height:6px; border-radius:50%; background:#10b981; flex-shrink:0;"></span>Analytics AX</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M4 2l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a href="/platform/search-intelligence/" class="plat-item" data-panel="panel-si">
+                <span style="display:flex; align-items:center; gap:8px;"><span style="width:6px; height:6px; border-radius:50%; background:#f59e0b; flex-shrink:0;"></span>Search Intelligence</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M4 2l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a href="/platform/apis/" class="plat-item" data-panel="panel-api">
+                <span style="display:flex; align-items:center; gap:8px;"><span style="width:6px; height:6px; border-radius:50%; background:#94a3b8; flex-shrink:0;"></span>APIs</span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M4 2l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <div class="plat-cta">
+                <p>See your AI search position using your own domain.</p>
+                <a href="/demo/">Get a demo</a>
+              </div>
+            </div>
+            <div class="plat-right">
+
+              <div class="plat-panel active" id="panel-dm">
+                <div class="plat-panel-title">DemandMetrics - SERP Analytics</div>
+                <div class="plat-features">
+                  <a href="/platform/demandmetrics/daily-rank-tracking/" class="plat-feat">Daily Rank Tracking</a>
+                  <a href="/platform/demandmetrics/enterprise-rank-tracking/" class="plat-feat">Enterprise Rank Tracking</a>
+                  <a href="/platform/demandmetrics/serp-features/" class="plat-feat">SERP Feature Tracking</a>
+                  <a href="/platform/demandmetrics/large-scale-tracking/" class="plat-feat">Large-Scale Tracking</a>
+                  <a href="/platform/demandmetrics/serp-analytics/" class="plat-feat">SERP Analytics</a>
+                  <a href="/platform/demandmetrics/serp-rewind/" class="plat-feat">Rewind</a>
+                  <a href="/platform/demandmetrics/competitor-insights/" class="plat-feat">Competitor Insights</a>
+                  <a href="/platform/demandmetrics/keyword-research/" class="plat-feat">Keyword Research</a>
+                  <a href="/platform/demandmetrics/international-seo/" class="plat-feat">International SEO</a>
+                  <a href="/platform/demandmetrics/local-rank-tracking/" class="plat-feat">Local & Hyperlocal</a>
+                  <a href="/platform/demandmetrics/domain-research/" class="plat-feat">Domain Research & Overview</a>
+                </div>
+              </div>
+
+              <div class="plat-panel" id="panel-genai">
+                <div class="plat-panel-title">DemandMetrics for Gen AI - LLM Visibility</div>
+                <div class="plat-features">
+                  <a href="/platform/demandmetrics-genai/ai-visibility/" class="plat-feat">AI Search Visibility</a>
+                  <a href="/platform/demandmetrics-genai/llm-tracking/" class="plat-feat">LLM Visibility Tracking</a>
+                  <a href="/platform/demandmetrics-genai/prompt-research/" class="plat-feat">Prompt & Query Research</a>
+                  <a href="/platform/demandmetrics-genai/prompt-volume/" class="plat-feat">Prompt Volume</a>
+                  <a href="/platform/demandmetrics-genai/citation-analytics/" class="plat-feat">Citation & Linked Mention Tracking</a>
+                  <a href="/platform/demandmetrics-genai/brand-mention-tracking/" class="plat-feat">Brand Management</a>
+                  <a href="/platform/demandmetrics-genai/ai-visibility/" class="plat-feat">Sentiment Analysis</a>
+                  <a href="/platform/demandmetrics-genai/chat-rewind/" class="plat-feat">Rewind</a>
+                  <a href="/platform/demandmetrics-genai/agentic-search/" class="plat-feat">Agentic Search Monitoring</a>
+                  <a href="/platform/demandmetrics-genai/news-intelligence/" class="plat-feat">News Intelligence</a>
+                </div>
+              </div>
+
+              <div class="plat-panel" id="panel-agents">
+                <a href="/platform/agents/" class="plat-panel-title" style="text-decoration:none; display:block;">DemandSphere Agents - Automated Intelligence</a>
+                <div class="plat-features">
+                  <a href="/platform/agents/visual-builder/" class="plat-feat">Visual Builder</a>
+                  <a href="/platform/agents/sub-agents/" class="plat-feat">Sub-Agents</a>
+                  <a href="/platform/agents/triggers/" class="plat-feat">Triggers & Scheduling</a>
+                  <a href="/platform/agents/llm-analysis/" class="plat-feat">LLM Analysis</a>
+                  <a href="/platform/agents/templates/" class="plat-feat">Templates</a>
+                  <a href="/platform/agents/connections/" class="plat-feat">Connections</a>
+                </div>
+              </div>
+
+              <div class="plat-panel" id="panel-ax">
+                <div class="plat-panel-title">Analytics AX - Log Analytics</div>
+                <div class="plat-features">
+                  <a href="/platform/analytics-ax/log-file-analytics/" class="plat-feat">Server Log Analysis</a>
+                  <a href="/platform/analytics-ax/ai-bot-detection/" class="plat-feat">Crawler & Bot Detection</a>
+                  <a href="/platform/analytics-ax/crawl-analytics/" class="plat-feat">Crawl Budget Analysis</a>
+                  <a href="/platform/analytics-ax/ai-bot-detection/" class="plat-feat">AI Crawler Monitoring</a>
+                  <a href="/platform/analytics-ax/crawl-analytics/#correlation" class="plat-feat">Crawl & Rank Correlation</a>
+                </div>
+              </div>
+
+              <div class="plat-panel" id="panel-si">
+                <div class="plat-panel-title">Search Intelligence - BigQuery Data Warehouse</div>
+                <div class="plat-features">
+                  <a href="/platform/search-intelligence/bigquery-warehouse/" class="plat-feat">BigQuery Data Pipeline</a>
+                  <a href="/platform/search-intelligence/custom-bi-dashboards/" class="plat-feat">Data Studio Integration</a>
+                  <a href="/platform/search-intelligence/data-connectors/" class="plat-feat">GSC + GA4 Connection</a>
+                  <a href="/platform/search-intelligence/" class="plat-feat">Cross-channel Attribution</a>
+                  <a href="/platform/search-intelligence/data-exports/" class="plat-feat">Data Exports</a>
+                </div>
+              </div>
+
+              <div class="plat-panel" id="panel-api">
+                <div class="plat-panel-title">APIs - Integrate Search Data Anywhere</div>
+                <div class="plat-features">
+                  <a href="/platform/apis/rest-apis/" class="plat-feat">REST API</a>
+                  <a href="/platform/apis/ranking-api/" class="plat-feat">Ranking Data API</a>
+                  <a href="/platform/apis/#llm" class="plat-feat">LLM Query API</a>
+                  <a href="/platform/search-intelligence/data-connectors/" class="plat-feat">Webhooks & Data Connectors</a>
+                  <a href="/platform/search-intelligence/data-exports/" class="plat-feat">Data Exports</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Solutions -->
+        <div class="nav-item" data-menu="solutions">
+          <button class="nav-btn" data-item="solutions">
+            Solutions
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-drop drop-solutions">
+            <div class="sol-col">
+              <div class="sol-col-label">Use Cases</div>
+              <a href="/solutions/ai-search/" class="sol-item">Be Found in AI Search</a>
+              <a href="/platform/demandmetrics-genai/llm-tracking/" class="sol-item">Track Your Brand Across LLMs</a>
+              <a href="/platform/demandmetrics/serp-analytics/#ai-overview" class="sol-item">AI Overview & AI Mode Monitoring</a>
+              <a href="/solutions/automation/" class="sol-item">Search Automation</a>
+              <a href="/platform/demandmetrics/competitor-insights/" class="sol-item">Competitive Intelligence</a>
+              <a href="/solutions/competitor-tracking/" class="sol-item">Competitor Tracking</a>
+              <a href="/solutions/keyword-cannibalization-reporting/" class="sol-item">Keyword Cannibalization</a>
+              <a href="/solutions/keyword-research-tools/" class="sol-item">Keyword Research Tools</a>
+            </div>
+            <div class="sol-col">
+              <div class="sol-col-label">By Team</div>
+              <a href="/solutions/for-executives/" class="sol-item featured">For Executives</a>
+              <a href="/solutions/seo-teams/" class="sol-item">In-House SEO Teams</a>
+              <a href="/solutions/agencies/" class="sol-item">Agencies</a>
+              <a href="/solutions/data-teams/" class="sol-item">Data & Analytics Teams</a>
+              <a href="/solutions/product-teams/" class="sol-item">Product Teams</a>
+              <a href="/solutions/developers/" class="sol-item">Developers & Data Engineering</a>
+            </div>
+            <div class="sol-col">
+              <div class="sol-col-label">Services</div>
+              <a href="/solutions/services/managed-services/" class="sol-item">Prompt & Keyword Research</a>
+              <a href="/solutions/services/managed-services/" class="sol-item">Taxonomy & Ontology</a>
+              <a href="/solutions/services/managed-services/" class="sol-item">Data Pipeline Engineering</a>
+              <a href="/solutions/services/managed-services/" class="sol-item">BI & Dashboard Reporting</a>
+              <a href="/solutions/services/consulting/" class="sol-item">Strategic Consulting</a>
+              <a href="/solutions/services/consulting/" class="sol-item">Technical Consulting</a>
+              <div class="sol-cta">
+                <p>Not sure where to start?</p>
+                <a href="/contact/managed-services/">Talk to an expert →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Free Tools (hidden pre-launch - restore when tools are ready)
+        <div class="nav-item" data-menu="tools">
+          <button class="nav-btn" data-item="tools">
+            Free Tools
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-drop drop-tools">
+            <a href="/tools/gsc/" class="tool-drop-item">GSC Explorer</a>
+            <a href="/tools/domain-research/" class="tool-drop-item">Domain Research</a>
+            <a href="/tools/ga4/" class="tool-drop-item">GA4 Explorer</a>
+            <a href="/tools/market-trends/" class="tool-drop-item">Market Trends</a>
+          </div>
+        </div>
+        -->
+
+        <!-- Resources -->
+        <div class="nav-item" data-menu="resources">
+          <button class="nav-btn" data-item="resources">
+            Resources
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-drop drop-resources">
+            <div class="plat-left">
+              <a href="/resources/" class="plat-item active" data-panel="panel-resources-main">
+                Resource Center
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M4 2l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a href="/research/demandsphere-radar/" class="plat-item" data-panel="panel-radar" style="display:flex; align-items:center; gap:6px;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.07 4.93A10 10 0 0 0 6.99 3.34"/><path d="M4 6h.01"/><path d="M2.29 9.62A10 10 0 1 0 21.31 8.35"/><path d="M16.24 7.76A6 6 0 1 0 8.23 16.67"/><path d="M12 18h.01"/><path d="M17.99 11.66A6 6 0 0 1 15.77 16.67"/><circle cx="12" cy="12" r="2"/><path d="m13.41 10.59 5.66-5.66"/></svg>
+                DemandSphere Radar
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" style="margin-left:auto;"><path d="M4 2l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <div style="border-top:1px solid var(--border); margin:4px 0;"></div>
+              <a href="/blog/" class="plat-item">Blog</a>
+              <a href="/events/" class="plat-item">Events</a>
+              <a href="/resources/help-center/" class="plat-item">Help Center</a>
+            </div>
+            <div class="plat-right">
+              <div class="plat-panel active" id="panel-resources-main">
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px;">
+                  <div>
+                    <div style="font-family:'JetBrains Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:8px;">Research & Data</div>
+                    <div class="plat-features" style="grid-template-columns:1fr;">
+                      <a href="/research/demandsphere-radar/ai-frontier-model-tracker/" class="plat-feat">AI Frontier Model Tracker</a>
+                      <a href="/research/demandsphere-radar/state-of-frontier-ai/" class="plat-feat">State of Frontier AI</a>
+                      <a href="/research/demandsphere-radar/algorithm-update-tracker/" class="plat-feat">Google Algorithm &amp; AI Search Update Tracker</a>
+                      <a href="/resources/ai-overviews-report/" class="plat-feat">AI Overviews Study</a>
+                    </div>
+                  </div>
+                  <div>
+                    <div style="font-family:'JetBrains Mono',monospace; font-size:9px; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:8px;">Learn</div>
+                    <div class="plat-features" style="grid-template-columns:1fr;">
+                      <a href="/blog/" class="plat-feat">Blog</a>
+                      <a href="/events/" class="plat-feat">Events</a>
+                      <a href="/resources/help-center/" class="plat-feat">Help Center</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="plat-panel" id="panel-radar">
+                <div class="plat-panel-title">DemandSphere Radar - Search Intelligence Tools</div>
+                <div class="plat-features" style="grid-template-columns:1fr;">
+                  <a href="/research/demandsphere-radar/ai-frontier-model-tracker/" class="plat-feat">AI Frontier Model Tracker</a>
+                  <a href="/research/demandsphere-radar/state-of-frontier-ai/" class="plat-feat">State of Frontier AI</a>
+                  <a href="/research/demandsphere-radar/algorithm-update-tracker/" class="plat-feat">Google Algorithm &amp; AI Search Update Tracker</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="/enterprise/" class="nav-link " data-item="enterprise">Enterprise</a>
+
+        <a href="/pricing/" class="nav-link " data-item="pricing">Pricing</a>
+
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <a href="/search/" class="nav-search-btn" aria-label="Search" title="Search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </a>
+      <a href="/login/" class="nav-signin">Sign in</a>
+      <!-- Sign up free hidden pre-launch -->
+      <a href="/demo/" class="nav-btn-violet">Get a demo</a>
+    </div>
+
+    <button class="mobile-toggle" aria-label="Open menu" id="ds-mobile-toggle">
+      <svg id="ds-icon-menu" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <svg id="ds-icon-close" width="20" height="20" viewBox="0 0 20 20" fill="none" style="display:none"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+
+
+</nav>
+
+<!-- Mobile menu (outside nav to avoid backdrop-filter stacking context trapping position:fixed) -->
+<div class="mobile-menu" id="ds-mobile-menu">
+  <div class="mob-section">
+    <button class="mob-toggle">Platform <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 6l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <div class="mob-content">
+        <div class="mob-group">
+          <div class="mob-group-label">DemandMetrics</div>
+          <a href="/platform/demandmetrics/rank-tracking/" class="mob-item">Rank Tracking</a>
+          <a href="/platform/demandmetrics/serp-analytics/" class="mob-item">SERP Analytics</a>
+          <a href="/platform/demandmetrics/serp-rewind/" class="mob-item">Rewind</a>
+          <a href="/platform/demandmetrics/competitor-insights/" class="mob-item">Competitor Insights</a>
+          <a href="/platform/demandmetrics/keyword-research/" class="mob-item">Keyword Research</a>
+          <a href="/platform/demandmetrics/seo-reporting/" class="mob-item">SEO Reporting</a>
+          <a href="/workflow/ranking-alerts/" class="mob-item">Ranking Alerts</a>
+          <a href="/platform/demandmetrics-genai/ai-visibility/" class="mob-item">AI Search Visibility</a>
+          <a href="/platform/demandmetrics/domain-research/" class="mob-item">Domain Research</a>
+        </div>
+        <div class="mob-group">
+          <div class="mob-group-label">DemandMetrics for Gen AI</div>
+          <a href="/platform/demandmetrics-genai/llm-tracking/" class="mob-item">LLM Visibility Tracking</a>
+          <a href="/platform/demandmetrics-genai/prompt-research/" class="mob-item">Prompt & Query Research</a>
+          <a href="/platform/demandmetrics-genai/prompt-volume/" class="mob-item">Prompt Volume</a>
+          <a href="/platform/demandmetrics-genai/citation-analytics/" class="mob-item">Citation & Linked Mention Tracking</a>
+          <a href="/platform/demandmetrics-genai/brand-mention-tracking/" class="mob-item">Brand Management</a>
+          <a href="/platform/demandmetrics/serp-rewind/" class="mob-item">Rewind</a>
+          <a href="/platform/demandmetrics-genai/agentic-search/" class="mob-item">Agentic Search Monitoring</a>
+          <a href="/platform/demandmetrics-genai/news-intelligence/" class="mob-item">News Intelligence</a>
+        </div>
+        <div class="mob-group">
+          <a href="/platform/agents/" class="mob-group-label" style="text-decoration:none; display:block;">DemandSphere Agents</a>
+          <a href="/platform/agents/visual-builder/" class="mob-item">Visual Builder</a>
+          <a href="/platform/agents/sub-agents/" class="mob-item">Sub-Agents</a>
+          <a href="/platform/agents/triggers/" class="mob-item">Triggers & Scheduling</a>
+          <a href="/platform/agents/llm-analysis/" class="mob-item">LLM Analysis</a>
+          <a href="/platform/agents/templates/" class="mob-item">Templates</a>
+          <a href="/platform/agents/connections/" class="mob-item">Connections</a>
+        </div>
+        <div class="mob-group">
+          <div class="mob-group-label">Analytics AX</div>
+          <a href="/platform/analytics-ax/log-file-analytics/" class="mob-item">Server Log Analysis</a>
+          <a href="/platform/analytics-ax/ai-bot-detection/" class="mob-item">Crawler & Bot Detection</a>
+          <a href="/platform/analytics-ax/crawl-analytics/" class="mob-item">Crawl Budget Analysis</a>
+          <a href="/platform/analytics-ax/ai-bot-detection/" class="mob-item">AI Crawler Monitoring</a>
+        </div>
+        <div class="mob-group">
+          <div class="mob-group-label">Search Intelligence</div>
+          <a href="/platform/search-intelligence/bigquery-warehouse/" class="mob-item">BigQuery Data Pipeline</a>
+          <a href="/platform/search-intelligence/custom-bi-dashboards/" class="mob-item">Data Studio Integration</a>
+          <a href="/platform/search-intelligence/data-connectors/" class="mob-item">GSC + GA4 Connection</a>
+          <a href="/platform/search-intelligence/" class="mob-item">Cross-channel Attribution</a>
+        </div>
+        <div class="mob-group">
+          <div class="mob-group-label">APIs</div>
+          <a href="/platform/apis/rest-apis/" class="mob-item">REST API</a>
+          <a href="/platform/apis/#serp" class="mob-item">SERP API</a>
+          <a href="/platform/apis/#llm" class="mob-item">LLM Query API</a>
+          <a href="/platform/search-intelligence/data-connectors/" class="mob-item">Webhooks & Data Connectors</a>
+        </div>
+      </div>
+    </div>
+    <div class="mob-section">
+      <button class="mob-toggle">Solutions <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 6l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <div class="mob-content">
+        <div class="mob-group">
+          <div class="mob-group-label">Use Cases</div>
+          <a href="/solutions/ai-search/" class="mob-item">Be Found in AI Search</a>
+          <a href="/platform/demandmetrics-genai/llm-tracking/" class="mob-item">Track Your Brand Across LLMs</a>
+          <a href="/solutions/automation/" class="mob-item">Search Automation</a>
+          <a href="/platform/demandmetrics/competitor-insights/" class="mob-item">Competitive Intelligence</a>
+        </div>
+        <div class="mob-group">
+          <div class="mob-group-label">By Team</div>
+          <a href="/solutions/for-executives/" class="mob-item featured">For Executives</a>
+          <a href="/solutions/seo-teams/" class="mob-item">In-House SEO Teams</a>
+          <a href="/solutions/agencies/" class="mob-item">Agencies</a>
+          <a href="/solutions/data-teams/" class="mob-item">Data & Analytics Teams</a>
+          <a href="/solutions/product-teams/" class="mob-item">Product Teams</a>
+          <a href="/solutions/developers/" class="mob-item">Developers & Data Engineering</a>
+        </div>
+        <div class="mob-group">
+          <div class="mob-group-label">Services</div>
+          <a href="/solutions/services/managed-services/" class="mob-item">Managed Services</a>
+          <a href="/solutions/services/consulting/" class="mob-item">Consulting</a>
+        </div>
+      </div>
+    </div>
+    <!-- Free Tools mobile (hidden pre-launch)
+    <div class="mob-section">
+      <button class="mob-toggle">Free Tools</button>
+      <div class="mob-content">
+        <div class="mob-group">
+          <a href="/tools/gsc/" class="mob-item">GSC Explorer</a>
+          <a href="/tools/domain-research/" class="mob-item">Domain Research</a>
+          <a href="/tools/ga4/" class="mob-item">GA4 Explorer</a>
+          <a href="/tools/market-trends/" class="mob-item">Market Trends</a>
+        </div>
+      </div>
+    </div>
+    -->
+    <div class="mob-section">
+      <button class="mob-toggle">Resources <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 6l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <div class="mob-content">
+        <div class="mob-group">
+          <div class="mob-group-label"><a href="/research/demandsphere-radar/" style="color:var(--muted); text-decoration:none; display:inline-flex; align-items:center; gap:5px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.07 4.93A10 10 0 0 0 6.99 3.34"/><path d="M4 6h.01"/><path d="M2.29 9.62A10 10 0 1 0 21.31 8.35"/><path d="M16.24 7.76A6 6 0 1 0 8.23 16.67"/><path d="M12 18h.01"/><path d="M17.99 11.66A6 6 0 0 1 15.77 16.67"/><circle cx="12" cy="12" r="2"/><path d="m13.41 10.59 5.66-5.66"/></svg> DemandSphere Radar</a></div>
+          <a href="/research/demandsphere-radar/ai-frontier-model-tracker/" class="mob-item">AI Frontier Model Tracker</a>
+          <a href="/research/demandsphere-radar/state-of-frontier-ai/" class="mob-item">State of Frontier AI</a>
+          <a href="/research/demandsphere-radar/algorithm-update-tracker/" class="mob-item">Google Algorithm &amp; AI Search Update Tracker</a>
+        </div>
+        <div class="mob-group">
+          <div class="mob-group-label">White Papers</div>
+          <a href="/resources/ai-overviews-report/" class="mob-item">AI Overviews Study</a>
+        </div>
+        <div class="mob-group">
+          <a href="/resources/" class="mob-item">Resource Center</a>
+          <a href="/blog/" class="mob-item">Blog</a>
+          <a href="/events/" class="mob-item">Events</a>
+          <a href="/resources/help-center/" class="mob-item">Help Center</a>
+        </div>
+      </div>
+    </div>
+    <a href="/enterprise/" class="mob-link">Enterprise</a>
+    <a href="/pricing/" class="mob-link">Pricing</a>
+    <div class="mob-actions">
+      <!-- Sign up free hidden pre-launch -->
+      <a href="/demo/" class="nav-btn-violet">Get a demo</a>
+      <a href="/login/" class="nav-signin">Sign in</a>
+    </div>
+  </div>
+</div>
+
+  <main>
+    <!-- ── Hero ── -->
+<header style="padding: 38px 32px 32px; max-width: 1080px; margin: 0 auto; text-align:center;">
+  <h1 style="font-family:'JetBrains Mono',monospace; font-size:11px; text-transform:uppercase; letter-spacing:.12em; color:var(--vlt); margin-bottom:20px; font-weight:600;">Unified AI Search Visibility</h1>
+  <h2 style="font-size:clamp(2.8rem, 6vw, 4.2rem); font-weight:700; letter-spacing:-0.03em; line-height:1.05; max-width:1000px; margin:0 auto 24px;">Scale your AI search visibility</h2>
+  <p style="font-size:17px; color:var(--slate); max-width:800px; margin:0 auto 36px; line-height:1.65;">Global AI search intelligence platform for in-house and agency growth teams.</p>
+  <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+    <a href="/demo/" class="btn btn-violet btn-lg">Get a demo</a>
+    <a href="/platform/" class="btn btn-ghost btn-lg">Explore the platform</a>
+  </div>
+</header>
+
+<!-- ── App Mockup Slider ── -->
+<div style="padding: 0 32px 16px; max-width: 960px; margin: 0 auto;">
+  <script src="/assets/js/lucide.min.js"></script>
+  <style>
+    @keyframes bi { from { transform:scaleY(0); opacity:0; } to { transform:scaleY(1); opacity:1; } }
+    .b { flex:1; border-radius:2px 2px 0 0; transform-origin:bottom; animation:bi .5s ease forwards; opacity:0; }
+    .hero-slide { display:none; }
+    .hero-slide.active { display:block; }
+    .hero-tab { padding:6px 14px; font-size:11px; font-family:'JetBrains Mono',monospace; letter-spacing:.04em; border-radius:6px; border:1px solid var(--border); background:transparent; color:var(--slate); cursor:pointer; transition:all .2s; white-space:nowrap; }
+    .hero-tab.active { background:var(--surface); color:var(--text); border-color:var(--border-hi); }
+    .hero-tab-bar { display:flex; gap:6px; justify-content:center; flex-wrap:wrap; margin-bottom:16px; }
+  </style>
+
+  <!-- Slider tabs -->
+  <div class="hero-tab-bar">
+    <button class="hero-tab active" data-slide="0" data-color="#5b8fff" onclick="heroGoTo(0)">
+      <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#3b82f6;margin-right:4px;vertical-align:middle;"></span>Overview
+    </button>
+    <button class="hero-tab" data-slide="1" data-color="#3b82f6" onclick="heroGoTo(1)">
+      <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#3b82f6;margin-right:4px;vertical-align:middle;"></span>DemandMetrics
+    </button>
+    <button class="hero-tab" data-slide="2" data-color="#8b5cf6" onclick="heroGoTo(2)">
+      <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#7c3aed;margin-right:4px;vertical-align:middle;"></span>Gen AI
+    </button>
+    <button class="hero-tab" data-slide="3" data-color="#ea580c" onclick="heroGoTo(3)">
+      <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#ea580c;margin-right:4px;vertical-align:middle;"></span>Agents
+    </button>
+    <button class="hero-tab" data-slide="4" data-color="#10b981" onclick="heroGoTo(4)">
+      <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#10b981;margin-right:4px;vertical-align:middle;"></span>Analytics AX
+    </button>
+    <button class="hero-tab" data-slide="5" data-color="#f59e0b" onclick="heroGoTo(5)">
+      <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#f59e0b;margin-right:4px;vertical-align:middle;"></span>Search Intelligence
+    </button>
+    <button class="hero-tab" data-slide="6" data-color="#94a3b8" onclick="heroGoTo(6)">
+      <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#94a3b8;margin-right:4px;vertical-align:middle;"></span>APIs
+    </button>
+  </div>
+
+  <!-- Slide 0: Overview (existing viz) -->
+  <div class="hero-slide active" data-index="0">
+
+  <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:12px;overflow:hidden;box-shadow:0 40px 80px rgba(0,0,0,.65), 0 0 0 1px rgba(255,255,255,.03) inset">
+
+    <!-- Title bar -->
+    <div style="height:38px;background:#111b2d;border-bottom:1px solid #1c2b40;display:flex;align-items:center;padding:0 16px;gap:7px">
+      <div style="width:10px;height:10px;border-radius:50%;background:#ff5f57;flex-shrink:0"></div>
+      <div style="width:10px;height:10px;border-radius:50%;background:#febc2e;flex-shrink:0"></div>
+      <div style="width:10px;height:10px;border-radius:50%;background:#28c840;flex-shrink:0"></div>
+      <div style="margin-left:6px;font-size:11px;color:#8b9bb0;font-family:'DM Sans',sans-serif;letter-spacing:0.01em">app.demandsphere.com – Visibility Overview</div>
+    </div>
+
+    <!-- App interior -->
+    <div style="display:flex;height:440px;overflow:hidden;background:#0d1420">
+
+      <!-- Sidebar -->
+      <div style="width:52px;background:#111b2d;border-right:1px solid #1c2b40;display:flex;flex-direction:column;align-items:center;padding:12px 0;gap:4px;flex-shrink:0">
+        <div style="width:34px;height:34px;border-radius:8px;background:rgba(91,143,255,.12);display:flex;align-items:center;justify-content:center;position:relative">
+          <i data-lucide="layout-dashboard" style="width:15px;height:15px;color:#5b8fff"></i>
+          <div style="position:absolute;left:0;top:6px;bottom:6px;width:2px;background:#5b8fff;border-radius:0 2px 2px 0"></div>
+        </div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center">
+          <i data-lucide="search" style="width:14px;height:14px;color:#243349"></i>
+        </div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center">
+          <i data-lucide="bot" style="width:14px;height:14px;color:#243349"></i>
+        </div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center">
+          <i data-lucide="bar-chart-2" style="width:14px;height:14px;color:#243349"></i>
+        </div>
+        <div style="width:22px;height:1px;background:#1c2b40;margin:4px 0"></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center">
+          <i data-lucide="plug" style="width:14px;height:14px;color:#243349"></i>
+        </div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center">
+          <i data-lucide="settings-2" style="width:14px;height:14px;color:#243349"></i>
+        </div>
+      </div>
+
+      <!-- Main area -->
+      <div style="flex:1;display:flex;flex-direction:column;overflow:hidden">
+
+        <!-- Section header -->
+        <div style="padding:16px 20px 0;display:flex;align-items:center;justify-content:space-between;flex-shrink:0">
+          <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#8b9bb0;font-family:'DM Sans',sans-serif">
+            VISIBILITY OVERVIEW - LAST 30 DAYS
+          </div>
+          <div style="display:flex;align-items:center;gap:4px">
+            <div style="padding:4px 12px;background:#1c2b40;border-radius:5px;font-size:10px;font-weight:600;color:#e8ecf4;font-family:'DM Sans',sans-serif">SERP</div>
+            <div style="padding:4px 12px;font-size:10px;color:#8b9bb0;font-family:'DM Sans',sans-serif">LLM</div>
+            <div style="padding:4px 12px;font-size:10px;color:#8b9bb0;font-family:'DM Sans',sans-serif">Logs</div>
+          </div>
+        </div>
+
+        <!-- Content area -->
+        <div style="flex:1;padding:14px 20px;display:flex;flex-direction:column;gap:12px;overflow:hidden;background:#0d1420;font-family:'DM Sans',sans-serif">
+
+          <!-- KPI cards -->
+          <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;flex-shrink:0">
+            <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+              <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#8b9bb0;margin-bottom:8px">AVG. POSITION</div>
+              <div style="font-size:26px;font-weight:600;color:#5b8fff;line-height:1;margin-bottom:6px">6.2</div>
+              <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#22c55e"><i data-lucide="trending-up" style="width:11px;height:11px"></i>0.8</div>
+            </div>
+            <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+              <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#8b9bb0;margin-bottom:8px">SHARE OF VOICE</div>
+              <div style="font-size:26px;font-weight:600;color:#5b8fff;line-height:1;margin-bottom:6px">34.1%</div>
+              <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#22c55e"><i data-lucide="trending-up" style="width:11px;height:11px"></i>2.3%</div>
+            </div>
+            <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+              <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#8b9bb0;margin-bottom:8px">AI OVERVIEWS</div>
+              <div style="font-size:26px;font-weight:600;color:#8b5cf6;line-height:1;margin-bottom:6px">218</div>
+              <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#ef4444"><i data-lucide="trending-down" style="width:11px;height:11px"></i>14</div>
+            </div>
+            <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+              <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#8b9bb0;margin-bottom:8px">LLM MENTIONS</div>
+              <div style="font-size:26px;font-weight:600;color:#8b5cf6;line-height:1;margin-bottom:6px">1,047</div>
+              <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#22c55e"><i data-lucide="trending-up" style="width:11px;height:11px"></i>12.4%</div>
+            </div>
+          </div>
+
+          <!-- Chart + brand mentions row -->
+          <div style="display:grid;grid-template-columns:1fr 280px;gap:12px;flex:1;min-height:0">
+
+            <!-- SVG line chart -->
+            <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px;display:flex;flex-direction:column">
+              <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#8b9bb0;margin-bottom:14px;flex-shrink:0">
+                SHARE OF VOICE - TRACKED KEYWORDS
+              </div>
+              <div style="flex:1;display:flex;gap:10px;min-height:0">
+                <div style="width:28px;display:flex;flex-direction:column;justify-content:space-between;padding-bottom:4px;flex-shrink:0">
+                  <div style="font-size:9px;color:#8b9bb0">40%</div>
+                  <div style="font-size:9px;color:#8b9bb0">30%</div>
+                  <div style="font-size:9px;color:#8b9bb0">20%</div>
+                </div>
+                <div style="flex:1;position:relative">
+                  <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="width:100%;height:100%;display:block">
+                    <line x1="0" y1="0" x2="500" y2="0" stroke="#1c2b40" stroke-width="0.5"/>
+                    <line x1="0" y1="50" x2="500" y2="50" stroke="#1c2b40" stroke-width="0.5"/>
+                    <line x1="0" y1="100" x2="500" y2="100" stroke="#1c2b40" stroke-width="0.5"/>
+                    <line x1="0" y1="150" x2="500" y2="150" stroke="#1c2b40" stroke-width="0.5"/>
+                    <line x1="360" y1="0" x2="360" y2="150" stroke="#3d5470" stroke-width="0.8" stroke-dasharray="3,2"/>
+                    <path d="M0,120 C100,115 200,100 300,80 C380,65 430,52 500,38" fill="none" stroke="#5b8fff" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="500" cy="38" r="4" fill="#5b8fff"/>
+                    <circle cx="500" cy="38" r="6" fill="rgba(91,143,255,.2)"/>
+                    <path d="M0,135 C100,130 200,120 300,105 C380,94 430,85 500,74" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                  <div style="position:absolute;top:18%;left:69%;background:#1c2b40;border:1px solid #243349;border-radius:6px;padding:5px 10px;font-size:11px;font-weight:600;color:#e8ecf4;white-space:nowrap;pointer-events:none">36.8%</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- LLM brand mentions -->
+            <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px;display:flex;flex-direction:column">
+              <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#8b9bb0;margin-bottom:14px;flex-shrink:0">
+                LLM BRAND MENTIONS
+              </div>
+              <div style="display:flex;flex-direction:column;gap:4px;flex:1;justify-content:center">
+                <div style="background:#0f1726;border:1px solid #1c2b40;border-radius:7px;padding:12px 16px;display:flex;align-items:center;gap:14px">
+                  <div style="width:72px;font-size:12px;font-weight:600;color:#e8ecf4;flex-shrink:0">ChatGPT</div>
+                  <div style="flex:1;height:3px;background:#1c2b40;border-radius:999px;overflow:hidden">
+                    <div style="width:72%;height:100%;background:linear-gradient(90deg,#6d4cdb,#8b5cf6);border-radius:999px"></div>
+                  </div>
+                  <div style="width:32px;text-align:right;font-size:11px;color:#8b9bb0;flex-shrink:0">72%</div>
+                </div>
+                <div style="background:#0f1726;border:1px solid #1c2b40;border-radius:7px;padding:12px 16px;display:flex;align-items:center;gap:14px">
+                  <div style="width:72px;font-size:12px;font-weight:600;color:#e8ecf4;flex-shrink:0">Perplexity</div>
+                  <div style="flex:1;height:3px;background:#1c2b40;border-radius:999px;overflow:hidden">
+                    <div style="width:58%;height:100%;background:linear-gradient(90deg,#6d4cdb,#8b5cf6);border-radius:999px"></div>
+                  </div>
+                  <div style="width:32px;text-align:right;font-size:11px;color:#8b9bb0;flex-shrink:0">58%</div>
+                </div>
+                <div style="background:#0f1726;border:1px solid #1c2b40;border-radius:7px;padding:12px 16px;display:flex;align-items:center;gap:14px">
+                  <div style="width:72px;font-size:12px;font-weight:600;color:#e8ecf4;flex-shrink:0">Gemini</div>
+                  <div style="flex:1;height:3px;background:#1c2b40;border-radius:999px;overflow:hidden">
+                    <div style="width:41%;height:100%;background:linear-gradient(90deg,#6d4cdb,#8b5cf6);border-radius:999px"></div>
+                  </div>
+                  <div style="width:32px;text-align:right;font-size:11px;color:#8b9bb0;flex-shrink:0">41%</div>
+                </div>
+                <div style="background:#0f1726;border:1px solid #1c2b40;border-radius:7px;padding:12px 16px;display:flex;align-items:center;gap:14px">
+                  <div style="width:72px;font-size:12px;font-weight:600;color:#e8ecf4;flex-shrink:0">Copilot</div>
+                  <div style="flex:1;height:3px;background:#1c2b40;border-radius:999px;overflow:hidden">
+                    <div style="width:29%;height:100%;background:linear-gradient(90deg,#6d4cdb,#8b5cf6);border-radius:999px"></div>
+                  </div>
+                  <div style="width:32px;text-align:right;font-size:11px;color:#8b9bb0;flex-shrink:0">29%</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div><!-- /slide 0 -->
+
+  <!-- Slide 1: DemandMetrics SERP Analytics -->
+  <div class="hero-slide" data-index="1">
+    <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:12px;overflow:hidden;box-shadow:0 40px 80px rgba(0,0,0,.65),0 0 0 1px rgba(255,255,255,.03) inset">
+      <div style="height:38px;background:#111b2d;border-bottom:1px solid #1c2b40;display:flex;align-items:center;padding:0 16px;gap:7px">
+        <div style="width:10px;height:10px;border-radius:50%;background:#ff5f57"></div>
+        <div style="width:10px;height:10px;border-radius:50%;background:#febc2e"></div>
+        <div style="width:10px;height:10px;border-radius:50%;background:#28c840"></div>
+        <div style="margin-left:6px;font-size:11px;color:#3d5470;font-family:'DM Sans',sans-serif">app.demandsphere.com - SERP Analytics</div>
+      </div>
+      <div style="display:flex;height:440px;overflow:hidden;background:#0d1420">
+        <div style="width:52px;background:#111b2d;border-right:1px solid #1c2b40;display:flex;flex-direction:column;align-items:center;padding:12px 0;gap:4px;flex-shrink:0">
+          <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="layout-dashboard" style="width:15px;height:15px;color:#243349"></i></div>
+          <div style="width:34px;height:34px;border-radius:8px;background:rgba(91,143,255,.12);display:flex;align-items:center;justify-content:center;position:relative"><i data-lucide="search" style="width:15px;height:15px;color:#5b8fff"></i><div style="position:absolute;left:0;top:6px;bottom:6px;width:2px;background:#5b8fff;border-radius:0 2px 2px 0"></div></div>
+          <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="bot" style="width:14px;height:14px;color:#243349"></i></div>
+          <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="bar-chart-2" style="width:14px;height:14px;color:#243349"></i></div>
+          <div style="width:22px;height:1px;background:#1c2b40;margin:4px 0"></div>
+          <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="plug" style="width:14px;height:14px;color:#243349"></i></div>
+          <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="settings-2" style="width:14px;height:14px;color:#243349"></i></div>
+        </div>
+        <div style="flex:1;display:flex;flex-direction:column;overflow:hidden;font-family:'DM Sans',sans-serif">
+          <div style="padding:16px 20px 0;display:flex;align-items:center;justify-content:space-between;flex-shrink:0">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470">SERP ANALYTICS - LAST 30 DAYS</div>
+            <div style="display:flex;align-items:center;gap:4px">
+              <div style="padding:4px 12px;background:#1c2b40;border-radius:5px;font-size:10px;font-weight:600;color:#e8ecf4">All Keywords</div>
+              <div style="padding:4px 12px;font-size:10px;color:#3d5470">Groups</div>
+              <div style="padding:4px 12px;font-size:10px;color:#3d5470">Competitors</div>
+            </div>
+          </div>
+          <div style="flex:1;padding:14px 20px;display:flex;flex-direction:column;gap:12px;overflow:hidden;background:#0d1420">
+            <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;flex-shrink:0">
+              <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+                <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:8px">AVG. POSITION</div>
+                <div style="font-size:26px;font-weight:600;color:#5b8fff;line-height:1;margin-bottom:6px">4.7</div>
+                <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#22c55e"><i data-lucide="trending-up" style="width:11px;height:11px"></i>1.2</div>
+              </div>
+              <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+                <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:8px">SHARE OF VOICE</div>
+                <div style="font-size:26px;font-weight:600;color:#5b8fff;line-height:1;margin-bottom:6px">38.6%</div>
+                <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#22c55e"><i data-lucide="trending-up" style="width:11px;height:11px"></i>3.1%</div>
+              </div>
+              <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+                <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:8px">KEYWORDS TRACKED</div>
+                <div style="font-size:26px;font-weight:600;color:#5b8fff;line-height:1;margin-bottom:6px">12,847</div>
+                <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#22c55e"><i data-lucide="trending-up" style="width:11px;height:11px"></i>340</div>
+              </div>
+              <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+                <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:8px">SERP FEATURES</div>
+                <div style="font-size:26px;font-weight:600;color:#5b8fff;line-height:1;margin-bottom:6px">1,923</div>
+                <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#22c55e"><i data-lucide="trending-up" style="width:11px;height:11px"></i>8.7%</div>
+              </div>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 280px;gap:12px;flex:1;min-height:0">
+              <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px;display:flex;flex-direction:column">
+                <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:14px;flex-shrink:0">RANKING DISTRIBUTION - TOP 20</div>
+                <div style="flex:1;display:flex;align-items:flex-end;gap:3px;min-height:0">
+                  <div class="b" style="height:95%;background:rgba(91,143,255,.90);animation-delay:.00s"></div>
+                  <div class="b" style="height:98%;background:rgba(91,143,255,.92);animation-delay:.02s"></div>
+                  <div class="b" style="height:92%;background:rgba(91,143,255,.88);animation-delay:.04s"></div>
+                  <div class="b" style="height:96%;background:rgba(91,143,255,.91);animation-delay:.06s"></div>
+                  <div class="b" style="height:90%;background:rgba(91,143,255,.87);animation-delay:.08s"></div>
+                  <div class="b" style="height:93%;background:rgba(91,143,255,.89);animation-delay:.10s"></div>
+                  <div class="b" style="height:88%;background:rgba(91,143,255,.85);animation-delay:.12s"></div>
+                  <div class="b" style="height:94%;background:rgba(91,143,255,.90);animation-delay:.14s"></div>
+                  <div class="b" style="height:91%;background:rgba(91,143,255,.88);animation-delay:.16s"></div>
+                  <div class="b" style="height:89%;background:rgba(91,143,255,.86);animation-delay:.18s"></div>
+                  <div class="b" style="height:93%;background:rgba(91,143,255,.89);animation-delay:.20s"></div>
+                  <div class="b" style="height:90%;background:rgba(91,143,255,.87);animation-delay:.22s"></div>
+                  <div class="b" style="height:87%;background:rgba(91,143,255,.84);animation-delay:.24s"></div>
+                  <div class="b" style="height:92%;background:rgba(91,143,255,.88);animation-delay:.26s"></div>
+                  <div class="b" style="height:89%;background:rgba(91,143,255,.86);animation-delay:.28s"></div>
+                  <div class="b" style="height:91%;background:rgba(91,143,255,.88);animation-delay:.30s"></div>
+                  <div class="b" style="height:88%;background:rgba(91,143,255,.85);animation-delay:.32s"></div>
+                  <div class="b" style="height:94%;background:rgba(91,143,255,.90);animation-delay:.34s"></div>
+                  <div class="b" style="height:90%;background:rgba(91,143,255,.87);animation-delay:.36s"></div>
+                  <div class="b" style="height:92%;background:rgba(91,143,255,.88);animation-delay:.38s"></div>
+                </div>
+                <div style="display:flex;justify-content:space-between;margin-top:8px;font-size:9px;color:#3d5470">
+                  <span>Pos 1</span><span>Pos 5</span><span>Pos 10</span><span>Pos 15</span><span>Pos 20</span>
+                </div>
+              </div>
+              <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;overflow:hidden">
+                <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:12px;flex-shrink:0">TOP MOVERS</div>
+                <div style="display:flex;align-items:center;padding:0 0 8px;border-bottom:1px solid #1c2b40;margin-bottom:4px;font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:#3d5470">
+                  <div style="flex:1">Keyword</div>
+                  <div style="width:42px;text-align:right">Pos</div>
+                  <div style="width:52px;text-align:right">Change</div>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:2px;flex:1;overflow:hidden">
+                  <div style="display:flex;align-items:center;padding:8px 0;border-bottom:1px solid #1c2b40">
+                    <div style="flex:1;font-size:12px;font-weight:500;color:#e8ecf4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">enterprise seo platform</div>
+                    <div style="width:42px;text-align:right;font-size:12px;font-weight:600;color:#5b8fff">2</div>
+                    <div style="width:52px;text-align:right;font-size:11px;color:#22c55e;display:flex;align-items:center;justify-content:flex-end;gap:2px"><i data-lucide="trending-up" style="width:10px;height:10px"></i>+5</div>
+                  </div>
+                  <div style="display:flex;align-items:center;padding:8px 0;border-bottom:1px solid #1c2b40">
+                    <div style="flex:1;font-size:12px;font-weight:500;color:#e8ecf4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">serp analytics tool</div>
+                    <div style="width:42px;text-align:right;font-size:12px;font-weight:600;color:#5b8fff">1</div>
+                    <div style="width:52px;text-align:right;font-size:11px;color:#22c55e;display:flex;align-items:center;justify-content:flex-end;gap:2px"><i data-lucide="trending-up" style="width:10px;height:10px"></i>+3</div>
+                  </div>
+                  <div style="display:flex;align-items:center;padding:8px 0;border-bottom:1px solid #1c2b40">
+                    <div style="flex:1;font-size:12px;font-weight:500;color:#e8ecf4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">rank tracking software</div>
+                    <div style="width:42px;text-align:right;font-size:12px;font-weight:600;color:#5b8fff">3</div>
+                    <div style="width:52px;text-align:right;font-size:11px;color:#22c55e;display:flex;align-items:center;justify-content:flex-end;gap:2px"><i data-lucide="trending-up" style="width:10px;height:10px"></i>+4</div>
+                  </div>
+                  <div style="display:flex;align-items:center;padding:8px 0;border-bottom:1px solid #1c2b40">
+                    <div style="flex:1;font-size:12px;font-weight:500;color:#e8ecf4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">competitor serp analysis</div>
+                    <div style="width:42px;text-align:right;font-size:12px;font-weight:600;color:#5b8fff">4</div>
+                    <div style="width:52px;text-align:right;font-size:11px;color:#22c55e;display:flex;align-items:center;justify-content:flex-end;gap:2px"><i data-lucide="trending-up" style="width:10px;height:10px"></i>+7</div>
+                  </div>
+                  <div style="display:flex;align-items:center;padding:8px 0;border-bottom:1px solid #1c2b40">
+                    <div style="flex:1;font-size:12px;font-weight:500;color:#e8ecf4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">ai overview tracking</div>
+                    <div style="width:42px;text-align:right;font-size:12px;font-weight:600;color:#5b8fff">6</div>
+                    <div style="width:52px;text-align:right;font-size:11px;color:#22c55e;display:flex;align-items:center;justify-content:flex-end;gap:2px"><i data-lucide="trending-up" style="width:10px;height:10px"></i>+9</div>
+                  </div>
+                  <div style="display:flex;align-items:center;padding:8px 0">
+                    <div style="flex:1;font-size:12px;font-weight:500;color:#e8ecf4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">share of voice seo</div>
+                    <div style="width:42px;text-align:right;font-size:12px;font-weight:600;color:#5b8fff">5</div>
+                    <div style="width:52px;text-align:right;font-size:11px;color:#ef4444;display:flex;align-items:center;justify-content:flex-end;gap:2px"><i data-lucide="trending-down" style="width:10px;height:10px"></i>-2</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /slide 1 -->
+
+  <!-- Slide 2: Gen AI / LLM Visibility -->
+  <div class="hero-slide" data-index="2">
+    <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:12px;overflow:hidden;box-shadow:0 40px 80px rgba(0,0,0,.65),0 0 0 1px rgba(255,255,255,.03) inset">
+      <div style="height:38px;background:#111b2d;border-bottom:1px solid #1c2b40;display:flex;align-items:center;padding:0 16px;gap:7px">
+        <div style="width:10px;height:10px;border-radius:50%;background:#ff5f57"></div>
+        <div style="width:10px;height:10px;border-radius:50%;background:#febc2e"></div>
+        <div style="width:10px;height:10px;border-radius:50%;background:#28c840"></div>
+        <div style="margin-left:6px;font-size:11px;color:#3d5470;font-family:'DM Sans',sans-serif">app.demandsphere.com - LLM Visibility</div>
+      </div>
+<div style="display:flex;height:440px;overflow:hidden;background:#0d1420">
+      <div style="width:52px;background:#111b2d;border-right:1px solid #1c2b40;display:flex;flex-direction:column;align-items:center;padding:12px 0;gap:4px;flex-shrink:0">
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="layout-dashboard" style="width:15px;height:15px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="search" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="bot" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="bar-chart-2" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:22px;height:1px;background:#1c2b40;margin:4px 0"></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="plug" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="settings-2" style="width:14px;height:14px;color:#243349"></i></div>
+      </div>
+      <div style="flex:1;display:flex;flex-direction:column;overflow:hidden">
+        <div style="flex:1;padding:20px;display:flex;flex-direction:column;gap:12px;overflow:hidden;background:#0d1420;font-family:'DM Sans',sans-serif">
+        <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#8b9bb0;margin-bottom:0">AI SEARCH VISIBILITY - BRAND CITATIONS</div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px">
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:8px;font-family:'DM Sans',sans-serif">MENTIONS</div>
+            <div style="font-size:26px;font-weight:600;color:#8b5cf6;line-height:1;margin-bottom:6px;font-family:'DM Sans',sans-serif">2,847</div>
+            <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#22c55e;font-family:'DM Sans',sans-serif">+18.2%</div>
+          </div>
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:8px;font-family:'DM Sans',sans-serif">CITATIONS</div>
+            <div style="font-size:26px;font-weight:600;color:#8b5cf6;line-height:1;margin-bottom:6px;font-family:'DM Sans',sans-serif">1,203</div>
+            <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#22c55e;font-family:'DM Sans',sans-serif">+24.1%</div>
+          </div>
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:8px;font-family:'DM Sans',sans-serif">SENTIMENT</div>
+            <div style="font-size:26px;font-weight:600;color:#22c55e;line-height:1;margin-bottom:6px;font-family:'DM Sans',sans-serif">84%</div>
+            <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#22c55e;font-family:'DM Sans',sans-serif">Positive</div>
+          </div>
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:8px;font-family:'DM Sans',sans-serif">ENGINES</div>
+            <div style="font-size:26px;font-weight:600;color:#8b5cf6;line-height:1;margin-bottom:6px;font-family:'DM Sans',sans-serif">9</div>
+            <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#3d5470;font-family:'DM Sans',sans-serif">Tracked</div>
+          </div>
+        </div>
+        <div style="flex:1;display:grid;grid-template-columns:1fr 1fr;gap:12px;min-height:0">
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:16px;display:flex;flex-direction:column">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:12px;font-family:'DM Sans',sans-serif">CITATION SHARE BY ENGINE</div>
+            <div style="flex:1;display:flex;flex-direction:column;gap:8px;justify-content:center">
+              <div style="display:flex;align-items:center;gap:10px"><span style="width:64px;font-size:11px;color:#e8ecf4;font-family:'DM Sans',sans-serif">ChatGPT</span><div style="flex:1;height:4px;background:#1c2b40;border-radius:2px"><div style="width:68%;height:100%;background:#8b5cf6;border-radius:2px"></div></div><span style="width:28px;font-size:10px;color:#3d5470;text-align:right;font-family:'DM Sans',sans-serif">68%</span></div>
+              <div style="display:flex;align-items:center;gap:10px"><span style="width:64px;font-size:11px;color:#e8ecf4;font-family:'DM Sans',sans-serif">Perplexity</span><div style="flex:1;height:4px;background:#1c2b40;border-radius:2px"><div style="width:54%;height:100%;background:#8b5cf6;border-radius:2px"></div></div><span style="width:28px;font-size:10px;color:#3d5470;text-align:right;font-family:'DM Sans',sans-serif">54%</span></div>
+              <div style="display:flex;align-items:center;gap:10px"><span style="width:64px;font-size:11px;color:#e8ecf4;font-family:'DM Sans',sans-serif">Gemini</span><div style="flex:1;height:4px;background:#1c2b40;border-radius:2px"><div style="width:42%;height:100%;background:#8b5cf6;border-radius:2px"></div></div><span style="width:28px;font-size:10px;color:#3d5470;text-align:right;font-family:'DM Sans',sans-serif">42%</span></div>
+              <div style="display:flex;align-items:center;gap:10px"><span style="width:64px;font-size:11px;color:#e8ecf4;font-family:'DM Sans',sans-serif">Copilot</span><div style="flex:1;height:4px;background:#1c2b40;border-radius:2px"><div style="width:31%;height:100%;background:#8b5cf6;border-radius:2px"></div></div><span style="width:28px;font-size:10px;color:#3d5470;text-align:right;font-family:'DM Sans',sans-serif">31%</span></div>
+              <div style="display:flex;align-items:center;gap:10px"><span style="width:64px;font-size:11px;color:#e8ecf4;font-family:'DM Sans',sans-serif">AI Mode</span><div style="flex:1;height:4px;background:#1c2b40;border-radius:2px"><div style="width:22%;height:100%;background:#5b8fff;border-radius:2px"></div></div><span style="width:28px;font-size:10px;color:#3d5470;text-align:right;font-family:'DM Sans',sans-serif">22%</span></div>
+            </div>
+          </div>
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:16px;display:flex;flex-direction:column">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:12px;font-family:'DM Sans',sans-serif">TOP CITED PROMPTS</div>
+            <div style="flex:1;display:flex;flex-direction:column;gap:6px;justify-content:center">
+              <div style="display:flex;align-items:center;gap:8px;font-size:11px;font-family:'DM Sans',sans-serif"><span style="color:#8b5cf6;font-weight:600;width:16px">1.</span><span style="color:#e8ecf4;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">best enterprise seo platform</span><span style="color:#3d5470">284</span></div>
+              <div style="display:flex;align-items:center;gap:8px;font-size:11px;font-family:'DM Sans',sans-serif"><span style="color:#8b5cf6;font-weight:600;width:16px">2.</span><span style="color:#e8ecf4;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">how to track ai search visibility</span><span style="color:#3d5470">196</span></div>
+              <div style="display:flex;align-items:center;gap:8px;font-size:11px;font-family:'DM Sans',sans-serif"><span style="color:#8b5cf6;font-weight:600;width:16px">3.</span><span style="color:#e8ecf4;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">ai overview optimization tools</span><span style="color:#3d5470">142</span></div>
+              <div style="display:flex;align-items:center;gap:8px;font-size:11px;font-family:'DM Sans',sans-serif"><span style="color:#8b5cf6;font-weight:600;width:16px">4.</span><span style="color:#e8ecf4;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">llm brand monitoring comparison</span><span style="color:#3d5470">128</span></div>
+              <div style="display:flex;align-items:center;gap:8px;font-size:11px;font-family:'DM Sans',sans-serif"><span style="color:#8b5cf6;font-weight:600;width:16px">5.</span><span style="color:#e8ecf4;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">perplexity citation tracking</span><span style="color:#3d5470">97</span></div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div><!-- /slide 2 -->
+
+  <!-- Slide 3: Agents -->
+  <div class="hero-slide" data-index="3">
+    <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:12px;overflow:hidden;box-shadow:0 40px 80px rgba(0,0,0,.65),0 0 0 1px rgba(255,255,255,.03) inset">
+      <div style="height:38px;background:#111b2d;border-bottom:1px solid #1c2b40;display:flex;align-items:center;padding:0 16px;gap:7px">
+        <div style="width:10px;height:10px;border-radius:50%;background:#ff5f57"></div>
+        <div style="width:10px;height:10px;border-radius:50%;background:#febc2e"></div>
+        <div style="width:10px;height:10px;border-radius:50%;background:#28c840"></div>
+        <div style="margin-left:6px;font-size:11px;color:#3d5470;font-family:'DM Sans',sans-serif">app.demandsphere.com - Agent Builder</div>
+      </div>
+<div style="display:flex;height:440px;overflow:hidden;background:#0d1420">
+      <div style="width:52px;background:#111b2d;border-right:1px solid #1c2b40;display:flex;flex-direction:column;align-items:center;padding:12px 0;gap:4px;flex-shrink:0">
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="layout-dashboard" style="width:15px;height:15px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="search" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="bot" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="bar-chart-2" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:22px;height:1px;background:#1c2b40;margin:4px 0"></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="plug" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="settings-2" style="width:14px;height:14px;color:#243349"></i></div>
+      </div>
+      <div style="flex:1;display:flex;flex-direction:column;overflow:hidden">
+        <div style="flex:1;position:relative;overflow:hidden;background:#0d1420;display:flex;align-items:center;justify-content:center">
+          <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;font-family:'DM Sans',sans-serif;position:absolute;top:16px;left:20px">AGENT BUILDER - KEYWORD PERFORMANCE REPORT</div>
+          <!-- Mini workflow nodes -->
+          <div style="position:relative;width:580px;height:240px;transform:scale(1.35);transform-origin:center center">
+            <svg style="position:absolute;top:0;left:0;width:580px;height:240px;pointer-events:none">
+              <path d="M 85 120 C 110 120, 110 50, 130 50" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+              <path d="M 85 120 C 110 120, 110 120, 130 120" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+              <path d="M 85 120 C 110 120, 110 190, 130 190" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+              <path d="M 230 50 C 255 50, 255 120, 275 120" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+              <path d="M 230 120 C 255 120, 255 120, 275 120" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+              <path d="M 230 190 C 255 190, 255 120, 275 120" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+              <line x1="360" y1="120" x2="385" y2="120" stroke="#22d3ee" stroke-width="1.5"/>
+              <path d="M 485 120 C 505 120, 505 60, 520 60" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+              <path d="M 485 120 C 505 120, 505 180, 520 180" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+            </svg>
+            <div style="position:absolute;top:92px;left:0;width:85px;background:#141d2e;border:1px solid #1c2b40;border-radius:6px;padding:6px 8px"><div style="font-size:7px;font-weight:700;color:#22c55e;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px;font-family:'DM Sans',sans-serif">Trigger</div><div style="font-size:10px;font-weight:600;color:#e8ecf4;font-family:'DM Sans',sans-serif">Scheduled</div></div>
+            <div style="position:absolute;top:22px;left:128px;width:102px;background:#141d2e;border:1px solid #1c2b40;border-radius:6px;padding:6px 8px"><div style="font-size:7px;font-weight:700;color:#5b8fff;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px;font-family:'DM Sans',sans-serif">DS Data</div><div style="font-size:10px;font-weight:600;color:#e8ecf4;font-family:'DM Sans',sans-serif">Citations</div></div>
+            <div style="position:absolute;top:92px;left:128px;width:102px;background:#141d2e;border:1px solid #1c2b40;border-radius:6px;padding:6px 8px"><div style="font-size:7px;font-weight:700;color:#5b8fff;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px;font-family:'DM Sans',sans-serif">DS Data</div><div style="font-size:10px;font-weight:600;color:#e8ecf4;font-family:'DM Sans',sans-serif">Keywords</div></div>
+            <div style="position:absolute;top:162px;left:128px;width:102px;background:#141d2e;border:1px solid #1c2b40;border-radius:6px;padding:6px 8px"><div style="font-size:7px;font-weight:700;color:#f59e0b;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px;font-family:'DM Sans',sans-serif">Load URL</div><div style="font-size:10px;font-weight:600;color:#e8ecf4;font-family:'DM Sans',sans-serif">Competitors</div></div>
+            <div style="position:absolute;top:92px;left:273px;width:88px;background:#141d2e;border:1px solid #1c2b40;border-radius:6px;padding:6px 8px"><div style="font-size:7px;font-weight:700;color:#8b5cf6;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px;font-family:'DM Sans',sans-serif">Batch</div><div style="font-size:10px;font-weight:600;color:#e8ecf4;font-family:'DM Sans',sans-serif">Merge</div></div>
+            <div style="position:absolute;top:89px;left:383px;width:102px;background:#141d2e;border:2px solid #ea580c;border-radius:6px;padding:6px 8px"><div style="font-size:7px;font-weight:700;color:#8b5cf6;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px;font-family:'DM Sans',sans-serif">Claude LLM</div><div style="font-size:10px;font-weight:600;color:#e8ecf4;font-family:'DM Sans',sans-serif">Analysis</div></div>
+            <div style="position:absolute;top:32px;left:518px;width:60px;background:#141d2e;border:1px solid #1c2b40;border-radius:6px;padding:6px 8px"><div style="font-size:7px;font-weight:700;color:#ea580c;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px;font-family:'DM Sans',sans-serif">Slack</div><div style="font-size:9px;color:#e8ecf4;font-family:'DM Sans',sans-serif">#alerts</div></div>
+            <div style="position:absolute;top:152px;left:518px;width:60px;background:#141d2e;border:1px solid #1c2b40;border-radius:6px;padding:6px 8px"><div style="font-size:7px;font-weight:700;color:#ea580c;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px;font-family:'DM Sans',sans-serif">Email</div><div style="font-size:9px;color:#e8ecf4;font-family:'DM Sans',sans-serif">Strategy Update</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div><!-- /slide 3 -->
+
+  <!-- Slide 4: Analytics AX -->
+  <div class="hero-slide" data-index="4">
+    <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:12px;overflow:hidden;box-shadow:0 40px 80px rgba(0,0,0,.65),0 0 0 1px rgba(255,255,255,.03) inset">
+      <div style="height:38px;background:#111b2d;border-bottom:1px solid #1c2b40;display:flex;align-items:center;padding:0 16px;gap:7px">
+        <div style="width:10px;height:10px;border-radius:50%;background:#ff5f57"></div>
+        <div style="width:10px;height:10px;border-radius:50%;background:#febc2e"></div>
+        <div style="width:10px;height:10px;border-radius:50%;background:#28c840"></div>
+        <div style="margin-left:6px;font-size:11px;color:#3d5470;font-family:'DM Sans',sans-serif">app.demandsphere.com - Log Analytics</div>
+      </div>
+<div style="display:flex;height:440px;overflow:hidden;background:#0d1420">
+      <div style="width:52px;background:#111b2d;border-right:1px solid #1c2b40;display:flex;flex-direction:column;align-items:center;padding:12px 0;gap:4px;flex-shrink:0">
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="layout-dashboard" style="width:15px;height:15px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="search" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="bot" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="bar-chart-2" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:22px;height:1px;background:#1c2b40;margin:4px 0"></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="plug" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="settings-2" style="width:14px;height:14px;color:#243349"></i></div>
+      </div>
+      <div style="flex:1;display:flex;flex-direction:column;overflow:hidden">
+        <div style="flex:1;padding:20px;display:flex;flex-direction:column;gap:12px;overflow:hidden;background:#0d1420;font-family:'DM Sans',sans-serif">
+        <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#8b9bb0;margin-bottom:0">CRAWL ANALYTICS - BOT TRAFFIC</div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px">
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:8px;font-family:'DM Sans',sans-serif">TOTAL CRAWLS</div>
+            <div style="font-size:26px;font-weight:600;color:#10b981;line-height:1;margin-bottom:6px;font-family:'DM Sans',sans-serif">847K</div>
+            <div style="font-size:11px;color:#3d5470;font-family:'DM Sans',sans-serif">Last 7 days</div>
+          </div>
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:8px;font-family:'DM Sans',sans-serif">GOOGLEBOT</div>
+            <div style="font-size:26px;font-weight:600;color:#10b981;line-height:1;margin-bottom:6px;font-family:'DM Sans',sans-serif">62%</div>
+            <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#ef4444;font-family:'DM Sans',sans-serif">-4.2%</div>
+          </div>
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:8px;font-family:'DM Sans',sans-serif">AI BOTS</div>
+            <div style="font-size:26px;font-weight:600;color:#8b5cf6;line-height:1;margin-bottom:6px;font-family:'DM Sans',sans-serif">23%</div>
+            <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#22c55e;font-family:'DM Sans',sans-serif">+8.1%</div>
+          </div>
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:8px;font-family:'DM Sans',sans-serif">ERRORS</div>
+            <div style="font-size:26px;font-weight:600;color:#ef4444;line-height:1;margin-bottom:6px;font-family:'DM Sans',sans-serif">1.2%</div>
+            <div style="display:flex;align-items:center;gap:3px;font-size:11px;color:#22c55e;font-family:'DM Sans',sans-serif">-0.3%</div>
+          </div>
+        </div>
+        <div style="flex:1;background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:16px;display:flex;flex-direction:column">
+          <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:12px;font-family:'DM Sans',sans-serif">BOT TRAFFIC BY TYPE - 7 DAYS</div>
+          <div style="flex:1;display:flex;align-items:flex-end;gap:3px;padding-top:8px">
+            <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px"><div style="width:100%;background:#10b981;border-radius:2px 2px 0 0;height:120px;opacity:.9"></div><div style="font-size:8px;color:#3d5470;font-family:'DM Sans',sans-serif">Mon</div></div>
+            <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px"><div style="width:100%;background:#10b981;border-radius:2px 2px 0 0;height:105px;opacity:.9"></div><div style="font-size:8px;color:#3d5470;font-family:'DM Sans',sans-serif">Tue</div></div>
+            <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px"><div style="width:100%;background:#10b981;border-radius:2px 2px 0 0;height:130px;opacity:.9"></div><div style="font-size:8px;color:#3d5470;font-family:'DM Sans',sans-serif">Wed</div></div>
+            <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px"><div style="width:100%;background:#10b981;border-radius:2px 2px 0 0;height:95px;opacity:.9"></div><div style="font-size:8px;color:#3d5470;font-family:'DM Sans',sans-serif">Thu</div></div>
+            <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px"><div style="width:100%;background:#10b981;border-radius:2px 2px 0 0;height:140px;opacity:.9"></div><div style="font-size:8px;color:#3d5470;font-family:'DM Sans',sans-serif">Fri</div></div>
+            <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px"><div style="width:100%;background:#8b5cf6;border-radius:2px 2px 0 0;height:60px;opacity:.9"></div><div style="font-size:8px;color:#3d5470;font-family:'DM Sans',sans-serif">Sat</div></div>
+            <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px"><div style="width:100%;background:#8b5cf6;border-radius:2px 2px 0 0;height:45px;opacity:.9"></div><div style="font-size:8px;color:#3d5470;font-family:'DM Sans',sans-serif">Sun</div></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div><!-- /slide 4 -->
+
+  <!-- Slide 5: Search Intelligence -->
+  <div class="hero-slide" data-index="5">
+    <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:12px;overflow:hidden;box-shadow:0 40px 80px rgba(0,0,0,.65),0 0 0 1px rgba(255,255,255,.03) inset">
+      <div style="height:38px;background:#111b2d;border-bottom:1px solid #1c2b40;display:flex;align-items:center;padding:0 16px;gap:7px">
+        <div style="width:10px;height:10px;border-radius:50%;background:#ff5f57"></div>
+        <div style="width:10px;height:10px;border-radius:50%;background:#febc2e"></div>
+        <div style="width:10px;height:10px;border-radius:50%;background:#28c840"></div>
+        <div style="margin-left:6px;font-size:11px;color:#3d5470;font-family:'DM Sans',sans-serif">app.demandsphere.com - Search Intelligence</div>
+      </div>
+<div style="display:flex;height:440px;overflow:hidden;background:#0d1420">
+      <div style="width:52px;background:#111b2d;border-right:1px solid #1c2b40;display:flex;flex-direction:column;align-items:center;padding:12px 0;gap:4px;flex-shrink:0">
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="layout-dashboard" style="width:15px;height:15px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="search" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="bot" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="bar-chart-2" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:22px;height:1px;background:#1c2b40;margin:4px 0"></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="plug" style="width:14px;height:14px;color:#243349"></i></div>
+        <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="settings-2" style="width:14px;height:14px;color:#243349"></i></div>
+      </div>
+      <div style="flex:1;display:flex;flex-direction:column;overflow:hidden">
+        <div style="flex:1;padding:16px 20px;display:flex;flex-direction:column;gap:10px;overflow:hidden;background:#0d1420;font-family:'DM Sans',sans-serif">
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-shrink:0">
+          <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#8b9bb0">BIGQUERY DATA WAREHOUSE</div>
+          <div style="display:flex;align-items:center;gap:4px">
+            <div style="padding:4px 12px;background:#1c2b40;border-radius:5px;font-size:10px;font-weight:600;color:#e8ecf4">All Data</div>
+            <div style="padding:4px 12px;font-size:10px;color:#3d5470">SERP</div>
+            <div style="padding:4px 12px;font-size:10px;color:#3d5470">LLM</div>
+            <div style="padding:4px 12px;font-size:10px;color:#3d5470">Logs</div>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;flex-shrink:0">
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:12px 14px">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:6px">TOTAL ROWS</div>
+            <div style="font-size:22px;font-weight:600;color:#f59e0b;line-height:1">847M</div>
+          </div>
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:12px 14px">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:6px">DATA SOURCES</div>
+            <div style="font-size:22px;font-weight:600;color:#f59e0b;line-height:1">7</div>
+          </div>
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:12px 14px">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:6px">STORAGE</div>
+            <div style="font-size:22px;font-weight:600;color:#f59e0b;line-height:1">2.4TB</div>
+          </div>
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:12px 14px">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:6px">QUERIES/DAY</div>
+            <div style="font-size:22px;font-weight:600;color:#f59e0b;line-height:1">1,240</div>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 220px;gap:10px;flex:1;min-height:0">
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px;font-family:'JetBrains Mono',monospace;display:flex;flex-direction:column;overflow:hidden">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#f59e0b;margin-bottom:10px;font-family:'DM Sans',sans-serif">SQL EDITOR</div>
+            <div style="flex:1;font-size:11px;line-height:1.7;color:#8b9bb0">
+              <span style="color:#f59e0b">SELECT</span> <span style="color:#e8ecf4">keyword</span>, <span style="color:#e8ecf4">position</span>, <span style="color:#e8ecf4">ai_mention_count</span>,<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#e8ecf4">citation_rate</span>, <span style="color:#e8ecf4">search_volume</span><br>
+              <span style="color:#f59e0b">FROM</span> <span style="color:#5b8fff">`demandsphere.search_data.daily_rankings`</span><br>
+              <span style="color:#f59e0b">WHERE</span> <span style="color:#e8ecf4">date</span> <span style="color:#f59e0b">=</span> <span style="color:#22c55e">CURRENT_DATE()</span><br>
+              &nbsp;&nbsp;<span style="color:#f59e0b">AND</span> <span style="color:#e8ecf4">position</span> <span style="color:#f59e0b">&lt;=</span> <span style="color:#8b5cf6">10</span><br>
+              &nbsp;&nbsp;<span style="color:#f59e0b">AND</span> <span style="color:#e8ecf4">ai_mention_count</span> <span style="color:#f59e0b">&gt;</span> <span style="color:#8b5cf6">0</span><br>
+              <span style="color:#f59e0b">ORDER BY</span> <span style="color:#e8ecf4">citation_rate</span> <span style="color:#f59e0b">DESC</span><br>
+              <span style="color:#f59e0b">LIMIT</span> <span style="color:#8b5cf6">50</span>;
+            </div>
+            <div style="border-top:1px solid #1c2b40;padding-top:10px;margin-top:8px;display:flex;align-items:center;gap:8px">
+              <div style="padding:4px 12px;background:#f59e0b;border-radius:4px;font-size:10px;font-weight:600;color:#000;font-family:'DM Sans',sans-serif">Run Query</div>
+              <span style="font-size:10px;color:#3d5470;font-family:'DM Sans',sans-serif">50 rows returned in 1.2s</span>
+            </div>
+          </div>
+          <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;overflow:hidden">
+            <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#3d5470;margin-bottom:10px;font-family:'DM Sans',sans-serif">DATA SOURCES</div>
+            <div style="display:flex;flex-direction:column;gap:5px;flex:1;overflow:hidden">
+              <div style="background:#0f1726;border:1px solid #1c2b40;border-radius:6px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between">
+                <div style="font-size:11px;font-weight:500;color:#e8ecf4">SERP Rankings</div>
+                <div style="width:7px;height:7px;border-radius:50%;background:#22c55e"></div>
+              </div>
+              <div style="background:#0f1726;border:1px solid #1c2b40;border-radius:6px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between">
+                <div style="font-size:11px;font-weight:500;color:#e8ecf4">LLM Mentions</div>
+                <div style="width:7px;height:7px;border-radius:50%;background:#22c55e"></div>
+              </div>
+              <div style="background:#0f1726;border:1px solid #1c2b40;border-radius:6px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between">
+                <div style="font-size:11px;font-weight:500;color:#e8ecf4">Search Console</div>
+                <div style="width:7px;height:7px;border-radius:50%;background:#22c55e"></div>
+              </div>
+              <div style="background:#0f1726;border:1px solid #1c2b40;border-radius:6px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between">
+                <div style="font-size:11px;font-weight:500;color:#e8ecf4">GA4 Events</div>
+                <div style="width:7px;height:7px;border-radius:50%;background:#22c55e"></div>
+              </div>
+              <div style="background:#0f1726;border:1px solid #1c2b40;border-radius:6px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between">
+                <div style="font-size:11px;font-weight:500;color:#e8ecf4">Log Analytics</div>
+                <div style="width:7px;height:7px;border-radius:50%;background:#22c55e"></div>
+              </div>
+              <div style="background:#0f1726;border:1px solid #1c2b40;border-radius:6px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between">
+                <div style="font-size:11px;font-weight:500;color:#e8ecf4">Citations</div>
+                <div style="width:7px;height:7px;border-radius:50%;background:#22c55e"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div><!-- /slide 5 -->
+
+  <!-- Slide 6: APIs -->
+  <div class="hero-slide" data-index="6">
+    <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:12px;overflow:hidden;box-shadow:0 40px 80px rgba(0,0,0,.65),0 0 0 1px rgba(255,255,255,.03) inset">
+      <div style="height:38px;background:#111b2d;border-bottom:1px solid #1c2b40;display:flex;align-items:center;padding:0 16px;gap:7px">
+        <div style="width:10px;height:10px;border-radius:50%;background:#ff5f57"></div>
+        <div style="width:10px;height:10px;border-radius:50%;background:#febc2e"></div>
+        <div style="width:10px;height:10px;border-radius:50%;background:#28c840"></div>
+        <div style="margin-left:6px;font-size:11px;color:#3d5470;font-family:'DM Sans',sans-serif">app.demandsphere.com - REST API</div>
+      </div>
+      <div style="display:flex;height:440px;overflow:hidden;background:#0d1420">
+        <div style="width:52px;background:#111b2d;border-right:1px solid #1c2b40;display:flex;flex-direction:column;align-items:center;padding:12px 0;gap:4px;flex-shrink:0">
+          <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="layout-dashboard" style="width:15px;height:15px;color:#243349"></i></div>
+          <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="search" style="width:14px;height:14px;color:#243349"></i></div>
+          <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="bot" style="width:14px;height:14px;color:#243349"></i></div>
+          <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="bar-chart-2" style="width:14px;height:14px;color:#243349"></i></div>
+          <div style="width:22px;height:1px;background:#1c2b40;margin:4px 0"></div>
+          <div style="width:34px;height:34px;border-radius:8px;background:rgba(148,163,184,.12);display:flex;align-items:center;justify-content:center;position:relative"><i data-lucide="plug" style="width:15px;height:15px;color:#94a3b8"></i><div style="position:absolute;left:0;top:6px;bottom:6px;width:2px;background:#94a3b8;border-radius:0 2px 2px 0"></div></div>
+          <div style="width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center"><i data-lucide="settings-2" style="width:14px;height:14px;color:#243349"></i></div>
+        </div>
+        <div style="flex:1;padding:24px 32px;display:flex;flex-direction:column;gap:16px;font-family:'JetBrains Mono',monospace;overflow:hidden">
+          <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.10em;color:#8b9bb0;font-family:'DM Sans',sans-serif">REST API - ENDPOINTS</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;flex:1;min-height:0">
+            <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:8px;overflow:hidden">
+              <div style="font-size:10px;font-weight:600;color:#94a3b8;font-family:'DM Sans',sans-serif;margin-bottom:4px">RANKING DATA</div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#22c55e;font-weight:600">GET</span> <span style="color:#e8ecf4">/v2/keywords</span></div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#22c55e;font-weight:600">GET</span> <span style="color:#e8ecf4">/v2/rankings/{keyword_id}</span></div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#22c55e;font-weight:600">GET</span> <span style="color:#e8ecf4">/v2/share-of-voice</span></div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#5b8fff;font-weight:600">POST</span> <span style="color:#e8ecf4">/v2/keywords/bulk</span></div>
+            </div>
+            <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:8px;overflow:hidden">
+              <div style="font-size:10px;font-weight:600;color:#94a3b8;font-family:'DM Sans',sans-serif;margin-bottom:4px">LLM VISIBILITY</div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#22c55e;font-weight:600">GET</span> <span style="color:#e8ecf4">/v2/llm/mentions</span></div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#22c55e;font-weight:600">GET</span> <span style="color:#e8ecf4">/v2/llm/citations</span></div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#22c55e;font-weight:600">GET</span> <span style="color:#e8ecf4">/v2/llm/prompts</span></div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#22c55e;font-weight:600">GET</span> <span style="color:#e8ecf4">/v2/llm/sentiment</span></div>
+            </div>
+            <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:8px;overflow:hidden">
+              <div style="font-size:10px;font-weight:600;color:#94a3b8;font-family:'DM Sans',sans-serif;margin-bottom:4px">CRAWL DATA</div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#22c55e;font-weight:600">GET</span> <span style="color:#e8ecf4">/v2/crawl/summary</span></div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#22c55e;font-weight:600">GET</span> <span style="color:#e8ecf4">/v2/crawl/bots</span></div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#22c55e;font-weight:600">GET</span> <span style="color:#e8ecf4">/v2/crawl/errors</span></div>
+            </div>
+            <div style="background:#141d2e;border:1px solid #1c2b40;border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:8px;overflow:hidden">
+              <div style="font-size:10px;font-weight:600;color:#94a3b8;font-family:'DM Sans',sans-serif;margin-bottom:4px">WEBHOOKS</div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#5b8fff;font-weight:600">POST</span> <span style="color:#e8ecf4">/v2/webhooks</span></div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#22c55e;font-weight:600">GET</span> <span style="color:#e8ecf4">/v2/webhooks/{id}</span></div>
+              <div style="font-size:11px;line-height:1.8"><span style="color:#ef4444;font-weight:600">DELETE</span> <span style="color:#e8ecf4">/v2/webhooks/{id}</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /slide 6 -->
+
+</div>
+
+<script>
+(function(){
+  var slides = document.querySelectorAll('.hero-slide');
+  var tabs = document.querySelectorAll('.hero-tab');
+  var current = 0;
+  var total = slides.length;
+  var duration = 7000;
+  var timer;
+
+  window.heroGoTo = function(i) {
+    current = i;
+    slides.forEach(function(s){ s.classList.remove('active'); });
+    tabs.forEach(function(t){ t.classList.remove('active'); });
+    slides[i].classList.add('active');
+    tabs[i].classList.add('active');
+    clearInterval(timer);
+    timer = setInterval(advance, duration);
+    if(typeof lucide !== 'undefined') lucide.createIcons();
+  };
+
+  function advance() {
+    current = (current + 1) % total;
+    window.heroGoTo(current);
+  }
+
+  timer = setInterval(advance, duration);
+  lucide.createIcons();
+})();
+</script>
+
+<!-- ── Trusted by ── -->
+<div style="padding: 32px 0;">
+  <div class="wrap">
+    <p style="text-align:center; font-family:'JetBrains Mono',monospace; font-size:12px; text-transform:uppercase; letter-spacing:.12em; color:var(--slate); margin-bottom:32px;">Trusted by 500+ enterprise teams</p>
+    <div class="trusted-strip">
+      <div class="trusted-item"><img src="/assets/images/logos/rakuten.svg" alt="Rakuten" class="trusted-logo" width="100" height="30"></div>
+      <div class="trusted-item"><img src="/assets/images/logos/recruit.svg" alt="Recruit" class="trusted-logo" width="100" height="30"></div>
+      <div class="trusted-item"><img src="/assets/images/logos/wpp-media.png" alt="WPP Media" class="trusted-logo" width="192" height="30" style="filter:brightness(0) invert(1);"></div>
+      <div class="trusted-item"><img src="/assets/images/logos/iprospect.svg" alt="iProspect" class="trusted-logo" width="110" height="30"></div>
+      <div class="trusted-item"><img src="/assets/images/logos/wavemaker.svg" alt="Wavemaker" class="trusted-logo" width="120" height="30"></div>
+      <div class="trusted-item"><img src="/assets/images/logos/loreal.svg" alt="L'Oréal" class="trusted-logo" width="90" height="30" style="filter:brightness(0) invert(1);"></div>
+      <div class="trusted-item"><img src="/assets/images/logos/puma.svg" alt="Puma" class="trusted-logo" width="90" height="38" style="height:38px; filter:brightness(0) invert(1);"></div>
+      <div class="trusted-item"><img src="/assets/images/logos/fast-retailing.svg" alt="Fast Retailing" class="trusted-logo" width="100" height="36" style="height:36px; filter:brightness(0) invert(1);"></div>
+    </div>
+  </div>
+</div>
+
+<hr class="rule">
+
+<!-- ── Three AI search experiences ── -->
+<section class="section-sm">
+  <div class="wrap" style="text-align:center;">
+    <span class="label">Visibility across every surface</span>
+    <h2 class="h-lg" style="margin-bottom:12px;">It's ALL AI search now, the question is the user experience.</h2>
+    <p style="font-size:14px; color:var(--muted); max-width:480px; margin:0 auto 48px; line-height:1.65;">DemandSphere is built to unlock visibility across all three AI search experiences: SERPs, LLMs, and agentic surfaces.</p>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:20px;">
+      <div style="background:var(--surface); border:1px solid var(--border); border-radius:var(--rad-lg); padding:40px 32px; text-align:left;">
+        <div style="width:56px; height:56px; border-radius:14px; background:rgba(59,130,246,.1); display:flex; align-items:center; justify-content:center; margin-bottom:24px;">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/><circle cx="15" cy="15" r="2" fill="rgba(59,130,246,.3)"/></svg>
+        </div>
+        <h3 style="font-size:1.5rem; font-weight:700; color:var(--blue); margin-bottom:8px;">SERPs</h3>
+        <p style="font-size:14px; color:var(--muted); line-height:1.65;">Rankings, SERP features, AI Overviews, AI Mode, and Share of Voice across 200+ markets and 10+ search engines. Tracked daily at the keyword, URL, and domain level.</p>
+      </div>
+      <div style="background:var(--surface); border:1px solid var(--border); border-radius:var(--rad-lg); padding:40px 32px; text-align:left;">
+        <div style="width:56px; height:56px; border-radius:14px; background:rgba(124,58,237,.1); display:flex; align-items:center; justify-content:center; margin-bottom:24px;">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 10h.01"/><path d="M12 10h.01"/><path d="M16 10h.01"/></svg>
+        </div>
+        <h3 style="font-size:1.5rem; font-weight:700; color:var(--vlt); margin-bottom:8px;">AI Search Engines</h3>
+        <p style="font-size:14px; color:var(--muted); line-height:1.65;">ChatGPT, Perplexity, Gemini, Copilot. Monitor whether your brand is cited, mentioned, or missing entirely. Track sentiment and competitor co-occurrence across millions of prompts daily.</p>
+      </div>
+      <div style="background:var(--surface); border:1px solid var(--border); border-radius:var(--rad-lg); padding:40px 32px; text-align:left;">
+        <div style="width:56px; height:56px; border-radius:14px; background:rgba(16,185,129,.1); display:flex; align-items:center; justify-content:center; margin-bottom:24px;">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="1.5"><path d="M12 2a4 4 0 0 1 4 4v1a2 2 0 0 1 2 2v1a3 3 0 0 1-3 3h-1"/><path d="M8 10a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2V3"/><circle cx="12" cy="17" r="3"/><path d="M12 14v-1"/><path d="M7 20h10"/></svg>
+        </div>
+        <h3 style="font-size:1.5rem; font-weight:700; color:var(--emerald); margin-bottom:8px;">Agentic</h3>
+        <p style="font-size:14px; color:var(--muted); line-height:1.65;">AI agents that browse, evaluate, and purchase on behalf of users. Track how autonomous systems discover and recommend your brand before this channel scales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── AI Response Mockup - what it actually looks like ── -->
+<div style="padding:0 0 48px;">
+  <div class="wrap">
+    <div style="text-align:center; margin-bottom:40px;">
+      <span class="label" style="color:var(--vlt);">What your brand looks like in AI search</span>
+      <h2 class="h-lg" style="margin-bottom:12px;">Are you mentioned? Cited? Or invisible?</h2>
+      <p style="font-size:14px; color:var(--muted); max-width:500px; margin:0 auto; line-height:1.65;">Ask ChatGPT or Gemini a question about your category. Your brand is either in the answer or it isn't. DemandSphere tracks this across millions of prompts so you always know where you stand.</p>
+    </div>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:20px; max-width:960px; margin:0 auto;">
+
+      <!-- ChatGPT response -->
+      <div style="background:var(--surface); border:1px solid var(--border); border-radius:var(--rad-lg); overflow:hidden;">
+        <div style="padding:12px 16px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:8px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#10a37f"><path d="M22.282 9.821a5.985 5.985 0 0 0-.516-4.91 6.046 6.046 0 0 0-6.51-2.9A6.065 6.065 0 0 0 4.981 4.18a5.985 5.985 0 0 0-3.998 2.9 6.046 6.046 0 0 0 .743 7.097 5.98 5.98 0 0 0 .51 4.911 6.051 6.051 0 0 0 6.515 2.9A5.985 5.985 0 0 0 13.26 24a6.056 6.056 0 0 0 5.772-4.206 5.99 5.99 0 0 0 3.997-2.9 6.056 6.056 0 0 0-.747-7.073zM13.26 22.43a4.476 4.476 0 0 1-2.876-1.04l.141-.081 4.779-2.758a.795.795 0 0 0 .392-.681v-6.737l2.02 1.168a.071.071 0 0 1 .038.052v5.583a4.504 4.504 0 0 1-4.494 4.494zM3.6 18.304a4.47 4.47 0 0 1-.535-3.014l.142.085 4.783 2.759a.771.771 0 0 0 .78 0l5.843-3.369v2.332a.08.08 0 0 1-.033.062L9.74 19.95a4.5 4.5 0 0 1-6.14-1.646zM2.34 7.896a4.485 4.485 0 0 1 2.366-1.973V11.6a.766.766 0 0 0 .388.676l5.815 3.355-2.02 1.168a.076.076 0 0 1-.071 0l-4.83-2.786A4.504 4.504 0 0 1 2.34 7.872zm16.597 3.855l-5.833-3.387L15.119 7.2a.076.076 0 0 1 .071 0l4.83 2.791a4.494 4.494 0 0 1-.676 8.105v-5.678a.79.79 0 0 0-.407-.667zm2.01-3.023l-.141-.085-4.774-2.782a.776.776 0 0 0-.785 0L9.409 9.23V6.897a.066.066 0 0 1 .028-.061l4.83-2.787a4.5 4.5 0 0 1 6.68 4.66zm-12.64 4.135l-2.02-1.164a.08.08 0 0 1-.038-.057V6.075a4.5 4.5 0 0 1 7.375-3.453l-.142.08L8.704 5.46a.795.795 0 0 0-.393.681zm1.097-2.365l2.602-1.5 2.607 1.5v2.999l-2.597 1.5-2.607-1.5z"/></svg>
+          <span style="font-size:13px; font-weight:600; color:var(--text);">ChatGPT</span>
+          <span style="font-size:10px; color:var(--emerald); margin-left:auto; font-family:'JetBrains Mono',monospace; text-transform:uppercase; letter-spacing:.06em;">Mentioned</span>
+        </div>
+        <div style="padding:20px;">
+          <div style="font-size:12px; color:var(--muted); margin-bottom:14px; font-style:italic;">"What are the best running shoes for marathon training in 2026?"</div>
+          <div style="font-size:13px; color:var(--slate); line-height:1.7;">
+            Here are the top marathon training shoes for 2026:
+            <br><br>
+            <strong style="color:var(--text);">1. <span style="color:var(--vlt); background:rgba(124,58,237,.12); padding:1px 4px; border-radius:3px;">Nike</span> Vaporfly 4</strong> - The latest in Nike's super shoe line. Carbon plate, ZoomX foam, and redesigned upper for better breathability.
+            <br><br>
+            <strong style="color:var(--text);">2. Adidas Adizero Pro 4</strong> - Lightstrike Pro foam with carbon rods. Great for neutral runners.
+            <br><br>
+            <strong style="color:var(--text);">3. New Balance SC Elite v4</strong> - FuelCell foam with aggressive rocker geometry.
+          </div>
+        </div>
+      </div>
+
+      <!-- Gemini response -->
+      <div style="background:var(--surface); border:1px solid var(--border); border-radius:var(--rad-lg); overflow:hidden;">
+        <div style="padding:12px 16px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:8px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="url(#gemini-grad)"><defs><linearGradient id="gemini-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4285f4"/><stop offset="50%" stop-color="#9b72cb"/><stop offset="100%" stop-color="#d96570"/></linearGradient></defs><path d="M12 0C12 0 12 12 0 12c12 0 12 12 12 12 0 0 0-12 12-12C12 12 12 0 12 0z"/></svg>
+          <span style="font-size:13px; font-weight:600; color:var(--text);">Gemini</span>
+          <span style="font-size:10px; color:var(--emerald); margin-left:auto; font-family:'JetBrains Mono',monospace; text-transform:uppercase; letter-spacing:.06em;">Mentioned</span>
+        </div>
+        <div style="padding:20px;">
+          <div style="font-size:12px; color:var(--muted); margin-bottom:14px; font-style:italic;">"What running shoes do elite marathoners recommend?"</div>
+          <div style="font-size:13px; color:var(--slate); line-height:1.7;">
+            Elite marathoners tend to favor these shoes:
+            <br><br>
+            <strong style="color:var(--text);">1. <span style="color:var(--vlt); background:rgba(124,58,237,.12); padding:1px 4px; border-radius:3px;">Nike</span> Alphafly 3</strong> - The dominant marathon racing shoe, worn by Kipchoge and many world-class runners.
+            <br><br>
+            <strong style="color:var(--text);">2. Adidas Adizero Adios Pro</strong> - Popular among sub-elite and elite runners for its energy return.
+            <br><br>
+            <strong style="color:var(--text);">3. Saucony Endorphin Elite</strong> - Speedroll technology with PWRRUN HG cushioning.
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <p style="text-align:center; margin-top:24px; font-size:13px; color:var(--muted);">DemandSphere monitors millions of prompts across ChatGPT, Perplexity, Gemini, Copilot, and more - so you know exactly where you stand. <a href="/platform/demandmetrics-genai/" style="color:var(--vlt); text-decoration:underline; text-decoration-color:rgba(167,139,250,.4);">Learn more →</a></p>
+  </div>
+</div>
+
+<!-- ── Mid-page CTA ── -->
+<div style="text-align:center; padding:16px 32px 32px;">
+  <div class="cta-btns">
+    <a href="/demo/" class="btn btn-violet btn-lg">Get a demo</a>
+    <a href="/pricing/" class="btn btn-ghost btn-lg">View pricing</a>
+  </div>
+</div>
+
+<hr class="rule">
+
+<!-- ── Product suite (replaced SVG diagram with linked cards) ── -->
+<section id="platform" class="section-sm">
+  <div class="wrap">
+    <div style="text-align:center; margin-bottom:48px;">
+      <span class="label">The platform</span>
+      <h2 class="h-lg" style="margin-bottom:12px;">Six products. One platform.</h2>
+      <p style="font-size:14px; color:var(--muted); max-width:480px; margin:0 auto; line-height:1.65;">Modular. Start with what you need. Expand as your program grows.</p>
+    </div>
+
+    <a href="/platform/agents/" class="card" style="padding:28px; text-decoration:none; display:flex; gap:20px; align-items:flex-start; transition:border-color .15s; margin-bottom:16px;">
+      <div style="width:40px; height:40px; border-radius:10px; background:rgba(234,88,12,.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+      </div>
+      <div style="flex:1;">
+        <h3 style="font-size:15px; font-weight:600; margin-bottom:6px;">DemandSphere Agents <span style="color:var(--orange); font-size:12px;">Automated Workflows</span> <span style="font-size:10px; font-weight:600; color:#ea580c; background:rgba(234,88,12,.12); padding:2px 8px; border-radius:4px; margin-left:6px; font-family:'JetBrains Mono',monospace; text-transform:uppercase; letter-spacing:.06em;">New</span></h3>
+        <p style="font-size:13px; color:var(--muted); line-height:1.5;">Visual workflow automation builder that connects to every DemandSphere product. Automate reporting, monitoring, and analysis across SERP, LLM, log, and warehouse data.</p>
+      </div>
+    </a>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; margin-bottom:16px;">
+      <a href="/platform/demandmetrics/" class="card" style="padding:28px; text-decoration:none; display:flex; gap:20px; align-items:flex-start; transition:border-color .15s;">
+        <div style="width:40px; height:40px; border-radius:10px; background:rgba(59,130,246,.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>
+        </div>
+        <div>
+          <h3 style="font-size:15px; font-weight:600; margin-bottom:6px;">DemandMetrics <span style="color:var(--blue); font-size:12px;">SERP Analytics</span></h3>
+          <p style="font-size:13px; color:var(--muted); line-height:1.5;">Enterprise rank tracking across 200+ markets. Rankings, Share of Voice, SERP features, AI Overviews.</p>
+        </div>
+      </a>
+      <a href="/platform/demandmetrics-genai/" class="card" style="padding:28px; text-decoration:none; display:flex; gap:20px; align-items:flex-start; transition:border-color .15s;">
+        <div style="width:40px; height:40px; border-radius:10px; background:rgba(124,58,237,.1); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+        </div>
+        <div>
+          <h3 style="font-size:15px; font-weight:600; margin-bottom:6px;">DemandMetrics for Gen AI <span style="color:var(--vlt); font-size:12px;">LLM Visibility Tracking</span></h3>
+          <p style="font-size:13px; color:var(--muted); line-height:1.5;">Brand visibility across AI Mode, AI Overviews, ChatGPT, Perplexity, Gemini, Copilot, and more. Mentions, citations, sentiment, Share of Voice.</p>
+        </div>
+      </a>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px;">
+      <a href="/platform/analytics-ax/" class="card" style="padding:24px; text-decoration:none; transition:border-color .15s;">
+        <div style="width:36px; height:36px; border-radius:8px; background:rgba(16,185,129,.1); display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+        </div>
+        <h4 style="font-size:14px; font-weight:600; margin-bottom:4px;">Analytics AX <span style="color:var(--emerald); font-size:11px;">Log File Analytics</span></h4>
+        <p style="font-size:12px; color:var(--muted); line-height:1.5;">Real-time log file analysis. Crawl health, bot detection, AI crawler tracking.</p>
+      </a>
+      <a href="/platform/search-intelligence/" class="card" style="padding:24px; text-decoration:none; transition:border-color .15s;">
+        <div style="width:36px; height:36px; border-radius:8px; background:rgba(245,158,11,.1); display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+        </div>
+        <h4 style="font-size:14px; font-weight:600; margin-bottom:4px;">Search Intelligence <span style="color:var(--amber); font-size:11px;">Data Warehouse</span></h4>
+        <p style="font-size:12px; color:var(--muted); line-height:1.5;">All search data in one warehouse. Query with SQL, connect Data Studio (formerly Looker Studio).</p>
+      </a>
+      <a href="/platform/apis/" class="card" style="padding:24px; text-decoration:none; transition:border-color .15s;">
+        <div style="width:36px; height:36px; border-radius:8px; background:rgba(148,163,184,.1); display:flex; align-items:center; justify-content:center; margin-bottom:14px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2"><polyline points="16,18 22,12 16,6"/><polyline points="8,6 2,12 8,18"/></svg>
+        </div>
+        <h4 style="font-size:14px; font-weight:600; margin-bottom:4px;">APIs <span style="color:var(--slate); font-size:11px;">REST & Real-time APIs</span></h4>
+        <p style="font-size:12px; color:var(--muted); line-height:1.5;">Full API access. Pull data into your dashboards, BI stack, or custom tools.</p>
+      </a>
+    </div>
+    <div style="text-align:center; margin-top:28px;">
+      <a href="/platform/" style="font-size:13px; color:var(--vlt); font-family:'JetBrains Mono',monospace;">Explore the full platform →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Product Releases ── -->
+
+
+<section id="releases" class="section-sm" style="border-top:1px solid var(--border);">
+  <div class="wrap">
+    <div style="text-align:center; margin-bottom:48px;">
+      <span class="label" style="color:var(--orange-lt);">New Releases</span>
+      <h2 class="h-lg" style="margin-bottom:12px;">What's New</h2>
+      <p style="font-size:14px; color:var(--muted); max-width:480px; margin:0 auto; line-height:1.65;">The latest from the DemandSphere platform.</p>
+    </div>
+
+    
+    <div class="release-item" style="display:flex; gap:40px; align-items:center; margin-bottom:56px; flex-direction:row;">
+      <div style="flex:1; min-width:280px;">
+        <span class="tag tag-violet" style="margin-bottom:12px; display:inline-block;">Release</span>
+        <h3 style="font-size:clamp(1.2rem, 2.5vw, 1.5rem); font-weight:700; letter-spacing:-0.02em; margin-bottom:10px; color:#fff; line-height:1.25;">Introducing the State of Frontier AI</h3>
+        <p style="font-size:14px; color:var(--muted); line-height:1.65; margin-bottom:16px;">A new free tool in DemandSphere Radar. The whole frontier AI landscape on one page: release pace, geography, open vs closed, real usage, the agent layer, and how the labs make money. Built from the same data as our model tracker.</p>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <a href="/blog/state-of-frontier-ai/" class="btn btn-violet btn-sm">Read more</a>
+          <span style="font-size:11px; color:var(--muted); font-family:'JetBrains Mono',monospace;">Jun 28, 2026</span>
+        </div>
+      </div>
+      <div style="flex:1; min-width:280px;">
+        
+        <div style="border-radius:var(--rad-lg); overflow:hidden; border:1px solid var(--border); box-shadow:0 20px 40px rgba(0,0,0,.3);">
+          <img src="/assets/images/blog/2026/06/sof-release-cadence.png" alt="Introducing the State of Frontier AI" width="600" height="340" loading="lazy" style="width:100%; height:auto; display:block;">
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="release-item" style="display:flex; gap:40px; align-items:center; margin-bottom:56px; flex-direction:row-reverse;">
+      <div style="flex:1; min-width:280px;">
+        <span class="tag tag-violet" style="margin-bottom:12px; display:inline-block;">DemandMetrics for Gen AI</span>
+        <h3 style="font-size:clamp(1.2rem, 2.5vw, 1.5rem); font-weight:700; letter-spacing:-0.02em; margin-bottom:10px; color:#fff; line-height:1.25;">News Intelligence: turn breaking news into search strategy</h3>
+        <p style="font-size:14px; color:var(--muted); line-height:1.65; margin-bottom:16px;">News Intelligence monitors news feeds for any topic and uses AI to extract prompts, cluster queries, and map relationships. Turn real-time news coverage into search intelligence.</p>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <a href="/blog/news-intelligence/" class="btn btn-violet btn-sm">Read more</a>
+          <span style="font-size:11px; color:var(--muted); font-family:'JetBrains Mono',monospace;">Apr 30, 2026</span>
+        </div>
+      </div>
+      <div style="flex:1; min-width:280px;">
+        
+        <div style="border-radius:var(--rad-lg); border:1px solid var(--border); background:var(--surface); padding:48px 32px; text-align:center; box-shadow:0 20px 40px rgba(0,0,0,.3);">
+          <div style="width:64px; height:64px; border-radius:16px; background:var(--overlay); display:flex; align-items:center; justify-content:center; margin:0 auto 16px; padding:14px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.5"><path d="M4 22h16a2 2 0 002-2V4a2 2 0 00-2-2H8a2 2 0 00-2 2v16a2 2 0 01-2 2zm0 0a2 2 0 01-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6z"/></svg>
+          </div>
+          <span style="font-family:'JetBrains Mono',monospace; font-size:10px; text-transform:uppercase; letter-spacing:.12em; color:var(--muted);">DemandMetrics for Gen AI</span>
+          <div style="margin-top:16px; display:flex; justify-content:center; gap:16px; font-size:10px; font-family:'JetBrains Mono',monospace;">
+            <span style="color:var(--emerald-lt);">Preview</span>
+            <span style="color:var(--muted);">Alpha May</span>
+            <span style="color:var(--muted);">GA Jul 1</span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="release-item" style="display:flex; gap:40px; align-items:center; margin-bottom:56px; flex-direction:row;">
+      <div style="flex:1; min-width:280px;">
+        <span class="tag tag-violet" style="margin-bottom:12px; display:inline-block;">DemandMetrics for Gen AI</span>
+        <h3 style="font-size:clamp(1.2rem, 2.5vw, 1.5rem); font-weight:700; letter-spacing:-0.02em; margin-bottom:10px; color:#fff; line-height:1.25;">Prompt Volume and Prompt Research: AI search intelligence for every prompt</h3>
+        <p style="font-size:14px; color:var(--muted); line-height:1.65; margin-bottom:16px;">Two new tools for understanding AI search demand. Prompt Volume maps search volume across 9 AI engines. Prompt Research generates and enriches hundreds of prompts from seed keywords.</p>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <a href="/blog/prompt-volume-and-prompt-research/" class="btn btn-violet btn-sm">Read more</a>
+          <span style="font-size:11px; color:var(--muted); font-family:'JetBrains Mono',monospace;">Apr 29, 2026</span>
+        </div>
+      </div>
+      <div style="flex:1; min-width:280px;">
+        
+        <div style="border-radius:var(--rad-lg); border:1px solid var(--border); background:var(--surface); padding:48px 32px; text-align:center; box-shadow:0 20px 40px rgba(0,0,0,.3);">
+          <div style="width:64px; height:64px; border-radius:16px; background:var(--overlay); display:flex; align-items:center; justify-content:center; margin:0 auto 16px; padding:14px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.5"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>
+          </div>
+          <span style="font-family:'JetBrains Mono',monospace; font-size:10px; text-transform:uppercase; letter-spacing:.12em; color:var(--muted);">DemandMetrics for Gen AI</span>
+          <div style="margin-top:16px; display:flex; justify-content:center; gap:16px; font-size:10px; font-family:'JetBrains Mono',monospace;">
+            <span style="color:var(--emerald-lt);">Preview</span>
+            <span style="color:var(--muted);">Alpha May</span>
+            <span style="color:var(--muted);">GA Jul 1</span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div style="text-align:center; margin-top:8px;">
+      <a href="/blog/?tag=Releases" class="btn btn-ghost btn-sm">See all recent releases</a>
+    </div>
+  </div>
+</section>
+
+
+<hr class="rule">
+
+<!-- ── Features ── -->
+<section id="products" class="section-sm">
+  <div class="wrap">
+    <div style="text-align:center; margin-bottom:48px;">
+      <span class="label">Features</span>
+      <h2 class="h-lg" style="margin-bottom:12px;">Built for how search actually works now.</h2>
+    </div>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; margin-bottom:16px;">
+      <article class="feat-card" style="padding:32px;">
+        <span class="tag tag-violet" style="margin-bottom:14px; display:inline-block;">Prompt Research</span>
+        <h3 style="font-size:1.1rem;">Know what people are asking AI</h3>
+        <p>Map the full query landscape across traditional search and AI prompts. See which questions trigger mentions of your brand or your competitors, and discover content gaps before they become visibility gaps.</p>
+        <div class="feat-items">
+          <div class="feat-item">Query fanout mapping</div>
+          <div class="feat-item">Topic cluster discovery</div>
+          <div class="feat-item">Prompt-to-brand correlation</div>
+        </div>
+      </article>
+      <article class="feat-card" style="padding:32px;">
+        <span class="tag tag-blue" style="margin-bottom:14px; display:inline-block;">Unified Visibility</span>
+        <h3 style="font-size:1.1rem;">Every channel, one view</h3>
+        <p>SERP rankings, AI search citations, agentic behavior, GSC clicks, GA4 attribution, and log data in a single dashboard. No more switching between tools to understand your total search presence.</p>
+        <div class="feat-items">
+          <div class="feat-item">Cross-channel visibility dashboard</div>
+          <div class="feat-item">GSC + GA4 native integration</div>
+          <div class="feat-item">Server log correlation</div>
+        </div>
+      </article>
+    </div>
+
+    <div class="feat-grid">
+      <article class="feat-card">
+        <span class="tag tag-violet" style="margin-bottom:14px; display:inline-block;">Answer Engine Insights</span>
+        <h4>Deep AI brand intelligence</h3>
+        <p>Go beyond "mentioned or not." See the exact language AI platforms use to describe your brand, which competitors appear alongside you, and how your positioning shifts across different prompts and platforms.</p>
+        <div class="feat-items">
+          <div class="feat-item">Mentions, citations &amp; linked mentions</div>
+          <div class="feat-item">Competitor co-occurrence analysis</div>
+        </div>
+      </article>
+      <article class="feat-card">
+        <span class="tag tag-blue" style="margin-bottom:14px; display:inline-block;">SERP Intelligence</span>
+        <h4>AI Overviews &amp; AI Mode tracking</h3>
+        <p>Track which queries trigger AI Overviews and Google's AI Mode results. Measure CTR impact, identify where AI answers are displacing your organic listings, and monitor 60+ SERP feature types daily.</p>
+        <div class="feat-items">
+          <div class="feat-item">AI Overviews presence &amp; position</div>
+          <div class="feat-item">SERP Feature Explorer - 60+ types</div>
+        </div>
+      </article>
+      <article class="feat-card">
+        <span class="tag tag-amber" style="margin-bottom:14px; display:inline-block;">Search Intelligence</span>
+        <h4>BigQuery-native data warehouse</h3>
+        <p>All DemandSphere data flows directly into BigQuery tables in your own Google Cloud project. Query with SQL, connect Data Studio (formerly Looker Studio) or Tableau, and build custom models with no ETL pipeline to maintain.</p>
+        <div class="feat-items">
+          <div class="feat-item">Unified SERP, LLM, log &amp; GSC data</div>
+          <div class="feat-item">Scheduled exports &amp; streaming</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Free tools CTA band (hidden pre-launch - restore when tools are ready)
+<div style="padding: 0 0 88px;">
+  <div class="wrap">
+    <div class="cta-band">
+      <div>
+        <h3>Start with our free tools.</h3>
+        <p>GSC Explorer, Domain Research, GA4 Explorer, Market Trends - no account required.</p>
+      </div>
+      <div class="cta-btns">
+        <a href="/signup/" class="btn btn-violet">Sign up free</a>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<!-- ── Mid-page CTA ── -->
+<div style="text-align:center; padding:16px 32px 32px;">
+  <p style="color:var(--muted); margin-bottom:20px; font-size:14px;">See how your brand appears across SERPs, AI search engines, and agentic surfaces.</p>
+  <div class="cta-btns">
+    <a href="/demo/" class="btn btn-violet btn-lg">Get a demo</a>
+    <a href="/pricing/" class="btn btn-ghost btn-lg">View pricing</a>
+  </div>
+</div>
+
+<hr class="rule">
+
+<!-- ── FOUND Conference (compact banner) ── -->
+<section class="section-sm">
+  <div class="wrap">
+    <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px;">
+      <div style="display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+        <img src="/assets/images/found-logo-dark-bg.svg" alt="FOUND Conference" style="height:50px; width:auto;">
+        <p style="font-size:13px; color:var(--muted); max-width:400px; line-height:1.5;">Search and AI practitioner events in Tokyo, New York, and beyond.</p>
+      </div>
+      <div style="display:flex; gap:10px;">
+        <a href="/events/" class="btn btn-ghost">View events</a>
+        <a href="https://foundconf.com" class="btn btn-ghost">foundconf.com →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ── -->
+<section class="section">
+  <div class="wrap" style="max-width:800px;">
+    <div style="text-align:center; margin-bottom:48px;">
+      <span class="label">FAQ</span>
+      <h2 class="h-lg">Frequently asked questions</h2>
+    </div>
+
+    <section class="accordion-item open">
+      <button class="accordion-trigger">What does DemandSphere actually track?</button>
+      <div class="accordion-body">
+        <p>DemandSphere tracks your brand's visibility across three search surfaces: traditional SERPs (rankings, SERP features, AI Overviews, AI Mode), AI search engines (ChatGPT, Perplexity, Gemini, Copilot - mentions, citations, and sentiment), and server logs (crawl behavior from Googlebot, AI bots, and other crawlers). All of this data flows into a unified BigQuery data warehouse you can query directly.</p>
+      </div>
+    </section>
+
+    <section class="accordion-item">
+      <button class="accordion-trigger">How is this different from other platforms?</button>
+      <div class="accordion-body">
+        <p>Most SEO platforms track SERP rankings. Some have started adding basic AI search features. DemandSphere is the only platform that unifies SERP analytics, AI search visibility tracking, server log analytics, and a BigQuery data warehouse in a single product. We also track at significantly larger scale - 200+ markets, 10+ search engines, and millions of prompts across AI search engines daily.</p>
+      </div>
+    </section>
+
+    <section class="accordion-item">
+      <button class="accordion-trigger">Which AI platforms do you monitor?</button>
+      <div class="accordion-body">
+        <p>We track ChatGPT, Perplexity, Gemini, Copilot, Google AI Overviews, Google AI Mode, and more. For each platform, we monitor whether your brand is mentioned, cited with a link, or absent, and how that changes over time. We were the first platform to track Google AI Mode within 24 hours of its launch.</p>
+      </div>
+    </section>
+
+    <section class="accordion-item">
+      <button class="accordion-trigger">Do I need to use all the products, or can I start with just one?</button>
+      <div class="accordion-body">
+        <p>The platform is modular. Most teams start with DemandMetrics for SERP analytics or DemandMetrics for Gen AI for AI search visibility, then expand to log analytics or the data warehouse as their program matures. You can add products at any time without migrating data.</p>
+      </div>
+    </section>
+
+    <section class="accordion-item">
+      <button class="accordion-trigger">How does the BigQuery integration work?</button>
+      <div class="accordion-body">
+        <p>All DemandSphere data (SERP rankings, AI search mentions, log analytics, GSC, and GA4) flows directly into BigQuery tables in your own Google Cloud project. You can query with SQL, connect Data Studio (formerly Looker Studio) or Tableau, build custom models, or export to Snowflake. No ETL pipeline to build or maintain.</p>
+      </div>
+    </section>
+
+    <section class="accordion-item">
+      <button class="accordion-trigger">What does the demo look like?</button>
+      <div class="accordion-body">
+        <p>It's a 30-minute call where we run DemandSphere on your actual domain. You'll see your current SERP positions, AI visibility across ChatGPT, Perplexity, Gemini, and more, and how your brand appears (or doesn't) in AI-generated answers. All with your real data. No slides, no prep required on your end.</p>
+      </div>
+    </section>
+
+    <section class="accordion-item">
+      <button class="accordion-trigger">How long does it take to get started?</button>
+      <div class="accordion-body">
+        <p>Most teams are fully onboarded within a week. SERP tracking starts producing data within 24 hours. AI search visibility monitoring begins immediately. If you add Search Intelligence, your BigQuery tables are provisioned as part of that setup. We handle the configuration - you just provide your keywords and domains.</p>
+      </div>
+    </section>
+
+    <section class="accordion-item">
+      <button class="accordion-trigger">How is pricing structured?</button>
+      <div class="accordion-body">
+        <p>Plans start at $79/month and scale based on tracking volume - the number of SERP keywords and AI prompts you monitor. All plans include unlimited users, all search engines, and both SERP and AI visibility tracking. Enterprise plans add BigQuery, log analytics, SSO, and managed services.</p>
+      </div>
+    </section>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ── How it works ── -->
+<section class="section">
+  <div class="wrap" style="max-width:800px;">
+    <div style="text-align:center; margin-bottom:48px;">
+      <span class="label">Getting started</span>
+      <h2 class="h-lg" style="margin-bottom:12px;">Live data in less than a week.</h2>
+      <p style="font-size:14px; color:var(--muted); max-width:480px; margin:0 auto; line-height:1.65;">No lengthy onboarding. No integration projects. We handle setup so your team can focus on insights.</p>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:24px;">
+      <div style="display:flex; gap:20px; align-items:flex-start;">
+        <div style="width:36px; height:36px; border-radius:8px; background:rgba(124,58,237,.1); display:flex; align-items:center; justify-content:center; flex-shrink:0; font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; color:var(--vlt);">1</div>
+        <div>
+          <h3 style="font-size:15px; font-weight:600; margin-bottom:4px;">30-minute demo with your data</h3>
+          <p style="font-size:13px; color:var(--muted); line-height:1.6;">We run DemandSphere on your domain during the call. You see your actual SERP positions, AI visibility, and competitive landscape in real time.</p>
+        </div>
+      </div>
+      <div style="display:flex; gap:20px; align-items:flex-start;">
+        <div style="width:36px; height:36px; border-radius:8px; background:rgba(124,58,237,.1); display:flex; align-items:center; justify-content:center; flex-shrink:0; font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; color:var(--vlt);">2</div>
+        <div>
+          <h3 style="font-size:15px; font-weight:600; margin-bottom:4px;">Send us your queries, prompts, and domains</h3>
+          <p style="font-size:13px; color:var(--muted); line-height:1.6;">We configure your account and set up tracking across your keywords, domains, and competitors. Most accounts are fully configured within 48 hours.</p>
+        </div>
+      </div>
+      <div style="display:flex; gap:20px; align-items:flex-start;">
+        <div style="width:36px; height:36px; border-radius:8px; background:rgba(124,58,237,.1); display:flex; align-items:center; justify-content:center; flex-shrink:0; font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; color:var(--vlt);">3</div>
+        <div>
+          <h3 style="font-size:15px; font-weight:600; margin-bottom:4px;">Data starts flowing</h3>
+          <p style="font-size:13px; color:var(--muted); line-height:1.6;">Your data starts to arrive within 2 hours. Connect GSC, GA4, and Slack during onboarding for the full picture.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+  <footer class="ds-footer">
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <a href="/">
+        <img src="/assets/images/demandspherelogo.webp" alt="DemandSphere" width="162" height="22" style="height:22px;">
+      </a>
+      <p>Unified AI search visibility</p>
+
+      <div style="margin-top:16px; max-width:280px;">
+        
+<form id="footer-nl-form" style="display:flex; gap:8px; ">
+  <label for="footer-nl-email" class="sr-only">Work email</label>
+  <input type="email" name="email" required placeholder="Work email" autocomplete="email" id="footer-nl-email" style="flex:1; padding:8px 12px; background:var(--overlay); border:1px solid var(--border); border-radius:6px; color:var(--text); font-size:13px; font-family:'Inter',sans-serif; outline:none; min-width:0;">
+  <button type="submit" id="footer-nl-btn" style="padding:8px 14px; background:var(--violet); color:#fff; border:none; border-radius:6px; font-size:12px; font-weight:600; font-family:'Inter',sans-serif; cursor:pointer; white-space:nowrap;">Subscribe</button>
+</form>
+<p id="footer-nl-ok" style="display:none; font-size:11px; color:#22c55e; margin-top:6px;">Subscribed!</p>
+<p id="footer-nl-err" style="display:none; font-size:11px; color:#ef4444; margin-top:6px;"></p>
+<script>
+(function(){
+  var form=document.getElementById('footer-nl-form');
+  if(!form) return;
+  var host=window.location.hostname;
+  var API=(host==='www.demandsphere.com'||host==='demandsphere.com')?'/api/contact':'https://demandsphere-contact.ray-io.workers.dev';
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var email=document.getElementById('footer-nl-email').value.trim();
+    var btn=document.getElementById('footer-nl-btn');
+    var ok=document.getElementById('footer-nl-ok');
+    var err=document.getElementById('footer-nl-err');
+    err.style.display='none';
+    btn.disabled=true;
+    btn.textContent='...';
+    fetch(API,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({name:'Newsletter Subscriber',email:email,company:'',phone:'',message:'Newsletter subscription',source:'Footer',_hp:'',_ts:Date.now().toString()})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.success){form.style.display='none';ok.style.display='block';}
+      else throw new Error(d.error||'Failed');
+    }).catch(function(ex){
+      err.textContent=ex.message||'Something went wrong. Try again.';
+      err.style.display='block';
+      btn.disabled=false;
+      btn.textContent='Subscribe';
+    });
+  });
+})();
+</script>
+
+      </div>
+      <p style="font-size:10px; color:var(--muted); margin-top:8px; opacity:.7;">AI search insights. No spam.</p>
+
+      <div id="status-indicator" style="display:inline-flex; align-items:center; gap:6px; margin-top:12px; font-size:11px; color:var(--muted);">
+        <span id="status-dot" style="width:8px; height:8px; border-radius:50%; background:var(--muted); flex-shrink:0;"></span>
+        <a href="https://status.demandsphere.com/" style="color:var(--muted); text-decoration:none;" id="status-text">System Status</a>
+      </div>
+    </div>
+
+    <div>
+      <span class="footer-col-label">Products</span>
+      <div class="footer-links">
+        <a href="/platform/demandmetrics/">DemandMetrics</a>
+        <a href="/platform/demandmetrics-genai/">DemandMetrics for Gen AI</a>
+        <a href="/platform/agents/">DemandSphere Agents</a>
+        <a href="/platform/analytics-ax/">Analytics AX</a>
+        <a href="/platform/search-intelligence/">Search Intelligence</a>
+        <a href="/platform/apis/">APIs</a>
+      </div>
+    </div>
+
+    <div>
+      <span class="footer-col-label">Company</span>
+      <div class="footer-links">
+        <a href="/about/">About</a>
+        <a href="/blog/">Blog</a>
+        <a href="/events/">Events</a>
+        <a href="/careers/">Careers</a>
+        <a href="/partners/">Partners</a>
+        <a href="/contact/">Contact</a>
+        <a href="/pricing/">Pricing</a>
+        <a href="/faq/">FAQ</a>
+      </div>
+    </div>
+
+    <div>
+      <span class="footer-col-label">Solutions</span>
+      <div class="footer-links">
+        <a href="/enterprise/">Enterprise</a>
+        <a href="/solutions/for-executives/">For Executives</a>
+        <a href="/solutions/agencies/">Agencies</a>
+        <a href="/solutions/seo-teams/">Enterprise SEO Teams</a>
+        <a href="/solutions/data-teams/">Data & Analytics</a>
+        <a href="/solutions/services/consulting/">Consulting</a>
+        <a href="/solutions/services/managed-services/">Managed Services</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <span>2026 · DemandSphere · Ginzamarkets, Inc.</span>
+    <div class="footer-bottom-links">
+      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/privacy-policy-for-california-residents/">CA Privacy</a>
+      <a href="/recruitment-privacy-policy/">Recruitment Privacy</a>
+      <a href="/terms-of-service/">Terms of Service</a>
+      <a href="/cancellation-and-refund-policy/">Refund Policy</a>
+      <a href="/general-event-terms-and-conditions/">Event Terms</a>
+      <a href="/security/">Security</a>
+      <a href="/data-processing-addendum/">DPA</a>
+      <a href="/approved-sub-processors-and-joint-controllers/">Sub-Processors</a>
+      <a href="https://trust.demandsphere.com" target="_blank" rel="noopener">Trust Center</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function() {
+  var dot = document.getElementById('status-dot');
+  var text = document.getElementById('status-text');
+  if (!dot) return;
+  fetch('https://api.openstatus.dev/public/status/demandsphere')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var s = (data.status || '').toLowerCase();
+      if (s === 'operational') {
+        dot.style.background = '#22c55e';
+        text.textContent = 'All Systems Operational';
+      } else if (s === 'degraded_performance' || s === 'partial_outage' || s === 'under_maintenance') {
+        dot.style.background = '#f59e0b';
+        text.textContent = s === 'under_maintenance' ? 'Under Maintenance' : 'Degraded Performance';
+      } else if (s === 'major_outage' || s === 'incident') {
+        dot.style.background = '#ef4444';
+        text.textContent = 'Service Disruption';
+      }
+    })
+    .catch(function() {});
+})();
+
+</script>
+
+  <script>
+(function () {
+  'use strict';
+
+  // ── Active nav state from data-active attribute ───────────
+  var nav    = document.querySelector('.ds-nav');
+  var active = nav ? nav.dataset.active : null;
+  if (active) {
+    document.querySelectorAll('[data-item]').forEach(function(el) {
+      if (el.dataset.item === active) el.classList.add('active');
+    });
+  }
+
+  // ── Desktop hover menus ───────────────────────────────────
+  var items      = document.querySelectorAll('.nav-item[data-menu]');
+  var closeTimer = null;
+
+  function openMenu(item) {
+    items.forEach(function(i) { if (i !== item) closeImmediate(i); });
+    var drop = item.querySelector('.nav-drop');
+    if (drop) { drop.classList.add('visible'); item.classList.add('open'); }
+  }
+  function scheduledClose(item) {
+    closeTimer = setTimeout(function() { closeImmediate(item); }, 100);
+  }
+  function closeImmediate(item) {
+    var drop = item.querySelector('.nav-drop');
+    if (drop) drop.classList.remove('visible');
+    item.classList.remove('open');
+  }
+
+  items.forEach(function(item) {
+    item.addEventListener('mouseenter', function() {
+      clearTimeout(closeTimer);
+      openMenu(item);
+    });
+    item.addEventListener('mouseleave', function() {
+      scheduledClose(item);
+    });
+    var drop = item.querySelector('.nav-drop');
+    if (drop) {
+      drop.addEventListener('mouseenter', function() { clearTimeout(closeTimer); });
+      drop.addEventListener('mouseleave', function() { scheduledClose(item); });
+    }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.nav-item')) {
+      items.forEach(function(item) { closeImmediate(item); });
+    }
+  });
+
+  // ── Platform inner panel switching ────────────────────────
+  document.querySelectorAll('.plat-item[data-panel]').forEach(function(pi) {
+    pi.addEventListener('mouseenter', function() {
+      document.querySelectorAll('.plat-item').forEach(function(p) { p.classList.remove('active'); });
+      document.querySelectorAll('.plat-panel').forEach(function(p) { p.classList.remove('active'); });
+      pi.classList.add('active');
+      var panel = document.getElementById(pi.dataset.panel);
+      if (panel) panel.classList.add('active');
+    });
+  });
+  // Deactivate panels when hovering non-panel items
+  document.querySelectorAll('.plat-item:not([data-panel])').forEach(function(pi) {
+    pi.addEventListener('mouseenter', function() {
+      var drop = pi.closest('.nav-drop');
+      if (drop) {
+        drop.querySelectorAll('.plat-item').forEach(function(p) { p.classList.remove('active'); });
+        drop.querySelectorAll('.plat-panel').forEach(function(p) { p.classList.remove('active'); });
+      }
+    });
+  });
+
+  // ── Mobile hamburger ──────────────────────────────────────
+  var mobileToggle = document.getElementById('ds-mobile-toggle');
+  var mobileMenu   = document.getElementById('ds-mobile-menu');
+  var iconMenu     = document.getElementById('ds-icon-menu');
+  var iconClose    = document.getElementById('ds-icon-close');
+
+  if (mobileToggle && mobileMenu) {
+    mobileToggle.addEventListener('click', function() {
+      var isOpen = mobileMenu.classList.toggle('open');
+      iconMenu.style.display  = isOpen ? 'none'  : 'block';
+      iconClose.style.display = isOpen ? 'block' : 'none';
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+  }
+
+  // ── Mobile accordion ──────────────────────────────────────
+  document.querySelectorAll('.mob-toggle').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      btn.closest('.mob-section').classList.toggle('open');
+    });
+  });
+
+  // ── FAQ / generic accordion ───────────────────────────────
+  document.querySelectorAll('.accordion-trigger').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      btn.closest('.accordion-item').classList.toggle('open');
+    });
+  });
+
+  // ── Plan comparison tabs (pricing page) ─────────────────
+  document.querySelectorAll('.plan-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.plan-tab').forEach(function(t) { t.classList.remove('active'); });
+      tab.classList.add('active');
+      document.querySelectorAll('.feat-compare').forEach(function(g) { g.classList.remove('active'); });
+      var grid = document.getElementById('grid-' + tab.dataset.plan);
+      if (grid) grid.classList.add('active');
+    });
+  });
+
+  // ── Image lightbox ───────────────────────────────────
+  var lb = document.createElement('div');
+  lb.className = 'lightbox';
+  lb.innerHTML = '<img alt="Enlarged view">';
+  document.body.appendChild(lb);
+  lb.addEventListener('click', function() { lb.classList.remove('open'); });
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') lb.classList.remove('open'); });
+
+  document.querySelectorAll('.post-content img').forEach(function(img) {
+    img.addEventListener('click', function() {
+      lb.querySelector('img').src = img.src;
+      lb.classList.add('open');
+    });
+  });
+
+})();
+</script>
+
+  
+  
+<div id="ds-consent-banner" style="display:none; position:fixed; bottom:0; left:0; right:0; z-index:9999; padding:16px 24px; background:var(--surface); border-top:1px solid var(--border); box-shadow:0 -4px 24px rgba(0,0,0,.4);">
+  <div style="max-width:1080px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
+    <p style="font-size:13px; color:var(--slate); line-height:1.5; margin:0; flex:1; min-width:280px;">
+      We use cookies to analyze site traffic and improve your experience. By clicking Accept, you consent to our use of analytics cookies.
+      <a href="/privacy-policy/" style="color:var(--vlt); text-decoration:underline; text-underline-offset:2px;">Privacy Policy</a>
+    </p>
+    <div style="display:flex; gap:8px; flex-shrink:0;">
+      <button onclick="dsDeclineConsent()" style="padding:7px 16px; font-size:12px; font-family:inherit; background:transparent; border:1px solid var(--border); border-radius:6px; color:var(--slate); cursor:pointer;">Decline</button>
+      <button onclick="dsAcceptConsent()" style="padding:7px 16px; font-size:12px; font-family:inherit; background:var(--vlt); border:none; border-radius:6px; color:var(--bg); font-weight:600; cursor:pointer;">Accept</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  var consent = localStorage.getItem('ds-consent');
+  if (!consent) {
+    document.getElementById('ds-consent-banner').style.display = 'block';
+  }
+})();
+function dsAcceptConsent() {
+  localStorage.setItem('ds-consent', 'accepted');
+  document.getElementById('ds-consent-banner').style.display = 'none';
+  if (typeof dsLoadGA === 'function') dsLoadGA();
+}
+function dsDeclineConsent() {
+  localStorage.setItem('ds-consent', 'declined');
+  document.getElementById('ds-consent-banner').style.display = 'none';
+}
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"399f255b848042ad8f4b09ac4f5159b0","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

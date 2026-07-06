@@ -1,0 +1,2223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ninite - Install or Update Multiple Apps at Once</title>
+<meta name="description" content="The easiest, fastest way to update or install software. Ninite downloads and installs programs automatically in the background.">
+<link rel="icon" type="image/png" href="https://ninite.com/static/favicon-50c60524c110e749f013a1ca48f80b80.png">
+<link href="https://ninite.com/static/css/bootstrap.min-4f6df2a7e06041d2b913e96196543a74.css" rel="stylesheet">
+<link href="https://ninite.com/static/css/ninite-9b79e0a0968c958e49d35861a00dcee3.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="ninite-canvas">
+
+<nav class="navbar navbar-expand-md navbar-light ninite-topbar">
+<div class="container">
+<a class="navbar-brand p-0" href="/">
+<img src="https://ninite.com/static/img/brand-8a2e7c6ad769d6bc457c5c2b1a9743e8.png" alt="Ninite" class="ninite-brand-img">
+</a>
+<button type="button" class="navbar-toggler ms-auto" data-bs-toggle="collapse" data-bs-target=".js-navbar-collapse" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+<span class="visually-hidden">Toggle navigation</span>
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse js-navbar-collapse" id="mainNavbar">
+<ul class="navbar-nav ms-auto">
+
+
+<li class="nav-item"><a class="nav-link" href="/help/">Help</a></li>
+<li class="nav-item"><a class="nav-link" href="/feedback">Feedback</a></li>
+<li class="nav-item"><a class="nav-link" href="/nintune"><em style="color: #b8860b">Nintune</em></a></li>
+
+<li class="nav-item"><a class="nav-link" href="/pro">Ninite Pro</a></li>
+<li class="nav-item"><a class="nav-link" href="/signin">Sign into Pro</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<h1 class="visually-hidden">We also have a page for screenreader-friendly
+accessible apps at <a href="/accessible">ninite.com/accessible</a>.</h1>
+<div class="homepage-introduction">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<h4>Install and Update All Your Programs at Once</h4>
+<p>
+No toolbars. No clicking next. Just pick your apps and go.
+</p>
+<p>
+<img src="https://ninite.com/static/img/screenshot-d19f898aea36be8dcd93c3af7de4abb0.png" alt="A Ninite Installer" class="img-fluid rounded">
+</p>
+<div class="alert alert-warning homepage-intune-callout">
+Use Intune? Check out our new Intune integration: <a href="/nintune">Nintune</a>
+</div>
+</div>
+<div class="col-sm-3">
+<h4>Always Up-to-date</h4>
+<p>You don't have to watch for updates. Our bots do that. Here's what's new:</p>
+
+<p>
+AnyDesk updated to 9.7.9.<br>
+<span class="small">4 hours ago</span>
+</p>
+
+<p>
+Cursor updated to 3.10.17.<br>
+<span class="small">6 hours ago</span>
+</p>
+
+<p>
+TeraCopy updated to 4.0.0.37.<br>
+<span class="small">6 hours ago</span>
+</p>
+
+<p>
+Teams updated to 26163.405.4842.717.<br>
+<span class="small">yesterday at 5:50 pm</span>
+</p>
+
+<p>
+TeraCopy updated to 4.0.0.28.<br>
+<span class="small">Saturday at 12:29 pm</span>
+</p>
+
+
+<p><a href="/news">more news</a></p>
+</div>
+<div class="col-sm-3">
+<h4>Trusted by Millions</h4>
+<p>
+We install and update about a million apps each day for our home users and <a href="/pro">Ninite Pro</a> subscribers.
+</p>
+<p>
+The <a href="/press">press</a> likes us too:
+</p>
+<p>
+“I'll bet the service saved me a couple hours”<br>
+<strong>PCWorld</strong>
+</p>
+<p>
+“Ninite.com frees up your day” <br>
+<strong>The Christian Science Monitor</strong>
+</p>
+<p>
+“This post can be fairly short because Ninite works exactly as advertised.”<br>
+<strong>Lifehacker</strong>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="container alert alert-warning js-homepage-old-os d-none">
+<p>As of February 14th, 2019 Ninite has ended support for Windows XP and Windows Vista as well as the related server platforms Server 2003 and Server 2008.</p>
+<p>You'll need to upgrade your Windows version to continue using Ninite.</p>
+</div>
+<form method="post">
+<input type="hidden" name="_xsrf" value="2|99cfafe6|2ff8ac9d44568d38a9fd144195166cea|1783360726"/>
+<div class="container">
+<h3 class="text-center">1. Pick the apps you want</h3>
+</div>
+<div>
+<ul class="list-unstyled d-block mx-auto js-masonry" data-masonry-options='{"isFitWidth": true}'>
+
+
+<li class="homepage-app-section">
+<h4>Web Browsers</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_kvedr" class="homepage-app-label" title="Fast Browser by Google 150.0.7871.47">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="chrome"
+id="cb_kvedr">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/R423MXEYO4NJRC5YDPOEU362A4.png" alt="Chrome icon">
+Chrome
+</label>
+<p class="visually-hidden">Fast Browser by Google 150.0.7871.47</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_dqbak" class="homepage-app-label" title="Alternative Browser 133.0.5932.24">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="operaChromium"
+id="cb_dqbak">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/EZ36SHVKOHLPDFAM4IC63DFOKU.png" alt="Opera icon">
+Opera
+</label>
+<p class="visually-hidden">Alternative Browser 133.0.5932.24</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_22s4s" class="homepage-app-label" title="Extensible Browser 152.0.4">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="firefox"
+id="cb_22s4s">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/GXFFNGKNKZZTPF6U4IOSWAJDVU.png" alt="Firefox icon">
+Firefox
+</label>
+<p class="visually-hidden">Extensible Browser 152.0.4</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_bebzx" class="homepage-app-label" title="Microsoft Edge Browser 150.0.4078.48">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="edge"
+id="cb_bebzx">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/DYEG7BMSZSDD7QCOZ7FZ7ZN27Y.png" alt="Edge icon">
+Edge
+</label>
+<p class="visually-hidden">Microsoft Edge Browser 150.0.4078.48</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_2ghkx" class="homepage-app-label" title="Privacy Browser 1.92.134">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="brave"
+id="cb_2ghkx">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PLD56XG5YU5IK76KGOZWM3DTB4.png" alt="Brave icon">
+Brave
+</label>
+<p class="visually-hidden">Privacy Browser 1.92.134</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_cvqhu" class="homepage-app-label" title="Vivaldi Browser 8.0.4033.57">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vivaldi"
+id="cb_cvqhu">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/M7DYXA5NCVI2GUYL376NCVNZTQ.png" alt="Vivaldi icon">
+Vivaldi
+</label>
+<p class="visually-hidden">Vivaldi Browser 8.0.4033.57</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Messaging</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_cwity" class="homepage-app-label" title="Video Conference 7.1.0.41345">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="zoom"
+id="cb_cwity">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PJTYHUUK2NBMDWBSTCHT3ZHCEA.png" alt="Zoom icon">
+Zoom
+</label>
+<p class="visually-hidden">Video Conference 7.1.0.41345</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_jav43" class="homepage-app-label" title="Voice and Text Chat 1.0.9244">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="discord"
+id="cb_jav43">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/5BU6KXYGWSLK4XSZLZIF5MQKUQ.png" alt="Discord icon">
+Discord
+</label>
+<p class="visually-hidden">Voice and Text Chat 1.0.9244</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_r7lpi" class="homepage-app-label" title="Video Conferencing, Meetings, Calling">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="teams"
+id="cb_r7lpi">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/C4XO3QINCXSX5VV7HGXAJCEV6E.png" alt="Teams icon">
+Teams
+</label>
+<p class="visually-hidden">Video Conferencing, Meetings, Calling</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_tm27m" class="homepage-app-label" title="Multi-IM Client 2.14.14">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="pidgin"
+id="cb_tm27m">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/VD4DSB2SJAQW5M5PN47Y5FEGX4.png" alt="Pidgin icon">
+Pidgin
+</label>
+<p class="visually-hidden">Multi-IM Client 2.14.14</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_4nn6w" class="homepage-app-label" title="Email Reader by Mozilla 152.0.1">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="thunderbird"
+id="cb_4nn6w">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/JB3XAGLXGDN4W7CIEZQUDR3K2Q.png" alt="Thunderbird icon">
+Thunderbird
+</label>
+<p class="visually-hidden">Email Reader by Mozilla 152.0.1</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_tvalh" class="homepage-app-label" title="Trillian IM 6.6.0.16">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="trillian"
+id="cb_tvalh">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/FU5PZX6ER7CCY7JJDBZ4YPEHRM.png" alt="Trillian icon">
+Trillian
+</label>
+<p class="visually-hidden">Trillian IM 6.6.0.16</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Media</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_hmiuc" class="homepage-app-label" title="Music/Media Manager 12.13.10.3">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="itunes"
+id="cb_hmiuc">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/XVHE53C2TRG4WZZWHTIG26ZQOM.png" alt="iTunes icon">
+iTunes
+</label>
+<p class="visually-hidden">Music/Media Manager 12.13.10.3</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_5hco5" class="homepage-app-label" title="Great Video Player 3.0.23">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vlc"
+id="cb_5hco5">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/AARRKXIDTYQEB43EI4SESMU6XU.png" alt="VLC icon">
+VLC
+</label>
+<p class="visually-hidden">Great Video Player 3.0.23</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_lconn" class="homepage-app-label" title="Music Player 5.40.2722">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="aimp"
+id="cb_lconn">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/64OB5M3CI6CONJWJE47QCLWV24.png" alt="AIMP icon">
+AIMP
+</label>
+<p class="visually-hidden">Music Player 5.40.2722</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_hbmpm" class="homepage-app-label" title="Music Player 2.25.10">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="foobar"
+id="cb_hbmpm">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/NUKVHYMQNRENE32GFVTLLQMUPA.png" alt="foobar2000 icon">
+foobar2000
+</label>
+<p class="visually-hidden">Music Player 2.25.10</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_gs7lf" class="homepage-app-label" title="Music Player 5.9.2.10042">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="winamp"
+id="cb_gs7lf">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/winamp2-cda3f4d6e7939016035bd4bff51c04f8.png" alt="Winamp icon">
+Winamp
+</label>
+<p class="visually-hidden">Music Player 5.9.2.10042</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_hcq5k" class="homepage-app-label" title="Music Manager &amp; Player 3.6.9403.32563">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="musicbee"
+id="cb_hcq5k">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/3VTNW46X4R5XS5QHHEVRQKQAEY.png" alt="MusicBee icon">
+MusicBee
+</label>
+<p class="visually-hidden">Music Manager &amp; Player 3.6.9403.32563</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_htevm" class="homepage-app-label" title="Audio Editor 3.7.8">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="audacity"
+id="cb_htevm">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/ZV53RR2KSRN2XUQDGKJVK6BH2Y.png" alt="Audacity icon">
+Audacity
+</label>
+<p class="visually-hidden">Audio Editor 3.7.8</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_w53be" class="homepage-app-label" title="Video decoders plus Media Player Classic 19.8.2">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="klitecodecs"
+id="cb_w53be">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/P3TLJ7YGY4TKZCJRXK2GEMC5Z4.png" alt="K-Lite Codecs icon">
+K-Lite Codecs
+</label>
+<p class="visually-hidden">Video decoders plus Media Player Classic 19.8.2</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_uhgi3" class="homepage-app-label" title="Video Player 2.3.14.5270">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="gom"
+id="cb_uhgi3">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/GOM-f9c20cdbc01b486da70a62f768679f62.png" alt="GOM icon">
+GOM
+</label>
+<p class="visually-hidden">Video Player 2.3.14.5270</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_tlvlq" class="homepage-app-label" title="Online Music Service 1.2.85.513">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="spotify"
+id="cb_tlvlq">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/X4XEFHP4PS5JTTFLD5GZ736MSE.png" alt="Spotify icon">
+Spotify
+</label>
+<p class="visually-hidden">Online Music Service 1.2.85.513</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_xsupa" class="homepage-app-label" title="Video decoders plus MPC 2015.10.19">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="cccp"
+id="cb_xsupa">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/cccp-a3a90c36f622b281bcc97a5f408c6855.png" alt="CCCP icon">
+CCCP
+</label>
+<p class="visually-hidden">Video decoders plus MPC 2015.10.19</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_7qwxr" class="homepage-app-label" title="Music Organizer 2024.1.0.3113">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="mediamonkey"
+id="cb_7qwxr">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/CUC2UEP5TIYIAXXL23YPQRG5SA.png" alt="MediaMonkey icon">
+MediaMonkey
+</label>
+<p class="visually-hidden">Music Organizer 2024.1.0.3113</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_2cva6" class="homepage-app-label" title="Convert Videos 1.11.2 (requires .NET 5)">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="handbrake"
+id="cb_2cva6">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/NMYRLL2HPGSWPFMVTNEAPHVE7U.png" alt="HandBrake icon">
+HandBrake
+</label>
+<p class="visually-hidden">Convert Videos 1.11.2 (requires .NET 5)</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>.NET</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_p5kgw" class="homepage-app-label" title="Microsoft .NET 4.8.1">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value=".net4.8.1"
+id="cb_p5kgw">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/dotnet-1863f6ffe9fdc1d4fadfb9b16cf37dfd.png" alt=".NET 4.8.1 icon">
+.NET 4.8.1
+</label>
+<p class="visually-hidden">Microsoft .NET 4.8.1</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_kwlra" class="homepage-app-label" title=".NET Desktop Runtime (x64) 8.0.28.36119">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value=".netx8"
+id="cb_kwlra">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/dotnet-1863f6ffe9fdc1d4fadfb9b16cf37dfd.png" alt=".NET Desktop Runtime x64 8 icon">
+.NET Desktop Runtime x64 8
+</label>
+<p class="visually-hidden">.NET Desktop Runtime (x64) 8.0.28.36119</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_63hcp" class="homepage-app-label" title=".NET Desktop Runtime (arm64) 8.0.28.36119">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value=".neta8"
+id="cb_63hcp">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/dotnet-1863f6ffe9fdc1d4fadfb9b16cf37dfd.png" alt=".NET Desktop Runtime arm64 8 icon">
+.NET Desktop Runtime arm64 8
+</label>
+<p class="visually-hidden">.NET Desktop Runtime (arm64) 8.0.28.36119</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_iwyrh" class="homepage-app-label" title=".NET Desktop Runtime (x86) 8.0.28.36119">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value=".net8"
+id="cb_iwyrh">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/dotnet-1863f6ffe9fdc1d4fadfb9b16cf37dfd.png" alt=".NET Desktop Runtime 8 icon">
+.NET Desktop Runtime 8
+</label>
+<p class="visually-hidden">.NET Desktop Runtime (x86) 8.0.28.36119</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_mfsyo" class="homepage-app-label" title=".NET Desktop Runtime (x64) 9.0.17.36118">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value=".netx9"
+id="cb_mfsyo">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/RTCLH4QBP373P2VQGA4T5F37E4.png" alt=".NET Desktop Runtime x64 9 icon">
+.NET Desktop Runtime x64 9
+</label>
+<p class="visually-hidden">.NET Desktop Runtime (x64) 9.0.17.36118</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_tgrbx" class="homepage-app-label" title=".NET Desktop Runtime (arm64) 9.0.17.36118">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value=".neta9"
+id="cb_tgrbx">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/C3EUNJA63IWFY4WTWIEPB2PBKI.png" alt=".NET Desktop Runtime arm64 9 icon">
+.NET Desktop Runtime arm64 9
+</label>
+<p class="visually-hidden">.NET Desktop Runtime (arm64) 9.0.17.36118</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_gegk2" class="homepage-app-label" title=".NET Desktop Runtime (x86) 9.0.17.36118">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value=".net9"
+id="cb_gegk2">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/RTCLH4QBP373P2VQGA4T5F37E4.png" alt=".NET Desktop Runtime 9 icon">
+.NET Desktop Runtime 9
+</label>
+<p class="visually-hidden">.NET Desktop Runtime (x86) 9.0.17.36118</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_2c7me" class="homepage-app-label" title=".NET Desktop Runtime (x64) 10.0.9.50000">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value=".netx10"
+id="cb_2c7me">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/RTCLH4QBP373P2VQGA4T5F37E4.png" alt=".NET Desktop Runtime x64 10 icon">
+.NET Desktop Runtime x64 10
+</label>
+<p class="visually-hidden">.NET Desktop Runtime (x64) 10.0.9.50000</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_u5ajw" class="homepage-app-label" title=".NET Desktop Runtime (arm64) 10.0.9.50000">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value=".neta10"
+id="cb_u5ajw">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/C3EUNJA63IWFY4WTWIEPB2PBKI.png" alt=".NET Desktop Runtime arm64 10 icon">
+.NET Desktop Runtime arm64 10
+</label>
+<p class="visually-hidden">.NET Desktop Runtime (arm64) 10.0.9.50000</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_jijdr" class="homepage-app-label" title=".NET Desktop Runtime (x86) 10.0.9.50000">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value=".net10"
+id="cb_jijdr">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/RTCLH4QBP373P2VQGA4T5F37E4.png" alt=".NET Desktop Runtime 10 icon">
+.NET Desktop Runtime 10
+</label>
+<p class="visually-hidden">.NET Desktop Runtime (x86) 10.0.9.50000</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_w3uog" class="homepage-app-label" title="ASP.NET Core Runtime (x64) 8.0.28.26269">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="aspnetx8"
+id="cb_w3uog">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/ZMENFWG5NOUB2EQM33J4EYNULA.png" alt="ASP.NET Core Runtime x64 8 icon">
+ASP.NET Core Runtime x64 8
+</label>
+<p class="visually-hidden">ASP.NET Core Runtime (x64) 8.0.28.26269</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_gtq3m" class="homepage-app-label" title="ASP.NET Core Runtime (arm64) 8.0.28.26269">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="aspneta8"
+id="cb_gtq3m">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4Q4QUK4F4EICIOTHLBAN4XUFHU.png" alt="ASP.NET Core Runtime arm64 8 icon">
+ASP.NET Core Runtime arm64 8
+</label>
+<p class="visually-hidden">ASP.NET Core Runtime (arm64) 8.0.28.26269</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_ldkoc" class="homepage-app-label" title="ASP.NET Core Runtime (x86) 8.0.28.26269">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="aspnet8"
+id="cb_ldkoc">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/ZMENFWG5NOUB2EQM33J4EYNULA.png" alt="ASP.NET Core Runtime 8 icon">
+ASP.NET Core Runtime 8
+</label>
+<p class="visually-hidden">ASP.NET Core Runtime (x86) 8.0.28.26269</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_iigbc" class="homepage-app-label" title="ASP.NET Core Runtime (x64) 9.0.17.26269">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="aspnetx9"
+id="cb_iigbc">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/ZMENFWG5NOUB2EQM33J4EYNULA.png" alt="ASP.NET Core Runtime x64 9 icon">
+ASP.NET Core Runtime x64 9
+</label>
+<p class="visually-hidden">ASP.NET Core Runtime (x64) 9.0.17.26269</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_pwsnw" class="homepage-app-label" title="ASP.NET Core Runtime (arm64) 9.0.17.26269">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="aspneta9"
+id="cb_pwsnw">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4Q4QUK4F4EICIOTHLBAN4XUFHU.png" alt="ASP.NET Core Runtime arm64 9 icon">
+ASP.NET Core Runtime arm64 9
+</label>
+<p class="visually-hidden">ASP.NET Core Runtime (arm64) 9.0.17.26269</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_s74o5" class="homepage-app-label" title="ASP.NET Core Runtime (x86) 9.0.17.26269">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="aspnet9"
+id="cb_s74o5">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/ZMENFWG5NOUB2EQM33J4EYNULA.png" alt="ASP.NET Core Runtime 9 icon">
+ASP.NET Core Runtime 9
+</label>
+<p class="visually-hidden">ASP.NET Core Runtime (x86) 9.0.17.26269</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_noswi" class="homepage-app-label" title="ASP.NET Core Runtime (x64) 10.0.9.36120">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="aspnetx10"
+id="cb_noswi">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/ZMENFWG5NOUB2EQM33J4EYNULA.png" alt="ASP.NET Core Runtime x64 10 icon">
+ASP.NET Core Runtime x64 10
+</label>
+<p class="visually-hidden">ASP.NET Core Runtime (x64) 10.0.9.36120</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_smggj" class="homepage-app-label" title="ASP.NET Core Runtime (arm64) 10.0.9.36120">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="aspneta10"
+id="cb_smggj">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4Q4QUK4F4EICIOTHLBAN4XUFHU.png" alt="ASP.NET Core Runtime arm64 10 icon">
+ASP.NET Core Runtime arm64 10
+</label>
+<p class="visually-hidden">ASP.NET Core Runtime (arm64) 10.0.9.36120</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_aapk7" class="homepage-app-label" title="ASP.NET Core Runtime (x86) 10.0.9.36120">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="aspnet10"
+id="cb_aapk7">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/ZMENFWG5NOUB2EQM33J4EYNULA.png" alt="ASP.NET Core Runtime 10 icon">
+ASP.NET Core Runtime 10
+</label>
+<p class="visually-hidden">ASP.NET Core Runtime (x86) 10.0.9.36120</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Java</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_rvg4g" class="homepage-app-label" title="64-bit Java Runtime (JRE) 8u492-b09">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="adoptjavax8"
+id="cb_rvg4g">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PWKO3B6XDUE5FYSJDKP7WWPE5M.png" alt="Java (AdoptOpenJDK) x64 8 icon">
+Java (AdoptOpenJDK) x64 8
+</label>
+<p class="visually-hidden">64-bit Java Runtime (JRE) 8u492-b09</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_3zxsn" class="homepage-app-label" title="32-bit Java Runtime (JRE) 8u472-b08">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="adoptjava8"
+id="cb_3zxsn">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PWKO3B6XDUE5FYSJDKP7WWPE5M.png" alt="Java (AdoptOpenJDK) 8 icon">
+Java (AdoptOpenJDK) 8
+</label>
+<p class="visually-hidden">32-bit Java Runtime (JRE) 8u472-b08</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_btfev" class="homepage-app-label" title="64-bit Java Runtime (JRE) 11.0.31">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="adoptjavax11"
+id="cb_btfev">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PWKO3B6XDUE5FYSJDKP7WWPE5M.png" alt="Java (AdoptOpenJDK) x64 11 icon">
+Java (AdoptOpenJDK) x64 11
+</label>
+<p class="visually-hidden">64-bit Java Runtime (JRE) 11.0.31</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_dqs2g" class="homepage-app-label" title="64-bit Java Runtime (JRE) 17.0.19">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="adoptjavax17"
+id="cb_dqs2g">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PWKO3B6XDUE5FYSJDKP7WWPE5M.png" alt="Java (AdoptOpenJDK) x64 17 icon">
+Java (AdoptOpenJDK) x64 17
+</label>
+<p class="visually-hidden">64-bit Java Runtime (JRE) 17.0.19</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_7cehi" class="homepage-app-label" title="64-bit Java Runtime (JRE) 21.0.11">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="adoptjavax21"
+id="cb_7cehi">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PWKO3B6XDUE5FYSJDKP7WWPE5M.png" alt="Java (AdoptOpenJDK) x64 21 icon">
+Java (AdoptOpenJDK) x64 21
+</label>
+<p class="visually-hidden">64-bit Java Runtime (JRE) 21.0.11</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_qliia" class="homepage-app-label" title="64-bit Java Runtime (JRE) 25.0.3">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="adoptjavax25"
+id="cb_qliia">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PWKO3B6XDUE5FYSJDKP7WWPE5M.png" alt="Java (AdoptOpenJDK) x64 25 icon">
+Java (AdoptOpenJDK) x64 25
+</label>
+<p class="visually-hidden">64-bit Java Runtime (JRE) 25.0.3</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_gfyhw" class="homepage-app-label" title="64-bit Java Development Kit 8u492-b09">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="adoptjdkx8"
+id="cb_gfyhw">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PWKO3B6XDUE5FYSJDKP7WWPE5M.png" alt="JDK (AdoptOpenJDK) x64 8 icon">
+JDK (AdoptOpenJDK) x64 8
+</label>
+<p class="visually-hidden">64-bit Java Development Kit 8u492-b09</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_cisa6" class="homepage-app-label" title="Java Development Kit 8u472-b08">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="adoptjdk8"
+id="cb_cisa6">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PWKO3B6XDUE5FYSJDKP7WWPE5M.png" alt="JDK (AdoptOpenJDK) 8 icon">
+JDK (AdoptOpenJDK) 8
+</label>
+<p class="visually-hidden">Java Development Kit 8u472-b08</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_6gw4h" class="homepage-app-label" title="64-bit Java Development Kit 11.0.31">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="adoptjdkx11"
+id="cb_6gw4h">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PWKO3B6XDUE5FYSJDKP7WWPE5M.png" alt="JDK (AdoptOpenJDK) x64 11 icon">
+JDK (AdoptOpenJDK) x64 11
+</label>
+<p class="visually-hidden">64-bit Java Development Kit 11.0.31</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_2khiz" class="homepage-app-label" title="64-bit Java Development Kit 17.0.19">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="adoptjdkx17"
+id="cb_2khiz">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PWKO3B6XDUE5FYSJDKP7WWPE5M.png" alt="JDK (AdoptOpenJDK) x64 17 icon">
+JDK (AdoptOpenJDK) x64 17
+</label>
+<p class="visually-hidden">64-bit Java Development Kit 17.0.19</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_4xpod" class="homepage-app-label" title="64-bit Java Development Kit 21.0.11">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="adoptjdkx21"
+id="cb_4xpod">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PWKO3B6XDUE5FYSJDKP7WWPE5M.png" alt="JDK (AdoptOpenJDK) x64 21 icon">
+JDK (AdoptOpenJDK) x64 21
+</label>
+<p class="visually-hidden">64-bit Java Development Kit 21.0.11</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_3ixnz" class="homepage-app-label" title="64-bit Java Development Kit 25.0.3">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="adoptjdkx25"
+id="cb_3ixnz">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PWKO3B6XDUE5FYSJDKP7WWPE5M.png" alt="JDK (AdoptOpenJDK) x64 25 icon">
+JDK (AdoptOpenJDK) x64 25
+</label>
+<p class="visually-hidden">64-bit Java Development Kit 25.0.3</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_d3w7g" class="homepage-app-label" title="64-bit Java Development Kit 8u492-b09">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="correttojdkx8"
+id="cb_d3w7g">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/QGZAG5R62ZBD27RYWH7G5FBDBM.png" alt="JDK (Amazon Corretto) x64 8 icon">
+JDK (Amazon Corretto) x64 8
+</label>
+<p class="visually-hidden">64-bit Java Development Kit 8u492-b09</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_rmloh" class="homepage-app-label" title="Java Development Kit 8u492-b09">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="correttojdk8"
+id="cb_rmloh">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/QGZAG5R62ZBD27RYWH7G5FBDBM.png" alt="JDK (Amazon Corretto) 8 icon">
+JDK (Amazon Corretto) 8
+</label>
+<p class="visually-hidden">Java Development Kit 8u492-b09</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_owmh3" class="homepage-app-label" title="64-bit Java Development Kit 11.0.31">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="correttojdkx11"
+id="cb_owmh3">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/QGZAG5R62ZBD27RYWH7G5FBDBM.png" alt="JDK (Amazon Corretto) x64 11 icon">
+JDK (Amazon Corretto) x64 11
+</label>
+<p class="visually-hidden">64-bit Java Development Kit 11.0.31</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_uqjt2" class="homepage-app-label" title="64-bit Java Development Kit 17.0.19">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="correttojdkx17"
+id="cb_uqjt2">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/QGZAG5R62ZBD27RYWH7G5FBDBM.png" alt="JDK (Amazon Corretto) x64 17 icon">
+JDK (Amazon Corretto) x64 17
+</label>
+<p class="visually-hidden">64-bit Java Development Kit 17.0.19</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_ejbdb" class="homepage-app-label" title="64-bit Java Development Kit 21.0.11">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="correttojdkx21"
+id="cb_ejbdb">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/QGZAG5R62ZBD27RYWH7G5FBDBM.png" alt="JDK (Amazon Corretto) x64 21 icon">
+JDK (Amazon Corretto) x64 21
+</label>
+<p class="visually-hidden">64-bit Java Development Kit 21.0.11</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_xgll6" class="homepage-app-label" title="64-bit Java Development Kit 25.0.3">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="correttojdkx25"
+id="cb_xgll6">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/QGZAG5R62ZBD27RYWH7G5FBDBM.png" alt="JDK (Amazon Corretto) x64 25 icon">
+JDK (Amazon Corretto) x64 25
+</label>
+<p class="visually-hidden">64-bit Java Development Kit 25.0.3</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_rv7zl" class="homepage-app-label" title="64-bit Java Runtime Environment 8u492-b09">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="correttojrex8"
+id="cb_rv7zl">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/QGZAG5R62ZBD27RYWH7G5FBDBM.png" alt="JRE (Amazon Corretto) x64 8 icon">
+JRE (Amazon Corretto) x64 8
+</label>
+<p class="visually-hidden">64-bit Java Runtime Environment 8u492-b09</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_kwatp" class="homepage-app-label" title="Java Runtime Environment 8u492-b09">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="correttojre8"
+id="cb_kwatp">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/QGZAG5R62ZBD27RYWH7G5FBDBM.png" alt="JRE (Amazon Corretto) 8 icon">
+JRE (Amazon Corretto) 8
+</label>
+<p class="visually-hidden">Java Runtime Environment 8u492-b09</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Imaging</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_opwmp" class="homepage-app-label" title="Painting Program 5.3.2.1">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="krita"
+id="cb_opwmp">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/I34XNAOB7RUG6CFUNMATLL6GW4.png" alt="Krita icon">
+Krita
+</label>
+<p class="visually-hidden">Painting Program 5.3.2.1</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_pr6oy" class="homepage-app-label" title="3D Creation Suite 5.1.2">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="blender"
+id="cb_pr6oy">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/CREZUGUDCUDHBWHSJYTZLKUS2M.png" alt="Blender icon">
+Blender
+</label>
+<p class="visually-hidden">3D Creation Suite 5.1.2</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_by33i" class="homepage-app-label" title="Image Editor 5.112.9563.32325 (requires .NET 4.5)">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="paint.net"
+id="cb_by33i">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/X4EQ57DBOI3YGMP67VLIZA2OFU.png" alt="Paint.NET icon">
+Paint.NET
+</label>
+<p class="visually-hidden">Image Editor 5.112.9563.32325 (requires .NET 4.5)</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_7rlms" class="homepage-app-label" title="Open Source Image Editor 3.2.4">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="gimp"
+id="cb_7rlms">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/RLDUTCFVUHK6WCBU4TJXR5DXBE.png" alt="GIMP icon">
+GIMP
+</label>
+<p class="visually-hidden">Open Source Image Editor 3.2.4</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_2n6do" class="homepage-app-label" title="Image Viewer 4.75">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="irfanview"
+id="cb_2n6do">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/ORG2PE5KGHRNSUGJIRDPRNVLDI.png" alt="IrfanView icon">
+IrfanView
+</label>
+<p class="visually-hidden">Image Viewer 4.75</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_hzubg" class="homepage-app-label" title="Image Viewer 2.52.5">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="xnview"
+id="cb_hzubg">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PTAKCMZXB7ZU4ITLKH2O3BVOQI.png" alt="XnView icon">
+XnView
+</label>
+<p class="visually-hidden">Image Viewer 2.52.5</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_g6lly" class="homepage-app-label" title="Vector Graphics Editor 1.4.3">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="inkscape"
+id="cb_g6lly">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/LIPQ37QBIA3OA34OAZGSRAKNIE.png" alt="Inkscape icon">
+Inkscape
+</label>
+<p class="visually-hidden">Vector Graphics Editor 1.4.3</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_6nlg6" class="homepage-app-label" title="FastStone Image Viewer 8.5">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="faststone"
+id="cb_6nlg6">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/L7R6BPJMEA2I5T2BHFY5PQMTYE.png" alt="FastStone icon">
+FastStone
+</label>
+<p class="visually-hidden">FastStone Image Viewer 8.5</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_wq43l" class="homepage-app-label" title="Screenshot Tool 1.3.315">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="greenshot"
+id="cb_wq43l">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/K45OLYWPKVHDIFQM3RIUYYWHZI.png" alt="Greenshot icon">
+Greenshot
+</label>
+<p class="visually-hidden">Screenshot Tool 1.3.315</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_nfdvi" class="homepage-app-label" title="Screenshot Uploader">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="sharex"
+id="cb_nfdvi">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/KSS6YR3VGGJK77G3JOBM6GD3LQ.png" alt="ShareX icon">
+ShareX
+</label>
+<p class="visually-hidden">Screenshot Uploader</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Documents</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_n3l7s" class="homepage-app-label" title="Alternative PDF Reader 2026.1.1.36485">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="foxit"
+id="cb_n3l7s">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/VWKMB53R3PPNV2VZOJTD54VI2I.png" alt="Foxit Reader icon">
+Foxit Reader
+</label>
+<p class="visually-hidden">Alternative PDF Reader 2026.1.1.36485</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_iym3r" class="homepage-app-label" title="Free Office Suite 26.2.4 (JRE recommended)">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="libreoffice"
+id="cb_iym3r">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/WMDH233EOQ2BHQXVBJ6BJPGMV4.png" alt="LibreOffice icon">
+LibreOffice
+</label>
+<p class="visually-hidden">Free Office Suite 26.2.4 (JRE recommended)</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_m4qxn" class="homepage-app-label" title="Lightweight PDF Reader 3.6.1">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="sumatrapdf"
+id="cb_m4qxn">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/NFVWWLOOUOQ666LOICENU3ZCEA.png" alt="SumatraPDF icon">
+SumatraPDF
+</label>
+<p class="visually-hidden">Lightweight PDF Reader 3.6.1</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_g2ba4" class="homepage-app-label" title="Print Documents as PDF Files 4.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="cutepdf"
+id="cb_g2ba4">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/S7CH5FAYVNHUVKITKNAGUQUXQU.png" alt="CutePDF icon">
+CutePDF
+</label>
+<p class="visually-hidden">Print Documents as PDF Files 4.0</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_x52fw" class="homepage-app-label" title="Free Office Suite 4.1.16 (JRE recommended)">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="openoffice"
+id="cb_x52fw">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/UTOQV2LVGD5JJTB4H4IIIJGOB4.png" alt="OpenOffice icon">
+OpenOffice
+</label>
+<p class="visually-hidden">Free Office Suite 4.1.16 (JRE recommended)</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Security</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_mgdaa" class="homepage-app-label" title="Malware Remover 5.5.7.255">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="malwarebytes"
+id="cb_mgdaa">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/YNTAGZLB2E5CBSUKR7O5LKME74.png" alt="Malwarebytes icon">
+Malwarebytes
+</label>
+<p class="visually-hidden">Malware Remover 5.5.7.255</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_l3vzg" class="homepage-app-label" title="Avast Free Antivirus 26.6.11052.3712">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="avast"
+id="cb_l3vzg">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/XEJG4KBIORJAJQNFVDACDWJVO4.png" alt="Avast icon">
+Avast
+</label>
+<p class="visually-hidden">Avast Free Antivirus 26.6.11052.3712</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_4mrni" class="homepage-app-label" title="AVG Free Antivirus 26.6.11052.3716">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="avg"
+id="cb_4mrni">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/MSMIOLWDKQ4EDFKU72BGYCRQOM.png" alt="AVG icon">
+AVG
+</label>
+<p class="visually-hidden">AVG Free Antivirus 26.6.11052.3716</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_fflxm" class="homepage-app-label" title="Spyware Remover 2.9.85.5">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="spybot2"
+id="cb_fflxm">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/OARFNOH5Y3JW7DUSPWQJB6NRJA.png" alt="Spybot 2 icon">
+Spybot 2
+</label>
+<p class="visually-hidden">Spyware Remover 2.9.85.5</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_e54zh" class="homepage-app-label" title="Avira Free Antivirus 15.0.2201.2134">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="avira"
+id="cb_e54zh">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/avira-e395b067008874c133037b063c2c7378.png" alt="Avira icon">
+Avira
+</label>
+<p class="visually-hidden">Avira Free Antivirus 15.0.2201.2134</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_dmzdc" class="homepage-app-label" title="SUPERAntiSpyware Free 10.0.1288">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="super"
+id="cb_dmzdc">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/NYSOC3LTA3WN3O6DSWMH7RBCLA.png" alt="SUPERAntiSpyware icon">
+SUPERAntiSpyware
+</label>
+<p class="visually-hidden">SUPERAntiSpyware Free 10.0.1288</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>File Sharing</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_itstl" class="homepage-app-label" title="Free Bittorrent Client 5.2.2">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="qbittorrent"
+id="cb_itstl">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/DUQO4JC2XJTOCH3IJ6NPM7X7WU.png" alt="qBittorrent icon">
+qBittorrent
+</label>
+<p class="visually-hidden">Free Bittorrent Client 5.2.2</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Online Storage</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_f4z4i" class="homepage-app-label" title="Great Online Backup/File Sync 258.4.3749">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="dropbox"
+id="cb_f4z4i">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/K4S33DWJMHIJLGM4ZP6LNH2EV4.png" alt="Dropbox icon">
+Dropbox
+</label>
+<p class="visually-hidden">Great Online Backup/File Sync 258.4.3749</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_gsovh" class="homepage-app-label" title="Online File Sync 127.0.1.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="googledrivefordesktop"
+id="cb_gsovh">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/M2YU6HDJA4HEIQZDWKCE4ZIQYY.png" alt="Google Drive for Desktop icon">
+Google Drive for Desktop
+</label>
+<p class="visually-hidden">Online File Sync 127.0.1.0</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_57ao2" class="homepage-app-label" title="Online File Sync by Microsoft 26.108.0607.0002">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="onedrive"
+id="cb_57ao2">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/R7YFCGQNSZONF5VJ6I2U3RXCM4.png" alt="OneDrive icon">
+OneDrive
+</label>
+<p class="visually-hidden">Online File Sync by Microsoft 26.108.0607.0002</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_rm6zf" class="homepage-app-label" title="Online Backup/File Sync 4.1.3.2">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="sugarsync"
+id="cb_rm6zf">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/sugarsync-e54f075bb9bca7c2329f4b7ad283d724.png" alt="SugarSync icon">
+SugarSync
+</label>
+<p class="visually-hidden">Online Backup/File Sync 4.1.3.2</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Other</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_i2ycj" class="homepage-app-label" title="Online Notes 11.23.2">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="evernote"
+id="cb_i2ycj">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/KK46R2C2HWCSYSQPPVS22ECW4M.png" alt="Evernote icon">
+Evernote
+</label>
+<p class="visually-hidden">Online Notes 11.23.2</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_ewkjy" class="homepage-app-label" title="Online Atlas by Google 7.3.7.1155">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="googleearth"
+id="cb_ewkjy">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/OKWWFAZBLZDQYFIDI2NISGCKFQ.png" alt="Google Earth icon">
+Google Earth
+</label>
+<p class="visually-hidden">Online Atlas by Google 7.3.7.1155</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_oxxml" class="homepage-app-label" title="App Store for Games">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="steam"
+id="cb_oxxml">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/Steam-366e162ab72bf4750858a9a62e4de040.png" alt="Steam icon">
+Steam
+</label>
+<p class="visually-hidden">App Store for Games</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_aif6c" class="homepage-app-label" title="Epic Games Store">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="epic"
+id="cb_aif6c">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/RM2AV2SJTDLPSULKDVRTPVOHNY.png" alt="Epic Games Launcher icon">
+Epic Games Launcher
+</label>
+<p class="visually-hidden">Epic Games Store</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_jrd6u" class="homepage-app-label" title="Password Manager 2.61.1">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="keepass2"
+id="cb_jrd6u">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/UKR52BAL66I74BYAYBPU5CB5LQ.png" alt="KeePass 2 icon">
+KeePass 2
+</label>
+<p class="visually-hidden">Password Manager 2.61.1</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_gew3n" class="homepage-app-label" title="Local File Search Engine 1.4.1.1032">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="everything"
+id="cb_gew3n">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/NK4533UONX6G5TWA6ZTKYR6KTE.png" alt="Everything icon">
+Everything
+</label>
+<p class="visually-hidden">Local File Search Engine 1.4.1.1032</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_rrag3" class="homepage-app-label" title="Screen Reader 2026.1.1">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="nvda"
+id="cb_rrag3">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/HTIC43MRKMTBEQ3YMFPSXUC4GY.png" alt="NV Access icon">
+NV Access
+</label>
+<p class="visually-hidden">Screen Reader 2026.1.1</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Utilities</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_2pwab" class="homepage-app-label" title="Remote Desktop 9.7.9">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="anydesk"
+id="cb_2pwab">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/5Z7TFQBFUQREUBBJFOC3YBPVWY.png" alt="AnyDesk icon">
+AnyDesk
+</label>
+<p class="visually-hidden">Remote Desktop 9.7.9</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_a7elk" class="homepage-app-label" title="Remote Access Tool 15.79.4">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="teamviewer15"
+id="cb_a7elk">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/NQ7A6XLSO6MEWKKVSYP5PVAOWM.png" alt="TeamViewer 15 icon">
+TeamViewer 15
+</label>
+<p class="visually-hidden">Remote Access Tool 15.79.4</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_itq3h" class="homepage-app-label" title="Disc Burner 2.5.8.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="imgburn"
+id="cb_itq3h">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/imgburn6-05979ca4a326206e4d48fcdc1b33b2f2.png" alt="ImgBurn icon">
+ImgBurn
+</label>
+<p class="visually-hidden">Disc Burner 2.5.8.0</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_oircc" class="homepage-app-label" title="RealVNC Remote Access 7.17.0.5">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="realvncserver"
+id="cb_oircc">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/BA6TGTQONKPCEPJPAWTORVKNBA.png" alt="RealVNC Server icon">
+RealVNC Server
+</label>
+<p class="visually-hidden">RealVNC Remote Access 7.17.0.5</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_galxx" class="homepage-app-label" title="RealVNC Remote Access 7.15.1.18">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="realvncviewer"
+id="cb_galxx">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/2CD6UJKHHDALPB2R4RORS5OZGM.png" alt="RealVNC Viewer icon">
+RealVNC Viewer
+</label>
+<p class="visually-hidden">RealVNC Remote Access 7.15.1.18</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_itwdu" class="homepage-app-label" title="TightVNC Remote Desktop Software 2.8.88">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="tightvnc"
+id="cb_itwdu">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/S4MVE6YPSM5KJLRWD6RYZ42X3I.png" alt="TightVNC icon">
+TightVNC
+</label>
+<p class="visually-hidden">TightVNC Remote Desktop Software 2.8.88</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_pa3mm" class="homepage-app-label" title="Better File Copy 4.0.0.37">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="teracopy"
+id="cb_pa3mm">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/73NFQ6DX5AVLMEYDL2GVY6BNZE.png" alt="TeraCopy icon">
+TeraCopy
+</label>
+<p class="visually-hidden">Better File Copy 4.0.0.37</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_7d32j" class="homepage-app-label" title="Disc Burner 4.5.8.7128 (requires .NET)">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="cdburnerxp"
+id="cb_7d32j">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/PUD67ZCNWBDZ6UDQZXA3AHKNTQ.png" alt="CDBurnerXP icon">
+CDBurnerXP
+</label>
+<p class="visually-hidden">Disc Burner 4.5.8.7128 (requires .NET)</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_lpcec" class="homepage-app-label" title="App Uninstaller/Reverse Ninite 2.7.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="revo"
+id="cb_lpcec">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/RHYHBER4C6NCUUDLAMBNVUZSEM.png" alt="Revo icon">
+Revo
+</label>
+<p class="visually-hidden">App Uninstaller/Reverse Ninite 2.7.0</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_aly25" class="homepage-app-label" title="Hotkey Launcher 2.5">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="launchy"
+id="cb_aly25">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/VF5JIQV5Z2D3BH4625JDPOKUJQ.png" alt="Launchy icon">
+Launchy
+</label>
+<p class="visually-hidden">Hotkey Launcher 2.5</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_ih3nm" class="homepage-app-label" title="Directory Statistics 2.7.0.2722">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="windirstat"
+id="cb_ih3nm">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/3F75KHXWQRPHBBXP3ULW2KXPP4.png" alt="WinDirStat icon">
+WinDirStat
+</label>
+<p class="visually-hidden">Directory Statistics 2.7.0.2722</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_toa6a" class="homepage-app-label" title="Directory Statistics 4.31">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="wiztree"
+id="cb_toa6a">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/JMLCA4FNPMCLZVC6X5M5DQRZ6M.png" alt="WizTree icon">
+WizTree
+</label>
+<p class="visually-hidden">Directory Statistics 4.31</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_h4enj" class="homepage-app-label" title="System Utilities 6.44.0.48">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="glary"
+id="cb_h4enj">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/IXGPFTBK3EBFWTF43W4DAYDPFA.png" alt="Glary icon">
+Glary
+</label>
+<p class="visually-hidden">System Utilities 6.44.0.48</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_addmm" class="homepage-app-label" title="Disc Burner 0.53.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="infrarecorder"
+id="cb_addmm">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/InfraRecorder-7368df145ca51c7dfee29714c6b5439f.png" alt="InfraRecorder icon">
+InfraRecorder
+</label>
+<p class="visually-hidden">Disc Burner 0.53.0</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_umsja" class="homepage-app-label" title="Old-Style Start Menu 4.4.198">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="openshell"
+id="cb_umsja">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/2ZZ3CQAIJJYDSV6JSZ7PDNU3J4.png" alt="Open-Shell icon">
+Open-Shell
+</label>
+<p class="visually-hidden">Old-Style Start Menu 4.4.198</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_wqooj" class="homepage-app-label" title="PC Crap Remover 6.39.11548">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="ccleaner"
+id="cb_wqooj">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/WZXTBXQ3ZI5FU4J2RAGJJN22XA.png" alt="CCleaner icon">
+CCleaner
+</label>
+<p class="visually-hidden">PC Crap Remover 6.39.11548</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Compression</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_bcaaf" class="homepage-app-label" title="Great Compression App 26.02">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="7zip"
+id="cb_bcaaf">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/J2GZ5DNECZISS4HIZIEVE74BDQ.png" alt="7-Zip icon">
+7-Zip
+</label>
+<p class="visually-hidden">Great Compression App 26.02</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_z6s5m" class="homepage-app-label" title="File Compression Tool 11.1.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="peazip"
+id="cb_z6s5m">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/peazip-e60cdf74fe4e4fa74f0ee8bb89712225.png" alt="PeaZip icon">
+PeaZip
+</label>
+<p class="visually-hidden">File Compression Tool 11.1.0</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_nxciq" class="homepage-app-label" title="Another Compression Tool 7.22 (Trial)">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="winrar"
+id="cb_nxciq">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/NRI2CC4JKEOQVLNYMCPEFOQK7M.png" alt="WinRAR icon">
+WinRAR
+</label>
+<p class="visually-hidden">Another Compression Tool 7.22 (Trial)</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>VC++ Redistributables</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_ugu6j" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredistx15"
+id="cb_ugu6j">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/DSRO7OFGRYK76MRGNUP54EWMHY.png" alt="VC Redist x64 2015+ icon">
+VC Redist x64 2015+
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_evdlh" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredist15"
+id="cb_evdlh">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/DSRO7OFGRYK76MRGNUP54EWMHY.png" alt="VC Redist x86 2015+ icon">
+VC Redist x86 2015+
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_yawn3" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredistarm15"
+id="cb_yawn3">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/DSRO7OFGRYK76MRGNUP54EWMHY.png" alt="VC Redist arm64 2015+ icon">
+VC Redist arm64 2015+
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_sncjs" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredistx13"
+id="cb_sncjs">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4WHATYMRJVX5OWFZO3N5ZJZVQA.png" alt="VC Redist x64 2013 icon">
+VC Redist x64 2013
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_e3trb" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredist13"
+id="cb_e3trb">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4WHATYMRJVX5OWFZO3N5ZJZVQA.png" alt="VC Redist x86 2013 icon">
+VC Redist x86 2013
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_gbuhd" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredistx12"
+id="cb_gbuhd">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4WHATYMRJVX5OWFZO3N5ZJZVQA.png" alt="VC Redist x64 2012 icon">
+VC Redist x64 2012
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_nldwf" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredist12"
+id="cb_nldwf">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4WHATYMRJVX5OWFZO3N5ZJZVQA.png" alt="VC Redist x86 2012 icon">
+VC Redist x86 2012
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_s32bb" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredistx10"
+id="cb_s32bb">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4WHATYMRJVX5OWFZO3N5ZJZVQA.png" alt="VC Redist x64 2010 icon">
+VC Redist x64 2010
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_ow572" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredist10"
+id="cb_ow572">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4WHATYMRJVX5OWFZO3N5ZJZVQA.png" alt="VC Redist x86 2010 icon">
+VC Redist x86 2010
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_didbc" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredistx08"
+id="cb_didbc">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4WHATYMRJVX5OWFZO3N5ZJZVQA.png" alt="VC Redist x64 2008 icon">
+VC Redist x64 2008
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_24xjl" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredist08"
+id="cb_24xjl">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4WHATYMRJVX5OWFZO3N5ZJZVQA.png" alt="VC Redist x86 2008 icon">
+VC Redist x86 2008
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_jzyf6" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredistx05"
+id="cb_jzyf6">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4WHATYMRJVX5OWFZO3N5ZJZVQA.png" alt="VC Redist x64 2005 icon">
+VC Redist x64 2005
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_ane3f" class="homepage-app-label" title="Microsoft C and C++ (MSVC) runtime libraries">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vcredist05"
+id="cb_ane3f">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/4WHATYMRJVX5OWFZO3N5ZJZVQA.png" alt="VC Redist x86 2005 icon">
+VC Redist x86 2005
+</label>
+<p class="visually-hidden">Microsoft C and C++ (MSVC) runtime libraries</p>
+</li>
+
+
+</ul>
+</li>
+
+
+
+<li class="homepage-app-section">
+<h4>Developer Tools</h4>
+<ul class="list-unstyled">
+
+
+
+<li>
+<label for="cb_mmnnp" class="homepage-app-label" title="Programming Language 3.14.6">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="pythonx3"
+id="cb_mmnnp">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/Python-317e96653a84de2b9d25d4f10d9e7649.png" alt="Python x64 3 icon">
+Python x64 3
+</label>
+<p class="visually-hidden">Programming Language 3.14.6</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_mqqbv" class="homepage-app-label" title="Programming Language 3.14.6">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="pythona3"
+id="cb_mqqbv">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/Python-317e96653a84de2b9d25d4f10d9e7649.png" alt="Python arm64 3 icon">
+Python arm64 3
+</label>
+<p class="visually-hidden">Programming Language 3.14.6</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_n2hpx" class="homepage-app-label" title="Programming Language 3.14.6">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="python3"
+id="cb_n2hpx">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons/Python-317e96653a84de2b9d25d4f10d9e7649.png" alt="Python 3 icon">
+Python 3
+</label>
+<p class="visually-hidden">Programming Language 3.14.6</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_epxow" class="homepage-app-label" title="Great Programming Language 2.7.18">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="python"
+id="cb_epxow">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/5XN4Z5ZGVK26CE5KFJBABCRBOQ.png" alt="Python icon">
+Python
+</label>
+<p class="visually-hidden">Great Programming Language 2.7.18</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_xkprd" class="homepage-app-label" title="Version Control System 2.55.0.2">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="git"
+id="cb_xkprd">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/32RPMCUSHFCBS7ROARZOFNTDPI.png" alt="Git icon">
+Git
+</label>
+<p class="visually-hidden">Version Control System 2.55.0.2</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_xqkaw" class="homepage-app-label" title="FTP Client 3.70.6">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="filezilla"
+id="cb_xqkaw">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/UCG2YDEICGHL7W5S353DW3ZGUQ.png" alt="FileZilla icon">
+FileZilla
+</label>
+<p class="visually-hidden">FTP Client 3.70.6</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_j2gws" class="homepage-app-label" title="Programmer&#x27;s Editor 8.9.6.4">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="notepadplusplus"
+id="cb_j2gws">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/GKN2YUIWOVLL7R4EO2EPFDDS74.png" alt="Notepad++ icon">
+Notepad++
+</label>
+<p class="visually-hidden">Programmer&#x27;s Editor 8.9.6.4</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_3nmgs" class="homepage-app-label" title="SCP Client 6.5.6">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="winscp"
+id="cb_3nmgs">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/ZRRDNABCRBQB5M62WXHFCOSG4U.png" alt="WinSCP icon">
+WinSCP
+</label>
+<p class="visually-hidden">SCP Client 6.5.6</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_uriix" class="homepage-app-label" title="SSH client 0.84">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="putty"
+id="cb_uriix">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/3FORVNEMBNGVEKIB6BLSZ77RII.png" alt="PuTTY icon">
+PuTTY
+</label>
+<p class="visually-hidden">SSH client 0.84</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_a7h2w" class="homepage-app-label" title="Compare and Merge Files 2.16.56.2">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="winmerge"
+id="cb_a7h2w">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/JMT7MGL3SDJEKFUBNUSFBFAGHM.png" alt="WinMerge icon">
+WinMerge
+</label>
+<p class="visually-hidden">Compare and Merge Files 2.16.56.2</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_nn5wk" class="homepage-app-label" title="IDE for Java 4.40.0 (requires Java)">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="eclipse"
+id="cb_nn5wk">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/OH5JK4T37ZZVVBDHYUVCMPPEAY.png" alt="Eclipse icon">
+Eclipse
+</label>
+<p class="visually-hidden">IDE for Java 4.40.0 (requires Java)</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_4l6ia" class="homepage-app-label" title="Programmer&#x27;s Editor 1.127.0">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="vscode"
+id="cb_4l6ia">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/VU4TI533VCF2OQAFM67LLLV7YI.png" alt="Visual Studio Code icon">
+Visual Studio Code
+</label>
+<p class="visually-hidden">Programmer&#x27;s Editor 1.127.0</p>
+</li>
+
+
+
+
+<li>
+<label for="cb_c6i2s" class="homepage-app-label" title="Programmer&#x27;s Editor 3.10.17">
+<input type="checkbox" class="js-homepage-app-checkbox" name="apps" value="cursor"
+id="cb_c6i2s">
+<img style="width: 16px; height: 16px; margin-bottom: 5px;" src="https://ninite.com/static/app_icons2/XDFEAXAVWSZTENNVHOIJWL2GHU.png" alt="Cursor icon">
+Cursor
+</label>
+<p class="visually-hidden">Programmer&#x27;s Editor 3.10.17</p>
+</li>
+
+
+</ul>
+</li>
+
+
+</ul>
+
+</div>
+<div class="container">
+<h3 class="text-center">2. Download and run your custom installer/updater</h3>
+<p class="text-center text-danger d-none js-homepage-no-apps">
+Please check off the apps you want above.
+</p>
+<p class="text-center">
+<button type="submit" class="btn btn-primary btn-lg js-homepage-get-installer" accesskey="g">Get Your Ninite</button>
+</p>
+<p class="text-center">
+<small>Ninite works on Windows 11, 10, 8.x, 7, and equivalent Server versions.</small>
+</p>
+</div>
+</form>
+<div class="container">
+<hr>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<h4>Ninite will</h4>
+<ul>
+<li>start working as soon as you run it</li>
+<li>not bother you with any choices or options</li>
+<li>install apps in their default location</li>
+<li>say no to toolbars or extra junk</li>
+<li>install 64-bit apps on 64-bit machines</li>
+<li>install apps in your PC's language <a href="/help/features/language.html">or one you choose</a></li>
+<li>do all its work in the background</li>
+<li>install the latest stable version of an app</li>
+<li>skip up-to-date apps</li>
+<li>skip any reboot requests from installers</li>
+<li>use your proxy settings from Internet Explorer</li>
+<li>download apps from each publisher's official site</li>
+<li>verify digital signatures or hashes before running anything</li>
+<li>work best if you turn off any web filters or firewalls</li>
+<li>save you a lot of time!</li>
+</ul>
+<h4>Suggest an app</h4>
+<p>
+We only add popular user-requested apps to Ninite.
+</p>
+<p>
+<a href="#" class="js-homepage-suggest-app-show">Show suggestion form</a>
+</p>
+<form method="post" action="/suggest" class="d-none js-homepage-suggest-app">
+<input type="hidden" name="_xsrf" value="2|99cfafe6|2ff8ac9d44568d38a9fd144195166cea|1783360726"/>
+<p>
+I want to see
+<input name="name" id="suggestname" placeholder="app name">
+on Ninite.
+</p>
+<p>
+Email me at
+<input name="email" type="email" id="suggestemail"
+placeholder="your email (optional)">
+(optional) when it's ready.
+</p>
+<p>
+<button class="btn btn-primary" type="submit">Suggest this app</button>
+<span class="js-homepage-suggest-app-thanks d-none text-success">Thanks!</span>
+</p>
+</form>
+</div>
+<div class="col-sm-6">
+<div class="alert alert-warning homepage-intune-callout">
+Use Intune? Check out our new Intune integration: <a href="/nintune">Nintune</a>
+</div>
+<h4>Manage all your machines on the web with Ninite Pro</h4>
+<p>
+<a href="/pro">
+<img src="https://ninite.com/static/img/proappsheet/appsheet_small-36d37ca6c6e9c3f2ff57a3d730fcc43f.jpg" alt="Ninite Pro's new web interface" class="img-fluid">
+</a>
+</p>
+<p><a href="/pro">Ninite Pro</a> has a new web interface. <a href="/pro">Click here to learn more.</a></p>
+<p>
+Our website is free for home use (money-wise, but also free of ads and junkware) because Pro users keep Ninite running.
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div class="vstack gap-3 py-5">
+<h3 class="text-center mb-0">Thousands of organizations use <a href="/pro">Ninite Pro</a> to patch and secure software</h3>
+<h3 class="text-center mb-0"><a href="/pro">Try it for free right now</a></h3>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="footer py-2">
+<div class="container text-center text-white">
+<ul class="list-unstyled d-flex justify-content-center flex-nowrap gap-3 text-nowrap mb-2">
+<li><a class="text-white text-decoration-none" href="/jobs">jobs</a></li>
+<li><a class="text-white text-decoration-none" href="/about">about</a></li>
+<li><a class="text-white text-decoration-none" href="/press">press</a></li>
+<li><a class="text-white text-decoration-none" href="/news">updates</a></li>
+<li><a class="text-white text-decoration-none" href="/security">security</a></li>
+<li><a class="text-white text-decoration-none" href="/privacy">privacy</a></li>
+<li><a class="text-white text-decoration-none" href="/terms">terms</a></li>
+</ul>
+<p class="small mb-0">
+&copy; 2009-2026 Secure by Design Inc
+</p>
+</div>
+</div>
+
+<script src="https://ninite.com/static/js/jquery-3.6.4.min-9663b61e980ed29d7a6ce3726c3714e6.js"></script>
+<script src="https://ninite.com/static/js/bootstrap.bundle.min-2b6f869822c28274b5a7a5c0b04f8072.js"></script>
+<script src="https://ninite.com/static/js/masonry.pkgd.min-04eaba070e1a2d535fb026e5e7b5b399.js"></script>
+<script src="https://ninite.com/static/js/ninite-1e9ee05b3f4e8c0e5f3f3caa4045a0db.js"></script>
+</body>
+</html>

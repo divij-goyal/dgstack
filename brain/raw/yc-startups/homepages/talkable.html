@@ -1,0 +1,1327 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> -->
+			<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+
+			var stcmConsentDefaults = {"analytics_storage":"denied","ad_storage":"denied","ad_user_data":"denied","ad_personalization":"denied","functionality_storage":"granted","security_storage":"granted"};
+			var stcmConsentStorageMap = {"analytics_storage":"stcm.consent.analytics","ad_storage":"stcm.consent.marketing","ad_user_data":"stcm.consent.marketing","ad_personalization":"stcm.consent.marketing"};
+			var stcmReadConsentState = function(storageKey) {
+				try {
+					return window.localStorage && window.localStorage.getItem(storageKey) === 'true';
+				} catch (error) {
+					return false;
+				}
+			};
+
+			Object.keys(stcmConsentStorageMap).forEach(function(key) {
+				stcmConsentDefaults[key] = stcmReadConsentState(stcmConsentStorageMap[key]) ? 'granted' : 'denied';
+			});
+
+			gtag('consent', 'default', stcmConsentDefaults);
+		</script>
+		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<style id="nelio-ab-testing-overlay" type="text/css">@keyframes nelio-ab-testing-overlay{to{width:0;height:0}}body:not(.nab-done)::before,body:not(.nab-done)::after{animation:1ms 3000ms linear nelio-ab-testing-overlay forwards!important;background:#fff!important;display:block!important;content:""!important;position:fixed!important;top:0!important;left:0!important;width:100vw;height:120vh;pointer-events:none!important;z-index:999999998!important}html.nab-redirecting body::before,html.nab-redirecting body::after{animation:none!important}</style>    <!-- Google Tag Manager -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-53LKB6');
+    </script>
+    <!-- End Google Tag Manager -->
+    
+	<!-- This site is optimized with the Yoast SEO Premium plugin v27.7 (Yoast SEO v27.9) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<title>Enterprise Referral Marketing Solutions | Talkable</title>
+	<meta name="description" content="Talkable&#039;s referral marketing solution is focused on revenue growth through conversion optimizations, customer promotional campaigns, wallet pass marketing, and by offering reward-based referrals for global brand growth." />
+	<link rel="canonical" href="https://www.talkable.com/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Enterprise Referral Marketing Solutions" />
+	<meta property="og:description" content="Talkable&#039;s referral marketing solution is focused on revenue growth through conversion optimizations, customer promotional campaigns, wallet pass marketing, and by offering reward-based referrals for global brand growth." />
+	<meta property="og:url" content="https://www.talkable.com/" />
+	<meta property="og:site_name" content="Talkable" />
+	<meta property="article:publisher" content="https://www.facebook.com/talkable" />
+	<meta property="article:modified_time" content="2026-05-02T15:34:32+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@talkable" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.talkable.com\/","url":"https:\/\/www.talkable.com\/","name":"Enterprise Referral Marketing Solutions | Talkable","isPartOf":{"@id":"https:\/\/www.talkable.com\/#website"},"about":{"@id":"https:\/\/www.talkable.com\/#organization"},"datePublished":"2024-10-03T17:21:24+00:00","dateModified":"2026-05-02T15:34:32+00:00","description":"Talkable's referral marketing solution is focused on revenue growth through conversion optimizations, customer promotional campaigns, wallet pass marketing, and by offering reward-based referrals for global brand growth.","breadcrumb":{"@id":"https:\/\/www.talkable.com\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.talkable.com\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/www.talkable.com\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https:\/\/www.talkable.com\/#website","url":"https:\/\/www.talkable.com\/","name":"Talkable","description":"Referral Marketing Made Easy","publisher":{"@id":"https:\/\/www.talkable.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.talkable.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/www.talkable.com\/#organization","name":"Talkable","url":"https:\/\/www.talkable.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.talkable.com\/#\/schema\/logo\/image\/","url":"https:\/\/www.talkable.com\/wp-content\/uploads\/2024\/06\/talkable-referral-platform-icon.svg","contentUrl":"https:\/\/www.talkable.com\/wp-content\/uploads\/2024\/06\/talkable-referral-platform-icon.svg","width":39,"height":39,"caption":"Talkable"},"image":{"@id":"https:\/\/www.talkable.com\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/talkable","https:\/\/x.com\/talkable"],"description":"2261 Market Street #4588 San Francisco, CA 94114"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//kit.fontawesome.com' />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='silktide-consent-manager-css' href='https://www.talkable.com/wp-content/plugins/talkable-consent-manager/assets/css/silktide-consent-manager.css?ver=1781186487' media='all' />
+<link rel='stylesheet' id='silktide-consent-manager-overrides-css' href='https://www.talkable.com/wp-content/plugins/talkable-consent-manager/assets/css/silktide-consent-manager-overrides.css?ver=1781186487' media='all' />
+<style id="silktide-consent-manager-overrides-inline-css">
+#stcm-wrapper {
+  --primaryColor: #FC501E;
+  --backgroundColor: #FFFFFF;
+  --textColor: #1C2940;
+  --backdropBackgroundColor: #00000033;
+  --backdropBackgroundBlur: 0px;
+  --iconColor: #FC501E;
+  --iconBackgroundColor: #FFFFFF;
+}
+/*# sourceURL=silktide-consent-manager-overrides-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='talkable-style-css' href='https://www.talkable.com/wp-content/themes/talkable/style.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='talkable-new-style-min-css' href='https://www.talkable.com/wp-content/themes/talkable/dist/css/bundle.css?ver=1781186507' media='' />
+<script data-cfasync="false" id="nelio-ab-testing-main-js-before">
+window.nabIsLoading=true;window.nabSettings={"alternativeChecksum":"","api":{"mode":"native","url":"https:\/\/api.nelioabtesting.com\/v1"},"cookieTesting":false,"debugGui":"https:\/\/www.talkable.com\/wp-content\/plugins\/nelio-ab-testing\/assets\/dist\/js\/checker.js","excludeBots":true,"experiments":[{"active":true,"id":3906,"type":"nab\/page","alternatives":[{"postId":1881,"postType":"page","useControlUrl":true,"testAgainstExistingContent":true},{"name":"","postId":3905,"isExistingContent":true}],"goals":[{"id":0,"conversionActions":[{"type":"nab\/page-view","attributes":{"mode":"id","postId":2507,"postType":"page","url":""},"active":false},{"type":"nab\/click-external-link","attributes":{"mode":"partial","value":"www.talkable.com"},"active":true}]}],"segments":[],"segmentEvaluation":"tested-page","heatmapTracking":true,"pageViewTracking":"header"}],"gdprCookie":{"name":"","value":""},"heatmaps":[],"hideQueryArgs":false,"homeUrl":"https:\/\/www.talkable.com","ignoreTrailingSlash":true,"isGA4Integrated":false,"isStagingSite":false,"isTestedPostRequest":false,"maxCombinations":24,"nabPosition":"first","optimizeXPath":true,"participationChance":100,"postId":1881,"preloadQueryArgUrls":[{"type":"alt-urls","altUrls":["https:\/\/www.talkable.com\/","https:\/\/www.talkable.com\/enterprise-referral-marketing-solutions"],"experimentId":3906}],"segmentMatching":"all","singleConvPerView":true,"site":"f24e3d3c-ac39-4830-b936-9f34cd479b41","throttle":{"global":0,"woocommerce":5},"timezone":"America\/Los_Angeles","useControlUrl":true,"useSendBeacon":true,"version":"8.4.1","alternativeUrls":{"experimentId":3906,"value":["https:\/\/www.talkable.com\/","https:\/\/www.talkable.com\/enterprise-referral-marketing-solutions"]}};
+//# sourceURL=nelio-ab-testing-main-js-before
+</script>
+<script id="nelio-ab-testing-main-js" src="https://www.talkable.com/wp-content/plugins/nelio-ab-testing/assets/dist/js/public.js?ver=1e98d0ad9f96a72f8e7d" data-cfasync="false"></script>
+<script id="nelio-ab-testing-visitor-type-js" src="https://www.talkable.com/wp-content/plugins/nelio-ab-testing/assets/dist/js/visitor-type.js?ver=287e8e4cd3bcff28c95d"></script>
+<script id="jquery-core-js" src="https://www.talkable.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.talkable.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="font-awesome-kit-js" src="https://kit.fontawesome.com/aad0b62125.js"></script>
+<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://www.talkable.com/wp-content/uploads/2021/12/talkable-favicon.svg" sizes="32x32" />
+<link rel="icon" href="https://www.talkable.com/wp-content/uploads/2021/12/talkable-favicon.svg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.talkable.com/wp-content/uploads/2021/12/talkable-favicon.svg" />
+<meta name="msapplication-TileImage" content="https://www.talkable.com/wp-content/uploads/2021/12/talkable-favicon.svg" />
+<style id="wp-custom-css">
+#data-removal-form-embed{
+	height: 800px;
+	width: 100%
+}
+#leadinModal-5078065{
+	top: 88px !important;
+	z-index: 5 !important;
+}
+
+@media screen and (max-width: 1399.98px){
+	#leadinModal-5078065{
+		top: 70px !important;
+	}
+}
+
+@media screen and (max-width: 1024.98px){
+	#leadinModal-5078065{
+		top: 84px !important;
+	}
+}
+
+@media screen and (max-width: 767.98px){
+	#leadinModal-5078065{
+		top: 71px !important;
+	}
+}
+
+.home-hero-inner .lead-capture-form-wrap .hs_error_rollup{
+	display: none !important;
+}
+
+.video-referrals-form{
+	max-width: 37.5rem;
+	margin: 0 auto;
+}
+
+.video-referrals-form .actions .hs-button,.talkable-hs-booking-wrap .calendar-not-found{
+	margin: 0 auto !important;
+}
+</style>
+</head>
+
+<body class="home wp-singular page-template page-template-page-home-new page-template-page-home-new-php page page-id-1881 wp-custom-logo wp-theme-talkable nab nab-0">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53LKB6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+	<div id="filter"></div>
+	<nav id="mobile-nav">
+    <div class="mobile-nav-container">
+        <div class="mobile-nav-top">
+            <div class="site-branding">
+                <a class="site-logo" href="https://www.talkable.com">
+                    <img src="https://www.talkable.com/wp-content/themes/talkable/dist/images/talkable-logo-dark.svg">
+                </a>
+            </div>
+            <div>
+                <a href="/lets-talk-referral" class="primary-button mobile-header-cta" style="max-width:275px;">Let&#039;s Talk</a>                <i id="nav-close" class="menu-icon fa-regular fa-sharp fa-xmark"></i>
+            </div>
+        </div>
+        <ul id="mobile-menu"><li class="mobile-megamenu-toggle"><a>Products<i class="fa-solid fa-chevron-down"></i></a><ul class="mobile-megamenu products-megamenu-mobile">    <li>    <a href="/referral-program" class="products-megamenu-link" aria-label="Talkable Referral <br> Platform">
+                <div class="icon-heading">
+            <img width="150" height="150" src="https://www.talkable.com/wp-content/uploads/2024/06/talkable-referral-platform-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />            Talkable Referral <br> Platform        </div>
+            </a>    <a href="/product-updates" class="products-megamenu-link" aria-label="Product <br>Updates">
+                <div class="icon-heading">
+            <img width="150" height="150" src="https://www.talkable.com/wp-content/uploads/2021/12/talkable-favicon.svg" class="attachment-thumbnail size-thumbnail" alt="talkable favicon" decoding="async" />            Product <br>Updates        </div>
+            </a>    </li>    <li>    <a href="/referral-program/video-referrals" class="products-megamenu-transparent-button">
+                    <div class="icon-heading">
+                <img width="300" height="136" src="https://www.talkable.com/wp-content/uploads/2024/06/talkable-video-icon-mobile.svg" class="attachment-medium size-medium" alt="" decoding="async" />                Talkable Video            </div>
+            </a>    <a href="/wallet-pass" class="products-megamenu-transparent-button">
+                    <div class="icon-heading">
+                <img width="55" height="55" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/07/talkable-wallet-mobile-icon-e1751923288854.png.webp" class="attachment-medium size-medium" alt="" decoding="async" />                Talkable Wallet            </div>
+            </a>    </li>
+    <li class="mobile-submenu-toggle">
+        <a href="#">Integrations <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="mobile-submenu integrations-menu">
+                                <li><a href="/integrations/shopify" aria-label="Shopify">
+                    <div class="integration-icon-wrap"><img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/shopify-integration-icon-1.svg" class="attachment-large size-large" alt="" decoding="async" fetchpriority="high" /></div>
+                    Shopify                </a></li>
+                                <li><a href="/integrations/attentive" target="_blank" aria-label="Attentive SMS">
+                    <div class="integration-icon-wrap"><img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/attentiveintegration-icon-1.svg" class="attachment-large size-large" alt="" decoding="async" /></div>
+                    Attentive SMS                </a></li>
+                                <li><a href="/integrations#ecommerce" aria-label="eCommerce">
+                    <div class="integration-icon-wrap"><img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/shopping-bag-icon.svg" class="attachment-large size-large" alt="" decoding="async" /></div>
+                    eCommerce                </a></li>
+                                <li><a href="/integrations#email" aria-label="Email (ESP)">
+                    <div class="integration-icon-wrap"><img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/email-icon.svg" class="attachment-large size-large" alt="" decoding="async" /></div>
+                    Email (ESP)                </a></li>
+                                <li><a href="/integrations#ecommerce" aria-label="Subscriptions">
+                    <div class="integration-icon-wrap"><img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/subscriptions-icon-1.svg" class="attachment-large size-large" alt="" decoding="async" /></div>
+                    Subscriptions                </a></li>
+                                <li><a href="/integrations#rewards-incentives" aria-label="Gifts & Rewards">
+                    <div class="integration-icon-wrap"><img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/gift-icon.svg" class="attachment-large size-large" alt="" decoding="async" /></div>
+                    Gifts & Rewards                </a></li>
+                                <li class="see-all"><a href="/integrations">All integrations</a></li>
+            </ul>
+            </li> 
+    <li class="mobile-submenu-toggle">
+        <a href="#">Success Tools <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="mobile-submenu">
+                            <li><a href="/customer-success" aria-label="Customer Success">
+                    Customer Success                </a></li>
+                            <li><a href="/talkable-features#data-reporting" aria-label="A/B Testing">
+                    A/B Testing                </a></li>
+                            <li><a href="/talkable-features#segmentation" aria-label="Segmentation">
+                    Segmentation                </a></li>
+                            <li><a href="/talkable-features#data-privacy" aria-label="Referral Protections">
+                    Referral Protections                </a></li>
+                            <li><a href="https://docs.talkable.com" target="_blank" aria-label="Documentation">
+                    Documentation                </a></li>
+                        </ul>
+            </li> 
+</ul></li><li class="mobile-megamenu-toggle"><a>Solutions<i class="fa-solid fa-chevron-down"></i></a><ul class="mobile-megamenu solutions-megamenu-mobile">        <li>
+            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#post-purchase-campaigns" aria-label="Post-Purchase Campaigns">
+                <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/post-purchase-campaigns-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                Post-Purchase Campaigns            </a>
+        </li>
+            <li>
+            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#two-sided-rewards" aria-label="Two-Sided Rewards">
+                <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/two-sided-rewards-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                Two-Sided Rewards            </a>
+        </li>
+            <li>
+            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#one-sided-rewards" aria-label="One-Sided Rewards">
+                <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/one-sided-rewards-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                One-Sided Rewards            </a>
+        </li>
+            <li>
+            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#multi-offer-promotions" aria-label="Multi-Offer Promotions">
+                <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/multi-offer-promotions-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                Multi-Offer Promotions            </a>
+        </li>
+            <li>
+            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#on-site-targeting" aria-label="On-Site Targeting">
+                <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/on-site-targeting-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                On-Site Targeting            </a>
+        </li>
+            <li>
+            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#tiered-rewards" aria-label="Tiered Rewards">
+                <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/tiered-rewards-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                Tiered Rewards            </a>
+        </li>
+            <li>
+            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#influencer-marketing-campaigns" aria-label="Influencer Marketing Campaign">
+                <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/influencer-marketing-campaign-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                Influencer Marketing Campaign            </a>
+        </li>
+            <li>
+            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#leaderboard-marketing-campaigns" aria-label="Leaderboard Marketing Campaigns">
+                <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/leaderboard-marketing-campaigns-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                Leaderboard Marketing Campaigns            </a>
+        </li>
+            <li>
+            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#sweepstakes-campaigns" aria-label="Sweepstakes & Giveaway Campaigns">
+                <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/sweepstakes-campaigns-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                Sweepstakes & Giveaway Campaigns            </a>
+        </li>
+            <li>
+            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#product-sharing" aria-label="Product Sharing & Drop-a-Hint Campaigns">
+                <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/product-sharing-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                Product Sharing & Drop-a-Hint Campaigns            </a>
+        </li>
+            <li>
+            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#surveys-quizzes-reviews" aria-label="Surveys, Quizzes & Reviews">
+                <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/surveys-quizzes-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                Surveys, Quizzes & Reviews            </a>
+        </li>
+    <li class="see-all"><a href="https://shimmyshine.com/">See all</a></li></ul></li><li class="mobile-megamenu-toggle"><a>Learn<i class="fa-solid fa-chevron-down"></i></a><ul class="mobile-megamenu learn-megamenu-mobile">        <li>
+            <a class="learn-megamenu-link" href="/blog"  aria-label="Blog">
+                <img width="150" height="150" src="https://www.talkable.com/wp-content/uploads/2024/06/blog-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />                Blog            </a>
+        </li>
+            <li>
+            <a class="learn-megamenu-link" href="/case-studies"  aria-label="Case Studies">
+                <img width="150" height="150" src="https://www.talkable.com/wp-content/uploads/2024/06/case-studies-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />                Case Studies            </a>
+        </li>
+            <li>
+            <a class="learn-megamenu-link" href="/ebooks"  aria-label="Guides & eBooks">
+                <img width="150" height="150" src="https://www.talkable.com/wp-content/uploads/2024/06/guides-ebooks-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />                Guides & eBooks            </a>
+        </li>
+            <li>
+            <a class="learn-megamenu-link" href="/customers"  aria-label="Talkable Customers">
+                <img width="150" height="150" src="https://www.talkable.com/wp-content/uploads/2024/06/talkable-customers-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />                Talkable Customers            </a>
+        </li>
+            <li>
+            <a class="learn-megamenu-link" href="http://docs.talkable.com"  target="_blank" aria-label="Documentation">
+                <img width="120" height="120" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/10/Untitled-design-19.png.webp" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />                Documentation            </a>
+        </li>
+    </ul></li><li><a href="/about-talkable">Company</a></li><li><a href="/product-updates">What's New?</a></li><li><a href="/talkable-partnerships">Become a Partner</a></li>        </ul>
+        <div class="mobile-nav-ctas">
+            <a href="/lets-talk-referral" class="primary-button" style="max-width:275px;">Let&#039;s Talk</a>            <a href="/login" class="secondary-button" style="max-width:275px;">Customer login</a>        </div>
+    </div>
+</nav>
+	<header id="masthead" class="site-header transparent">
+		<div class="header-inner">
+			<div class="header-left">
+				<div class="site-branding">
+					<a class="site-logo" href="https://www.talkable.com">
+						<img src="https://www.talkable.com/wp-content/uploads/2021/12/talkable_logo.svg">
+					</a>
+				</div>
+				<nav id="site-navigation">
+					<ul id="primary-menu"><li class="megamenu-toggle"><a data-color="#fc501e">Products<span class="megamenu-highlight" style="background: #fc501e;"></span></a><div class="megamenu products-megamenu">
+    <div class="megamenu-inner">
+        <div class="products-megamenu-left">                <div>
+<a href="/referral-program" class="products-megamenu-link" aria-label="Talkable Referral <br> Platform">
+        <div class="icon-heading">
+        <img width="150" height="150" src="https://www.talkable.com/wp-content/uploads/2024/06/talkable-referral-platform-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />        <h4>Talkable Referral <br> Platform</h4>
+    </div>
+        <p>Build, manage, and optimize customizable referral programs.</p>
+    <span>Read more</span>
+</a>
+<a href="/product-updates" class="products-megamenu-link" aria-label="Product <br>Updates">
+        <div class="icon-heading">
+        <img width="150" height="150" src="https://www.talkable.com/wp-content/uploads/2021/12/talkable-favicon.svg" class="attachment-thumbnail size-thumbnail" alt="talkable favicon" decoding="async" />        <h4>Product <br>Updates</h4>
+    </div>
+        <p>New features, improvements, and product updates.</p>
+    <span>What's new?</span>
+</a>                </div>                <div>
+<a href="/referral-program/video-referrals" class="products-megamenu-transparent-button">
+            <img width="300" height="49" src="https://www.talkable.com/wp-content/uploads/2024/06/talkable-video-icon.svg" class="attachment-medium size-medium" alt="" decoding="async" />        <p>Add authenticity with user-generated video reviews</p>
+    <span></span>
+</a>
+<a href="/wallet-pass" class="products-megamenu-transparent-button">
+            <img width="136" height="22" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/07/wallet-icon-logotype.png.webp" class="attachment-medium size-medium" alt="" decoding="async" />        <p>Engage your customers 'on-the-go' no matter where they go</p>
+    <span></span>
+</a>                </div>        </div>
+        <div class="products-megamenu-right">
+                            <div>
+                    <h4>Integrations</h4>
+                    <nav class="integrations-menu">
+                                                    <a href="/integrations/shopify"  aria-label="Shopify">
+                                <div class="integration-icon-wrap">
+                                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/shopify-integration-icon-1.svg" class="attachment-large size-large" alt="" decoding="async" />                                </div>
+                                Shopify                            </a>
+                                                    <a href="/integrations/attentive"  target="_blank" aria-label="Attentive SMS">
+                                <div class="integration-icon-wrap">
+                                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/attentiveintegration-icon-1.svg" class="attachment-large size-large" alt="" decoding="async" />                                </div>
+                                Attentive SMS                            </a>
+                                                    <a href="/integrations#ecommerce"  aria-label="eCommerce">
+                                <div class="integration-icon-wrap">
+                                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/shopping-bag-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                                </div>
+                                eCommerce                            </a>
+                                                    <a href="/integrations#email"  aria-label="Email (ESP)">
+                                <div class="integration-icon-wrap">
+                                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/email-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                                </div>
+                                Email (ESP)                            </a>
+                                                    <a href="/integrations#ecommerce"  aria-label="Subscriptions">
+                                <div class="integration-icon-wrap">
+                                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/subscriptions-icon-1.svg" class="attachment-large size-large" alt="" decoding="async" />                                </div>
+                                Subscriptions                            </a>
+                                                    <a href="/integrations#rewards-incentives"  aria-label="Gifts & Rewards">
+                                <div class="integration-icon-wrap">
+                                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/gift-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                                </div>
+                                Gifts & Rewards                            </a>
+                                                <a class="all-integrations" href="/integrations">All integrations</a>
+                    </nav>
+                </div>
+                                        <div>
+                    <h4>Success Tools</h4>
+                    <nav class="success-tools-menu">
+                                                    <a href="/customer-success"                                 aria-label="Customer Success">Customer Success</a>
+                                                    <a href="/talkable-features#data-reporting"                                 aria-label="A/B Testing">A/B Testing</a>
+                                                    <a href="/talkable-features#segmentation"                                 aria-label="Segmentation">Segmentation</a>
+                                                    <a href="/talkable-features#data-privacy"                                 aria-label="Referral Protections">Referral Protections</a>
+                                                    <a href="https://docs.talkable.com"  target="_blank"                                aria-label="Documentation">Documentation</a>
+                                            </nav>
+                </div>
+                    </div>
+    </div>
+</div></li><li class="megamenu-toggle"><a data-color="#ffa00d">Solutions<span class="megamenu-highlight" style="background: #ffa00d;"></span></a><div class="megamenu solutions-megamenu">
+    <div class="megamenu-inner">
+        <nav>
+            <div>
+                            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#post-purchase-campaigns" aria-label="Post-Purchase Campaigns">
+                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/post-purchase-campaigns-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                    <div>
+                        <div class="mm-link-title">Post-Purchase Campaigns</div>
+                        <p>Engage customers immediately after purchase to encourage referrals</p>
+                    </div>
+                </a>
+                            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#two-sided-rewards" aria-label="Two-Sided Rewards">
+                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/two-sided-rewards-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                    <div>
+                        <div class="mm-link-title">Two-Sided Rewards</div>
+                        <p>Increase customer acquisition by rewarding referrals on both ends</p>
+                    </div>
+                </a>
+                            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#one-sided-rewards" aria-label="One-Sided Rewards">
+                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/one-sided-rewards-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                    <div>
+                        <div class="mm-link-title">One-Sided Rewards</div>
+                        <p>Attract new customers by giving advocates something valuable to share</p>
+                    </div>
+                </a>
+                            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#multi-offer-promotions" aria-label="Multi-Offer Promotions">
+                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/multi-offer-promotions-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                    <div>
+                        <div class="mm-link-title">Multi-Offer Promotions</div>
+                        <p>Target diverse customer segments with tailored promotional strategies</p>
+                    </div>
+                </a>
+                        </div>
+
+            <div>
+                            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#on-site-targeting" aria-label="On-Site Targeting">
+                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/on-site-targeting-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                    <div>
+                        <div class="mm-link-title">On-Site Targeting</div>
+                        <p>Deliver personalized messages and offers based on customer behavior</p>
+                    </div>
+                </a>
+                            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#tiered-rewards" aria-label="Tiered Rewards">
+                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/tiered-rewards-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                    <div>
+                        <div class="mm-link-title">Tiered Rewards</div>
+                        <p>Reward loyal customers with escalating incentives based on referral success</p>
+                    </div>
+                </a>
+                            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#influencer-marketing-campaigns" aria-label="Influencer Marketing Campaign">
+                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/influencer-marketing-campaign-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                    <div>
+                        <div class="mm-link-title">Influencer Marketing Campaign</div>
+                        <p>Expand your reach by connecting with influencers that align with your brand</p>
+                    </div>
+                </a>
+                            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#leaderboard-marketing-campaigns" aria-label="Leaderboard Marketing Campaigns">
+                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/leaderboard-marketing-campaigns-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                    <div>
+                        <div class="mm-link-title">Leaderboard Marketing Campaigns</div>
+                        <p>Motivate referrals through gamified leaderboards showcasing top referrers</p>
+                    </div>
+                </a>
+                        </div>
+            
+            <div>
+                            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#sweepstakes-campaigns" aria-label="Sweepstakes & Giveaway Campaigns">
+                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/sweepstakes-campaigns-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                    <div>
+                        <div class="mm-link-title">Sweepstakes & Giveaway Campaigns</div>
+                        <p>Generate buzz and engagement with exciting sweepstakes and giveaways</p>
+                    </div>
+                </a>
+                            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#product-sharing" aria-label="Product Sharing & Drop-a-Hint Campaigns">
+                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/product-sharing-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                    <div>
+                        <div class="mm-link-title">Product Sharing & Drop-a-Hint Campaigns</div>
+                        <p>Enable subtle, personalized product recommendations among friends</p>
+                    </div>
+                </a>
+                            <a class="solutions-megamenu-link" href="/referral-marketing-campaigns#surveys-quizzes-reviews" aria-label="Surveys, Quizzes & Reviews">
+                    <img width="1024" height="1024" src="https://www.talkable.com/wp-content/uploads/2024/06/surveys-quizzes-icon.svg" class="attachment-large size-large" alt="" decoding="async" />                    <div>
+                        <div class="mm-link-title">Surveys, Quizzes & Reviews</div>
+                        <p>Engage customers with interactive surveys and quizzes</p>
+                    </div>
+                </a>
+            <a href="https://shimmyshine.com/" class="primary-button" target="_blank" style="max-width:275px;">View our Demo Store</a>            </div>
+        </nav>
+    </div>
+</div></li><li class="megamenu-toggle"><a data-color="#8d61c8">Learn<span class="megamenu-highlight" style="background: #8d61c8;"></span></a><div class="megamenu learn-megamenu">
+    <div class="megamenu-inner">
+                 <div class="learn-megamenu-featured">
+            <a href="/ebooks/referral-marketing-guide" aria-label="The Only Referral Marketing Guide You’ll Ever Need"><span class="talkable-pill">Featured</span><img width="1024" height="1024" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/03/guide_1200x1200_21x-1024x1024.jpg.webp" class="attachment-large size-large" alt="" decoding="async" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/03/guide_1200x1200_21x-1024x1024.jpg.webp 1024w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/03/guide_1200x1200_21x-150x150.jpg.webp 150w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/03/guide_1200x1200_21x-768x768.jpg.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/03/guide_1200x1200_21x.jpg.webp 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><h4>The Only Referral Marketing Guide You’ll Ever Need</h4><p>Talkable’s Proven Formula to Exceptional Word of Mouth Marketing</p>
+</a>        </div>
+                <nav class="learn-megamenu-links">
+                        <a href="/blog" class="learn-megamenu-icon-link" aria-label="Blog">
+                <img width="150" height="150" src="https://www.talkable.com/wp-content/uploads/2024/06/blog-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />                Blog            </a>
+                        <a href="/case-studies" class="learn-megamenu-icon-link" aria-label="Case Studies">
+                <img width="150" height="150" src="https://www.talkable.com/wp-content/uploads/2024/06/case-studies-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />                Case Studies            </a>
+                        <a href="/ebooks" class="learn-megamenu-icon-link" aria-label="Guides & eBooks">
+                <img width="150" height="150" src="https://www.talkable.com/wp-content/uploads/2024/06/guides-ebooks-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />                Guides & eBooks            </a>
+                        <a href="/customers" class="learn-megamenu-icon-link" aria-label="Talkable Customers">
+                <img width="150" height="150" src="https://www.talkable.com/wp-content/uploads/2024/06/talkable-customers-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />                Talkable Customers            </a>
+                        <a href="http://docs.talkable.com" target="_blank" class="learn-megamenu-icon-link" aria-label="Documentation">
+                <img width="120" height="120" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/10/Untitled-design-19.png.webp" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />                Documentation            </a>
+                    </nav>
+                <div class="learn-megamenu-cta">
+            <a class="full-link" href="/talkable-partnerships"></a><div class="learn-megamenu-cta-inner"><h4>Become a Talkable Partner</h4><p>Earn cash while helping brands unlock the full potential of their loyal customers with referral marketing solutions. Apply to become a partner.</p>
+<a href="/talkable-partnerships" class="primary-button" style="max-width:275px;">Become a partner</a></div>        </div>
+            </div>
+</div></li><li><a href="/about-talkable">Company</a></li><li><a href="/product-updates">What's New?</a></li></ul>					<a href="/lets-talk-referral" class="primary-button mobile-header-cta" style="max-width:275px;">Let&#039;s Talk</a>					<button type="button" class="menu-icon" aria-label="Open mobile navigation"><img aria-hidden="true"
+							src="https://www.talkable.com/wp-content/themes/talkable/dist/images/talkable-menu-icon.svg" /></button>
+				</nav><!-- #site-navigation -->
+			</div>
+
+			<div class="header-right">
+				<a href="/login" class="login"><i class="fa-regular fa-user-circle"></i> <span>Customer
+						Login</span></a>
+				<a href="/lets-talk-referral" class="primary-button header-cta" style="max-width:275px;">Let&#039;s Talk</a>			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<main id="content"
+		class="site-content">
+
+    <div id="home-hero" class="talkable-hero pad-for-header">
+        <img class="home-hero-bg bg-1"
+                                src="https://www.talkable.com/wp-content/themes/talkable/dist/images/home-hero-1.svg">
+        <img class="home-hero-bg bg-2"
+                                src="https://www.talkable.com/wp-content/themes/talkable/dist/images/home-hero-2.svg">
+        <img class="home-hero-bg bg-3" src="https://www.talkable.com/wp-content/themes/talkable/dist/images/home-hero-3.svg">
+        <div class="home-hero-inner">
+            <div class="hero-content">
+                <h1>We're the Premium, Next-Generation Referral Platform, and <span class="highlight highlight-dark-orange">We'll Prove It.</span></h1>
+
+                                    <div class="latest-version">
+                        Version 16.07.01                        (last updated July 2, 2026)
+                        <a href="/product-updates" class="announcekit-widget-hero">What's New?</a>
+                    </div>
+                <div class="talkable-form-wrap lead-capture-form-wrap talkable-gf talkable-gf--home-hero">
+                <div class='gf_browser_unknown gform_wrapper gform-theme gform-theme--foundation gform-theme--framework gform-theme--orbital' data-form-theme='orbital' data-form-index='0' id='gform_wrapper_5' ><style>#gform_wrapper_5[data-form-index="0"].gform-theme,[data-parent-form="5_0"]{--gf-color-primary: #204ce5;--gf-color-primary-rgb: 32, 76, 229;--gf-color-primary-contrast: #fff;--gf-color-primary-contrast-rgb: 255, 255, 255;--gf-color-primary-darker: #001AB3;--gf-color-primary-lighter: #527EFF;--gf-color-secondary: #fff;--gf-color-secondary-rgb: 255, 255, 255;--gf-color-secondary-contrast: #112337;--gf-color-secondary-contrast-rgb: 17, 35, 55;--gf-color-secondary-darker: #F5F5F5;--gf-color-secondary-lighter: #FFFFFF;--gf-color-out-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-out-ctrl-light-rgb: 17, 35, 55;--gf-color-out-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-out-ctrl-light-lighter: #F5F5F5;--gf-color-out-ctrl-dark: #585e6a;--gf-color-out-ctrl-dark-rgb: 88, 94, 106;--gf-color-out-ctrl-dark-darker: #112337;--gf-color-out-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-color-in-ctrl: #fff;--gf-color-in-ctrl-rgb: 255, 255, 255;--gf-color-in-ctrl-contrast: #112337;--gf-color-in-ctrl-contrast-rgb: 17, 35, 55;--gf-color-in-ctrl-darker: #F5F5F5;--gf-color-in-ctrl-lighter: #FFFFFF;--gf-color-in-ctrl-primary: #204ce5;--gf-color-in-ctrl-primary-rgb: 32, 76, 229;--gf-color-in-ctrl-primary-contrast: #fff;--gf-color-in-ctrl-primary-contrast-rgb: 255, 255, 255;--gf-color-in-ctrl-primary-darker: #001AB3;--gf-color-in-ctrl-primary-lighter: #527EFF;--gf-color-in-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-in-ctrl-light-rgb: 17, 35, 55;--gf-color-in-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-in-ctrl-light-lighter: #F5F5F5;--gf-color-in-ctrl-dark: #585e6a;--gf-color-in-ctrl-dark-rgb: 88, 94, 106;--gf-color-in-ctrl-dark-darker: #112337;--gf-color-in-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-radius: 3px;--gf-font-size-secondary: 14px;--gf-font-size-tertiary: 13px;--gf-icon-ctrl-number: url("data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 0C4.26522 5.96046e-08 4.51957 0.105357 4.70711 0.292893L7.70711 3.29289C8.09763 3.68342 8.09763 4.31658 7.70711 4.70711C7.31658 5.09763 6.68342 5.09763 6.29289 4.70711L4 2.41421L1.70711 4.70711C1.31658 5.09763 0.683417 5.09763 0.292893 4.70711C-0.0976311 4.31658 -0.097631 3.68342 0.292893 3.29289L3.29289 0.292893C3.48043 0.105357 3.73478 0 4 0ZM0.292893 9.29289C0.683417 8.90237 1.31658 8.90237 1.70711 9.29289L4 11.5858L6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289C8.09763 9.68342 8.09763 10.3166 7.70711 10.7071L4.70711 13.7071C4.31658 14.0976 3.68342 14.0976 3.29289 13.7071L0.292893 10.7071C-0.0976311 10.3166 -0.0976311 9.68342 0.292893 9.29289Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-select: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.292893 0.292893C0.683417 -0.097631 1.31658 -0.097631 1.70711 0.292893L5 3.58579L8.29289 0.292893C8.68342 -0.0976311 9.31658 -0.0976311 9.70711 0.292893C10.0976 0.683417 10.0976 1.31658 9.70711 1.70711L5.70711 5.70711C5.31658 6.09763 4.68342 6.09763 4.29289 5.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683418 0.292893 0.292893Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-search: url("data:image/svg+xml,%3Csvg width='640' height='640' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M256 128c-70.692 0-128 57.308-128 128 0 70.691 57.308 128 128 128 70.691 0 128-57.309 128-128 0-70.692-57.309-128-128-128zM64 256c0-106.039 85.961-192 192-192s192 85.961 192 192c0 41.466-13.146 79.863-35.498 111.248l154.125 154.125c12.496 12.496 12.496 32.758 0 45.254s-32.758 12.496-45.254 0L367.248 412.502C335.862 434.854 297.467 448 256 448c-106.039 0-192-85.962-192-192z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-label-space-y-secondary: var(--gf-label-space-y-md-secondary);--gf-ctrl-border-color: #686e77;--gf-ctrl-size: var(--gf-ctrl-size-md);--gf-ctrl-label-color-primary: #112337;--gf-ctrl-label-color-secondary: #112337;--gf-ctrl-choice-size: var(--gf-ctrl-choice-size-md);--gf-ctrl-checkbox-check-size: var(--gf-ctrl-checkbox-check-size-md);--gf-ctrl-radio-check-size: var(--gf-ctrl-radio-check-size-md);--gf-ctrl-btn-font-size: var(--gf-ctrl-btn-font-size-md);--gf-ctrl-btn-padding-x: var(--gf-ctrl-btn-padding-x-md);--gf-ctrl-btn-size: var(--gf-ctrl-btn-size-md);--gf-ctrl-btn-border-color-secondary: #686e77;--gf-ctrl-file-btn-bg-color-hover: #EBEBEB;--gf-field-img-choice-size: var(--gf-field-img-choice-size-md);--gf-field-img-choice-card-space: var(--gf-field-img-choice-card-space-md);--gf-field-img-choice-check-ind-size: var(--gf-field-img-choice-check-ind-size-md);--gf-field-img-choice-check-ind-icon-size: var(--gf-field-img-choice-check-ind-icon-size-md);--gf-field-pg-steps-number-color: rgba(17, 35, 55, 0.8);}</style><div id='gf_5' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_5' id='gform_5'  action='/#gf_5' data-formid='5' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_5' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_5_1" class="gfield gfield--type-email gfield--input-type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_5_1'>Email<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_5_1' type='email' value='' class='large'   placeholder='Please enter your work email' aria-required="true" aria-invalid="false"  />
+                        </div></div><fieldset id="field_5_2" class="gfield gfield--type-name gfield--input-type-name gfield--width-full field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_hidden"  ><div class="admin-hidden-markup"><i class="gform-icon gform-icon--hidden" aria-hidden="true" title="This field is hidden when viewing the form"></i><span>This field is hidden when viewing the form</span></div><legend class='gfield_label gform-field-label gfield_label_before_complex' >Name</legend><div class='ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name gform-grid-row' id='input_5_2'>
+                            
+                            <span id='input_5_2_3_container' class='name_first gform-grid-col gform-grid-col--size-auto' >
+                                                    <input type='text' name='input_2.3' id='input_5_2_3' value=''   aria-required='false'     />
+                                                    <label for='input_5_2_3' class='gform-field-label gform-field-label--type-sub'>First</label>
+                                                </span>
+                            
+                            <span id='input_5_2_6_container' class='name_last gform-grid-col gform-grid-col--size-auto' >
+                                                    <input type='text' name='input_2.6' id='input_5_2_6' value='[not provided]'   aria-required='false'     />
+                                                    <label for='input_5_2_6' class='gform-field-label gform-field-label--type-sub'>Last</label>
+                                                </span>
+                            
+                        </div></fieldset><div id="field_5_3" class="gfield gfield--type-text gfield--input-type-text gfield--width-full field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_hidden"  ><div class="admin-hidden-markup"><i class="gform-icon gform-icon--hidden" aria-hidden="true" title="This field is hidden when viewing the form"></i><span>This field is hidden when viewing the form</span></div><label class='gfield_label gform-field-label' for='input_5_3'>Company</label><div class='ginput_container ginput_container_text'><input name='input_3' id='input_5_3' type='text' value='[not provided]' class='large'      aria-invalid="false"   /></div></div><div id="field_5_4" class="gfield gfield--type-select gfield--input-type-select gfield--width-full field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_hidden"  ><div class="admin-hidden-markup"><i class="gform-icon gform-icon--hidden" aria-hidden="true" title="This field is hidden when viewing the form"></i><span>This field is hidden when viewing the form</span></div><label class='gfield_label gform-field-label' for='input_5_4'>Lead Source</label><div class='ginput_container ginput_container_select'><select name='input_4' id='input_5_4' class='large gfield_select'     aria-invalid="false" ><option value='Inbound - Email Capture' selected='selected'>Inbound - Email Capture</option></select></div></div><div id="field_5_5" class="gfield gfield--type-hidden gfield--input-type-hidden gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_5' id='input_5_5' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_5_6" class="gfield gfield--type-hidden gfield--input-type-hidden gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_6' id='input_5_6' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_5_7" class="gfield gfield--type-hidden gfield--input-type-hidden gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_7' id='input_5_7' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_5_8" class="gfield gfield--type-hidden gfield--input-type-hidden gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_8' id='input_5_8' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_5_9" class="gfield gfield--type-hidden gfield--input-type-hidden gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_9' id='input_5_9' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_5_10" class="gfield gfield--type-hidden gfield--input-type-hidden gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_10' id='input_5_10' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_5_11" class="gfield gfield--type-hidden gfield--input-type-hidden gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_11' id='input_5_11' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_5_12" class="gfield gfield--type-hidden gfield--input-type-hidden gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_12' id='input_5_12' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_5_13" class="gfield gfield--type-hidden gfield--input-type-hidden gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_13' id='input_5_13' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_5' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='Submit'  /> <input type='hidden' name='gform_ajax' value='form_id=5&amp;title=&amp;description=&amp;tabindex=0&amp;theme=orbital&amp;styles=[]&amp;hash=8750f7c9903fb6f2296c748938ecc721' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_5' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_5' id='gform_theme_5' value='orbital' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_5' id='gform_style_settings_5' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_5' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='5' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='3N/3qlwv9zChj2krv5Lbb6aLfJk/zWvJLGCyaYdJ6sx21rgQpCKpmVTIRXX7FuaW1mW9Veyg6Q1HFVR+11uUAkI3SDSG5JsM4vu3oZjjp+HYjJg=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_5' value='WyJ7XCI0XCI6W1wiYjg3Y2QzMmQyOGI5ZDZkMjZiZTJmZjVhMmNmN2FiMDdcIl19IiwiOTRmOTg4NGRlNDk3MTg1OWE4N2Y4YzM0OGIxMTNkN2QiXQ==' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_5' id='gform_target_page_number_5' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_5' id='gform_source_page_number_5' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_5' id='gform_ajax_frame_5' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script>
+gform.initializeOnLoaded( function() {gformInitSpinner( 5, 'https://www.talkable.com/wp-content/plugins/gravityforms/images/spinner.svg', false );jQuery('#gform_ajax_frame_5').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_5');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_5').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_5').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_5').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_5').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_5').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_5').val();gformInitSpinner( 5, 'https://www.talkable.com/wp-content/plugins/gravityforms/images/spinner.svg', false );jQuery(document).trigger('gform_page_loaded', [5, current_page]);window['gf_submitting_5'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_5').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_5').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [5]);window['gf_submitting_5'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_5').text());}else{jQuery('#gform_5').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "5", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_5" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_5";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_5" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 5, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} );
+</script>
+</div>            </div>
+        </div>
+
+        <!-- Hero Feature Slider with AutoScroll -->
+                    <div class="hero-feature-slider embla">
+                <div class="embla__viewport">
+                    <div class="embla__container">
+                                                        <div class="embla__slide">
+                                    <a href="https://www.talkable.com/wp-content/uploads/2024/08/puma-campaign-img.jpg"
+                                       data-pswp-width="1400"
+                                       data-pswp-height="1093"
+                                       class="hero-feature-slide__link">
+                                        <img src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/08/puma-campaign-img-1024x799.jpg.webp"
+                                             alt=""
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                                                            <div class="embla__slide">
+                                    <a href="https://www.talkable.com/wp-content/uploads/2024/08/seed-campaign-img.jpg"
+                                       data-pswp-width="1400"
+                                       data-pswp-height="1093"
+                                       class="hero-feature-slide__link">
+                                        <img src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/08/seed-campaign-img-1024x799.jpg.webp"
+                                             alt=""
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                                                            <div class="embla__slide">
+                                    <a href="https://www.talkable.com/wp-content/uploads/2024/08/sandals-campaign-img.jpg"
+                                       data-pswp-width="1400"
+                                       data-pswp-height="1093"
+                                       class="hero-feature-slide__link">
+                                        <img src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/08/sandals-campaign-img-1024x799.jpg.webp"
+                                             alt=""
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                                                            <div class="embla__slide">
+                                    <a href="https://www.talkable.com/wp-content/uploads/2024/08/puravida-campaign-img.jpg"
+                                       data-pswp-width="1400"
+                                       data-pswp-height="1093"
+                                       class="hero-feature-slide__link">
+                                        <img src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/08/puravida-campaign-img-1024x799.jpg.webp"
+                                             alt=""
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                                                            <div class="embla__slide">
+                                    <a href="https://www.talkable.com/wp-content/uploads/2024/08/hydrow-campaign-full.jpg"
+                                       data-pswp-width="1400"
+                                       data-pswp-height="1093"
+                                       class="hero-feature-slide__link">
+                                        <img src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/08/hydrow-min-slider.png.webp"
+                                             alt=""
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                                                            <div class="embla__slide">
+                                    <a href="https://www.talkable.com/wp-content/uploads/2025/10/Campaign-Examples-4.png"
+                                       data-pswp-width="1024"
+                                       data-pswp-height="768"
+                                       class="hero-feature-slide__link">
+                                        <img src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/10/Campaign-Examples-4.png.webp"
+                                             alt=""
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                                                </div>
+                </div>
+            <button class="embla__button embla__button--prev" type="button" aria-label="Previous slide">
+                <svg class="embla__button__svg" viewBox="0 0 532 532">
+                    <path fill="currentColor" d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"></path>
+                </svg>
+            </button>
+            <button class="embla__button embla__button--next" type="button" aria-label="Next slide">
+                <svg class="embla__button__svg" viewBox="0 0 532 532">
+                    <path fill="currentColor" d="M176.34 520.646c-13.793 13.805-36.208 13.805-50.001 0-13.785-13.804-13.785-36.238 0-50.034L330.78 266 126.34 61.391c-13.785-13.805-13.785-36.239 0-50.044 13.793-13.796 36.208-13.796 50.002 0 22.928 22.947 206.395 206.507 229.332 229.454a35.065 35.065 0 0 1 10.326 25.126c0 9.2-3.393 18.26-10.326 25.2-45.865 45.901-206.404 206.564-229.332 229.52Z"></path>
+                </svg>
+            </button>
+            </div>
+        
+    </div>
+
+<section class="talkable-section pb-0" style="background-color:#ffffff";><div class="custom-content content-container dark-text">
+<div class="custom-content-row block-heading"><div class="block-alignment-wrapper block-align-center"><div class="max-width-container" style="--max-width: 800px;"><h2 class="text-center">A True End-to-End Solution for Referral Marketing</h2></div></div></div>
+</div></section>
+
+<section class="block-tabbed-panel talkable-section"><div class="tabbed-panel-navigation content-container pt-0 pb-0" data-active="true"><button type='button' data-index='0'>Campaign Management</button><button type='button' data-index='1'>A/B Testing</button><button type='button' data-index='2'>Data &#038; Reporting</button><button type='button' data-index='3'>Segmentation</button><button type='button' data-index='4'>Fraud Prevention</button><button type='button' data-index='5'>Video Referrals</button></div><div class="swiper"><div class="tabs-container swiper-wrapper">
+<div class="block-tab-panel section-br-top-left swiper-slide"><div class="mobile-tab-title">Campaign Management</div><div class="tab-content content-container pb-0 pt-0">
+
+<div class="custom-content-row">
+
+<div
+    class="text-image-50-50 mobile-text-center mobile-image-above">
+
+    <div class="image-text-row center">
+
+        <div class="image-col left">
+
+            <img loading="lazy" decoding="async" width="600" height="607" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/campaign-management-min-1.png.webp" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/campaign-management-min-1.png.webp 600w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/campaign-management-min-1-297x300.png.webp 297w" sizes="auto, (max-width: 800px) 100vw, 800px" style="max-width:400px;" alt="">
+
+        </div>
+
+        
+            <div
+                class="text-col right">
+
+                
+                <div class="inner" >
+
+                    <h3>Quickly Create and Manage Effective Campaigns</h3>
+<p>Create stunning campaigns that are proven to convert. Talkable’s platform allows brands to quickly adapt to the seasonality of their business without engineering support. Talkable’s Customer Success team will help you ideate, design and launch new campaigns.</p>
+
+<a href="/lets-talk-referral" class="primary-button med" style="max-width:325px;">Ready to Launch</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+    
+</div>
+
+</div>
+</div></div>
+
+<div class="block-tab-panel section-br-top-left swiper-slide"><div class="mobile-tab-title">A/B Testing</div><div class="tab-content content-container pb-0 pt-0">
+
+<div class="custom-content-row">
+
+<div
+    class="text-image-50-50 mobile-text-center mobile-image-above">
+
+    <div class="image-text-row center">
+
+        <div class="image-col left">
+
+            <img loading="lazy" decoding="async" width="600" height="425" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/a-b-testing-1.png.webp" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/a-b-testing-1.png.webp 600w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/a-b-testing-1-300x213.png.webp 300w" sizes="auto, (max-width: 800px) 100vw, 800px" style="max-width:450px;" alt="">
+
+        </div>
+
+        
+            <div
+                class="text-col right">
+
+                
+                <div class="inner" >
+
+                    <h3>Power On-going Optimizations</h3>
+<p>Easily launch experiments to test reward offers, campaign placements and designs to determine the highest-performing campaign configurations. Talkable’s Customer Success Managers is also an extension of your team and here to help strategize and monitor your campaign testing. </p>
+
+<a href="/lets-talk-referral" class="primary-button med" style="max-width:325px;">Ready to Launch</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+    
+</div>
+
+</div>
+</div></div>
+
+<div class="block-tab-panel section-br-top-left swiper-slide"><div class="mobile-tab-title">Data &#038; Reporting</div><div class="tab-content content-container pb-0 pt-0">
+
+<div class="custom-content-row">
+
+<div
+    class="text-image-50-50 mobile-text-center mobile-image-above">
+
+    <div class="image-text-row center">
+
+        <div class="image-col left">
+
+            <img loading="lazy" decoding="async" width="1452" height="1428" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/data-reporting.png.webp" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/data-reporting.png.webp 1452w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/data-reporting-768x755.png.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/data-reporting-1024x1007.png.webp 1024w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/data-reporting-300x295.png.webp 300w" sizes="auto, (max-width: 800px) 100vw, 800px" style="max-width:450px;" alt="">
+
+        </div>
+
+        
+            <div
+                class="text-col right">
+
+                
+                <div class="inner" >
+
+                    <h3>Discover Trends and Insights</h3>
+<p>Access to in-depth reporting and analytics, marketers will have a clear insight into program performance and ROI. Talkable’s detailed dashboard allows brands to optimize every step of the referral journey.</p>
+
+<a href="/lets-talk-referral" class="primary-button med" style="max-width:325px;">Ready to Launch</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+    
+</div>
+
+</div>
+</div></div>
+
+<div class="block-tab-panel section-br-top-left swiper-slide"><div class="mobile-tab-title">Segmentation</div><div class="tab-content content-container pb-0 pt-0">
+
+<div class="custom-content-row">
+
+<div
+    class="text-image-50-50 mobile-text-center mobile-image-above">
+
+    <div class="image-text-row center">
+
+        <div class="image-col left">
+
+            <img loading="lazy" decoding="async" width="800" height="907" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/segmention-personalized-experiences-1.png.webp" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/segmention-personalized-experiences-1.png.webp 800w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/segmention-personalized-experiences-1-768x871.png.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/segmention-personalized-experiences-1-265x300.png.webp 265w" sizes="auto, (max-width: 800px) 100vw, 800px" style="max-width:415px;" alt="">
+
+        </div>
+
+        
+            <div
+                class="text-col right">
+
+                
+                <div class="inner" >
+
+                    <h3>Deliver Personalized and Enhanced Experiences </h3>
+<p>Target various customer audiences based on behavioral and purchase insights and serve personalized offers or rewards to make your campaigns more effective. </p>
+
+<a href="/lets-talk-referral" class="primary-button med" style="max-width:325px;">Ready to Launch</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+    
+</div>
+
+</div>
+</div></div>
+
+<div class="block-tab-panel section-br-top-left swiper-slide"><div class="mobile-tab-title">Fraud Prevention</div><div class="tab-content content-container pb-0 pt-0">
+
+<div class="custom-content-row">
+
+<div
+    class="text-image-50-50 mobile-text-center mobile-image-above">
+
+    <div class="image-text-row center">
+
+        <div class="image-col left">
+
+            <img loading="lazy" decoding="async" width="800" height="701" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/industry-leading-fraud-prevention-1.png.webp" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/industry-leading-fraud-prevention-1.png.webp 800w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/industry-leading-fraud-prevention-1-768x673.png.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/11/industry-leading-fraud-prevention-1-300x263.png.webp 300w" sizes="auto, (max-width: 800px) 100vw, 800px" style="max-width:450px;" alt="">
+
+        </div>
+
+        
+            <div
+                class="text-col right">
+
+                
+                <div class="inner" >
+
+                    <h3>Industry Leading Fraud Prevention</h3>
+<p>Talkable has been in the business of referral marketing for over a decade, and over that time we have perfected our fraud management algorithm. During this time, we have saved customers over $100M in fraudulent referrals.</p>
+
+<a href="/lets-talk-referral" class="primary-button med" style="max-width:325px;">Ready to Launch</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+    
+</div>
+
+</div>
+</div></div>
+
+<div class="block-tab-panel section-br-top-left swiper-slide video-referrals"><div class="mobile-tab-title">Video Referrals</div><div class="tab-content content-container pb-0 pt-0">
+
+<div class="custom-content-row">
+
+<div
+    class="text-image-50-50 mobile-text-center mobile-image-above">
+
+    <div class="image-text-row center">
+
+        <div class="image-col left">
+
+            <img loading="lazy" decoding="async" width="1028" height="1128" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/video-referrals.png.webp" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/video-referrals.png.webp 1028w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/video-referrals-768x843.png.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/video-referrals-933x1024.png.webp 933w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/video-referrals-273x300.png.webp 273w" sizes="auto, (max-width: 800px) 100vw, 800px" style="max-width:500px;" alt="">
+
+        </div>
+
+        
+            <div
+                class="text-col right">
+
+                
+                <div class="inner" >
+
+                    <h3>The Next Evolution  of Referral Marketing</h3>
+<p>Bring your campaigns to life with video enabled referrals. Talkable Video is an innovative and authentic approach for increasing your referral revenue and taps into your existing customers to provide a library of unlimited video UGC to leverage across other marketing channels.</p>
+
+<a href="/lets-talk-referral" class="primary-button med" style="max-width:325px;">Ready to Launch</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+    
+</div>
+
+</div>
+</div></div>
+</div><nav class="tab-swiper-controls"><div class="swiper-button-prev"></div><div class="swiper-pagination"></div><div class="swiper-button-next"></div></nav></div></section>
+
+<section class="talkable-section pt-0" style="background-color:#ffffff";><div class="custom-content content-container dark-text">
+<div class="custom-content-row block-heading"><div class="block-alignment-wrapper block-align-center"><div class="max-width-container" style="--max-width: 750px;"><h2 class="text-center">A Better Way<br class="hide-tablet"> for Customer-Led Growth</h2></div></div></div>
+
+<div class="block-slider offerings-slider mt-md" data-animation="fade" data-autoplay="1" data-autoplay-delay="7000" data-auto-height=""><div class="swiper"><div class="swiper-wrapper">
+<div class="swiper-slide">
+
+<div class="custom-content-row">
+
+<div
+    class="text-image-50-50 mobile-text-center mobile-image-above">
+
+    <div class="image-text-row center">
+
+        <div class="image-col left">
+
+            <img loading="lazy" decoding="async" width="800" height="610" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/enterprise-referral.png.webp" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/enterprise-referral.png.webp 800w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/enterprise-referral-768x586.png.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/enterprise-referral-300x229.png.webp 300w" sizes="auto, (max-width: 800px) 100vw, 800px" alt="">
+
+        </div>
+
+        
+            <div
+                class="text-col right">
+
+                
+                <div class="inner" >
+
+                    <h3>Enterprise Referral<br class="hide-tablet"> Marketing Platforms</h3>
+<p>Segment your audience, serve-up high converting offers and rewards, and transform your customers into revenue generators. Only Talkable has a proven track record of growing top retail and eCommerce brands.</p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+    
+</div>
+
+</div>
+</div>
+
+<div class="swiper-slide">
+
+<div class="custom-content-row">
+
+<div
+    class="text-image-50-50 mobile-text-center mobile-image-above">
+
+    <div class="image-text-row center">
+
+        <div class="image-col left">
+
+            <img loading="lazy" decoding="async" width="800" height="692" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/video-referrals-1.png.webp" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/video-referrals-1.png.webp 800w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/video-referrals-1-768x664.png.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/video-referrals-1-300x260.png.webp 300w" sizes="auto, (max-width: 800px) 100vw, 800px" alt="">
+
+        </div>
+
+        
+            <div
+                class="text-col right">
+
+                
+                <div class="inner" >
+
+                    <h3>Customer Generated Video Referrals and Library</h3>
+<p>Increase referrals when you enable user generated video referrals to your referral marketing campaigns. Forget UGC, get access to authentic customer generated content (CGC) with an unlimited library of your real customer referral videos. </p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+    
+</div>
+
+</div>
+</div>
+
+<div class="swiper-slide">
+
+<div class="custom-content-row">
+
+<div
+    class="text-image-50-50 mobile-text-center mobile-image-above">
+
+    <div class="image-text-row center">
+
+        <div class="image-col left">
+
+            <img loading="lazy" decoding="async" width="800" height="651" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/ai-min.png.webp" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/ai-min.png.webp 800w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/ai-min-768x625.png.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/ai-min-300x244.png.webp 300w" sizes="auto, (max-width: 800px) 100vw, 800px" alt="">
+
+        </div>
+
+        
+            <div
+                class="text-col right">
+
+                
+                <div class="inner" >
+
+                    <h3>Add AI To Your Campaigns</h3>
+<p>Talkable has a relentless mission to innovate the eCommerce and referral marketing space. Add AI to your referral marketing campaigns. Streamline the referral marketing journey and customer experience with AI generated notes.</p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+    
+</div>
+
+</div>
+</div>
+
+<div class="swiper-slide">
+
+<div class="custom-content-row">
+
+<div
+    class="text-image-50-50 mobile-text-center mobile-image-above">
+
+    <div class="image-text-row center">
+
+        <div class="image-col left">
+
+            <img loading="lazy" decoding="async" width="1441" height="1141" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/name-sharing.png.webp" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/name-sharing.png.webp 1441w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/name-sharing-768x608.png.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/name-sharing-1024x811.png.webp 1024w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/11/name-sharing-300x238.png.webp 300w" sizes="auto, (max-width: 800px) 100vw, 800px" alt="">
+
+        </div>
+
+        
+            <div
+                class="text-col right">
+
+                
+                <div class="inner" >
+
+                    <h3>Influencer &#038; Ambassadors Campaigns</h3>
+<p>Increase referral engagement and drive up to 50% more referral sales when you add a personal touch. Make it even easier for your strongest advocates to share your brand with just their influencer tag or name.</p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+    
+</div>
+
+</div>
+</div>
+</div></div><div class="swiper-pagination"></div></div>
+</div></section>
+
+<section id="homepage-testimonials" class="talkable-section section-br-top-left" style="background-color:#1c2940";><div class="custom-content content-container light-text">
+<div class="custom-content-row block-heading"><div class="block-alignment-wrapper block-align-center"><div class="max-width-container" style=""><h2 class="text-center">What People Say</h2></div></div></div>
+
+<div class="talkable-spacer xs"></div>
+
+<div class="custom-content-row talkable-testimonial-cards translate-center"><div class="swiper"><div class="testimonial-card-grid swiper-wrapper columns-3"><div class="testimonial-card swiper-slide"><img loading="lazy" decoding="async" width="300" height="59" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/12/LaserAway_Logo-300x59.png.webp" class="logo" alt="LaserAway Logo" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/12/LaserAway_Logo-300x59.png.webp 300w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/12/LaserAway_Logo.png.webp 459w" sizes="auto, (max-width: 300px) 100vw, 300px" /><p>Talkable was able to bring our vision to life when it came to creating a loyalty program, unlike anything which exists today in the aesthetic industry.</p>
+<div class="testimonial-author"><div class="testimonial-image"><img loading="lazy" decoding="async" width="2000" height="2089" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/1_aUfGIdZk8h5SxWHKXJVQaQ.jpeg.webp" class="attachment-thubmanil size-thubmanil" alt="Emily Sehbe, Head of Experience and Engagement" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/1_aUfGIdZk8h5SxWHKXJVQaQ.jpeg.webp 2000w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/1_aUfGIdZk8h5SxWHKXJVQaQ-768x802.jpeg.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/1_aUfGIdZk8h5SxWHKXJVQaQ-980x1024.jpeg.webp 980w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/1_aUfGIdZk8h5SxWHKXJVQaQ-1471x1536.jpeg.webp 1471w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/1_aUfGIdZk8h5SxWHKXJVQaQ-1961x2048.jpeg.webp 1961w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/1_aUfGIdZk8h5SxWHKXJVQaQ-287x300.jpeg.webp 287w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></div><div><h3>Emily Sehbe<h3><div class="title">Head of Experience &#038; Engagement</div></div></div></div><div class="testimonial-card swiper-slide"><img loading="lazy" decoding="async" width="300" height="41" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/12/rothys-300x41.png.webp" class="logo" alt="rothys loyalty and referral program" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/12/rothys-300x41.png.webp 300w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/12/rothys.png.webp 441w" sizes="auto, (max-width: 300px) 100vw, 300px" /><p>Talkable Team are ALWAYS there to make it work, provide valuable feedback on driving incremental value to both our customers and our organization and simply a pleasure to get to collaborate with.</p>
+<div class="testimonial-author"><div class="testimonial-image"><img loading="lazy" decoding="async" width="450" height="450" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/rothys.jpeg.webp" class="attachment-thubmanil size-thubmanil" alt="Kerim Agalar - Director, Retention" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/rothys.jpeg.webp 450w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/rothys-150x150.jpeg.webp 150w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/rothys-300x300.jpeg.webp 300w" sizes="auto, (max-width: 450px) 100vw, 450px" /></div><div><h3>Kerim Agalar<h3><div class="title">Director, Retention</div></div></div></div><div class="testimonial-card swiper-slide"><img loading="lazy" decoding="async" width="300" height="74" src="https://www.talkable.com/wp-content/uploads/2022/01/caraway-logo-dark.png" class="logo" alt="caraway-logo-dark" /><p>The Talkable team truly cares about your success, including regular performance check-ins and offering recommendations for success. We’ve been very happy with our experience so far!</p>
+<div class="testimonial-author"><div class="testimonial-image"><img loading="lazy" decoding="async" width="621" height="621" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/Miranda-Johnson-1.jpeg.webp" class="attachment-thubmanil size-thubmanil" alt="Miranda-Johnson" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/Miranda-Johnson-1.jpeg.webp 621w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/Miranda-Johnson-1-150x150.jpeg.webp 150w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/01/Miranda-Johnson-1-300x300.jpeg.webp 300w" sizes="auto, (max-width: 621px) 100vw, 621px" /></div><div><h3>Miranda Johnson<h3><div class="title">Growth Marketing Manager</div></div></div></div></div><nav class="testimonial-card-swiper-controls"><div class="swiper-button-prev"></div><div class="swiper-pagination"></div><div class="swiper-button-next"></div></nav></div></div>
+</div></section>
+
+<section id="homepage-integrations" class="talkable-section" style="background-color:#8d61c8";><img decoding="async" class="hex-large-right hex-shape" src="https://www.talkable.com/wp-content/themes/talkable/dist/images/hexagon-outlines-large-right.svg"><div class="custom-content content-container light-text">
+<div class="custom-content-row block-heading"><div class="block-alignment-wrapper block-align-center"><div class="max-width-container" style="--max-width: 900px;"><h2 class="text-center">Integrate with the Best Software for Enterprise eCommerce. </h2></div></div></div>
+
+
+<div class="custom-content-row">
+<div style="margin: 0 auto; width: 100%; max-width:1150px;">
+<div
+    class="text-image-50-50 mobile-text-center mobile-image-above">
+
+    <div class="image-text-row top">
+
+        <div class="image-col left">
+
+            <img loading="lazy" decoding="async" width="1604" height="1148" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/12/integrations-image-.png.webp" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/12/integrations-image-.png.webp 1604w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/12/integrations-image--768x550.png.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/12/integrations-image--1024x733.png.webp 1024w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/12/integrations-image--1536x1099.png.webp 1536w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/12/integrations-image--300x215.png.webp 300w" sizes="auto, (max-width: 800px) 100vw, 800px" style="max-width:500px;" alt="integrations graphic">
+
+        </div>
+
+        
+            <div
+                class="text-col right">
+
+                
+                <div class="inner" >
+
+                    <h3>Power a beautiful customer experience with our full list of integrations and partners. </h3>
+<a href="/integrations" class="primary-button med" style="max-width:325px;">View all integrations</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    
+    </div>
+</div>
+
+</div>
+</div></section>
+
+<section class="talkable-section pb-0"><div class="custom-content content-container dark-text">
+<div class="custom-content-row block-heading"><div class="block-alignment-wrapper block-align-center"><div class="max-width-container" style="--max-width: 925px;"><h2 class="text-center">Success with Our Best-in-Class Referral Programs</h2></div></div></div>
+
+<div class="talkable-spacer md"></div>
+
+<div class="block-columns-row d-grid custom-content-row mt-md gap-xl ai-start cols-2 half reverse-mobile tablet-cols-2">
+<div class="block-column pad-none"><div class="block-column-content">
+<div class="custom-content-row block-heading"><div class="block-alignment-wrapper block-align-center"><div class="max-width-container" style=""><h3 class="text-left-mobile-center">How Three eCommerce Giants Increased Referral Conversion Rates By 35%+ With Talkable and KnoCommerce</h3></div></div></div>
+
+<div class="custom-content-row multiline-text"><div class="block-alignment-wrapper block-align-center"><div class="max-width-container" style=""><div class="multiline-text-content text-left-mobile-center text-24-16-16">You’re not making it easy for your most engaged consumers to share their love of the brand. We can fix that.    &#8220;I love that we can reward our customers…</div></div></div></div>
+
+<div class="custom-content-row"><div class="talkable-button-group align-left-mobile-center"><a href="/case-studies/how-swimoutlet-increased-referral-conversion-by-35-with-talkable-knocommerce" class="primary-button" style="max-width:300px;">Read full case study</a></div></div>
+</div></div>
+
+<div class="block-column"><div class="block-column-content">
+<div class="block-image custom-content-row"><div class="block-alignment-wrapper block-align-center"><div class="max-width-container" style="">
+<picture>
+
+    <source media="(max-width: 767px)" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/05/referral-conversion-min-4-e1747249853391.png.webp">
+
+    <source media="(min-width: 768px) and (max-width: 1024px)" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/05/referral-conversion-min-4-e1747249853391.png.webp">
+
+        <img decoding="async" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/05/referral-conversion-min-4-e1747249853391.png.webp" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/05/referral-conversion-min-4-e1747249853391.png.webp 2497w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/05/referral-conversion-min-4-e1747249853391-1024x682.png.webp 1024w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/05/referral-conversion-min-4-e1747249853391-768x511.png.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/05/referral-conversion-min-4-e1747249853391-1536x1023.png.webp 1536w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/05/referral-conversion-min-4-e1747249853391-2048x1364.png.webp 2048w" sizes="(max-width: 800px) 100vw, 800px" alt="">
+
+</picture></div></div></div>
+</div></div>
+</div>
+
+<div class="talkable-spacer xl"></div>
+
+<div class="custom-content-row"><div class="talkable-text-block colored-hex-shapes font- color-shapes" style="background: #1c2940;"><img decoding="async" class="hex-shape-purple" src="https://www.talkable.com/wp-content/themes/talkable/dist/images/text-block-purple-hexagon.svg"><img decoding="async" class="hex-shape-yellow" src="https://www.talkable.com/wp-content/themes/talkable/dist/images/text-block-orange-yellow-hexagon.svg"><img decoding="async" class="hex-shape-pink" src="https://www.talkable.com/wp-content/themes/talkable/dist/images/text-block-pink-hexagon.svg">
+<div class="custom-content-row block-heading"><div class="block-alignment-wrapper block-align-center"><div class="max-width-container" style="--max-width: 800px;"><h2 class="text-center">“I want to turn my customers into revenue generators!”</h2></div></div></div>
+
+<div class="custom-content-row"><div class="talkable-button-group align-center"><a href="/lets-talk-referral" class="primary-button" style="max-width:300px;">Let&#039;s Talk<i class="fa-solid fa-arrow-right"></i></a></div></div>
+</div></div>
+
+<div class="talkable-spacer lg"></div>
+
+<div class="custom-content-row block-heading"><div class="block-alignment-wrapper block-align-center"><div class="max-width-container" style=""><h2 class="text-center">Resources<br class="hide-tablet"> to Get You Started</h2></div></div></div>
+
+<div class="custom-content-row"><div class="talkable-recent-posts">
+<div class="post-wrap">
+    <div class="post">
+        <a href="https://www.talkable.com/blog/the-wallet-install-is-the-new-welcome-trigger/"></a>
+
+        <div class="post-image-wrap">
+            <div class="post-image-embed">
+                                    <img loading="lazy" decoding="async" width="1920" height="1080" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/04/wallet-pass-push.png.webp" alt="The Wallet Install Is the New Welcome Trigger" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/04/wallet-pass-push.png.webp 1920w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/04/wallet-pass-push-1024x576.png.webp 1024w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/04/wallet-pass-push-768x432.png.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/04/wallet-pass-push-1536x864.png.webp 1536w" sizes="auto, (max-width: 1920px) 100vw, 1920px" />
+                            </div>
+        </div>
+
+        <span class="date">April 7, 2026</span>
+
+        <h3>The Wallet Install Is the New Welcome Trigger</h3>
+
+        <p class="excerpt">Your customer just put your brand on their lock screen. They tapped the pass, confirmed the OS prompt, and manually&#8230;</p>
+
+        <a href="https://www.talkable.com/blog/the-wallet-install-is-the-new-welcome-trigger/" class="primary-button med" target="_blank">
+            Read the Article <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <img decoding="async" class="hex-outlines" src="https://www.talkable.com/wp-content/themes/talkable/dist/images/blog-hex-outlines.svg">
+    </div>
+</div>
+<div class="post-wrap">
+    <div class="post">
+        <a href="https://www.talkable.com/blog/subscription-referral-marketing/"></a>
+
+        <div class="post-image-wrap">
+            <div class="post-image-embed">
+                                    <img loading="lazy" decoding="async" width="1536" height="1024" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/05/ChatGPT-Image-May-4-2026-11_54_19-AM.png.webp" alt="How Subscription Brands Use Referral Marketing to Grow Recurring Revenue" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/05/ChatGPT-Image-May-4-2026-11_54_19-AM.png.webp 1536w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/05/ChatGPT-Image-May-4-2026-11_54_19-AM-1024x683.png.webp 1024w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/05/ChatGPT-Image-May-4-2026-11_54_19-AM-768x512.png.webp 768w" sizes="auto, (max-width: 1536px) 100vw, 1536px" />
+                            </div>
+        </div>
+
+        <span class="date">May 4, 2026</span>
+
+        <h3>How Subscription Brands Use Referral Marketing to Grow Recurring Revenue</h3>
+
+        <p class="excerpt">Subscription brands need better subscribers, not just cheaper signups. Here is how Talkable turns referral into a recurring revenue system.</p>
+
+        <a href="https://www.talkable.com/blog/subscription-referral-marketing/" class="primary-button med" target="_blank">
+            Read the Article <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <img decoding="async" class="hex-outlines" src="https://www.talkable.com/wp-content/themes/talkable/dist/images/blog-hex-outlines.svg">
+    </div>
+</div>
+<div class="post-wrap">
+    <div class="post">
+        <a href="https://www.talkable.com/blog/transactional-emails-referral-channel/"></a>
+
+        <div class="post-image-wrap">
+            <div class="post-image-embed">
+                                    <img loading="lazy" decoding="async" width="1600" height="900" src="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/04/transactional-email-stock-feature-v4.jpg.webp" alt="Transactional Emails Are an Untapped Referral Channel" srcset="https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/04/transactional-email-stock-feature-v4.jpg.webp 1600w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/04/transactional-email-stock-feature-v4-1024x576.jpg.webp 1024w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/04/transactional-email-stock-feature-v4-768x432.jpg.webp 768w,  https://www.talkable.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2026/04/transactional-email-stock-feature-v4-1536x864.jpg.webp 1536w" sizes="auto, (max-width: 1600px) 100vw, 1600px" />
+                            </div>
+        </div>
+
+        <span class="date">April 28, 2026</span>
+
+        <h3>Transactional Emails Are an Untapped Referral Channel</h3>
+
+        <p class="excerpt">Transactional emails already get attention. Learn where referral placements fit, which stats matter, and how to test them without hijacking&#8230;</p>
+
+        <a href="https://www.talkable.com/blog/transactional-emails-referral-channel/" class="primary-button med" target="_blank">
+            Read the Article <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <img decoding="async" class="hex-outlines" src="https://www.talkable.com/wp-content/themes/talkable/dist/images/blog-hex-outlines.svg">
+    </div>
+</div></div></div>
+</div></section>
+
+<section class="talkable-section pt-0 pb-0"><div class="custom-content content-container dark-text">
+<a style="display: block;" class="talkable-anchor" id="lets-talk"></a>
+
+<div class="custom-content-row block-heading"><div class="block-alignment-wrapper block-align-center"><div class="max-width-container" style="--max-width: 900px;"><h2 class="text-center">See How We Can Help Your Brand Grow</h2></div></div></div>
+
+<div class="custom-content-row"><div class="talkable-button-group align-center"><a href="/lets-talk-referral" class="primary-button" style="max-width:250px;">Let&#039;s Talk<i class="fa-solid fa-arrow-right"></i></a></div></div>
+</div></section>
+</main><!-- #content -->
+
+
+<footer id="colophon" class="site-footer">
+
+	<div class="footer-inner">
+
+		<div class="footer-columns">
+
+			<div class="footer-col">
+				<img class="talkable-icon" alt="Talkable"
+					src="https://www.talkable.com/wp-content/uploads/2022/06/talkable_pride.gif">
+												<div class="copyright">2026 &copy; Talkable</div>
+
+				<nav id="social-media">
+                    <a class="facebook-icon" href="https://www.facebook.com/talkable" target="_blank"><?xml version="1.0" encoding="UTF-8"?>
+        <svg viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 2.821A2.667 2.667 0 012.667.155h18.666A2.667 2.667 0 0124 2.82v18.667a2.667 2.667 0 01-2.667 2.667H2.667A2.667 2.667 0 010 21.488zm19.09 8.246h-2.979V9.09c.215-1.872 3.308-1.515 3.308-1.515v-3.2c-.108 0-6.144-1.457-7.344 3.136-.185.571-.178 3.207-.171 3.536H9.325v3.522h2.736v9.571h3.986v-9.571h3.05l.343-3.522h-.343z" fill="#c5ccd7"/>
+        </svg></a><a class="linkedin-icon" href="https://www.linkedin.com/company/talkable" target="_blank"><?xml version="1.0" encoding="UTF-8"?>
+        <svg viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 9.488h3.494v10.518H4zm11.973 0c2.295 0 4.027 1.501 4.027 4.73v6.042h-3.493v-5.636c0-1.416-.514-2.377-1.771-2.377-.97 0-1.544.644-1.8 1.278-.09.228-.11.535-.11.852v5.883H9.333s.04-9.538 0-10.529h3.493v1.486c.465-.713 1.296-1.73 3.147-1.73zM5.977 4.155c1.195 0 1.931.784 1.954 1.816 0 1.01-.759 1.817-1.977 1.817h-.023C4.758 7.788 4 6.98 4 5.97c0-1.032.78-1.816 1.977-1.816zM0 21.488a2.667 2.667 0 002.667 2.667h18.666A2.667 2.667 0 0024 21.488V2.82A2.667 2.667 0 0021.333.155H2.667A2.667 2.667 0 000 2.82z" fill="#c5ccd7"/>
+        </svg></a><a class="twitter-icon" href="https://www.twitter.com/talkable" target="_blank"><?xml version="1.0" encoding="UTF-8"?>
+        <svg viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">
+        <path d="M21.4067 0H2.59325C1.16108 0 0 1.20945 0 2.7013V22.2987C0 23.7905 1.16108 25 2.59325 25H21.4067C22.8389 25 24 23.7905 24 22.2987V2.7013C24 1.20945 22.8389 0 21.4067 0ZM15.308 21.2005L10.8481 14.4393L5.26435 21.2005H3.82122L10.2073 13.4682L3.82122 3.78667H8.69203L12.9152 10.1891L18.2026 3.78667H19.6458L13.5562 11.1604H13.5558L20.1788 21.2005H15.308Z" fill="#c5ccd7"/>
+        </svg></a><a class="instagram-icon" href="https://www.instagram.com/talkablesoftware" target="_blank"><?xml version="1.0" encoding="UTF-8"?>
+        <svg viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 2.821A2.667 2.667 0 012.667.155h18.666A2.667 2.667 0 0124 2.82v18.667a2.667 2.667 0 01-2.667 2.667H2.667A2.667 2.667 0 010 21.488zm12 .334c-2.444 0-2.75.01-3.71.054-.959.043-1.613.196-2.185.418A4.411 4.411 0 004.51 4.665c-.5.5-.809 1.002-1.039 1.594-.222.573-.374 1.227-.418 2.185C3.01 9.404 3 9.71 3 12.154c0 2.445.01 2.751.054 3.711.044.958.196 1.612.418 2.185.23.592.538 1.094 1.039 1.594.5.5 1.002.808 1.594 1.038.572.223 1.226.375 2.184.418.96.044 1.267.055 3.711.055s2.75-.01 3.71-.055c.959-.043 1.613-.195 2.185-.418a4.412 4.412 0 001.594-1.038c.5-.5.808-1.002 1.038-1.594.223-.573.375-1.227.419-2.185.044-.96.054-1.266.054-3.71 0-2.445-.01-2.751-.054-3.711-.044-.958-.196-1.612-.419-2.185a4.412 4.412 0 00-1.038-1.594 4.41 4.41 0 00-1.594-1.038c-.572-.222-1.226-.375-2.184-.418-.96-.044-1.267-.054-3.711-.054m0 2c2.28 0 2.55.008 3.45.05.833.037 1.285.176 1.586.293.398.155.683.34.982.639.298.299.483.583.638.982.117.3.256.753.294 1.585.041.9.05 1.17.05 3.45 0 2.28-.009 2.55-.05 3.45-.038.833-.177 1.285-.294 1.586-.155.399-.34.683-.638.982a2.645 2.645 0 01-.982.639c-.301.117-.753.256-1.586.294-.9.04-1.17.05-3.45.05-2.28 0-2.55-.01-3.45-.05-.833-.038-1.285-.177-1.586-.294a2.645 2.645 0 01-.982-.639 2.646 2.646 0 01-.638-.982c-.117-.3-.256-.753-.294-1.585-.041-.9-.05-1.17-.05-3.45 0-2.28.009-2.55.05-3.45.038-.833.177-1.285.294-1.586.155-.399.34-.683.638-.982.3-.299.584-.484.982-.639.301-.117.753-.256 1.586-.294.9-.04 1.17-.05 3.45-.05m0 3a4 4 0 100 8 4 4 0 000-8m6-.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0m-6 6.5a2 2 0 110-4 2 2 0 010 4" fill="#c5ccd7"/>
+        </svg></a>                </nav>
+			</div>
+
+			
+				<div class="footer-col">
+
+					<h4>Talkable Products</h4><a href="/referral-program" target="_self">Referral Programs</a><a href="/referral-program/video-referrals" target="_self">Talkable Video</a><a href="/wallet-pass" target="_self">Talkable Wallet</a><h4>Solutions by Industry</h4><a href="/beauty-cosmetics" target="_self">Beauty & Cosmetics</a><a href="/fashion" target="_self">Fashion</a><a href="/food-beverage" target="_self">Food & Beverage</a><a href="/furniture-home-goods" target="_self">Furniture & Home Goods</a><a href="/health-wellness" target="_self">Health & Wellness</a><h4>Solutions by Type</h4><a href="/retail-omnichannel" target="_self">Retail</a><a href="/direct-to-consumer" target="_self">DTC</a>				</div>
+			
+				<div class="footer-col">
+
+					<h4><a class="heading-link" href="https://www.talkable.com/pricing">Pricing & Plans</a></h4><h4><a class="heading-link" href="https://www.talkable.com/integrations">Integrations</a></h4><a href="/integrations#ecommerce" target="_self">eCommerce</a><a href="/integrations#email" target="_self">Email (ESP)</a><a href="/integrations#ecommerce" target="_self">Subscription</a><a href="/integrations#rewards-incentives" target="_self">Specialty Gifting & Rewards</a><a href="/product-updates" target="_self">What's New?</a><h4><a class="heading-link" href="https://www.talkable.com/talkable-features">Features</a></h4><a href="/talkable-features#ab-testing" target="_self">A/B Testing</a><a href="/talkable-features#data-reporting" target="_self">Data & Reporting</a><a href="/talkable-features#segmentation" target="_self">Segmentation</a><a href="/talkable-features#data-privacy" target="_self">Data Privacy</a><a href="/talkable-features#mobile" target="_self">Mobile</a>				</div>
+			
+				<div class="footer-col">
+
+					<h4>Resources</h4><a href="/case-studies" target="_self">Case Studies</a><a href="/ebooks" target="_self">eBooks & Guides</a><a href="/blog" target="_self">Blog</a><a href="https://shimmyshine.com/" target="_blank">Demo Store</a><a href="https://docs.talkable.com/" target="_blank">Technical Documentation</a><h4>Company</h4><a href="/about-talkable" target="_self">About Us</a><a href="/customer-success" target="_self">Customer Success Team</a><a href="/jobs" target="_self">Careers</a><a href="/privacy" target="_self">Privacy Policy</a><a href="/terms-conditions" target="_self">Terms of Service</a><a href="/data_removals/new" target="_blank">Data Removal Request</a><a href="https://www.gofundme.com/f/support-the-talkable-team" target="_blank">Support Ukraine</a><a href="/invite" target="_self">Earn Rewards!</a>				</div>
+			
+				<div class="footer-col">
+
+					<h4>Have Questions?</h4><a href="/lets-talk-referral" target="_self" class="primary-button footer-button">Let's Talk</a><h4>San Francisco</h4>2261 Market Street #4588<br />
+San Francisco, CA 94114<h4>London</h4>483 Green Lanes<br />
+London, N13 4BS<br />
+<br />
+							<div class="footer-col__image_wrapper">
+								<img width="84" height="84" src="https://www.talkable.com/wp-content/uploads/2025/10/aicpa-soc-badge-2.svg" class="" alt="" data-no-lazy="1" loading="eager" decoding="async" />							</div>
+										</div>
+					</div>
+
+	</div>
+</footer><!-- #colophon -->
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/talkable/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script data-wp-strategy="defer" id="silktide-consent-manager-js" src="https://www.talkable.com/wp-content/plugins/talkable-consent-manager/assets/js/silktide-consent-manager.js?ver=1781186487"></script>
+<script id="silktide-consent-manager-js-after">
+window.silktideConsentManager.init({"eventName":"stcm_consent_update","consentTypes":[{"id":"necessary","label":"Necessary","description":"\u003Cp\u003EThese cookies are necessary for the website to function properly and cannot be switched off. They help with things like logging in and setting your privacy preferences.\u003C\/p\u003E\n","required":true},{"id":"analytics","label":"Analytics","description":"\u003Cp\u003EThese cookies help us improve the site by tracking which pages are most popular and how visitors move around the site.\u003C\/p\u003E\n","defaultValue":true,"gtag":"analytics_storage"},{"id":"marketing","label":"Marketing","description":"\u003Cp\u003EWe use marketing cookies to help us improve the relevancy of advertising campaigns you receive.\u003C\/p\u003E\n","gtag":["ad_storage","ad_user_data","ad_personalization"]}],"prompt":{"position":"center"},"icon":{"position":"bottomLeft"},"backdrop":{"show":true},"text":{"prompt":{"description":"\u003Cp\u003EWe use cookies on our site to enhance your user experience.\u003C\/p\u003E\n","acceptAllButtonText":"Accept all","acceptAllButtonAccessibleLabel":"Accept all cookies","rejectNonEssentialButtonText":"Reject non-essential","rejectNonEssentialButtonAccessibleLabel":"Reject non-essential cookies","preferencesButtonText":"Preferences","preferencesButtonAccessibleLabel":"Toggle cookie preferences"},"preferences":{"title":"Customize your cookie preferences","description":"\u003Cp\u003EWe respect your right to privacy. You can choose not to allow some types of cookies. Your cookie preferences will apply across our website.\u003C\/p\u003E\n"}}});
+//# sourceURL=silktide-consent-manager-js-after
+</script>
+<script id="talkable-attribution-namespace-js-before">
+window.talkableAttributionSettings = {"storage":{"key":"talkable_attribution_v1","schema_version":1,"ttl_days":90},"consent_provider":"silktide","allowlisted_params":["utm_source","utm_medium","utm_campaign","utm_term","utm_content","utm_id","utm_source_platform","utm_creative_format","utm_marketing_tactic","gclid","gbraid","wbraid","msclkid","fbclid","ttclid","li_fat_id","q"],"query_param_aliases":{"source":"source_param"},"touch_fields":["captured_at","source","source_drilldown_1","source_drilldown_2","landing_page","landing_page_path","referrer","referrer_domain","source_param","utm_source","utm_medium","utm_campaign","utm_term","utm_content","utm_id","utm_source_platform","utm_creative_format","utm_marketing_tactic","gclid","gbraid","wbraid","msclkid","fbclid","ttclid","li_fat_id","q"],"field_map":{"context":["talkable_submit_page","talkable_form_id","talkable_form_title","talkable_consent_marketing","talkable_consent_provider","talkable_consent_observed_at"],"first_touch":["talkable_first_touch_captured_at","talkable_first_touch_source","talkable_first_touch_source_drilldown_1","talkable_first_touch_source_drilldown_2","talkable_first_touch_landing_page","talkable_first_touch_landing_page_path","talkable_first_touch_referrer","talkable_first_touch_referrer_domain","talkable_first_touch_source_param","talkable_first_touch_utm_source","talkable_first_touch_utm_medium","talkable_first_touch_utm_campaign","talkable_first_touch_utm_term","talkable_first_touch_utm_content","talkable_first_touch_utm_id","talkable_first_touch_utm_source_platform","talkable_first_touch_utm_creative_format","talkable_first_touch_utm_marketing_tactic","talkable_first_touch_gclid","talkable_first_touch_gbraid","talkable_first_touch_wbraid","talkable_first_touch_msclkid","talkable_first_touch_fbclid","talkable_first_touch_ttclid","talkable_first_touch_li_fat_id","talkable_first_touch_q"],"latest_touch":["talkable_latest_touch_captured_at","talkable_latest_touch_source","talkable_latest_touch_source_drilldown_1","talkable_latest_touch_source_drilldown_2","talkable_latest_touch_landing_page","talkable_latest_touch_landing_page_path","talkable_latest_touch_referrer","talkable_latest_touch_referrer_domain","talkable_latest_touch_source_param","talkable_latest_touch_utm_source","talkable_latest_touch_utm_medium","talkable_latest_touch_utm_campaign","talkable_latest_touch_utm_term","talkable_latest_touch_utm_content","talkable_latest_touch_utm_id","talkable_latest_touch_utm_source_platform","talkable_latest_touch_utm_creative_format","talkable_latest_touch_utm_marketing_tactic","talkable_latest_touch_gclid","talkable_latest_touch_gbraid","talkable_latest_touch_wbraid","talkable_latest_touch_msclkid","talkable_latest_touch_fbclid","talkable_latest_touch_ttclid","talkable_latest_touch_li_fat_id","talkable_latest_touch_q"],"all":["talkable_submit_page","talkable_form_id","talkable_form_title","talkable_consent_marketing","talkable_consent_provider","talkable_consent_observed_at","talkable_first_touch_captured_at","talkable_first_touch_source","talkable_first_touch_source_drilldown_1","talkable_first_touch_source_drilldown_2","talkable_first_touch_landing_page","talkable_first_touch_landing_page_path","talkable_first_touch_referrer","talkable_first_touch_referrer_domain","talkable_first_touch_source_param","talkable_first_touch_utm_source","talkable_first_touch_utm_medium","talkable_first_touch_utm_campaign","talkable_first_touch_utm_term","talkable_first_touch_utm_content","talkable_first_touch_utm_id","talkable_first_touch_utm_source_platform","talkable_first_touch_utm_creative_format","talkable_first_touch_utm_marketing_tactic","talkable_first_touch_gclid","talkable_first_touch_gbraid","talkable_first_touch_wbraid","talkable_first_touch_msclkid","talkable_first_touch_fbclid","talkable_first_touch_ttclid","talkable_first_touch_li_fat_id","talkable_first_touch_q","talkable_latest_touch_captured_at","talkable_latest_touch_source","talkable_latest_touch_source_drilldown_1","talkable_latest_touch_source_drilldown_2","talkable_latest_touch_landing_page","talkable_latest_touch_landing_page_path","talkable_latest_touch_referrer","talkable_latest_touch_referrer_domain","talkable_latest_touch_source_param","talkable_latest_touch_utm_source","talkable_latest_touch_utm_medium","talkable_latest_touch_utm_campaign","talkable_latest_touch_utm_term","talkable_latest_touch_utm_content","talkable_latest_touch_utm_id","talkable_latest_touch_utm_source_platform","talkable_latest_touch_utm_creative_format","talkable_latest_touch_utm_marketing_tactic","talkable_latest_touch_gclid","talkable_latest_touch_gbraid","talkable_latest_touch_wbraid","talkable_latest_touch_msclkid","talkable_latest_touch_fbclid","talkable_latest_touch_ttclid","talkable_latest_touch_li_fat_id","talkable_latest_touch_q"]},"attribution_field_groups":[{"key":"context","label":"Context","fields":{"talkable_submit_page":"Submission Page URL","talkable_form_id":"Gravity Form ID","talkable_form_title":"Gravity Form Title","talkable_consent_marketing":"Marketing Consent Granted","talkable_consent_provider":"Consent Provider","talkable_consent_observed_at":"Consent Observed At"},"descriptions":{"talkable_submit_page":"The page URL where this Gravity Form submission occurred.","talkable_form_id":"The numeric ID of the submitted Gravity Form.","talkable_form_title":"The title of the submitted Gravity Form.","talkable_consent_marketing":"Whether marketing consent was granted for this submission.","talkable_consent_provider":"The consent tool that supplied the consent state for this submission.","talkable_consent_observed_at":"When the consent state was observed for this submission."}},{"key":"first_touch","label":"First Touch","fields":{"talkable_first_touch_captured_at":"First-touch Captured At","talkable_first_touch_source":"First-touch Traffic Source","talkable_first_touch_source_drilldown_1":"First-touch Source Detail 1","talkable_first_touch_source_drilldown_2":"First-touch Source Detail 2","talkable_first_touch_landing_page":"First-touch Landing Page URL","talkable_first_touch_landing_page_path":"First-touch Landing Page Path","talkable_first_touch_referrer":"First-touch Referrer URL","talkable_first_touch_referrer_domain":"First-touch Referrer Domain","talkable_first_touch_source_param":"First-touch Source Query Parameter","talkable_first_touch_utm_source":"First-touch UTM Source","talkable_first_touch_utm_medium":"First-touch UTM Medium","talkable_first_touch_utm_campaign":"First-touch UTM Campaign","talkable_first_touch_utm_term":"First-touch UTM Term","talkable_first_touch_utm_content":"First-touch UTM Content","talkable_first_touch_utm_id":"First-touch UTM ID","talkable_first_touch_utm_source_platform":"First-touch UTM Source Platform","talkable_first_touch_utm_creative_format":"First-touch UTM Creative Format","talkable_first_touch_utm_marketing_tactic":"First-touch UTM Marketing Tactic","talkable_first_touch_gclid":"First-touch GCLID","talkable_first_touch_gbraid":"First-touch GBRAID","talkable_first_touch_wbraid":"First-touch WBRAID","talkable_first_touch_msclkid":"First-touch MSCLKID","talkable_first_touch_fbclid":"First-touch FBCLID","talkable_first_touch_ttclid":"First-touch TTCLID","talkable_first_touch_li_fat_id":"First-touch LinkedIn FAT ID","talkable_first_touch_q":"First-touch Search Query"},"descriptions":{"talkable_first_touch_captured_at":"When the visitor\u0027s first touch was captured in the browser.","talkable_first_touch_source":"The high-level traffic source classification captured on the visitor\u0027s first touch for HubSpot-style attribution reporting.","talkable_first_touch_source_drilldown_1":"The first source detail captured on the visitor\u0027s first touch for HubSpot-style attribution reporting.","talkable_first_touch_source_drilldown_2":"The second source detail captured on the visitor\u0027s first touch for HubSpot-style attribution reporting.","talkable_first_touch_landing_page":"The landing page URL captured on the visitor\u0027s first touch.","talkable_first_touch_landing_page_path":"The landing page path captured on the visitor\u0027s first touch.","talkable_first_touch_referrer":"The referrer URL captured on the visitor\u0027s first touch.","talkable_first_touch_referrer_domain":"The referrer domain captured on the visitor\u0027s first touch.","talkable_first_touch_source_param":"The raw source query parameter captured on the visitor\u0027s first touch.","talkable_first_touch_utm_source":"The utm_source value captured on the visitor\u0027s first touch.","talkable_first_touch_utm_medium":"The utm_medium value captured on the visitor\u0027s first touch.","talkable_first_touch_utm_campaign":"The utm_campaign value captured on the visitor\u0027s first touch.","talkable_first_touch_utm_term":"The utm_term value captured on the visitor\u0027s first touch.","talkable_first_touch_utm_content":"The utm_content value captured on the visitor\u0027s first touch.","talkable_first_touch_utm_id":"The utm_id value captured on the visitor\u0027s first touch.","talkable_first_touch_utm_source_platform":"The utm_source_platform value captured on the visitor\u0027s first touch.","talkable_first_touch_utm_creative_format":"The utm_creative_format value captured on the visitor\u0027s first touch.","talkable_first_touch_utm_marketing_tactic":"The utm_marketing_tactic value captured on the visitor\u0027s first touch.","talkable_first_touch_gclid":"The Google Ads click identifier captured on the visitor\u0027s first touch.","talkable_first_touch_gbraid":"The Google Ads GBRAID click identifier captured on the visitor\u0027s first touch.","talkable_first_touch_wbraid":"The Google Ads WBRAID click identifier captured on the visitor\u0027s first touch.","talkable_first_touch_msclkid":"The Microsoft Ads click identifier captured on the visitor\u0027s first touch.","talkable_first_touch_fbclid":"The Facebook click identifier captured on the visitor\u0027s first touch.","talkable_first_touch_ttclid":"The TikTok click identifier captured on the visitor\u0027s first touch.","talkable_first_touch_li_fat_id":"The LinkedIn click identifier captured on the visitor\u0027s first touch.","talkable_first_touch_q":"The search query captured on the visitor\u0027s first touch."}},{"key":"latest_touch","label":"Latest Touch","fields":{"talkable_latest_touch_captured_at":"Latest-touch Captured At","talkable_latest_touch_source":"Latest-touch Traffic Source","talkable_latest_touch_source_drilldown_1":"Latest-touch Source Detail 1","talkable_latest_touch_source_drilldown_2":"Latest-touch Source Detail 2","talkable_latest_touch_landing_page":"Latest-touch Landing Page URL","talkable_latest_touch_landing_page_path":"Latest-touch Landing Page Path","talkable_latest_touch_referrer":"Latest-touch Referrer URL","talkable_latest_touch_referrer_domain":"Latest-touch Referrer Domain","talkable_latest_touch_source_param":"Latest-touch Source Query Parameter","talkable_latest_touch_utm_source":"Latest-touch UTM Source","talkable_latest_touch_utm_medium":"Latest-touch UTM Medium","talkable_latest_touch_utm_campaign":"Latest-touch UTM Campaign","talkable_latest_touch_utm_term":"Latest-touch UTM Term","talkable_latest_touch_utm_content":"Latest-touch UTM Content","talkable_latest_touch_utm_id":"Latest-touch UTM ID","talkable_latest_touch_utm_source_platform":"Latest-touch UTM Source Platform","talkable_latest_touch_utm_creative_format":"Latest-touch UTM Creative Format","talkable_latest_touch_utm_marketing_tactic":"Latest-touch UTM Marketing Tactic","talkable_latest_touch_gclid":"Latest-touch GCLID","talkable_latest_touch_gbraid":"Latest-touch GBRAID","talkable_latest_touch_wbraid":"Latest-touch WBRAID","talkable_latest_touch_msclkid":"Latest-touch MSCLKID","talkable_latest_touch_fbclid":"Latest-touch FBCLID","talkable_latest_touch_ttclid":"Latest-touch TTCLID","talkable_latest_touch_li_fat_id":"Latest-touch LinkedIn FAT ID","talkable_latest_touch_q":"Latest-touch Search Query"},"descriptions":{"talkable_latest_touch_captured_at":"When the visitor\u0027s latest touch was captured in the browser.","talkable_latest_touch_source":"The high-level traffic source classification captured on the visitor\u0027s latest touch for HubSpot-style attribution reporting.","talkable_latest_touch_source_drilldown_1":"The first source detail captured on the visitor\u0027s latest touch for HubSpot-style attribution reporting.","talkable_latest_touch_source_drilldown_2":"The second source detail captured on the visitor\u0027s latest touch for HubSpot-style attribution reporting.","talkable_latest_touch_landing_page":"The landing page URL captured on the visitor\u0027s latest touch.","talkable_latest_touch_landing_page_path":"The landing page path captured on the visitor\u0027s latest touch.","talkable_latest_touch_referrer":"The referrer URL captured on the visitor\u0027s latest touch.","talkable_latest_touch_referrer_domain":"The referrer domain captured on the visitor\u0027s latest touch.","talkable_latest_touch_source_param":"The raw source query parameter captured on the visitor\u0027s latest touch.","talkable_latest_touch_utm_source":"The utm_source value captured on the visitor\u0027s latest touch.","talkable_latest_touch_utm_medium":"The utm_medium value captured on the visitor\u0027s latest touch.","talkable_latest_touch_utm_campaign":"The utm_campaign value captured on the visitor\u0027s latest touch.","talkable_latest_touch_utm_term":"The utm_term value captured on the visitor\u0027s latest touch.","talkable_latest_touch_utm_content":"The utm_content value captured on the visitor\u0027s latest touch.","talkable_latest_touch_utm_id":"The utm_id value captured on the visitor\u0027s latest touch.","talkable_latest_touch_utm_source_platform":"The utm_source_platform value captured on the visitor\u0027s latest touch.","talkable_latest_touch_utm_creative_format":"The utm_creative_format value captured on the visitor\u0027s latest touch.","talkable_latest_touch_utm_marketing_tactic":"The utm_marketing_tactic value captured on the visitor\u0027s latest touch.","talkable_latest_touch_gclid":"The Google Ads click identifier captured on the visitor\u0027s latest touch.","talkable_latest_touch_gbraid":"The Google Ads GBRAID click identifier captured on the visitor\u0027s latest touch.","talkable_latest_touch_wbraid":"The Google Ads WBRAID click identifier captured on the visitor\u0027s latest touch.","talkable_latest_touch_msclkid":"The Microsoft Ads click identifier captured on the visitor\u0027s latest touch.","talkable_latest_touch_fbclid":"The Facebook click identifier captured on the visitor\u0027s latest touch.","talkable_latest_touch_ttclid":"The TikTok click identifier captured on the visitor\u0027s latest touch.","talkable_latest_touch_li_fat_id":"The LinkedIn click identifier captured on the visitor\u0027s latest touch.","talkable_latest_touch_q":"The search query captured on the visitor\u0027s latest touch."}}],"source_rules":{"labels":{"organic_social":"Organic Social","paid_search":"Paid Search","paid_social":"Paid Social","email_marketing":"Email Marketing","ai_referrals":"AI Referrals","other_campaigns":"Other Campaigns","direct_traffic":"Direct Traffic","organic_search":"Organic Search","none":"None","referrals":"Referrals"},"campaign_signal_fields":["utm_source","utm_medium","utm_campaign","source_param"],"paid_search_markers":["adword","ppc","cpc"],"paid_social_medium_markers":["paid","ppc","cpc"],"paid_social_markers":["paidsocial"],"email_markers":["email"],"google_domains":["google.","google.com"],"search_domains":["google.","google.com","bing.com","yahoo.","yahoo.com","duckduckgo.com","ecosia.org","search.brave.com","baidu.com","yandex.","yandex.com","naver.com","ask.com","search.aol.com"],"social_domains":["facebook","facebook.com","instagram","instagram.com","linkedin","linkedin.com","lnkd.in","tiktok","tiktok.com","twitter","twitter.com","x","x.com","t.co","pinterest","pinterest.com","reddit","reddit.com","youtube","youtube.com"],"ai_domains":["chatgpt","chatgpt.com","chat.openai.com","openai","openai.com","claude","claude.ai","anthropic","anthropic.com","perplexity","perplexity.ai","gemini","gemini.google.com","copilot","copilot.microsoft.com","meta.ai","poe.com","you.com","jasper.ai","writesonic.com"],"mail_domains":["mail.google.com","outlook.live.com","outlook.office.com","mail.yahoo.com","mail.proton.me","mail.protonmail.com","mail.aol.com","mail.zoho.com","icloud.com","hey.com","app.hey.com","mail.qq.com"],"rss_reader_domains":["feedly.com","feedbin.com","inoreader.com","newsblur.com","theoldreader.com"]},"sanitization":{"max_text_length":255,"max_url_length":2048},"runtime":{"consent_retry_count":8,"consent_retry_delay":500},"gravity_forms":{"forms":{}}};
+//# sourceURL=talkable-attribution-namespace-js-before
+</script>
+<script id="talkable-attribution-namespace-js" src="https://www.talkable.com/wp-content/plugins/talkable-attribution/assets/js/modules/namespace.js?ver=1781186487"></script>
+<script id="talkable-attribution-utils-js" src="https://www.talkable.com/wp-content/plugins/talkable-attribution/assets/js/modules/utils.js?ver=1781186487"></script>
+<script id="talkable-attribution-consent-js" src="https://www.talkable.com/wp-content/plugins/talkable-attribution/assets/js/modules/consent.js?ver=1781186487"></script>
+<script id="talkable-attribution-storage-js" src="https://www.talkable.com/wp-content/plugins/talkable-attribution/assets/js/modules/storage.js?ver=1781186487"></script>
+<script id="talkable-attribution-classification-js" src="https://www.talkable.com/wp-content/plugins/talkable-attribution/assets/js/modules/classification.js?ver=1781186487"></script>
+<script id="talkable-attribution-capture-js" src="https://www.talkable.com/wp-content/plugins/talkable-attribution/assets/js/modules/capture.js?ver=1781186487"></script>
+<script id="talkable-attribution-gravity-forms-js-before">
+window.talkableAttributionSettings = window.talkableAttributionSettings || {}; window.talkableAttributionSettings.gravity_forms = window.talkableAttributionSettings.gravity_forms || { forms: {} }; Object.assign(window.talkableAttributionSettings.gravity_forms.forms, {"5":{"enabled":true,"mappings":{"talkable_first_touch_source":"11","talkable_first_touch_source_drilldown_1":"12","talkable_first_touch_source_drilldown_2":"13","talkable_first_touch_utm_source":"8","talkable_first_touch_utm_medium":"7","talkable_first_touch_utm_campaign":"5","talkable_first_touch_utm_term":"9","talkable_first_touch_utm_content":"6","talkable_first_touch_utm_id":"10"}}});
+//# sourceURL=talkable-attribution-gravity-forms-js-before
+</script>
+<script id="talkable-attribution-gravity-forms-js" src="https://www.talkable.com/wp-content/plugins/talkable-attribution/assets/js/modules/gravity-forms.js?ver=1781186487"></script>
+<script id="talkable-attribution-js" src="https://www.talkable.com/wp-content/plugins/talkable-attribution/assets/js/talkable-attribution.js?ver=1781186487"></script>
+<script id="talkable-new-js-js-extra">
+var theme = {"templateUrl":"https://www.talkable.com/wp-content/themes/talkable","ajaxURL":"https://www.talkable.com/wp-admin/admin-ajax.php","nonce":"2706ddd814"};
+//# sourceURL=talkable-new-js-js-extra
+</script>
+<script id="talkable-new-js-js" src="https://www.talkable.com/wp-content/themes/talkable/dist/js/bundle.js?ver=1781186531"></script>
+<script id="talkable-hero-feature-slider-js" src="https://www.talkable.com/wp-content/themes/talkable/dist/js/hero-feature-slider.js?ver=1781186531"></script>
+<script id="wp-dom-ready-js" src="https://www.talkable.com/wp-includes/js/dist/dom-ready.min.js?ver=a06281ae5cf5500e9317"></script>
+<script id="wp-hooks-js" src="https://www.talkable.com/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://www.talkable.com/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js" src="https://www.talkable.com/wp-includes/js/dist/a11y.min.js?ver=af934e5259bc51b8718e"></script>
+<script id="gform_json-js" defer='defer' src="https://www.talkable.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.5"></script>
+<script id="gform_gravityforms-js-extra">
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","file_uploaded":"File uploaded","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled","error":"Error","message":"Message"},"vars":{"images_url":"https://www.talkable.com/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https://www.talkable.com/wp-content/plugins/gravityforms","number_formats":[],"spinnerUrl":"https://www.talkable.com/wp-content/plugins/gravityforms/images/spinner.svg","version_hash":"d58cf20bac588700db94b597ccbbad95","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script id="gform_gravityforms-js" defer='defer' src="https://www.talkable.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.10.5"></script>
+<script id="gform_placeholder-js" defer='defer' src="https://www.talkable.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.10.5"></script>
+<script id="gform_gravityforms_utils-js" defer='defer' src="https://www.talkable.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=3f278756f0a3032bed328ff6a9f6c01d"></script>
+<script id="gform_gravityforms_theme_vendors-js" defer='defer' src="https://www.talkable.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=7c651d0ba638ce98b9c65141edddd567"></script>
+<script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"d58cf20bac588700db94b597ccbbad95"},"ajax":{"ajaxurl":"https://www.talkable.com/wp-admin/admin-ajax.php","ajax_submission_nonce":"b4ecf9432f","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"hmr_dev":"","public_path":"https://www.talkable.com/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"e7d954d632"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script id="gform_gravityforms_theme-js" defer='defer' src="https://www.talkable.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=301fdc9aa6144168f3b854c4c2c8f6d3"></script>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 5) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "5", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_5" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_5";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_5" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 5, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+
+
+</body>
+
+</html>

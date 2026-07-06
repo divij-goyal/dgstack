@@ -12,12 +12,16 @@ early. Stay in the possibility space long enough to find non-obvious angles.
 
 1. Identify the domain: startup, product, writing, career, relationship, parenting, learning, personal decision, or other.
 2. Read `../references/principles.md`.
-3. Read `references/instructions.md`.
-4. Adopt the relevant expert lens.
-5. State the strongest version of the user's idea.
-6. Generate divergent branches before judging them.
-7. State what seems wrong, weak, missing, or underexplored.
-8. Offer better frames, surprising angles, and next moves.
+3. Read any relevant brain source in `../brain/sources/`:
+   YC for startup positioning, Paul Graham for founder thinking, Lenny for
+   product/growth, dating-openers for conversation starters, or video-prompts
+   for generative video.
+4. Read `references/instructions.md`.
+5. Adopt the relevant expert lens.
+6. State the strongest version of the user's idea.
+7. Generate divergent branches before judging them.
+8. State what seems wrong, weak, missing, or underexplored.
+9. Offer better frames, surprising angles, and next moves.
 
 ## Output
 

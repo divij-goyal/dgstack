@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AnyList - The best way to create and share a grocery shopping list.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AnyList is the best way to create and share a grocery shopping list. Available now on the App Store and Google Play.">
+<meta name="author" content="">
+<meta name="norton-safeweb-site-verification" content="ta39kur9uiseptnppc8wka6e86i9h4-i3k63q070qjzadh59dy1jg68njrldtnq2mlnbgf6-vqur723grli848tiol9dzane-hdjubk-zdhgj3ufen8-5qk84x754cmg" />
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="/static/img/favicon@2x.png?v=28b21e1532332c9c4a7de995d1267c731f766e53ee2cec7a55b8a86aabf03b7537bbf95b51fca54318225944bb1af392b5ae355a34684d0aeac51e06235f6edd">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/static/website/css/anylist.min.css?v=3fc9df6b59e1e95fd871c218be5bbffebdc530e9e6be1f184b4d5f86da7345f518df366741e46e2b41af4a410379732c448fe13c7e4f37fedb4278f35c8ff5ad">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="/static/website/css/fonts.css?v=90398b38e73fcd57311958793b4a9df344e47d47caf3c48468f42cc071f173726c60081859410aa74107f567fa7c5a7e6673ebca03a53c6d7efd441a91bf62d2">
+<link rel="stylesheet" href="/static/website/css/animate.css?v=6706cea5857871f872a13c3b840d815c05d5575116c6daa5af46a3d13e7bc85f748787540c07e741930a9ad7b9e55fb78c6e7a9873ff15e26ffb6c89244d1fa4">
+<style type="text/css">
+html { background: white !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
+<script defer data-domain="anylist.com" src="https://plausible.io/js/plausible.outbound-links.js"></script>
+<script >window.plausible = window.plausible || function () {(window.plausible.q = window.plausible.q || []).push(arguments)}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.slim.min.js"
+integrity="sha512-jxwTCbLJmXPnV277CvAjAcWAjURzpephk0f0nO2lwsvcoDMqBdy1rh1jEwWWTabX1+Grdmj9GFAgtN22zrV0KQ=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<meta name="apple-itunes-app" content="app-id=522167641, affiliate-data=at=1000lmUx">
+
+
+</head>
+<body>
+<div class="header" id="header">
+<nav class="navbar navbar-dark navbar-expand-md py-3">
+<div class="container-fluid">
+
+<!-- intentionally empty -->
+
+<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggle" aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle Navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse flex-grow-1" id="navbar-toggle">
+<ul class="nav nav-pills navbar-nav ms-auto flex-nowrap flex-column flex-md-row align-items-center">
+<li class="nav-item dropdown px-1 px-lg-2">
+<a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Features</a>
+<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
+<li class="dropdown-item position-relative">
+<a href="/lists" class="stretched-link">
+<div class="d-flex align-items-center">
+<img src="/static/website/images/nav/lists.png?v=8991950d20287645756804eaa3b2bed04fba9574bc60504bc17632f31cf43204f2c5b9adc4479ac624a671c6106efd9e70b8a900ab229b265cbca9668c1e86d1" width="24" height="24" alt="list icon" class="me-2"><div style="display: inline-block;">Lists</div>
+</div>
+</a>
+</li>
+<li class="dropdown-item position-relative">
+<a href="/recipes" class="stretched-link">
+<div class="d-flex align-items-center">
+<img src="/static/website/images/nav/recipes.png?v=5fd376f2061b4b9746f22694d8b8fbc73ffb20e4930ec1322010e2f7209148c6119d7d3cdbb471d7b8047ba65986234caee0759e3136dc93229a83e25be0df1c" width="24" height="24" alt="recipe icon" class="me-2"><div style="display: inline-block;">Recipes</div>
+</div>
+</a>
+</li>
+<li class="dropdown-item position-relative">
+<a href="/meal-planning" class="stretched-link">
+<div class="d-flex align-items-center">
+<img src="/static/website/images/nav/meal_plan.png?v=6507b303c697df32e756acf3f4850732e1fcdea4904d2de9272670dae65a2d057a2266f2269baa784f3cf36308d8c5618e863457f5c29a074abc307243b07cbb" width="24" height="24" alt="meal plan icon" class="me-2"><div style="display: inline-block;">Meal Planning</div>
+</div>
+</a>
+</li>
+<li class="dropdown-divider"></li>
+<li class="dropdown-item position-relative">
+<a href="/complete" class="stretched-link">
+<div class="d-flex align-items-center">
+<img src="/static/website/images/nav/wand.png?v=513e1ba13b981166e702ab625d4d675a89aa37a714e6bf7adef3c556d537abf329a318425b34c40cff8a1a442a208392e02b7b22226a690b67376c7c22246ad2" width="24" height="24" alt="premium icon" class="me-2"><div style="display: inline-block;">AnyList Complete (Premium)</div>
+</div>
+</a>
+</li>
+<li class="dropdown-divider"></li>
+<li class="dropdown-item position-relative">
+<a href="/features" class="stretched-link">
+<div class="d-flex align-items-center">
+<img src="/static/website/images/nav/table.png?v=f210b5d3bb9aba2815564277abe2d29588d73848a1953a6403ef7062fc5763495f3d0d4e0baf0c3c5616c576ccd3790d2dd8671c3d758dd3b67d4ea0ad9c97bf" width="22" height="22" alt="table icon" class="me-2"><div style="display: inline-block;">Compare Features &amp; Pricing</div>
+</div>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown px-1 px-lg-2">
+<a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
+<li class="dropdown-item position-relative">
+<a href="/about" class="stretched-link">
+<div class="d-flex align-items-center">
+<i class="bi bi-info-circle me-2"></i><div style="display: inline-block;">About Us</div>
+</div>
+</a>
+</li>
+<li class="dropdown-item position-relative">
+<a href="/press" class="stretched-link">
+<div class="d-flex align-items-center">
+<i class="bi bi-newspaper me-2"></i><div style="display: inline-block;">Press</div>
+</div>
+</a>
+</li>
+<li class="dropdown-item position-relative">
+<a href="/jobs" class="stretched-link">
+<div class="d-flex align-items-center">
+<i class="bi bi-person-badge me-2"></i><div style="display: inline-block;">Jobs</div>
+</div>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item px-1 px-lg-2"><a class="nav-link" href="https://blog.anylist.com/">Blog</a></li>
+<li class="nav-item px-1 px-lg-2"><a class="nav-link" href="https://help.anylist.com">Support</a></li>
+<li class="nav-item px-1 px-lg-2"><a class="nav-link" href="/contact">Contact</a></li>
+<li class="nav-item px-1 px-lg-2"><a class="nav-link" href="/apps">Download Apps</a></li>
+
+<li class="nav-item px-1 px-lg-2"><a class="signin nav-link" href="/account">Sign In</a></li>
+
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+<div>
+<div class="container jumbotron pt-3">
+<div class="hero-info">
+<img src="/static/website/images/hero_logo.png?v=47020532da8721e9122e358ee3d24108588fe3a770852c0830b51e0ef412dcda57d6914ef26dda3469133fea1d29fa5460cd92e592d4b143b265b684e3425681" width="800px" height="auto">
+<h2 style="padding-bottom: 15px;">One app for stress-free shopping, cooking, and meal planning.</h2>
+<a href="https://geo.itunes.apple.com/us/app/anylist-grocery-shopping-list/id522167641?mt=8&amp;at=1000lmUx">
+<img src="/static/website/images/hero_download.png?v=89eb2f408dcbf5275ad2d1030e01c14ad1d38879b0afec438049c6e69d4034dd607a4dfa87f0502d39e31ac97c0b0f1a96b151d259b83ea2674d1c233f5a25e5" width="200px" height="auto">
+</a>
+<a href="https://play.google.com/store/apps/details?id=com.purplecover.anylist">
+<img src="/static/website/images/google-play-badge.png?v=736dd01f4f0da79692b936d988507dcc5cfc3f4210714500594be4f9debd565e0228d856938965cf8aa5a56aceca12dd0423da98b717ea68f7eeb36007e5331c" width="231px" height="auto">
+</a>
+</div>
+<div class="hero-iphone">
+<img class="wow fadeInUp" src="/static/website/images/hero_iphone.png?v=0cd201672f7e74e67d58bf987373e15b3241f673a8f06b6e0a62ad97d4e2d7ef45bca18d13f6e8fcb2ffeca1ed779d915f41453fb2c64dcd14d1c149781fb6e8" width="600px" height="auto">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+
+</div>
+
+<section class="lists" id="lists">
+<div class="top-separator">
+<a href="#lists"><div class="arrow"></div></a>
+<svg width="192" height="61" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve"><path fill="#FFFFFF" d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"></path></svg>
+</div>
+<div class="container ">
+<h1 class="mt-4">Create and Share Lists</h1>
+<div class="flexbox">
+<div class="lists-iphone right top">
+<img class="wow fadeIn" src="/static/website/images/devices/lists_iphone.png?v=bf0bb0524a5116fd1d32913e483c1923fb397ac8fe63f7af7ce001993edce2bb1dda87bd635c11f772b4b94b3e577c5c91d0f2ebe54be2f58f168dad99b59de9" width="900px" height="auto">
+</div>
+<div class="info left bottom">
+<table class="table item wow fadeIn">
+<tr>
+<td rowspan="2"><img src="/static/website/images/lists_icons_addcross.png?v=c9a6116052f27aa93eccbf72f5d86804acf3eab7a161c46851a93c6f88b9fd9bfce940d2cff3f6cae18d182bd8d4c1c1df470ba25fd3995eae9c930acc520357" width="30px" height="30px"></td>
+<td><h3>Quickly Create Organized Lists</h3></td>
+</tr>
+<tr>
+<td><p>AnyList suggests common items as you type, and automatically groups items by category to help save time at the store.</p></td>
+</tr>
+</table>
+<table class="table item wow fadeIn">
+<tr>
+<td rowspan="2"><img src="/static/website/images/lists_icons_multiple.png?v=b7ad58f69660e950c3d87c05829d2dd5413b4ec679ce589878aa7785c545c898cbeb0a4bccd307ab7c3b3a64a97def3363c80beb3afe17c31cc0f40009cd4f81" width="30px" height="30px"></td>
+<td><h3>Easily Share Lists</h3></td>
+</tr>
+<tr>
+<td><p>Stay in sync with family and friends by sharing a list with them. Any changes made to a shared list will show up instantly to everyone sharing the list.</p></td>
+</tr>
+</table>
+<table class="table item wow fadeIn">
+<tr>
+<td rowspan="2"><img src="/static/website/images/lists_icons_voice.png?v=0ae1a4fcb43ff723ac3110466b67edf0d03b3022695384ab28660dcde9592b6ab4af06fd2c6fcff8e92286c367064424fb245a1c36bc7e9873ce58bd95b7a4cc" width="30px" height="30px"></td>
+<td><h3>Add Items With Siri</h3></td>
+</tr>
+<tr>
+<td><p>Use your voice to add items to AnyList via Siri, so you never forget to buy something you need.</p></td>
+</tr>
+</table>
+<a href="/lists">
+<div class="al-button" style="margin-top:0px;margin-bottom:20px;">
+Learn More About Lists
+</div>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="recipes">
+<div class="container ">
+<h1 id="recipes">Collect and Organize Recipes</h1>
+<div class="flexbox">
+<div class="recipes-ipad left top me-md-3">
+<img class="wow fadeIn" src="/static/website/images/devices/recipes_ipad.png?v=cb139845748ace9877ed2bcff34b5d88b8b460be652f4faf81124dbc49bd953a4fa5407931a1dbe0ca8d0c01658af4c7ad915efebf3f7fb1ce0ff38eec85e320" width="100%" height="auto">
+</div>
+<div class="info right bottom">
+<table class="table item wow fadeIn">
+<tr>
+<td rowspan="2" style="background-color: transparent !important;"><img src="/static/website/images/recipes_icons_yours.png?v=064ab1518518346e014a947e71f02306889287ee5d6da095eba03ae2bd7f1cd8ba9b0b4465b4c01614c984d491eff39d43fc3ca9def0a0094e183a57dff23133" width="30px" height="30px"></td>
+<td style="background-color: transparent !important;"><h3 style="color:white;">Organize Your Recipes</h3></td>
+</tr>
+<tr>
+<td style="background-color: transparent !important;"><p>AnyList helps you organize your personal recipes and allows you to easily add recipes from other sources, like email messages and popular websites and blogs.</p></td>
+</tr>
+</table>
+<table class="table item wow fadeIn">
+<tr>
+<td rowspan="2" style="background-color: transparent !important;"><img src="/static/website/images/recipes_icons_lists.png?v=dbf712b22ffd529ab8ab3682aab20f2ab9ede4fe315737b074d04b7ea56b88c733c181f04b5283255faa41b7b404fca07afd485130c83cab7b7689207b337fbd" width="30px" height="30px"></td>
+<td style="background-color: transparent !important;"><h3 style="color:white;">Plan Your Shopping</h3></td>
+</tr>
+<tr>
+<td style="background-color: transparent !important;"><p>Simply tap on ingredients to add them to your shopping list, or plan for an entire week or month with our meal planning calendar.</p></td>
+</tr>
+</table>
+<a href="/recipes">
+<div class="al-button white" style="margin-top:0px;margin-bottom:20px;">
+Learn More About Recipes
+</div>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="premium ss-style-bigtriangle">
+<div class="container">
+<h1 id="premium">Unlock the Full Power of AnyList</h1>
+<div class="flexbox">
+<div class="item wow fadeIn">
+<img src="/static/website/images/webapp@2x.png?v=91ff4a4768503053a510d4de42958e413e36d85cfd098fe5f41df0f0cb4661cf9c7d73749c3f1106e04e676e3e253855f1393d60f281cd54251b8c389298e1c9" width="200px" height="150px" class="bordered-image">
+<h3>AnyList for Mac &amp; PC</h3>
+<p>Use our Mac and web apps to access AnyList from your Mac or PC. Changes are instantly synced with your iPhone and iPad.</p>
+</div>
+<div class="item wow fadeIn">
+<img src="/static/website/images/recipe_import@2x.png?v=a9e6944990db2994057d0927dcb2663f769a74cb99fcd4db36115b8777c32afafa771d11d92bb27e54309b2775cd446b876aa82ffcc9ec6abedee67561203e88" width="200px" height="150px" class="bordered-image">
+<h3>Recipe Web Import</h3>
+<p>Save recipes from popular websites and blogs directly into AnyList from your web browser on iOS, Mac, or PC.</p>
+</div>
+<div class="item wow fadeIn">
+<img src="/static/website/images/meal_calendar@2x.png?v=881e6706e8befd3fd033c4d3c91793da1390b7dbcb3b08112db25adf032f2a8d19c630130c87fa8182b8f2c3901dda0949fabb0edf887c6208046496fb8ad932" width="200px" height="150px" class="bordered-image">
+<h3>Meal Planning</h3>
+<p>Plan your meals for the coming weeks on a calendar, then easily add ingredients for upcoming recipes to your shopping list.</p>
+</div>
+<div class="item wow fadeIn">
+<img src="/static/website/images/item_photos@2x.png?v=3d3b5f6ec17e452f3feb91c6f63295be529f608ae74a482d18df19982e8fc6d89f496b22dd485f7cd9c6b2c719f5610a49b7bd864a9bfe8486bdcfaaa9c06f0c" width="200px" height="150px" class="bordered-image">
+<h3>Item Photos</h3>
+<p>Add photos to list items to keep everyone on the same page and make sure the right item is purchased.</p>
+</div>
+<div class="item wow fadeIn">
+<img src="/static/website/images/themes@2x.png?v=0ad23d070e1de9c74d2128a26251952593dce60dbc02e2845f93ff735628b58bab9e3039ca105b8c69643da443b8136a85e6fd0916679c0c19e10fcda78c2919" width="200px" height="150px" class="bordered-image">
+<h3>Themes</h3>
+<p>Show your style by customizing the look of your lists with multiple fonts, colors, and textures.</p>
+</div>
+<div class="item wow fadeIn">
+<img src="/static/website/images/folders@2x.png?v=883fdc8aad95c25a973e0d4909ae87fb2c85b8fd6c32ad10d8ddcc35c0748fe66f0ef7f19288335c171018d286c86be206786f6a736715e2d4e538bed6ed132b" width="200px" height="150px" class="bordered-image">
+<h3>List Folders</h3>
+<p>Stay organized by creating folders to group related lists.</p>
+</div>
+</div>
+<a href="/complete">
+<div class="al-button" style="margin-top:0px;margin-bottom:0px;">
+Learn More About AnyList Complete
+</div>
+</a>
+</div>
+</section>
+<section class="testimonial" id="carousel">
+<div class="container">
+<div class="row">
+<div class="col-lg-10 offset-lg-1">
+<div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+<div class="carousel slide" id="fade-quote-carousel" data-bs-ride="carousel" data-bs-interval="3000">
+<!-- Carousel indicators -->
+<ol class="carousel-indicators">
+<li data-bs-target="#fade-quote-carousel" data-bs-slide-to="0" class="active"></li>
+<li data-bs-target="#fade-quote-carousel" data-bs-slide-to="1"></li>
+<li data-bs-target="#fade-quote-carousel" data-bs-slide-to="2"></li>
+</ol>
+<!-- Carousel items -->
+<div class="carousel-inner">
+<div class="active carousel-item">
+<blockquote>
+<p>AnyList makes shared grocery lists simple and intuitive.</p>
+</blockquote>
+<div class="profile"><img src="/static/website/images/testimonials-lifehacker.png?v=841eacbc8b2bbd4243a9003f09269dd7f20b08e235fda7f852eff3368f2577bc65d4390e8261ffba378149b9ebc94ff4d29e8891f65d8db2a4c8462210b9bf7e" width="auto" height="40px"></div>
+</div>
+<div class="carousel-item">
+<blockquote>
+<p>AnyList sets the standard for grocery shopping list apps.</p>
+</blockquote>
+<div class="profile"><img src="/static/website/images/testimonials-appstorm.png?v=0b0ddb70aef1d5e8ef472f2eb9a86db32594c14089a721d93c74e45f3e929d88a97dbdf15c5020609ab1e5567945a05c19f0d250705e76493c8cf252a9d8d5d9" width="auto" height="40px"></div>
+</div>
+<div class="carousel-item">
+<blockquote>
+<p>I don’t recommend going to the grocery store without it.</p>
+</blockquote>
+<div class="profile"><img src="/static/website/images/testimonials-tip.png?v=07948235260cff1e82aba2bd23b4c1f5e7329cea249bf54b93ee8fda07fa4765ff8933e5a80ab235245e29824c4fecf4d4ec74c0b5945bc8f8cf616ebae61ff3" width="auto" height="40px"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="blue-bg">
+<svg id="bigTriangleColor" style="fill: #FFFFFF; stroke: #FFFFFF;" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+<path d="M0 0 L50 100 L100 0 Z" />
+</svg>
+<img class="appicon" src="/static/website/images/footer_appicon.png?v=9c0d9e57d1b631380f81a97b10db6193db86c0f08dc8ac1734671322caba36a1319a6f9729aa7f1a18cadbb69cfc255fe88727835a3adc5fc3cfa80c6d77c80a" width="180px" height="180px">
+<div class="container">
+<h4 id="anylist-everywhere"><img class="appicon" src="/static/website/images/footer_logo.png?v=543c464457f02c5f91b40b2c2abcabc5d9343b9ca6221560b2aec6e861b8433cd597032c6d818ab4a76c927e5dad5ccd6ba1e6b1eb63193ab39d56a91fb96f40" width="150px" height="auto"> Everywhere</h4>
+</div>
+<div class="devices desktop">
+<img class="wow FadeIn" src="/static/website/images/footer_devices.png?v=56ae382dfa330b11d8966b0fb41b80501fd5f1651a3ae6370a82c45380a9245b33f7516e88aa5633cdc0a47ed16daea29822ec40ad6b7e67adae1ff8172da4b2" width="100%" height="auto">
+</div>
+<div class="mobile" style="margin-bottom: 30px">
+<img class="wow FadeIn" src="/static/website/images/footer_devices-mobile.png?v=74d09fe71c2fcfc8b4f1569d4d1906d5542baf0e048afc42dfa99950ed35f01c76dcee185470bdf1b3e17afbe598c590f6f0f08d6b06e986233b45397c15c7fd" width="80%" height="auto">
+</div>
+<a href="https://geo.itunes.apple.com/us/app/anylist-grocery-shopping-list/id522167641?mt=8&amp;at=1000lmUx">
+<img src="/static/website/images/hero_download.png?v=89eb2f408dcbf5275ad2d1030e01c14ad1d38879b0afec438049c6e69d4034dd607a4dfa87f0502d39e31ac97c0b0f1a96b151d259b83ea2674d1c233f5a25e5" width="200px" height="auto">
+</a>
+<a href="https://play.google.com/store/apps/details?id=com.purplecover.anylist">
+<img src="/static/website/images/google-play-badge.png?v=736dd01f4f0da79692b936d988507dcc5cfc3f4210714500594be4f9debd565e0228d856938965cf8aa5a56aceca12dd0423da98b717ea68f7eeb36007e5331c" width="231px" height="auto">
+</a>
+</section>
+
+
+<section class="footer" class="id">
+<div class="container">
+<ul class="nav nav-pills justify-content-center flex-column flex-sm-row">
+<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="https://blog.anylist.com/">Blog</a></li>
+<li class="nav-item"><a class="nav-link" href="https://help.anylist.com/">Support</a></li>
+<li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+</ul>
+<h5 class="copyright">&copy;2026 Purple Cover, Inc.</h5>
+</div>
+</section>
+
+<!-- Bootstrap core JavaScript -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/static/website/js/ie10-viewport-bug-workaround.js?v=bbbdc0b6a07b79af6c37032d9f5827550dfca4ddcd06145bf1c177bcc22ea33c1590ba4823da295af1b9c5b36934871ef462ba9cf9ed0ce4fbb0f679a0434206"></script>
+<script type="text/javascript" >
+$(function() {
+$('a[href*=\\#]:not([href=\\#])').click(function() {
+if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+var target = $(this.hash);
+target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+if (target.length) {
+$('html,body').animate({
+scrollTop: target.offset().top
+}, 1000);
+return false;
+}
+}
+});
+});
+</script>
+<script type="text/javascript" >
+$(function() {
+$('.sign_out_button').click(function() {
+var form = document.createElement("form");
+form.setAttribute("method", "post");
+form.setAttribute("action", "/auth/logout");
+params = {'_xsrf' : '2|e00a3caa|77c75e181a57d53db62fc0c8bf73cb03|1783360701' };
+for(var key in params) {
+if(params.hasOwnProperty(key)) {
+var hiddenField = document.createElement("input");
+hiddenField.setAttribute("type", "hidden");
+hiddenField.setAttribute("name", key);
+hiddenField.setAttribute("value", params[key]);
+form.appendChild(hiddenField);
+}
+}
+document.body.appendChild(form);
+form.submit();
+return false;
+});
+});
+</script>
+<script src="/static/website/js/wow.min.js?v=11a93fdbd393a5bdfa2cba36af8ec8a55ccf04b5e700c3c0572a5b499899e1091ff29ffb4bf5d11b9c69ece2963cf61f253ea67ad23e20e4644791bc17dd34fa"></script>
+<script >
+var wow = new WOW(
+{
+mobile: false
+}
+);
+wow.init();
+</script>
+
+
+</body>
+</html>

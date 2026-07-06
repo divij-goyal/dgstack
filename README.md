@@ -16,6 +16,7 @@ an idea until it becomes memorable.
 DG Stack helps by packaging focused skills that:
 
 - Start from the user's real goal, audience, and context
+- Consult a shared reference brain when source-backed taste is useful
 - Apply opinionated creative principles before writing
 - Avoid corporate filler and obvious advice
 - Produce multiple distinct directions, not tiny variations
@@ -27,6 +28,7 @@ DG Stack helps by packaging focused skills that:
 | --- | --- |
 | `tagline-generator` | Generate, critique, and rank startup taglines, headlines, one-liners, slogans, and positioning lines. Useful when you need to explain a product clearly and memorably. |
 | `blog-writer` | Plan, draft, rewrite, or improve blog posts, essays, explainers, founder notes, and thought pieces. Useful when you need the right structure, audience, and style model before writing. |
+| `script-writer` | Write, rewrite, and brainstorm scripts for short videos, YouTube, ads, film scenes, web series, monologues, explainers, and dialogue-heavy creative work. Useful when you need hooks, beats, conflict, visual moments, and character-specific dialogue. |
 | `brainstorming` | Think through startup ideas, product ideas, creative strategy, personal decisions, learning plans, and other open-ended problems. Useful when you want a sharp thinking partner instead of a yes-man. |
 | `dgstack` | Route a request to the right DG Stack skill and explain what the pack can do. |
 | `dgstack-upgrade` | Update an installed DG Stack copy from GitHub and rerun setup. |
@@ -82,13 +84,34 @@ dgstack/
 ├── references/principles.md
 ├── tagline-generator/
 ├── blog-writer/
+├── script-writer/
 ├── brainstorming/
 ├── dgstack-upgrade/
 └── setup
 ```
 
 Each sub-skill keeps its detailed instructions in `references/instructions.md`.
-Shared taste rules live in `references/principles.md`.
+Shared taste rules live in `references/principles.md`. Source-backed examples,
+raw artifacts, and distilled pattern notes live in `brain/`.
+
+## Brain
+
+DG Stack includes a browsable reference brain for source-backed creative work:
+
+- YC startup records for taglines, one-liners, positioning, and landing-page references
+- Paul Graham essays for founder essay structure and plain contrarian reasoning
+- Lenny's public AI-friendly starter dataset for product/growth/operator writing
+- Dating-app conversation starter patterns from Reddit source review
+- AI video prompt templates and source links
+
+Refresh the corpus:
+
+```bash
+python3 tools/ingest_brain.py --yc-homepage-limit 100
+```
+
+Use `--yc-homepage-limit -1` only when you intentionally want to attempt every
+active YC startup homepage; it is slow and can add many large HTML files.
 
 ## Recommended GitHub Description
 

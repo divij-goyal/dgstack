@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Free Screen Sharing and Online Meeting Software | Screenleap</title>
+    <meta name="robots" content="index, follow"/>
+    <meta name="description" content="Free screen sharing using Screenleap. The fast, simple, and free way to share your screen instantly for online meetings, sales demos, and collaboration."/>
+    <meta property="og:site_name" content="Screenleap"/>
+    <meta property="og:image" content="https://www.screenleap.com/img/facebook_thumbnail.png"/>
+    <link rel="stylesheet" href="https://d2e4kn0wu3avrd.cloudfront.net/css/c4774b8f13b889867a946fdf851d0fc4/style.css" type="text/css" media="screen"><link rel="stylesheet" href="https://d2e4kn0wu3avrd.cloudfront.net/css/fb099198ad5cc48b6bb0d22c0d1e6b6c/print.css" type="text/css" media="print">    <link rel="shortcut icon" type="image/png" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json" />
+        <meta property="og:title" content="Free Screen Sharing | Screenleap"/>
+<meta property="og:description" content="Free screen sharing using Screenleap. The fast, simple, and free way to share your screen instantly for online meetings, sales demos, and collaboration."/>
+<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/hpcipbhehomfgjbgnajdhiahhdeeffbg">
+</head>
+<body id="home" class="marketing ">
+<script>
+        try {
+        window.onerror = function(){return true};
+    } catch (e){log(e)}
+        function addOnload(func) {
+        if (typeof func != 'function')
+            return;
+        if (typeof window.onload == 'undefined' || typeof window.onload != 'function')
+            window.onload = func;
+        else {
+            var oldOnload = window.onload;
+            window.onload = function(){
+                try{
+                    oldOnload();
+                } catch(e) {
+                    logException(e);
+                }
+                func();
+            }
+        }
+    }
+</script>
+<div id="topBar" class="screenleap-hide-when-sharing">
+    <div id="topBarBannerTop"></div>
+    <div class="w960px">
+        <div class="margin">
+            <div class="float-right">
+                <ul>
+                                        <li class="hide-on-handheld"><form action="https://www.screenleap.com/viewer" method="post" id="viewForm" onsubmit="return viewScreen()"><input name="screenShareCode" type="text" id="screenShareCode" value="" placeholder="Enter share code" autocomplete="off" onkeyup="screenleapShareCodeFieldKeyUp && screenleapShareCodeFieldKeyUp(event, this)" onfocus="return hideScreenCodePlaceholder(this)" onblur="return showScreenCodePlaceholder(this)"/></form></li>
+                    <li class="hide-on-handheld nav-separator"><button class="flat-button green primary-medium" onclick="$('#viewForm').submit();return false" style="padding:6px 12px 5px;height:33px;font-weight:bold;border-radius:6px">Join meeting</button></li>
+                                                            <li class="hide-on-handheld nav-separator"><a href="/pricing" id="topBarSignupLink">Pricing &amp; sign up</a></li>
+                    <li class="hide-on-handheld nav-separator"><a href="/contact-sales">Contact sales</a></li>
+                    <li style="padding-bottom:1px"><a id="signInLink" href="/login">Sign in</a></li>
+                                    </ul>
+            </div>
+            <div id="screenleapLogo">
+                <a href="/" class="screenleap-logo">Screenleap</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="content" class="screenleap-hide-when-sharing">
+    <div class="w960px">
+        <div class="content">
+            <div id="heroDiv" class="hide-on-handheld">
+    <div id="hero">Share your screen instantly to any device with a browser.</div>
+    <div id="headlineArrow"></div><button id="shareButton" class="sign-up-button" onclick="return checkAndStartSharing('https://www.screenleap.com', false)">Share your screen now</button>
+</div>
+<!--
+<div id="heroDetails" class="hide-on-handheld">
+    No downloads, installs,<br>
+    or sign-ups needed<br>
+    to view your screen!
+</div>
+-->
+
+        </div>
+    </div>
+    <div id="topBarBannerBottom"></div>
+</div>
+<div id="feature" class="hide-on-handheld screenleap-hide-when-sharing">
+    <div class="w960px">
+        <div class="feature">
+            <span id="myScreen" class="hide-on-handheld">screen sharing software</span>
+            <br>
+            <ul class="clearfix no-bullet">
+                <li style="margin-left:10px">
+                    <h3 class="bold">Quick &amp; Easy Sharing</h3>
+                    <p>Share your screen or camera on desktop computers without installing any software. Share your screen on tablets and smartphones using our native apps.</p>
+                </li>
+                <li style="margin-left:20px;margin-right:60px">
+                    <h3 class="bold">Installation-Free Viewing</h3>
+                    <p>View from any device with a browser (including PCs, Macs, tablets, and smartphones) without installing any software.</p>
+                </li>
+                <li style="margin-right:5px">
+                    <h3 class="bold">Customer Support</h3>
+                    <p>Need to support another user? You can easily view someone else's screen by sending them a link and
+                        asking them to grant permission.</p>
+                </li>
+            </ul>
+            <ul class="clearfix no-bullet">
+                <li style="margin-left:10px">
+                    <h3 class="bold">Video Conferencing</h3>
+                    <p>Video conferencing allows you to share your camera with your viewers to connect with them before jumping into sharing your screen.</p>
+                </li>
+                <li style="margin-left:20px;margin-right:60px">
+                    <h3 class="bold">Audio Conferencing</h3>
+                    <p>2-way audio is available for all of your meetings using your computer's microphone and speakers without installing any software.</p>
+                </li>
+                <li style="margin-right:5px">
+                    <h3 class="bold">Easy Website Integration</h3>
+                    <p>Add live interaction (screen sharing, video conferencing, audio conferencing) to your website in minutes using our <a href="/integration">website integration</a> feature.</p>
+                </li>
+            </ul>
+            <ul class="clearfix no-bullet">
+                <li style="margin-left:10px">
+                    <h3 class="bold">Frictionless Collaboration</h3>
+                    <p>Share control of your computer with your viewers and allow them to point out things on your screen without requiring them to install any software.</p>
+                </li>
+                <li style="margin-left:20px;margin-right:60px">
+                    <h3 class="bold">Cloud Recording</h3>
+                    <p>Easily record your meetings and share them with others afterwards. No need to manually upload your recordings.</p>
+                </li>
+                <li style="margin-right:5px">
+                    <h3 class="bold">Viewer Registration</h3>
+                    <p>Capture your viewers' information so you can follow up with them afterwards. Export viewer registration information to your favorite CRM application.</p>
+                </li>
+            </ul>
+            <br>
+            <br>
+            <div id="newFeature">
+                <b>NEW!</b> Easily add live interaction to your website without coding using our new <a href="/integration" class="bold underline">website integration</a> feature &raquo;
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class="horizontal-split-line">As Seen In</div>
+        <br>
+        <table id="asSeenIn">
+            <tr>
+                <td width="188"><a href="/press#techcrunch"><img src="/img/sprite.gif" class="logo-techcrunch" alt="" style="margin-left:10px;margin-right:33px"/></a></td>
+                <td width="188"><a href="/press#mashable"><img src="/img/sprite.gif" class="logo-mashable"  alt="" style="margin-left:50px;margin-right:8px"/></a></td>
+                <td width="188" align="center"><a href="/press#cnet"><img src="/img/sprite.gif" class="logo-cnet" alt=""/></a></td>
+                <td width="188"><a href="/press#lifehacker"><img src="/img/sprite.gif" class="logo-lifehacker" alt="" style="margin-left:58px;margin-right:27px"/></a></td>
+                <td width="188" align="right"><a href="/press#thenextweb"><img src="/img/sprite.gif" class="logo-thenextweb" alt="" style="margin-left:104px;margin-right:10px"/></a></td>
+            </tr>
+        </table>
+        <hr style="margin-top:64px">
+        <br>
+        <div id="reviews">
+    <div class="review" onclick="window.open('https://www.trustpilot.com/reviews/628e2492045d025d3a9e46dc', '_blank')" style="margin-right:24px" rel="nofollow">
+        <div class="stars">
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+        </div>
+        <div class="date">May 25</div>
+        <div class="header">Screenleap is amazing</div>
+        <div class="text">Screenleap is amazing. I have never had an issue with it as many times as I've
+            used i...
+        </div>
+        <div class="name">Kali</div>
+    </div>
+    <div class="review" onclick="window.open('https://www.trustpilot.com/reviews/61e6fbc5e1196e51d767b7c6', '_blank')" style="margin-right:24px" rel="nofollow">
+        <div class="stars">
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+        </div>
+        <div class="date">January 18</div>
+        <div class="header">Easy and Convenient</div>
+        <div class="text">Fantastic and simple way to share information with someone remotely.</div>
+        <div class="name">Lori</div>
+    </div>
+    <div class="review" onclick="window.open('https://www.trustpilot.com/reviews/612eba65cc0087e8ef6a9f2c', '_blank')" rel="nofollow">
+        <div class="stars">
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+            <svg viewBox="0 0 48 48">
+                <path fill="#88ce2a" d="M0 46.330002h46.375586V0H0z"></path>
+                <path d="M 39.5339 19.7114 L 13.2302 38.8006 l 3.8382 -11.7978 L 7.0211 19.7114 h 12.419 l 3.8374 -11.7986 l 3.8374 11.7986 h 12.419 z M 23.2785 31.5101 l 6.2545 -4.5341 l 3.859 11.785 Z Z" fill="#fff"></path>
+            </svg>
+        </div>
+        <div class="date">August 31</div>
+        <div class="header">This the easiest screen sharing I've…</div>
+        <div class="text">This the easiest screen sharing I've ever seen. I'm already recommending this
+            company...
+        </div>
+        <div class="name">Rob</div>
+    </div>
+</div>
+<div id="reviews-footer">Rated <b>4.5</b> / 5 based on <a href="https://www.trustpilot.com/review/www.screenleap.com" rel="nofollow" class="bold underline">445 reviews</a>.</div>
+        <br>
+        <br>
+    </div>
+</div>
+<script>
+    var isNativeAppRunning = false;
+    addOnload(function() {
+        screenleap.checkIsNativeAppRunningByLocalCommunication(function(){
+            isNativeAppRunning = true;
+        });
+    });
+</script>
+<div id="sharingContainer"></div>
+<div id="footer" class="screenleap-hide-when-sharing">
+    <div class="w960px">
+        <div class="margin"><ul class="clearfix">
+    <li><a href="https://www.screenleap.com/screen-share">Products</a></li>
+    <li>|</li>
+    <li><a href="https://www.screenleap.com/integration">Website Integration</a></li>
+    <li>|</li>
+	<li><a href="https://screenleap.ottoclip.com/contents">Guide</a></li>
+	<li>|</li>
+    <li><a href="https://www.screenleap.com/support">Support</a></li>
+    <li>|</li>
+    <li><a href="https://www.screenleap.com/about">Company</a></li>
+    <li>|</li>
+    <li><a href="https://blog.screenleap.com/">Blog</a></li>
+    <li>|</li>
+    <li><a href="https://www.screenleap.com/terms">Terms</a></li>
+    <li><a href="https://www.screenleap.com/privacy">Privacy</a></li>
+</ul>
+<div id="copyright">Copyright &copy; 2025 Screenleap, Inc. All rights reserved.</div>
+</div>
+    </div>
+</div>
+<span id="currentPath">/</span>
+<script src="https://d2e4kn0wu3avrd.cloudfront.net/js/c5b58cbfac36b593ba894ae14921835a/jquery.js"></script><script src="https://d2e4kn0wu3avrd.cloudfront.net/js/b3e7e642c032a4158789501750ccfd97/backbone-min.js"></script><script src="https://d2e4kn0wu3avrd.cloudfront.net/js/54c070b85eb28c872dbbe3efbd5410aa/tools.js"></script><script src="https://d2e4kn0wu3avrd.cloudfront.net/js/cb2d1827afbed161f5bfea7cddce639b/dev.js"></script><script>
+            addOnload(function(){
+            window.onerror = reportJavaScriptError;
+            if ($('#signOut').is(':visible')) {
+                loadScript('//accounts.google.com/gsi/client');
+            }
+        });
+            addOnload(function() {
+		    });
+    </script>
+<div id="mBar" class="m-bar"><div class="clearfix"><div class="bar-con"><div class="float-right"><a href="#" onclick="hideUserMessage();return false" class="button" id="mBarOk">OK</a></div><div id="mBarMsg"></div></div></div></div>
+<div id="wBar" class="w-bar"><div class="clearfix"><div class="bar-con"><div class="float-right"><a href="#" onclick="hideWarningMessage();return false" class="button">OK</a></div><div id="wBarMsg"></div></div></div></div>
+<div id="eBar" class="e-bar"><div class="clearfix"><div class="bar-con"><div class="float-right"><a href="#" onclick="hideErrorMessage();return false" class="button" id="eBarOk">OK</a></div><div id="eBarMsg"></div></div></div></div>
+<div id="progressBar"><span id="progressBarText"></span>...<img src="https://d2e4kn0wu3avrd.cloudfront.net/img/cf0b4e085e68a6db3b19b90be42e18e8/indicator.gif" class="indicator" alt=""/></div>
+<script src="https://d2e4kn0wu3avrd.cloudfront.net/js/79c4d12421a7b1e03c12a77c6abfbeaa/jquery-ui.js"></script><script src="https://d2e4kn0wu3avrd.cloudfront.net/js/f3b52d3ed7832bb8f6dd45a77e2cdca2/main.js"></script><script src="https://d2e4kn0wu3avrd.cloudfront.net/js/20bd34548f4f747b980bdaeaabbdfa9f/app.js"></script><script>
+    var extensionInstalled = false;
+    var shareUsingNative = true;
+        addOnload(function(){
+        removeUrlParamsFromCurrentUrl(["success", "error"])
+        if (isMSIE) {
+            $('#screenShareCode').addClass('gray-dark').val($('#screenShareCode').attr('placeholder'));
+        }
+                
+        if (typeof screenleap != 'undefined') {
+            screenleap.error = function(action, msg, data) {
+                if (action === 'startSharing' && data && data.status === 401) {
+                    showErrorMessage('You need to sign in to share using the Screenleap extension. To do so, please click the Screenleap icon to the right of your browser address bar and then click the \"Sign in\" link. After signing in, please click the share button again.');
+                } else {
+                    log('Encountered error in screenleap.js ' + msg + ' while performing action ' + action);
+                }
+            };
+        }
+    });
+</script>
+<script async src="/js/screenleap.js" data-param="origin=SCREENLEAP&role=presenter&accountType=ANONYMOUS&shareSessionStartingRole=PRESENTER&showSessionLauncher=false&viewerInfoToCapture=NONE&viewerJoinMethod=MANUAL&initialMediaSource=SCREEN&videoMode=FULL&screenSharingMode=SCREEN&audioConferencingMethod=IONRTC_ASK&allowPause=true&enableCollaborationMode=false&allowRectangleMode=false&allowViewerMouse=false&allowRemoteControl=false&allowChat=true&allowPresenterSwap=false"></script>
+<script src="https://d2e4kn0wu3avrd.cloudfront.net/js/e2a74b183dd68e6b20eb5e28e195a52e/screenshares.js"></script></body>
+</html>

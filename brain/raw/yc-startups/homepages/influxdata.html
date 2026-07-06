@@ -1,0 +1,3234 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="fjoltk69uVVxL4NNw0ZHxQY-wcSPzpkWM_xBaFw8k_Cl0xrf6adgTwRs9s84GlUnJRhSKnKcOMZ4QTSGJphnsg" />
+  
+
+  
+  
+  
+  <link rel="profile" href="https://gmpg.org/xfn/11">
+  <title>InfluxData</title>
+    <link rel="alternate" type="application/rss+xml" title="InfluxData &raquo; Feed" href="https://www.influxdata.com/feed.xml" />
+  <link rel="alternate" type="application/feed+json" title="InfluxData &raquo; JSON Feed" href="https://www.influxdata.com/feed.json/" />
+  <link rel="icon" href="/images/cubo.ico" />
+  <link rel="icon" href="/images/logos/cubo.svg" sizes="32x32" />
+  <link rel="icon" href="/images/logos/cubo.svg" sizes="192x192" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/cubo.png" />
+  <link rel="apple-touch-icon" href="/images/logos/cubo.svg" />
+  <meta name="msapplication-TileImage" content="/images/logos/cubo.svg" />
+
+  <link rel="stylesheet" href="https://use.typekit.net/cvf5owk.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/panda-syntax-light.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.influxdata.com/#organization","name":"InfluxData","url":"https://www.influxdata.com/","sameAs":["https://www.facebook.com/influxdb/","https://www.linkedin.com/company-beta/5159145/","https://www.youtube.com/channel/UCnrgOD6G0y0_rcubQuICpTQ/videos","https://twitter.com/influxdb"],"logo":{"@type":"ImageObject","@id":"https://www.influxdata.com/#logo","inLanguage":"en-US","url":"https://www.influxdata.com/assets/uploads/influx-regular-black-e0bfa6f6.jpg","contentUrl":"https://www.influxdata.com/assets/uploads/influx-regular-black-e0bfa6f6.jpg","width":2999,"height":589,"caption":"InfluxData"},"image":{"@id":"https://www.influxdata.com/#logo"}},{"@type":"WebSite","@id":"https://www.influxdata.com/#website","url":"https://www.influxdata.com/","name":"InfluxData","description":"The Platform for Time-Series Data","publisher":{"@id":"https://www.influxdata.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.influxdata.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.influxdata.com/#webpage","url":"https://www.influxdata.com/","name":"","isPartOf":{"@id":"https://www.influxdata.com/#website"},"about":{"@id":"https://www.influxdata.com/#organization"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://www.influxdata.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.influxdata.com/"}]}]}</script>
+
+  <meta name="google-site-verification" content="IILdgel0MOXfEPT662BzW9obDV7NSLHwxjgSB_bF5AI" />
+  <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+  <link rel='dns-prefetch' href='//s.w.org' />
+  
+  <meta name="msvalidate.01" content="295AF6D95196EBB182314FFFBF3D673F" />
+      
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WXRH9C');</script>
+  <!-- End Google Tag Manager -->
+
+  <script type="text/javascript" src="https://d2i34c80a0ftze.cloudfront.net/fullcircle.js?cid=e099af1d-0422-4368-b505-7d796dc9a39e&domain=influxdata.com"></script>
+
+
+  <!-- Start VWO Async SmartCode -->
+  <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+  <script type='text/javascript' id='vwoCode'>
+  window._vwo_code ||
+  (function () {
+  var w=window,
+  d=document;
+  var account_id=634566,
+  version=2.2,
+  settings_tolerance=2000,
+  hide_element='body',
+  hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important';
+  /* DO NOT EDIT BELOW THIS LINE */
+  if(f=!1,v=d.querySelector('#vwoCode'),cc={},-1<d.URL.indexOf('__vwo_disable__')||w._vwo_code)return;try{var e=JSON.parse(localStorage.getItem('_vwo_'+account_id+'_config'));cc=e&&'object'==typeof e?e:{}}catch(e){}function r(t){try{return decodeURIComponent(t)}catch(e){return t}}var s=function(){var e={combination:[],combinationChoose:[],split:[],exclude:[],uuid:null,consent:null,optOut:null},t=d.cookie||'';if(!t)return e;for(var n,i,o=/(?:^|;\s*)(?:(_vis_opt_exp_(\d+)_combi=([^;]*))|(_vis_opt_exp_(\d+)_combi_choose=([^;]*))|(_vis_opt_exp_(\d+)_split=([^:;]*))|(_vis_opt_exp_(\d+)_exclude=[^;]*)|(_vis_opt_out=([^;]*))|(_vwo_global_opt_out=[^;]*)|(_vwo_uuid=([^;]*))|(_vwo_consent=([^;]*)))/g;null!==(n=o.exec(t));)try{n[1]?e.combination.push({id:n[2],value:r(n[3])}):n[4]?e.combinationChoose.push({id:n[5],value:r(n[6])}):n[7]?e.split.push({id:n[8],value:r(n[9])}):n[10]?e.exclude.push({id:n[11]}):n[12]?e.optOut=r(n[13]):n[14]?e.optOut=!0:n[15]?e.uuid=r(n[16]):n[17]&&(i=r(n[18]),e.consent=i&&3<=i.length?i.substring(0,3):null)}catch(e){}return e}();function i(){var e=function(){if(w.VWO&&Array.isArray(w.VWO))for(var e=0;e<w.VWO.length;e++){var t=w.VWO[e];if(Array.isArray(t)&&('setVisitorId'===t[0]||'setSessionId'===t[0]))return!0}return!1}(),t='a='+account_id+'&u='+encodeURIComponent(w._vis_opt_url||d.URL)+'&vn='+version+'&ph=1'+('undefined'!=typeof platform?'&p='+platform:'')+'&st='+w.performance.now();e||((n=function(){var e,t=[],n={},i=w.VWO&&w.VWO.appliedCampaigns||{};for(e in i){var o=i[e]&&i[e].v;o&&(t.push(e+'-'+o+'-1'),n[e]=!0)}if(s&&s.combination)for(var r=0;r<s.combination.length;r++){var a=s.combination[r];n[a.id]||t.push(a.id+'-'+a.value)}return t.join('|')}())&&(t+='&c='+n),(n=function(){var e=[],t={};if(s&&s.combinationChoose)for(var n=0;n<s.combinationChoose.length;n++){var i=s.combinationChoose[n];e.push(i.id+'-'+i.value),t[i.id]=!0}if(s&&s.split)for(var o=0;o<s.split.length;o++)t[(i=s.split[o]).id]||e.push(i.id+'-'+i.value);return e.join('|')}())&&(t+='&cc='+n),(n=function(){var e={},t=[];if(w.VWO&&Array.isArray(w.VWO))for(var n=0;n<w.VWO.length;n++){var i=w.VWO[n];if(Array.isArray(i)&&'setVariation'===i[0]&&i[1]&&Array.isArray(i[1]))for(var o=0;o<i[1].length;o++){var r,a=i[1][o];a&&'object'==typeof a&&(r=a.e,a=a.v,r&&a&&(e[r]=a))}}for(r in e)t.push(r+'-'+e[r]);return t.join('|')}())&&(t+='&sv='+n)),s&&s.optOut&&(t+='&o='+s.optOut);var n=function(){var e=[],t={};if(s&&s.exclude)for(var n=0;n<s.exclude.length;n++){var i=s.exclude[n];t[i.id]||(e.push(i.id),t[i.id]=!0)}return e.join('|')}();return n&&(t+='&e='+n),s&&s.uuid&&(t+='&id='+s.uuid),s&&s.consent&&(t+='&consent='+s.consent),w.name&&-1<w.name.indexOf('_vis_preview')&&(t+='&pM=true'),w.VWO&&w.VWO.ed&&(t+='&ed='+w.VWO.ed),t}code={nonce:v&&v.nonce,library_tolerance:function(){return'undefined'!=typeof library_tolerance?library_tolerance:void 0},settings_tolerance:function(){return cc.sT||settings_tolerance},hide_element_style:function(){return'{'+(cc.hES||hide_element_style)+'}'},hide_element:function(){return performance.getEntriesByName('first-contentful-paint')[0]?'':'string'==typeof cc.hE?cc.hE:hide_element},getVersion:function(){return version},finish:function(e){var t;f||(f=!0,(t=d.getElementById('_vis_opt_path_hides'))&&t.parentNode.removeChild(t),e&&((new Image).src='https://dev.visualwebsiteoptimizer.com/ee.gif?a='+account_id+e))},finished:function(){return f},addScript:function(e){var t=d.createElement('script');t.type='text/javascript',e.src?t.src=e.src:t.text=e.text,v&&t.setAttribute('nonce',v.nonce),d.getElementsByTagName('head')[0].appendChild(t)},load:function(e,t){t=t||{};var n=new XMLHttpRequest;n.open('GET',e,!0),n.withCredentials=!t.dSC,n.responseType=t.responseType||'text',n.onload=function(){if(t.onloadCb)return t.onloadCb(n,e);200===n.status?_vwo_code.addScript({text:n.responseText}):_vwo_code.finish('&e=loading_failure:'+e)},n.onerror=function(){if(t.onerrorCb)return t.onerrorCb(e);_vwo_code.finish('&e=loading_failure:'+e)},n.send()},init:function(){var e,t=this.settings_tolerance();w._vwo_settings_timer=setTimeout(function(){_vwo_code.finish()},t),'body'!==this.hide_element()?(n=d.createElement('style'),e=(t=this.hide_element())?t+this.hide_element_style():'',t=d.getElementsByTagName('head')[0],n.setAttribute('id','_vis_opt_path_hides'),v&&n.setAttribute('nonce',v.nonce),n.setAttribute('type','text/css'),n.styleSheet?n.styleSheet.cssText=e:n.appendChild(d.createTextNode(e)),t.appendChild(n)):(n=d.getElementsByTagName('head')[0],(e=d.createElement('div')).style.cssText='z-index: 2147483647 !important;position: fixed !important;left: 0 !important;top: 0 !important;width: 100% !important;height: 100% !important;background: white !important;',e.setAttribute('id','_vis_opt_path_hides'),e.classList.add('_vis_hide_layer'),n.parentNode.insertBefore(e,n.nextSibling));var n='https://dev.visualwebsiteoptimizer.com/j.php?'+i();-1!==w.location.search.indexOf('_vwo_xhr')?this.addScript({src:n}):this.load(n+'&x=true',{l:1})}};w._vwo_code=code;code.init();})();
+  </script>
+  <!-- End VWO Async SmartCode -->
+
+  <link rel="stylesheet" href="/assets/application-09acef11.css" data-turbo-track="reload" />
+  <script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "application": "/assets/application-6c171b12.js",
+    "@docsearch/js": "/assets/@docsearch--js-18d40a2f.js"
+  }
+}</script>
+<link rel="modulepreload" href="/assets/application-6c171b12.js">
+<link rel="modulepreload" href="/assets/@docsearch--js-18d40a2f.js">
+<script type="module">import "application"</script>
+</head>
+
+<body itemtype='https://schema.org/WebPage' itemscope='itemscope' class=''>
+   
+    <div class="hfeed site" id="page">
+        <a class="skip-link screen-reader-text" href="#main-content">Skip to content</a>
+     
+        <header class="site-header" id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope" itemid="#masthead">
+   <div class="section py-0 px-0">
+    <div class="container py-0">
+        <nav class="navbar nav-primary" role="navigation" aria-label="main navigation">
+            
+            <!-- #Branding top nav for mobile-->
+            <div class="navbar-brand mobile is-hidden-desktop">
+                <a class="navbar-item header-logo mobile-logo" href="/">
+                    <img src="/images/influxdata_full_white.svg" alt="logo">
+                </a>
+
+                <div class="navbar-burger-wrapper">
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+               
+            </div>
+           
+           <!-- #Menu for Desktop-->
+            <div id="navbarMain" class="navbar-menu desktop">
+
+                <div class="navbar-brand desktop is-hidden-touch">
+                    <a class="navbar-item header-logo desktop-logo" href="/">
+                        <img src="/images/influxdata_full_white.svg" alt="logo">
+                    </a>
+                </div>                
+
+                <div class="navbar-start">
+                   
+                    <!-- #Products drop-down-->
+                    <div class="navbar-item has-dropdown is-hoverable is-mega navbar-delux">
+                        <a class="navbar-link ">
+                            Products
+                        </a>
+                        <div class="navbar-dropdown-extender">
+                        </div>
+                        
+                        <div class="navbar-dropdown">
+                            <div class="drop-container br-15 m-auto max-1000">
+                                <div class="drop-left nav-dropdown-navy p-30">
+                                    <div class="with-bottom-line mb-30">
+                                        <a class="nav-link-old m-0" href="/products/influxdb-overview/"><span class="text-14 has-text-weight-bold underline is-grey">INFLUXDB 3 PRODUCTS</p></a>
+                                        
+                                    </div>
+
+                                    <div class="nav-box gap-30">
+                                        
+                                        <div class="col">
+                                            <p class="is-grey text-14 has-text-weight-bold">Self-Managed</p>
+                                            
+                                            <a class="nav-link" href="/products/influxdb3-enterprise/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">InfluxDB 3 Enterprise</span>
+                                                    <span class="menu-tag is-navy">NEW</span>
+                                                </div>
+                                            </a>
+
+                                            <a class="nav-link" href="/products/influxdb/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">InfluxDB 3 Core (OSS)</span>
+                                                    <span class="menu-tag is-navy">NEW</span>
+                                                </div>
+                                            </a>
+
+                                            <div class="pb-40">
+                                            </div>
+
+                                            <p class="is-grey text-14 has-text-weight-bold">Telegraf</p>
+
+                                            <a class="nav-link" href="/products/telegraf-enterprise/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Telegraf Enterprise</span>
+                                                    <span class="menu-tag is-navy">NEW</span>
+                                                </div>
+                                            </a>
+                                            
+                                            <a class="nav-link" href="/time-series-platform/telegraf/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Telegraf (OSS)</span>
+                                                </div>
+                                            </a> 
+                                        </div>
+                                        
+                                        <div class="col">
+                                            <p class="is-grey text-14 has-text-weight-bold">Fully Managed</p>
+
+                                            <a class="nav-link" href="/products/influxdb-cloud/serverless/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">InfluxDB Cloud Serverless</span>
+                                                </div>
+                                            </a>
+
+                                            <a class="nav-link" href="/products/influxdb-cloud/dedicated/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">InfluxDB Cloud Dedicated</span>
+                                                </div>
+                                            </a>  
+
+                                            <a class="nav-link" href="/products/timestream-for-influxdb">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Amazon Timestream for InfluxDB</span>                                                    
+                                                </div>
+                                            </a>                                      
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="drop-right dark-navy p-30">
+                                    <div class="with-bottom-line mb-30">
+                                        <a class="nav-link-old m-0" href="/_resources/"><span class="text-14 has-text-weight-bold underline is-grey">RESOURCES</p></a>                                        
+                                    </div>
+
+                                    <div class="col">
+                                   
+
+                                            <a class="nav-link" href="/products/influxdb-overview/"> 
+                                                <div class="links mb-10">
+                                                    <img class=" " src="//images.ctfassets.net/o7xu9whrs0u9/61UeLH1sMIyeau103xVXYu/1b049b10932eff2b50b23d6acc7f61f1/cubo-icon-nav.png" alt="icon" title="icon">
+                                                    <span class="text-16 underline has-text-white">Platform Overview</span>
+                                                    
+                                                </div>
+                                            </a>  
+                                        
+                                            <a class="nav-link" href="/products/integrations/#tab2">
+                                                <div class="links mb-10">
+                                                    <img class=" " src="//images.ctfassets.net/o7xu9whrs0u9/3OYYKfusfkvrwG7US9EfUc/56b7921ccbddf20c31b1ba31167921bb/libraries-icon.png" alt="icon" title="icon">
+                                                    <span class="text-16 underline has-text-white">Client Libraries</span>
+                                                    
+                                                </div>
+                                            </a> 
+
+                                            <a class="nav-link" href="/products/integrations/">
+                                                <div class="links mb-10">
+                                                    <img class=" " src="//images.ctfassets.net/o7xu9whrs0u9/3Ty3WZpZOL4i3juSMPh8Q6/2d57a119e2fa871081b63a78ce8faafa/explore-icon.png" alt="icon" title="icon">
+                                                    <span class="text-16 underline is-grey">Explore All Integrations</span>
+                                                    
+                                                </div>
+                                            </a> 
+
+                                    </div>
+                                </div>
+
+                            </div> <!-- #drop-container -->  
+                        </div>  <!-- #navbar-dropdown -->  
+                    </div>  <!-- #navbar-item -->      
+                     
+                   
+                    <!-- #Solutions drop-down-->
+                    <div class="navbar-item has-dropdown is-hoverable is-mega navbar-delux">
+                        <a class="navbar-link ">
+                            Use Cases
+                        </a>
+                        <div class="navbar-dropdown-extender">
+                        </div>
+                        
+                        <div class="navbar-dropdown">
+                            <div class="m-auto max-1000">
+                                <div class="drop-container br-15-top ">
+                                    <div class="drop-50 nav-dropdown-navy p-30">
+                                        <div class="with-bottom-line mb-30">
+                                            <a class="nav-link-old text-14 m-0" href="/solutions/"><span class="text-14 has-text-weight-bold underline is-grey">USE CASES</p></a>                                        
+                                        </div>
+
+                                        <div class="nav-box gap-30">                                        
+                                            <div class="col">
+                                                
+                                                <a class="nav-link" href="/solutions/network-monitoring/">
+                                                    <div class="links">
+                                                        <span class="text-16 underline has-text-white">Network & Infrastructure Monitoring</span>                                                    
+                                                    </div>
+                                                </a>
+
+                                                <a class="nav-link" href="/solutions/iot-analytics-and-predictive-maintenance/">
+                                                    <div class="links">
+                                                        <span class="text-16 underline has-text-white">IoT Analytics & Predictive Maintenance</span>                                                   
+                                                    </div>
+                                                </a>
+
+                                                <a class="nav-link" href="/ml-ai-workloads/">
+                                                    <div class="links">
+                                                        <span class="text-16 underline has-text-white">Machine Learning & AI</span>                                                    
+                                                    </div>
+                                                </a>
+
+                                                <a class="nav-link" href="/solutions/by-industries/satellite-telemetry-monitoring/">
+                                                    <div class="links">
+                                                        <span class="text-16 underline has-text-white">Satellite Telemetry Monitoring</span>                                                    
+                                                    </div>
+                                                </a>
+
+                                                <a class="nav-link" href="/solutions/battery-energy-storage-systems/">
+                                                    <div class="links">
+                                                        <span class="text-16 underline has-text-white">Battery Energy Storage Systems </span>                                                    
+                                                    </div>
+                                                </a>
+                                                
+                                                <a class="nav-link" href="/historian-workloads/">
+                                                    <div class="links">
+                                                        <span class="text-16 underline has-text-white">Modern Data Historian</span>
+                                                    </div>
+                                                </a> 
+
+                                                <a class="is-hidden link-icon has-text-white text-18 has-text-weight-bold pt-60" href="/solutions/">
+                                                    <span class="gr-underline">Explore All</span>
+                                                    <span class="icon gradient-text"> 
+                                                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                                    </span>
+                                                </a>
+
+                                            </div> 
+                                        </div>
+                                    </div>
+
+                                    <div class="drop-50 nav-dropdown-navy p-30">
+                                        <div class="with-bottom-line mb-30">
+                                            <a class="nav-link-old text-14 m-0" href="/_resources/"><span class="text-14 has-text-weight-bold underline is-grey">INDUSTRIES</p></a>                                        
+                                        </div>
+
+                                        <div class="col">                                   
+
+                                                <a class="nav-link" href="/solutions/iot-analytics-and-predictive-maintenance/">
+                                                    <div class="links">
+                                                        <span class="text-16 underline has-text-white">Manufacturing & IIoT</span>
+                                                    </div>
+                                                </a>   
+                                            
+                                                <a class="nav-link" href="/solutions/by-industries/aerospace-and-satellites/">
+                                                    <div class="links">
+                                                        <span class="text-16 underline has-text-white">Aerospace</span>
+                                                    </div>
+                                                </a>
+
+                                                <a class="nav-link" href="/solutions/by-industries/energy-and-utilities/">
+                                                    <div class="links">
+                                                        <span class="text-16 underline has-text-white">Energy & Utilities</span>
+                                                    </div>
+                                                </a>
+                                                
+                                                <a class="nav-link" href="/solutions/fintech/">
+                                                    <div class="links">
+                                                        <span class="text-16 underline has-text-white">Financial Services</span>
+                                                    </div>
+                                                </a>
+
+                                                <a class="nav-link" href="/solutions/by-industries/telecommunications/">
+                                                    <div class="links">
+                                                        <span class="text-16 underline has-text-white">Telecommunications</span>
+                                                    </div>
+                                                </a>
+
+                                                <a class="is-hidden link-icon has-text-white text-18 has-text-weight-bold pt-20" href="/solutions/">
+                                                    <span class="gr-underline">Explore All</span>
+                                                    <span class="icon gradient-text"> 
+                                                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                                    </span>
+                                                </a>
+
+                                        </div>
+                                    </div>
+                                </div> <!-- #drop-container --> 
+                                
+                                <div class="solutions-bottom-cta solution-cta-bg px-30 py-10 br-15-bt">                                    
+                                    <div class="links mb-10">
+                                        <img class="img-icon" src="//images.ctfassets.net/o7xu9whrs0u9/39kSruEdVrcPPIJkc2eGFT/fb810e917c9a0e787419ef4bd4b276ae/satellite-icon.svg" alt="icon" title="icon">
+                                        <span class="text-18 has-text-white has-text-weight-bold">LeoLabs Secures Low Earth Orbit with InfluxDB</span>
+                                    </div>                                 
+                                    <a class="button button-is-white" href="/customer/leolabs/"> See How </a>
+
+                                </div>
+                            </div>  
+
+                        </div>  <!-- #navbar-dropdown -->  
+                    </div>  <!-- #navbar-item -->   
+
+
+                    <!-- #Developers drop-down-->
+                    <div class="navbar-item has-dropdown is-hoverable is-mega navbar-delux">
+                        <a class="navbar-link ">
+                            Developers
+                        </a>
+                        <div class="navbar-dropdown-extender">
+                        </div>
+                        
+                        <div class="navbar-dropdown">
+                            <div class="drop-container nav-dropdown-navy  br-15 m-auto max-1000">
+                                <div class="drop-left nav-dropdown-navy p-30">
+
+                                    <div class="nav-box gap-40">
+                                        <div class="col"> 
+                                             
+                                            <div class="with-bottom-line mb-30">
+                                               <p class="text-14 has-text-weight-bold underline is-grey">BUILD</p>                                       
+                                            </div>                                                                                       
+                                            
+
+                                            <a class="nav-link" href="https://docs.influxdata.com">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Documentation</span>                                                 
+                                                </div>
+                                            </a>
+
+                                            <a class="nav-link" href="/downloads/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Downloads Hub</span>
+                                                </div>
+                                            </a>
+
+                                            <a class="nav-link" href="/products/processing-engine-plugins/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Plugin Directory</span>
+                                                </div>
+                                            </a>
+
+                                            <a class="nav-link" href="/developers/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Developer Tools</span>
+                                                </div>
+                                            </a>
+
+                                            <a class="nav-link" href="/products/integrations/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Integrations</span>                                                    
+                                                </div>
+                                            </a>   
+                                            
+                                            <a class="nav-link" href="/community/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Community</span>                                                    
+                                                </div>
+                                            </a>   
+                                                                                        
+                                                                                      
+                                        </div>  <!-- #End of .col-->
+
+                                        <div class="col"> 
+                                            <div class="with-bottom-line mb-30">
+                                                <a class="nav-link-old m-0" href="/products/influxdb-cloud/"><span class="text-14 has-text-weight-bold underline is-grey">LEARN</p></a>                                        
+                                            </div>   
+
+                                             <a class="nav-link" href="/blog/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Blog</span>                                                 
+                                                </div>
+                                            </a>
+
+                                            <a class="nav-link" href="/_resources/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Demos and Trainings</span>
+                                                </div>
+                                            </a>
+
+                                            <a class="nav-link" href="/customers/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Customers</span>
+                                                </div>
+                                            </a>
+
+                                            <a class="nav-link" href="/university/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">InfluxDB University</span>
+                                                </div>
+                                            </a>
+
+                                            <a class="nav-link" href="/partners/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Partners</span>
+                                                </div>
+                                            </a>
+
+                                            <a class="nav-link" href="https://support.influxdata.com/s/">
+                                                <div class="links">
+                                                    <span class="text-16 underline has-text-white">Support</span>
+                                                </div>
+                                            </a>  
+
+      
+ 
+                                                             
+                                        </div>  <!-- #End of .col-->
+                                    </div> <!-- #End of .nav-box-->
+
+                                </div> <!-- #End of .drop-left-->
+
+                                <div class="drop-right dev-nav-gradient-bg dev-border-left p-30">
+                                    <div class="col pt-60 pb-60">
+                                        <p class="has-text-white text-14 m-0 pb-10">LATEST RELEASES</p>  
+                                        <h2 class="text-24 has-text-white has-text-weight-bold pb-40" style="max-width: 200px;">Get the latest InfluxDB 3 updates</h2>    
+                                        <a class="button button-is-white " href="/products/influxdb3/"> See what’s shipped </a>
+                                    </div>
+                                </div>
+
+                            </div> <!-- #drop-container -->  
+                        </div>  <!-- #navbar-dropdown -->  
+                    </div>  <!-- #navbar-item -->     
+                   
+
+                    <div class="navbar-item navbar-delux">
+                        <a class="navbar-link is-arrowless" href="/influxdb-pricing/">
+                            Pricing
+                        </a>                                            
+                    </div> 
+
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item nav-right">
+                    
+                        <a class="navbar-link is-arrowless contact-nav-link" href='/contact-sales/' class="">
+                           Contact Us
+                        </a>                        
+                       
+                        <div class="navbar-link is-arrowless navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                              Sign In
+                            </a>
+                            <div class='navbar-dropdown-extender'></div>
+                                <div class="navbar-dropdown">
+                                    <div class="drop-container-login nav-dropdown-navy br-15">
+
+                                       <a class="navbar-item" href="https://cloud2.influxdata.com/login">
+                                        <div class="links is-relative">
+                                            <span class="text-16 underline has-text-white">Log in to InfluxDB Cloud 2.0 <br/>or Cloud Serverless</span>
+                                            <img class="is-hidden" src="/images/gr-arrow.svg" alt="arrow" title="arrow">
+                                        </div>
+                                       </a> 
+
+                                       <a class="navbar-item" href="https://portal.influxdata.com/users/sign_in">
+                                        <div class="links">
+                                            <span class="text-16 underline has-text-white">Log in to InfluxDB Enterprise 1.x</span>
+                                            <img class="is-hidden" src="/images/gr-arrow.svg" alt="arrow" title="arrow">
+                                        </div>
+                                       </a> 
+
+                                       <a class="navbar-item" href="https://cloud.influxdata.com/">
+                                        <div class="links">
+                                            <span class="text-16 underline has-text-white">Log in to InfluxDB Cloud 1.x</span>
+                                            <img class="is-hidden" src="/images/gr-arrow.svg" alt="arrow" title="arrow">
+                                        </div>
+                                       </a>
+                                    </div>
+                                </div>  <!-- #end navbar-dropdown -->
+                            </div>
+                            <a href='/influxdb-signup/' class="button is-gradient is-normal"> Start Now </a>
+                            <i id='search-init' class="fas fa-search"></i>   
+                        </div>
+                    </div>
+                </div> <!-- #end navbar-end  -->
+
+
+            
+<!------------------------------- #Menu for mobile phone ------------------------------------>
+
+             <div id="navbarMain" class="navbar-menu mobile has-navy-bgr is-hidden-desktop">
+                <div class="navbar-start">
+
+                                      
+                    <!-- #Product menu  -->
+                    <div class="navbar-item has-dropdown-old">
+                        <a class="navbar-link mob-open"> <span>Products</span>  <i class="fa-solid fa-chevron-down"></i> </a>                        
+                        
+                        <div class="mob-dropdown">                            
+
+                            <div class="is-flex is-flex-direction-column pt-40">
+                                <p class="text-14 is-grey m-0 pt-15 py-30 has-text-weight-bold">INFLUXDB 3 PRODUCTS</p>
+                                <p class="text-14 is-grey m-0 pb-10 has-text-weight-bold">Self-Managed</p>
+
+                                <a class="nav-link" href="/products/influxdb3-enterprise/">
+                                    <div class="links">
+                                        <span class="text-16 underline">InfluxDB 3 Enterprise</span>
+                                        <span class="menu-tag is-navy">NEW</span>
+                                    </div>
+                                </a> 
+
+                                <a class="nav-link" href="/products/influxdb/">
+                                    <div class="links">
+                                        <span class="text-16 underline">InfluxDB 3 Core (OSS)</span>
+                                        <span class="menu-tag is-navy">NEW</span>
+                                    </div>
+                                </a> 
+
+                                <p class="text-14 is-grey m-0 pt-30 pb-15 has-text-weight-bold">Fully Managed</p>                                    
+                                
+                                <a class="nav-link" href="/products/influxdb-cloud/serverless/">
+                                    <div class="links">
+                                        <span class="text-16 underline">InfluxDB Cloud Serverless</span>                                            
+                                    </div>
+                                </a> 
+                                <a class="nav-link" href="/products/influxdb-cloud/dedicated/">
+                                    <div class="links">
+                                        <span class="text-16 underline">InfluxDB Cloud Dedicated</span>                                       
+                                    </div>
+                                </a> 
+
+                                <a class="nav-link" href="/products/timestream-for-influxdb">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Amazon Timestream for InfluxDB</span>                                                    
+                                    </div>
+                                </a>  
+
+                                <p class="text-14 is-grey m-0 pt-30 pb-15 has-text-weight-bold">Telegraf</p> 
+                                
+                                <a class="nav-link" href="/products/telegraf-enterprise/">
+                                    <div class="links">
+                                        <span class="text-16 underline">Telegraf Enterprise</span>  
+                                        <span class="menu-tag is-navy">NEW</span>                                          
+                                    </div>
+                                </a> 
+                                <a class="nav-link" href="/time-series-platform/telegraf/">
+                                    <div class="links">
+                                    <span class="text-16 underline">Telegraf (OSS)</span>                                       
+                                    </div>
+                                </a> 
+
+                                <p class="text-14 is-grey m-0 pt-60 pb-20 has-text-weight-bold">RESOURCES</p> 
+
+                                <a class="nav-link" href="/products/influxdb-overview/"> 
+                                    <div class="links mb-10">
+                                        <img class=" " src="//images.ctfassets.net/o7xu9whrs0u9/61UeLH1sMIyeau103xVXYu/1b049b10932eff2b50b23d6acc7f61f1/cubo-icon-nav.png" alt="icon" title="icon">
+                                            <span class="text-16 underline has-text-white">Platform Overview</span>
+                                    </div>
+                                </a>  
+                                        
+                                <a class="nav-link" href="/products/integrations/#tab2">
+                                    <div class="links mb-10">
+                                        <img class=" " src="//images.ctfassets.net/o7xu9whrs0u9/3OYYKfusfkvrwG7US9EfUc/56b7921ccbddf20c31b1ba31167921bb/libraries-icon.png" alt="icon" title="icon">
+                                        <span class="text-16 underline has-text-white">Client Libraries</span>
+                                        
+                                    </div>
+                                </a> 
+
+                                <a class="nav-link" href="/products/integrations/">
+                                    <div class="links mb-10">
+                                        <img class=" " src="//images.ctfassets.net/o7xu9whrs0u9/3Ty3WZpZOL4i3juSMPh8Q6/2d57a119e2fa871081b63a78ce8faafa/explore-icon.png" alt="icon" title="icon">
+                                        <span class="text-16 underline is-grey">Explore All Integrations</span>
+                                        
+                                    </div>
+                                </a> 
+                                
+
+                            </div>  <!-- #end is-flex  --> 
+                            
+                      
+                        </div> <!-- #end mob-dropdown  -->
+                         
+                    </div>  <!-- #End navbar-item-->
+
+                    <!-- #Use Cases menu  -->
+                    <div class="navbar-item has-dropdown-old">
+                        <a class="navbar-link mob-open"> <span>Use Cases</span>  <i class="fa-solid fa-chevron-down"></i> </a>                        
+                        
+                        <div class="mob-dropdown">                            
+
+                            <div class="is-flex is-flex-direction-column pt-40">
+                                <p class="text-14 is-grey m-0 pb-15 has-text-weight-bold">USE CASES</p>                                
+
+                                <a class="nav-link" href="/solutions/network-monitoring/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Network & Infrastructure Monitoring</span>                                                    
+                                    </div>
+                                </a>
+
+                                <a class="nav-link" href="/solutions/iot-analytics-and-predictive-maintenance/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">IoT Analytics & Predictive Maintenance</span>                                                   
+                                    </div>
+                                </a>
+
+                                <a class="nav-link" href="/ml-ai-workloads/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Machine Learning & AI</span>                                                    
+                                    </div>
+                                </a>
+
+                                <a class="nav-link" href="/solutions/by-industries/satellite-telemetry-monitoring/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Satellite Telemetry Monitoring</span>                                                    
+                                    </div>
+                                </a>
+
+                                <a class="nav-link" href="/solutions/battery-energy-storage-systems/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Battery Energy Storage Systems </span>                                                    
+                                    </div>
+                                </a>
+                
+                                <a class="nav-link" href="/historian-workloads/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Modern Data Historian</span>
+                                    </div>
+                                </a> 
+
+
+                                <p class="text-14 is-grey m-0 pt-40 pb-15 has-text-weight-bold">INDUSTRIES</p>                                    
+                                
+                                <a class="nav-link" href="/solutions/iot-analytics-and-predictive-maintenance/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Manufacturing & IIoT</span>
+                                    </div>
+                                </a>   
+                            
+                                <a class="nav-link" href="/solutions/by-industries/aerospace-and-satellites/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Aerospace</span>
+                                    </div>
+                                </a>
+
+                                <a class="nav-link" href="/solutions/by-industries/energy-and-utilities/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Energy & Utilities</span>
+                                    </div>
+                                </a>
+                                
+                                <a class="nav-link" href="/solutions/fintech/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Financial Services</span>
+                                    </div>
+                                </a>
+
+                                <a class="nav-link pb-10" href="/solutions/by-industries/telecommunications/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Telecommunications</span>
+                                    </div>
+                                </a>
+
+                                <div class="solutions-mob-cta solution-cta-mob-bg px-20 py-20 br-15 mt-3"> 
+                                    <p class="text-20 has-text-white has-text-weight-bold">LeoLabs Secures Low Earth Orbit with InfluxDB</p>                                                                 
+                                    <a class="button button-is-white" style="width: 100%;" href="/customer/leolabs/"> See How </a>
+                                </div>
+                                
+                            </div>  <!-- #end is-flex  -->                             
+                      
+                        </div> <!-- #end mob-dropdown  -->                         
+                    </div>  <!-- #End navbar-item-->
+
+                    <!-- #Developers menu  -->
+                    <div class="navbar-item has-dropdown-old">
+                        <a class="navbar-link mob-open"> <span>Developers</span>  <i class="fa-solid fa-chevron-down"></i> </a>                        
+                        
+                        <div class="mob-dropdown">                            
+
+                            <div class="is-flex is-flex-direction-column pt-40">
+                                <p class="text-14 is-grey m-0 pb-15 has-text-weight-bold">BUILD</p>                                
+
+                                <a class="nav-link" href="https://docs.influxdata.com">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Documentation</span>                                                 
+                                    </div>
+                                </a>
+
+                                <a class="nav-link" href="/downloads/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Downloads Hub</span>
+                                    </div>
+                                </a>
+
+                                <a class="nav-link" href="/products/processing-engine-plugins/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Plugin Directory</span>
+                                    </div>
+                                </a>
+
+                                <a class="nav-link" href="/developers/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Developers Tools</span>
+                                    </div>
+                                </a>
+
+                                <a class="nav-link" href="/products/integrations/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Integrations</span>                                                    
+                                    </div>
+                                </a> 
+
+                                <a class="nav-link" href="/community/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Community</span>                                                    
+                                    </div>
+                                </a>   
+                                   
+
+                                <p class="text-14 is-grey m-0 pt-30 pb-15 has-text-weight-bold">LEARN</p> 
+
+                                <a class="nav-link" href="/blog/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Blog</span>                                                 
+                                    </div>
+                                </a>
+                                
+                                <a class="nav-link" href="https://www.influxdata.com/_resources/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Demos and Trainings</span>
+                                    </div>
+                                </a>  
+
+                                <a class="nav-link" href="/customers/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Customers</span>
+                                    </div>
+                                </a>
+
+                                <a class="nav-link" href="/university/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">InfluxDB University</span>
+                                    </div>
+                                </a>
+
+                                <a class="nav-link" href="/partners/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Partners</span>
+                                    </div>
+                                </a> 
+
+                                <a class="nav-link" href="https://support.influxdata.com/s/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Support</span>
+                                    </div>
+                                </a>  
+                                
+
+
+                                <a class="is-hidden nav-link" href="/products/processing-engine-plugins/">
+                                    <div class="links">
+                                        <span class="text-16 underline has-text-white">Plugin Directory</span>
+                                    </div>
+                                </a>                                  
+
+                                <div class="solutions-mob-cta developers-cta-mob-bg px-20 py-20 br-15 mt-5"> 
+                                    <p class="text-14 has-text-white m-0 pb-10"> LATEST RELEASES</p>
+                                    <p class="text-20 has-text-white has-text-weight-bold">Get the latest InfluxDB 3 updates</p>                                                                 
+                                    <a class="button button-is-white" style="width: 100%;" href="/products/influxdb3/"> See what’s shipped </a>
+                                </div>
+                                
+                            </div>  <!-- #end is-flex  -->                             
+                      
+                        </div> <!-- #end mob-dropdown  -->                         
+                    </div>  <!-- #End navbar-item-->
+                   
+
+
+
+     
+                    <div class="navbar-item pb-40">
+                        <a class="navbar-link is-arrowless" href="/influxdb-pricing/">Pricing</a>  
+                    </div>    
+
+                    
+                    <a class="button is-gradient is-normal mb-3" style="width: 100%;" href="/influxdb-signup/">Start Now</a>
+                       
+                    <div class="navbar-item has-dropdown-old pt-4">
+                        <a class="button is-gradient is-outlined is-navy-bg mob-open" style="width: 100%;"><span></span> <span>Sign In</span> <span> </span></a>                        
+
+                        <div class="mob-dropdown no-border">
+                            <div class="px-5 py-30">
+
+                                <div class="is-flex is-flex-direction-column">
+                                                                                                        
+                                    <a href="https://cloud2.influxdata.com/login">
+                                        <div class="links">
+                                            <span class="text-16 underline">Log in to InfluxDB Cloud 2.0 <br/>or Cloud Serverless</span>
+                                            <img class="is-hidden" src="/images/gr-arrow.svg" alt="arrow" title="arrow">
+                                        </div>
+                                    </a> 
+                                    <a href="https://portal.influxdata.com/users/sign_in">
+                                    <div class="links">
+                                        <span class="text-16 underline">Log in to InfluxDB Enterprise</span>
+                                        <img class="is-hidden" src="/images/gr-arrow.svg" alt="arrow" title="arrow">
+                                    </div>
+                                    </a> 
+                                    <a href="https://cloud.influxdata.com/">
+                                    <div class="links">
+                                        <span class="text-16 underline">Log in to InfluxDB Cloud 1.x</span>
+                                        <img class="is-hidden" src="/images/gr-arrow.svg" alt="arrow" title="arrow">
+                                    </div>
+                                    </a> 
+                                </div> 
+                                
+                            </div> <!-- #end px-5  -->
+
+                        </div><!-- #end mob-dropdown  -->
+                        
+                    </div>
+
+                    <div class="navbar-item border-btm has-text-centered pb-4">                          
+                        <a class="link-icon has-text-white text-18 has-text-weight-bold" href="/contact-sales/"><span class="gr-underline">Contact Us</span> <span class="icon gradient-text"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </span></a>
+                    </div>  
+
+                    
+                   
+                </div>
+            </div>
+            
+            
+        </nav>
+    </div>
+   </div> 
+</header>
+
+<div id="overlay" class="overlay"></div>
+
+<style>
+@media screen and (max-width: 1024px) {
+    .navbar-link:not(.is-arrowless)::after {
+        display: none;
+    }
+}
+
+.no-scroll {
+    overflow: hidden;
+    height: 100%; 
+}
+
+.menu-tag {
+    border-radius: 100px;
+    background: #D6D8F7;
+    padding: 2.5px 8px;
+    margin-left: 5px;
+}
+</style>
+
+
+
+
+<script>
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 10) {
+        $('#masthead').addClass('floatingNav');
+    } else {
+        $('#masthead').removeClass('floatingNav');
+    }
+});
+</script>
+
+
+<script>
+$(document).ready(function() {
+    const overlay = $('#overlay');
+
+    $('.navbar-item.has-dropdown').hover(
+        function() {
+            overlay.show(); // Show the overlay when hovering over a dropdown item
+        },
+        function() {
+            // Hide the overlay if not hovering over any .navbar-item.has-dropdown
+            if (!$('.navbar-item.has-dropdown:hover').length) {
+                overlay.hide();
+            }
+        }
+    );
+
+    overlay.click(function() {
+        overlay.hide(); // Hide the overlay when it's clicked
+    });
+});
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const accordionItems = document.querySelectorAll('.navbar-item.has-dropdown-old');
+    const closeDropdownButtons = document.querySelectorAll('.close-dropdown');
+    const body = document.body;
+
+    const closeAll = () => {
+      accordionItems.forEach(item => {
+        const dropdown = item.querySelector('.mob-dropdown');
+        if (dropdown) {
+          dropdown.classList.remove('is-open');
+          dropdown.style.maxHeight = null;
+        }
+        item.classList.remove('is-open');
+        const icon = item.querySelector('.mob-open i.fa-solid');
+        if (icon) {
+          icon.classList.remove('fa-chevron-up');
+          icon.classList.add('fa-chevron-down');
+        }
+      });
+      body.classList.remove('no-scroll');
+    };
+
+    accordionItems.forEach(item => {
+      const trigger = item.querySelector('.mob-open');
+      const dropdown = item.querySelector('.mob-dropdown');
+      const icon = trigger ? trigger.querySelector('i.fa-solid') : null;
+      if (!trigger || !dropdown) return;
+
+      trigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        const isOpen = dropdown.classList.contains('is-open');
+        closeAll();
+        if (!isOpen) {
+          dropdown.classList.add('is-open');
+          dropdown.style.maxHeight = `${dropdown.scrollHeight}px`;
+          item.classList.add('is-open');
+          if (icon) {
+            icon.classList.remove('fa-chevron-down');
+            icon.classList.add('fa-chevron-up');
+          }
+          body.classList.add('no-scroll');
+        }
+      });
+    });
+
+    closeDropdownButtons.forEach(closeDropdown => {
+      closeDropdown.addEventListener('click', () => {
+        const dropdown = closeDropdown.closest('.mob-dropdown');
+        if (dropdown) {
+          dropdown.classList.remove('is-open');
+          dropdown.style.maxHeight = null;
+          const parentItem = closeDropdown.closest('.navbar-item.has-dropdown-old');
+          if (parentItem) parentItem.classList.remove('is-open');
+          const icon = parentItem ? parentItem.querySelector('.mob-open i.fa-solid') : null;
+          if (icon) {
+            icon.classList.remove('fa-chevron-up');
+            icon.classList.add('fa-chevron-down');
+          }
+          body.classList.remove('no-scroll');
+        }
+      });
+    });
+
+    window.addEventListener('resize', () => {
+      document.querySelectorAll('.mob-dropdown.is-open').forEach(dd => {
+        dd.style.maxHeight = `${dd.scrollHeight}px`;
+      });
+    });
+  });
+
+
+const overlayEl = document.getElementById('overlay');
+
+function showOverlay() {
+  if (overlayEl) overlayEl.style.display = 'block';
+}
+
+function hideOverlay() {
+  if (overlayEl) overlayEl.style.display = 'none';
+}
+
+function updateOverlayFor(dropdownEl) {
+  if (!overlayEl) return;
+  if (dropdownEl) {
+    showOverlay();
+  } else {
+    hideOverlay();
+  }
+}
+
+const navItems = document.querySelectorAll('.navbar-item.has-dropdown');
+navItems.forEach(item => {
+  const dd = item.querySelector('.navbar-dropdown');
+  item.addEventListener('mouseenter', () => updateOverlayFor(dd));
+  item.addEventListener('focusin', () => updateOverlayFor(dd));
+  item.addEventListener('mouseleave', hideOverlay);
+  item.addEventListener('focusout', hideOverlay);
+});
+
+// keep in sync on resize
+window.addEventListener('resize', () => {
+  const open = document.querySelector('.navbar-item.has-dropdown:hover .navbar-dropdown');
+  if (open) updateOverlayFor(open);
+});
+
+
+</script>
+
+     
+        <main id="main-content" class="site-main" tabindex="-1">
+            <article class="page type-page status-publish format-standard ast-article-single" id="" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+
+              <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/panda-syntax-dark.min.css">
+
+
+
+
+<section class='home page-background'>
+
+  <!-- #Hero top section-->
+  <section class="hero has-navy-bgr">
+    <div class="hero-body py-0">
+        <div class="container is-relative">
+
+            <div class="columns is-desktop is-vcentered gap-60 pt-80 pb-50">
+
+                <div class="column py-50">
+                    <h1 class="text-60 has-text-white has-text-weight-bold max-600 pb-10 m-0">Time series starts with InfluxDB </h1>
+                    <p class="text-24 has-text-white pb-40 max-600 m-0">The database for real-time systems powering physical AI</p>
+
+                    <div class="flex-buttons is-justify-content-start">
+                      <a class="button is-gradient is-normal" href="/products/influxdb3-enterprise/?dl=enterprise/">Get InfluxDB</a>
+                      <a class="is-hidden link-icon has-text-white text-18 has-text-weight-bold" href="/contact-sales/"><span class="gr-underline">Contact Sales</span> <span class="icon gradient-text"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </span></a>
+                    </div>
+
+                </div>
+
+              <div class="column">
+                <div class="glow-wrapper-home">
+                <img class="is-relative" src="//images.ctfassets.net/o7xu9whrs0u9/1KEBbqATEunaMleXDxIknG/81e6029b3615ca17fa76f457896b7f3a/hero.png" alt="asset-monitoring">
+                </div>
+              </div> <!-- #end column -->
+
+            </div> <!-- #end columns -->
+
+            <!-- #Logo carousel section -->
+            <div class="container with-dark-bg pt-10 pb-10">
+              <!-- #Logo carousel single line -->
+<div class="container">
+
+    <div class="carousel">
+        <div class="carousel-wrapper">
+
+            <div class="carousel-item">
+                <figure class="image is-128x128">
+                <img src="//images.ctfassets.net/o7xu9whrs0u9/23mcsmtwSLhHVevn3sI0CT/38018bf7bb7a61f31149867029b698c6/Honeywell-logo.png" alt="Logo 1">
+                </figure>
+            </div>
+
+
+            <div class="carousel-item">
+                <figure class="image is-128x128">
+                <img src="//images.ctfassets.net/o7xu9whrs0u9/5Di9a8gwXv95G4JxkiIMpM/612eefa992e4307e6d90ac31ac133d46/rocketlab-logo.png" alt="rocketlab">
+                </figure>
+            </div>
+
+              <div class="carousel-item">
+                <figure class="image is-128x128">
+                <img src="//images.ctfassets.net/o7xu9whrs0u9/37PKOBf6wN3WSNkt76J00/9bb4e64a7b0cd1ec5718101067fcd272/intuit-logo-1.png" alt="Logo 1">
+                </figure>
+            </div>
+
+             <div class="carousel-item">
+                <figure class="image is-128x128">
+                    <img src="//images.ctfassets.net/o7xu9whrs0u9/5xsw9qWvmGJE87Iisf1wPj/62073b98e1c2a2e20354c92eb1383cf1/nvidia-logo.png" alt="nvidia">
+                </figure>
+            </div>
+
+            <div class="carousel-item">
+                <figure class="image is-128x128">
+                <img src="//images.ctfassets.net/o7xu9whrs0u9/5YzlhdqvMMezRjMuYAOG3S/26ed34dc07c48ed4cf08fb30b8693ee2/leolabs-logo.png" alt="leolabs">
+                </figure>
+            </div>
+
+            <div class="carousel-item">
+                <figure class="image is-128x128">
+                <img src="//images.ctfassets.net/o7xu9whrs0u9/6oie7ljZB3YMMzcDF1X1r8/9e2c79e6bc8948d0d7d6e80767a36d1a/unity-logo.png" alt="unity">
+                </figure>
+            </div>
+
+            <div class="carousel-item">
+                <figure class="image is-128x128">
+                <img src="//images.ctfassets.net/o7xu9whrs0u9/2XJwEwQQFyRt5J4nqCXHQM/d88815b4a5120e1f2e0573fc7613cc80/siemence-logo.png" alt="siemence">
+                </figure>
+            </div>
+
+            <div class="carousel-item">
+                <figure class="image is-128x128">
+                    <img src="//images.ctfassets.net/o7xu9whrs0u9/5orMeJlnN0Qkq49TkfOWJo/bdb9441af5af5fdcffd4fac6314bd50b/ibm-logo.png" alt="accenture">
+                </figure>
+            </div>
+
+
+            <div class="carousel-item">
+                <figure class="image is-128x128">
+                    <img src="//images.ctfassets.net/o7xu9whrs0u9/36ozeV4yYSt2rGjp1NKUxf/1bdeeecf434dd5cadb0af4771ad97082/salesforce-logo.png" alt="salesforce">
+                </figure>
+            </div>
+            <div class="carousel-item">
+                <figure class="image is-128x128">
+                    <img src="//images.ctfassets.net/o7xu9whrs0u9/4vaSq5WKwTlgWTxeDaSpSO/7b70daa7c9c677e963fa8e7472dc46c8/ptc-logo.png" alt="PTC">
+                </figure>
+            </div>
+
+            <div class="carousel-item">
+                <figure class="image is-128x128">
+                <img src="//images.ctfassets.net/o7xu9whrs0u9/71U1Bm1PF0MoW9ncyvjnlc/f325a6abc364b3dc13f11d4b5432861c/joby-logo.png" alt="joby">
+                </figure>
+            </div>
+
+            <div class="carousel-item">
+                <figure class="image is-128x128">
+                <img src="//images.ctfassets.net/o7xu9whrs0u9/1EY6atMVjyaadi1B2aSCSk/9c6aac3bf211bcc9e47cd5f104780706/rappi-logo.png" alt="rappi">
+                </figure>
+            </div>
+
+            <div class="carousel-item">
+                <figure class="image is-128x128">
+                <img src="//images.ctfassets.net/o7xu9whrs0u9/2hgkZSP197N9PPF0TMksEO/0cf9538f6831a8db02fc2130d02670e7/tado.png" alt="tado">
+                </figure>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- carousel of logos - animatin left and right  -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const initializeCarousel = (carouselSelector, direction = 1, transitionSpeed = 1.5, intervalSpeed = 2500) => {
+        const carouselWrapper = document.querySelector(`${carouselSelector} .carousel-wrapper`);
+        const items = document.querySelectorAll(`${carouselSelector} .carousel-item`);
+        const totalItems = items.length;
+        const visibleItems = 8;
+        let currentIndex = 0;
+        let intervalId;
+
+        // Clone the nodes for seamless infinite loop
+        for (let i = 0; i < totalItems; i++) {
+            const clone = items[i].cloneNode(true);
+            carouselWrapper.appendChild(clone);
+        }
+
+        const rotateCarousel = () => {
+            currentIndex += direction;
+            const offset = -currentIndex * (100 / visibleItems); // 100% divided by visible items
+            carouselWrapper.style.transition = `transform ${transitionSpeed}s ease-in-out`;
+            carouselWrapper.style.transform = `translateX(${offset}%)`;
+
+            // Reset the position to the start after one full cycle to prevent a blank section
+            if (currentIndex >= totalItems) {
+                setTimeout(() => {
+                    currentIndex = 0;
+                    carouselWrapper.style.transition = 'none';
+                    carouselWrapper.style.transform = 'translateX(0)';
+                }, transitionSpeed * 1000); // Match the duration of the transition
+            }
+        };
+
+        // Event listeners for hover
+        const carouselSection = document.querySelector(carouselSelector);
+
+        carouselSection.addEventListener('mouseenter', () => {
+            rotateCarousel(); // Start the carousel immediately
+            intervalId = setInterval(rotateCarousel, intervalSpeed); // Continue the carousel at the slow speed
+        });
+
+        carouselSection.addEventListener('mouseleave', () => {
+            clearInterval(intervalId); // Stop the carousel on mouse leave
+        });
+    };
+
+    initializeCarousel('.carousel', 1, 2, 2500); // Initialize the carousel with your preferred speed and interval
+});
+</script>
+
+            </div>
+
+        </div>
+    </div>
+  </section>
+
+  <!-- #Navy section with logos and stats -->
+  <section class="hero has-navy-bgr is-relative">
+    <div class="hero-body pt-10 is-relative pb-1">
+
+        <div class="section py-1">
+            <div class="container with-halo">
+              <div class="has-text-centered-tablet has-text-left-mobile max-900 m-auto has-text-white pb-40">
+                <h2 class="text-60 has-text-white has-text-weight-bold has-text-centered m-0 pb-15">Developers choose InfluxDB</h2>
+                <p class="pb-20">Built for systems that can’t afford to lag. Capture, analyze, and act on high-resolution operational data in real-time.  </p>
+                <a class="link-icon has-text-white text-18 has-text-weight-bold" href="/get-influxdb/"><span class="gr-underline">Try InfluxDB</span> <span class="icon gradient-text"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </span></a>
+              </div>
+
+              <div class="gradient-border has-navy-bgr mt-5">
+                <div class="helo"></div>
+                <div class="is-flex-new">
+                  <div class="item p-30 has-text-centered">
+                      <p class="text-54 has-text-white has-text-weight-bold">1B+</p>
+                      <p class="has-text-white lh-2">Downloads of <br/>InfluxDB</p>
+                  </div>
+                  <div class="item p-30 has-text-centered">
+                      <p class="text-54 has-text-white has-text-weight-bold">1M+</p>
+                      <p class="has-text-white lh-2">Live open source <br/>instances</p>
+                  </div>
+                  <div class="item p-30 has-text-centered">
+                      <p class="text-54 has-text-white has-text-weight-bold">5B+</p>
+                      <p class="has-text-white lh-2">InfluxData Telegraf <br/>downloads</p>
+                  </div>
+                  <div class="item p-30 has-text-centered">
+                      <p class="text-54 has-text-white has-text-weight-bold">2,800+</p>
+                      <p class="has-text-white lh-2">Open source <br/>contributors</p>
+                  </div>
+                  <div class="item p-30 has-text-centered">
+                      <p class="text-54 has-text-white has-text-weight-bold">#1</p>
+                      <p class="has-text-white lh-2">Time series database <br><span style="color: #727799;">Source: DB Engines</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- #Section with featured - 3 flex tiles -->
+  <section class="section after-margin-home">
+    <div class="container">
+      <div class="has-text-centered-tablet has-text-left-mobile pt-40">
+        <h2 class="text-54 has-text-weight-bold is-navy pb-20 max-700 m-auto">Most databases weren’t built for time series</h2>
+        <p class="is-navy pb-30 max-650 m-auto">Telemetry, edge devices, and physical AI generate data that most databases can’t handle. InfluxDB handles continuous, high-resolution data with precision and speed.  </p>
+        <img style="margin-bottom: -7px;" src="//images.ctfassets.net/o7xu9whrs0u9/1HLX8Nzwlletw6aFRHJDbR/a6555d9d6bf19f15c3e42450ce7f73f4/time-series-database.png" alt="time-series-db" itemprop="image" title="qtime-series-dby" width="85%" height="auto">
+      </div>      
+    </div>
+  </section>
+
+  <!-- #New Navy Section with 4 POINTED tiles -->
+  <div class="section py-60 has-navy-bgr br-r-80">
+    <div class="container">
+
+      <div class="max-800 m-auto has-text-centered-tablet has-text-left-mobile">
+        <div class="max-650 m-auto">
+          <h2 class="text-54 has-text-weight-bold has-text-white pb-20">Engineered for performance at scale</h2>
+        </div>
+        <p class="has-text-white m-0 pb-20">Handle continuous, high-resolution data without breaking cost, latency, or reliability</p>
+        <a class="link-icon has-text-white text-18 has-text-weight-bold" href="/get-influxdb/"><span class="gr-underline">See ways to get started</span> <span class="icon gradient-text"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </span></a>
+      </div>
+
+      <div class="columns is-desktop v-centered gap-60 pt-80">
+        <div class="column">          
+   
+          <div class="dark-navy br-10 is-flex is-align-items-start gap-20 px-30 pt-20 pb-30 mb-20">
+            <img class="mt-1" src="//images.ctfassets.net/o7xu9whrs0u9/4BmX7VxUp65pX7wZKIafQA/f49a6f9a181e337914fc71f868565930/real-time-icon.svg" alt="icon" itemprop="image" height="auto" width="45" title="icon" onerror="this.style.display='none'">
+              <div>
+                <h4 class="text-24 has-text-white m-0 pb-0" style="line-height: 1.1em;">Real-time performance without cost runaway</h4>
+                <p class="has-text-white m-0">Ingest at millions of data points per second while keeping storage and compute predictable</p>
+              </div>
+          </div>
+
+          <div class="dark-navy br-10 is-flex is-align-items-start gap-20 px-30 pt-20 pb-30 mb-20">
+            <img class="mt-1" src="//images.ctfassets.net/o7xu9whrs0u9/7unYzA6pZhCCKYQQJMRumM/ecfd0bf3bb1000ca500f7c9025587171/integration-icon-navy.svg" alt="icon" itemprop="image" height="auto" width="45" title="icon" onerror="this.style.display='none'">
+              <div>
+                <h4 class="text-24 has-text-white m-0 pb-0" style="line-height: 1.1em;">Edge-to-cloud continuity</h4>
+                <p class="has-text-white m-0">Capture data where it’s generated and analyze it anywhere without redesigning your pipeline</p>
+              </div>
+          </div>
+
+          <div class="dark-navy br-10 is-flex is-align-items-start gap-20 px-30 pt-20 pb-30 mb-20">
+            <img class="mt-1" src="//images.ctfassets.net/o7xu9whrs0u9/6Evs5uiVE8LdixTqBbCsLu/87d8bfa407f377b04c316bf509ec120a/funnel-icon.svg" alt="icon" itemprop="image" height="auto" width="45" title="icon" onerror="this.style.display='none'">
+              <div>
+                <h4 class="text-24 has-text-white m-0 pb-0" style="line-height: 1.1em;">Purpose-built architecture for continuous data</h4>
+                <p class="has-text-white m-0">Optimized for fast ingest on high-velocity, high-resolution data with efficient compression and storage </p>
+              </div>
+          </div>
+
+          <div class="dark-navy br-10 is-flex is-align-items-start gap-20 px-30 pt-20 pb-30">
+            <img class="mt-1" src="//images.ctfassets.net/o7xu9whrs0u9/1I8j01dYR37fz3uhqlToiV/29f26717454e7a7d22d0450841b51735/integration-icon.svg" alt="icon" itemprop="image" height="auto" width="45" title="icon" onerror="this.style.display='none'">
+              <div>
+                <h4 class="text-24 has-text-white m-0 pb-0" style="line-height: 1.1em;">Integrates with your stack</h4>
+                <p class="has-text-white m-0">Deploy fast, scale seamlessly, and easily integrate without requiring specialized infrastructure</p>
+              </div>
+          </div>
+
+        </div>
+       
+        <div class="column has-text-centered with-halo">
+          <video class="is-hidden" autoplay loop muted playsinline>
+            <source src="//videos.ctfassets.net/o7xu9whrs0u9/51MQakxIkfcsP7tzBVJKv7/48a91d91674e564b211801427eab0c85/lottie.webm" type="video/webm">
+              <source src="//videos.ctfassets.net/o7xu9whrs0u9/51MQakxIkfcsP7tzBVJKv7/48a91d91674e564b211801427eab0c85/lottie.webm" type="video/mp4">
+          </video>
+          <img class="animated-lotti" src="//images.ctfassets.net/o7xu9whrs0u9/5MuaKzuX7BQBRtn9YLnCTi/3fe47229d9ca7cfc4d1c51e2f049f587/at-scale.png" alt="real-time-data-pipeline" itemprop="image" height="auto" width="700" title="real-time-data-pipeline">    
+        </div>
+
+      </div> 
+
+
+
+      <div class="is-hidden columns is-desktop gap-40 pt-60">
+
+        <div class="column">
+          <div class="pointer-right">
+            <div class="pointer-block">
+              <div class="pointer-content">
+                <h3 class="text-24 has-text-weight-bold has-text-white m-0 pb-10">High-Speed Ingest</h3>
+                <p class="m-0">Ingest millions of series without impacting performance.</p>
+              </div>
+              <div class="image-wrapper">
+                <img class="hover-img" src="//images.ctfassets.net/o7xu9whrs0u9/5RGE7v5vs9QNTCUCjgAiMd/52133f3efe281cced5212fe404dd6ef7/High-speed_ingest.svg" alt="High-speed_ingest" title="High-speed_ingest">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="pointer-down">
+            <div class="pointer-block">
+              <div class="pointer-content">
+                <h3 class="text-24 has-text-weight-bold has-text-white m-0 pb-10">Real-Time Analytics</h3>
+                <p class="m-0">Transform and analyze unlimited series in real-time.</p>
+              </div>
+              <div class="image-wrapper">
+                <img class="hover-img" src="//images.ctfassets.net/o7xu9whrs0u9/39NLyfuh0IUDFyI8AVLC8o/fbf53d566b43269fe6ca58bf3aef34df/Real-time_analytics.svg" alt="Real-time_analytics" title="Real-time_analytics">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="is-hidden columns is-desktop gap-40 pt-40">
+        <div class="column">
+          <div class="pointer-up">
+            <div class="pointer-block">
+              <div class="pointer-content">
+                <h3 class="text-24 has-text-weight-bold has-text-white m-0 pb-10">Eviction and Lakehouse Integration</h3>
+                <p class="m-0">Automatically evicts cold data and streams it into lakes, warehouses, and AI/ML pipelines.</p>
+              </div>
+              <div class="image-wrapper">
+                <img class="hover-img" src="//images.ctfassets.net/o7xu9whrs0u9/gYbSNPnfaNU6UuzbL2ia2/64bdd2f06b4c8f87bc418c02b40ab53a/Eviction___lakehouse-_hover.svg" alt="lakehouse" title="lakehouse">
+              </div>
+            </div>
+          </div>
+        </div>
+
+       <div class="column">
+          <div class="pointer-left">
+            <div class="pointer-block">
+              <div class="pointer-content">
+                <h3 class="text-24 has-text-weight-bold has-text-white m-0 pb-10">Compression and Downsampling</h3>
+                <p class="m-0">Best-in-class compression. Parquet files store more data with less space.</p>
+              </div>
+              <div class="image-wrapper">
+                <img class="hover-img" src="//images.ctfassets.net/o7xu9whrs0u9/30FqoiEGJadNw9ixUEEEU9/ae6e62dca7e3ab019275f30523197fc9/Compression___downsampling.svg" alt="Compression-downsampling" title="Compression-downsampling">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- #New Navy Section -drive more visitors to top ICP pages -->
+  <div class=" is-hidden section has-navy-bgr is-relative pt-10 pb-20">
+    <div class="container with-halo">
+      <div class="has-text-centered-tablet has-text-left-mobile max-900 m-auto has-text-white pb-20">
+        <h2 class="text-54 has-text-white has-text-weight-bold has-text-centered py-5">Purpose-built for the world's most demanding systems</h2>
+        <p class="pb-30">From grid stability to satellite telemetry, InfluxDB powers the systems that can't afford to lag.</p>
+      </div>
+
+      <div class="navy-z-10 has-navy-bgr">
+        <div class="helo"></div>
+        <div class="flex-box-3 is-relative">
+          <div class="box-item p-50 has-text-centered">
+            <img class="blrb-img-navy" src="//images.ctfassets.net/o7xu9whrs0u9/5naWhJUt3KXkrI2r9fl4dT/8230ca7edf1afe14db7b63ec37e6dbbe/aerosspace-icon.svg" alt="046-abstract shape-hl" itemprop="image" height="auto" width="65" title="046-abstract shape-hl" onerror="this.style.display='none'">
+            <h4 class="text-24 has-text-white has-text-weight-bold">Aerospace</h4>
+            <p class="has-text-white">Aerospace telemetry never stops. Stay ahead with a database built for speed, precision, and decades of data.</p>
+            <a class="link-icon has-text-white text-18 has-text-weight-bold" href="/solutions/by-industries/aerospace-and-satellites/"><span class="gr-underline">Learn More</span> <span class="icon gradient-text"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </span></a>
+          </div>
+          <div class="box-item col-borders p-50 has-text-centered">
+            <img class="blrb-img-navy" src="//images.ctfassets.net/o7xu9whrs0u9/59rEfpZz430Y1unqlJCrSY/0f7155149dcc171ad72791acd2944bd2/solar-icon.svg" alt="046-abstract shape-hl" itemprop="image" height="auto" width="65" title="046-abstract shape-hl" onerror="this.style.display='none'">
+            <h4 class="text-24 has-text-white has-text-weight-bold">Energy & Utilities</h4>
+            <p class="has-text-white">Power modern energy systems with real-time insights that maximize efficiency and reduce downtime.</p>
+            <a class="link-icon has-text-white text-18 has-text-weight-bold" href="/solutions/by-industries/energy-and-utilities/"><span class="gr-underline">Learn More</span> <span class="icon gradient-text"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </span></a>
+          </div>
+          <div class="box-item p-50 has-text-centered">
+            <img class="blrb-img-navy" src="//images.ctfassets.net/o7xu9whrs0u9/1XwD5uTkEeoucmyhzN7mrd/b14ce57ab94b3ea5007a46a9b48543af/data-historian-icon.svg" alt="046-abstract shape-hl" itemprop="image" height="auto" width="65" title="046-abstract shape-hl" onerror="this.style.display='none'">
+            <h4 class="text-24 has-text-white has-text-weight-bold">Modern Data Historian</h4>
+            <p class="has-text-white">Upgrade your historian for Industry 4.0 with real-time data that drives efficiency and lowers costs.</p>
+            <a class="link-icon has-text-white text-18 has-text-weight-bold" href="/historian-workloads/"><span class="gr-underline">Learn More</span> <span class="icon gradient-text"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- #AI runs on time series. UI image -->
+  <div class="section pb-60">
+    <div class="container">
+      <div class="columns gap-60 is-vcentered">
+        <div class="column is-two-fifths is-navy">
+          <h2 class="text-46 has-text-weight-bold is-navy m-0 pt-30 pb-20 max-400">Physical AI runs on time series</h2>
+          <h4 class="text-34 is-navy has-text-weight-normal m-0 pb-20 max-400" style="line-height: 1.15em!important;">Close the loop between telemetry and action.</h4>
+          <p class="is-navy m-0 pb-20">AI systems need a stream of high-precision telemetry to improve. InfluxDB captures granular sensor data enabling AI to detect, respond and predict in real-time.</p>
+          <a class="button is-gradient is-normal" href="/ml-ai-workloads/">Learn More</a>
+        </div>
+
+        <div class="column has-text-centered">
+          <img src="//images.ctfassets.net/o7xu9whrs0u9/6WGogeesBAjt91TM3FpmGk/90cabd22b77b8a28d73c49f6768db321/physical-ai.svg" alt="ai-graph" width="80%" title="ai-graph">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- #Section with featured - 3 flex tiles -->
+  <div class="section pt-40 pb-40">
+    <div class="container">
+
+      <!-- Tiles with features - 3 flex tiles -->
+      <div class="flex-box-3">
+        <div class="box-item">
+          <img class="blrb-img-lt" src="//images.ctfassets.net/o7xu9whrs0u9/27MPw5cLombBjbjNBgunk9/1a42d4309552dd9def26cf0805f374f9/aerospace-Icons.svg" alt="046-abstract shape-hl" width="65" title="046-abstract shape-hl">
+          <h4 class="text-24 m-0 py-10">Aerospace</h4>
+          <p class="is-navy">Aircraft and spacecraft require pinpoint precision for mission critical navigation. Capture high-rate sensor streams to power real-time diagnostics and adaptive control.</p>
+        </div>
+
+        <div class="box-item">
+          <img class="blrb-img-lt" src="//images.ctfassets.net/o7xu9whrs0u9/50lVG9KaSkVG26mRH5Gl3M/dfca5d447f36116d95f1ed46183750e6/robot-arm-icon.svg" alt="046-abstract shape-hl" width="65" title="046-abstract shape-hl">
+          <h4 class="text-24 m-0 py-10">Manufacturing</h4>
+          <p class="is-navy">Production lines generate constant signals. Feed real-time telemetry into AI models to predict equipment failures, optimize throughput, and maintain product quality.</p>
+        </div>
+
+        <div class="box-item">
+          <img class="blrb-img-lt" src="//images.ctfassets.net/o7xu9whrs0u9/3ASdyQmeNHu7N5l5qgF0ZX/88ad772868f763709c9c549e60243ecd/solar-icon.svg" alt="046-abstract shape-hl" width="65" title="046-abstract shape-hl">
+          <h4 class="text-24 m-0 py-10">Energy & Utilities</h4>
+          <p class="is-navy">Manage grid volatility across distributed assets. Real-time sensor streams feed predictive models to prevent costly edge failures.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- #HIDDEN - NOT IN USE -->
+  <div class="is-hidden section pt-40 pb-40">
+    <div class="container">
+      <div class="has-white-bgr tech-paper-bg px-50 py-50 br-20">
+          <div class="columns is-vcentered gap-80">
+            <div class="column is-8 is-navy">
+              <h2 class="text-24 is-navy has-text-weight-bold pb-20">Build systems and infrastructure monitoring that scales</h2>
+              <p class="m-0">Keep pace with the flood of time series data. Learn how to build real-time monitoring that scales securely with InfluxDB and Grafana to keep ahead of outages, performance regressions, and costly blind spots.</p>
+            </div>
+            <div class="column has-text-centered">
+              <a class="button is-gradient is-normal" href="https://www.influxdata.com/resources/building-scalable-monitoring-systems-with-influxdb-grafana/">Download Tech Paper</a>
+            </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- #pink-purple section -->
+  <div class="section pt-40 pb-80">
+    <div class='container br-30 pink-purple-gradient has-text-centered-tablet has-text-left-mobile has-text-white px-50 py-80'>
+      <div class="max-700 m-auto">
+        <h2 class="text-60 has-font-weight-bold has-text-white pb-20">Deploy anywhere</h2>
+        <p class="text-24 pb-30 m-0 pb-20">On-prem, edge, or cloud. A single engine for every environment.</p>
+        <div class="flex-buttons is-justify-content-center">
+          <a class="button is-navy" href="/influxdb-signup/">Start Testing</a>
+          <a class="link-icon text-18 has-text-white n-margin-20" href="/get-influxdb/"><span class="white-link-underline"><b>Contact us</b> </span><span class="icon arrow-white"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section has-navy-bgr br-btr-80 pb-10">
+    <div class="container">
+      <div class="has-text-centered-tablet has-text-left-mobile max-800 m-auto has-text-white pb-20">
+        <h2 class="text-60 has-text-white has-text-weight-bold py-5">Open and extensible</h2>
+        <p class="pb-10">Integrate time series across AI/ML workloads & visualize instantly</p>
+        <a class="link-icon has-text-white text-18 has-text-weight-bold" href="/products/integrations/"><span class="gr-underline">Explore integrations</span> <span class="icon gradient-text"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </span></a>
+      </div>
+      <div class="max-1100 m-auto is-hidden-mobile">
+        <img class="diagram" src="//images.ctfassets.net/o7xu9whrs0u9/3fqYVz2BlhTCq1IhLZACPy/a073dd31923a2be242cb742b575d3e1a/influxdb-diagram.png" alt="diagram" width="100%" title="diagram">
+      </div>
+    </div>
+  </div>
+
+  <style>
+   .section.has-navy-bgr.with-code {
+    margin-bottom: 0px;
+ }
+
+  .selector.code-logo {
+    background-color: #030938;
+    padding: 15px 20px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .selector.code-logo img {
+   width: 20px;
+  }
+  .selector.code-logo .logo-name {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    gap: 15px;
+    padding: 4px 8px;
+    border: 1px solid #030938;
+  }
+
+  span.logo-name.active {
+    border: 1px solid #303877!important;
+    background-color: #020A47;
+    border-radius: 8px;
+    padding: 4px 8px;
+  }
+
+  @media (max-width: 768px) {
+    .selector.code-logo {
+      display: flex;
+      flex-wrap: wrap;
+     /* overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      gap: 12px;
+      padding-bottom: 10px;*/
+    }
+
+    /*.selector.code-logo .logo-name {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }*/
+  }
+
+
+  .home .code_examples #code_example {
+    background: #1A2050;
+    border-radius: 0 0 8px 8px;
+  }
+
+ .home .code_examples .readwrite {
+    text-align: left;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    border-bottom: 1px solid rgba(201, 203, 221, 0.3);
+  }
+  .home .code_examples .readwrite > span {
+    display: inline-block;
+    width: 94px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #C9CBDD;
+    color: #fff;
+  }
+  .home .code_examples .readwrite > span.read {
+    border-radius: 4px 0 0 4px;
+  }
+  .home .code_examples .readwrite > span.write {
+    border-radius: 0 4px 4px 0;
+  }
+  .home .code_examples .readwrite > span.active {
+    background: #C9CBDD;
+    color: #020A47;
+  }
+  .home .code_examples .code-area {
+    width: 100%;
+    padding: 10px;
+  }
+
+  pre.id-home-pre.id-code-scroll.code-toolbar {
+  width: 100%;
+  max-width: 880px;
+}
+
+  @media (min-width: 1024px) {
+    .home .code-area {
+      max-width: 100%;
+    }
+  }
+
+  .home .code_examples #code_example .code-area pre.id-code-scroll {
+    background: inherit !important;
+  }
+
+span.hljs-keyword, span.hljs-title.function_, span.hljs-built_in, span.hljs-title, span.hljs-type, span.hljs-literal {
+  color: #9394FF;
+}
+
+span.hljs-string, span.hljs-property, span.hljs-string, span.hljs-title.class_, span.hljs-number {
+  color: #5EE4E4;
+}
+</style>
+
+<!-- #Start code section -->
+<section class="section has-navy-bgr with-code pt-30">
+  <section id='examples' class='code_examples'>
+    <div class='container code_section_bg'>
+
+      <div class="has-text-centered-tablet has-text-left-mobile code_intro max-900 m-auto pb-60">
+        <h3 class="text-60 has-text-weight-bold has-text-white for-home">Code in the languages you love</h3>
+        <h3 class="text-54 has-text-weight-bold has-text-white max-600 m-auto pb-30 for-developers">Build and ship faster with client libraries</h3>
+        <a class="link-icon has-text-white text-18 has-text-weight-bold" href="https://docs.influxdata.com/influxdb3/cloud-serverless/reference/client-libraries/v3/#client-libraries-for-influxdb-v3"><span class="gr-underline">Read more in docs</span> <span class="icon gradient-text"> <i class="fa fa-arrow-right" aria-hidden="true"></i> </span></a>
+      </div>
+
+      <div class="max-900 m-auto">
+
+        <div class='selector code-logo'>
+          <span data-lang='python' class='logo-name active'><img src='/images/home/python.png' alt='Python' /> <span>Python</span> </span>
+          <span data-lang='javascript' class='logo-name'><img src='/images/home/js.png' alt='JavaScript' /> <span>Javascript</span> </span>
+          <span data-lang='go' class='logo-name'><img class="go-img" src='//images.ctfassets.net/o7xu9whrs0u9/bz6bSjLPObb5zESG00QPa/25fbb6026b3b60eb6a21524273974369/go.png' alt='Go' /> <span>Go</span> </span>
+          <span data-lang='csharp' class='logo-name'><img src='/images/home/csharp.png' alt='C Sharp' /> <span>C# </span> </span>
+          <span data-lang='java' class='logo-name'><img src='//images.ctfassets.net/o7xu9whrs0u9/5mB0TGALiorRVXqvGRocWl/f70abe995971af77fd7fb60e8659bfcb/java.png' alt='Java' /> <span>Java </span> </span>
+        </div>
+
+        <div class="code-blocks">
+          <div id='code_example' class="pb-3">
+            <div class='readwrite'>
+              <span class='active read' data-rw='read'>Read</span><span class='write' data-rw='write'>Write</span>
+            </div>
+            <div class="code-area">
+                <div class='pre-container'>
+                  <pre id='python_read' class="id-home-pre id-code-scroll hidden">
+                  <code class="language-python">from influxdb_client_3 import InfluxDBClient3
+import pandas
+import os
+
+database = os.getenv('INFLUX_DATABASE')
+token = os.getenv('INFLUX_TOKEN')
+host="https://us-east-1-1.aws.cloud2.influxdata.com"
+
+def querySQL():
+  client = InfluxDBClient3(host, database=database, token=token)
+  table = client.query(
+    '''SELECT
+        room,
+        DATE_BIN(INTERVAL '1 day', time) AS _time,
+        AVG(temp) AS temp,
+        AVG(hum) AS hum,
+        AVG(co) AS co
+      FROM home
+      WHERE time >= now() - INTERVAL '90 days'
+      GROUP BY room, _time
+      ORDER BY _time'''
+  )
+
+  print(table.to_pandas().to_markdown())
+
+  client.close()
+  
+querySQL()</code>
+                  </pre>
+                </div>
+                <div class='pre-container'>
+                  <pre id='python_write' class="id-home-pre id-code-scroll hidden">
+                  <code class="language-python">from influxdb_client_3 import InfluxDBClient3
+import os
+
+database = os.getenv('INFLUX_DATABASE')
+token = os.getenv('INFLUX_TOKEN')
+host="https://us-east-1-1.aws.cloud2.influxdata.com"
+
+def write_line_protocol():
+  client = InfluxDBClient3(host, database=database, token=token)
+  
+  record = "home,room=Living\\ Room temp=22.2,hum=36.4,co=17i"
+  
+  print("Writing record:", record )
+  client.write(record)
+  
+  client.close()
+
+write_line_protocol()
+</code>
+                  </pre>
+                </div>
+                <div class='pre-container'>
+                  <pre id='javascript_read' class="id-home-pre id-code-scroll hidden">
+                  <code class="language-javascript">import {InfluxDBClient} from '@influxdata/influxdb3-client'
+import {tableFromArrays} from 'apache-arrow';
+
+const database = process.env.INFLUX_DATABASE;
+const token = process.env.INFLUX_TOKEN;
+const host = "https://us-east-1-1.aws.cloud2.influxdata.com";
+
+async function main() {
+    const client = new InfluxDBClient({host, token})
+    const query = `
+    SELECT
+      room,
+      DATE_BIN(INTERVAL '1 day', time) AS _time,
+      AVG(temp) AS temp,
+      AVG(hum) AS hum,
+      AVG(co) AS co
+    FROM home
+    WHERE time >= now() - INTERVAL '90 days'
+    GROUP BY room, _time
+    ORDER BY _time
+    `
+    const result = await client.query(query, database)
+
+    const data = {room: [], day: [], temp: []}
+
+    for await (const row of result) {
+      data.day.push(new Date(row._time).toISOString())
+      data.room.push(row.room)
+      data.temp.push(row.temp)
+    }
+
+    console.table([...tableFromArrays(data)])
+
+    client.close()
+}
+
+main()</code>
+                  </pre>
+                </div>
+                <div class='pre-container'>
+                  <pre id='javascript_write' class="id-home-pre id-code-scroll hidden">
+                  <code class="language-javascript">import {InfluxDBClient} from '@influxdata/influxdb3-client'
+
+const database = process.env.INFLUX_DATABASE;
+const token = process.env.INFLUX_TOKEN;
+const host = "https://us-east-1-1.aws.cloud2.influxdata.com";
+
+async function main() {
+    const client = new InfluxDBClient({host, token})
+
+    const record = "home,room=Living\\ Room temp=22.2,hum=36.4,co=17i"
+    await client.write(record, database)
+    client.close()
+}
+
+main()</code>
+                  </pre>
+                </div>
+                <div class='pre-container'>
+                  <pre id='go_read' class="id-home-pre id-code-scroll hidden">
+                  <code class="language-go">package influxdbv3
+
+import (
+  "context"
+  "fmt"
+  "io"
+  "os"
+  "text/tabwriter"
+
+  "github.com/apache/arrow/go/v12/arrow"
+  "github.com/InfluxCommunity/influxdb3-go/influx"
+)
+
+func QuerySQL() error {
+  url := "https://us-east-1-1.aws.cloud2.influxdata.com"
+  token := os.Getenv("INFLUX_TOKEN")
+  database := os.Getenv("INFLUX_DATABASE")
+	
+  client, err := influx.New(influx.Configs{
+	HostURL: url,
+	AuthToken: token,
+  })
+
+  defer func (client *influx.Client)  {
+	err := client.Close()
+	if err != nil {
+		panic(err)
+	}
+  }(client)
+
+  query := `
+    SELECT
+	  room,
+	  DATE_BIN(INTERVAL '1 day', time) AS _time,
+	  AVG(temp) AS temp,
+	  AVG(hum) AS hum,
+	  AVG(co) AS co
+	FROM home
+	WHERE time >= now() - INTERVAL '90 days'
+	GROUP BY room, _time
+	ORDER BY _time
+`
+
+  iterator, err := client.Query(context.Background(), database, query)
+
+  if err != nil {
+    panic(err)
+  }
+
+  w := tabwriter.NewWriter(io.Discard, 4, 4, 1, ' ', 0)
+  w.Init(os.Stdout, 0, 8, 0, '\t', 0)
+  fmt.Fprintln(w, "day\troom\ttemp")
+
+  for iterator.Next() {
+	row := iterator.Value()
+	day := (row["_time"].(arrow.Timestamp)).ToTime(arrow.TimeUnit(arrow.Nanosecond))
+	fmt.Fprintf(w, "%s\t%s\t%.2f\n", day, row["room"], row["temp"])
+  }
+
+  w.Flush()
+  return nil
+}</code>
+                  </pre>
+                </div>
+                <div class='pre-container'>
+                  <pre id='go_write' class="id-home-pre id-code-scroll hidden">
+                  <code class="language-go">package influxdbv3
+
+import (
+  "context"
+  "os"
+  "fmt"
+  "github.com/InfluxCommunity/influxdb3-go/influx"
+)
+
+func WriteLineProtocol() error {
+  url := "https://us-east-1-1.aws.cloud2.influxdata.com"
+  token := os.Getenv("INFLUX_TOKEN")
+  database := os.Getenv("INFLUX_DATABASE")
+	
+  client, err := influx.New(influx.Configs{
+	HostURL: url,
+	AuthToken: token,
+  })
+
+  defer func (client *influx.Client)  {
+	err := client.Close()
+	if err != nil {
+		panic(err)
+	}
+  }(client)
+
+  record := "home,room=Living\\ Room temp=22.2,hum=36.4,co=17i"
+  fmt.Println("Writing record: ", record)
+  err = client.Write(context.Background(), database, []byte(record))
+
+  if err != nil {
+    panic(err)
+  }
+  return nil
+}</code>
+                  </pre>
+                </div>
+                <div class='pre-container'>
+                  <pre id='csharp_read' class="id-home-pre id-code-scroll hidden">
+                  <code class="language-csharp">using System;
+using System.Threading.Tasks;
+using InfluxDB3.Client;
+using InfluxDB3.Client.Query;
+
+namespace InfluxDBv3;
+
+public class Query
+{
+  static async Task QuerySQL()
+  {
+    const string hostUrl = "https://us-east-1-1.aws.cloud2.influxdata.com";
+    string? database = System.Environment.GetEnvironmentVariable("INFLUX_DATABASE");
+    string? authToken = System.Environment.GetEnvironmentVariable("INFLUX_TOKEN");
+
+    using var client = new InfluxDBClient(hostUrl, authToken: authToken, database: database);
+  
+    const string sql = @"
+      SELECT
+        room,
+        DATE_BIN(INTERVAL '1 day', time) AS _time,
+        AVG(temp) AS temp,
+        AVG(hum) AS hum,
+        AVG(co) AS co
+      FROM home
+      WHERE time >= now() - INTERVAL '90 days'
+      GROUP BY room, _time
+      ORDER BY _time
+    ";
+
+    Console.WriteLine("{0,-30}{1,-15}{2,-15}", "day", "room", "temp");
+    await foreach (var row in client.Query(query: sql))
+    {
+      Console.WriteLine("{0,-30}{1,-15}{2,-15}", row[1], row[0], row[2]);
+    }
+
+    Console.WriteLine();
+  }
+}</code>
+                  </pre>
+                </div>
+                <div class='pre-container'>
+                  <pre id='csharp_write' class="id-home-pre id-code-scroll hidden">
+                  <code class="language-csharp">using System;
+using System.Threading.Tasks;
+using InfluxDB3.Client;
+using InfluxDB3.Client.Query;
+
+namespace InfluxDBv3;
+
+public class Write
+{
+  public static async Task WriteLineProtocol()
+  {
+    const string hostUrl = "https://us-east-1-1.aws.cloud2.influxdata.com";
+    string? database = System.Environment.GetEnvironmentVariable("INFLUX_DATABASE");
+    string? authToken = System.Environment.GetEnvironmentVariable("INFLUX_TOKEN");
+
+    using var client = new InfluxDBClient(hostUrl, authToken: authToken, database: database);
+
+    const string record = "home,room=Living\\ Room temp=22.2,hum=36.4,co=17i";
+    Console.WriteLine("Write record: {0,-30}", record);
+    await client.WriteRecordAsync(record: record);
+  }
+}
+</code>
+                  </pre>
+                </div>
+                <div class='pre-container'>
+                  <pre id='java_read' class="id-home-pre id-code-scroll hidden">
+                  <code class="language-java">package com.influxdb.v3;
+
+import java.time.Instant;
+import java.util.stream.Stream;
+
+import com.influxdb.v3.client.InfluxDBClient;
+import com.influxdb.v3.client.query.QueryOptions;
+import com.influxdb.v3.client.Point;
+
+public class IOxExample {
+    public static void main(String[] args) throws Exception {
+        String host = "https://us-east-1-1.aws.cloud2.influxdata.com";
+        char[] token = "my-token".toCharArray();
+        String database = "database";
+
+        try (InfluxDBClient client = InfluxDBClient.getInstance(host, token, database)) {
+            //
+            // Query by SQL
+            //
+            System.out.printf("--------------------------------------------------------%n");
+            System.out.printf("| %-8s | %-8s | %-30s |%n", "location", "value", "time");
+            System.out.printf("--------------------------------------------------------%n");
+
+            String sql = "select time,location,value from temperature order by time desc limit 10";
+            try (Stream<Object[]> stream = client.query(sql)) {
+                stream.forEach(row -> System.out.printf("| %-8s | %-8s | %-30s |%n", row[1], row[2], row[0]));
+            }
+            System.out.printf("--------------------------------------------------------%n%n");
+        }
+    }
+}</code>
+                  </pre>
+                </div>
+                <div class='pre-container'>
+                  <pre id='java_write' class="id-home-pre id-code-scroll hidden">
+                  <code class="language-java">package com.influxdb.v3;
+
+import java.time.Instant;
+import java.util.stream.Stream;
+
+import com.influxdb.v3.client.InfluxDBClient;
+import com.influxdb.v3.client.query.QueryOptions;
+import com.influxdb.v3.client.Point;
+
+public class IOxExample {
+    public static void main(String[] args) throws Exception {
+        String host = "https://us-east-1-1.aws.cloud2.influxdata.com";
+        char[] token = "my-token".toCharArray();
+        String database = "database";
+
+        try (InfluxDBClient client = InfluxDBClient.getInstance(host, token, database)) {
+            //
+            // Write by Point
+            //
+            Point point = Point.measurement("temperature")
+                   .setTag("location", "west")
+                   .setField("value", 55.15)
+                   .setTimestamp(Instant.now().minusSeconds(-10));
+            client.writePoint(point);
+
+            //
+            // Write by LineProtocol
+            //
+            String record = "temperature,location=north value=60.0";
+            client.writeRecord(record);
+        }
+    }
+}</code>
+                  </pre>
+                </div>
+            </div><!-- .code-area -->
+          </div> <!-- #code-example -->
+        </div>  <!-- code-blocks -->
+
+
+      </div> <!-- .max-900 -->
+    </div>
+  </section>
+</section>
+
+
+  <div class="section has-navy-bgr br-btm-r-80-old" style="margin-bottom: -10px;">
+    <div class="container">
+
+      <div class="features is-flex is-flex-wrap-wrap is-justify-content-space-between">
+        <div class="item dark-navy has-text-white has-text-centered">
+          <h4 class="text-24 m-0 has-text-white">400+ Telegraf plugins</h4>
+          <p class="has-text-white pt-10">Seamless integration with your favorite tools with Telegraf, our popular open source connector with 5B+ downloads.</p>
+        </div>
+
+        <div class="item dark-navy has-text-white has-text-centered">
+          <h4 class="text-24 m-0 has-text-white">Client libraries</h4>
+          <p class="has-text-white pt-10">InfluxDB client libraries make it easy to integrate time series data into your applications using your favorite programming languages.</p>
+        </div>
+
+        <div class="item dark-navy has-text-white has-text-centered">
+          <h4 class="text-24 m-0 has-text-white">Community & ecosystem</h4>
+          <p class="has-text-white pt-10">InfluxDB includes a massive community of cloud and open source developers to help you work the way you want.</p>
+        </div>
+      </div>
+
+    </div>
+
+  
+  
+    <!-- #social sharing -->
+    <div class="container pt-50 with-social">
+
+      <div class=" ">
+        <h2 class="text-34 has-text-weight-bold has-text-white">Join the community</h2>
+      </div>
+
+      <div class="community-section">
+        <div class="social-icons">
+          <a href="https://discord.com/invite/9zaNCW2PRT" target="_blank" class="icon"><img src="//images.ctfassets.net/o7xu9whrs0u9/4j5vqZk4p3uFeyS77PPue8/2cec25c83e3a7f8cf8e2254ec5e5f4eb/discord-icon.svg" alt="Social 4"></a>
+          <a href="https://github.com/influxdata/influxdb" target="_blank" class="icon"><img src="//images.ctfassets.net/o7xu9whrs0u9/3kD6R6lL4Gnvzdz0iWhfKD/8cf653059a0c3a953ed76fabce293078/Rectangle_34624502.png" alt="Social 4"></a>
+          <a href="https://www.reddit.com/r/influxdb/" target="_blank" class="icon"><img src="/images/logos/reddit-icon.png" alt="Reddit-logo" title="Reddit-logo" itemprop="image"></a>
+          <a href="https://www.influxdata.com/slack" target="_blank" class="icon"><img src="/images/logos/slack-new-logo.svg" alt="slack-new-logo" title="slack-new-logo" itemprop="image"></a>
+          <a href="https://www.linkedin.com/company/influxdb/posts/" target="_blank" class="icon"><img src="//images.ctfassets.net/o7xu9whrs0u9/c526BYLiVWbcJoppcsY3L/37e957a92bcd0235d3aa16ae23f27d21/linkedin.png" alt="Social 5"></a>
+          <a href="https://community.influxdata.com/" target="_blank" class="icon"><img src="/images/logos/kubo_navy.svg" alt="Forum-logo" title="Forum-logo" itemprop="image"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
+<style>
+
+code {
+  font-family: 'Roboto Mono', monospace!important;
+}
+
+.popup-is-hidden {
+    display: none!important;
+  }
+
+.pre-container code[class*="language-"], .pre-container pre[class*="language-"] {
+  text-shadow: none!important;
+  color: #fff!important;
+  background-color: transparent;
+  font-family: 'Roboto Mono', monospace!important;
+}
+
+
+/*--------------navy top nav-------------*/
+
+/*---styles for OneTrust banner--*/
+@media only screen and (min-width: 1256px) {
+  #onetrust-button-group {
+    display: flex!important;
+    justify-content: flex-end!important;
+    gap: 10px!important;
+    flex-wrap: wrap!important;
+  }
+
+  #onetrust-banner-sdk.otFloatingFlat {
+    width: 100%!important;
+    max-width: none!important;
+    margin-left: -30px!important;
+  }
+
+  #onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns {
+    width: 50%!important;
+  }
+
+  #onetrust-banner-sdk .ot-sdk-four.ot-sdk-columns {
+    width: 45%!important;
+  }
+
+  .otFloatingFlat.ot-bottom-left.ot-wo-title {
+  bottom: 0px!important;
+  margin-bottom: -40px!important;
+}
+}
+
+/*--new styles--*/
+
+img.blrb-img {
+  border: 1px solid #C9CBDD;
+  border-radius: 8px;
+  background-color: #FAFAFA;
+}
+
+.blrb-img-navy {
+  border: 1px solid #303877;
+  border-radius: 8px;
+  background-color: #020a47;
+  padding: 5px;
+}
+
+img.blrb-img-lt {
+  border: 1px solid #C9CBDD;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 7px;
+}
+.item.no-border {
+  border: none!important;
+  background-color: #F2F4F6!important;
+  padding: 0px!important;
+}
+.item.dark-navy {
+  background-color: #030938!important;
+  border: none!important;
+  color: #fff!important;
+}
+
+.footer .container.with-logo {
+  border-top: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1408px) {
+  .pointer-content {
+    min-height: 250px;
+  }
+}
+
+span.hljs-variable {
+  color: #ff9ac1;
+}
+
+.for-developers {
+  display: none;
+}
+
+.lh-2 {
+line-height: 1.3em;
+}
+</style>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script>
+  var excode_rw = 'read';
+  var excode_lang = 'python';
+  function choose_example_lang(){
+    jQuery('.id-home-pre').addClass('hidden');
+    jQuery('#'+excode_lang+'_'+excode_rw).removeClass('hidden');
+    if (window.addHljsCopyButtons) { window.addHljsCopyButtons(); }
+  }
+
+  $(document).ready(function(){
+    choose_example_lang(); // initial display of default language
+
+    jQuery('.selector span').on('click',function(){
+      excode_lang = jQuery(this).attr('data-lang');
+      jQuery('.selector span').removeClass('active');
+      jQuery(this).addClass('active');
+      choose_example_lang();
+    });
+    jQuery('.readwrite span').on('click',function(){
+      excode_rw = jQuery(this).attr('data-rw');
+      jQuery('.readwrite span').removeClass('active');
+      jQuery(this).addClass('active');
+      choose_example_lang();
+    });
+
+    $.ajax({
+      url: "https://api.github.com/repos/influxdata/influxdb",
+      type: "GET",
+      success: function(result){
+        $('#num_stars_container').text(result.stargazers_count);
+      }
+    });
+
+  }); /* end document ready */
+</script>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+            </article>
+        </main>
+        <div class="footer">
+    <div class="section py-1">
+
+        <div class="section py-1 footer-logo">
+            <div class="container with-logo py-6">      
+                <img src="/images/influxdata_full_white.svg" width="297" height="auto" alt="InfluxData logo" title="InfluxData logo">
+            </div>
+         </div>
+
+        <div class="section py-1 footer-menu">
+            <div class="container">            
+                <div class="columns">
+                    
+                    <div class="column">
+                        <h5 class="">Product & Solutions</h5>
+                        <ul class="footer-list">
+                            <li><a href="/get-influxdb/">InfluxDB</a></li>
+                            <li><a href="/products/influxdb3-enterprise/">InfluxDB 3 Enterprise</a></li>
+                            <li><a href="/products/influxdb-cloud/serverless/">InfluxDB Cloud Serverless</a></li>
+                            <li> <a href="/products/influxdb-cloud/dedicated/">InfluxDB Cloud Dedicated</a></li>
+                            <li><a href="/products/telegraf-enterprise/">Telegraf Enterprise</a></li>
+                            <li><a href="/products/integrations/">Integrations</a></li>
+                            <li><a href="/glossary/data-warehouse/">Data Lake / Warehouse</a></li>
+                            <li><a href="/time-series-platform/telegraf/">Data Collector</a></li>
+                            <li><a href="/influxdb-pricing/">Pricing</a></li>
+                            <li><a href="/solutions/">Use Cases</a></li>
+                            <li><a href="/what-is-time-series-data/">Time Series Data</a></li>
+                            <li><a href="/time-series-database/">Time Series Database</a></li>
+                            <li><a href="/time-series-forecasting-methods/">Time Series Forecasting</a></li>
+                            <li><a href="/glossary/data-warehouse/">Data Warehousing</a></li>
+                            <li><a href="/solutions/network-monitoring/">Network Monitoring</a></li>   
+                    
+                        </ul>
+                    </div>
+
+                    
+                    <div class="column">
+                        <h5 class="">Developers</h5>
+                        <ul class="footer-list">
+                            <li><a href="/_resources/">Guides</a></li>
+                            <li> <a href="/blog/">Blog</a></li>
+                            <li><a href="/customers/">Customers</a></li>
+                            <li><a href="https://support.influxdata.com/">Support</a></li>
+                            <li><a href="/_resources/">Webinars</a></li>
+                            <li><a href="https://docs.influxdata.com/">Documentation</a></li>
+                            <li><a href="/events/">Events & Live Training</a></li>
+                            <li> <a href="/university/">InfluxDB University</a></li>
+                            <li><a href="https://community.influxdata.com/" target="_blank" rel="noopener noreferrer">Community Forum</a></li>
+                            <li><a href="/products/influxdb/">InfluxDB 3 Core (OSS)</a></li>
+                            <li> <a href="/time-series-platform/telegraf/">Telegraf</a></li>
+                            <li><a href="/influxdb-cloud-on-aws/">AWS</a></li>
+                            <li><a href="/products/integrations/">Product Integrations</a></li>
+                            <li><a href="/time-series-platform/telegraf/telegraf-input-plugin/">Telegraf Inputs</a></li>
+                            <li><a href="/time-series-platform/telegraf/telegraf-output-plugin/">Telegraf Outputs</a></li>
+                            <li><a href="/glossary/">Glossary</a></li>
+                        </ul> 
+                    </div>
+
+
+                    <div class="column">
+                        <h5 class="">Company</h5>
+                        <ul class="footer-list">
+                            <li><a href="/about/">About</a></li>
+                            <li> <a href="/careers/">Careers</a></li>
+                            <li><a href="/partners/">Partners</a></li>
+                            <li><a href="/newsroom/">Newsroom</a></li>
+                            <li><a href="/general-inquiries/">Contact Us</a></li>
+                            <li><a href="/customers/">Customers</a></li>                     
+                        </ul> 
+                    </div>
+
+
+                </div> 
+            </div>     
+        </div>   
+ 
+        <div class="section py-1 footer-address">
+            <div class="container pt-50 pb-20 b-border">
+                <div class="columns is-desktop">                    
+                    <div class='column'> 
+                        <p>548 Market St, PMB 77953<br>San Francisco, California 94104</p>            
+                    </div> 
+
+                    <div class='column is-one-quarter'>
+                        <div class="social-icons-footer">
+                             <h5>Follow Us</h5>
+
+                            <a class="" href="https://www.youtube.com/@influxdata8893" target="_blank" rel="noopener" aria-label="Go to https://www.youtube.com/@influxdata8893">
+                                <div class="uabb-img icon-wrap"> <span class="uabb-icon-wrap">
+                                        <span class="uabb-icon">
+                                            <i class="fa-brands fa-youtube" style="margin-left: -5px;"></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+
+                            <a class="" href="https://twitter.com/influxdb" target="_blank" rel="noopener" aria-label="Go to https://twitter.com/influxdb">
+                                <div class="uabb-img icon-wrap"> <span class="uabb-icon-wrap">
+                                        <span class="uabb-icon">
+                                            <img src="//images.ctfassets.net/o7xu9whrs0u9/4fDx6xWWz9MAxYFYIhJ84g/6207b0255e0be642061d121447477740/logo.svg" width="18" height="18" alt="twitter" title="twitter">
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+                            <a class="" href="https://www.linkedin.com/company/influxdb/" target="_blank" rel="noopener" aria-label="Go to https://www.linkedin.com/company/influxdb/">
+                                <div class="uabb-imgicon-wrap"> <span class="uabb-icon-wrap">
+                                        <span class="uabb-icon">
+                                            <i class="ua-icon ua-icon-linkedin2"></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+                            <a class="" href="https://github.com/influxdata/influxdb" target="_blank" rel="noopener" aria-label="Go to https://github.com/influxdata/influxdb">
+                                <div class="uabb-module-content uabb-imgicon-wrap"> <span class="uabb-icon-wrap">
+                                        <span class="uabb-icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+                            <a class="" href="/slack" target="_blank" rel="noopener" aria-label="Go to /slack">
+                                <div class="uabb-module-content uabb-imgicon-wrap"> <span class="uabb-icon-wrap">
+                                        <span class="uabb-icon">
+                                            <i class="fab fa-slack"></i>
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div> 
+                    </div> 
+                   
+
+                </div> 
+            </div>    
+        </div>  
+
+
+        <div class="section py-1">
+            <div class="container">
+                <div class="footer-copyright pt-5">
+                    <p class="has-text-white">© 2026 InfluxData Inc. All Rights Reserved. </p>            
+                    <div class="legal-links">
+                        <a href="/legal/ ">Legal</a> 
+                        <a href="/security/ ">Security</a> 
+                        <a href="/legal/cookie-policy/">Cookie Policy</a>
+                        <a href="/comparison/">Comparison</a>
+                    </div>
+                </div> 
+            </div> 
+        </div>           
+  
+  </div>                                    
+</div>    
+        
+    </div>
+    
+<script>
+  function hide_mkto_opt(){ return true; }
+  function eucheck(){ return true; }
+
+  function set_nav_offsets(){
+    $('.navbar-item.navbar-delux').each(function(i,item){ 
+        var fullPositionLeft = $(this).offset().left;
+        $(this).find( '.navbar-dropdown' ).css( { 'left': '-'+fullPositionLeft+'px', 'width': $(window).width()+'px' } );
+    });
+  }
+  window.onload = function(){
+    //set_nav_offsets(); // note: important to do on load and not on 'ready'
+  };
+
+
+
+
+   function set_nav_burger(){
+      $(".nav-primary .navbar-burger").click(function() {
+         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+         $(".nav-primary .navbar-burger").toggleClass("is-active");
+         $(".nav-primary .navbar-menu").toggleClass("is-active");
+         $(".nav-primary .navbar-dropdown").hide();
+      });
+      $(".nav-secondary .navbar-burger").click(function() {
+         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+         $(".nav-secondary .navbar-burger").toggleClass("is-active");
+         $(".nav-secondary .navbar-menu").toggleClass("is-active");
+      });
+      $('.navbar-dropdown-extender').on('click',function(){
+        $(this).parent().find('.navbar-dropdown').slideToggle();
+      });
+   }
+   
+
+
+
+  let isMarketoInitialized = false;
+
+  function initMarketoFormsOnload() {
+      if (isMarketoInitialized) {
+          console.log("Marketo already initialized, skipping.");
+          return;
+      }
+      console.log("initMarketoFormsOnload called.");
+
+      if (typeof (MktoForms2) === 'undefined') {
+          const element = document.createElement("script");
+          element.src = "https://get.influxdata.com/js/forms2/js/forms2.min.js";
+          element.onload = function () {
+              console.log("Marketo script loaded.");
+              setMktoOptions();
+          };
+          document.body.appendChild(element);
+      } else {
+          console.log("MktoForms2 already loaded.");
+          setMktoOptions();
+      }
+
+      isMarketoInitialized = true; // Set the flag to true after initializing
+  }
+
+
+
+  var captcha_response;
+
+  /*
+  const minKeys = ['testimonialProjectDescription', 'testimonialFeatures','testimonialCustomerQuote','testimonialTips'];
+  const hoodieFormId = 2224;
+  var minLengths = {
+    testimonialProjectDescription: 450,
+    testimonialFeatures: 450,
+    testimonialCustomerQuote: 450,
+    testimonialTips: 150
+  };
+
+  function checkMinLen(e){
+    var l = jQuery(this).val().length,
+        id = jQuery(this).attr('id');
+    if( ! minLengths[id] ) return;
+    jQuery(this).parent().find('.mktoError').remove();
+    jQuery(this).removeClass('minvalInvalid');
+    if( l < minLengths[id] ){
+      jQuery(this).removeClass('mktoValid').addClass('minvalInvalid');
+      jQuery(this).after("<div class='mktoError'>"+l+"/"+minLengths[id]+" of minimum</div>");
+      return false;
+    }
+    f = MktoForms2.getForm( hoodieFormId );
+    f.submitable(true);
+  }
+
+  var setMinLenFocus = false;
+
+  function checkHoodieMinLen(){
+     setMinLenFocus = false;
+     f = MktoForms2.getForm( hoodieFormId );
+     if( !f ){ return }
+     f.submitable(true);
+     minKeys.forEach(function(k){
+       if( jQuery("#"+k).length < 1 ){ return false; }
+       var $t = jQuery("#"+k);
+       var l = $t.val().length;
+       if( l < minLengths[k] ){
+         f = MktoForms2.getForm( hoodieFormId );
+         f.submitable(false);
+         setTimeout(function(){ reEnableMktoForm(f); }, 500);
+         $t.removeClass('mktoValid').addClass('minvalInvalid');
+         $t.after("<div class='mktoError'>"+l+"/"+minLengths[k]+" of minimum</div>");
+         setMinLenFocus ||= k;
+       }
+     });
+     if( setMinLenFocus ){
+        jQuery("#"+setMinLenFocus).focus();
+	     }
+	  }
+  */
+
+  function reEnableMktoForm(f){
+     if( !f ){ return }
+     f.submitable(true);
+  }
+
+  function checkCaptcha(form){
+    console.log('checkCaptcha');
+    form.submittable(false);
+    var formEl = form.getFormElem()[0],
+        formElId = form.getId(),
+        submitEl = formEl.querySelector('BUTTON[type="submit"]');
+    submitEl.innerHTML = 'Submitting...';
+    submitEl.disabled = true;
+    if (false){ // } (captcha_response) {
+      form.addHiddenFields({
+        lastRecaptchaEnabledFormID: formElId
+      });
+      if(!capr){ 
+        capstat(form); 
+        return false;
+      } else if( !valid_eml ){
+        eml_chk(form);
+        return false;
+      } else  {
+        console.log('cptch gd');
+        gtmid(form);
+        form.submittable(true);
+        return true;
+      }
+    }
+    console.log('cptch ft');
+    gtmid(form);
+    form.submittable(true);
+    return true;
+  }
+
+
+  var capform, capr, valid_eml = false;
+
+  capr = true;
+  valid_eml = true;
+
+  const chk_hst = 'https://t.influxstaging.com';
+
+  function capstat(form){
+    console.log('capstat');
+
+    capform = form;
+
+    let chk_url = chk_hst + '/cap/'+captcha_response;
+
+    // if the form has an email, send that as well, base64 encoded.
+    let email = form.getValues().Email;
+    if( email ){
+      chk_url += '?ml='+btoa(email);
+    }
+
+    $.ajax({
+      url: chk_url,
+      type: 'GET',
+      success: function(data){
+        console.log('capstat resp', data);
+        if( data.success === true ){
+          capr = true;
+
+          capform.addHiddenFields({
+            'lastRecaptchaUserInput': data.score
+          });
+          
+          handle_bv_response(data);
+          
+        } else {
+          capr = true;
+          form.submittable(true);
+          form.submit();
+        }
+      },
+      error: function(xhr, status, error) {
+        console.log('capstat check failed, submitting form anyway', status, error);
+        capr = true;
+        form.submittable(true);
+        form.submit();
+      },
+      timeout: 5000 // Set a timeout to prevent long waits
+    });
+  }
+
+  function eml_chk(form){
+    console.log('eml_chk');
+    capform = form;
+    let chk_url = chk_hst + '/eml';
+    let email = form.getValues().Email;
+    if( email ){
+      chk_url += '?ml='+btoa(email);
+    } else {
+      return false;
+    }
+    $.get(chk_url, function(data){ handle_bv_response(data); } );
+  }
+
+  function handle_bv_response(data){
+    $('#emlErr').remove();
+      
+    if( 
+        data.verify_status && 
+        data.verify_status == 'invalid' 
+    ){
+        // add error message to the marketo form:
+        var emailElem = capform.getFormElem().find("#Email");
+        $('<span id="emlErr" class="mktoError">Must be valid email. example@company.com</span>').insertAfter(emailElem);
+        capform.submittable(true);
+
+        // enable the submit button as well (some forms, but not tall, disable the button and update the text)
+        var submitButton = $(capform.getFormElem()).find('button[type=submit]')[0];
+        if( submitButton ){
+          submitButton.disabled = false;
+          if( submitButton.textContent.match(/ing|\.\.\./) ){ // ex: "Submitting..."
+            submitButton.textContent = "Submit"; 
+          }
+        }
+
+        return false;
+    }
+
+    valid_eml = true;
+          
+    if( data.verify_status ){
+      capform.addHiddenFields({
+        'Validity_Verify__Checked__c': true,
+        'Validity_Verify__Status__c': data.verify_status,
+        'Validity_Verify__Timestamp__c': new Date().toISOString()
+      });
+    }
+    capform.submittable(true);
+    capform.submit();
+  }
+
+
+  function fix_mkto_labels(){
+      jQuery('form.mktoForm').find('label,input,select,textarea').each(function(){ jQuery(this).removeAttr('style') });
+      jQuery('.mktoForm .mktoRadioList').parent().find('label').addClass('radio_label');
+
+      // remove colons from labels
+      jQuery.each( jQuery('label.mktoLabel'), function(i,val){ jQuery(val).html( jQuery(val).html().replace(':','')) } );
+      // hide asterisks on checkboxes
+      jQuery('.mktoCheckboxList').parent().find('.mktoAsterix').hide();
+      jQuery('.mktoCheckboxList').parent().find('label').addClass('checkboxLabel')
+      // fix labels for selects
+      jQuery('form.mktoForm').find('select').each(function(){
+        var $sv = jQuery(this);
+        var $lb = $sv.parent().find('label:visible');
+        var op = $sv.find('option')[0];
+
+         if( $lb.length > 0 && op.value == '' ){
+          var txt = $lb.text();
+          if( txt.match(/\*/) ){ txt = txt.replace("*",''); }
+          jQuery(op).html( txt+" " );
+          $lb.remove();
+        }
+      });
+
+      // dynamically change the labels:
+      jQuery('input.mktoField, textarea.mktoField').on('focus',function(){ jQuery(this).parent().find('label').addClass('triggered'); });
+      jQuery('input.mktoField, textarea.mktoField').on('blur',function(){
+        if( jQuery(this).val() == '' ) jQuery(this).parent().find('label').removeClass('triggered');
+      });
+      jQuery('select.mktoField').on('focus click',function(){ jQuery(this).addClass('triggered'); jQuery(this).parent().find('label').addClass('triggered'); });
+      jQuery('select.mktoField').on('blur change',function(){
+        if( jQuery(this).val() == '' ) jQuery(this).removeClass('triggered');
+      });
+      // focus the form field when the label is clicked, since it covers part of the input
+      jQuery('label.mktoLabel').on('click',function(){ jQuery(this).parent().find('input,select').focus(); })
+  }
+
+
+  if (typeof(mktoFormFix) == 'undefined') {
+    mktoFormFix = function(form) {
+        //console.log('mktoFormFix - placeholder');
+    }
+  }
+
+
+  function setMktoOptions(){
+    // console.log('orig setMktoOptions');
+    MktoForms2.setOptions({ formXDPath:"/rs/972-GDU-533/images/marketo-xdframe-relative.html" });
+
+    /*
+    MktoForms2.whenRendered(function(form) {
+      jQuery('textarea.mktoRequired').on('blur keyup',checkMinLen);
+    });
+    */
+
+    jQuery("form[id^=mktoForm_]").each(function(){
+      if( jQuery(this).hasClass('skipautoload') ){ return; }
+      var mktoFormIds = MktoForms2.allForms().map(function(e){ return e.getId() });
+      var form_id_str = jQuery(this).attr('id');
+      var form_id = parseInt(form_id_str.replace('mktoForm_',''));
+      if( !mktoFormIds.includes( form_id ) ){
+        MktoForms2.loadForm("https://get.influxdata.com", "972-GDU-533", form_id);
+      }
+    });
+
+    // Override Marketo Form Styling
+    MktoForms2.whenReady(function (form) {
+      //console.log('MktoForms ready');
+      var formEl = form.getFormElem()[0];
+      mktoFormFix(form);
+      var form_id = parseInt(formEl.id.replace('mktoForm_',''));
+      switch(form_id){
+        case 1135:
+          form.addHiddenFields({'mkto_content_name':'General Inquiries'}); break;
+        case 1137:
+          form.addHiddenFields({'mkto_content_name':'Preference Center'}); break;
+        case 1195:
+          form.addHiddenFields({'mkto_content_name':'Testimonials'}); break;
+        case 1202:
+          form.addHiddenFields({'mkto_content_name':'Meetup Sticker Request'}); break;
+        case 1205:
+          form.addHiddenFields({'mkto_content_name':'DevOps Days Form'}); break;
+        case 1212:
+          form.addHiddenFields({'mkto_content_name':'Newsletter Signup'}); break;
+        case 1606:
+          form.addHiddenFields({'mkto_content_name':'Blog Subscription'}); break;
+        case 1829:
+          form.addHiddenFields({'mkto_content_name':'Support OSS'}); break;
+        case 1889:
+          form.addHiddenFields({'mkto_content_name':'Sticker Request'}); break;
+        case 2935: // communication preferences
+          // add option to unsubscribe from all
+          $('<a class="uns-link" href="#">Unsubscribe from all emails</a>').insertAfter('.mktoEmailField').on('click',function(){
+            const $unsub_all = $(`#${formEl.id} input[type=checkbox`).last();
+            $([document.documentElement, document.body]).animate({
+                scrollTop: ($unsub_all.offset().top-200)
+            }, 1000); // scroll down to the last one
+            $(`#${formEl.id} input[type=checkbox`).prop('checked',false); // uncheck them all
+            $unsub_all.click(); // check just the last one
+          });
+          break;
+          
+      }
+      /*
+      if( form_id == hoodieFormId ){
+        form.onSubmit(function(f){
+          checkHoodieMinLen(f);
+          return checkCaptcha(f);
+         });
+      } 
+      else
+      */
+      // if( [2926,3144,2885].includes(form_id) ) {  // not forms with chili piper - 2847,
+      //   form.onSubmit(function(f){
+      //     gtmid(f);
+      //     return true;
+      //   });
+      // }
+      if( [2935].includes(form_id) ) {  // no captcha on unsubscribe/communication preferences
+        form.onSubmit(function(f){
+          gtmid(f);
+          return true;
+        });
+      }
+      else {
+        form.onSubmit(function(f){
+          console.log('form submit');
+          return checkCaptcha(f);
+        });
+      }
+
+      // when an email field is edited, make sure the error message is removed
+      $("#Email").on('change',function(){
+        $('#emlErr').remove();
+      });
+
+      // remove element styles from root and children (may want to disable this while debugging)
+      for (var elsWithStyles = document.querySelectorAll('#' + formEl.id + ', #' + formEl.id + ' [style]'), i = 0, imax = elsWithStyles.length; i < imax; i++) {
+          elsWithStyles[i].removeAttribute('style');
+      }
+
+      // disable all Marketo-sourced stylesheets
+      //console.log('clear mkto styles');
+      for (var styleSheets = document.styleSheets, i = 0, imax = styleSheets.length; i < imax; i++) {
+        var ssLoc = document.createElement('A');
+        ssLoc.href = styleSheets[i].href;
+
+        if ((ssLoc.hostname.search(/\.marketo\.com$/) !== -1) //  external STYLEs
+        ||
+        (ssLoc.hostname.search(/get\.influxdata\.com$/) !== -1)
+        ||
+        ((styleSheets[i].ownerNode || styleSheets[i].owningElement).parentNode == formEl)) { //  inline STYLEs within FORM tag
+            styleSheets[i].disabled = true;
+        }
+      }
+
+      // remove embedded styles - must re-run every time something is changed
+      fix_mkto_labels();
+      jQuery('form.mktoForm').find('label,input,select,textarea').on('change', function(){ setTimeout(
+        function(){
+          fix_mkto_labels();
+        }, 500);
+      });
+
+
+
+    });
+
+    // after all forms are loaded, set the gtmid if available
+    if( getCookie('gtmid') ){
+      dataLayer.push({'user_id': getCookie('gtmid') });
+    }
+  }
+
+    
+
+
+   $(document).ready(function(){
+     set_nav_burger();
+
+     /* delay loading drift */
+     setTimeout(function() {
+       LoadDriftWidget();
+     }, 2000);
+      
+   });
+
+  /* -- defer as much here as possible to prevent render blocking -- */
+  window.addEventListener('load', function () {
+
+    jQuery.ajax({
+      url: 'https://www.google.com/recaptcha/api.js?render=6Le4K48UAAAAALkQHkVA4G8XXpLWEb5xy7JC5bux',
+      dataType: 'script',
+      cache: true,
+      success: function(){
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6Le4K48UAAAAALkQHkVA4G8XXpLWEb5xy7JC5bux', {action: 'submit'}).then(function(token) {
+            captcha_response = token;
+          });
+          jQuery('.grecaptcha-badge').hide();
+        });
+      }
+    });
+
+    /* Load Marketo Munchkin Code */
+    jQuery.ajax({
+      url: '//munchkin.marketo.net/munchkin.js',
+      dataType: 'script',
+      cache: true,
+      success: function() {
+        Munchkin.init('972-GDU-533');
+      }
+    });
+
+    /* Init Marketo Forms */
+    initMarketoFormsOnload();
+  });
+
+
+
+
+
+
+
+  function md5Cycle(x, k) {
+      var a = x[0], b = x[1], c = x[2], d = x[3];
+      a = ff(a, b, c, d, k[0], 7, -680876936);
+      d = ff(d, a, b, c, k[1], 12, -389564586);
+      c = ff(c, d, a, b, k[2], 17,  606105819);
+      b = ff(b, c, d, a, k[3], 22, -1044525330);
+      a = ff(a, b, c, d, k[4], 7, -176418897);
+      d = ff(d, a, b, c, k[5], 12,  1200080426);
+      c = ff(c, d, a, b, k[6], 17, -1473231341);
+      b = ff(b, c, d, a, k[7], 22, -45705983);    
+      return [a, b, c, d];
+  }
+  function hex(n) {
+      var s="", v;
+      for (var i=7; i>=0; i--) { v = (n>>>(i*4)) & 0xf; s += v.toString(16); }
+      return s;
+  }
+  function md5blk(s) { 
+      var md5blks = [], i; 
+      for (i=0; i<64; i+=4) {
+          md5blks[i>>2] = s.charCodeAt(i)
+          + (s.charCodeAt(i+1) << 8)
+          + (s.charCodeAt(i+2) << 16)
+          + (s.charCodeAt(i+3) << 24);
+      }
+      return md5blks;
+  }
+  function ff(a, b, c, d, x, s, t) {
+      var n = a + ((b & c) | ((~b) & d)) + x + t;
+      return ((n << s) | (n >>> (32 - s))) + b;
+  }
+  function createHash(str) {
+    var n = str.length,
+      state = [1732584193, -271733879, -1732584194, 271733878], i;
+    for (i=64; i<=str.length; i+=64) {
+      state = md5Cycle(state, md5blk(str.substring(i-64, i))); 
+    }
+    str = str.substring(i-64);
+    var tail = Array(str.length);
+    for (i=0; i<str.length; i++) tail[i] = str.charCodeAt(i);
+    var s = state, len = n * 8;
+    tail[n >> 2] |= 0x80 << ((n) % 4 << 3);
+    tail[(((n + 8) >> 6) << 4) + 14] = len;
+    s = md5Cycle(s, tail); // Update the line to assign the result back to 's'
+    return hex(s[0]) + hex(s[1]) + hex(s[2]) + hex(s[3]);
+  }
+  function setCookie(name, value, expires){
+       document.cookie = name+"="+ value+";expires=" + expires + ";path=/";
+      }
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+  
+  function gtmid(f){
+    let email = f.getValues().Email;
+    if( email ){
+      let ehash = createHash(email);
+      dataLayer.push({'user_id': ehash });
+      setCookie('gtmid', ehash, 'Thu, 31 Dec 2099 23:59:59 GMT');
+    }
+  }
+</script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="/javascripts/bulma-collapsible.min.js"></script>
+<script>
+  hljs.highlightAll();
+
+  function addHljsCopyButtons() {
+    var blocks = document.querySelectorAll('pre code');
+    for (var i = 0; i < blocks.length; i++) {
+      var codeEl = blocks[i];
+      var pre = codeEl.parentElement;
+      if (!pre) continue;
+
+      var wrapper = pre.parentElement;
+      if (!wrapper || !wrapper.classList || !wrapper.classList.contains('hljs-copy-wrap')) {
+        wrapper = document.createElement('div');
+        wrapper.className = 'hljs-copy-wrap';
+        pre.parentNode.insertBefore(wrapper, pre);
+        wrapper.appendChild(pre);
+      }
+
+      if (wrapper.querySelector('.hljs-copy-btn')) {
+        if (pre.classList && pre.classList.contains('hidden')) {
+          wrapper.style.display = 'none';
+        } else {
+          wrapper.style.display = '';
+        }
+        continue;
+      }
+
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'hljs-copy-btn';
+      btn.textContent = 'Copy';
+
+      btn.addEventListener('click', function (e) {
+        var button = e.currentTarget;
+        var wrapEl = button.parentElement;
+        var preEl = wrapEl ? wrapEl.querySelector('pre') : null;
+        var codeEl = preEl ? preEl.querySelector('code') : null;
+        var text = codeEl ? codeEl.innerText : (preEl ? preEl.innerText : '');
+
+        function done() {
+          button.textContent = 'Copied';
+          setTimeout(function () { button.textContent = 'Copy'; }, 1200);
+        }
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(done).catch(done);
+        } else {
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          ta.style.position = 'fixed';
+          ta.style.left = '-9999px';
+          document.body.appendChild(ta);
+          ta.focus();
+          ta.select();
+          try { document.execCommand('copy'); } catch (err) {}
+          document.body.removeChild(ta);
+          done();
+        }
+      });
+
+      wrapper.appendChild(btn);
+
+      if (pre.classList && pre.classList.contains('hidden')) {
+        wrapper.style.display = 'none';
+      }
+    }
+  }
+
+  window.addHljsCopyButtons = addHljsCopyButtons;
+  addHljsCopyButtons();
+  document.addEventListener('DOMContentLoaded', addHljsCopyButtons);
+
+  (function () {
+    if (window.__bulmaCollapsibleInit) return;
+    window.__bulmaCollapsibleInit = true;
+    if (window.bulmaCollapsible && document.querySelector('.is-collapsible')) {
+      bulmaCollapsible.attach('.is-collapsible');
+    }
+  })();
+
+  (function () {
+    function initCodeExamples() {
+      if (typeof jQuery === 'undefined') return;
+      if (!document.querySelector('.code_examples')) return;
+      if (!document.querySelector('.selector.code-logo')) return;
+      if (!document.querySelector('.readwrite')) return;
+
+      var excode_rw = 'read';
+      var excode_lang = 'python';
+
+      function choose_example_lang() {
+        jQuery('.id-home-pre').addClass('hidden');
+        jQuery('#' + excode_lang + '_' + excode_rw).removeClass('hidden');
+        if (window.addHljsCopyButtons) { window.addHljsCopyButtons(); }
+      }
+
+      choose_example_lang();
+
+      jQuery('.selector.code-logo span').on('click', function () {
+        excode_lang = jQuery(this).attr('data-lang');
+        jQuery('.selector.code-logo span').removeClass('active');
+        jQuery(this).addClass('active');
+        choose_example_lang();
+      });
+
+      jQuery('.readwrite span').on('click', function () {
+        excode_rw = jQuery(this).attr('data-rw');
+        jQuery('.readwrite span').removeClass('active');
+        jQuery(this).addClass('active');
+        choose_example_lang();
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initCodeExamples);
+    } else {
+      initCodeExamples();
+    }
+  })();
+</script>
+
+<div id='search-container' style='display:none'>
+  <input id="docsearch" type='text' placeholder="Search..." />
+  <i id='search-close' class="fas fa-close"></i>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/docsearch.js/2.6.3/docsearch.min.css" />
+<style>
+  #search-init {
+    display: inline: block;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  #search-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #020a47;
+    padding: 5px;
+    color: #fff;
+    z-index: 9999;
+  }
+  #search-container input {
+    background-color: transparent;
+    color: inherit;
+    width: 100%;
+    display: block;
+    border: none;
+    font-size: 1.2em;
+    min-width: 400px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  #search-container ::-webkit-input-placeholder {
+  color: #fff;
+}
+
+  #docsearch:focus-visible {
+    outline: none;
+  }
+
+  #search-container #search-close {
+    display: block;
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 26px;
+  }
+
+  .algolia-docsearch-footer { display: none; }
+  .algolia-docsearch-suggestion--subcategory-column,
+  .algolia-docsearch-suggestion--subcategory-inline { display: none; }
+</style>
+
+<!-- script src="https://cdnjs.cloudflare.com/ajax/libs/docsearch.js/2.6.3/docsearch.min.js"></script -->
+
+<script>
+
+  // var ds = docsearch({
+  //   inputSelector: '#docsearch',
+  //   apiKey: '637a8fbb3d9195b296ab6367ebe3fd3a',
+  //   appId: 'A09V5NRS1W',
+  //   indexName: 'influx_www_full',
+  //   debug: false
+  // });
+
+  $(document).ready(function(){
+    $('#search-init').on('click',function(){
+      $('#search-container').show()
+      $('#docsearch').val('').focus();
+    });
+    $('#search-close').on('click',function(){
+      $('#search-container').hide()
+    });
+
+    // Add Enter key handler to redirect to search page
+    $('#docsearch').on('keypress', function(e) {
+      if (e.which === 13) { // Enter key
+        e.preventDefault(); // Prevent default docsearch behavior
+        const query = $(this).val().trim();
+        if (query) {
+          window.location.href = `/search/?q=${encodeURIComponent(query)}`;
+        } else {
+          window.location.href = '/search/';
+        }
+      }
+    });
+  });
+
+</script>
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXRH9C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<style>
+.navbar-dropdown-extender {
+position: absolute;
+right: 6px;
+width: 30px;
+height: 30px;
+top: 5px;
+}
+.mktoError { color: red }
+</style>
+
+
+ <script>
+        // Function to set a cookie
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days*24*60*60*1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            var cookieString = name + "=" + (value || "")  + expires + "; path=/"; // Define cookieString variable here
+            document.cookie = cookieString; // Set the cookie using cookieString
+            console.log(`Setting cookie: ${cookieString}`);
+        }
+
+        // Function to get the current page path
+        function getPagePath() {
+            return window.location.pathname + window.location.search;
+        }
+
+        // Main function to check the URL and set the cookie
+        function checkURLAndSetCookie() {
+            var path = getPagePath();
+            console.log(`Current path: ${path}`);
+            if (path.includes("/influxdata-pricing") || path.includes("/get-influxdb-start")) {
+                setCookie("contrl", "true", 7); // Set cookie 'con' for 7 days
+            } else if (path.includes("/influxdbpricing") || path.includes("/getinfluxdb")) {
+                setCookie("list", "true", 7); // Set cookie 'list' for 7 days
+            } else if (path.includes("/influx-pricing") || path.includes("/get-influx")) {
+                setCookie("open", "true", 7); // Set cookie 'open' for 7 days
+            }
+        }
+
+        // Run the function when the page loads
+        window.onload = checkURLAndSetCookie;
+    </script>
+
+</body>
+</html>

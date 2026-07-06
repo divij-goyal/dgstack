@@ -1,0 +1,378 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Double Robotics - Telepresence Robot for the Hybrid Office</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="img_src" href="img2/standard/logo-square-512.jpg">
+	<link rel="stylesheet" href="/css/style-dock.css?v29">
+	<link rel="stylesheet" href="/js/magnific-popup.css">
+	<link rel="apple-touch-icon" href="/img2/standard/logo-double-robotics-mark-512.png">
+	<meta name="viewport" content="width=1200">
+
+	
+	<script src="/js/jquery.1.9.1.min.js"></script>
+	<script src="/js/jquery.magnific-popup.min.js"></script>
+	<script src="/js/jquery-cookie.js"></script>
+
+	<script type="text/javascript">
+		var mousingUp = false;
+		var mousingLastX = -1;
+		var mousingLastY = -1;
+		var mousingUpTimeout = null;
+		var mousingLeaveTimeout = null;
+		var preventRepeatGoodbyeBubbles = true;
+	
+		$(document).ready(function() {
+
+			$('.popup-youtube').magnificPopup({ 
+			    type: 'iframe',
+			    iframe: {
+			        markup: '<div class="mfp-iframe-scaler">'+
+			            '<div class="mfp-close"></div>'+
+			            '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+			            '<div class="mfp-title">Some caption</div>'+
+			            '</div>',
+			        patterns: {
+			            youtube: {
+			                index: 'youtube.com/', 
+			                id: 'v=',
+			                src: 'https://www.youtube.com/embed/%id%?rel=0&autoplay=0'
+			            }
+			        }
+			    },
+				gallery: {
+					enabled: true
+				}
+			});
+
+			$('.image-popup-vertical-fit').magnificPopup({
+				type: 'image',
+				closeOnContentClick: true,
+				mainClass: 'mfp-img-mobile',
+				image: {
+					verticalFit: true
+				}
+	
+			});
+			
+			$("#viewContainer").html("<img src='https://secure.doublerobotics.com/addView.php?source="+ getURLParameter("source") +"&url="+ encodeURIComponent(window.location) +"' width='1' height='1' border='0' style='border: 0px !important; border-image-width: 0px; border-color: red;' alt='Invisible image' />");
+
+			$("body").mousemove(function (e) {
+				var x = e.pageX - $(window).scrollLeft();
+				var y = e.pageY - $(window).scrollTop();
+				var xMagnitude = Math.abs(mousingLastX - x);
+				var yMagnitude = Math.abs(mousingLastY - y);
+				
+				if (xMagnitude == 0 && yMagnitude == 0) {
+					return;
+				}
+				
+				mousingUp = (y < mousingLastY && yMagnitude > xMagnitude/3);
+				mousingLastX = x;
+				mousingLastY = y;
+
+				if (mousingUpTimeout) {
+					window.clearTimeout(mousingUpTimeout);
+				}
+				mousingUpTimeout = window.setTimeout(fireMousingUpTimeout, 25);
+
+				if (mousingLeaveTimeout) {
+					window.clearTimeout(mousingLeaveTimeout);
+				}
+			});
+
+			$("body").mouseleave(function() {
+				if (mousingUp && mousingLastY < 200 && !$("#goodbyeBubble").is(":visible") && document.hasFocus()) {
+					var alreadyShown = $.cookie("blockGoodbyeBubble");
+					if (preventRepeatGoodbyeBubbles && alreadyShown) {
+						// console.log("Already shown");
+					} else {
+						mousingLeaveTimeout = window.setTimeout(fireMousingLeavingTimeout, 300);
+						// console.log("mouse left");
+					}
+				}
+			});
+
+			function fireMousingUpTimeout() {
+				mousingUp = false;
+			}
+			
+			function fireMousingLeavingTimeout() {
+				/*
+				window.setTimeout(function () {
+					var qfwozpz1aijx1a;
+					(function(d, t) {
+							var s = d.createElement(t), options = {
+							'userName':'doublerobotics',
+							'formHash':'qfwozpz1aijx1a',
+							'autoResize':true,
+							'height':'370',
+							'async':true,
+							'host':'wufoo.com',
+							'header':'show',
+							'ssl':true};
+							s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+							s.onload = s.onreadystatechange = function() {
+							var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+							try { qfwozpz1aijx1a = new WufooForm();qfwozpz1aijx1a.initialize(options);qfwozpz1aijx1a.display(); } catch (e) {}};
+							var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+							})(document, 'script');
+				}, 500);
+				$("#goodbyeBubble").show();
+				$("#goodbyeBubble").addClass("pop");
+				blockGoodbyeBubble();
+				olark('api.box.expand');
+				*/
+			}
+
+		});
+		
+		function blockGoodbyeBubble() {
+			$.cookie("blockGoodbyeBubble", 1, { expires: 1, path: '/', domain: 'doublerobotics.com' });
+		}
+		
+		function getURLParameter(name) {
+			return decodeURI(
+				(RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+			);
+		}
+
+		function download(file) {
+			if (_gaq != undefined) {
+				_gaq.push(['_trackPageview', file]);
+			}
+			window.open(file);
+		}
+		
+		var emailBlockErrors = 0;
+
+		function checkEmail() {
+			var block = [
+			    "@gmail.com",
+			    "@yahoo.com",
+			    "@hotmail.com",
+			    "@me.com",
+			    "@icloud.com",
+			    "@aol.com",
+			    "@mac.com",
+			    "@live.com",
+			    "@outlook.com",
+			    "@qq.com",
+			    "@mail.ru",
+			    "@hotmail.co.uk",
+			    "@mailinator.com",
+			    "@googlemail.com",
+			    "@hotmail.fr",
+			    "@ymail.com",
+			    "@msn.com",
+			    "@yahoo.co.jp",
+			    "@web.de",
+			    "@example.com",
+			    "@essdack.org",
+			    "@yahoo.fr",
+			    "@yahoo.co.uk",
+			    "@mail.com",
+			    "@gmail.con",
+				"@trash-mail.com",
+				"@qq.coom",
+				"@mail-here.net",
+				"@163.com",
+				"@126.com",
+				"@mindspring.com"
+			];
+
+			var email = $("#email").val();
+
+			if (email.length < 3) {
+				alert("Error: The email field is required.");
+				return false;
+			}
+
+			if (emailBlockErrors <= 0) {
+				for (var i = 0; i < block.length; i++) {
+					if (email.indexOf(block[i]) > 0) {
+						alert("Error: Invalid email.");
+						emailBlockErrors++;
+						return false;
+					}
+				}
+			}
+
+			return true;
+		}
+
+	</script>
+
+	
+</head>
+<body>
+	<div id="site" class="main home dark">
+		<nav>
+			<div id="mainnav" class="page transparent">
+				<div class="content">
+					<div class="right">
+						<a href="https://drive.doublerobotics.com" class="stroked">LOG IN</a>
+					</div>
+					<div class="middle">
+						<!-- <div href="pricing.html" class="navitem">
+							Solutions&nbsp;&nbsp;<span class="downArrow">&#9660;</span>
+							<div class="submenu">
+								<ul>
+									<li class="subheading">Business</li>
+									<li class="subitem"><a href="">asdf</a></li>
+								</ul>
+								<ul>
+									<li class="subheading">Education</li>
+									<li class="subitem"><a href="">asdf</a></li>
+								</ul>
+								<ul>
+									<li class="subheading">Filmmakers</li>
+									<li class="subitem"><a href="">asdf</a></li>
+								</ul>
+							</div>
+						</div> -->
+						<!-- <a href="/business/" class="navitem ">Hybrid Office</a>
+						<a href="/education/" class="navitem ">Hybrid Classroom</a>
+						<a href="/stories/" class="navitem ">Customer Stories</a>
+						<a href="/double3.html" class="navitem ">Features</a>
+						<a href="/fleet-management.html" class="navitem ">Fleet Management</a> -->
+					</div>
+					<div class="left">
+						<banner><a href="/" id="logo-company" title="Double Robotics Logo"></a></banner>
+					</div>
+				</div>
+									<hr class="dark2">
+							</div>
+		</nav>
+		<main>
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		// $('.heroVideo').magnificPopup({
+		// 	type: 'inline',
+		// 	closeOnContentClick: true,
+		// 	mainClass: 'mfp-img-mobile',
+		// 	image: {
+		// 		verticalFit: true
+		// 	}
+
+		// });
+		$('.heroVideo').click(function (e) {
+			$("#d3hero").toggleClass("bigVideo");
+		});
+	});
+</script>
+
+<div id="d3hero" class="content heroPhoto d3hero">
+	<div class="minimumWidth">
+		<!-- <img src="img2/standard/hero-linkedin-wide.jpg" class="heroWide"> -->
+	</div>
+	<div class="inset">
+		<h1 style="text-align: center;">Double 3</h1>
+		<h2 style="text-align: center;">The future of work is hybrid.</h2>
+		<!-- <h2>Double gives you a physical presence at work or school when you can't be there in person.</h2> -->
+		<div class="heroVideo" style="overflow: hidden;">
+			<video autoplay loop muted playsinline title="No audio; short video clip of robot driving in office.">
+				<source src="files/hls-office/index.m3u8" type="application/x-mpegURL">
+				<source src="files/D3-Office.mov#t=3" type="video/mp4" />
+			</video>
+		</div>
+		<ul class="features">
+			<li class="blue"><img src="img2/_2x/d3-self-driving-hd.png" width="60" height="37" style="margin-top: -3px;" alt="Self-Driving icon">Self-Driving</li>
+			<li class="green"><img src="img2/_2x/d3-target-hd.png" width="32" height="41" alt="Mixed Reality icon">Mixed Reality</li>
+			<li class="pink"><img src="img2/_2x/d3-ptz-hd.png" width="44" height="44" alt="Pan Tilt Zoom icon">Pan–Tilt–Zoom</li>
+		</ul>
+		<!-- <p style="font-size: 16px; margin-top: 40px;">30-Day Money Back Guarantee</p> -->
+	</div>
+	<div class="photoInset">
+		<img src="img2/_2x/d3-hero-hd.png" width="450" border="0" alt="Double 3 telepresence robot">
+		<div class="buttons" style="text-align: center; width: 200px;">
+			<span class="price">Sold Out</span>
+		</div>
+	</div>
+</div>
+
+<hr class="thin" style="margin: 0px;">
+
+<!-- <div id="features" class="page dark">
+	<br><br>
+	<h2><strong>Double 3</strong> &ndash; Features</h2>
+	<div class="content" style="width: 892px;">
+		<div class="robot-height"></div>
+		<div class="robot-features"></div>
+	</div>
+</div> -->
+
+<div class="page dark" style="background: #292929;">
+	<div class="content text">
+		<div class="block-green">
+			<br>
+			<!-- <p style="font-size: 16px;color: white;background: #0090d0;text-align: center;padding: 10px;border-radius: 5px;font-weight: normal;">October 15, 2020 &nbsp;&nbsp;&nbsp; <a href="fleet-management.html" style="font-size: 16px; color: white; font-weight: bold;">SAML SSO is now available in Fleet Management – link your Ping, Azure AD, Okta, etc.</a></p> -->
+			<p style="font-size: 19px; color: #ffffff;">Double 3 is a self-driving, two-wheeled videoconferencing robot that revolutionizes the way you work or learn remotely. With more and more employers allowing flexible or remote schedules, these <strong>hybrid offices</strong> and <strong>hybrid classrooms</strong> need tools designed for this environment. Double 3 is the ultimate tool for remote workers and students to feel more connected to their colleagues by giving them a physical presence where they can’t be in person.</p>
+			<br>
+		</div>
+	</div>
+</div>
+
+<hr class="thin" style="margin: 0px;">
+
+<div class="page dark" style="background: #101010;">
+	<div class="content hoverable">
+		<img src="img2/_2x/d3-features-transparent-hd.png" width="100%" border="0" alt="Robot images from front and side">
+		<div class="leftHalf"><img src="img2/_2x/d3-features-text-transparent-hd.png" width="100%" border="0" class="hoveron" alt="Robot feature highlights"></div>
+		<div class="rightHalf"><img src="img2/_2x/d3-features-text-transparent-hd.png" width="100%" border="0" class="hoveron" alt="Robot feature highlights"></div>
+	</div>
+</div>
+
+<hr class="thin2" style="margin: 0px;">
+
+<div class="page dark" style="background: #101010;">
+	<div class="content text">
+
+		<br><br>
+		<h3 style="color: rgb(49, 179, 255);">Self-Driving</h3>
+		<img src="files/D3-Warehouse-2-medium.gif" style="float: right; margin-left: 40px; margin-bottom: 40px;" alt="Short video of robot driving in warehouse">
+		<p>An array of 3D sensors enables Double 3 to understand its environment, where it’s safe to drive, and how to divert around obstacles to reach the destination. Obstacle avoidance means that completely untrained drivers can drive Double 3 without fear of bumping into walls or people.</p>
+		<br>
+
+		<h3 style="color: rgb(78, 245, 12);">Click-to-Drive</h3>
+		<p>Dots are drawn on the floor where Double 3 can safely drive. The driver can click anywhere on the floor and the robot will go there, avoiding obstacles along the way.</p>
+
+		<p>Mixed Reality is like Augmented Reality, except virtual 3D objects are added into the video stream, and they look like they are placed in the real world. They help you understand what your Double can see, and they highlight important waypoints and objects of interest, such as the Charging Dock.</p>
+		<br>
+		
+		<img src="files/D3-Warehouse-1-small.gif" style="float: left; margin-right: 40px;" alt="Short video of robot camera zooming">
+		<h3 style="color: rgb(248, 59, 153);">Unified Pan-Tilt-Zoom</h3>
+		<p>Two 13 Megapixel cameras provide an ultra wide field of view and multiple levels of zoom.  The cameras can physically tilt up and down, which is helpful for reading papers on a desk or zooming into a specific point.</p>
+		<br><br>
+	</div>
+</div>
+
+<hr class="thin2" style="margin: 40px 0px 0px 0px;">
+<div class="content heroPhoto" id="d3shop">
+	<div class="minimumWidth">
+		<img src="img2/standard/d3-shop-no-text.jpg" class="heroWide" alt="Photo of robot in machine shop">
+	</div>
+</div>
+
+
+<hr class="dark" style="margin: 0px;">
+		</main>
+		<footer>
+			<div class="links">
+								<a href="/privacy.html">Privacy Policy</a>
+				© 2026 Double Robotics, Inc.
+				<div id="viewContainer"></div>
+				<br /><br />
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

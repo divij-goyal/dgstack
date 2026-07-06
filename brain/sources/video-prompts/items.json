@@ -1,0 +1,22 @@
+[
+  {
+    "source": "https://gist.github.com/ruvnet/e20537eb50866b2d837d4d13b066bd88",
+    "pattern": "cinematic_sora",
+    "essence": "Subject + environment + camera movement + lens/lighting + mood + temporal action."
+  },
+  {
+    "source": "https://github.com/geekjourneyx/awesome-ai-video-prompts",
+    "pattern": "awesome_ai_video_prompting",
+    "essence": "Prompt libraries should separate scene, motion, camera, style, audio, constraints, and negative space."
+  },
+  {
+    "source": "https://github.com/Eric-Lautanen/seamless-ai-video-prompt-template",
+    "pattern": "continuous_shot",
+    "essence": "For seamless video, define one continuous camera move, stable subject identity, and no hard cuts."
+  },
+  {
+    "source": "https://github.com/ai-boost/awesome-prompts/blob/main/prompts/video_gen_prompting.txt",
+    "pattern": "video_generation_template",
+    "essence": "Use model-aware syntax and describe physical motion, not only visual appearance."
+  }
+]
