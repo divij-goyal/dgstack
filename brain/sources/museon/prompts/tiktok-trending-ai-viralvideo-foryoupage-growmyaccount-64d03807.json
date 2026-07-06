@@ -1,0 +1,47 @@
+{
+  "content_id": "64d03807-2765-43ec-bd7a-39aeb8f48fb6",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "#trending #ai #viralvideo #foryoupage #growmyaccount",
+  "description": "#trending #ai #viralvideo #foryoupage #growmyaccount",
+  "prompt_text": "A dramatic and physics-defying scene captured from a high-angle aerial view of a steep, winding mountain road. A large, orange double-decker tour bus, packed with passengers on the open-top deck, is dangerously navigating a sharp hair-pin turn. The bus's front wheels hang precariously over the edge of a sheer cliff covered in vertical, stretched green grass textures. A small, light blue sedan is positioned behind the bus on the narrow, reddish-dirt road. The sky is a clear, bright blue with a few wispy clouds. The lighting is bright and direct, suggesting a sunny day, with strong shadows cast on the mountainside. The perspective is tilted, emphasizing the extreme incline of the terrain.",
+  "prompt_data": {
+    "sceneDescription": "A dramatic and physics-defying scene captured from a high-angle aerial view of a steep, winding mountain road. A large, orange double-decker tour bus, packed with passengers on the open-top deck, is dangerously navigating a sharp hair-pin turn. The bus's front wheels hang precariously over the edge of a sheer cliff covered in vertical, stretched green grass textures. A small, light blue sedan is positioned behind the bus on the narrow, reddish-dirt road. The sky is a clear, bright blue with a few wispy clouds. The lighting is bright and direct, suggesting a sunny day, with strong shadows cast on the mountainside. The perspective is tilted, emphasizing the extreme incline of the terrain.",
+    "cinematography": {
+      "mood": "Tense, surreal, and anxiety-inducing due to the impossible physics and dangerous positioning of the vehicles.",
+      "cameraShot": "High-angle, wide shot with a tilted horizon to exaggerate the slope. The camera remains static while the action unfolds within the frame."
+    },
+    "actions": [
+      "The orange tour bus slowly reverses toward the cliff edge.",
+      "The bus's front wheels roll off the edge, and the front of the bus hangs over the abyss.",
+      "The bus continues to reverse and pivot, its front end swinging further out over the cliff side.",
+      "The blue car remains stationary on the road below the bus.",
+      "In the background, a white pickup truck is visible further up the winding road.",
+      "The bus eventually reverses enough to clear the turn and begins to move backward down the road."
+    ],
+    "dialogue": [
+      "[Heavy mechanical engine noises]",
+      "[Repetitive, sharp air brake hissing and clunking sounds]",
+      "[Ambient wind noise]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 24,
+  "views": 58160348,
+  "likes": 288235,
+  "comments": 2179,
+  "shares": 20816,
+  "hashtags": [
+    "trending",
+    "ai",
+    "viralvideo",
+    "foryoupage",
+    "growmyaccount"
+  ]
+}

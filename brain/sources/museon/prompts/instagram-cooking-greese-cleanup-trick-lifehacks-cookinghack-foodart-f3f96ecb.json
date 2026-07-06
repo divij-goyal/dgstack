@@ -1,0 +1,44 @@
+{
+  "content_id": "f3f96ecb-2535-41b4-8687-b2fe7d121d46",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "Cooking greese cleanup trick #lifehacks #cookinghack #foodart",
+  "description": "Cooking greese cleanup trick #lifehacks #cookinghack #foodart",
+  "prompt_text": "A close-up, top-down view of a modern kitchen stovetop where a person is demonstrating a cooking 'life hack'. A non-stick frying pan sits on the gas burner, containing browned ground meat pushed to one side. A significant amount of yellow cooking oil and grease has pooled on the empty side of the pan. The person, wearing a yellow apron, unrolls a compact, white compressed paper towel tab and drops it into the hot grease. They then use a gray silicone spatula to move the towel around, showing it rapidly absorbing the liquid. The kitchen background is clean and bright with white cabinetry and minimalist hardware.",
+  "prompt_data": {
+    "sceneDescription": "A close-up, top-down view of a modern kitchen stovetop where a person is demonstrating a cooking 'life hack'. A non-stick frying pan sits on the gas burner, containing browned ground meat pushed to one side. A significant amount of yellow cooking oil and grease has pooled on the empty side of the pan. The person, wearing a yellow apron, unrolls a compact, white compressed paper towel tab and drops it into the hot grease. They then use a gray silicone spatula to move the towel around, showing it rapidly absorbing the liquid. The kitchen background is clean and bright with white cabinetry and minimalist hardware.",
+    "cinematography": {
+      "mood": "Informative, practical, and fast-paced.",
+      "cameraShot": "A high-angle, static close-up shot focused on the frying pan and the person's hands. The framing captures the immediate action within the pan and the lower portion of the person's torso."
+    },
+    "actions": [
+      "A person's hands unroll a white, compressed paper towel tab.",
+      "The person drops the paper towel into the pool of grease in the frying pan.",
+      "Using a gray spatula, the person presses and moves the paper towel through the grease.",
+      "The paper towel visibly expands and turns brown as it absorbs the oil.",
+      "The person lifts the saturated paper towel with the spatula to show the cleaned area of the pan."
+    ],
+    "dialogue": [
+      "Speaker: 'Little life hack for you: if you've got this cooking grease, you go ahead and take one of these little paper towel things, throw it in there. Okay, and watch this. It soaks up all of the grease just like that. And that's an easy way to get rid of your cooking grease.'",
+      "[Sound of meat sizzling in the pan]",
+      "[Sound of the spatula scraping the pan surface]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 11,
+  "views": 75653386,
+  "likes": 358152,
+  "comments": 16156,
+  "shares": 456423,
+  "hashtags": [
+    "lifehacks",
+    "cookinghack",
+    "foodart"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "content_id": "3c203a42-7a79-483b-be3e-73c31f0bcc30",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "Bread Cat 🐾🍞\n#cat #kitten #klingai",
+  "description": "Bread Cat 🐾🍞\n#cat #kitten #klingai",
+  "prompt_text": "A surreal kitchen scene featuring an orange ginger cat sitting in a metal bread loaf pan. The cat's body is seamlessly morphed with a golden-brown loaf of bread. A person's hands appear, sprinkling white flour over the cat-loaf and then gently rubbing the flour into its fur and the bread surface. The background shows a kitchen counter with a kettle and cooking utensils in soft, warm indoor lighting.",
+  "prompt_data": {
+    "sceneDescription": "A surreal kitchen scene featuring an orange ginger cat sitting in a metal bread loaf pan. The cat's body is seamlessly morphed with a golden-brown loaf of bread. A person's hands appear, sprinkling white flour over the cat-loaf and then gently rubbing the flour into its fur and the bread surface. The background shows a kitchen counter with a kettle and cooking utensils in soft, warm indoor lighting.",
+    "cinematography": {
+      "mood": "Whimsical, cozy, and surreal.",
+      "cameraShot": "Medium close-up, vertical orientation, static shot at a slightly high angle."
+    },
+    "actions": [
+      "A person's hand sprinkles a generous amount of flour onto the cat-bread hybrid.",
+      "The cat blinks and twitches its ears as flour lands on its face.",
+      "The person uses both hands to gently rub and pat the flour across the top of the 'loaf'.",
+      "The cat remains calm and stationary within the pan throughout the process."
+    ],
+    "dialogue": [
+      "[Ambient kitchen sounds: soft rustling of flour and rhythmic rubbing sounds against the fur/bread]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 93518752,
+  "likes": 3002804,
+  "comments": 6913,
+  "shares": 1426652,
+  "hashtags": [
+    "cat",
+    "kitten",
+    "klingai"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "content_id": "5ef42af9-abf5-41ad-9faf-f0db38fba10a",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "Orange Cat Builds the Tiger a Motorcycle.#funny #ai #animals #animation #orangecat",
+  "description": "Orange Cat Builds the Tiger a Motorcycle.#funny #ai #animals #animation #orangecat",
+  "prompt_text": "A surreal, high-energy montage featuring anthropomorphic animals in various bizarre scenarios. A lion lounges while an orange cat strikes him with a frying pan. A tiger eats durian on a matching oversized fruit. A rhino in a gold chain rides a motorcycle and fires a massive multi-barrel gun at a pumpkin house. A cat with a lion's mane paints and uses power tools. The setting transitions from savannas to mountain roads and suburban backyards.",
+  "prompt_data": {
+    "sceneDescription": "A surreal, high-energy montage featuring anthropomorphic animals in various bizarre scenarios. A lion lounges while an orange cat strikes him with a frying pan. A tiger eats durian on a matching oversized fruit. A rhino in a gold chain rides a motorcycle and fires a massive multi-barrel gun at a pumpkin house. A cat with a lion's mane paints and uses power tools. The setting transitions from savannas to mountain roads and suburban backyards.",
+    "cinematography": {
+      "mood": "Absurdist, chaotic, and comedic with an action-movie flair.",
+      "cameraShot": "Dynamic mix of close-ups, wide tracking shots of chases, and dramatic low-angle hero shots with high-saturation colors."
+    },
+    "actions": [
+      "Orange cat hits sleeping lion with a pan.",
+      "Lion and cat chase each other down a mountain path.",
+      "Tiger eats durian, then throws it.",
+      "Rhino rides a tiger-print motorcycle while holding a gatling gun.",
+      "Rhino blasts a pumpkin house, turning it into Swiss cheese.",
+      "Cat with a lion mane shaves a rhino and builds a bike from its horn.",
+      "Lion-man and pink rhino embrace emotionally in the road."
+    ],
+    "dialogue": [
+      "Freeze!",
+      "It's your turn to act.",
+      "Brother, I was bullied.",
+      "Run for it!",
+      "Fire!",
+      "What was that noise?",
+      "Ambient: Heavy gunfire, engine roars, cartoonish thuds, and dramatic orchestral music."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 69,
+  "views": 80187223,
+  "likes": 2524196,
+  "comments": 32143,
+  "shares": 187572,
+  "hashtags": [
+    "funny",
+    "ai",
+    "animals",
+    "animation",
+    "orangecat"
+  ]
+}

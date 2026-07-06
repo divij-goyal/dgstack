@@ -1,0 +1,48 @@
+{
+  "content_id": "a4a85cb4-9c82-47ba-ac23-e30ffb63dca7",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "The Most Beautiful Reunion Ever.#soldier #reunion #baby #cutebaby #militarytiktok",
+  "description": "The Most Beautiful Reunion Ever.#soldier #reunion #baby #cutebaby #militarytiktok",
+  "prompt_text": "A compilation of heartwarming scenes featuring military reunions between service members and their young children. The settings vary from airport hangars and outdoor parade grounds to military barracks. The children, ranging from toddlers to slightly older kids, wear various outfits like red overalls, white tutus, and casual sweaters. The military personnel are in diverse uniforms, including dress blues, camouflage fatigue, and formal service uniforms. The lighting shifts from bright indoor terminal lights to natural golden-hour outdoor sunlight.",
+  "prompt_data": {
+    "sceneDescription": "A compilation of heartwarming scenes featuring military reunions between service members and their young children. The settings vary from airport hangars and outdoor parade grounds to military barracks. The children, ranging from toddlers to slightly older kids, wear various outfits like red overalls, white tutus, and casual sweaters. The military personnel are in diverse uniforms, including dress blues, camouflage fatigue, and formal service uniforms. The lighting shifts from bright indoor terminal lights to natural golden-hour outdoor sunlight.",
+    "cinematography": {
+      "mood": "Deeply emotional, sentimental, and joyous.",
+      "cameraShot": "A mix of medium shots, close-ups, and tracking shots that follow the children as they run toward their parents. The camera often stays at a low angle to capture the child's perspective and emotional reactions."
+    },
+    "actions": [
+      "Young children run through crowds or past formations of soldiers.",
+      "Children shout 'Daddy!' and 'I missed you!' as they spot their parents.",
+      "Soldiers break formation or kneel down to embrace their children.",
+      "Parents lift and spin their children in celebratory hugs.",
+      "Tearful close-ups show the emotional impact on both the service members and their families.",
+      "A young child in a mini-camouflage jacket salutes a soldier."
+    ],
+    "dialogue": [
+      "Children repeatedly calling out 'Daddy!' or 'Mommy!'",
+      "Environmental sounds of crowds cheering and clapping.",
+      "Parents saying 'I missed you too, baby' and 'I got you.'",
+      "Sentimental background music throughout the compilation."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 172,
+  "views": 107315660,
+  "likes": 2984111,
+  "comments": 35542,
+  "shares": 112603,
+  "hashtags": [
+    "soldier",
+    "reunion",
+    "baby",
+    "cutebaby",
+    "militarytiktok"
+  ]
+}

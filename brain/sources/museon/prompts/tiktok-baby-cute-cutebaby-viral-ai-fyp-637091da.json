@@ -1,0 +1,44 @@
+{
+  "content_id": "637091da-33d9-439e-b679-a6d633e26f0b",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "Baby #cute #cutebaby #viral #ai #fyp",
+  "description": "Baby #cute #cutebaby #viral #ai #fyp",
+  "prompt_text": "A dramatic and surreal cliffhanger featuring two infants in diapers on a rocky precipice. One baby clings to the cliff edge over a deep canyon filled with flowing lava, while the other reaches down from the top to help. In the background, a massive volcano erupts with fire and smoke against a hazy sky. The lighting is warm and chaotic, reflecting the volcanic activity.",
+  "prompt_data": {
+    "sceneDescription": "A dramatic and surreal cliffhanger featuring two infants in diapers on a rocky precipice. One baby clings to the cliff edge over a deep canyon filled with flowing lava, while the other reaches down from the top to help. In the background, a massive volcano erupts with fire and smoke against a hazy sky. The lighting is warm and chaotic, reflecting the volcanic activity.",
+    "cinematography": {
+      "mood": "Intense, absurd, and harrowing.",
+      "cameraShot": "Vertical medium shot, static camera, focusing on the precarious physical interaction between the two infants against the volcanic backdrop."
+    },
+    "actions": [
+      "The infant on the cliff top reaches down and grabs the arm of the hanging infant.",
+      "The infant hanging over the ledge kicks its legs and cries out in distress.",
+      "The top infant leans forward, attempting to pull the other to safety.",
+      "Lava flows visibly in the ravine below and the volcano in the background continuously erupts."
+    ],
+    "dialogue": [
+      "[Sound of babies crying loudly and distressed]",
+      "[Deep rumble of volcanic eruption and crackling fire]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 9,
+  "views": 110133792,
+  "likes": 2498888,
+  "comments": 64309,
+  "shares": 225068,
+  "hashtags": [
+    "cute",
+    "cutebaby",
+    "viral",
+    "ai",
+    "fyp"
+  ]
+}

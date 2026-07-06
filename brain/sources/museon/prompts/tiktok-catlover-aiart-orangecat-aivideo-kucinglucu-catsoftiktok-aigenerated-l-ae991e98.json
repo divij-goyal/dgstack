@@ -1,0 +1,67 @@
+{
+  "content_id": "ae991e98-7929-461d-a075-7ab7acc3de0a",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "#catlover #aiart #orangecat #aivideo #kucinglucu #catsoftiktok #aigenerated #lucu #fyp #kucingoren#kucinggemoy #kucingtiktok #US #Cat #ai #Nyan #unitedstates#fubbycat #cutecat",
+  "description": "#catlover #aiart #orangecat #aivideo #kucinglucu #catsoftiktok #aigenerated #lucu #fyp #kucingoren#kucinggemoy #kucingtiktok #US #Cat #ai #Nyan #unitedstates#fubbycat #cutecat",
+  "prompt_text": "A surreal and comedic narrative unfolds in a series of rural and anthropomorphic vignettes. The video begins on a dirt path under blossoming trees, where a large ginger cat attempts to trap a goose under a large pan. The setting shifts to a rustic courtyard where the cat fends off geese while cooking. Later, the cat is tied to a tree by the goose, using a smartphone to call for help. A lion, lounging in a deck chair, receives the call and rides a motorcycle to the rescue, only to be trapped in a pit dug by the goose. A tiger and bear on a motorcycle also attempt a rescue but are stopped by spikes laid by the goose. The final scenes show the goose triumphantly driving a tractor with the trapped animals and eventually working in a kitchen and at a market, surrounded by animal pelts and meat, suggesting a dark, humorous reversal of the predator-prey dynamic.",
+  "prompt_data": {
+    "sceneDescription": "A surreal and comedic narrative unfolds in a series of rural and anthropomorphic vignettes. The video begins on a dirt path under blossoming trees, where a large ginger cat attempts to trap a goose under a large pan. The setting shifts to a rustic courtyard where the cat fends off geese while cooking. Later, the cat is tied to a tree by the goose, using a smartphone to call for help. A lion, lounging in a deck chair, receives the call and rides a motorcycle to the rescue, only to be trapped in a pit dug by the goose. A tiger and bear on a motorcycle also attempt a rescue but are stopped by spikes laid by the goose. The final scenes show the goose triumphantly driving a tractor with the trapped animals and eventually working in a kitchen and at a market, surrounded by animal pelts and meat, suggesting a dark, humorous reversal of the predator-prey dynamic.",
+    "cinematography": {
+      "mood": "Surreal, humorous, and satirical, with a darkly comic twist.",
+      "cameraShot": "A mix of medium shots and wide shots, capturing the characters and their rural environment. The camera follows the action with panning and tracking shots, particularly during the motorcycle sequences. Close-ups are used for the smartphone interactions."
+    },
+    "actions": [
+      "A ginger cat tries to trap a goose with a metal pan on a dirt road.",
+      "The cat cooks in a large wok over an open fire in a rural courtyard, fending off geese.",
+      "The goose ties the cat to a tree, and the cat uses a smartphone to call for help.",
+      "A lion, relaxed in a deck chair, receives the call and rides a motorcycle towards the cat's location.",
+      "The lion's motorcycle falls into a large pit dug by the goose.",
+      "The goose pulls a cage with the unconscious lion along a dirt road.",
+      "A tiger and a bear on a motorcycle also try to rescue the cat but are stopped by spikes laid by the goose.",
+      "The goose drives a tractor pulling a cage with the tiger and bear.",
+      "The goose, now anthropomorphized in an apron, chops meat in a rustic kitchen.",
+      "The goose stands at a market stall, surrounded by animal pelts (lion, tiger, bear, cat) and cuts of meat, gesturing to potential customers."
+    ],
+    "dialogue": [
+      "[Ambient sounds: geese honking, cat meowing, motorcycle engine, tractor engine, fire crackling]",
+      "Cat (meowing): Help, help!",
+      "Lion (roaring): I'm coming to save you!",
+      "Goose (honking): You won't get away this time!",
+      "Goose (at the market): Fresh game for sale! Fair prices, pure quality!"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 68,
+  "views": 175748115,
+  "likes": 3291713,
+  "comments": 52898,
+  "shares": 414790,
+  "hashtags": [
+    "catlover",
+    "aiart",
+    "orangecat",
+    "aivideo",
+    "kucinglucu",
+    "catsoftiktok",
+    "aigenerated",
+    "lucu",
+    "fyp",
+    "kucingoren",
+    "kucinggemoy",
+    "kucingtiktok",
+    "us",
+    "cat",
+    "ai",
+    "nyan",
+    "unitedstates",
+    "fubbycat",
+    "cutecat"
+  ]
+}

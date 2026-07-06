@@ -1,0 +1,37 @@
+{
+  "content_id": "84597db0-42d4-4b58-8e06-792b0a9dc5f1",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Make the boy",
+  "description": "Make the boy",
+  "prompt_text": "A man wearing a dark blue and white, futuristic-looking suit with a nametag that says 'Sam' and a star emblem is shown from the chest up against a backdrop of Earth seen from space. The Earth is a vibrant blue and white, curving across the lower half of the frame, with a deep black starry sky above. The man has short, styled hair with highlights and is looking directly at the camera with a friendly, slightly surprised expression. His right hand, covered by a black glove, is raised with his index finger pointing upwards. The lighting is bright, illuminating his face and suit, with a slight blue and orange tint on his hair, suggesting artificial light in a space setting. The scene transitions to a smartphone displaying the man's video, showing a 'like' animation and a golden star appearing over the nametag as if reacting to a double tap.",
+  "prompt_data": {
+    "sceneDescription": "A man wearing a dark blue and white, futuristic-looking suit with a nametag that says 'Sam' and a star emblem is shown from the chest up against a backdrop of Earth seen from space. The Earth is a vibrant blue and white, curving across the lower half of the frame, with a deep black starry sky above. The man has short, styled hair with highlights and is looking directly at the camera with a friendly, slightly surprised expression. His right hand, covered by a black glove, is raised with his index finger pointing upwards. The lighting is bright, illuminating his face and suit, with a slight blue and orange tint on his hair, suggesting artificial light in a space setting. The scene transitions to a smartphone displaying the man's video, showing a 'like' animation and a golden star appearing over the nametag as if reacting to a double tap.",
+    "cinematography": {
+      "mood": "Informative, futuristic, and engaging.",
+      "cameraShot": "Medium shot, eye-level angle, static shot of the man speaking. The second shot is a close-up of a smartphone screen, showing the full video playing within the phone interface."
+    },
+    "actions": [
+      "The man points his right index finger upwards.",
+      "The man speaks directly to the camera.",
+      "The video transitions to a smartphone screen.",
+      "A hand appears from the bottom right of the screen, seemingly interacting with the phone.",
+      "A golden star graphic appears and disappears over the 'Sam' nametag on the video playing on the phone, simulating a 'like' or reaction."
+    ],
+    "dialogue": [
+      "Man says: I'm way up here above Earth, I wanted to show you something cool. If you're watching this in Sora, there's a little trick. When you double tap anywhere in the video, Sora picks an emoji that matches what's going on and drops it right on the screen. Out here in orbit, it's a bright s-"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 111652,
+  "likes": 4113,
+  "comments": 28,
+  "shares": 0
+}

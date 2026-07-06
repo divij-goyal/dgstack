@@ -1,0 +1,44 @@
+{
+  "content_id": "924dfcd9-6d3d-4fbe-a06d-9af320013b18",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "#trending #islamic_video #viraltrend #islamic_video",
+  "description": "#trending #islamic_video #viraltrend #islamic_video",
+  "prompt_text": "A surreal outdoor scene at sunset featuring a small, white pegasus foal with large feathery wings and a multi-colored (blue and purple) mane. The pegasus is in a rural or farm setting with hay on the ground and a mud-brick wall in the background. A group of men are gathered behind the wall, watching the mythical creature. A large black horse stands nearby. A man in traditional South Asian attire (cream-colored kameez and a dark vest) interacts with the pegasus. The lighting is warm and golden from the setting sun directly in the background, creating a hazy, ethereal glow.",
+  "prompt_data": {
+    "sceneDescription": "A surreal outdoor scene at sunset featuring a small, white pegasus foal with large feathery wings and a multi-colored (blue and purple) mane. The pegasus is in a rural or farm setting with hay on the ground and a mud-brick wall in the background. A group of men are gathered behind the wall, watching the mythical creature. A large black horse stands nearby. A man in traditional South Asian attire (cream-colored kameez and a dark vest) interacts with the pegasus. The lighting is warm and golden from the setting sun directly in the background, creating a hazy, ethereal glow.",
+    "cinematography": {
+      "mood": "Mystical, awe-inspiring, and serene.",
+      "cameraShot": "The camera starts with a close-up of the pegasus foal's face, then pulls back to a medium-wide shot showing the full body and the surrounding environment, including the people and the sunset. There is slight handheld camera movement."
+    },
+    "actions": [
+      "The white pegasus foal is initially seen lying down, looking at the camera.",
+      "The camera cuts to a man talking directly to the camera with the pegasus in the background.",
+      "The pegasus stands up and begins to trot around the enclosure, flapping its white wings.",
+      "A large black horse watches the foal as it moves.",
+      "The pegasus trots toward the man in the vest, who reaches out toward it.",
+      "The man smiles and gestures toward the mythical creature as it prances near him."
+    ],
+    "dialogue": [
+      "A melodic, rhythmic vocal chant or song in a foreign language plays throughout the video.",
+      "The man speaks in a local dialect, seemingly introducing or commenting on the pegasus."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 11,
+  "views": 54583972,
+  "likes": 3116876,
+  "comments": 64531,
+  "shares": 163081,
+  "hashtags": [
+    "trending",
+    "islamic_video",
+    "viraltrend"
+  ]
+}

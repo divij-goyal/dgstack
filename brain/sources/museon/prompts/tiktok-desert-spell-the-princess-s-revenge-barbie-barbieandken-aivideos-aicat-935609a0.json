@@ -1,0 +1,52 @@
+{
+  "content_id": "935609a0-b32e-448a-88a3-a99e48b59c84",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "Desert Spell: The Princess's Revenge#barbie #barbieandken #aivideos #aicat #aibarbie",
+  "description": "Desert Spell: The Princess's Revenge#barbie #barbieandken #aivideos #aicat #aibarbie",
+  "prompt_text": "An animated narrative set in an Egyptian-style palace and desert. A blonde princess (Barbie) is sabotaged by a dark-haired servant. The servant shrinks the princess, has her carried off by a crow, and tries to take her place with the prince (Ken). The princess eventually restores herself through magic, returns on a camel with a magical staff, and defeats the servant's scheme to reunite with the prince.",
+  "prompt_data": {
+    "sceneDescription": "An animated narrative set in an Egyptian-style palace and desert. A blonde princess (Barbie) is sabotaged by a dark-haired servant. The servant shrinks the princess, has her carried off by a crow, and tries to take her place with the prince (Ken). The princess eventually restores herself through magic, returns on a camel with a magical staff, and defeats the servant's scheme to reunite with the prince.",
+    "cinematography": {
+      "mood": "Dramatic, magical, and triumphant.",
+      "cameraShot": "Dynamic mix of medium shots for dialogue, wide shots for desert landscapes, and close-ups for emotional reactions. Rapid cuts emphasize action sequences like the shrinking and the camel chase."
+    },
+    "actions": [
+      "Servant hits the princess with a mallet, shrinking her.",
+      "Servant pours a potion on the shrunken princess.",
+      "Crow carries the princess into the desert and drops her.",
+      "Servant disguises herself as the princess to woo the prince.",
+      "Princess performs a ritual in a lab to regain her size.",
+      "Princess rides a camel across the desert to the palace.",
+      "Princess uses a magical staff to reveal the servant's true form.",
+      "Prince and Princess embrace while the servant is led away by guards."
+    ],
+    "dialogue": [
+      "Prince asks: 'Where's my Princess Barbie?'",
+      "Servant lies: 'I saw Princess Barbie riding a horse away from the castle.'",
+      "Prince tells the servant: 'Please stay away from me.'",
+      "Princess yells: 'Help me!' while stranded in ruins.",
+      "Princess thanks her helper before riding away.",
+      "Prince and Princess shout each other's names during the reunion."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 107,
+  "views": 58026677,
+  "likes": 1537238,
+  "comments": 9811,
+  "shares": 50646,
+  "hashtags": [
+    "barbie",
+    "barbieandken",
+    "aivideos",
+    "aicat",
+    "aibarbie"
+  ]
+}

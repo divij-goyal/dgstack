@@ -1,0 +1,43 @@
+{
+  "content_id": "02b1217c-a135-45e8-ad97-829aba8b6de8",
+  "platform": "tiktok",
+  "content_type": "carousel",
+  "title": "Just tell Macaron what you want and see how your idea turn into mini app in seconds. #macaronai #transformation #glowup #grownmyaccount #glowuptips",
+  "description": "Just tell Macaron what you want and see how your idea turn into mini app in seconds. #macaronai #transformation #glowup #grownmyaccount #glowuptips",
+  "prompt_text": "A split-screen lifestyle montage featuring four distinct quadrants representing self-improvement and wellness. The top-left shows a young woman with glowing skin and a white towel wrapped around her head in warm, golden hour sunlight. The top-right displays a healthy meal bowl containing corn, cucumbers with dressing, lettuce, and grilled chicken. The bottom-left shows a person working on a laptop in a dimly lit room, focusing on productivity. The bottom-right features a woman in a black athletic jumpsuit taking a mirror selfie in a modern, well-equipped gym. A text overlay in the center reads 'Glowup in next 6 months' with a rising graph emoji.",
+  "prompt_data": {
+    "sceneDescription": "A split-screen lifestyle montage featuring four distinct quadrants representing self-improvement and wellness. The top-left shows a young woman with glowing skin and a white towel wrapped around her head in warm, golden hour sunlight. The top-right displays a healthy meal bowl containing corn, cucumbers with dressing, lettuce, and grilled chicken. The bottom-left shows a person working on a laptop in a dimly lit room, focusing on productivity. The bottom-right features a woman in a black athletic jumpsuit taking a mirror selfie in a modern, well-equipped gym. A text overlay in the center reads 'Glowup in next 6 months' with a rising graph emoji.",
+    "cinematography": {
+      "mood": "Inspirational, disciplined, aesthetic, and motivational.",
+      "cameraShot": "Four-way split screen montage. Each quadrant uses different framing: top-left is a medium close-up, top-right is a top-down static shot, bottom-left is an over-the-shoulder angle, and bottom-right is a full-body mirror selfie shot."
+    },
+    "actions": [
+      "The woman in the top-left quadrant slightly tilts her head and smiles subtly at the camera.",
+      "The camera in the top-right quadrant remains static over the food bowl.",
+      "The person in the bottom-left quadrant types on the laptop keyboard.",
+      "The woman in the bottom-right quadrant poses for a mirror selfie, slightly shifting her weight to emphasize her physique."
+    ],
+    "dialogue": [
+      "[No spoken dialogue: Upbeat, motivational lo-fi or phonk background music playing rhythmically with the theme of self-improvement.]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 60,
+  "views": 154100000,
+  "likes": 1600000,
+  "comments": 2756,
+  "shares": 50600,
+  "hashtags": [
+    "macaronai",
+    "transformation",
+    "glowup",
+    "grownmyaccount",
+    "glowuptips"
+  ]
+}

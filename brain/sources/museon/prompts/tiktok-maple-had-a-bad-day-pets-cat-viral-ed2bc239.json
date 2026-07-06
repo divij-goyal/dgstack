@@ -1,0 +1,42 @@
+{
+  "content_id": "ed2bc239-cd4a-47b0-9438-b4ab737fbbb2",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "Maple had a bad day 😔 #pets #cat #viral",
+  "description": "Maple had a bad day 😔 #pets #cat #viral",
+  "prompt_text": "An indoor scene featuring two cats sitting side-by-side on a reddish-brown tiled floor against a background of light-colored vertical wood paneling. On the left is a grey and brown tabby cat, and on the right is a ginger tabby cat. A person's hand with pink fingernails enters the frame from the left to gently scratch the grey cat under its chin. The lighting is bright and even, suggesting a well-lit domestic room. The camera captures the cats at a low angle, making them appear prominent in the frame.",
+  "prompt_data": {
+    "sceneDescription": "An indoor scene featuring two cats sitting side-by-side on a reddish-brown tiled floor against a background of light-colored vertical wood paneling. On the left is a grey and brown tabby cat, and on the right is a ginger tabby cat. A person's hand with pink fingernails enters the frame from the left to gently scratch the grey cat under its chin. The lighting is bright and even, suggesting a well-lit domestic room. The camera captures the cats at a low angle, making them appear prominent in the frame.",
+    "cinematography": {
+      "mood": "Heartwarming, peaceful, and affectionate.",
+      "cameraShot": "Low-angle, medium-close-up, static shot."
+    },
+    "actions": [
+      "The two cats sit calmly next to each other.",
+      "A hand enters from the left and scratches the grey tabby cat under the chin.",
+      "The grey tabby cat tilts its head back and closes its eyes, appearing to enjoy the scratch.",
+      "The ginger cat looks forward with a content and sleepy expression.",
+      "Both cats remain mostly still throughout the interaction."
+    ],
+    "dialogue": [
+      "Pop music playing in the background with the lyrics: '...cause you had a bad day, you're taking one down, you sing a sad song just to turn it around...'"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 15,
+  "views": 69645358,
+  "likes": 11471455,
+  "comments": 47090,
+  "shares": 2736562,
+  "hashtags": [
+    "pets",
+    "cat",
+    "viral"
+  ]
+}

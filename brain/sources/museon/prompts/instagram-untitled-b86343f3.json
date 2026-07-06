@@ -1,0 +1,36 @@
+{
+  "content_id": "b86343f3-f7f3-4071-ad4a-67d036a57207",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "Untitled",
+  "prompt_text": "A surreal close-up against a plain white background. A tiny, sentient green pickle with a human-like face, limbs, and water droplets on its skin is held between two fingers. A person feeds the pickle creature a fresh cucumber slice, which it eats with human-like teeth. The lighting is bright and sterile.",
+  "prompt_data": {
+    "sceneDescription": "A surreal close-up against a plain white background. A tiny, sentient green pickle with a human-like face, limbs, and water droplets on its skin is held between two fingers. A person feeds the pickle creature a fresh cucumber slice, which it eats with human-like teeth. The lighting is bright and sterile.",
+    "cinematography": {
+      "mood": "Surreal, humorous, and slightly unsettling.",
+      "cameraShot": "Macro close-up, static shot centered on the pickle creature."
+    },
+    "actions": [
+      "A hand brings a cucumber slice to the pickle's mouth.",
+      "The pickle creature bites into the cucumber slice and chews vigorously.",
+      "The pickle looks surprised, opening its eyes wide after swallowing.",
+      "The pickle finishes by smiling contentedly at the camera."
+    ],
+    "dialogue": [
+      "[Loud, exaggerated crunching and chewing sounds]",
+      "[Swallowing sound followed by a small 'pop']"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 8,
+  "views": 78680270,
+  "likes": 0,
+  "comments": 0,
+  "shares": 2501351
+}

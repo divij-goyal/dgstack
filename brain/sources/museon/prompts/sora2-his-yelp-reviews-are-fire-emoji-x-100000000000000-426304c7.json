@@ -1,0 +1,38 @@
+{
+  "content_id": "426304c7-ab4c-4a6c-98f6-247979746ccf",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "his yelp reviews are FIRE EMOJI x 100000000000000",
+  "description": "his yelp reviews are FIRE EMOJI x 100000000000000",
+  "prompt_text": "A young toddler with curly light-brown hair and a face smeared with red tomato sauce sits at a wooden dining table. He is wearing a dark green henley shirt. In front of him is a white bowl filled with penne pasta in a rich tomato sauce, with a small piece of bread on the side. The background is dimly lit with warm, blurred bokeh lights, suggesting a cozy home kitchen or dining room at night. The lighting is warm and cinematic, focusing on the child's expressive face.",
+  "prompt_data": {
+    "sceneDescription": "A young toddler with curly light-brown hair and a face smeared with red tomato sauce sits at a wooden dining table. He is wearing a dark green henley shirt. In front of him is a white bowl filled with penne pasta in a rich tomato sauce, with a small piece of bread on the side. The background is dimly lit with warm, blurred bokeh lights, suggesting a cozy home kitchen or dining room at night. The lighting is warm and cinematic, focusing on the child's expressive face.",
+    "cinematography": {
+      "mood": "Humorous, heartwarming, and endearing.",
+      "cameraShot": "Close-up, eye-level static shot focusing on the toddler's face and upper torso."
+    },
+    "actions": [
+      "The toddler holds a wooden fork and gestures with it while speaking.",
+      "He looks directly at the camera (or off-camera at his mother) with wide, expressive eyes.",
+      "He chews a mouthful of pasta while passionately describing the meal.",
+      "He moves his hands and the fork emphatically to emphasize his points.",
+      "He looks down at his bowl and then back up with an enthusiastic expression."
+    ],
+    "dialogue": [
+      "Toddler says: 'Mom, this is... it's unbelievable. The balance of the tomato and the cheese? Perfectly harmonious. Like restaurant level. Actually better, 'cause it's made by you.'",
+      "[Background music: Upbeat, whimsical acoustic guitar and piano melody]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 158617,
+  "likes": 2355,
+  "comments": 76,
+  "shares": 0
+}

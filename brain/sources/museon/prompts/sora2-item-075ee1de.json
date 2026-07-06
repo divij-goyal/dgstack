@@ -1,0 +1,38 @@
+{
+  "content_id": "075ee1de-8b73-49cc-9f62-8abf9f784570",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "🏖️🏊‍♂️",
+  "description": "🏖️🏊‍♂️",
+  "prompt_text": "A surreal and impossible AI-generated sporting event where a competitive swimming race takes place in a pool filled with sand instead of water. Multiple male swimmers, wearing goggles and swim caps, dive from starting blocks into lanes defined by blue and white plastic lane dividers. Instead of water splashing, thick clouds of tan sand erupt as the swimmers dive and attempt to 'swim' through the granular surface. The setting is a bright, outdoor aquatic center with bleachers full of spectators in the background under a clear, sunny sky.",
+  "prompt_data": {
+    "sceneDescription": "A surreal and impossible AI-generated sporting event where a competitive swimming race takes place in a pool filled with sand instead of water. Multiple male swimmers, wearing goggles and swim caps, dive from starting blocks into lanes defined by blue and white plastic lane dividers. Instead of water splashing, thick clouds of tan sand erupt as the swimmers dive and attempt to 'swim' through the granular surface. The setting is a bright, outdoor aquatic center with bleachers full of spectators in the background under a clear, sunny sky.",
+    "cinematography": {
+      "mood": "Absurdist, humorous, and visually jarring due to the physics-defying nature of the AI-generated content.",
+      "cameraShot": "Medium-wide side-profile shot that pans from right to left, following the swimmers as they dive and disappear into the sand. The camera movement is smooth and follows the momentum of the race."
+    },
+    "actions": [
+      "The swimmers crouach on the starting blocks in unison.",
+      "A starting signal occurs, and the swimmers dive simultaneously into the sand.",
+      "Large plumes of sand spray upward as the swimmers enter the lanes.",
+      "The swimmers attempt to perform a swimming stroke, becoming partially submerged in the sand as they move forward.",
+      "The camera pans left to track the lead swimmers as they 'glide' through the sand."
+    ],
+    "dialogue": [
+      "An announcer excitedly shouts: 'And they're off! Straight into the sand! Look at that spray, like a desert storm in every lane! Lane four with a strong...'",
+      "The sound of a cheering crowd and the muffled thuds of swimmers hitting the sand."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 116041,
+  "likes": 2431,
+  "comments": 79,
+  "shares": 0
+}

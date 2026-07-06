@@ -1,0 +1,53 @@
+{
+  "content_id": "782d44b5-979d-43c8-91cf-e65e8b08af22",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "Baby fighting like Jackie Chan/ Video generated using HailuoAI #hailuoai AI (MiniMax) #baby #babyoftiktok #ai #Runway #kawaii #fyp #viral_video #aloai #rooster",
+  "description": "Baby fighting like Jackie Chan/ Video generated using HailuoAI #hailuoai AI (MiniMax) #baby #babyoftiktok #ai #Runway #kawaii #fyp #viral_video #aloai #rooster",
+  "prompt_text": "A surreal and energetic scene set in a rustic courtyard, possibly in a traditional Asian village. A young baby, dressed in a white martial arts-style robe with a sash, is engaged in a stylized Kung Fu battle with a large, colorful rooster. The rooster features vibrant red, gold, and teal feathers with a prominent red comb. The background consists of weathered stone walls and a traditional wooden door with lattice patterns. Warm, natural sunlight filters into the courtyard, creating sharp shadows and highlighting the dusty ground. The overall aesthetic is a blend of hyper-realism and cinematic action.",
+  "prompt_data": {
+    "sceneDescription": "A surreal and energetic scene set in a rustic courtyard, possibly in a traditional Asian village. A young baby, dressed in a white martial arts-style robe with a sash, is engaged in a stylized Kung Fu battle with a large, colorful rooster. The rooster features vibrant red, gold, and teal feathers with a prominent red comb. The background consists of weathered stone walls and a traditional wooden door with lattice patterns. Warm, natural sunlight filters into the courtyard, creating sharp shadows and highlighting the dusty ground. The overall aesthetic is a blend of hyper-realism and cinematic action.",
+    "cinematography": {
+      "mood": "Humorous, high-octane, and whimsical, blending traditional martial arts cinema tropes with an absurd premise.",
+      "cameraShot": "Medium shot, eye-level with the characters, static with high-speed shutter effects to capture rapid movements. The lighting is warm and directional, suggesting late afternoon sun."
+    },
+    "actions": [
+      "The baby assumes a martial arts stance, bouncing on his feet.",
+      "The baby performs a series of rapid-fire punches and kicks toward the rooster.",
+      "The rooster reacts with agile movements, jumping and flapping its wings to dodge and counter-attack.",
+      "Feathers fly through the air as the rooster spins and strikes.",
+      "The baby executes a high kick, followed by a series of 'wing chun' style hand strikes.",
+      "The baby briefly loses balance and falls back but quickly regains his stance to continue the 'fight'."
+    ],
+    "dialogue": [
+      "[Sound of rapid punching and hitting impacts]",
+      "[The baby makes high-pitched martial arts vocalizations: 'Hya!', 'Ho!', 'Ha!']",
+      "[Sound of wings flapping and rooster squawking]",
+      "[Ambient village sounds: distant rustling and muffled background noise]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 5,
+  "views": 82738105,
+  "likes": 849868,
+  "comments": 15413,
+  "shares": 402169,
+  "hashtags": [
+    "hailuoai",
+    "baby",
+    "babyoftiktok",
+    "ai",
+    "runway",
+    "kawaii",
+    "fyp",
+    "viral_video",
+    "aloai",
+    "rooster"
+  ]
+}

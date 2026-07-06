@@ -1,0 +1,43 @@
+{
+  "content_id": "4ce42d43-451c-42cb-9ccf-7fe2c404b231",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "Untitled",
+  "prompt_text": "A stylized 3D animated narrative featuring anthropomorphic cats in various settings, primarily a shopping mall, a home interior, and a gym. The story follows a white female cat with blonde, curly hair and her slender white male companion. Initial scenes show them shopping, with the female cat struggling to fit into a tight, iridescent teal dress, leading to a wardrobe malfunction and public mockery from a stylish orange cat couple. This is followed by a montage of the pair dedicatedly training at the gym (treadmill, weights, push-ups, jump rope) and enjoying outdoor activities (running, cycling) to transform their physiques. The lighting transitions from the bright, commercial glow of the mall and gym to the warm, soft interior lighting of their home. The climax shows the transformed female cat, now fit and in a sparkling purple dress, being wooed by a muscular black panther in a suit, leaving her original companion heartbroken.",
+  "prompt_data": {
+    "sceneDescription": "A stylized 3D animated narrative featuring anthropomorphic cats in various settings, primarily a shopping mall, a home interior, and a gym. The story follows a white female cat with blonde, curly hair and her slender white male companion. Initial scenes show them shopping, with the female cat struggling to fit into a tight, iridescent teal dress, leading to a wardrobe malfunction and public mockery from a stylish orange cat couple. This is followed by a montage of the pair dedicatedly training at the gym (treadmill, weights, push-ups, jump rope) and enjoying outdoor activities (running, cycling) to transform their physiques. The lighting transitions from the bright, commercial glow of the mall and gym to the warm, soft interior lighting of their home. The climax shows the transformed female cat, now fit and in a sparkling purple dress, being wooed by a muscular black panther in a suit, leaving her original companion heartbroken.",
+    "cinematography": {
+      "mood": "Emotional and motivational, shifting from embarrassment and sadness to determination, and finally to a mix of triumph and heartbreak.",
+      "cameraShot": "A mix of medium shots, wide shots, and close-ups. The camera is mostly static but uses rapid cuts to create a fast-paced transformation montage."
+    },
+    "actions": [
+      "The white female cat tries on a dress and experiences a tear in the fabric.",
+      "The orange cat couple points and laughs at her.",
+      "The white cats walk sadly through the mall, with the female cat crying.",
+      "The male cat comforts the female cat on a couch at home.",
+      "The pair begins a rigorous workout routine in the gym, including running on treadmills and lifting weights.",
+      "They are shown eating healthy meals together.",
+      "They engage in outdoor exercise like jogging and cycling.",
+      "A transformed, muscular version of the pair walks confidently through the mall.",
+      "A muscular black panther cat in a suit approaches the female cat with flowers.",
+      "The female cat leaves with the panther, leaving the white male cat crying on the floor."
+    ],
+    "dialogue": [
+      "Character sounds: Laughter from the orange cats, sobbing from the white cats.",
+      "Background music: An upbeat, repetitive 'meow'-themed song throughout the transformation montage.",
+      "Character says: 'Hey girl!' (spoken by the black panther cat)."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 61,
+  "views": 75144537,
+  "likes": 0,
+  "comments": 0,
+  "shares": 1290386
+}

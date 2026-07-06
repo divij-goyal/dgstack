@@ -1,0 +1,41 @@
+{
+  "content_id": "f5fe5f56-d7ab-4a7b-95fb-fe319dffe5f3",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "Untitled",
+  "prompt_text": "A cinematic montage depicting a touching story of an orange tabby cat and his son. The video starts with a emotional argument between the large orange cat and a white cat in a red dress. After she leaves, the orange cat is seen raising his kitten son alone, overcoming challenges like poverty and hard work as a laborer. The scene then transitions 'A few years later...' showing the kitten's graduation and his growth into a successful businessman in a suit. However, tragedy strikes when the father is hit by a car. The son is shown grieving at his father's grave and then finding love, eventually marrying a cat who resembles his father, ending with a bittersweet memory of his father's presence at the wedding.",
+  "prompt_data": {
+    "sceneDescription": "A cinematic montage depicting a touching story of an orange tabby cat and his son. The video starts with a emotional argument between the large orange cat and a white cat in a red dress. After she leaves, the orange cat is seen raising his kitten son alone, overcoming challenges like poverty and hard work as a laborer. The scene then transitions 'A few years later...' showing the kitten's graduation and his growth into a successful businessman in a suit. However, tragedy strikes when the father is hit by a car. The son is shown grieving at his father's grave and then finding love, eventually marrying a cat who resembles his father, ending with a bittersweet memory of his father's presence at the wedding.",
+    "cinematography": {
+      "mood": "Emotional, sentimental, and ultimately heartwarming yet bittersweet.",
+      "cameraShot": "A series of medium shots and close-ups, with smooth transitions between different life stages and locations. The lighting varies from the dark, moody atmosphere of the argument and the accident to the bright, hopeful light of the graduation and wedding."
+    },
+    "actions": [
+      "The orange cat and white cat argue; she leaves with a suitcase.",
+      "The orange cat raises his kitten son, working hard at a construction site and in the rain.",
+      "The kitten graduates from university and becomes a successful businessman.",
+      "The father cat is hit by a speeding car on a crosswalk.",
+      "The son mourns at his father's grave and later at a bar.",
+      "The son finds a partner, proposes, and they get married.",
+      "During the wedding, the son has a vision of his father, who then fades away into a shower of petals."
+    ],
+    "dialogue": [
+      "[Emotional 'meow' singing throughout the video]",
+      "Title card: 'A few years later...'",
+      "Sign: 'UNIVERSITY'",
+      "Document: 'GRADUATION 10/10 !'"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 59,
+  "views": 225672438,
+  "likes": 0,
+  "comments": 0,
+  "shares": 1530188
+}

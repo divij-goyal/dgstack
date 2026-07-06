@@ -1,0 +1,48 @@
+{
+  "content_id": "3cb1f14b-cce1-4df4-b4f5-bfb9e08decab",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "Jailbreak - Clue 5",
+  "description": "Jailbreak - Clue 5",
+  "prompt_text": "A comedic jailbreak scene set within a grey, concrete prison cell. A young man wearing a bright orange prison jumpsuit sits on a wooden bench, holding a white paddle. The cell walls are decorated with chalk drawings of Tetris blocks and tally marks. A blonde male prison guard in a dark blue uniform walks by, signaling lights out. After the guard leaves, the prisoner uses a white brush to 'paint' a realistic-looking vent on the wall. He then pulls a physical vent prop away to reveal a black, painted hole. He jumps into the 'hole' but it is actually a flat painting on the wall, causing him to crash into it. The guard rushes back in, touches the wet black paint on the wall, and looks confused. The prisoner then appears outside the cell, having seemingly phased through the bars, and locks the guard inside.",
+  "prompt_data": {
+    "sceneDescription": "A comedic jailbreak scene set within a grey, concrete prison cell. A young man wearing a bright orange prison jumpsuit sits on a wooden bench, holding a white paddle. The cell walls are decorated with chalk drawings of Tetris blocks and tally marks. A blonde male prison guard in a dark blue uniform walks by, signaling lights out. After the guard leaves, the prisoner uses a white brush to 'paint' a realistic-looking vent on the wall. He then pulls a physical vent prop away to reveal a black, painted hole. He jumps into the 'hole' but it is actually a flat painting on the wall, causing him to crash into it. The guard rushes back in, touches the wet black paint on the wall, and looks confused. The prisoner then appears outside the cell, having seemingly phased through the bars, and locks the guard inside.",
+    "cinematography": {
+      "mood": "Slapstick, humorous, and lighthearted.",
+      "cameraShot": "Eye-level medium shot that follows the movement of the characters within the confined space. The camera pans slightly to track the prisoner and the guard."
+    },
+    "actions": [
+      "The guard walks past the cell bars and says 'All right, lights out'.",
+      "The prisoner, sitting on a bench, acknowledges the guard and waits for him to leave.",
+      "The prisoner uses a brush to paint a vent on the wall with white paint.",
+      "The prisoner pulls a physical vent cover away, revealing a black void.",
+      "The prisoner jumps toward the black void, but hits the solid wall because it is a painting.",
+      "The guard hears the noise and runs back to the cell.",
+      "The guard reaches out and touches the black paint, getting it on his hands.",
+      "The prisoner suddenly appears on the outside of the cell bars.",
+      "The prisoner slams the cell door shut, trapping the guard inside."
+    ],
+    "dialogue": [
+      "Guard says: All right, lights out!",
+      "Prisoner says: Yeah.",
+      "Prisoner says: Hope this works.",
+      "Prisoner says: Whoops.",
+      "Guard says: Hey, get back here!",
+      "Guard says: Oh!",
+      "Prisoner says: Ha ha!",
+      "Guard says: Hey! Hey!"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 16,
+  "views": 662228581,
+  "likes": 22110350,
+  "comments": 77656,
+  "shares": 647598
+}

@@ -1,0 +1,37 @@
+{
+  "content_id": "7a501c73-0860-4c2a-8d58-c39ae01461c2",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "POV: You scratched the couch and your boss is 18 months old 👶😺",
+  "description": "POV: You scratched the couch and your boss is 18 months old 👶😺",
+  "prompt_text": "A brightly lit, indoor setting with white walls and a light-colored wooden floor. A baby with dark curly hair, wearing a light green long-sleeved onesie, stands barefoot facing a cat. The cat, a tabby with folded ears (likely a Scottish Fold), stands on its hind legs, leaning against the white wall. The baby's hands are on the cat's chest, and the cat looks wide-eyed at the baby. The overall atmosphere is playful and endearing.",
+  "prompt_data": {
+    "sceneDescription": "A brightly lit, indoor setting with white walls and a light-colored wooden floor. A baby with dark curly hair, wearing a light green long-sleeved onesie, stands barefoot facing a cat. The cat, a tabby with folded ears (likely a Scottish Fold), stands on its hind legs, leaning against the white wall. The baby's hands are on the cat's chest, and the cat looks wide-eyed at the baby. The overall atmosphere is playful and endearing.",
+    "cinematography": {
+      "mood": "Playful, humorous, and heartwarming.",
+      "cameraShot": "Eye-level medium shot, static. The camera captures the interaction between the baby and the cat from a slightly low angle, emphasizing their sizes relative to each other."
+    },
+    "actions": [
+      "The baby, standing, holds onto the cat's chest with both hands.",
+      "The cat stands on its hind legs, leaning against the wall, looking at the baby with wide eyes.",
+      "The baby appears to be speaking to the cat, moving their mouth.",
+      "The cat remains still, maintaining its standing posture against the wall.",
+      "The baby leans forward slightly, seemingly to get closer to the cat's face."
+    ],
+    "dialogue": [
+      "[Child's voice, as if scolding]: Look at me. No meowing. I said no. You scratched the couch again, and then you meowed like it's my fault? Uh-uh. Not today, Mr. Whiskers. No. I said, don't. Be nice. Be-"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 15,
+  "views": 103819,
+  "likes": 2584,
+  "comments": 74,
+  "shares": 0
+}

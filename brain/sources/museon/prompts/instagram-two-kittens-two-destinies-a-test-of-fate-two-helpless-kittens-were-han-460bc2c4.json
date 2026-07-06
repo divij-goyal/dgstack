@@ -1,0 +1,48 @@
+{
+  "content_id": "460bc2c4-bab2-4928-8b45-a20d521c8a47",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "Two Kittens, Two Destinies — A Test of Fate.\nTwo helpless kittens were hanging between life and death.\n\nA wealthy lady rescued the white kitten and raised her in luxury.\nAnother poor working woman saved the black kitten and raised him with love, care, and sacrifice.\n\nTime changed everything.\n\nWhen the rich lady became old and sick, she was betrayed and thrown out of her own home.\nThe working woman’s kindness, however, turned her fate around — the black kitten grew up to become one of the richest",
+  "description": "$36",
+  "prompt_text": "A multi-scene narrative follows the contrasting lives of two feline families. One wealthy family, led by an elegant long-haired white cat, experiences internal conflict and a fall from grace due to a deceitful new member. The other, a humble pair consisting of a diligent black kitten and his aging grey mother, overcomes poverty through hard work and academic excellence. The story concludes with the formerly wealthy cat working as a servant for the now successful black cat, highlighting themes of karma and resilience.",
+  "prompt_data": {
+    "sceneDescription": "A multi-scene narrative follows the contrasting lives of two feline families. One wealthy family, led by an elegant long-haired white cat, experiences internal conflict and a fall from grace due to a deceitful new member. The other, a humble pair consisting of a diligent black kitten and his aging grey mother, overcomes poverty through hard work and academic excellence. The story concludes with the formerly wealthy cat working as a servant for the now successful black cat, highlighting themes of karma and resilience.",
+    "cinematography": {
+      "mood": "Emotional and dramatic, transitioning from distress and betrayal to triumph and somber irony.",
+      "cameraShot": "Mostly static medium and close-up shots with occasional slow pans. The lighting shifts from bright, high-end interiors to warm, dim cabin settings."
+    },
+    "actions": [
+      "A white cat saves a white kitten but leaves a black kitten on a cliff edge.",
+      "The black kitten is rescued and cared for by a grey mother cat in a modest home.",
+      "The white kitten is spoiled but later rebels against his mother.",
+      "The black kitten excels in school and brings joy to his mother.",
+      "A manipulative cat kicks the original white cat out of her luxury home.",
+      "Years later, the black cat, now successful, hires the white cat as a servant."
+    ],
+    "dialogue": [
+      "[Crying and laughing sound effects throughout]",
+      "Black cat says: 'One day I fell in danger but you didn't save me.'",
+      "White cat says: 'I am so sorry, please forgive me.'",
+      "[Background music: Dramatic orchestral swells and soft piano melodies]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 99,
+  "views": 152382057,
+  "likes": 5765526,
+  "comments": 22683,
+  "shares": 1412088,
+  "hashtags": [
+    "twokittenstwofates",
+    "lifetest",
+    "destinystory",
+    "kindnesswins",
+    "cats_of_instagram"
+  ]
+}

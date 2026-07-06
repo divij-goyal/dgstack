@@ -1,0 +1,42 @@
+{
+  "content_id": "c49114c7-4489-4f78-bd0d-28175795ee42",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "“That’s not the nail 😭😭😭”",
+  "description": "“That’s not the nail 😭😭😭”",
+  "prompt_text": "A humorous and chaotic outdoor scene featuring two cats engaged in a construction mishap. An orange tabby cat stands upright, clumsily wielding a full-sized hammer to drive a nail into a wooden plank. A grey tabby cat sits nearby, wearing a miniature yellow plastic hard hat for protection. The setting is a rustic backyard or woodyard with a large pile of chopped firewood in the background and a blue wooden shed to the left. The ground is dirt and dry leaves, and the lighting is flat, suggestive of an overcast day.",
+  "prompt_data": {
+    "sceneDescription": "A humorous and chaotic outdoor scene featuring two cats engaged in a construction mishap. An orange tabby cat stands upright, clumsily wielding a full-sized hammer to drive a nail into a wooden plank. A grey tabby cat sits nearby, wearing a miniature yellow plastic hard hat for protection. The setting is a rustic backyard or woodyard with a large pile of chopped firewood in the background and a blue wooden shed to the left. The ground is dirt and dry leaves, and the lighting is flat, suggestive of an overcast day.",
+    "cinematography": {
+      "mood": "Slapstick, humorous, and chaotic.",
+      "cameraShot": "Medium shot, eye-level, following the action with slight handheld movement. The camera pans and shakes as the cats begin to fight."
+    },
+    "actions": [
+      "The orange cat repeatedly strikes the nail with a hammer while standing on its hind legs.",
+      "The grey cat watches intently, wearing a yellow hard hat.",
+      "The orange cat misses the nail, causing the hammer to bounce and hit the grey cat's head, knocking off the hard hat.",
+      "The grey cat reacts with a loud screech and immediately lunges at the orange cat.",
+      "The two cats engage in a fast-paced 'cat-fight' tumble, rolling across the dirt ground.",
+      "The camera follows the rolling cats as they move away from the initial construction spot.",
+      "The cats eventually separate, with the orange cat looking dazed while the grey cat continues to hiss."
+    ],
+    "dialogue": [
+      "[Sound of hammer striking metal and wood]",
+      "Grey cat: [High-pitched, aggressive screech/yowl]",
+      "[Sound of rapid scuffling and rustling leaves]",
+      "Orange cat: [Muffled growls and hissing]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 113699,
+  "likes": 2058,
+  "comments": 87,
+  "shares": 0
+}

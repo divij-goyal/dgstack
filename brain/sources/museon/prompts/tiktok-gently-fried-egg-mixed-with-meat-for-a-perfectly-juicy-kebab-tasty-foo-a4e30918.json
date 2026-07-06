@@ -1,0 +1,45 @@
+{
+  "content_id": "a4e30918-8f57-42ec-b174-6245b8e8b7ab",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "Gently fried egg mixed with meat for a perfectly juicy kebab #tasty #food #delicious #kebab #fyp",
+  "description": "Gently fried egg mixed with meat for a perfectly juicy kebab #tasty #food #delicious #kebab #fyp",
+  "prompt_text": "A busy outdoor street food stall in Pakistan where a man with a large beard, wearing a traditional brown shalwar kameez and a white kufi cap, is preparing food on a massive, flat circular griddle filled with hot oil. The griddle is intricately decorated with white geometric patterns around its edge. In the background, other men are seated at tables, and rows of eggs and various bowls of ingredients are visible on a nearby shelf. The scene is brightly lit by overhead fluorescent lights, creating a warm and lively atmosphere as steam and smoke rise from the cooking surface.",
+  "prompt_data": {
+    "sceneDescription": "A busy outdoor street food stall in Pakistan where a man with a large beard, wearing a traditional brown shalwar kameez and a white kufi cap, is preparing food on a massive, flat circular griddle filled with hot oil. The griddle is intricately decorated with white geometric patterns around its edge. In the background, other men are seated at tables, and rows of eggs and various bowls of ingredients are visible on a nearby shelf. The scene is brightly lit by overhead fluorescent lights, creating a warm and lively atmosphere as steam and smoke rise from the cooking surface.",
+    "cinematography": {
+      "mood": "Busy, authentic, and culturally rich, emphasizing the craft of street food preparation.",
+      "cameraShot": "Medium shot, static, slightly elevated to capture the large griddle and the chef's actions. The focus is sharp on the chef and the cooking process."
+    },
+    "actions": [
+      "The chef cracks an egg onto the hot, oiled griddle.",
+      "He uses a long metal rod to swirl and spread the egg across the surface.",
+      "With a metal scraper, he folds and moves the cooking egg to the center.",
+      "The chef reaches over to a side table and begins shaping round patties by hand from a large bowl of ground meat mixture.",
+      "He carefully places one of the formed patties onto the griddle, pressing it down firmly into the sizzling oil with his bare hand.",
+      "The chef continues to shape and prepare more patties while the first one cooks."
+    ],
+    "dialogue": [
+      "[Ambient street sounds: sizzling of oil, distant chatter, and the rhythmic scraping of the metal tools against the griddle.]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 61,
+  "views": 180137353,
+  "likes": 2210390,
+  "comments": 240836,
+  "shares": 1113375,
+  "hashtags": [
+    "tasty",
+    "food",
+    "delicious",
+    "kebab",
+    "fyp"
+  ]
+}

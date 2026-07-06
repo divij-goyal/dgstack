@@ -1,0 +1,44 @@
+{
+  "content_id": "84e418d2-1304-4c04-b749-2caa92c7acdd",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "#ia #ai #iavideo",
+  "description": "#ia #ai #iavideo",
+  "prompt_text": "A surreal and comedic indoor scene transitioning from a dinner setting to a bizarre character reveal. Initially, a perfectly roasted chicken sits on a garnished platter on a rustic wooden dining table. The table is set with plates, greens, and a knife block in a warm, domestic kitchen or dining room. As the video progresses, the roasted chicken miraculously transforms and 'hatches' into a living, anthropomorphic rooster with an incredibly muscular, bodybuilder-like physique. The rooster-man wears red ruffled pants and has feathered skin that retains a glisten similar to roasted poultry. The background features a soft-focus interior with a window and home decor, illuminated by natural daylight.",
+  "prompt_data": {
+    "sceneDescription": "A surreal and comedic indoor scene transitioning from a dinner setting to a bizarre character reveal. Initially, a perfectly roasted chicken sits on a garnished platter on a rustic wooden dining table. The table is set with plates, greens, and a knife block in a warm, domestic kitchen or dining room. As the video progresses, the roasted chicken miraculously transforms and 'hatches' into a living, anthropomorphic rooster with an incredibly muscular, bodybuilder-like physique. The rooster-man wears red ruffled pants and has feathered skin that retains a glisten similar to roasted poultry. The background features a soft-focus interior with a window and home decor, illuminated by natural daylight.",
+    "cinematography": {
+      "mood": "Absurdist, humorous, and startling.",
+      "cameraShot": "Medium close-up, starting with a static shot of the food and transitioning into a slow tracking shot that follows the character as it stands and turns."
+    },
+    "actions": [
+      "The video begins with a static shot of a roasted chicken on a platter.",
+      "A rooster's head suddenly emerges from the neck area of the roasted chicken and lets out a crow.",
+      "The 'roasted' body of the chicken stands up, revealing a muscular, human-like torso and legs wearing red pants.",
+      "The anthropomorphic rooster character steps off the plate onto the wooden table.",
+      "The character turns its back to the camera, flexing its muscular, feathered back and shoulders while walking away."
+    ],
+    "dialogue": [
+      "A loud, classic rooster crowing sound (Cock-a-doodle-doo).",
+      "A rhythmic, energetic shouting of numbers: 'One! Two! Three!'",
+      "Ambient kitchen sounds and upbeat, fast-paced background music."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 5,
+  "views": 72255607,
+  "likes": 524938,
+  "comments": 8529,
+  "shares": 280910,
+  "hashtags": [
+    "ia",
+    "ai",
+    "iavideo"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "content_id": "3ef4a72e-12af-4a58-abf9-764044aaa4b0",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "コンクリート打設中に現れた現場監督🦉👷‍♂️😂✨\n#animals #cute #owl #lapan #construction",
+  "description": "コンクリート打設中に現れた現場監督🦉👷‍♂️😂✨\n#animals #cute #owl #lapan #construction",
+  "prompt_text": "A construction site at dusk where a worker in a white hard hat, high-visibility vest, and tan pants kneels on a fresh concrete slab. A small, brown burrowing owl stands defiantly on the wet cement, leaving a trail of footprints. The worker uses a hand trowel to smooth the surface near the owl under clear, golden-hour lighting. Scaffolding and a construction yard are visible in the background.",
+  "prompt_data": {
+    "sceneDescription": "A construction site at dusk where a worker in a white hard hat, high-visibility vest, and tan pants kneels on a fresh concrete slab. A small, brown burrowing owl stands defiantly on the wet cement, leaving a trail of footprints. The worker uses a hand trowel to smooth the surface near the owl under clear, golden-hour lighting. Scaffolding and a construction yard are visible in the background.",
+    "cinematography": {
+      "mood": "Humorous, lighthearted, and endearing.",
+      "cameraShot": "Low-angle medium shot, static framing focused on the interaction between the worker and the owl."
+    },
+    "actions": [
+      "The worker slowly runs a metal trowel along the wet concrete toward the owl.",
+      "The owl remains stationary, staring directly at the camera with wide eyes.",
+      "The worker speaks gently to the owl while gesturing with the tool.",
+      "The owl blinks and shifts its head slightly but refuses to move from its spot."
+    ],
+    "dialogue": [
+      "The worker says in Japanese: 'Please move, I want to finish this part.'",
+      "Ambient construction site sounds, including distant machinery and wind."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 116301022,
+  "likes": 300602,
+  "comments": 1579,
+  "shares": 12624,
+  "hashtags": [
+    "animals",
+    "cute",
+    "owl",
+    "lapan",
+    "construction"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "content_id": "89ad6518-ad4f-4e06-842d-9217789738f7",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Are you guys seeing this?",
+  "description": "Are you guys seeing this?",
+  "prompt_text": "A close-up, low-angle shot of a tabby cat taking a selfie on a paved surface, possibly a sidewalk or street. The cat has bright green eyes and is wearing a collar with a small bell. In the blurred background, several large rats are gathered around a piece of pizza, with a warm, sunset-like glow illuminating the scene. Cars and buildings are vaguely visible in the distant background, hinting at an urban setting.",
+  "prompt_data": {
+    "sceneDescription": "A close-up, low-angle shot of a tabby cat taking a selfie on a paved surface, possibly a sidewalk or street. The cat has bright green eyes and is wearing a collar with a small bell. In the blurred background, several large rats are gathered around a piece of pizza, with a warm, sunset-like glow illuminating the scene. Cars and buildings are vaguely visible in the distant background, hinting at an urban setting.",
+    "cinematography": {
+      "mood": "Playful, surreal, and slightly mischievous.",
+      "cameraShot": "Low-angle, close-up shot, mimicking a selfie taken by the cat. The camera is static."
+    },
+    "actions": [
+      "The tabby cat looks directly at the camera with wide eyes.",
+      "The cat slightly blinks its eyes.",
+      "The cat's tongue briefly extends and retracts, licking its nose."
+    ],
+    "dialogue": [
+      "[Ambient urban sounds: faint traffic, indistinct chattering]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 106295,
+  "likes": 2728,
+  "comments": 51,
+  "shares": 0
+}

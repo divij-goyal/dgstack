@@ -1,0 +1,44 @@
+{
+  "content_id": "ccb9765e-e766-4158-9e22-7def4a69c029",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Say hello to my little friend",
+  "description": "Say hello to my little friend",
+  "prompt_text": "A slightly overcast outdoor scene by a rustic wooden shed with horizontal planks. The ground is a mix of green grass and muddy patches. A small, two-panel wooden door with rusty metal hinges and a rope handle is set into the shed's wall near the ground. In the background, a rural landscape with distant trees, a fence, and what appears to be another building is visible under a light gray sky. The main character is a white domestic duck with an orange beak and webbed feet, comically augmented with muscular, flesh-toned human-like arms attached to its sides.",
+  "prompt_data": {
+    "sceneDescription": "A slightly overcast outdoor scene by a rustic wooden shed with horizontal planks. The ground is a mix of green grass and muddy patches. A small, two-panel wooden door with rusty metal hinges and a rope handle is set into the shed's wall near the ground. In the background, a rural landscape with distant trees, a fence, and what appears to be another building is visible under a light gray sky. The main character is a white domestic duck with an orange beak and webbed feet, comically augmented with muscular, flesh-toned human-like arms attached to its sides.",
+    "cinematography": {
+      "mood": "Humorous, surreal, playful, and quirky.",
+      "cameraShot": "Starts as a medium, static shot of the shed door, then transitions to a handheld, eye-level tracking shot, following the duck as it emerges and moves. The shot is dynamic, adjusting to keep the duck centered."
+    },
+    "actions": [
+      "A person's hand reaches down towards a small wooden door on the side of a shed.",
+      "The hand grasps a rope handle attached to the right side of the small door.",
+      "The hand pulls the rope handle, causing the two small wooden doors to swing open.",
+      "A white duck, adorned with muscular, flesh-toned human-like arms, waddles out from the shed's opening.",
+      "The duck steps onto the grassy, muddy ground and immediately begins to raise and flex its artificial muscular arms.",
+      "The duck performs a series of exaggerated flexing poses, turning its body and head while making quacking sounds.",
+      "The duck continues to waddle slightly forward, showcasing its powerful-looking arms.",
+      "The duck lowers its head briefly, then raises it again, still moving its muscular arms as if to emphasize its strength."
+    ],
+    "dialogue": [
+      "Voice says: Say hello...",
+      "Voice says: ...to my little friend!",
+      "Sound of human laughter.",
+      "Sound of a duck honking/quacking loudly.",
+      "Sound of excited human vocalizations, including an 'Oh!'"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 15,
+  "views": 119188,
+  "likes": 2161,
+  "comments": 46,
+  "shares": 0
+}

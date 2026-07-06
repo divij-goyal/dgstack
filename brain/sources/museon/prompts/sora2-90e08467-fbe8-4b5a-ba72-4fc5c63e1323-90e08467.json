@@ -1,0 +1,39 @@
+{
+  "content_id": "90e08467-fbe8-4b5a-ba72-4fc5c63e1323",
+  "platform": "sora2",
+  "content_type": "video",
+  "prompt_text": "A whimsical night scene on a house's front porch, viewed through a fisheye lens. A white rabbit, standing upright on its hind legs, is dressed in an elaborate blue jacket with gold trim, a beige waistcoat, and a white shirt, resembling the White Rabbit from Alice in Wonderland. To the left, an orange pumpkin and a smaller white pumpkin sit on a doormat. The porch has wooden floorboards, a white-sided house wall, and white railings. A bright overhead porch light illuminates the scene, casting a glow on the rabbit and the immediate surroundings against a dark night sky. A 'ring.com' logo is visible in the top left corner, and 'Sora ' in the bottom left, indicating the source and creator.",
+  "prompt_data": {
+    "sceneDescription": "A whimsical night scene on a house's front porch, viewed through a fisheye lens. A white rabbit, standing upright on its hind legs, is dressed in an elaborate blue jacket with gold trim, a beige waistcoat, and a white shirt, resembling the White Rabbit from Alice in Wonderland. To the left, an orange pumpkin and a smaller white pumpkin sit on a doormat. The porch has wooden floorboards, a white-sided house wall, and white railings. A bright overhead porch light illuminates the scene, casting a glow on the rabbit and the immediate surroundings against a dark night sky. A 'ring.com' logo is visible in the top left corner, and 'Sora ' in the bottom left, indicating the source and creator.",
+    "cinematography": {
+      "mood": "Whimsical, humorous, slightly frantic, and curious.",
+      "cameraShot": "High-angle, extreme wide-angle fisheye lens, mimicking a security camera or doorbell cam view. The shot is static throughout."
+    },
+    "actions": [
+      "The rabbit stands upright on the porch, holding a gold pocket watch on a chain in its left paw.",
+      "The rabbit looks down at the pocket watch.",
+      "The rabbit slightly shifts its gaze and head.",
+      "The rabbit brings the pocket watch closer to its face, looking at it intently.",
+      "The rabbit leans in towards the camera, filling a significant portion of the frame with its face, its nose and whiskers prominently visible, and its eyes wide."
+    ],
+    "dialogue": [
+      "Voiceover (distressed, British accent): Oh dear, oh dear!",
+      "Voiceover: I'm dreadfully late!",
+      "Voiceover: Half past already?",
+      "Voiceover: No time, no time!",
+      "Voiceover: Pardon me, must dash!"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 157441,
+  "likes": 2668,
+  "comments": 57,
+  "shares": 0
+}

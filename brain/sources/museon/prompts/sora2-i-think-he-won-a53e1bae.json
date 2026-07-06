@@ -1,0 +1,40 @@
+{
+  "content_id": "a53e1bae-8199-46b2-87f5-f4b47cc8c914",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "I think he won?🚰",
+  "description": "I think he won?🚰",
+  "prompt_text": "A close-up, domestic scene in a kitchen sink. A small, fluffy kitten with grey and white markings and blue eyes is standing upright in the stainless steel sink, playing with a stream of water coming from a modern chrome faucet. The sink has a visible drain on the left side. Behind the sink, a window looks out onto a green field with distant orange-colored objects and a red barn. A dark brown soap dispenser sits on the countertop to the left of the faucet. The lighting is bright and natural, indicating daytime, with soft reflections on the metallic surfaces.",
+  "prompt_data": {
+    "sceneDescription": "A close-up, domestic scene in a kitchen sink. A small, fluffy kitten with grey and white markings and blue eyes is standing upright in the stainless steel sink, playing with a stream of water coming from a modern chrome faucet. The sink has a visible drain on the left side. Behind the sink, a window looks out onto a green field with distant orange-colored objects and a red barn. A dark brown soap dispenser sits on the countertop to the left of the faucet. The lighting is bright and natural, indicating daytime, with soft reflections on the metallic surfaces.",
+    "cinematography": {
+      "mood": "Playful, adorable, and joyful.",
+      "cameraShot": "Medium shot, eye-level with the kitten, with slight camera movement to follow the kitten's actions. The shot includes a foreground element (possibly a towel) that creates a subtle blur at the bottom of the frame, adding depth."
+    },
+    "actions": [
+      "The kitten stands on its hind legs in the sink, batting playfully at the stream of water from the faucet.",
+      "The kitten's paws splash in the water as it tries to 'catch' the stream.",
+      "The kitten briefly drops to all fours, then stands back up to continue playing.",
+      "The kitten repeatedly splashes and hits the water stream with its front paws, getting wet.",
+      "The kitten's ears twitch slightly as it engages with the water.",
+      "The kitten looks directly at the camera with wide eyes and then resumes playing with the water."
+    ],
+    "dialogue": [
+      "[Sound of water running from a faucet]",
+      "[Sound of kitten splashing in water]",
+      "[A person laughing gently in the background]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 25,
+  "views": 167758,
+  "likes": 1328,
+  "comments": 55,
+  "shares": 0
+}

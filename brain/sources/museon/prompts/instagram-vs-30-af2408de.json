@@ -1,0 +1,39 @@
+{
+  "content_id": "af2408de-1edc-4c98-bf04-298b363f46cb",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "Тихий убийца vs. Естественное восстановление: как работает тело\n \n\nМы часто думаем, что для здоровья нужны тяжёлые кардионагрузки. Но простая разница между растяжкой и сидением способна полностью переписать вашу биологию. Визуальное сравнение выше наглядно показывает резкий контраст между малоподвижным, зажатым телом и телом, которое ежедневно двигается и восстанавливается.\n\n⸻\n\n🛑 МЕТАБОЛИЧЕСКИЙ СТОП (сидение)\n\nЕсли вы сидите больше 30 минут подряд, ваш метаболизм фактически «засыпает».\n\nО",
+  "description": "$39",
+  "prompt_text": "A split-screen digital medical illustration comparing diet and anatomy. On the left, a person sits eating a burger and fries; on the right, another person eats a salad. Both are rendered with transparent glass-like skin, revealing skeletons, organs, and yellow adipose tissue. The lighting is studio-style against a neutral gray background. As the video progresses, the yellow fat deposits shift and transform between the two figures to represent weight gain and loss.",
+  "prompt_data": {
+    "sceneDescription": "A split-screen digital medical illustration comparing diet and anatomy. On the left, a person sits eating a burger and fries; on the right, another person eats a salad. Both are rendered with transparent glass-like skin, revealing skeletons, organs, and yellow adipose tissue. The lighting is studio-style against a neutral gray background. As the video progresses, the yellow fat deposits shift and transform between the two figures to represent weight gain and loss.",
+    "cinematography": {
+      "mood": "Educational, clinical, and cautionary.",
+      "cameraShot": "Static full-body medium shot, split-screen composition."
+    },
+    "actions": [
+      "The figure on the left eats a burger while yellow fat globules fill their abdomen and thighs.",
+      "The figure on the right eats a salad, and their existing body fat visibly drains away.",
+      "The left figure transforms from thin to obese as they continue eating junk food.",
+      "The right figure transforms from obese to fit and muscular while eating greens.",
+      "The skeleton and internal organs remain visible throughout the transformation."
+    ],
+    "dialogue": [
+      "[Rapid, wet crunching and chewing sounds]",
+      "[Whirring and squelching sound effect during the fat transformation]",
+      "[Triumphant chime at the final transformation]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 120796751,
+  "likes": 342273,
+  "comments": 3915,
+  "shares": 185002
+}

@@ -1,0 +1,35 @@
+{
+  "content_id": "f6f92f85-9fc7-47a1-97c5-061286486409",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "🐓🧢",
+  "description": "🐓🧢",
+  "prompt_text": "A humorous and slightly surreal outdoor scene featuring two roosters dressed in hip-hop attire, standing face-to-face in a dirt or gravel area. The rooster on the left is reddish-brown with a black and green tail, wearing a blue baseball cap with a white 'NY' logo and a thick gold chain. The rooster on the right is speckled gray and white, wearing a black baseball cap and a similar thick gold chain. In the background, a silver boombox sits on a wooden crate next to a rustic wooden wall, and several other chickens roam around. The ground is dry and uneven, suggesting a farm or backyard setting. The lighting is natural, casting soft shadows, indicative of daylight.",
+  "prompt_data": {
+    "sceneDescription": "A humorous and slightly surreal outdoor scene featuring two roosters dressed in hip-hop attire, standing face-to-face in a dirt or gravel area. The rooster on the left is reddish-brown with a black and green tail, wearing a blue baseball cap with a white 'NY' logo and a thick gold chain. The rooster on the right is speckled gray and white, wearing a black baseball cap and a similar thick gold chain. In the background, a silver boombox sits on a wooden crate next to a rustic wooden wall, and several other chickens roam around. The ground is dry and uneven, suggesting a farm or backyard setting. The lighting is natural, casting soft shadows, indicative of daylight.",
+    "cinematography": {
+      "mood": "Playful, amusing, and a little absurd.",
+      "cameraShot": "Medium shot, eye-level with the roosters. The camera is static, focusing on the two main roosters."
+    },
+    "actions": [
+      "The two roosters stand facing each other, their heads slightly tilted.",
+      "The roosters' heads bob slightly in rhythm with the music.",
+      "Other chickens occasionally walk in the background."
+    ],
+    "dialogue": [
+      "Uptempo hip-hop music playing loudly from the boombox, featuring vocal samples that sound like 'Go, go, go, go!'"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 120237,
+  "likes": 3325,
+  "comments": 51,
+  "shares": 0
+}

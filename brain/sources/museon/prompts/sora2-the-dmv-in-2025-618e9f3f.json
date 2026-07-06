@@ -1,0 +1,39 @@
+{
+  "content_id": "618e9f3f-b38e-48e7-a259-db4f1b959688",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "The DMV in 2025 😪",
+  "description": "The DMV in 2025 😪",
+  "prompt_text": "A brightly lit waiting room, likely a DMV or similar government office, with fluorescent lights on the ceiling and rows of black chairs. A counter with multiple windows labeled 'WINDOWS 1-4' is visible in the background, with a digital display showing a number sequence '066' and later '067'. Several people are seated in the chairs, dressed in casual attire. A woman with light-colored hair and glasses is behind one of the counters.",
+  "prompt_data": {
+    "sceneDescription": "A brightly lit waiting room, likely a DMV or similar government office, with fluorescent lights on the ceiling and rows of black chairs. A counter with multiple windows labeled 'WINDOWS 1-4' is visible in the background, with a digital display showing a number sequence '066' and later '067'. Several people are seated in the chairs, dressed in casual attire. A woman with light-colored hair and glasses is behind one of the counters.",
+    "cinematography": {
+      "mood": "Initially mundane and routine, shifting to celebratory and chaotic.",
+      "cameraShot": "Medium shot, eye-level, static. The camera captures the middle and back of the waiting room."
+    },
+    "actions": [
+      "A man in a yellow hoodie stands in the middle of the waiting room, looking at the digital display.",
+      "The man in the yellow hoodie raises his arms excitedly as the number on the display changes from '068' to '067'.",
+      "People in the waiting room, including the man in the yellow hoodie, erupt in celebration, jumping up and cheering.",
+      "The man in the yellow hoodie walks towards the counter, dancing and pumping his fists.",
+      "Other people join in the celebration, some standing on chairs and others running towards the counter.",
+      "A woman in a tan top and jeans falls backwards onto the floor, laughing, as the group celebrates around her."
+    ],
+    "dialogue": [
+      "Voice announces: \"Next up, sixty-seven!\"",
+      "Crowd shouts in excitement and cheers."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 106794,
+  "likes": 940,
+  "comments": 48,
+  "shares": 0
+}

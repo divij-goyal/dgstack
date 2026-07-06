@@ -1,0 +1,44 @@
+{
+  "content_id": "4ceb0166-ac15-42a3-b686-0fbc6ae93aa0",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "Pecked the chip once and the chip pecked back 😳 #chickens #chickencoop #sora",
+  "description": "Pecked the chip once and the chip pecked back 😳 #chickens #chickencoop #sora",
+  "prompt_text": "A humorous outdoor scene set in a chicken coop. A light-brown Orpington-style hen stands behind a small, open black box labeled 'Paqui One Chip Challenge'. Inside the box lies a single, dark purple tortilla chip heavily dusted with red spice. The setting includes dry hay on the ground and a wooden fence/wire mesh enclosure in the background, under bright, natural daylight. The video focuses on the hen's comedic reaction to eating the spicy chip.",
+  "prompt_data": {
+    "sceneDescription": "A humorous outdoor scene set in a chicken coop. A light-brown Orpington-style hen stands behind a small, open black box labeled 'Paqui One Chip Challenge'. Inside the box lies a single, dark purple tortilla chip heavily dusted with red spice. The setting includes dry hay on the ground and a wooden fence/wire mesh enclosure in the background, under bright, natural daylight. The video focuses on the hen's comedic reaction to eating the spicy chip.",
+    "cinematography": {
+      "mood": "Humorous, internet-meme style, and slapstick.",
+      "cameraShot": "Low-angle, close-up shot that remains static, focusing on the hen and the product box in the foreground."
+    },
+    "actions": [
+      "The hen repeatedly pecks at the spicy chip inside the box.",
+      "Small pieces of the chip break off as the hen eats them.",
+      "The hen suddenly stands tall, stretches its neck, and opens its beak wide.",
+      "A dubbed-over sound effect of a human screaming is synced with the hen opening its beak to simulate a reaction to the heat.",
+      "The hen repeats the screaming pose multiple times for comedic effect."
+    ],
+    "dialogue": [
+      "[Sound of rapid pecking against the box and chip]",
+      "[High-pitched, distorted human scream sound effect repeated several times]",
+      "[Ambient sounds of a backyard or farm]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 150428783,
+  "likes": 3487525,
+  "comments": 24830,
+  "shares": 0,
+  "hashtags": [
+    "chickens",
+    "chickencoop",
+    "sora"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "content_id": "8b9d8b5e-a9d8-4bcb-b54d-8d799b7e3e96",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "extreterrestrial news drop: sora's now on android 👽 check it out in canada, japan, korea, taiwan, thailand, US, and vietnam !",
+  "description": "extreterrestrial news drop: sora's now on android 👽 check it out in canada, japan, korea, taiwan, thailand, US, and vietnam !",
+  "prompt_text": "A comedic outdoor news report scene set in a vast, open grassy field under an overcast sky. A female news reporter, with dark hair and wearing a dark blue suit over a light turtleneck, holds a microphone with a 'NEWS' logo. She stands beside an alien character, who has vivid green skin, large, dark eyes, and is dressed in a casual beige hoodie underneath a brown jacket with matching pants. Hovering directly above them in the sky is a sleek, dark flying saucer/UFO with glowing blue lights. The lighting is natural, soft, and even, indicative of an overcast day.",
+  "prompt_data": {
+    "sceneDescription": "A comedic outdoor news report scene set in a vast, open grassy field under an overcast sky. A female news reporter, with dark hair and wearing a dark blue suit over a light turtleneck, holds a microphone with a 'NEWS' logo. She stands beside an alien character, who has vivid green skin, large, dark eyes, and is dressed in a casual beige hoodie underneath a brown jacket with matching pants. Hovering directly above them in the sky is a sleek, dark flying saucer/UFO with glowing blue lights. The lighting is natural, soft, and even, indicative of an overcast day.",
+    "cinematography": {
+      "mood": "Initially serious and reportorial, quickly transitioning to humorous, absurd, and energetic.",
+      "cameraShot": "Medium shot, vertically framed, capturing both characters from the waist up. The camera is static throughout the scene."
+    },
+    "actions": [
+      "The female reporter holds her microphone and speaks to the alien, gesturing slightly with her free hand.",
+      "The alien listens intently, then responds, gesturing with its hands.",
+      "The alien's eyes briefly glow with an orange hue as it speaks.",
+      "The reporter reacts with surprise and drops her microphone.",
+      "The reporter lets out a loud scream.",
+      "The alien appears to playfully 'grab' at the reporter as a distinct musical beat drops.",
+      "Both the reporter and the alien begin to move their arms in a sudden, synchronized, and exaggerated celebratory dance-like fashion."
+    ],
+    "dialogue": [
+      "Reporter: I'm here with what appears to be an alien who apparently has a message for us.",
+      "Alien: That's right, thank you. I'm here to report that Sora is now on Android.",
+      "Reporter: Wait, what?",
+      "Reporter: [Screams]",
+      "[Upbeat, electronic music beat drops]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 168965,
+  "likes": 3538,
+  "comments": 184,
+  "shares": 0
+}

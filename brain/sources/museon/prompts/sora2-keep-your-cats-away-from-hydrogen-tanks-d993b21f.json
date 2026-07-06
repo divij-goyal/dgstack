@@ -1,0 +1,39 @@
+{
+  "content_id": "d993b21f-18ce-4a5f-b335-4a9736c81caa",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Keep your cats away from hydrogen tanks 🎈",
+  "description": "Keep your cats away from hydrogen tanks 🎈",
+  "prompt_text": "A tabby cat stands on its hind legs, clinging to a large, bright green gas cylinder (likely an oxygen or industrial gas tank) with a brass pressure gauge and valve on top. The setting is an indoor workshop or garage with metal shelving units to the left, and a workbench cluttered with tools, papers, and miscellaneous equipment in the background. Overhead fluorescent lighting illuminates the space. A large, light-colored (mint green or pale blue) balloon begins to inflate rapidly from the top of the cylinder, eventually expanding to fill the entire frame.",
+  "prompt_data": {
+    "sceneDescription": "A tabby cat stands on its hind legs, clinging to a large, bright green gas cylinder (likely an oxygen or industrial gas tank) with a brass pressure gauge and valve on top. The setting is an indoor workshop or garage with metal shelving units to the left, and a workbench cluttered with tools, papers, and miscellaneous equipment in the background. Overhead fluorescent lighting illuminates the space. A large, light-colored (mint green or pale blue) balloon begins to inflate rapidly from the top of the cylinder, eventually expanding to fill the entire frame.",
+    "cinematography": {
+      "mood": "Playful, surprising, and visually striking, transitioning from an observational tone to a surreal, all-encompassing spectacle.",
+      "cameraShot": "Medium shot, eye-level with the cat and cylinder. The camera is static, but the inflating balloon creates a dynamic, expanding visual that eventually fills the entire frame."
+    },
+    "actions": [
+      "A tabby cat stands on its hind legs, leaning against the green gas cylinder, looking upwards at the valve and gauge.",
+      "The cat's paws are placed on the side of the cylinder.",
+      "A large, light-colored balloon begins to inflate rapidly from the top of the cylinder.",
+      "The cat is briefly pushed back by the expanding balloon.",
+      "The balloon continues to inflate at an accelerating rate, quickly growing in size.",
+      "The balloon expands until it fills nearly the entire frame, becoming a massive sphere."
+    ],
+    "dialogue": [
+      "Cat meows loudly.",
+      "Loud sound of rapidly rushing air/gas as the balloon inflates."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 140902,
+  "likes": 2571,
+  "comments": 66,
+  "shares": 0
+}

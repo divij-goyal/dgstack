@@ -1,0 +1,48 @@
+{
+  "content_id": "bd8d9e39-0e73-409a-adc9-65d424b210b4",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Protein powder claw machine 💪",
+  "description": "Protein powder claw machine 💪",
+  "prompt_text": "An energetic indoor scene, likely a gym or fitness event, focused on a large claw machine. The machine is filled to the brim with numerous white and black plastic tubs, resembling protein powder or supplement containers. Through the clear glass of the machine, a very muscular, bald man in a red tank top and black belt stands prominently in the background, intently watching the game unfold. Behind him, a diverse crowd of people, mostly in athletic wear, gathers to observe, some holding up phones to record. The lighting is bright, artificial, and evenly distributed across the scene.",
+  "prompt_data": {
+    "sceneDescription": "An energetic indoor scene, likely a gym or fitness event, focused on a large claw machine. The machine is filled to the brim with numerous white and black plastic tubs, resembling protein powder or supplement containers. Through the clear glass of the machine, a very muscular, bald man in a red tank top and black belt stands prominently in the background, intently watching the game unfold. Behind him, a diverse crowd of people, mostly in athletic wear, gathers to observe, some holding up phones to record. The lighting is bright, artificial, and evenly distributed across the scene.",
+    "cinematography": {
+      "mood": "Tense, exciting, and ultimately frustrated/disappointed, with an underlying sense of community and shared experience among the onlookers.",
+      "cameraShot": "A static, medium close-up shot, positioned as if looking from inside the claw machine through the glass, slightly angled up towards the man and the crowd. The claw mechanism is in the foreground, centered."
+    },
+    "actions": [
+      "The metal claw mechanism descends slowly into the pile of supplement tubs.",
+      "The claw closes firmly around a black tub.",
+      "The muscular man in the background watches with extreme focus, his mouth slightly open.",
+      "The claw begins to lift the secured black tub upwards.",
+      "The man in the background cheers, exclaiming 'Let's go!'",
+      "Suddenly, the black tub slips from the claw's grip and tumbles back down into the pile of other tubs.",
+      "The muscular man immediately reacts with an audible gasp, throwing his hands up in disbelief and frustration.",
+      "He expresses his anger and disappointment, gesturing towards the machine.",
+      "The crowd behind him also shows clear signs of disappointment and murmuring."
+    ],
+    "dialogue": [
+      "A male voice says: \"Come on, come on.\"",
+      "Another male voice shouts: \"Clam it, clam it! Yes!\"",
+      "The main muscular man exclaims: \"Let's go!\"",
+      "A voice says: \"Easy money.\"",
+      "The main muscular man shouts in disbelief: \"Oh! You kidding me?!\"",
+      "A male voice says: \"Bro, what?!\"",
+      "Another male voice comments: \"That's robbery, man.\"",
+      "The main muscular man yells angrily: \"Trash claw! Trash!\""
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 107050,
+  "likes": 2045,
+  "comments": 35,
+  "shares": 0
+}

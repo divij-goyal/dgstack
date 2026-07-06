@@ -1,0 +1,42 @@
+{
+  "content_id": "e2d4e18e-6178-46bd-b171-a3186afe8fd3",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Poker playing cats 🐱 ♦️",
+  "description": "Poker playing cats 🐱 ♦️",
+  "prompt_text": "A surreal and humorous night scene on a house's front porch. Three anthropomorphic cats, dressed in human-like attire, are seated around a round wooden table, engrossed in a game of poker. The cat on the left has striped fur and wears a light-colored shirt, plaid bottoms, and a yellow straw hat. The middle cat is an orange tabby, sporting a white shirt with suspenders and a dark derby hat. The black cat on the right wears a light blue shirt and a blue baseball cap. Poker cards, various colored chips (red, blue, green), and small glasses are scattered on the table. The setting is brightly illuminated by an overhead porch light, highlighting the white horizontal siding of the house and a bright blue front door directly behind the middle cat. A white railing is visible to the right. The background is dark, indicating late night. The entire scene is captured with a distinct fisheye lens effect, characteristic of a security or doorbell camera.",
+  "prompt_data": {
+    "sceneDescription": "A surreal and humorous night scene on a house's front porch. Three anthropomorphic cats, dressed in human-like attire, are seated around a round wooden table, engrossed in a game of poker. The cat on the left has striped fur and wears a light-colored shirt, plaid bottoms, and a yellow straw hat. The middle cat is an orange tabby, sporting a white shirt with suspenders and a dark derby hat. The black cat on the right wears a light blue shirt and a blue baseball cap. Poker cards, various colored chips (red, blue, green), and small glasses are scattered on the table. The setting is brightly illuminated by an overhead porch light, highlighting the white horizontal siding of the house and a bright blue front door directly behind the middle cat. A white railing is visible to the right. The background is dark, indicating late night. The entire scene is captured with a distinct fisheye lens effect, characteristic of a security or doorbell camera.",
+    "cinematography": {
+      "mood": "Playful, surreal, humorous, and slightly mysterious.",
+      "cameraShot": "High-angle, extreme wide-angle fisheye lens, mimicking a security camera or doorbell cam view. The shot is static."
+    },
+    "actions": [
+      "The three cats are seated around the table, initially still, focusing on their cards.",
+      "The cat in the middle makes a slight head movement.",
+      "The cat in the middle then extends its right paw forward, pushing some poker chips.",
+      "The cat on the right slightly shifts its head and extends its right paw, moving chips.",
+      "The cat on the left extends its left paw forward, pushing a stack of blue poker chips into the center of the table.",
+      "All three cats settle back into their positions, looking at the table."
+    ],
+    "dialogue": [
+      "A distinct cat meow is heard from the middle cat.",
+      "Sound of poker chips clinking and sliding on the table.",
+      "Another distinct cat meow is heard from the left cat.",
+      "Sound of poker chips clinking and sliding again.",
+      "Soft ambient night sounds are implied."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 575124,
+  "likes": 8023,
+  "comments": 56,
+  "shares": 0
+}

@@ -1,0 +1,36 @@
+{
+  "content_id": "8509e38b-1177-4b9c-b038-6687e743daa7",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "🍔🐱",
+  "description": "🍔🐱",
+  "prompt_text": "A low-angle shot captures an adorable orange tabby cat running on two legs down a city sidewalk, clutching two bright yellow objects resembling small pillows or packages close to its chest. The cat has a serious, determined expression. In the blurry background, a person in a dark uniform, possibly a police officer, is running, seemingly in pursuit of the cat. The sidewalk is paved with light-colored concrete, and there are buildings with grey facades on the right. The overall lighting suggests daytime.",
+  "prompt_data": {
+    "sceneDescription": "A low-angle shot captures an adorable orange tabby cat running on two legs down a city sidewalk, clutching two bright yellow objects resembling small pillows or packages close to its chest. The cat has a serious, determined expression. In the blurry background, a person in a dark uniform, possibly a police officer, is running, seemingly in pursuit of the cat. The sidewalk is paved with light-colored concrete, and there are buildings with grey facades on the right. The overall lighting suggests daytime.",
+    "cinematography": {
+      "mood": "Humorous, action-packed, and slightly mischievous.",
+      "cameraShot": "Low-angle, close-up shot on the cat, with a shallow depth of field, keeping the cat in sharp focus while the background is blurred. The camera tracks the cat's movement."
+    },
+    "actions": [
+      "The orange tabby cat runs quickly down the sidewalk on its hind legs, holding two yellow objects.",
+      "The cat's front paws are held up, clutching the yellow items to its chest.",
+      "A person in a uniform is seen running in the background, appearing to chase the cat."
+    ],
+    "dialogue": [
+      "Sound of frantic running footsteps.",
+      "Ambient city sounds, indistinct."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 106650,
+  "likes": 3684,
+  "comments": 91,
+  "shares": 0
+}

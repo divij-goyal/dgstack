@@ -1,0 +1,39 @@
+{
+  "content_id": "40febf15-d1f7-4695-8a1b-6fcae094baeb",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "Untitled",
+  "prompt_text": "A surreal horror scene in a crowded modern mall. A person on the floor is suddenly transformed or overtaken by a massive, fuzzy spider-human hybrid. The creature has a long, distended neck, a grotesque smiling face with large eyes, and multiple long, hairy spider legs. Onlookers in winter clothing watch in shock. The lighting is bright, artificial mall lighting against white tiled floors.",
+  "prompt_data": {
+    "sceneDescription": "A surreal horror scene in a crowded modern mall. A person on the floor is suddenly transformed or overtaken by a massive, fuzzy spider-human hybrid. The creature has a long, distended neck, a grotesque smiling face with large eyes, and multiple long, hairy spider legs. Onlookers in winter clothing watch in shock. The lighting is bright, artificial mall lighting against white tiled floors.",
+    "cinematography": {
+      "mood": "Disturbing, surreal, and horrific.",
+      "cameraShot": "Low-angle tracking shot that follows the creature as it stands up and rotates, maintaining a close-to-medium distance."
+    },
+    "actions": [
+      "A man in a black vest and blue jeans lies on the floor.",
+      "A large spider-like entity with a human-like head emerges from the man.",
+      "The creature stands up, extending long, black, spindly legs.",
+      "The creature's neck elongates unnaturally as it turns to face the camera.",
+      "The creature reveals a wide, terrifying grin and stares with bulging eyes.",
+      "Bystanders in the background stop and stare in confusion and fear."
+    ],
+    "dialogue": [
+      "High-pitched, distorted screeching and chattering sounds.",
+      "Indistinct crowd chatter and gasps.",
+      "Repetitive, rhythmic horror-themed audio loop."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 11,
+  "views": 415030185,
+  "likes": 0,
+  "comments": 0,
+  "shares": 11544
+}

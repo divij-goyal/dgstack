@@ -1,0 +1,46 @@
+{
+  "content_id": "86f11d34-bec1-4845-8ec0-922f5b066dfe",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "The world's largest shrimp was caught #ai #aivideo #fishing #record #creature #animals",
+  "description": "The world's largest shrimp was caught #ai #aivideo #fishing #record #creature #animals",
+  "prompt_text": "A surreal and slightly unsettling scene on the wet deck of a fishing vessel under a grey, overcast sky. The focal point is a monstrously large, tiger-striped prawn, nearly the size of a human, lying on the deck. Three fishermen in heavy-duty waterproof gear are present: one in a vibrant orange suit crouches over the creature, another in yellow stands further back, and a third in red stands near the railing. The deck is cluttered with ropes, a green tub, and fishing equipment. The atmosphere is cold and damp, with the ship's metal structures and a crane arm visible against the horizon.",
+  "prompt_data": {
+    "sceneDescription": "A surreal and slightly unsettling scene on the wet deck of a fishing vessel under a grey, overcast sky. The focal point is a monstrously large, tiger-striped prawn, nearly the size of a human, lying on the deck. Three fishermen in heavy-duty waterproof gear are present: one in a vibrant orange suit crouches over the creature, another in yellow stands further back, and a third in red stands near the railing. The deck is cluttered with ropes, a green tub, and fishing equipment. The atmosphere is cold and damp, with the ship's metal structures and a crane arm visible against the horizon.",
+    "cinematography": {
+      "mood": "Surreal, gritty, and awe-inspiring, blending industrial fishing aesthetics with a cryptozoological feel.",
+      "cameraShot": "Low-angle, wide-angle shot that emphasizes the massive scale of the prawn. The camera slowly pans around the orange-clad fisherman as he interacts with the creature."
+    },
+    "actions": [
+      "A fisherman in a bright orange waterproof suit and blue gloves crouches over a giant prawn.",
+      "He uses his hands to inspect the prawn's legs and underbelly, moving his hands along its length.",
+      "The prawn's legs twitch slightly as the fisherman touches them.",
+      "A fisherman in a yellow suit stands in the background, observing the scene.",
+      "A fisherman in a red suit stands by the railing on the left side of the frame.",
+      "The camera pans slowly from right to left, capturing the full scale of the giant crustacean and the wet deck environment."
+    ],
+    "dialogue": [
+      "[Ambient sounds: The rhythmic mechanical hum of the ship, the splashing of water against the hull, and the whistling of wind.]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 75711945,
+  "likes": 1430986,
+  "comments": 31986,
+  "shares": 483795,
+  "hashtags": [
+    "ai",
+    "aivideo",
+    "fishing",
+    "record",
+    "creature",
+    "animals"
+  ]
+}

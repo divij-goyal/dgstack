@@ -1,0 +1,58 @@
+{
+  "content_id": "528b4eaf-a7c3-4493-b6d4-96096cf426bc",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "#cutecat #cartoons #catstory #vira #aicat",
+  "description": "#cutecat #cartoons #catstory #vira #aicat",
+  "prompt_text": "A playful and whimsical 3D animated scene depicting an ongoing prank war between a cute, fluffy pink kitten and a small grey mouse. Both characters are anthropomorphized, with the kitten wearing a floral blue dress and the mouse wearing a white dress. The kitten is situated in a cozy, pastel-toned bedroom, while the mouse exists in various creative environments, including a pink sandy landscape and an icy cavern. The lighting is soft and bright, emphasizing the vibrant, toy-like aesthetic of the characters.",
+  "prompt_data": {
+    "sceneDescription": "A playful and whimsical 3D animated scene depicting an ongoing prank war between a cute, fluffy pink kitten and a small grey mouse. Both characters are anthropomorphized, with the kitten wearing a floral blue dress and the mouse wearing a white dress. The kitten is situated in a cozy, pastel-toned bedroom, while the mouse exists in various creative environments, including a pink sandy landscape and an icy cavern. The lighting is soft and bright, emphasizing the vibrant, toy-like aesthetic of the characters.",
+    "cinematography": {
+      "mood": "Humorous, mischievous, and high-energy.",
+      "cameraShot": "Fast-paced, dynamic cuts between a bedroom setting and various fantasy locations. Close-up and medium shots are frequently used to highlight character expressions and specific interactions."
+    },
+    "actions": [
+      "The kitten uses a hammer to break through a fingernail.",
+      "The kitten applies blue nail polish while looking in a mirror.",
+      "The mouse digs into pink sand with a small shovel.",
+      "The kitten claps her paws together, causing magical sparkles.",
+      "The mouse spits out a rainbow.",
+      "The kitten cries large, blue, tear-shaped droplets.",
+      "The mouse smashes the ground with a hammer, causing a splash of pink liquid.",
+      "The kitten wears red boxing gloves and punches the air.",
+      "The mouse dances under a floating green structure.",
+      "The kitten paints spots on her fur with a brush.",
+      "The kitten pulls a bowl of rainbow ice cream out of a refrigerator.",
+      "The kitten sits in a tub full of ice, eating ice cream.",
+      "The mouse shivers and freezes in an icy cave.",
+      "The kitten sprays a mist from a bottle onto her paws.",
+      "The mouse slides down a pink slide while being sprayed with water.",
+      "The kitten wipes her face with a tissue.",
+      "The mouse falls through a long, pink tunnel.",
+      "The kitten claps and spins around in a circle."
+    ],
+    "dialogue": [
+      "Background music: Upbeat, playful, high-pitched whimsical children's music featuring vocal scatting and 'meow' sounds.",
+      "Sound effects: Hammer striking, splashing, spray bottle hissing, and high-pitched laughter sound effects."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 63,
+  "views": 66007098,
+  "likes": 920552,
+  "comments": 6326,
+  "shares": 69915,
+  "hashtags": [
+    "cutecat",
+    "cartoons",
+    "catstory",
+    "vira",
+    "aicat"
+  ]
+}

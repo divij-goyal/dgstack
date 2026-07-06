@@ -1,0 +1,43 @@
+{
+  "content_id": "d8708160-e489-4b0e-9610-aa4e03d0a815",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "The horror …. The horror …",
+  "description": "The horror …. The horror …",
+  "prompt_text": "A bleak and misty World War I battlefield scene. British soldiers in khaki uniforms, steel helmets, and carrying rifles are positioned in what appears to be a trench or a dugout, looking out over a desolate, muddy landscape dotted with barbed wire and shattered remnants of trees. The atmosphere is somber and tense under an overcast, grey sky. Suddenly, a giant, anthropomorphic Kool-Aid pitcher (the Kool-Aid Man) appears through the dense fog, its pink body and smiling face a stark and surreal contrast to the grim surroundings.",
+  "prompt_data": {
+    "sceneDescription": "A bleak and misty World War I battlefield scene. British soldiers in khaki uniforms, steel helmets, and carrying rifles are positioned in what appears to be a trench or a dugout, looking out over a desolate, muddy landscape dotted with barbed wire and shattered remnants of trees. The atmosphere is somber and tense under an overcast, grey sky. Suddenly, a giant, anthropomorphic Kool-Aid pitcher (the Kool-Aid Man) appears through the dense fog, its pink body and smiling face a stark and surreal contrast to the grim surroundings.",
+    "cinematography": {
+      "mood": "Tense, grim, and war-torn, quickly shifting to surreal, bizarre, and utterly terrifying with a touch of dark humor.",
+      "cameraShot": "The video starts with a medium shot, transitioning to a medium-wide shot looking out over the misty field from the soldiers' perspective. It includes a dramatic close-up of a soldier's terrified face, followed by a wide shot of the Kool-Aid Man in the fog, and concludes with a close-up on the screaming faces of the soldiers. The camera movements are generally static or have slight, deliberate pans to follow the soldiers' gaze or capture their reactions."
+    },
+    "actions": [
+      "An officer instructs his soldiers to hold their ground.",
+      "Soldiers intently look out into the heavy mist, holding their rifles.",
+      "A soldier's face registers surprise and fear upon hearing a sound.",
+      "A giant, walking Kool-Aid Man emerges from the thick fog in the distance.",
+      "The Kool-Aid Man takes a large, slow step towards the soldiers.",
+      "The soldiers recoil in horror and scream loudly at the sight of the approaching Kool-Aid Man."
+    ],
+    "dialogue": [
+      "Officer says: \"Steady, lads. Keep your rifles high.\"",
+      "Soldier asks: \"What's that sound?\"",
+      "Officer says: \"Hold your nerve.\"",
+      "Soldier says: \"It's coming closer!\"",
+      "[Sound of multiple soldiers screaming in terror]",
+      "[Distant, muffled thudding sounds before the Kool-Aid Man appears]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 142388,
+  "likes": 4238,
+  "comments": 74,
+  "shares": 0
+}

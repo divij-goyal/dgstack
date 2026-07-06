@@ -1,0 +1,36 @@
+{
+  "content_id": "b19f9978-7a7c-466b-b520-b915b083568f",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "After a record-breaking 146-year snowstorm in Russia, one man was assigned the most dangerous job known to humanity: ice removal above parked cars. At first, tiny ice bits fell, politely testing the situation. Then gravity lost patience. A massive slab came down like nature saying, “Insurance exists for a reason.” Cars instantly transformed into modern art installations titled Winter Regret No. 3. Somewhere below, alarms cried for help. Somewhere above, the man paused, reconsidering every life c",
+  "description": "After a record-breaking 146-year snowstorm in Russia, one man was assigned the most dangerous job known to humanity: ice removal above parked cars. At first, tiny ice bits fell, politely testing the situation. Then gravity lost patience. A massive slab came down like nature saying, “Insurance exists for a reason.” Cars instantly transformed into modern art installations titled Winter Regret No. 3. Somewhere below, alarms cried for help. Somewhere above, the man paused, reconsidering every life choice that led to this moment. Of course, this is AI generated, but imagine if this actually happened.",
+  "prompt_text": "A worker in high-visibility orange and grey winter gear stands on a snowy rooftop. Massive, thick icicles and snow blocks overhang the edge of the building. Below, a row of cars is parked in a snowy lot. The lighting is overcast and cold, typical of a winter day.",
+  "prompt_data": {
+    "sceneDescription": "A worker in high-visibility orange and grey winter gear stands on a snowy rooftop. Massive, thick icicles and snow blocks overhang the edge of the building. Below, a row of cars is parked in a snowy lot. The lighting is overcast and cold, typical of a winter day.",
+    "cinematography": {
+      "mood": "Precarious, industrial, and chilly.",
+      "cameraShot": "High-angle, static vertical shot looking down from the roof edge."
+    },
+    "actions": [
+      "The worker uses a long-handled shovel to push a large block of ice off the roof.",
+      "The ice block breaks away and falls toward the ground.",
+      "The falling ice narrowly misses the parked cars below, shattering upon impact."
+    ],
+    "dialogue": [
+      "Loud scraping of the shovel against the roof.",
+      "Heavy thud and crashing sound as the ice hits the ground."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 7,
+  "views": 269844220,
+  "likes": 600196,
+  "comments": 4885,
+  "shares": 251655
+}

@@ -1,0 +1,42 @@
+{
+  "content_id": "e79b7364-f7c3-4361-a268-fca5f7fe64aa",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "“Fresh from the garden… with extra sass.”",
+  "description": "“Fresh from the garden… with extra sass.”",
+  "prompt_text": "A close-up view of dark brown, loose soil in an outdoor garden or field under bright daylight. Lush green carrot tops are visible, held by a human hand (wearing a blue sleeve). Beneath the carrot tops, partially buried in the soil, is an orange tabby cat. The cat is the 'root' of the carrot, with some soil clinging to its fur and head. The background features more green foliage and blurred earth.",
+  "prompt_data": {
+    "sceneDescription": "A close-up view of dark brown, loose soil in an outdoor garden or field under bright daylight. Lush green carrot tops are visible, held by a human hand (wearing a blue sleeve). Beneath the carrot tops, partially buried in the soil, is an orange tabby cat. The cat is the 'root' of the carrot, with some soil clinging to its fur and head. The background features more green foliage and blurred earth.",
+    "cinematography": {
+      "mood": "Humorous, whimsical, lighthearted, and slightly surreal.",
+      "cameraShot": "Medium close-up, slightly low-angle, focusing on the cat and the human hand. The camera is mostly static but has minor movement during the 'pulling' action and slight reframing to follow the cat's emergence."
+    },
+    "actions": [
+      "A human hand firmly grips the green, leafy tops of a plant that is 'planted' in the soil.",
+      "The 'root' of the plant is revealed to be the back of a fluffy orange tabby cat, partially buried in the dark earth.",
+      "The human hand pulls the plant tops upwards with gentle force.",
+      "The orange tabby cat is slowly and comically extracted from the soil, emerging front-first.",
+      "The cat is pulled completely out of the ground, standing upright on its hind legs in the small hole, covered in loose soil particles.",
+      "The cat then settles back down into the hole, sitting on its haunches, appearing disheveled and grumpy.",
+      "The cat slowly opens its eyes, revealing a distinctly annoyed expression.",
+      "The cat then opens its mouth slightly."
+    ],
+    "dialogue": [
+      "[Gentle, melodic, instrumental background music throughout the video]",
+      "[Subtle sounds of soil rustling and light pulling]",
+      "[A distinct, low, and grumpy 'mrrrow' sound from the cat]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 174880,
+  "likes": 3264,
+  "comments": 59,
+  "shares": 0
+}

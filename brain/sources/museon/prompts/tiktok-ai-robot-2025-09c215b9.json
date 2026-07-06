@@ -1,0 +1,48 @@
+{
+  "content_id": "09c215b9-09a2-4c12-9486-41dae41651f9",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "#ai #robot #2025",
+  "description": "#ai #robot #2025",
+  "prompt_text": "A futuristic production line featuring a row of identical, highly realistic female gynoid robots. The robots have human-like skin, expressive faces, and intricate mechanical bodies with visible internal components, wiring, and metallic structures. They are being meticulously inspected and finished by a technician dressed in a black uniform and cap. The setting is a clean, sterile, high-tech factory environment with bright, industrial lighting and a polished floor reflecting the scene. The robots are positioned in a long, linear queue, stretching into the background.",
+  "prompt_data": {
+    "sceneDescription": "A futuristic production line featuring a row of identical, highly realistic female gynoid robots. The robots have human-like skin, expressive faces, and intricate mechanical bodies with visible internal components, wiring, and metallic structures. They are being meticulously inspected and finished by a technician dressed in a black uniform and cap. The setting is a clean, sterile, high-tech factory environment with bright, industrial lighting and a polished floor reflecting the scene. The robots are positioned in a long, linear queue, stretching into the background.",
+    "cinematography": {
+      "mood": "Clinical, futuristic, and slightly unsettling. The high-tech atmosphere and the lifelike quality of the robots create a sense of advanced technology that blurs the line between human and machine.",
+      "cameraShot": "Medium to close-up shots that focus on the interaction between the technician and the robots. The camera is mostly static with some subtle panning and zooming to highlight specific details of the robots' construction and the technician's precise movements."
+    },
+    "actions": [
+      "A technician in a black uniform and cap unwraps a robot from a protective plastic film.",
+      "The technician uses a specialized tool with a glowing red light to activate or test a component on the robot's mechanical arm.",
+      "Close-up shots show the technician's gloved hands meticulously adjusting and inspecting the robot's facial features and mechanical parts.",
+      "A technician peels off a thin, transparent layer from a robot's face, revealing its lifelike skin underneath.",
+      "A technician uses a handheld scanning device with a blue light to inspect various points on a robot's face and neck.",
+      "The robots exhibit subtle, human-like movements, such as blinking, shifting their gaze, and slightly changing their facial expressions, as they are being serviced.",
+      "One robot is seen smiling as its mechanical jaw component is adjusted.",
+      "The camera captures the long row of robots, emphasizing the scale of the production line."
+    ],
+    "dialogue": [
+      "[Mechanical whirring and clicking sounds as the robots move]",
+      "[The sound of plastic film being unwrapped]",
+      "[Electronic beeps and hums from the technician's tools]",
+      "[Ambient factory noise with occasional distant footsteps and voices]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 61,
+  "views": 135655462,
+  "likes": 2788310,
+  "comments": 82055,
+  "shares": 403063,
+  "hashtags": [
+    "ai",
+    "robot",
+    "2025"
+  ]
+}

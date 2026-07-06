@@ -1,0 +1,44 @@
+{
+  "content_id": "e7680980-1ef5-4e64-a20c-4cced65a55b6",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "#fyp #foryou #cute #animation #aidance",
+  "description": "#fyp #foryou #cute #animation #aidance",
+  "prompt_text": "A slender, tan-colored alien character with large, expressive eyes and braided hair stands on a dusty dirt path in a sun-drenched desert landscape. The background features soft-focus golden brush and a winding trail. The lighting is warm and natural, suggesting late afternoon sun.",
+  "prompt_data": {
+    "sceneDescription": "A slender, tan-colored alien character with large, expressive eyes and braided hair stands on a dusty dirt path in a sun-drenched desert landscape. The background features soft-focus golden brush and a winding trail. The lighting is warm and natural, suggesting late afternoon sun.",
+    "cinematography": {
+      "mood": "Whimsical, energetic, and rhythmic.",
+      "cameraShot": "Eye-level medium shot with a shallow depth of field, focusing sharply on the character while the desert background is blurred."
+    },
+    "actions": [
+      "The alien character blinks and smiles at the camera.",
+      "The character rhythmically tilts its head left and right in sync with the audio cues.",
+      "The character performs a quick, 360-degree spin in place.",
+      "The character returns to its original forward-facing position with a cheerful expression."
+    ],
+    "dialogue": [
+      "Male voice rhythmic chanting: 'Left, right, left, right, left, right, left, right, left, right...'",
+      "Energetic upbeat musical track with a tribal or pop rhythm."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 14,
+  "views": 122372444,
+  "likes": 4238564,
+  "comments": 51926,
+  "shares": 3486682,
+  "hashtags": [
+    "fyp",
+    "foryou",
+    "cute",
+    "animation",
+    "aidance"
+  ]
+}

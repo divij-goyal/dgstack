@@ -1,0 +1,42 @@
+{
+  "content_id": "c9addb07-9d29-45a4-a7eb-2add9640e1aa",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "🍷",
+  "description": "🍷",
+  "prompt_text": "A man dressed as Jesus, with long brown hair, a beard, an off-white tunic, a brown stole, and sandals, stands beside a silver car on a paved road. He holds a wine glass filled with red liquid. The road runs along the edge of a large, dark lake, with a dense forest of evergreen trees and rolling hills in the background. The sky is overcast and grey, creating diffused natural lighting. The ground near the car is reddish-brown with pine needles. Overlaid on the video are a timestamp, 'BODYCAM MORALES', and 'Sora' logos. The scene transitions to the man walking on the surface of the lake.",
+  "prompt_data": {
+    "sceneDescription": "A man dressed as Jesus, with long brown hair, a beard, an off-white tunic, a brown stole, and sandals, stands beside a silver car on a paved road. He holds a wine glass filled with red liquid. The road runs along the edge of a large, dark lake, with a dense forest of evergreen trees and rolling hills in the background. The sky is overcast and grey, creating diffused natural lighting. The ground near the car is reddish-brown with pine needles. Overlaid on the video are a timestamp, 'BODYCAM MORALES', and 'Sora' logos. The scene transitions to the man walking on the surface of the lake.",
+    "cinematography": {
+      "mood": "Surreal, comedic, and slightly dramatic with an undertone of tension.",
+      "cameraShot": "Starts as a medium shot, transitioning to a wide-angle, first-person bodycam perspective. The camera is slightly shaky, following the actions and eventually submerging partially in water."
+    },
+    "actions": [
+      "A man dressed as Jesus stands holding a wine glass near a silver car.",
+      "The man places the wine glass inside the car.",
+      "The man walks towards the edge of the lake.",
+      "The man steps onto the surface of the water.",
+      "The man walks across the lake, moving away from the camera.",
+      "A gloved hand (presumably the camera operator's) briefly appears in the frame, seemingly reaching out.",
+      "The man continues walking further out onto the water."
+    ],
+    "dialogue": [
+      "Camera operator says: \"Go ahead and walk a straight line for me, sir.\"",
+      "Man says: \"It's just water, I swear.\"",
+      "Camera operator shouts: \"Sir! Sir! Stop! Stop! Damn it!\"",
+      "Ambient sounds: Gentle lapping of water, wind."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 536421,
+  "likes": 15678,
+  "comments": 184,
+  "shares": 0
+}

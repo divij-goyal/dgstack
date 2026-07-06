@@ -1,0 +1,42 @@
+{
+  "content_id": "c644b624-1fc3-4b34-b602-966284a79eac",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "Untitled",
+  "prompt_text": "A dramatic and chaotic scene unfolding on a high-altitude glass-bottomed bridge suspended over a lush, green tropical forest. An elderly woman with grey hair, wearing a black graphic t-shirt and black shorts, stands in the center of the bridge holding a large, heavy rock above her head. As she slams the rock down, the glass panels beneath her and the surrounding crowd shatter and fall away. The background is filled with numerous tourists in casual summer attire, walking along the bridge under a bright, overcast sky. The surrounding mountains are covered in dense vegetation.",
+  "prompt_data": {
+    "sceneDescription": "A dramatic and chaotic scene unfolding on a high-altitude glass-bottomed bridge suspended over a lush, green tropical forest. An elderly woman with grey hair, wearing a black graphic t-shirt and black shorts, stands in the center of the bridge holding a large, heavy rock above her head. As she slams the rock down, the glass panels beneath her and the surrounding crowd shatter and fall away. The background is filled with numerous tourists in casual summer attire, walking along the bridge under a bright, overcast sky. The surrounding mountains are covered in dense vegetation.",
+    "cinematography": {
+      "mood": "Shocking, chaotic, and terrifying.",
+      "cameraShot": "Medium shot initially focused on the woman, transitioning into a wide-angle downward tilt as the bridge collapses, capturing the scale of the fall and the surrounding environment."
+    },
+    "actions": [
+      "The woman lifts a large rock high above her head.",
+      "The woman slams the rock onto the glass floor of the bridge.",
+      "The glass floor shatters instantly under the impact.",
+      "The woman and several surrounding tourists fall through the hole in the bridge.",
+      "Panels of glass continue to break away in a chain reaction, dropping people into the forest below.",
+      "Tourists at the edges of the collapse cling to the bridge railings in panic.",
+      "The camera tilts down to show the victims falling toward the green canopy below."
+    ],
+    "dialogue": [
+      "Male voice: 'No, please!'",
+      "Sound of glass shattering loudly.",
+      "Various people screaming in terror.",
+      "Female voice: 'Oh my god!'",
+      "Continuous sounds of screaming and wind rushing as people fall."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 421938000,
+  "likes": 0,
+  "comments": 0,
+  "shares": 1354392
+}

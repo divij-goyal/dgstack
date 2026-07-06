@@ -1,0 +1,54 @@
+{
+  "content_id": "a5e1ebd2-39e0-4764-86b7-a0c6f8d5d7f3",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "ai which bad would you sleep in #asmr #oddlysatisfyingvideo #aivideos #asmrsounds #satisfyingvideo",
+  "description": "ai which bad would you sleep in #asmr #oddlysatisfyingvideo #aivideos #asmrsounds #satisfyingvideo",
+  "prompt_text": "A compilation of surreal bedroom scenes where a man interacts with beds and blankets made of various unexpected food items and objects. Each segment features a different themed bed: a whole roasted chicken, a bed of eggs, giant gummy bears, a boba tea-themed bed with milk tea and tapioca pearls, a bed of colorful balloons, a bed with a white dripping substance on a pink wall, a bed made of computer keyboard keys, and finally a bed made of potato wedges with a blanket of potato chips. The lighting is generally bright and even, highlighting the textures of each unique bed material.",
+  "prompt_data": {
+    "sceneDescription": "A compilation of surreal bedroom scenes where a man interacts with beds and blankets made of various unexpected food items and objects. Each segment features a different themed bed: a whole roasted chicken, a bed of eggs, giant gummy bears, a boba tea-themed bed with milk tea and tapioca pearls, a bed of colorful balloons, a bed with a white dripping substance on a pink wall, a bed made of computer keyboard keys, and finally a bed made of potato wedges with a blanket of potato chips. The lighting is generally bright and even, highlighting the textures of each unique bed material.",
+    "cinematography": {
+      "mood": "Surreal, whimsical, and slightly humorous, as it explores absurd and imaginative bed concepts.",
+      "cameraShot": "Medium shots, mostly static, focusing on the man as he approaches and gets into each bed. The camera is at eye level, providing a clear view of the unusual bed designs."
+    },
+    "actions": [
+      "A man in a green t-shirt peels back a layer of chicken skin from a bed shaped like a roasted chicken and lies down.",
+      "The man jumps onto a bed of eggs, causing them to crack and spill yolk, then pulls up a blanket made of cooked egg whites.",
+      "The man pulls up a giant, multi-colored gummy bear blanket on a bed made of large gummy bears.",
+      "The man gets into a boba tea bed, pulling up a blanket filled with tapioca pearls as milk tea spills around the sides.",
+      "The man sits on a bed of colorful balloons, which pop as he lies down and covers himself with a large pink balloon-like sheet.",
+      "The man lies down on a white bed against a pink wall with white dripping patterns, pulling up a thick white blanket.",
+      "The man lies on a bed made of computer keyboard keys, pulling up a matching keyboard key blanket with realistic clicking sounds.",
+      "The man sits on a bed made of giant potato wedges and covers himself with a blanket of thin, crispy potato chips."
+    ],
+    "dialogue": [
+      "[Sound of peeling skin]",
+      "[Sound of eggs cracking and splashing]",
+      "[Sound of gummy bear material stretching]",
+      "[Sound of liquid splashing]",
+      "[Sound of balloons popping]",
+      "[Squishy sound of the white bed and blanket]",
+      "[Sound of keyboard keys clicking]",
+      "[Sound of potato chips crunching]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 63,
+  "views": 144245218,
+  "likes": 2489230,
+  "comments": 31037,
+  "shares": 640814,
+  "hashtags": [
+    "asmr",
+    "oddlysatisfyingvideo",
+    "aivideos",
+    "asmrsounds",
+    "satisfyingvideo"
+  ]
+}

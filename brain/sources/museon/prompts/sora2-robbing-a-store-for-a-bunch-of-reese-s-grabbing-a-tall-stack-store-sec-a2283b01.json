@@ -1,0 +1,45 @@
+{
+  "content_id": "a2283b01-aa9f-489a-8633-e2840d18e3b9",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "robbing a store for a bunch of Reese's, grabbing a tall stack (store security camera) (continuous shot) (he gets chased around by security) (they can't catch him)",
+  "description": "robbing a store for a bunch of Reese's, grabbing a tall stack (store security camera) (continuous shot) (he gets chased around by security) (they can't catch him)",
+  "prompt_text": "The interior of a brightly lit convenience store, captured from a high-angle security camera perspective. On the left, an aisle features shelves stocked with various candies and snacks, prominently displaying Reese's and Snickers. On the right, several tall, glass-fronted refrigerated cases glow with bright LED lights, filled with drinks. The floor is tiled with white squares and dark grout lines. A double-door exit is visible at the back of the store. A young man, wearing a white t-shirt and dark pants, is crawling on the floor near the snack aisle. A security guard, dressed in a dark blue uniform, is present near the exit.",
+  "prompt_data": {
+    "sceneDescription": "The interior of a brightly lit convenience store, captured from a high-angle security camera perspective. On the left, an aisle features shelves stocked with various candies and snacks, prominently displaying Reese's and Snickers. On the right, several tall, glass-fronted refrigerated cases glow with bright LED lights, filled with drinks. The floor is tiled with white squares and dark grout lines. A double-door exit is visible at the back of the store. A young man, wearing a white t-shirt and dark pants, is crawling on the floor near the snack aisle. A security guard, dressed in a dark blue uniform, is present near the exit.",
+    "cinematography": {
+      "mood": "Humorous, playful, and slightly chaotic, with a touch of suspense.",
+      "cameraShot": "Static, high-angle, wide-shot, mimicking a fixed security camera. The video has a digital overlay showing 'CAM 2', a timestamp, and a 'REC' indicator that appears later."
+    },
+    "actions": [
+      "A young man is crawling on his knees and hands on the floor next to a snack aisle, carefully stacking a tall tower of Reese's candy packages.",
+      "The security guard enters the store through the double doors at the back.",
+      "The security guard spots the young man.",
+      "The young man quickly abandons the tower of Reese's, scattering several packages on the floor as he attempts to flee.",
+      "The security guard chases after the young man, calling out to him.",
+      "The young man crawls rapidly towards the exit doors.",
+      "The young man escapes through the double doors, still on his hands and knees.",
+      "The security guard stops at the doorway, looking out after the fleeing man with a frustrated expression.",
+      "The young man briefly pokes his head back into view from outside the door, then fully disappears."
+    ],
+    "dialogue": [
+      "Security guard: Hey! What are you doing?",
+      "Young man: Don't worry about it!",
+      "Security guard: Put those down! Sir, stop! Stop right now!",
+      "Young man: Catch me if you can! Too slow! Sweet victory!",
+      "Security guard: Get back here!"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 131592,
+  "likes": 2010,
+  "comments": 54,
+  "shares": 0
+}

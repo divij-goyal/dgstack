@@ -1,0 +1,42 @@
+{
+  "content_id": "0a93bfb5-74be-48db-a1df-0072ca988216",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Poor monkey 🐒",
+  "description": "Poor monkey 🐒",
+  "prompt_text": "A picturesque mountainous landscape under an overcast sky. A young woman with long dark hair, wearing a bright yellow-green knitted sweater and blue jeans, stands on a stone balcony or viewpoint. A small monkey, with light brown fur, sits on a stone pillar to her right. A single red helium balloon is tied to a string, initially held by both the woman and the monkey. Layers of green mountains fade into the distance, creating a sense of vastness and depth.",
+  "prompt_data": {
+    "sceneDescription": "A picturesque mountainous landscape under an overcast sky. A young woman with long dark hair, wearing a bright yellow-green knitted sweater and blue jeans, stands on a stone balcony or viewpoint. A small monkey, with light brown fur, sits on a stone pillar to her right. A single red helium balloon is tied to a string, initially held by both the woman and the monkey. Layers of green mountains fade into the distance, creating a sense of vastness and depth.",
+    "cinematography": {
+      "mood": "Playful and whimsical, transitioning to surprised and slightly awe-struck as the monkey ascends. The natural beauty of the mountain setting adds a touch of serene grandeur.",
+      "cameraShot": "Medium shot, initially eye-level, then slowly pans upwards and slightly zooms out to follow the ascending monkey and balloon, maintaining focus on the main subjects. The shot is relatively static apart from the pan."
+    },
+    "actions": [
+      "A young woman holds the string of a red balloon.",
+      "A small monkey sits on a stone pillar, holding the balloon string.",
+      "The monkey stands up, still clutching the balloon string, and begins to float upwards.",
+      "The red balloon carries the monkey higher into the air.",
+      "The woman, initially holding the string, releases it as the monkey ascends.",
+      "The woman watches the monkey and balloon float away, looking up at the sky.",
+      "The camera follows the monkey and balloon as they rise higher above the mountains."
+    ],
+    "dialogue": [
+      "Woman says: \"Oh!\"",
+      "Woman says: \"Wait, you're going!\"",
+      "Woman says: \"Oh my gosh!\"",
+      "[Soft ambient outdoor sounds, possibly wind]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 127953,
+  "likes": 2472,
+  "comments": 70,
+  "shares": 0
+}

@@ -1,0 +1,51 @@
+{
+  "content_id": "0ba9b13d-4bbd-444e-a356-e17585f6a6f0",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "Rainy Day Cooking ASMR | Miniature Piyaji & Aloo Chop Recipe | Tiny Doll Village Life No Talking #reels #cute #viral #miniature #shortsvideo",
+  "description": "Rainy Day Cooking ASMR | Miniature Piyaji & Aloo Chop Recipe | Tiny Doll Village Life No Talking #reels #cute #viral #miniature #shortsvideo",
+  "prompt_text": "A series of shots depicting a miniature woman in a green saree preparing snacks during a rainstorm. The setting shifts from a lush green field to a cozy miniature kitchen. She is seen harvesting vegetables, washing them, peeling and chopping potatoes, boiling them, and then mixing them with spices and onions to create dough balls. These balls are then dipped in a batter and deep-fried until golden brown. The final shot shows her and a man in a blue shirt enjoying the snacks together, with steam rising from the plate.",
+  "prompt_data": {
+    "sceneDescription": "A series of shots depicting a miniature woman in a green saree preparing snacks during a rainstorm. The setting shifts from a lush green field to a cozy miniature kitchen. She is seen harvesting vegetables, washing them, peeling and chopping potatoes, boiling them, and then mixing them with spices and onions to create dough balls. These balls are then dipped in a batter and deep-fried until golden brown. The final shot shows her and a man in a blue shirt enjoying the snacks together, with steam rising from the plate.",
+    "cinematography": {
+      "mood": "Heartwarming, cozy, and nostalgic, emphasizing the simple joy of home-cooked food on a rainy day.",
+      "cameraShot": "A variety of shots including close-ups on hands and food preparation, medium shots of the woman, and wide shots of the setting. The camera is mostly static with some subtle pans."
+    },
+    "actions": [
+      "Harvesting green chilies in the rain.",
+      "Walking through a flooded field with a basket of vegetables.",
+      "Washing hands under a spout of rainwater.",
+      "Peeling and chopping potatoes.",
+      "Boiling potatoes over an open fire.",
+      "Mashing potatoes and mixing with spices.",
+      "Forming dough into balls.",
+      "Mixing batter with water and sliced onions.",
+      "Deep-frying the snack balls in hot oil.",
+      "Removing the golden-brown snacks from the oil.",
+      "Sharing and eating the snacks with a companion."
+    ],
+    "dialogue": [
+      "[Ambient sounds of rain falling, sizzling oil, and occasional chirping birds.]",
+      "[Occasional soft sounds of the woman huming or sighing with satisfaction.]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 120,
+  "views": 56507517,
+  "likes": 2176014,
+  "comments": 8125,
+  "shares": 265438,
+  "hashtags": [
+    "reels",
+    "cute",
+    "viral",
+    "miniature",
+    "shortsvideo"
+  ]
+}

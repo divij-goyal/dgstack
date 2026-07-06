@@ -1,0 +1,45 @@
+{
+  "content_id": "f6428505-79cc-486b-9a81-0367c2b7e344",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "Cute baby cool dance 😂 #cute #cutebaby #bossbaby #babydance #ai",
+  "description": "Cute baby cool dance 😂 #cute #cutebaby #bossbaby #babydance #ai",
+  "prompt_text": "A sun-drenched outdoor scene on a paved street, likely in a tropical or coastal location, featuring a fashionable toddler. The baby is wearing tan-framed sunglasses, multiple gold chain necklaces, an open cream-colored button-down shirt with a subtle gold leaf print, matching shorts, and brown leather sandals. The background is brightly lit with a shallow depth of field, showing blurred palm trees, parked cars, and bright sunlight. The overall aesthetic is vibrant, high-energy, and humorous, blending high-fashion 'cool' vibes with the innocent playfulness of a child.",
+  "prompt_data": {
+    "sceneDescription": "A sun-drenched outdoor scene on a paved street, likely in a tropical or coastal location, featuring a fashionable toddler. The baby is wearing tan-framed sunglasses, multiple gold chain necklaces, an open cream-colored button-down shirt with a subtle gold leaf print, matching shorts, and brown leather sandals. The background is brightly lit with a shallow depth of field, showing blurred palm trees, parked cars, and bright sunlight. The overall aesthetic is vibrant, high-energy, and humorous, blending high-fashion 'cool' vibes with the innocent playfulness of a child.",
+    "cinematography": {
+      "mood": "Energetic, cool, and comedic.",
+      "cameraShot": "Low-angle medium shot that tracks the toddler's movement, emphasizing their large-than-life personality. The camera uses a slight handheld shake to match the rhythm of the music."
+    },
+    "actions": [
+      "The toddler performs a series of rhythmic dance moves to a fast-paced beat.",
+      "The baby walks forward with a confident 'swagger' style gait.",
+      "The baby rhythmically pumps their arms and chest in time with the music.",
+      "The baby flashes a wide, joyful smile toward the camera while maintaining their pose.",
+      "The video uses quick cuts and repetitive looping of specific dance movements to create a 'remix' visual effect."
+    ],
+    "dialogue": [
+      "High-energy electronic dance music with a heavy beat and vocal samples shouting 'Music!' and 'Yeah!' intermittently.",
+      "The sound of a crowd cheering is heard in the background of the audio track."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 14,
+  "views": 109963812,
+  "likes": 2580863,
+  "comments": 40454,
+  "shares": 1175618,
+  "hashtags": [
+    "cute",
+    "cutebaby",
+    "bossbaby",
+    "babydance",
+    "ai"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "content_id": "e5807888-9726-4e2f-a5e6-3b2d503924a7",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "ถ้าแกะขนยาวต้องทำแบบนี้\nIf you have a long-haired sheep, you have to do this.",
+  "description": "ถ้าแกะขนยาวต้องทำแบบนี้\nIf you have a long-haired sheep, you have to do this.",
+  "prompt_text": "A sunny outdoor pasture featuring a person standing next to a stainless steel automated sheep shearing machine. A fluffy sheep enters the machine's glass-enclosed chamber. In a surreal sequence, the machine shaves the sheep instantly, ejecting white wool through a vacuum pipe into a wooden crate while the newly shorn sheep exits from the other side. The background shows a field with a flock of sheep and distant trees under bright daylight.",
+  "prompt_data": {
+    "sceneDescription": "A sunny outdoor pasture featuring a person standing next to a stainless steel automated sheep shearing machine. A fluffy sheep enters the machine's glass-enclosed chamber. In a surreal sequence, the machine shaves the sheep instantly, ejecting white wool through a vacuum pipe into a wooden crate while the newly shorn sheep exits from the other side. The background shows a field with a flock of sheep and distant trees under bright daylight.",
+    "cinematography": {
+      "mood": "Humorous, surreal, and efficient.",
+      "cameraShot": "Medium shot, eye-level, static position with a slight pan right at the end."
+    },
+    "actions": [
+      "A fluffy sheep walks into the clear chamber of the shearing machine.",
+      "The person standing next to the machine gestures as the sheep enters.",
+      "The machine vibrates, and a large volume of wool is blown out of a side pipe into a crate.",
+      "A fully shorn, clean sheep emerges from the exit door and walks away into the field.",
+      "The camera pans slightly to follow the shorn sheep as it leaves the frame."
+    ],
+    "dialogue": [
+      "[Mechanical whirring and vacuum suction sounds]",
+      "[Ambient outdoor noise: wind and distant sheep sounds]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 256354804,
+  "likes": 926218,
+  "comments": 6561,
+  "shares": 201890
+}

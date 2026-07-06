@@ -1,0 +1,42 @@
+{
+  "content_id": "f83f3d59-b7a0-4cf9-93e6-27939091b183",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "#ai #aiviral #aivideos #fyp",
+  "description": "#ai #aiviral #aivideos #fyp",
+  "prompt_text": "A heartwarming and slightly surreal family portrait features a diverse couple and their two infant children. The Black man, with a broad, joyful smile, is dressed in a traditional black Chinese jacket. The East Asian woman, with tears of happiness in her eyes and a gentle smile, wears a white cheongsam with black trim and an intricate floral design. She has her hair styled elegantly with a small white ornament. They are lovingly holding two infants, both with uniformly black, smooth skin, resembling stylized statues or dolls. One infant is dressed in a white long-sleeved outfit, and the other in a black long-sleeved outfit. The background is a simple, light-colored wall with a subtle, blurred hint of bamboo, suggesting an interior studio setting. The scene is brightly and evenly lit, creating a soft, tender atmosphere.",
+  "prompt_data": {
+    "sceneDescription": "A heartwarming and slightly surreal family portrait features a diverse couple and their two infant children. The Black man, with a broad, joyful smile, is dressed in a traditional black Chinese jacket. The East Asian woman, with tears of happiness in her eyes and a gentle smile, wears a white cheongsam with black trim and an intricate floral design. She has her hair styled elegantly with a small white ornament. They are lovingly holding two infants, both with uniformly black, smooth skin, resembling stylized statues or dolls. One infant is dressed in a white long-sleeved outfit, and the other in a black long-sleeved outfit. The background is a simple, light-colored wall with a subtle, blurred hint of bamboo, suggesting an interior studio setting. The scene is brightly and evenly lit, creating a soft, tender atmosphere.",
+    "cinematography": {
+      "mood": "Emotional, joyful, tender, and subtly surreal.",
+      "cameraShot": "A static medium close-up shot, framing the family from the chest up. The camera angle is eye-level, capturing their expressions intimately."
+    },
+    "actions": [
+      "The Black man smiles broadly and looks towards the camera, occasionally glancing down at the infants.",
+      "The East Asian woman smiles tearfully, with tears welling in her eyes, looking towards the camera and gently at the infants.",
+      "The man and woman hold the two infants close to their chests, presenting them to the camera.",
+      "The infants remain perfectly still, appearing to be asleep or in a serene, peaceful state."
+    ],
+    "dialogue": [
+      "Background music: An emotional, melancholic yet hopeful Chinese ballad plays throughout the scene."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 5,
+  "views": 61127909,
+  "likes": 1040093,
+  "comments": 30725,
+  "shares": 158938,
+  "hashtags": [
+    "ai",
+    "aiviral",
+    "aivideos",
+    "fyp"
+  ]
+}

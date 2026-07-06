@@ -1,0 +1,43 @@
+{
+  "content_id": "23e0e4e1-9e67-48e8-ad88-e4517965ffda",
+  "platform": "instagram",
+  "content_type": "video",
+  "title": "$$2M Underwater Container Shelter With a Full River View",
+  "description": "$$2M Underwater Container Shelter With a Full River View",
+  "prompt_text": "A time-lapse video documenting the construction of a luxurious underwater living space. The process begins outdoors by a riverbank where an excavator digs a pit. A blue shipping container with large window cutouts is lowered into the pit and sealed. The scene transitions to the interior, where a man installs wood paneling, lighting, and a kitchen. The final result is a modern, cozy room featuring a bed and a dining area, with large windows providing a direct view into the river's aquatic life. The lighting evolves from natural outdoor light to warm, integrated indoor LEDs.",
+  "prompt_data": {
+    "sceneDescription": "A time-lapse video documenting the construction of a luxurious underwater living space. The process begins outdoors by a riverbank where an excavator digs a pit. A blue shipping container with large window cutouts is lowered into the pit and sealed. The scene transitions to the interior, where a man installs wood paneling, lighting, and a kitchen. The final result is a modern, cozy room featuring a bed and a dining area, with large windows providing a direct view into the river's aquatic life. The lighting evolves from natural outdoor light to warm, integrated indoor LEDs.",
+    "cinematography": {
+      "mood": "Ambitious, industrious, and eventually serene and tranquil.",
+      "cameraShot": "A mix of wide outdoor shots, eye-level interior time-lapse shots, and a final close-up panning shot through the window underwater."
+    },
+    "actions": [
+      "An excavator digs a rectangular pit next to a river.",
+      "A crane lowers a modified blue shipping container into the water-filled pit.",
+      "A man attaches a round metal hatch to the top of the container.",
+      "The excavator backfills the area around the container with dirt.",
+      "Inside the container, a man installs wood panels on the ceiling and walls.",
+      "A man paints the interior and installs sleek LED lighting strips.",
+      "Furniture, including a bed and kitchen cabinets, is rapidly assembled in a time-lapse.",
+      "The camera pans close to the window, showing fish swimming in the river water outside."
+    ],
+    "dialogue": [
+      "[Mechanical sounds of the excavator and crane]",
+      "[Splashing water as the container is lowered]",
+      "[Fast-paced construction sounds: drilling, hammering, clicking]",
+      "[Ambient underwater bubbling sounds during the final shot]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 31,
+  "views": 298819740,
+  "likes": 11416320,
+  "comments": 30077,
+  "shares": 1590740
+}

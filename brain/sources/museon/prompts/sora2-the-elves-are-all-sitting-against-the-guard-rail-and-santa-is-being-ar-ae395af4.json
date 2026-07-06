@@ -1,0 +1,42 @@
+{
+  "content_id": "ae395af4-702b-468c-b30a-e615865952fc",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "The elves are all sitting against the guard rail and Santa is being arrested",
+  "description": "The elves are all sitting against the guard rail and Santa is being arrested",
+  "prompt_text": "A surreal and darkly humorous winter scene unfolds on a snow-covered highway. A large white semi-truck (tractor-trailer) has crashed, leaning heavily against a guardrail on the right side of the road. Hundreds of brightly wrapped Christmas presents are spilled from the truck and scattered across the snowy roadside. In the foreground, several individuals dressed in traditional red and green striped Christmas elf costumes are sitting forlornly on piles of these scattered presents. Two police officers, wearing yellow reflective vests over dark uniforms, are escorting Santa Claus, who is in his full red suit, away from the crash site. A police cruiser with flashing blue and red emergency lights is parked further down the road. The background shows a line of bare trees against an overcast, grey sky, emphasizing the cold, snowy weather. The road itself is partially covered in snow and slush.",
+  "prompt_data": {
+    "sceneDescription": "A surreal and darkly humorous winter scene unfolds on a snow-covered highway. A large white semi-truck (tractor-trailer) has crashed, leaning heavily against a guardrail on the right side of the road. Hundreds of brightly wrapped Christmas presents are spilled from the truck and scattered across the snowy roadside. In the foreground, several individuals dressed in traditional red and green striped Christmas elf costumes are sitting forlornly on piles of these scattered presents. Two police officers, wearing yellow reflective vests over dark uniforms, are escorting Santa Claus, who is in his full red suit, away from the crash site. A police cruiser with flashing blue and red emergency lights is parked further down the road. The background shows a line of bare trees against an overcast, grey sky, emphasizing the cold, snowy weather. The road itself is partially covered in snow and slush.",
+    "cinematography": {
+      "mood": "Surreal, darkly humorous, poignant, and somewhat dramatic.",
+      "cameraShot": "A static, medium shot filmed from the interior of a vehicle, looking out through the windshield. A portion of the vehicle's dashboard is visible at the bottom of the frame."
+    },
+    "actions": [
+      "Two police officers are escorting Santa Claus, who is walking between them, away from the scene of the accident.",
+      "Santa Claus takes several steps forward as he is being led by the officers.",
+      "Several Christmas elves are sitting on scattered presents along the snowy roadside, mostly still.",
+      "The crashed semi-truck is visibly leaning against the guardrail, with its cargo of presents strewn across the ground.",
+      "A police car is parked in the distance with its emergency lights flashing.",
+      "Snow is visible on the ground and trees, indicating winter conditions."
+    ],
+    "dialogue": [
+      "Police officer: \"Keep moving, sir. Watch your step on the ice.\"",
+      "Santa Claus: \"They're just presents, I'll make it right.\"",
+      "Police officer: \"You'll have a chance to explain downtown. Let's get you in the car.\"",
+      "Santa Claus: \"Elves, stay put. It'll be okay.\"",
+      "[Muffled sounds of a cold, snowy outdoor environment, possibly distant traffic or wind.]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 125417,
+  "likes": 2038,
+  "comments": 20,
+  "shares": 0
+}

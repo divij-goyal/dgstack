@@ -1,0 +1,36 @@
+{
+  "content_id": "340fa67b-839b-4b45-b848-5b3c44d768fe",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Santa throwing it back 🎅",
+  "description": "Santa throwing it back 🎅",
+  "prompt_text": "Santa Claus is on the porch of a house, seen from a low-angle, wide-angle perspective. The porch has white columns and a white ceiling, illuminated by a single bright overhead light. Santa, wearing his traditional red suit with white fur trim and a black belt, is facing away from the camera. Behind him, the sky is a deep blue, characteristic of dusk or early night, with faint silhouettes of trees and a distant horizon visible. The ground is a concrete porch floor, with some fallen leaves scattered near the edge. The overall lighting is a mix of the bright porch light and the fading natural light.",
+  "prompt_data": {
+    "sceneDescription": "Santa Claus is on the porch of a house, seen from a low-angle, wide-angle perspective. The porch has white columns and a white ceiling, illuminated by a single bright overhead light. Santa, wearing his traditional red suit with white fur trim and a black belt, is facing away from the camera. Behind him, the sky is a deep blue, characteristic of dusk or early night, with faint silhouettes of trees and a distant horizon visible. The ground is a concrete porch floor, with some fallen leaves scattered near the edge. The overall lighting is a mix of the bright porch light and the fading natural light.",
+    "cinematography": {
+      "mood": "Playful, humorous, and slightly surreal.",
+      "cameraShot": "Low-angle, wide-angle fisheye lens, static shot. The camera is positioned looking up at Santa, emphasizing the porch ceiling and columns curving around him."
+    },
+    "actions": [
+      "Santa Claus bends his knees and begins to twerk, moving his hips rhythmically.",
+      "He continues to twerk with exaggerated movements, maintaining a low stance.",
+      "Santa's movements are in time with the music.",
+      "He remains facing away from the camera throughout the dance."
+    ],
+    "dialogue": [
+      "Uptempo, rhythmic music plays with a strong bassline, suggesting a hip-hop or electronic dance track."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 122715,
+  "likes": 3233,
+  "comments": 143,
+  "shares": 0
+}

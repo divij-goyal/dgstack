@@ -1,0 +1,41 @@
+{
+  "content_id": "03c532fe-1c5f-4b19-9a9c-c3e4b8d09921",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Humpback vs the mega ramp",
+  "description": "Humpback vs the mega ramp",
+  "prompt_text": "A whale-shaped object is positioned at the top of a large, orange mega ramp, seemingly preparing for a stunt. The event is labeled \"LIVE MEGA RAMP FINALS\" and takes place in an outdoor arena surrounded by a large crowd of spectators. In the background, a city skyline is visible under a clear, bright sky. The timestamp \"12:33:21 PM\" is displayed, indicating a daytime event.",
+  "prompt_data": {
+    "sceneDescription": "A whale-shaped object is positioned at the top of a large, orange mega ramp, seemingly preparing for a stunt. The event is labeled \"LIVE MEGA RAMP FINALS\" and takes place in an outdoor arena surrounded by a large crowd of spectators. In the background, a city skyline is visible under a clear, bright sky. The timestamp \"12:33:21 PM\" is displayed, indicating a daytime event.",
+    "cinematography": {
+      "mood": "Exciting, action-packed, and slightly comical due to the unexpected participant.",
+      "cameraShot": "Dynamic, high-angle shots from multiple perspectives, including close-ups of the whale on the ramp and wide shots of the entire arena. The camera tracks the whale's movement down the ramp and into the air."
+    },
+    "actions": [
+      "A whale-shaped object starts at the top of a large orange ramp.",
+      "The whale slides down the ramp, gaining speed.",
+      "The whale becomes airborne after leaving the ramp's edge.",
+      "The whale performs a mid-air rotation.",
+      "The whale lands heavily on the next section of the ramp, causing a large splash of water or debris.",
+      "The whale slides down the last part of the ramp, creating more spray."
+    ],
+    "dialogue": [
+      "Commentator 1: \"Here we go, this as well. The whale is on course.\"",
+      "Commentator 2: \"That's a humpback out of the gate, picking up speed.\"",
+      "Commentator 1: \"He's airbone! Oh my God! He comes down heavy. Look out! Whoa!\"",
+      "Commentator 2: \"Straight into the crowd! People are bailing!\""
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 117902,
+  "likes": 2643,
+  "comments": 46,
+  "shares": 0
+}

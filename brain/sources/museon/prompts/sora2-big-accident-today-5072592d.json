@@ -1,0 +1,41 @@
+{
+  "content_id": "5072592d-0b4e-4162-87b0-6bbce8b848d6",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Big accident today 🎅 🎁 🎄",
+  "description": "Big accident today 🎅 🎁 🎄",
+  "prompt_text": "A surreal and humorous daytime scene on a highway. A large white semi-trailer truck is tipped over on its side across two lanes, spilling numerous brightly wrapped Christmas presents across the asphalt. Many people dressed as Christmas elves, in various red and green outfits with striped socks and pointy hats, are scattered around the overturned truck and the gifts. The sky is overcast and grey, and bare trees line the distant roadside. The scene is filmed from the interior of a vehicle, with the dashboard visible in the foreground.",
+  "prompt_data": {
+    "sceneDescription": "A surreal and humorous daytime scene on a highway. A large white semi-trailer truck is tipped over on its side across two lanes, spilling numerous brightly wrapped Christmas presents across the asphalt. Many people dressed as Christmas elves, in various red and green outfits with striped socks and pointy hats, are scattered around the overturned truck and the gifts. The sky is overcast and grey, and bare trees line the distant roadside. The scene is filmed from the interior of a vehicle, with the dashboard visible in the foreground.",
+    "cinematography": {
+      "mood": "Humorous, chaotic, and unexpected.",
+      "cameraShot": "Medium shot, eye-level, filmed from inside a moving vehicle. The shot is static, with no camera movement or pans."
+    },
+    "actions": [
+      "A semi-trailer truck is lying on its side across the highway lanes.",
+      "Numerous wrapped Christmas presents are spilled from the truck and scattered across the road.",
+      "Many people dressed as Christmas elves are walking among the spilled presents.",
+      "Several elves are bending down, seemingly picking up or organizing the gifts.",
+      "One elf in red and white striped leggings and a red top is bending over near the right side of the truck.",
+      "An elf in green is picking up a gold-wrapped gift near the rear of the truck.",
+      "Another elf in green is standing by the side of the road, looking towards the truck."
+    ],
+    "dialogue": [
+      "Muffled human voices, indicating people speaking inside the recording vehicle.",
+      "Ambient road noise.",
+      "Sound of a vehicle driving on the road."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 143277,
+  "likes": 2722,
+  "comments": 45,
+  "shares": 0
+}

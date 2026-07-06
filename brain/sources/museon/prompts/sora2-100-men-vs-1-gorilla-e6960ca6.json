@@ -1,0 +1,48 @@
+{
+  "content_id": "e6960ca6-53c8-4913-a5d2-d032802c00c3",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "100 Men vs 1 Gorilla 🦍",
+  "description": "100 Men vs 1 Gorilla 🦍",
+  "prompt_text": "A dramatic and intense scene unfolds in a pine forest clearing during daylight. A large, realistic CGI gorilla is the central figure, struggling against multiple thick ropes that are tied around its torso and arms. Approximately a dozen men, dressed in various green and brown military-style uniforms, some with hats, are actively trying to restrain the gorilla by pulling on these ropes. The ground is reddish-brown dirt with sparse pine needles and undergrowth. Tall, slender pine trees form a dense background, creating a sense of being deep within the wilderness. The lighting is natural, suggesting an overcast day or diffused sunlight, casting soft shadows.",
+  "prompt_data": {
+    "sceneDescription": "A dramatic and intense scene unfolds in a pine forest clearing during daylight. A large, realistic CGI gorilla is the central figure, struggling against multiple thick ropes that are tied around its torso and arms. Approximately a dozen men, dressed in various green and brown military-style uniforms, some with hats, are actively trying to restrain the gorilla by pulling on these ropes. The ground is reddish-brown dirt with sparse pine needles and undergrowth. Tall, slender pine trees form a dense background, creating a sense of being deep within the wilderness. The lighting is natural, suggesting an overcast day or diffused sunlight, casting soft shadows.",
+    "cinematography": {
+      "mood": "Intense, action-packed, chaotic, and realistic, conveying a sense of struggle and potential danger.",
+      "cameraShot": "Medium shot, eye-level, with slight handheld movement that tracks the gorilla's struggle. The camera focuses on the gorilla and the immediate group of men engaging with it, showing parts of the surrounding forest and other soldiers in the background."
+    },
+    "actions": [
+      "The large gorilla struggles violently, pulling against multiple ropes tied around its body.",
+      "Several men in military uniforms pull back with all their might on the ropes, attempting to restrain the gorilla.",
+      "The gorilla snarls, bares its teeth, and vocalizes aggressively.",
+      "The gorilla shifts its weight, trying to break free from the ropes.",
+      "Men in the foreground and background lean into the ropes, demonstrating effort.",
+      "The gorilla rears up slightly and pulls with tremendous force.",
+      "A man in the foreground, wearing a military uniform, is visible pulling on a rope.",
+      "The gorilla briefly turns its head, looking towards the men pulling the ropes."
+    ],
+    "dialogue": [
+      "Men shouting: \"Hold!\"",
+      "Men shouting: \"Pull!\"",
+      "A man shouts: \"Get your weight back!\"",
+      "A man shouts: \"He's breaking free!\"",
+      "A man shouts: \"Anchor it! Anchor it!\"",
+      "A man shouts: \"The rope's burning!\"",
+      "Gorilla roaring loudly.",
+      "Men grunting with effort.",
+      "Sounds of ropes straining."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 184736,
+  "likes": 3100,
+  "comments": 51,
+  "shares": 0
+}

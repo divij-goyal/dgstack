@@ -1,0 +1,55 @@
+{
+  "content_id": "b59c4d22-bd93-4d0b-a37c-2cf0f3b4cf50",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "#funnyvideos #animation #aicat #orangecat #cartoon",
+  "description": "#funnyvideos #animation #aicat #orangecat #cartoon",
+  "prompt_text": "A cinematic montage following an anthropomorphic cat's journey from failure to success. The video begins in a locker room where a muscular bull in a white soccer jersey is using a syringe. Transitions lead to a soccer stadium where the bull scoring goals and celebrating with a white fox. Meanwhile, an overweight orange cat in colorful swim trunks struggles with soccer, gets arrested, and eventually finds a mentor in a muscular panda in a bamboo-forested village. The training montage includes scenes of the cat kicking logs, hauling wood through snow, and balancing rocks. The video culminates with the cat and panda successfully kicking a ball across a massive canyon, causing an explosion on a distant goal, and the cat finally walking confidently into a soccer stadium tunnel.",
+  "prompt_data": {
+    "sceneDescription": "A cinematic montage following an anthropomorphic cat's journey from failure to success. The video begins in a locker room where a muscular bull in a white soccer jersey is using a syringe. Transitions lead to a soccer stadium where the bull scoring goals and celebrating with a white fox. Meanwhile, an overweight orange cat in colorful swim trunks struggles with soccer, gets arrested, and eventually finds a mentor in a muscular panda in a bamboo-forested village. The training montage includes scenes of the cat kicking logs, hauling wood through snow, and balancing rocks. The video culminates with the cat and panda successfully kicking a ball across a massive canyon, causing an explosion on a distant goal, and the cat finally walking confidently into a soccer stadium tunnel.",
+    "cinematography": {
+      "mood": "Humorous, inspiring, and high-energy with a playful yet dramatic tone.",
+      "cameraShot": "A dynamic mix of medium shots, wide shots, and close-ups, with frequent panning and fast-paced editing to emphasize action and emotional transitions."
+    },
+    "actions": [
+      "A muscular bull in a locker room injects himself and laughs.",
+      "The bull runs onto a soccer field and scores a goal past a lion goalie.",
+      "A crowd of diverse anthropomorphic animals cheers wildly.",
+      "A white fox in a purple dress celebrates with the bull.",
+      "An overweight orange cat tries to score but fails miserably and falls.",
+      "The cat is seen being escorted by leopard police officers.",
+      "The cat walks through a city and sees a billboard of a soccer-playing panda.",
+      "The cat travels to a mountain village and is greeted by the panda.",
+      "The cat undergoes a rigorous training sequence: kicking wood, pulling a sled, and balancing a rock.",
+      "The cat and panda kick a soccer ball across a canyon into a goal, causing an explosion.",
+      "The cat walks into a stadium tunnel, ready for a match."
+    ],
+    "dialogue": [
+      "[Sound of upbeat, energetic music]",
+      "Bull laughs heartily.",
+      "Lion goalie roars and grunts.",
+      "Cat whimpers and groans during training.",
+      "Panda says: 'Thank you' while hugging the cat.",
+      "Crowd cheers and makes various animal sounds."
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 96,
+  "views": 449821483,
+  "likes": 11936428,
+  "comments": 118849,
+  "shares": 1198264,
+  "hashtags": [
+    "funnyvideos",
+    "animation",
+    "aicat",
+    "orangecat",
+    "cartoon"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "content_id": "0cae17ca-6699-459d-bc8d-041151fdcd19",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "is sending one lucky Player’s Club member to Super Bowl LX in Santa Clara! 🏈\n-\nHere’s how it works:\n🎟 Every 100 points you earn = 1 ticket\n🔥 3X points = 3X entries during bonus hours\n🗓 Play now through Jan 25, 2026\n🎉 Drawing is Feb 2 at 7 PM — must be there to win!\n-\nTop 10 earners also score an exclusive VIP Super Bowl Party + $500 in Free Play. Let’s gooo.\n-\nEDH Casino in El Dorado Hills is leveling up game night this season. Play. Earn. Win Super Bowl tickets. All the details at ed",
+  "description": "is sending one lucky Player’s Club member to Super Bowl LX in Santa Clara! 🏈\n-\nHere’s how it works:\n🎟 Every 100 points you earn = 1 ticket\n🔥 3X points = 3X entries during bonus hours\n🗓 Play now through Jan 25, 2026\n🎉 Drawing is Feb 2 at 7 PM — must be there to win!\n-\nTop 10 earners also score an exclusive VIP Super Bowl Party + $500 in Free Play. Let’s gooo.\n-\nEDH Casino in El Dorado Hills is leveling up game night this season. Play. Earn. Win Super Bowl tickets. All the details at edhcasino.com\n-\nGEAR-000966 (Prize Drawing), GEAR-000968 (Free Play Chips Promotion), GEAR-001375 (Customer Incentive Program). Gambling Problem? Call 1-800-GAMBLER",
+  "prompt_text": "A lively casino floor, illuminated by soft, warm overhead lighting, features a central blue-felt poker table. On this table, a meticulously constructed, towering house of cards stands, reaching almost to eye level. Perched precariously at the very top of the house of cards is a small, brown tabby cat, its tail flicking. Around the table, a diverse crowd of people watches the scene unfold, some with expressions of awe and anticipation. The casino floor is carpeted with a vibrant, intricate pattern of red, yellow, and blue. In the background, other poker tables and casino staff in black and white uniforms are visible.",
+  "prompt_data": {
+    "sceneDescription": "A lively casino floor, illuminated by soft, warm overhead lighting, features a central blue-felt poker table. On this table, a meticulously constructed, towering house of cards stands, reaching almost to eye level. Perched precariously at the very top of the house of cards is a small, brown tabby cat, its tail flicking. Around the table, a diverse crowd of people watches the scene unfold, some with expressions of awe and anticipation. The casino floor is carpeted with a vibrant, intricate pattern of red, yellow, and blue. In the background, other poker tables and casino staff in black and white uniforms are visible.",
+    "cinematography": {
+      "mood": "Tense, then chaotic and humorous.",
+      "cameraShot": "Medium shot, handheld, dynamic. The camera initially focuses on the cat and the house of cards, then quickly pans and shakes to follow the chaotic action as the cat jumps."
+    },
+    "actions": [
+      "A small, brown tabby cat is perched on top of a very tall house of cards.",
+      "The cat looks around, seemingly surveying its surroundings from the precarious height.",
+      "The cat then jumps off the house of cards, sending cards flying across the table and floor.",
+      "The house of cards collapses spectacularly.",
+      "The cat lands on the table and then jumps onto a casino staff member's back.",
+      "The staff member is startled and attempts to remove the cat from his back.",
+      "The cat scurries across the casino floor and under another table.",
+      "People in the casino react with gasps and shouts of surprise and laughter as the scene unfolds."
+    ],
+    "dialogue": [
+      "Person says: \"How's it staying up?\"",
+      "Person says: \"No way he's going higher!\"",
+      "Multiple people exclaim: \"Oh my god!\"",
+      "Multiple people exclaim: \"Whoa!\"",
+      "Person says: \"Oh my god.\"",
+      "Person says: \"Watch out! Watch out!\"",
+      "Person says: \"He jumped at his face!\"",
+      "Person says: \"That's crazy!\""
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 116178,
+  "likes": 1890,
+  "comments": 46,
+  "shares": 0
+}

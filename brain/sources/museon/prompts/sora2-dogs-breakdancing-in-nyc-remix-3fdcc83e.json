@@ -1,0 +1,38 @@
+{
+  "content_id": "3fdcc83e-4655-4cea-8b09-e57f7b3df6ae",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Dogs breakdancing in NYC (Remix!) 🎶",
+  "description": "Dogs breakdancing in NYC (Remix!) 🎶",
+  "prompt_text": "A vibrant, high-energy street performance scene set in a bustling urban plaza resembling Times Square, New York, filled with bright digital billboards and city lights. On a large sheet of cardboard laid out on the pavement, two dogs dressed in streetwear are engaging in a breakdancing battle. The dog on the left is a stout, tan and white Bulldog wearing a black hoodie, while the dog on the right is a lean, black and tan mixed breed wearing a blue shirt. Behind them sits a retro silver boombox and a handwritten cardboard sign. A semi-circle of spectators, dressed in heavy winter coats, beanies, and scarves, watches enthusiastically, with many holding up smartphones to record the spectacle.",
+  "prompt_data": {
+    "sceneDescription": "A vibrant, high-energy street performance scene set in a bustling urban plaza resembling Times Square, New York, filled with bright digital billboards and city lights. On a large sheet of cardboard laid out on the pavement, two dogs dressed in streetwear are engaging in a breakdancing battle. The dog on the left is a stout, tan and white Bulldog wearing a black hoodie, while the dog on the right is a lean, black and tan mixed breed wearing a blue shirt. Behind them sits a retro silver boombox and a handwritten cardboard sign. A semi-circle of spectators, dressed in heavy winter coats, beanies, and scarves, watches enthusiastically, with many holding up smartphones to record the spectacle.",
+    "cinematography": {
+      "mood": "Humorous, energetic, and entertaining, capturing a viral social media video aesthetic.",
+      "cameraShot": "Medium-wide shot, slightly high angle, with a handheld camera feel that stays focused on the cardboard dance floor."
+    },
+    "actions": [
+      "The Bulldog on the left spins low to the ground on its side.",
+      "The black and tan dog on the right stands upright on its hind legs, hopping rhythmically.",
+      "The black and tan dog drops to the cardboard and performs an impressive breakdance backspin (windmill move), rotating rapidly on its back.",
+      "The crowd in the background claps in rhythm and cheers, pointing phones at the dogs."
+    ],
+    "dialogue": [
+      "[Music: Upbeat, old-school funk/breakbeat track playing loudly]",
+      "[Sound of rhythmic clapping from the audience]",
+      "[Crowd cheering and shouting in excitement]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 118347,
+  "likes": 2737,
+  "comments": 49,
+  "shares": 0
+}

@@ -1,0 +1,41 @@
+{
+  "content_id": "6dee4dee-2c5d-44fe-95df-8834f65f44f9",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Follow for more slop",
+  "description": "Follow for more slop",
+  "prompt_text": "The scene opens in the cabin of an airplane. A young blonde woman with a light green hooded sweatshirt is seen crying hysterically, clutching the back of a blue airplane seat. A man with a baseball cap is seated in the row behind her, observing with a passive, slightly concerned expression. The lighting is typical of an airplane cabin, with overhead lights illuminating the interior. The camera then cuts to a close-up of a large orangutan seated in an airplane seat, behind another blue airplane seat with a tray table. The orangutan has prominent cheek pads, typical of a mature male, and is covered in reddish-brown fur. The lighting here is also typical of an airplane cabin.",
+  "prompt_data": {
+    "sceneDescription": "The scene opens in the cabin of an airplane. A young blonde woman with a light green hooded sweatshirt is seen crying hysterically, clutching the back of a blue airplane seat. A man with a baseball cap is seated in the row behind her, observing with a passive, slightly concerned expression. The lighting is typical of an airplane cabin, with overhead lights illuminating the interior. The camera then cuts to a close-up of a large orangutan seated in an airplane seat, behind another blue airplane seat with a tray table. The orangutan has prominent cheek pads, typical of a mature male, and is covered in reddish-brown fur. The lighting here is also typical of an airplane cabin.",
+    "cinematography": {
+      "mood": "Initially tense and chaotic, transitioning to humorous and absurd.",
+      "cameraShot": "The initial shot is a medium close-up of the woman, with a slight pan as she speaks. It then cuts to a tracking shot from behind the rows, revealing the orangutan. The final shots are close-ups of the orangutan, with the camera slightly above eye level, emphasizing its size and expressions. The shots are relatively static once the subject is framed."
+    },
+    "actions": [
+      "A young woman cries hysterically, clutching a seat.",
+      "A man in the background watches the woman.",
+      "The camera pans past several empty blue airplane seats.",
+      "A large orangutan is revealed, seated in an airplane seat.",
+      "The orangutan looks around calmly.",
+      "The orangutan picks up a piece of a green vegetable and places it in its mouth.",
+      "The orangutan chews the vegetable slowly and deliberately.",
+      "The orangutan looks directly at the camera, then slightly away."
+    ],
+    "dialogue": [
+      "Woman: \"I'm telling you right now, it's not! I'm not crazy! That person! That person is not real!\"",
+      "[Muffled chewing sounds from the orangutan]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 107998,
+  "likes": 2319,
+  "comments": 54,
+  "shares": 0
+}

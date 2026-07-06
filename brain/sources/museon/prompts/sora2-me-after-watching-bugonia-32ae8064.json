@@ -1,0 +1,40 @@
+{
+  "content_id": "32ae8064-f12d-46ab-850b-abbf39314937",
+  "platform": "sora2",
+  "content_type": "video",
+  "title": "Me after watching Bugonia",
+  "description": "Me after watching Bugonia",
+  "prompt_text": "A surreal and comedic indoor scene set in a domestic bathroom. A tabby and white cat is standing on its hind legs on a bathroom counter in front of a large mirror. The cat appears to have a perfectly smooth, pink bald head, as if it has been shaved. It is holding a pair of silver electric hair clippers with its paws. The sink and counter are covered in clumps of brown cat fur, suggesting a recent grooming session. The background shows a tiled shower wall and a glass shower door, with warm, indoor lighting casting soft shadows.",
+  "prompt_data": {
+    "sceneDescription": "A surreal and comedic indoor scene set in a domestic bathroom. A tabby and white cat is standing on its hind legs on a bathroom counter in front of a large mirror. The cat appears to have a perfectly smooth, pink bald head, as if it has been shaved. It is holding a pair of silver electric hair clippers with its paws. The sink and counter are covered in clumps of brown cat fur, suggesting a recent grooming session. The background shows a tiled shower wall and a glass shower door, with warm, indoor lighting casting soft shadows.",
+    "cinematography": {
+      "mood": "Humorous, bizarre, and deadpan.",
+      "cameraShot": "The video starts with a medium shot from a side angle, showing the cat's profile and its reflection in the mirror. The camera then pans and zooms in to a close-up frontal shot of the cat's face."
+    },
+    "actions": [
+      "The cat stands still, looking at its reflection in the mirror while holding the clippers.",
+      "The camera pans to face the cat directly.",
+      "The cat looks directly into the camera lens with a serious expression.",
+      "The cat opens its mouth and lets out a short, sharp 'meow' in response to an off-camera voice.",
+      "The cat continues to stare at the camera with a grumpy or stoic expression."
+    ],
+    "dialogue": [
+      "A female voice off-camera asks: 'What'd you do, buddy?'",
+      "The cat responds with a vocalization: 'Meow!'",
+      "[Sound of electric clippers buzzing faintly in the background]",
+      "[Ambient indoor household sounds]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 10,
+  "views": 131139,
+  "likes": 1705,
+  "comments": 72,
+  "shares": 0
+}

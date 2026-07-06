@@ -17,6 +17,7 @@ DG Stack helps by packaging focused skills that:
 
 - Start from the user's real goal, audience, and context
 - Consult a shared reference brain when source-backed taste is useful
+- Use local example corpora for startup positioning, essays, newsletters, openers, and image/video prompts
 - Apply opinionated creative principles before writing
 - Avoid corporate filler and obvious advice
 - Produce multiple distinct directions, not tiny variations

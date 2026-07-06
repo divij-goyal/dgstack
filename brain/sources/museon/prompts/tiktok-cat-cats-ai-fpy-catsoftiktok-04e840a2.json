@@ -1,0 +1,55 @@
+{
+  "content_id": "04e840a2-eef8-4751-95cf-32acf953596f",
+  "platform": "tiktok",
+  "content_type": "video",
+  "title": "#cat #cats #ai #fpy #catsoftiktok",
+  "description": "#cat #cats #ai #fpy #catsoftiktok",
+  "prompt_text": "A heartwarming and emotional narrative featuring anthropomorphic cats and dogs in a series of dramatic situations. The story begins with a family of cats—a ginger father, white mother, and two kittens—at a dining table in a rustic, run-down home. The father cat is then seen mining for gold in a cave when a collapse occurs, leaving him injured and hospitalized. The mother cat, overwhelmed, packs a suitcase and leaves by bus, leaving the kittens behind. The kittens endure hardships, including homelessness and hunger, but show resilience. A muscular golden retriever and a border collie doctor eventually provide help and food, leading to a hopeful ending where the father cat, though still injured, is reunited with his kittens under a moonlit sky.",
+  "prompt_data": {
+    "sceneDescription": "A heartwarming and emotional narrative featuring anthropomorphic cats and dogs in a series of dramatic situations. The story begins with a family of cats—a ginger father, white mother, and two kittens—at a dining table in a rustic, run-down home. The father cat is then seen mining for gold in a cave when a collapse occurs, leaving him injured and hospitalized. The mother cat, overwhelmed, packs a suitcase and leaves by bus, leaving the kittens behind. The kittens endure hardships, including homelessness and hunger, but show resilience. A muscular golden retriever and a border collie doctor eventually provide help and food, leading to a hopeful ending where the father cat, though still injured, is reunited with his kittens under a moonlit sky.",
+    "cinematography": {
+      "mood": "Sentimental, dramatic, and ultimately uplifting.",
+      "cameraShot": "A dynamic mix of close-ups to capture emotional expressions, medium shots for character interactions, and wide shots to establish settings like the mine, hospital, and rainy streets. The camera movement includes steady tracking shots of the kittens running and slow pans across scenes of hardship."
+    },
+    "actions": [
+      "Ginger cat father mining for gold with a pickaxe.",
+      "The mine roof collapsing on the ginger cat.",
+      "White cat mother crying and bandaging the father cat in a hospital bed.",
+      "White cat mother leaving with a suitcase on a bus.",
+      "Kittens running through the rain and mud, chasing the bus.",
+      "Kittens cooking and caring for their injured father in a makeshift shelter.",
+      "Kitten in a blue raincoat successfully catching a fish.",
+      "Kittens attempting to cook the fish, resulting in a small kitchen fire.",
+      "Muscular golden retriever running to help the cat family.",
+      "Border collie doctor treating the injured ginger cat's arm.",
+      "Golden retriever giving bags of bread and sausages to the kittens.",
+      "Kittens and father cat happily sharing the food."
+    ],
+    "dialogue": [
+      "[Frequent cat meowing and crying sounds representing emotional distress and communication]",
+      "[Sound of rain and thunder]",
+      "[Sound of mining pickaxe hitting rock]",
+      "[Sound of bus engine and doors closing]",
+      "[Upbeat, cinematic orchestral music that swells during emotional moments]"
+    ],
+    "main_description": null,
+    "aesthetic_vibe": null,
+    "text_overlays": null,
+    "technical_specs": null,
+    "subject_physics": null,
+    "negative_prompts": null,
+    "aspect_ratio": null
+  },
+  "duration": 116,
+  "views": 115117836,
+  "likes": 4424512,
+  "comments": 47328,
+  "shares": 522744,
+  "hashtags": [
+    "cat",
+    "cats",
+    "ai",
+    "fpy",
+    "catsoftiktok"
+  ]
+}
