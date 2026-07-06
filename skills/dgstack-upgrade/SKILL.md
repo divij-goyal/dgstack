@@ -20,10 +20,20 @@ elif [ -L "$HOME/.claude/skills/dgstack" ]; then
   INSTALL_DIR="$(readlink "$HOME/.claude/skills/dgstack")"
 elif [ -L "$HOME/.codex/skills/dgstack" ]; then
   INSTALL_DIR="$(readlink "$HOME/.codex/skills/dgstack")"
+elif [ -L "$HOME/.claude/skills/dgstack-upgrade" ]; then
+  INSTALL_DIR="$(readlink "$HOME/.claude/skills/dgstack-upgrade")"
+elif [ -L "$HOME/.codex/skills/dgstack-upgrade" ]; then
+  INSTALL_DIR="$(readlink "$HOME/.codex/skills/dgstack-upgrade")"
 else
   echo "ERROR: dgstack not found"; exit 1
 fi
 INSTALL_DIR="$(cd "$INSTALL_DIR" && pwd -P)"
+while [ "$INSTALL_DIR" != "/" ] && [ ! -d "$INSTALL_DIR/.git" ]; do
+  INSTALL_DIR="$(dirname "$INSTALL_DIR")"
+done
+if [ ! -d "$INSTALL_DIR/.git" ]; then
+  echo "ERROR: dgstack git repo not found"; exit 1
+fi
 OLD_VERSION=$(cat "$INSTALL_DIR/VERSION" 2>/dev/null | tr -d '[:space:]' || echo "unknown")
 echo "INSTALL_DIR=$INSTALL_DIR OLD_VERSION=$OLD_VERSION"
 ```

@@ -1,0 +1,3 @@
+display_name: Tagline Generator
+short_description: Generate and rank sharper startup taglines, headlines, one-liners, positioning, and landing-page hero copy.
+default_prompt: Generate positioning and tagline options, then rank the strongest ones.

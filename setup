@@ -91,7 +91,7 @@ register_target() {
   link_skill "$skills_dir" "dgstack" "$DGSTACK_DIR"
 
   for skill_name in "${SKILLS[@]}"; do
-    local skill_dir="$DGSTACK_DIR/$skill_name"
+    local skill_dir="$DGSTACK_DIR/skills/$skill_name"
     if [ -f "$skill_dir/SKILL.md" ]; then
       link_skill "$skills_dir" "$skill_name" "$skill_dir"
     fi

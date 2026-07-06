@@ -77,6 +77,10 @@ Install for both:
 
 Restart the agent app after setup.
 
+Update later by telling the agent: `update dgstack`. The installed
+`dgstack-upgrade` skill fetches GitHub, resets to `origin/main`, and reruns
+setup.
+
 ## Structure
 
 ```text
@@ -85,18 +89,20 @@ dgstack/
 ├── SKILL.md
 ├── references/principles.md
 ├── brain/
-├── tagline-generator/
-├── blog-writer/
-├── script-writer/
-├── brainstorming/
-├── dgstack-upgrade/
+├── skills/
+│   ├── tagline-generator/
+│   ├── blog-writer/
+│   ├── script-writer/
+│   ├── brainstorming/
+│   └── dgstack-upgrade/
 ├── tools/
 └── setup
 ```
 
-Each sub-skill keeps its detailed instructions in `references/instructions.md`.
-Shared taste rules live in `references/principles.md`. Source-backed examples,
-raw artifacts, and distilled pattern notes live in `brain/`.
+Callable skills live under `skills/`. Each skill keeps its detailed
+instructions in `skills/<skill>/references/instructions.md`. Shared taste rules
+live in `references/principles.md`. Source-backed examples, raw artifacts, and
+distilled pattern notes live in `brain/`.
 
 For AI agents, start with `AGENTS.md`. It explains the shortest route through
 the repo and when to open each brain source.

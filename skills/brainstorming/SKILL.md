@@ -1,6 +1,6 @@
 ---
 name: brainstorming
-description: Creative brainstorming and idea sharpening with a strong point of view. Use when the user wants to think through a startup idea, product idea, relationship issue, parenting question, learning plan, creative project, decision, or any open-ended problem where the agent should act like a domain expert instead of a yes-man.
+description: Creative brainstorming and idea sharpening with a strong point of view. Use when the user wants startup ideas, product ideas, app ideas, feature ideas, creative strategy, dating-app conversation starters, learning plans, decisions, relationship questions, parenting questions, or any open-ended problem where the agent should explore, challenge, and generate better directions.
 ---
 
 # Brainstorming
@@ -11,8 +11,8 @@ early. Stay in the possibility space long enough to find non-obvious angles.
 ## Workflow
 
 1. Identify the domain: startup, product, writing, career, relationship, parenting, learning, personal decision, or other.
-2. Read `../references/principles.md`.
-3. Read any relevant brain source in `../brain/sources/`:
+2. Read `../../references/principles.md`.
+3. Read any relevant brain source in `../../brain/sources/`:
    YC for startup positioning, Paul Graham for founder thinking, Lenny for
    product/growth, dating-openers for dating-app conversation starters, or
    video-prompts/promptbazaar/museon for generative image and video prompts.

@@ -5,6 +5,9 @@ DG Stack is a minimalist creative skill pack.
 Start with `AGENTS.md` for repo navigation. It is the canonical AI-facing map
 for skills, brain sources, and editing rules.
 
+Callable skills live under `skills/`. The root `SKILL.md` is only the router
+and repo-level install/update anchor.
+
 ## Routing
 
 - Taglines, headlines, slogans, one-liners -> `tagline-generator`

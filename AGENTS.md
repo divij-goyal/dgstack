@@ -7,18 +7,21 @@ an AI agent needs to understand or use the repo.
 
 1. Read `SKILL.md` to choose the right DG Stack skill.
 2. Read `references/principles.md` for shared taste rules.
-3. Read the selected skill's `SKILL.md`.
+3. Read the selected skill's `SKILL.md` under `skills/<skill>/`.
 4. Read that skill's `references/instructions.md`.
 5. If the task benefits from examples, read `brain/README.md`, then
    `brain/sources/README.md`, then the relevant source README.
 
 ## Skills
 
-- `tagline-generator`: startup taglines, one-liners, positioning, headlines.
-- `blog-writer`: blogs, essays, founder notes, explainers, product writing.
-- `script-writer`: short videos, ads, dialogue, scenes, YouTube, AI video prompts.
-- `brainstorming`: startup ideas, product ideas, creative strategy, decisions.
-- `dgstack-upgrade`: update an installed DG Stack copy.
+- `skills/tagline-generator`: startup taglines, one-liners, positioning, headlines.
+- `skills/blog-writer`: blogs, essays, newsletters, LinkedIn posts, founder notes.
+- `skills/script-writer`: scripts, hooks, ads, scenes, dialogue, image/video prompts.
+- `skills/brainstorming`: startup ideas, product ideas, creative strategy, decisions.
+- `skills/dgstack-upgrade`: update an installed DG Stack copy.
+
+The root `SKILL.md` is the `dgstack` router. It stays at the repo root so
+installed agents can find the Git repo for future updates.
 
 ## Brain Layout
 
@@ -31,6 +34,14 @@ an AI agent needs to understand or use the repo.
 - `brain/raw/`: original or near-original artifacts used for regeneration or
   page-structure reference. Do not start here unless the source README says so.
 
+## Repo Layout
+
+- `skills/`: callable skills installed into Claude Code or Codex.
+- `brain/`: browsable reference data used by skills.
+- `references/`: shared creative principles.
+- `tools/`: corpus ingestion and maintenance scripts.
+- `setup`: installer that symlinks the root router and each skill.
+
 ## Editing Rules
 
 - Keep source READMEs short and navigational. Put bulk examples in JSON/JSONL or
@@ -42,4 +53,3 @@ an AI agent needs to understand or use the repo.
   possible.
 - Do not copy source prose verbatim into final user output; use structure,
   patterns, and decision rules.
-

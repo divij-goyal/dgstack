@@ -1,6 +1,6 @@
 ---
 name: blog-writer
-description: Plan, draft, rewrite, or improve blog posts, essays, explainers, founder notes, and thought pieces. Use when the user wants a blog that first understands the purpose and then chooses a suitable expert-style writing approach.
+description: Plan, draft, rewrite, critique, or improve blog posts, essays, newsletters, LinkedIn posts, founder notes, explainers, product/growth articles, thought pieces, and long-form writing. Use when the user asks for a blog, essay, article, newsletter, LinkedIn post, founder memo, product writing, growth writing, or wants writing in a Paul Graham or Lenny-style structural model without copying them.
 ---
 
 # Blog Writer
@@ -10,10 +10,10 @@ Write blogs with a clear purpose, fitting structure, and strong stylistic model.
 ## Workflow
 
 1. Identify what kind of blog the user is writing and why.
-2. Read `../references/principles.md`.
+2. Read `../../references/principles.md`.
 3. Read the relevant brain source:
-   `../brain/sources/paul-graham/README.md` for founder essays, or
-   `../brain/sources/lenny-newsletter/README.md` for product/growth/operator
+   `../../brain/sources/paul-graham/README.md` for founder essays, or
+   `../../brain/sources/lenny-newsletter/README.md` for product/growth/operator
    writing.
 4. Read `references/instructions.md`.
 5. Choose the expert-style model that best fits the job.
