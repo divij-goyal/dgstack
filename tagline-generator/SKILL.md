@@ -13,11 +13,13 @@ remember.
 1. Identify the product, customer, category, pain, and promised outcome.
 2. Read `../references/principles.md`.
 3. Read `../brain/sources/yc-startups/README.md`.
-4. Search `../brain/sources/yc-startups/items.jsonl` for comparable companies,
+4. If the user asks for current or latest YC-style positioning, check
+   `../brain/sources/yc-startups/batches/` first.
+5. Search `../brain/sources/yc-startups/items.jsonl` for comparable companies,
    industries, and one-liner patterns.
-5. Read `references/instructions.md`.
-6. Generate distinct directions, not tiny variations.
-7. Rank the best options and say why each works.
+6. Read `references/instructions.md`.
+7. Generate distinct directions, not tiny variations.
+8. Rank the best options and say why each works.
 
 ## Output
 

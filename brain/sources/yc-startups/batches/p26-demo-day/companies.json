@@ -1,0 +1,3605 @@
+[
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Hyper",
+    "website": "https://heyhyper.ai",
+    "one_liner": "Company brain that powers your AI employees",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31548",
+    "presentation_day": 1,
+    "presentation_order": 168,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Superset",
+    "website": "https://www.superset.sh/",
+    "one_liner": "Building the platform for software factories",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31222",
+    "presentation_day": 1,
+    "presentation_order": 166,
+    "categories": [
+      "Developer Tools",
+      "Machine Learning / AI",
+      "SaaS",
+      "Consumer",
+      "B2B"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Apollo Atomics, Inc.",
+    "website": "https://apolloatomics.com/",
+    "one_liner": "We make the most compact nuclear reactors",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31503",
+    "presentation_day": 1,
+    "presentation_order": 82,
+    "categories": [
+      "Hard Tech"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "TesterArmy",
+    "website": "https://tester.army",
+    "one_liner": "Test your app with AI, catch bugs before users do",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31491",
+    "presentation_day": 1,
+    "presentation_order": 17,
+    "categories": [
+      "Machine Learning / AI",
+      "Developer Tools",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Scope",
+    "website": "https://tryscope.app",
+    "one_liner": "We help software companies get discovered and used by AI agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31351",
+    "presentation_day": 1,
+    "presentation_order": 30,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Tasklet",
+    "website": "https://tasklet.ai",
+    "one_liner": "Agents that own the work",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31470",
+    "presentation_day": 1,
+    "presentation_order": 163,
+    "categories": [
+      "Machine Learning / AI",
+      "SaaS",
+      "B2B"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Foaster",
+    "website": "https://foaster.ai",
+    "one_liner": "The AI-native McKinsey",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31488",
+    "presentation_day": 1,
+    "presentation_order": 70,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe",
+      "Middle East & North Africa"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "BioStack Platforms",
+    "website": "https://www.getbiostack.com/",
+    "one_liner": "Real world training envs for healthcare AI models",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31477",
+    "presentation_day": 1,
+    "presentation_order": 65,
+    "categories": [
+      "Machine Learning / AI",
+      "Healthcare / Biotech"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Lumius",
+    "website": "https://www.lumius-imaging.com",
+    "one_liner": "Fast, smart, accessible 3D ultrasound that anyone can use",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31435",
+    "presentation_day": 1,
+    "presentation_order": 154,
+    "categories": [
+      "Healthcare / Biotech",
+      "Hardware",
+      "Hard Tech",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "PLAN0 AI",
+    "website": "https://plan0.ai/",
+    "one_liner": "Construction Cost Intelligence.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31460",
+    "presentation_day": 1,
+    "presentation_order": 113,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Canada"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "ReasonBlocks",
+    "website": "https://reasonblocks.com/",
+    "one_liner": "The runtime layer that makes AI agents cheaper and more reliable",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31546",
+    "presentation_day": 1,
+    "presentation_order": 5,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Saudara AI",
+    "website": "https://saudara.ai",
+    "one_liner": "AI Native Sourcing Broker For Overseas Manufacturing",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31481",
+    "presentation_day": 1,
+    "presentation_order": 58,
+    "categories": [
+      "B2B",
+      "E-commerce",
+      "Machine Learning / AI",
+      "Fintech"
+    ],
+    "markets": [
+      "US / World",
+      "SE Asia",
+      "Emerging Markets"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Regbase",
+    "website": "https://regbase.com",
+    "one_liner": "Automating Corporate Compliance, Worldwide",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31279",
+    "presentation_day": 1,
+    "presentation_order": 28,
+    "categories": [
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "CharacterQuilt",
+    "website": "https://characterquilt.com",
+    "one_liner": "Computer use agents to deploy enterprise marketing campaigns",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31513",
+    "presentation_day": 1,
+    "presentation_order": 109,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Rudus",
+    "website": "http://rudus.ai/",
+    "one_liner": "AI Takeoffs for Concrete",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31346",
+    "presentation_day": 1,
+    "presentation_order": 27,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Construction"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Keyframe Labs",
+    "website": "https://keyframelabs.com",
+    "one_liner": "Turn agents into lifelike video calls with the word's best AI avatars",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31432",
+    "presentation_day": 1,
+    "presentation_order": 62,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B",
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Ornadyne",
+    "website": "https://ornadyne.com/",
+    "one_liner": "We're building robot birds for surveillance.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31486",
+    "presentation_day": 1,
+    "presentation_order": 91,
+    "categories": [
+      "Robotics",
+      "Hard Tech",
+      "Defense"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Aster",
+    "website": "https://www.asterlab.ai/",
+    "one_liner": "Automating open-ended research.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31498",
+    "presentation_day": 1,
+    "presentation_order": 47,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "Healthcare / Biotech",
+      "Hard Tech",
+      "Robotics"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "ValCtrl",
+    "website": "https://valctrl.com",
+    "one_liner": "ValCtrl is building the only intelligent prediction market",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31457",
+    "presentation_day": 1,
+    "presentation_order": 79,
+    "categories": [
+      "Fintech",
+      "Consumer",
+      "Marketplace"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Hedge",
+    "website": "https://www.hedgespecialty.com/",
+    "one_liner": "AI-Native wholesale insurance company",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31323",
+    "presentation_day": 1,
+    "presentation_order": 3,
+    "categories": [
+      "B2B",
+      "Fintech",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Standout",
+    "website": "https://standout.work",
+    "one_liner": "Agentic hiring marketplace",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31402",
+    "presentation_day": 1,
+    "presentation_order": 106,
+    "categories": [
+      "Marketplace"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "AgentPhone",
+    "website": "https://agentphone.ai/",
+    "one_liner": "Phone Numbers for AI Agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31524",
+    "presentation_day": 1,
+    "presentation_order": 8,
+    "categories": [
+      "Developer Tools",
+      "Machine Learning / AI",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "River Markets",
+    "website": "https://www.rivermarkets.com",
+    "one_liner": "Prime brokerage for prediction markets",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31450",
+    "presentation_day": 1,
+    "presentation_order": 20,
+    "categories": [
+      "Fintech",
+      "B2B"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Akkari",
+    "website": "https://akkari.io/",
+    "one_liner": "Autonomous Customer Operations",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31576",
+    "presentation_day": 1,
+    "presentation_order": 112,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Wealor",
+    "website": "https://wealor.ai/",
+    "one_liner": "AI-native platform for wealth managers",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31390",
+    "presentation_day": 1,
+    "presentation_order": 22,
+    "categories": [
+      "Fintech",
+      "B2B"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Smartbase",
+    "website": "https://www.smartbase.so/",
+    "one_liner": "AI-native ERP for manufacturers",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=30779",
+    "presentation_day": 1,
+    "presentation_order": 139,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Madrone",
+    "website": "https://madrone.cool/",
+    "one_liner": "Hyper-efficient coolers for data centers",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31399",
+    "presentation_day": 1,
+    "presentation_order": 59,
+    "categories": [
+      "Hardware",
+      "Hard Tech",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Middle East & North Africa"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Maquoketa Research",
+    "website": "https://www.maquoketa.net",
+    "one_liner": "The intelligence layer for drones",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31561",
+    "presentation_day": 1,
+    "presentation_order": 140,
+    "categories": [
+      "Machine Learning / AI",
+      "Hardware",
+      "Defense",
+      "Hard Tech",
+      "Robotics"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Astraea",
+    "website": "https://tryastraea.com",
+    "one_liner": "AI Operating System for Clinical Development",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31534",
+    "presentation_day": 1,
+    "presentation_order": 32,
+    "categories": [
+      "SaaS",
+      "Healthcare / Biotech"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Zibra Labs",
+    "website": "https://zibralabs.ai/",
+    "one_liner": "Distributed runtime for AI workloads at scale",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31459",
+    "presentation_day": 1,
+    "presentation_order": 84,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B",
+      "Developer Tools",
+      "SaaS",
+      "Fintech"
+    ],
+    "markets": [
+      "US / World",
+      "Europe",
+      "Emerging Markets"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "PerfectBit, Inc.",
+    "website": "https://perfectbit.ai",
+    "one_liner": "Correct by construction AI training data",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31333",
+    "presentation_day": 1,
+    "presentation_order": 93,
+    "categories": [
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Nine Fives",
+    "website": "https://ninefives.com/",
+    "one_liner": "RF test equipment for next-gen spacecraft, drones, and cellphones",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31366",
+    "presentation_day": 1,
+    "presentation_order": 24,
+    "categories": [
+      "Hardware",
+      "Hard Tech",
+      "Defense"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Allowance",
+    "website": "https://useallowance.com/",
+    "one_liner": "The spend control layer for AI agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31447",
+    "presentation_day": 1,
+    "presentation_order": 173,
+    "categories": [
+      "Fintech",
+      "Consumer"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Superlog",
+    "website": "https://superlog.sh/",
+    "one_liner": "Make software self-healing",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31380",
+    "presentation_day": 1,
+    "presentation_order": 89,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Developer Tools",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Mount",
+    "website": "https://mount.insure",
+    "one_liner": "The AI Agent Insurance Carrier",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31440",
+    "presentation_day": 1,
+    "presentation_order": 149,
+    "categories": [
+      "Fintech",
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Synphony",
+    "website": "https://www.synphony.co/",
+    "one_liner": "robots & software for farms",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31415",
+    "presentation_day": 1,
+    "presentation_order": 61,
+    "categories": [
+      "Hardware",
+      "Robotics",
+      "Consumer",
+      "Machine Learning / AI",
+      "Hard Tech"
+    ],
+    "markets": [
+      "US / World",
+      "Latin America",
+      "SE Asia"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Humwork",
+    "website": "https://humwork.ai",
+    "one_liner": "Human experts as API for AI Agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=30646",
+    "presentation_day": 1,
+    "presentation_order": 155,
+    "categories": [
+      "Machine Learning / AI",
+      "Marketplace",
+      "Developer Tools",
+      "Consumer",
+      "B2B"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Clawvisor",
+    "website": "https://clawvisor.com",
+    "one_liner": "The Authorization Layer for AI Agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31554",
+    "presentation_day": 1,
+    "presentation_order": 170,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "General Aviation",
+    "website": "https://generalaviation.com",
+    "one_liner": "Fix ATC by connecting aircraft to the internet",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31501",
+    "presentation_day": 1,
+    "presentation_order": 123,
+    "categories": [
+      "Robotics",
+      "Machine Learning / AI",
+      "Hard Tech",
+      "Hardware"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Plena Health",
+    "website": "https://www.plena.health/",
+    "one_liner": "Plena is the AI operating system for specialty medical practices",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31493",
+    "presentation_day": 1,
+    "presentation_order": 57,
+    "categories": [
+      "Healthcare / Biotech",
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Dispatch",
+    "website": "https://dispatch.space/",
+    "one_liner": "Satellites for Manufacturing in Space",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31294",
+    "presentation_day": 1,
+    "presentation_order": 10,
+    "categories": [
+      "Hard Tech",
+      "Hardware"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Napkin Math",
+    "website": "https://napkinmath.club",
+    "one_liner": "AI nutrition coach in your pocket",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31427",
+    "presentation_day": 1,
+    "presentation_order": 35,
+    "categories": [
+      "Consumer",
+      "Social",
+      "Healthcare / Biotech"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Parrot",
+    "website": "https://www.useparrot.com/",
+    "one_liner": "Agentic operating system for auto repair shops",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31439",
+    "presentation_day": 1,
+    "presentation_order": 38,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Marketplace"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Wato",
+    "website": "https://www.watolabs.com/",
+    "one_liner": "The control point for AI agents at work.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31472",
+    "presentation_day": 1,
+    "presentation_order": 80,
+    "categories": [
+      "SaaS",
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "RASPIRE",
+    "website": "https://raspire.com/",
+    "one_liner": "Autonomous Runtime Security",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31494",
+    "presentation_day": 1,
+    "presentation_order": 4,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Developer Tools",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Runtime",
+    "website": "https://www.runtm.com/",
+    "one_liner": "Build and run internal agents, without managing the infrastructure",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31518",
+    "presentation_day": 1,
+    "presentation_order": 14,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Ardent",
+    "website": "https://tryardent.com",
+    "one_liner": "Database sandboxes for Agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31475",
+    "presentation_day": 1,
+    "presentation_order": 83,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Kimpton AI",
+    "website": "https://kimpton.ai",
+    "one_liner": "The IDE for Investors",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31420",
+    "presentation_day": 1,
+    "presentation_order": 6,
+    "categories": [
+      "Fintech",
+      "Machine Learning / AI",
+      "B2B"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Oddpool",
+    "website": "https://www.oddpool.com",
+    "one_liner": "Institutional infrastructure for prediction markets",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31429",
+    "presentation_day": 1,
+    "presentation_order": 156,
+    "categories": [
+      "Fintech",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "WithAI",
+    "website": "https://withai.co",
+    "one_liner": "Agent harnesses for asset managers",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31343",
+    "presentation_day": 1,
+    "presentation_order": 114,
+    "categories": [
+      "Fintech",
+      "Machine Learning / AI",
+      "SaaS",
+      "B2B"
+    ],
+    "markets": [
+      "US / World",
+      "Europe",
+      "Middle East & North Africa"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Arzana",
+    "website": "https://www.arzana.com/",
+    "one_liner": "The autonomous ERP for every manufacturer",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31511",
+    "presentation_day": 1,
+    "presentation_order": 146,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Panacea",
+    "website": "https://withpanacea.com",
+    "one_liner": "AI-Native FDA Regulatory Services",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31544",
+    "presentation_day": 1,
+    "presentation_order": 18,
+    "categories": [
+      "Healthcare / Biotech",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Voquill",
+    "website": "https://voquill.com/",
+    "one_liner": "The agentic OS for medical labs",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31430",
+    "presentation_day": 1,
+    "presentation_order": 143,
+    "categories": [
+      "B2B",
+      "Healthcare / Biotech",
+      "Machine Learning / AI",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Aseon Labs",
+    "website": "https://www.aseonlabs.com/",
+    "one_liner": "Robotic pitstops for self-driving cars",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31465",
+    "presentation_day": 1,
+    "presentation_order": 85,
+    "categories": [
+      "Robotics",
+      "Hardware",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Totalis",
+    "website": "https://www.totalis.trade",
+    "one_liner": "derivative layer for prediction markets",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31344",
+    "presentation_day": 1,
+    "presentation_order": 16,
+    "categories": [
+      "Consumer",
+      "Fintech"
+    ],
+    "markets": [
+      "Canada",
+      "SE Asia",
+      "Emerging Markets"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "CentralComs",
+    "website": "https://centralcoms.com",
+    "one_liner": "AI Agents for Property Management",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31543",
+    "presentation_day": 1,
+    "presentation_order": 63,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "AbInitio Bio",
+    "website": "https://www.abinitio-bio.com",
+    "one_liner": "The Intelligence layer for Drug Manufacturing",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31484",
+    "presentation_day": 1,
+    "presentation_order": 33,
+    "categories": [
+      "Healthcare / Biotech",
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Emerging Markets",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Expanse",
+    "website": "https://expanse.sh",
+    "one_liner": "Unlock wasted GPU capacity.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31516",
+    "presentation_day": 1,
+    "presentation_order": 55,
+    "categories": [
+      "Hard Tech",
+      "Machine Learning / AI",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "shotwell.ai",
+    "website": "http://shotwell.ai/",
+    "one_liner": "The Observability Layer for Robotics",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31400",
+    "presentation_day": 1,
+    "presentation_order": 127,
+    "categories": [
+      "Robotics",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Tenet Industries",
+    "website": "https://www.tenetindustries.com",
+    "one_liner": "Low-cost, mass-producible defense systems",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31374",
+    "presentation_day": 1,
+    "presentation_order": 73,
+    "categories": [
+      "Defense",
+      "Hardware"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "tday.com",
+    "website": "https://tday.com",
+    "one_liner": "AI that turns your product into on-brand marketing content",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31455",
+    "presentation_day": 1,
+    "presentation_order": 138,
+    "categories": [
+      "B2B",
+      "Social",
+      "Machine Learning / AI",
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "flowscope",
+    "website": "https://flowscope.com",
+    "one_liner": "AI-native consulting to map and automate business processes",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31538",
+    "presentation_day": 1,
+    "presentation_order": 87,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "Europe",
+      "SE Asia"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Uno Wallet",
+    "website": "https://myunowallet.com/",
+    "one_liner": "The AI mobile wallet that replaces Apple Pay",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31526",
+    "presentation_day": 1,
+    "presentation_order": 50,
+    "categories": [
+      "Machine Learning / AI",
+      "Consumer",
+      "Fintech",
+      "E-commerce"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Deep Interactions",
+    "website": "https://deepinteractions.ai/",
+    "one_liner": "Collaborative AI app builder for teams",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31395",
+    "presentation_day": 1,
+    "presentation_order": 158,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "Developer Tools",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Atrisa",
+    "website": "https://refortif.ai",
+    "one_liner": "AI Agents for Analog Circuit Design",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31373",
+    "presentation_day": 1,
+    "presentation_order": 23,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B",
+      "SaaS",
+      "Hardware"
+    ],
+    "markets": [
+      "US / World",
+      "India",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Sherpa",
+    "website": "https://www.withsherpa.ai/",
+    "one_liner": "Make websites improve themselves.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31407",
+    "presentation_day": 1,
+    "presentation_order": 25,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS",
+      "E-commerce"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Klarify",
+    "website": "https://www.klarify.ca/",
+    "one_liner": "AI Agent for Therapists",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31326",
+    "presentation_day": 1,
+    "presentation_order": 44,
+    "categories": [
+      "B2B",
+      "Marketplace",
+      "Machine Learning / AI",
+      "Healthcare / Biotech",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "Canada",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "HeyClicky",
+    "website": "https://heyclicky.com/",
+    "one_liner": "The simplest AI interface in the world for consumers to spawn agents.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31574",
+    "presentation_day": 1,
+    "presentation_order": 175,
+    "categories": [
+      "Consumer"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Zolvo",
+    "website": "https://zolvo.com/",
+    "one_liner": "AI Back-Office Automation for Commercial Lenders",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31385",
+    "presentation_day": 1,
+    "presentation_order": 75,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "Fintech"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Gigacatalyst",
+    "website": "https://gigacatalyst.com/",
+    "one_liner": "Let software users build new features with our in-app AI agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31536",
+    "presentation_day": 1,
+    "presentation_order": 49,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Asendia AI",
+    "website": "https://asendia.ai/",
+    "one_liner": "AI recruiters for staffing agencies",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31528",
+    "presentation_day": 1,
+    "presentation_order": 96,
+    "categories": [
+      "B2B",
+      "Healthcare / Biotech",
+      "Machine Learning / AI",
+      "SaaS",
+      "Marketplace"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Autostep",
+    "website": "https://autostep.ai/",
+    "one_liner": "The P&L for knowledge work",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=30408",
+    "presentation_day": 1,
+    "presentation_order": 101,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "Latin America",
+      "SE Asia"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Thomas",
+    "website": "https://madebythomas.ai",
+    "one_liner": "The first AI founder: a virtual human who runs his own companies.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31563",
+    "presentation_day": 1,
+    "presentation_order": 132,
+    "categories": [
+      "Machine Learning / AI",
+      "SaaS",
+      "Developer Tools",
+      "B2B",
+      "Marketing"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Chert",
+    "website": "https://www.trychert.com/",
+    "one_liner": "iMessage infrastructure for business",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31364",
+    "presentation_day": 1,
+    "presentation_order": 68,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Harbor",
+    "website": "https://runharbor.com/",
+    "one_liner": "AI-native CRO for clinical trial operations",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31445",
+    "presentation_day": 1,
+    "presentation_order": 142,
+    "categories": [
+      "Healthcare / Biotech",
+      "B2B"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "RentAHuman",
+    "website": "https://rentahuman.ai",
+    "one_liner": "Marketplace for AI agents to hire humans.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31410",
+    "presentation_day": 1,
+    "presentation_order": 102,
+    "categories": [
+      "Marketplace"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Foresight",
+    "website": "https://foresight.tt/",
+    "one_liner": "Consumer simulations for CPG market research",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=30737",
+    "presentation_day": 1,
+    "presentation_order": 60,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Consumer",
+      "Machine Learning / AI",
+      "Marketing"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Huscarl",
+    "website": "https://www.huscarl.io/",
+    "one_liner": "AI-native actuary enabling self-insurance for corporations",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31564",
+    "presentation_day": 1,
+    "presentation_order": 115,
+    "categories": [
+      "Fintech"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Kinro",
+    "website": "https://www.kinro.com/",
+    "one_liner": "Autonomous insurance brokerage for small businesses",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31382",
+    "presentation_day": 1,
+    "presentation_order": 124,
+    "categories": [
+      "Fintech",
+      "Machine Learning / AI",
+      "B2B"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Manicule",
+    "website": "https://manicule.dev",
+    "one_liner": "AgentRel — Devrel For Agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31531",
+    "presentation_day": 1,
+    "presentation_order": 19,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "Developer Tools",
+      "Marketing"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Pairio",
+    "website": "https://pairio.com",
+    "one_liner": "AI mobile app that helps factory technicians fix broken machines",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31417",
+    "presentation_day": 1,
+    "presentation_order": 74,
+    "categories": [
+      "B2B"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "AICE",
+    "website": "https://aicepower.com",
+    "one_liner": "Submarine drones for defense",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31442",
+    "presentation_day": 1,
+    "presentation_order": 43,
+    "categories": [
+      "Defense",
+      "Robotics",
+      "Hard Tech",
+      "Hardware",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "Europe",
+      "US / World",
+      "Middle East & North Africa"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "InstaAgent",
+    "website": "https://instaagent.com",
+    "one_liner": "Scale marketing campaigns across hundreds of personas",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31409",
+    "presentation_day": 1,
+    "presentation_order": 26,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Marketing",
+      "E-commerce"
+    ],
+    "markets": [
+      "US / World",
+      "Europe",
+      "SE Asia"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Lamina Labs",
+    "website": "https://laminalabs.ai",
+    "one_liner": "Near-real-time video infrastructure for LLMs",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31421",
+    "presentation_day": 1,
+    "presentation_order": 169,
+    "categories": [
+      "Education",
+      "Machine Learning / AI",
+      "B2B",
+      "Consumer",
+      "Hard Tech"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "ProjectX",
+    "website": "https://www.projectx.cloud/",
+    "one_liner": "Agent native workspace for heavy parallel workflows on the web",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31507",
+    "presentation_day": 1,
+    "presentation_order": 116,
+    "categories": [
+      "B2B",
+      "Marketplace",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "India",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Arctic Health",
+    "website": "https://arctic.health",
+    "one_liner": "AI-native credentialing and contracting for healthcare",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31552",
+    "presentation_day": 1,
+    "presentation_order": 110,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B",
+      "Healthcare / Biotech"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Gojiberry AI",
+    "website": "https://www.gojiberry.ai",
+    "one_liner": "AI Go-To-Market agents for B2B teams",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31426",
+    "presentation_day": 1,
+    "presentation_order": 76,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "Europe",
+      "Canada"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Kuli",
+    "website": "https://kuli.one",
+    "one_liner": "AI coworker for marketing teams at the largest consumer brands",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31473",
+    "presentation_day": 1,
+    "presentation_order": 72,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B",
+      "Social"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Result",
+    "website": "https://result.dev/",
+    "one_liner": "Where new internet entrepreneurs build and run their companies",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31438",
+    "presentation_day": 1,
+    "presentation_order": 162,
+    "categories": [
+      "Consumer"
+    ],
+    "markets": [
+      "US / World",
+      "Emerging Markets"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Prism",
+    "website": "https://tryprism.com/",
+    "one_liner": "AI-native recruiting agency",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=30944",
+    "presentation_day": 1,
+    "presentation_order": 153,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "OpenProse",
+    "website": "https://prose.md",
+    "one_liner": "An open-source operating system for reliable long-running agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31500",
+    "presentation_day": 1,
+    "presentation_order": 12,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B",
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Netter",
+    "website": "https://netter.ai",
+    "one_liner": "AI native Palantir for mid market.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31221",
+    "presentation_day": 1,
+    "presentation_order": 77,
+    "categories": [
+      "Machine Learning / AI",
+      "SaaS",
+      "B2B"
+    ],
+    "markets": [
+      "Europe",
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "ANORIA",
+    "website": "https://www.anoria.com",
+    "one_liner": "The first wearable that reads your emotions to enhance your EQ.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31485",
+    "presentation_day": 1,
+    "presentation_order": 39,
+    "categories": [
+      "Consumer",
+      "Hardware",
+      "Healthcare / Biotech",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "YouArt",
+    "website": "https://youart.ai",
+    "one_liner": "Patreon for AI Originals",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31517",
+    "presentation_day": 1,
+    "presentation_order": 13,
+    "categories": [
+      "Consumer"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Clara",
+    "website": "http://askclara.com",
+    "one_liner": "AI primary care doctor",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31063",
+    "presentation_day": 1,
+    "presentation_order": 159,
+    "categories": [
+      "Consumer",
+      "Healthcare / Biotech",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Replicas",
+    "website": "https://tryreplicas.com",
+    "one_liner": "Run any coding agent harness in the cloud",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31345",
+    "presentation_day": 1,
+    "presentation_order": 150,
+    "categories": [
+      "B2B",
+      "Developer Tools",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Canada"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Soria",
+    "website": "https://www.soriaanalytics.com/",
+    "one_liner": "AI Financial Research Terminal built for Healthcare (and beyond)",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31464",
+    "presentation_day": 1,
+    "presentation_order": 147,
+    "categories": [
+      "Fintech",
+      "Machine Learning / AI",
+      "B2B"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Memory Store",
+    "website": "https://memory.store",
+    "one_liner": "Company Brain.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31482",
+    "presentation_day": 1,
+    "presentation_order": 94,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "India"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Auxos",
+    "website": "https://www.useauxos.com",
+    "one_liner": "Simulations of real people for market research",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31510",
+    "presentation_day": 1,
+    "presentation_order": 148,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Cignara",
+    "website": "https://cignara.com/",
+    "one_liner": "AI Customer Support for Fortune 500-scale enterprises",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31117",
+    "presentation_day": 1,
+    "presentation_order": 36,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Modern",
+    "website": "https://getmodern.ai",
+    "one_liner": "Modern - the ServiceNow killer",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31545",
+    "presentation_day": 1,
+    "presentation_order": 108,
+    "categories": [
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Armature",
+    "website": "https://armature.tech",
+    "one_liner": "Armature builds, monitors and optimizes products' Agent Experience.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31463",
+    "presentation_day": 1,
+    "presentation_order": 37,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS",
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Ontora",
+    "website": "https://ontora.com",
+    "one_liner": "AI agents that interviews every employee to hand context to AI tools.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31428",
+    "presentation_day": 1,
+    "presentation_order": 136,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Prototyping.io",
+    "website": "https://www.prototyping.io",
+    "one_liner": "Autonomous manufacturing for mechanical parts",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31436",
+    "presentation_day": 1,
+    "presentation_order": 98,
+    "categories": [
+      "Hardware",
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Kinect",
+    "website": "https://www.trykinect.ai/",
+    "one_liner": "The AI-Native Commerce Stack",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31520",
+    "presentation_day": 1,
+    "presentation_order": 118,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "E-commerce"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "KelAI",
+    "website": "https://kelaitech.com/",
+    "one_liner": "The AI Quant: Autonomous Alpha Engine for Funds and Traders.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31393",
+    "presentation_day": 1,
+    "presentation_order": 130,
+    "categories": [
+      "Fintech",
+      "Machine Learning / AI",
+      "B2B"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "jo",
+    "website": "https://askjo.ai",
+    "one_liner": "The private AI that runs your life before you ask.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=29155",
+    "presentation_day": 1,
+    "presentation_order": 117,
+    "categories": [
+      "Consumer",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Trellis",
+    "website": "https://trellistech.com",
+    "one_liner": "Agents that run short-term rental operations end-to-end",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31372",
+    "presentation_day": 1,
+    "presentation_order": 86,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe",
+      "Latin America"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Taiga",
+    "website": "https://taigabilling.com",
+    "one_liner": "Autonomous medical billing",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31418",
+    "presentation_day": 1,
+    "presentation_order": 152,
+    "categories": [
+      "Healthcare / Biotech",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Minicor",
+    "website": "https://minicor.com",
+    "one_liner": "Scalable windows desktop automations",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31453",
+    "presentation_day": 1,
+    "presentation_order": 128,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS",
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "9 Mothers",
+    "website": "https://9mothers.com",
+    "one_liner": "Counter Drone Systems. $1.6m sales. We delivered for the DoW.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31193",
+    "presentation_day": 1,
+    "presentation_order": 133,
+    "categories": [
+      "Hardware",
+      "Machine Learning / AI",
+      "Defense",
+      "Hard Tech",
+      "Robotics"
+    ],
+    "markets": [
+      "US / World",
+      "Europe",
+      "Middle East & North Africa"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "TakeCareOS",
+    "website": "https://takecareos.com",
+    "one_liner": "AI-native operating system for long term care providers",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=30963",
+    "presentation_day": 1,
+    "presentation_order": 121,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Healthcare / Biotech"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Klaimee",
+    "website": "https://www.klaimee.ai",
+    "one_liner": "Liability insurance for AI Agents. You deploy agents, we cover you.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31539",
+    "presentation_day": 1,
+    "presentation_order": 111,
+    "categories": [
+      "Fintech",
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Revnu",
+    "website": "https://revnu.com",
+    "one_liner": "The growth infrastructure for the autonomous business",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31527",
+    "presentation_day": 1,
+    "presentation_order": 137,
+    "categories": [
+      "B2B",
+      "Social",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Datost",
+    "website": "https://www.datost.com",
+    "one_liner": "The proactive AI data analyst",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31454",
+    "presentation_day": 1,
+    "presentation_order": 120,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Hub",
+    "website": "https://hub.xyz",
+    "one_liner": "Real-world training data for frontier AI labs and robotics.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31375",
+    "presentation_day": 1,
+    "presentation_order": 141,
+    "categories": [
+      "Machine Learning / AI",
+      "Robotics",
+      "B2B"
+    ],
+    "markets": [
+      "US / World",
+      "Europe",
+      "Latin America"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Callab AI",
+    "website": "https://callab.ai",
+    "one_liner": "AI voice agents for on-prem telephony stack.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31416",
+    "presentation_day": 1,
+    "presentation_order": 67,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS",
+      "Healthcare / Biotech",
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World",
+      "Europe",
+      "Middle East & North Africa"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Discovered Materials",
+    "website": "https://discoveredmaterials.com",
+    "one_liner": "AI scientists to discover materials for the semiconductor industry.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31362",
+    "presentation_day": 1,
+    "presentation_order": 41,
+    "categories": [
+      "Hard Tech"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Salesgraph",
+    "website": "https://www.salesgraph.com/",
+    "one_liner": "Proactive revenue agents that move enterprise deals forward",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31408",
+    "presentation_day": 1,
+    "presentation_order": 97,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Complir",
+    "website": "https://complir.io/",
+    "one_liner": "Vanta for physical products",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31443",
+    "presentation_day": 1,
+    "presentation_order": 171,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "Europe",
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "primitive",
+    "website": "https://primitive.dev",
+    "one_liner": "communication for agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31329",
+    "presentation_day": 1,
+    "presentation_order": 165,
+    "categories": [
+      "Developer Tools",
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Juno",
+    "website": "https://junocompanion.com/",
+    "one_liner": "AI Health Assistant for Chronic Illness",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31383",
+    "presentation_day": 1,
+    "presentation_order": 48,
+    "categories": [
+      "Healthcare / Biotech",
+      "Consumer",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe",
+      "Canada"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Sazabi",
+    "website": "https://www.sazabi.com/",
+    "one_liner": "The AI-native observability platform for fast-moving engineering teams",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31211",
+    "presentation_day": 1,
+    "presentation_order": 164,
+    "categories": [
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Avea Robotics",
+    "website": "https://www.avearobotics.com",
+    "one_liner": "The human-in-the-loop system for robots",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31530",
+    "presentation_day": 1,
+    "presentation_order": 1,
+    "categories": [
+      "Hard Tech",
+      "B2B",
+      "SaaS",
+      "Robotics"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Alchemize",
+    "website": "https://tryalchemize.com",
+    "one_liner": "AI-Native Customs Brokerage",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31444",
+    "presentation_day": 1,
+    "presentation_order": 51,
+    "categories": [
+      "B2B"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Incandor",
+    "website": "https://www.incandor.com",
+    "one_liner": "Behavioral intelligence infrastructure for anti-fraud",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31365",
+    "presentation_day": 1,
+    "presentation_order": 160,
+    "categories": [
+      "Machine Learning / AI",
+      "Fintech",
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Andco",
+    "website": "http://www.useandco.com",
+    "one_liner": "Agents that build personal injury cases",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31411",
+    "presentation_day": 1,
+    "presentation_order": 131,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Standard Signal",
+    "website": "https://standardsignal.com",
+    "one_liner": "Hedge fund where AI researches and executes every trade end-to-end",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31330",
+    "presentation_day": 1,
+    "presentation_order": 104,
+    "categories": [
+      "Fintech",
+      "Machine Learning / AI",
+      "B2B"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Cohesion",
+    "website": "https://cohesionplatform.com/",
+    "one_liner": "Agents that automate research for institutional investors",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31562",
+    "presentation_day": 1,
+    "presentation_order": 145,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Fintech",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Mochatrade",
+    "website": "https://www.mochatrade.com",
+    "one_liner": "US stock perps for Indian traders",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31529",
+    "presentation_day": 1,
+    "presentation_order": 151,
+    "categories": [
+      "Fintech",
+      "Consumer"
+    ],
+    "markets": [
+      "India",
+      "US / World",
+      "Emerging Markets"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Chronicle Labs",
+    "website": "https://chronicle-labs.com",
+    "one_liner": "Staging Environments for Enterprise AI Agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31468",
+    "presentation_day": 1,
+    "presentation_order": 52,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI",
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "BentoLabs AI",
+    "website": "https://bentolabs.ai/",
+    "one_liner": "Monitoring and learning layer for long-running agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31423",
+    "presentation_day": 1,
+    "presentation_order": 7,
+    "categories": [
+      "B2B",
+      "Developer Tools",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "India"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Playabl.ai",
+    "website": "https://playabl.ai",
+    "one_liner": "TikTok for User-generated Games",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31550",
+    "presentation_day": 1,
+    "presentation_order": 45,
+    "categories": [
+      "Consumer",
+      "Machine Learning / AI",
+      "Marketplace",
+      "Social"
+    ],
+    "markets": [
+      "US / World",
+      "Emerging Markets",
+      "Middle East & North Africa"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Eden Robotics",
+    "website": "https://www.edenrobotics.ai",
+    "one_liner": "Autonomous services for humanity.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31489",
+    "presentation_day": 1,
+    "presentation_order": 135,
+    "categories": [
+      "Robotics",
+      "Hard Tech",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Fuchsia",
+    "website": "https://getfuchsia.ai/",
+    "one_liner": "Vanta for hardware",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31102",
+    "presentation_day": 1,
+    "presentation_order": 88,
+    "categories": [
+      "Hardware",
+      "Robotics",
+      "B2B"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "OpenWork",
+    "website": "https://openworklabs.com",
+    "one_liner": "The open source alternative to Claude Cowork",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31505",
+    "presentation_day": 1,
+    "presentation_order": 129,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "India"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Amboras",
+    "website": "https://amboras.com",
+    "one_liner": "AI Native Shopify",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31497",
+    "presentation_day": 1,
+    "presentation_order": 167,
+    "categories": [
+      "E-commerce",
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Hexa",
+    "website": "https://www.hexaagents.com",
+    "one_liner": "Autonomous operations for industrial distributors",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31350",
+    "presentation_day": 1,
+    "presentation_order": 78,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Lab0",
+    "website": "https://lab0.ai",
+    "one_liner": "AI FDEs to make your B2B SaaS Go Live in Days, not Months",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31424",
+    "presentation_day": 1,
+    "presentation_order": 64,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "India",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Enjamb Labs",
+    "website": "https://www.enjamb.ai",
+    "one_liner": "Where drug teams run their entire program, discovery to FDA approval",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31549",
+    "presentation_day": 1,
+    "presentation_order": 21,
+    "categories": [
+      "B2B",
+      "Healthcare / Biotech",
+      "Machine Learning / AI",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "AquaShield",
+    "website": "https://aquashieldai.com",
+    "one_liner": "AI water leak detection for buildings",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31487",
+    "presentation_day": 1,
+    "presentation_order": 54,
+    "categories": [
+      "Machine Learning / AI",
+      "Hardware",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "KugelAudio",
+    "website": "https://kugelaudio.com/en",
+    "one_liner": "Kugel is an on-prem Voice AI model supporting 30+ languages",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31540",
+    "presentation_day": 1,
+    "presentation_order": 34,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Walter",
+    "website": "https://www.walter.one",
+    "one_liner": "AI Employee for Manufacturing Operations",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31466",
+    "presentation_day": 1,
+    "presentation_order": 2,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Silmaril",
+    "website": "https://silmaril.dev",
+    "one_liner": "Runtime security for AI that self-improves",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31478",
+    "presentation_day": 1,
+    "presentation_order": 9,
+    "categories": [
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Savant",
+    "website": "https://heysavant.com/",
+    "one_liner": "Company brain every AI-native enterprise runs on",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31433",
+    "presentation_day": 1,
+    "presentation_order": 90,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "InsForge",
+    "website": "https://insforge.dev/",
+    "one_liner": "The agent-native AWS",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31547",
+    "presentation_day": 1,
+    "presentation_order": 125,
+    "categories": [
+      "Developer Tools",
+      "B2B"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Pentagon",
+    "website": "https://pentagon.run",
+    "one_liner": "The control plane for agent-native work.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31512",
+    "presentation_day": 1,
+    "presentation_order": 126,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Adialante",
+    "website": "http://www.adialante.com",
+    "one_liner": "Cancer screening without barriers",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31434",
+    "presentation_day": 1,
+    "presentation_order": 107,
+    "categories": [
+      "Healthcare / Biotech",
+      "Hardware",
+      "Hard Tech"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Gravy",
+    "website": "https://gravy.finance",
+    "one_liner": "Agents that move money, trade stocks, and file taxes.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31522",
+    "presentation_day": 1,
+    "presentation_order": 71,
+    "categories": [
+      "Consumer",
+      "Fintech",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "HEVN, inc",
+    "website": "https://gethevn.com",
+    "one_liner": "Agentic payroll",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31391",
+    "presentation_day": 1,
+    "presentation_order": 66,
+    "categories": [
+      "Fintech",
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Surtr Defense Systems",
+    "website": "https://surtrdefense.com",
+    "one_liner": "The hardware-agnostic operating system for drone defense",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31325",
+    "presentation_day": 1,
+    "presentation_order": 157,
+    "categories": [
+      "Defense",
+      "Robotics",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Userlens",
+    "website": "https://userlens.io",
+    "one_liner": "Agents that renew and expand six and seven-figure enterprise software",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31404",
+    "presentation_day": 1,
+    "presentation_order": 15,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Dayjob",
+    "website": "https://www.getdayjob.ai",
+    "one_liner": "AI Scheduling for Short Haul Trucks",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31370",
+    "presentation_day": 1,
+    "presentation_order": 81,
+    "categories": [
+      "Machine Learning / AI",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Archer",
+    "website": "https://archermoney.com/",
+    "one_liner": "Global payouts for the workforce powering AI",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31451",
+    "presentation_day": 1,
+    "presentation_order": 105,
+    "categories": [
+      "Machine Learning / AI",
+      "E-commerce",
+      "Fintech",
+      "B2B"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Arden",
+    "website": "https://ardentech.ai/",
+    "one_liner": "AI-native internal audit firm",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31525",
+    "presentation_day": 1,
+    "presentation_order": 56,
+    "categories": [
+      "B2B",
+      "Fintech",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "qomplement",
+    "website": "https://qomplement.com",
+    "one_liner": "The Agentic ERP for supply chain operations",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31396",
+    "presentation_day": 1,
+    "presentation_order": 103,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS",
+      "Defense"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Elyra",
+    "website": "https://www.elyrasystems.com/",
+    "one_liner": "AI Reservation System for Restaurants",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31388",
+    "presentation_day": 1,
+    "presentation_order": 99,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "Europe",
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Miso Labs",
+    "website": "https://misolabs.ai",
+    "one_liner": "Emotive foundation voice models",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=30723",
+    "presentation_day": 1,
+    "presentation_order": 122,
+    "categories": [
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "General Instinct",
+    "website": "https://general-instinct.com/",
+    "one_liner": "Deployable Physical AI on Any Edge Device.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31456",
+    "presentation_day": 1,
+    "presentation_order": 40,
+    "categories": [
+      "Robotics",
+      "Machine Learning / AI",
+      "Hard Tech"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Limrun",
+    "website": "https://lim.run",
+    "one_liner": "Extend cloud sandboxes with iOS, Android and more",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31377",
+    "presentation_day": 1,
+    "presentation_order": 42,
+    "categories": [
+      "Developer Tools"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "InLoop Robotics",
+    "website": "https://inloop-robotics.com/",
+    "one_liner": "Robotic arms that pick and pack your orders.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31369",
+    "presentation_day": 1,
+    "presentation_order": 95,
+    "categories": [
+      "Robotics",
+      "E-commerce",
+      "B2B",
+      "Machine Learning / AI",
+      "Hardware"
+    ],
+    "markets": [
+      "Europe",
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "transload",
+    "website": "https://www.transload.io",
+    "one_liner": "Measure freight with security cameras",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31403",
+    "presentation_day": 1,
+    "presentation_order": 46,
+    "categories": [
+      "B2B",
+      "SaaS",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "smol machines",
+    "website": "https://smolmachines.com/",
+    "one_liner": "Ship software faster with portable, self contained virtual machines.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31448",
+    "presentation_day": 1,
+    "presentation_order": 134,
+    "categories": [
+      "Developer Tools",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Lightsprint",
+    "website": "https://lightsprint.ai",
+    "one_liner": "Collaborative product development with cloud agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31360",
+    "presentation_day": 1,
+    "presentation_order": 174,
+    "categories": [
+      "Machine Learning / AI",
+      "Developer Tools",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Infera",
+    "website": "https://www.infera.bio",
+    "one_liner": "Control lab instruments with natural language.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31441",
+    "presentation_day": 1,
+    "presentation_order": 92,
+    "categories": [
+      "Healthcare / Biotech",
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World",
+      "Europe",
+      "SE Asia"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Memoir",
+    "website": "https://www.trymemoir.ai/",
+    "one_liner": "Marketing campaigns from everything your team ships",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31335",
+    "presentation_day": 1,
+    "presentation_order": 53,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Inth",
+    "website": "https://inth.com",
+    "one_liner": "Enterprise privacy governance for companies that ship fast",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31246",
+    "presentation_day": 1,
+    "presentation_order": 11,
+    "categories": [
+      "Machine Learning / AI",
+      "Developer Tools",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Arga Labs",
+    "website": "https://www.argalabs.com/",
+    "one_liner": "Real-world sandboxes to test agents and agent-facing software",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31413",
+    "presentation_day": 1,
+    "presentation_order": 172,
+    "categories": [
+      "B2B",
+      "Developer Tools",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World",
+      "Canada"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Stage",
+    "website": "https://www.stagereview.app/",
+    "one_liner": "Code review platform for humans and agents",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31332",
+    "presentation_day": 1,
+    "presentation_order": 144,
+    "categories": [
+      "Developer Tools",
+      "B2B",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Ploy",
+    "website": "https://ploy.ai",
+    "one_liner": "Ploy turns your website into your company's growth engine.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31041",
+    "presentation_day": 1,
+    "presentation_order": 161,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "SaaS",
+      "Consumer"
+    ],
+    "markets": [
+      "US / World",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Andustry",
+    "website": "http://andustry.com/",
+    "one_liner": "We help manufacturers find suppliers for industrial equipment.",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31367",
+    "presentation_day": 1,
+    "presentation_order": 29,
+    "categories": [
+      "B2B",
+      "Hardware",
+      "Marketplace",
+      "Hard Tech",
+      "Robotics"
+    ],
+    "markets": [
+      "Europe",
+      "US / World",
+      "India"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Pavoot",
+    "website": "https://pavoot.com",
+    "one_liner": "AI Event Manager for in-person events",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31398",
+    "presentation_day": 1,
+    "presentation_order": 69,
+    "categories": [
+      "B2B",
+      "Machine Learning / AI",
+      "Marketing",
+      "SaaS"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Intelligence Factory",
+    "website": "https://intelligence-factory.com",
+    "one_liner": "Human Intelligence for Robots",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31560",
+    "presentation_day": 1,
+    "presentation_order": 100,
+    "categories": [
+      "Robotics",
+      "Hard Tech",
+      "Machine Learning / AI",
+      "Hardware"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Interfaze",
+    "website": "https://interfaze.ai",
+    "one_liner": "AI model built for high accuracy deterministic tasks",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31386",
+    "presentation_day": 1,
+    "presentation_order": 31,
+    "categories": [
+      "Machine Learning / AI",
+      "Developer Tools",
+      "B2B"
+    ],
+    "markets": [
+      "US / World"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  },
+  {
+    "type": "yc_demo_day_company",
+    "batch": "P26",
+    "name": "Arlo Industries",
+    "website": "https://arlo1.com/",
+    "one_liner": "Track drones and missiles without radars - Accurate, Passive, Scalable",
+    "demo_day_url": "https://investors.ycombinator.com/demo_day?company=31535",
+    "presentation_day": 1,
+    "presentation_order": 119,
+    "categories": [
+      "Hardware",
+      "Defense",
+      "Hard Tech"
+    ],
+    "markets": [
+      "US / World",
+      "Middle East & North Africa",
+      "Europe"
+    ],
+    "off_the_record": false,
+    "non_profit": false
+  }
+]
