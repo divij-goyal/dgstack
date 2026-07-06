@@ -23,3 +23,5 @@ For shared taste rules, read `references/principles.md`.
 For source-backed output, read `brain/README.md` and the relevant
 `brain/sources/<domain>/README.md` before drafting. Use the brain for patterns,
 structure, and examples, not verbatim copying.
+
+For repo navigation or maintenance, read `AGENTS.md` first.

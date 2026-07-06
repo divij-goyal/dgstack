@@ -253,13 +253,22 @@ def write_outputs(records: list[dict[str, object]]) -> None:
     lines.extend(["", "## Content Type Counts", ""])
     for content_type, count in sorted(type_counts.items(), key=lambda item: (-item[1], item[0])):
         lines.append(f"- {content_type}: {count}")
-    lines.extend(["", "## Prompt Index", ""])
-    for record in records:
-        title = str(record.get("title") or record.get("content_id") or "").replace("\n", " ")
-        title = re.sub(r"\s+", " ", title).strip()
-        if len(title) > 120:
-            title = title[:117].rstrip() + "..."
-        lines.append(f"- `{record.get('platform')}`: {title} ({record.get('content_type')})")
+    lines.extend(
+        [
+            "",
+            "## Files",
+            "",
+            "- `items.json`: complete normalized prompt list.",
+            "- `items.jsonl`: one prompt per line for search and retrieval.",
+            "- `prompts/`: one JSON file per prompt for targeted reading.",
+            "",
+            "## Retrieval Tips",
+            "",
+            "- Search by platform first: `instagram`, `tiktok`, or `sora2`.",
+            "- Search for prompt fields such as `camera`, `dialogue`, `negative_prompts`, `sceneDescription`, and `technical_specs`.",
+            "- Prefer `prompt_data` when present because it preserves the structured creative intent.",
+        ]
+    )
 
     (source_dir / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 

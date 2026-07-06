@@ -26,3 +26,7 @@ does not store source links.
 - Copy-paste lines that do not connect to the profile.
 - Interview-style questions with no spark.
 - Jokes that require the other person to rescue the conversation.
+
+## Files
+
+- `items.json`: opener lines grouped with notes and reusable patterns.

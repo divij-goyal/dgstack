@@ -13,3 +13,16 @@ https://lennysdata.com/.
 - Write for founders, PMs, growth leads, and operators.
 - Favor useful density: takeaways, decision rules, mistakes, and examples.
 - Avoid vague thought leadership; answer what the reader should do next.
+
+## Files
+
+- `index.json`: source metadata and local filenames.
+- `items.jsonl`: one normalized newsletter or podcast record per line.
+- `newsletters/`: cleaned newsletter markdown.
+- `podcasts/`: cleaned podcast summary markdown.
+
+## Retrieval Tips
+
+- Use this source for operator writing, product strategy, growth, PM craft, and
+  practical AI-in-product discussions.
+- Search `items.jsonl` by topic first, then open the matching markdown file.

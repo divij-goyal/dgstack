@@ -81,19 +81,25 @@ Restart the agent app after setup.
 
 ```text
 dgstack/
+├── AGENTS.md
 ├── SKILL.md
 ├── references/principles.md
+├── brain/
 ├── tagline-generator/
 ├── blog-writer/
 ├── script-writer/
 ├── brainstorming/
 ├── dgstack-upgrade/
+├── tools/
 └── setup
 ```
 
 Each sub-skill keeps its detailed instructions in `references/instructions.md`.
 Shared taste rules live in `references/principles.md`. Source-backed examples,
 raw artifacts, and distilled pattern notes live in `brain/`.
+
+For AI agents, start with `AGENTS.md`. It explains the shortest route through
+the repo and when to open each brain source.
 
 ## Brain
 
@@ -105,6 +111,9 @@ DG Stack includes a browsable reference brain for source-backed creative work:
 - Dating-app conversation starter lines and patterns
 - AI video prompt templates and pattern notes
 - Structured image and video prompt examples
+
+Read `brain/README.md` for usage rules and `brain/sources/README.md` for the
+source-by-source index.
 
 Refresh the corpus:
 

@@ -26,3 +26,10 @@ Mood is [emotion]. Maintain [continuity constraints]. Avoid [failure modes].
 ## Local Pattern Records
 
 See `items.json` for extracted pattern notes.
+
+## Retrieval Tips
+
+- Use this file for compact prompt structure before opening larger prompt
+  corpora.
+- Combine it with `promptbazaar` or `museon` when the user wants examples that
+  resemble current social/video prompt formats.

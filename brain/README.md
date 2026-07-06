@@ -3,6 +3,14 @@
 This directory is the shared reference brain for DG Stack skills. It stores raw
 source artifacts, normalized item indexes, and distilled style/pattern notes.
 
+## Navigation
+
+- Start at `sources/README.md` to choose the right corpus.
+- Then read `sources/<domain>/README.md` for source-specific usage notes.
+- Use `items.jsonl` for broad search and per-item files for focused reading.
+- Use `raw/` only when regenerating, inspecting landing-page structure, or
+  recovering context that normalized files omit.
+
 ## How Agents Should Use It
 
 1. Start with `sources/<domain>/README.md` for the essence and usage notes.
@@ -21,6 +29,8 @@ source artifacts, normalized item indexes, and distilled style/pattern notes.
 - `sources/video-prompts`: video-generation prompt patterns and templates.
 - `sources/promptbazaar`: structured image and video prompt examples.
 - `sources/museon`: structured social and video prompt examples with performance metadata.
+
+See `sources/README.md` for retrieval paths and caveats.
 
 ## Refresh
 
