@@ -1,0 +1,94 @@
+{
+  "slug": "mitte-ugc-selfie",
+  "title": "Candid UGC Selfie",
+  "description": "A candid UGC-style selfie photo of a young Turkish woman caught mid-laugh at her home office desk.",
+  "category": "Image Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "Candid UGC-style selfie photo. A young Turkish woman in her late 20s caught mid-laugh at her home office desk. Authentic creator energy — not posed, not over-edited. The kind of natural moment that feels like a friend snapped it for her Instagram story.",
+    "format": {
+      "type": "still_photo",
+      "aspect_ratio": "9:16",
+      "platform_look": "Native iPhone front camera, slightly grainy",
+      "style": "candid UGC, not professional photography"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age_range": "27-29",
+      "hair": "messy bun, slightly loose strands framing the face, natural texture",
+      "skin": "natural skin texture with realistic pores, minimal makeup, slight natural flush from laughing",
+      "eyes": "slightly squinting from a genuine mid-laugh smile (Duchenne smile), warm and crinkled at the corners",
+      "expression": "genuine mid-laugh moment, not posed. Mouth open in a real smile showing some teeth, eyes squinting naturally, head slightly tilted"
+    },
+    "wardrobe": {
+      "top": "oversized cream knit sweater, soft chunky texture, slightly slouchy on shoulders, no logos",
+      "no_visible_brands": true
+    },
+    "setting": {
+      "location": "warmly lit home office, sitting at a wooden desk by a window",
+      "background_details": [
+        "MacBook screen slightly out of focus showing a content calendar / spreadsheet",
+        "a mug of Turkish tea on the desk",
+        "a small notebook with handwritten notes",
+        "a small green plant in the corner of frame",
+        "warm wooden desk surface visible",
+        "lived-in, cozy, not staged aesthetic"
+      ]
+    },
+    "camera": {
+      "shot": "selfie close-up, face and upper chest, desk visible behind",
+      "angle": "slightly above eye level (natural selfie arm extension)",
+      "lens_feel": "iPhone front camera, 1x, slight selfie lens distortion",
+      "framing": "slightly off-center, casual not perfectly composed"
+    },
+    "lighting": {
+      "key": "soft natural afternoon daylight from a nearby window",
+      "tone": "warm golden tones, soft shadows",
+      "mood": "cozy, lived-in, late-afternoon work-from-home vibe",
+      "catchlights": "soft window reflection in eyes"
+    },
+    "image_quality": {
+      "grain": "slight natural grain, like a real iPhone photo",
+      "sharpness": "soft natural focus on face, gentle background blur (not heavy bokeh)",
+      "color_grading": "warm, slightly desaturated, no heavy filter",
+      "editing": "minimal — no beauty filter, no over-smoothing, no HDR boost"
+    },
+    "pose_and_moment": {
+      "body_language": "relaxed, leaning slightly toward camera, one shoulder a bit lower, casual posture",
+      "energy": "mid-laugh, candid, caught in a natural happy second",
+      "authenticity_markers": [
+        "slightly imperfect framing",
+        "real skin with visible texture and minor unevenness",
+        "loose hair strands not perfectly placed",
+        "natural sweater wrinkles and slouch",
+        "no model-like posing"
+      ]
+    },
+    "no_text_no_graphics": {
+      "all_elements": "NONE",
+      "note": "Zero text overlays, zero logos, zero watermarks, zero UI elements. Pure clean photo."
+    },
+    "negative_prompt": [
+      "professional studio photography",
+      "heavy makeup",
+      "over-smoothed skin",
+      "beauty filter",
+      "instagram filter",
+      "HDR",
+      "perfect symmetry",
+      "model pose",
+      "fake smile",
+      "staged composition",
+      "uncanny valley",
+      "plastic skin",
+      "cartoonish features",
+      "text",
+      "logos",
+      "watermarks",
+      "heavy bokeh",
+      "DSLR look",
+      "overexposed",
+      "saturated colors"
+    ]
+  }
+}

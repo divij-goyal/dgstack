@@ -1,0 +1,111 @@
+{
+  "slug": "seedance-joy-reaction",
+  "title": "Raw UGC Joy Reaction",
+  "description": "A raw selfie video of a young Italian girl reacting with explosive, genuine happiness and happy tears.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "Raw selfie video of an Italian girl in her early 20s losing her mind with happiness. She just got news — like an acceptance email, a refund, a yes — and she's gasping and squealing into her front camera. Real joy, real shake, real UGC. The kind of clip you'd send to your group chat.",
+    "format": {
+      "duration_seconds": 4,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "Raw iPhone front camera, untouched"
+    },
+    "character": {
+      "ethnicity": "Italian (Mediterranean)",
+      "age_range": "22-25",
+      "hair": "dark brown wavy hair, real day-old waves, frizzy at the crown, one strand falling over her face",
+      "skin": "olive skin with realistic texture, naturally flushed cheeks from the excitement (not blush), slight shine on nose, no foundation, just chapstick and faded mascara",
+      "eyes": "warm brown, getting watery from the joy, squinting from genuine smile",
+      "expression": "explosive real happiness — open-mouth gasping smile, eye crinkles, the kind of joy that makes you tear up"
+    },
+    "wardrobe": {
+      "top": "soft cream knit sweater, oversized, slightly pilled, slipping off one shoulder showing a bra strap, no logo",
+      "nails": "coral pink polish, slightly grown out",
+      "no_visible_brands": true
+    },
+    "setting": {
+      "location": "her bedroom or living room, sitting on the floor or bed",
+      "details": [
+        "unmade bed or messy couch behind her",
+        "laptop open nearby, slightly out of frame",
+        "warm lamp or window light, mid-afternoon",
+        "background is a real apartment, not staged",
+        "slight motion blur in background from her bouncing"
+      ]
+    },
+    "camera": {
+      "shot": "selfie close-up, face and upper chest, hands occasionally entering frame",
+      "angle": "phone held in one hand, slightly low angle, lots of natural shake from her excitement",
+      "lens_feel": "iPhone front camera, 1x, slight selfie distortion",
+      "movement": "actively shaky from her bouncing/squealing, not a smooth handheld"
+    },
+    "lighting": {
+      "key": "warm natural daylight from window or lamp",
+      "mood": "bright, alive, real-moment energy",
+      "catchlights": "real sparkle in watering eyes"
+    },
+    "image_quality": {
+      "grain": "slight grain, real selfie quality",
+      "compression": "social-tier compression",
+      "color": "ungraded, warm tones from natural lighting",
+      "no_filters": true,
+      "imperfections": "occasional slight focus shift from her movement"
+    },
+    "micro_idle_before_reaction": "0.0-0.3s lips already parted, eyes already wide, like she's been staring at a screen for 2 seconds processing",
+    "action_timeline": [
+      {
+        "time": "0.0-0.3s",
+        "beat": "Lips parted, eyes huge and locked off-camera (looking at her laptop), like she just read something. Pre-reaction tension."
+      },
+      {
+        "time": "0.3-0.9s",
+        "beat": "BURST: open-mouth gasp into a squealing laugh, head shakes side to side in disbelief, hands fly up into frame and shake/clap rapidly, body bounces"
+      },
+      {
+        "time": "0.9-2.5s",
+        "beat": "Peak joy: laughing-crying mix, voice cracks on 'oh my god' or 'olamaz!', tears welling, one hand presses to chest the other to mouth"
+      },
+      {
+        "time": "2.5-4.0s",
+        "beat": "Slowly settling but still glowing — wipes one happy tear, exhales a laugh, looks back at camera with overwhelmed huge smile, mouth still half open"
+      }
+    ],
+    "gesture_rules": {
+      "movement_style": "Full-body, bouncy, uncontrolled. Real joy isn't smooth.",
+      "realism_ticks": [
+        "real Duchenne smile with deep eye crinkles",
+        "actual welling tears",
+        "voice crack feel",
+        "messy hand movement, not choreographed",
+        "natural body bounce",
+        "real flushed cheeks",
+        "hair moving from her motion"
+      ]
+    },
+    "no_text_no_graphics": {
+      "all_elements": "NONE",
+      "note": "Pure raw clip. No overlays, no UI, no text, no logos, no watermarks."
+    },
+    "negative_prompt": [
+      "fake smile",
+      "non-Duchenne smile",
+      "studio lighting",
+      "ring light",
+      "professional photography",
+      "perfect makeup",
+      "smooth skin",
+      "beauty filter",
+      "color graded",
+      "cinematic",
+      "tripod",
+      "model pose",
+      "uncanny valley",
+      "plastic skin",
+      "choreographed hand movements",
+      "perfectly framed shot"
+    ]
+  }
+}

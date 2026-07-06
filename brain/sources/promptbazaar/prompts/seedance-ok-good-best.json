@@ -1,0 +1,171 @@
+{
+  "slug": "seedance-ok-good-best",
+  "title": "Ok → Good → Best (Clean Plate UGC)",
+  "description": "Pinterest-aesthetic Turkish creator. Slow, deliberate three-pose B-roll. Holds each pose while saying one word. Clean plate for CapCut editing.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "Pinterest-aesthetic Turkish creator films a slow, deliberate clean-plate B-roll. ONE pose per word, each pose held still for ~3 seconds. She calmly points to her LEFT and softly says 'ok' (HOLDS the pose), then points UP and says 'good' (HOLDS), then points to her RIGHT and says 'best' (HOLDS). No repeating, no extra hand movement, no waving, no frantic gestures. Clean plate so editor can add icons in CapCut over each held pose.",
+    "format": {
+      "duration_seconds": 10,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "Instagram Reels / TikTok"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age_range": "22-26",
+      "hair": "long, loose beach waves, honey blonde with subtle lighter highlights, soft middle part, slightly tousled",
+      "skin": "warm fair-medium, glowy 'clean girl' makeup, dewy finish, soft blush, glossy nude-pink lip, subtle bronzer, fluttery natural lashes",
+      "eyes": "light hazel, soft eye contact with camera",
+      "expression": "calm, confident, soft smile, micro-smirk on the final 'best'",
+      "vibe": "Pinterest 'that girl' / soft luxe / clean aesthetic"
+    },
+    "wardrobe": {
+      "top": "fitted ribbed tank top with thin spaghetti straps, soft pastel tone (butter yellow OR sage green OR powder blue), flattering neckline with a hint of decolletage, completely plain — absolutely no logos, no text, no prints",
+      "jewelry": "dainty gold layered necklaces, small gold hoops, one thin gold ring",
+      "nails": "short almond, milky-white or soft chrome",
+      "no_visible_brands": true
+    },
+    "setting": {
+      "location": "her bedroom corner, Pinterest-curated",
+      "details": [
+        "cream linen curtains with soft daylight diffusing through",
+        "rattan or cane headboard slightly out of focus behind her",
+        "neutral boucle accent chair",
+        "small marble nightstand with a glass vase of dried pampas grass and a stack of hardcover books",
+        "warm beige and off-white palette with terracotta and sage accents",
+        "framed minimal line-art print on the wall (no readable text)",
+        "soft fairy lights or warm lamp glow in the bokeh background"
+      ],
+      "color_palette": [
+        "#F5EDE2",
+        "#E8D5C4",
+        "#C9B79C",
+        "#A8B5A0",
+        "#D4A574"
+      ]
+    },
+    "camera": {
+      "shot": "medium close-up, chest up, phone-style front-camera framing",
+      "angle": "eye level, very slight low angle",
+      "movement": "locked-off, completely still tripod look",
+      "lens_feel": "iPhone selfie cam, natural depth of field, mild background blur",
+      "focus": "sharp on her face",
+      "headroom": "leave clean negative space above her head and on both sides of her face for icons to be added later in editing"
+    },
+    "lighting": {
+      "key": "soft natural window light from camera-left, golden hour warmth",
+      "fill": "subtle bounce from a white wall on camera-right",
+      "mood": "warm, glowy, airy, no harsh shadows",
+      "color_temp": "around 4500K with golden tint"
+    },
+    "action_timeline": [
+      {
+        "time": "0.0-0.5s",
+        "beat": "centered, hands relaxed at chest level, soft smile, calm eye contact"
+      },
+      {
+        "time": "0.5-1.0s",
+        "beat": "smoothly raises her right index finger and points to HER LEFT (camera-right side of frame), arm bent at elbow, finger extended at head height"
+      },
+      {
+        "time": "1.0-3.5s",
+        "beat": "HOLDS the left-pointing pose perfectly still, calmly says 'ok', soft smile, no other movement"
+      },
+      {
+        "time": "3.5-4.0s",
+        "beat": "smoothly transitions: brings hand up and points STRAIGHT UP above her head with index finger"
+      },
+      {
+        "time": "4.0-6.5s",
+        "beat": "HOLDS the upward-pointing pose perfectly still, calmly says 'good', soft smile, no other movement"
+      },
+      {
+        "time": "6.5-7.0s",
+        "beat": "smoothly transitions: lowers and crosses hand to point to HER RIGHT (camera-left side of frame), arm bent, finger at head height"
+      },
+      {
+        "time": "7.0-9.5s",
+        "beat": "HOLDS the right-pointing pose perfectly still, calmly says 'best', subtle smirk, no other movement"
+      },
+      {
+        "time": "9.5-10.0s",
+        "beat": "drops hand softly, closed-mouth smile, holds eye contact"
+      }
+    ],
+    "gesture_rules": {
+      "only_three_gestures_total": true,
+      "one_gesture_per_word": true,
+      "hold_each_pose_for_full_duration": "~2.5 seconds each",
+      "transitions_between_poses": "smooth and slow, ~0.5s each",
+      "do_not": [
+        "wave the finger",
+        "shake or jiggle the hand",
+        "make extra hand movements",
+        "repeat the sequence",
+        "tilt head dramatically",
+        "use both hands",
+        "do micro-gestures while holding"
+      ]
+    },
+    "spoken_lines": {
+      "language": "English",
+      "voice": "soft, warm, slightly girly, casual, unhurried",
+      "exact_words_in_order": [
+        "ok",
+        "good",
+        "best"
+      ],
+      "pacing": "one word per held pose, calm and clear, no repeating",
+      "no_other_dialogue": true
+    },
+    "no_text_no_graphics": {
+      "on_screen_text": "NONE",
+      "captions": "NONE",
+      "app_icons": "NONE",
+      "logos": "NONE",
+      "watermarks": "NONE",
+      "stickers": "NONE",
+      "note": "deliver a clean plate — all text, icons, and graphics will be added later in CapCut"
+    },
+    "audio": {
+      "background_music": "none (clean audio so editor can add music in CapCut)",
+      "ambient": "very subtle room tone, no traffic or background voices"
+    },
+    "style_keywords": [
+      "Pinterest aesthetic",
+      "clean girl",
+      "soft luxe",
+      "warm neutrals",
+      "natural light",
+      "cinematic phone-shot look",
+      "feminine minimal",
+      "cozy bedroom",
+      "calm and deliberate",
+      "clean plate"
+    ],
+    "negative_prompt": [
+      "frantic finger waving",
+      "shaky hand",
+      "multiple gestures per word",
+      "repeating the ok/good/best cycle",
+      "any on-screen text",
+      "any captions or subtitles",
+      "any logos or brand marks",
+      "any app icons or stickers",
+      "watermarks",
+      "harsh flash lighting",
+      "cluttered background",
+      "neon colors",
+      "heavy makeup",
+      "dark or moody tones",
+      "low resolution",
+      "warped hands or fingers",
+      "extra fingers",
+      "distorted face",
+      "overly sexualized framing"
+    ]
+  }
+}

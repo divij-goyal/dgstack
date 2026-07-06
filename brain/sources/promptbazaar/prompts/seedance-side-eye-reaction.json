@@ -1,0 +1,106 @@
+{
+  "slug": "seedance-side-eye-reaction",
+  "title": "Raw UGC Side-Eye Reaction",
+  "description": "A raw selfie video of a young Turkish girl giving a skeptical side-eye reaction while listening to someone off-camera.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "Raw selfie video of a Turkish girl in her early 20s. Someone (off-camera, like her friend or boyfriend) just said something sus and she gives them THE side-eye while her phone is rolling. Caught in the moment. Pure raw UGC — feels like a Snapchat clip her friend would send back to roast her.",
+    "format": {
+      "duration_seconds": 4,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "Raw iPhone front camera, untouched"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age_range": "22-25",
+      "hair": "dark chestnut brown hair, half-up half-down with a claw clip, some flyaways, looks like she fixed it once and gave up",
+      "skin": "warm light olive skin, real texture, slight oiliness on forehead, faded eyebrow gel showing real brow hairs, no foundation, just lip balm and maybe leftover under-eye concealer",
+      "eyes": "hazel-brown, light traces of yesterday's eyeliner smudged, not freshly made up",
+      "expression": "skeptical sideways look, one brow up, small disbelieving smirk, like 'are you serious right now'"
+    },
+    "wardrobe": {
+      "top": "oversized warm camel sweatshirt or worn-in tee, slightly stretched neckline, no logo",
+      "nails": "wine red polish but slightly chipped on at least one nail",
+      "no_visible_brands": true
+    },
+    "setting": {
+      "location": "her room or a friend's couch, low-effort setting",
+      "details": [
+        "blanket bunched up next to her",
+        "phone charger or earphones visible somewhere",
+        "wall slightly visible with a print or random sticker",
+        "warm bedside or floor lamp lighting, dim",
+        "lived-in clutter, not styled"
+      ]
+    },
+    "camera": {
+      "shot": "selfie close-up, face and shoulders",
+      "angle": "phone held in one hand, slight tilt to one side",
+      "lens_feel": "iPhone front camera, 1x, real selfie distortion",
+      "movement": "noticeable handheld micro-shake, like she's holding it casually"
+    },
+    "lighting": {
+      "key": "warm dim apartment light, uneven on her face",
+      "mood": "evening at home, low-key",
+      "catchlights": "soft warm reflection in eyes"
+    },
+    "image_quality": {
+      "compression": "social media compression visible",
+      "grain": "slight low-light grain",
+      "color": "ungraded, warm yellow cast from lamp",
+      "no_filters": true
+    },
+    "micro_idle_before_reaction": "0.0-0.6s casually looking at camera with a small neutral 'mhm' face, like she's listening to someone talk",
+    "action_timeline": [
+      {
+        "time": "0.0-0.6s",
+        "beat": "Casual neutral face, looking semi-at the camera, slight head nod like she's listening to someone talk off-screen"
+      },
+      {
+        "time": "0.6-1.1s",
+        "beat": "Eyes snap sharply to the side without head moving much, one eyebrow lifts in skeptical arch, mouth pulls into a closed-lip smirk on one side"
+      },
+      {
+        "time": "1.1-2.5s",
+        "beat": "Holds side-eye, blinks slowly once, smirk twitches, says quietly under breath 'hmmm' or 'cidden mi?' or just an exhaled laugh"
+      },
+      {
+        "time": "2.5-4.0s",
+        "beat": "Eyes drift back toward camera but with the smirk still locked in, eyebrow stays up, gives a tiny 'I don't believe you' head shake. Holds the receipts-energy."
+      }
+    ],
+    "gesture_rules": {
+      "movement_style": "Eye-driven and slow-burn. The face is doing 90% of the work, the head barely moves.",
+      "realism_ticks": [
+        "asymmetric brows (one up, one normal)",
+        "real smirk twitch on one side",
+        "audible little exhale-laugh",
+        "head stays mostly forward",
+        "casual unfixed posture"
+      ]
+    },
+    "no_text_no_graphics": {
+      "all_elements": "NONE",
+      "note": "Raw selfie clip only. No overlays, no UI, no text, no logos."
+    },
+    "negative_prompt": [
+      "head fully turning sideways",
+      "studio lighting",
+      "ring light",
+      "professional makeup",
+      "perfect skin",
+      "beauty filter",
+      "color graded",
+      "cinematic",
+      "tripod stability",
+      "model pose",
+      "uncanny valley",
+      "plastic skin",
+      "both eyebrows up symmetrically",
+      "exaggerated theatrical face"
+    ]
+  }
+}

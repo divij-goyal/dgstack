@@ -1,0 +1,2948 @@
+[
+  {
+    "slug": "door-slam-burst-hook",
+    "title": "Door Slam Burst Hook",
+    "description": "A dynamic, scroll-stopping UGC-style video shot from a low angle at door-handle height. A closed wooden door fills the frame — it suddenly swings open fast, and a young Turkish woman bursts through with excited energy, walking straight toward the camera.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "A dynamic, scroll-stopping UGC-style video shot from a low angle at door-handle height. A closed wooden door fills the frame — it suddenly swings open fast, and a young Turkish woman bursts through with excited energy, walking straight toward the camera. She stops close to the lens, looks directly into it, and breaks into a confident smile. Natural daylight floods in from behind her. iPhone-propped-on-floor energy. No talking, no overlays — just the burst.",
+      "format": {
+        "duration_seconds": 8,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "TikTok / Reels scroll-stopping hook opener"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age_range": "22-27",
+        "hair": "loose, dark brown, slightly tousled, natural texture falling past shoulders",
+        "skin": "warm olive, natural bare skin with a slight flush from movement, no makeup or minimal dewy look",
+        "expression": "excited burst energy on entry, settling into a confident knowing smile when she reaches the lens",
+        "vibe": "spontaneous / energetic / 'I have something to tell you' creator energy"
+      },
+      "wardrobe": {
+        "top": "oversized vintage-wash crewneck sweatshirt in off-white or cream, sleeves slightly pushed up, no logos or text",
+        "bottoms": "black biker shorts, mostly hidden by the oversized top",
+        "footwear": "barefoot on hardwood floor — adds to the casual at-home authenticity",
+        "jewelry": "small gold hoop earrings, a thin gold ring on index finger",
+        "nails": "short, clean, nude or clear",
+        "no_visible_brands": true
+      },
+      "props": {
+        "door": "standard interior wooden door, painted white or light oak, simple round brass doorknob",
+        "in_hallway": [
+          "a small console table partially visible against the wall behind her",
+          "a woven jute rug on the floor near the door",
+          "a hanging canvas tote bag on a wall hook beside the door"
+        ]
+      },
+      "setting": {
+        "location": "bright, minimal Pinterest-aesthetic apartment — the transition from hallway to the room where the camera sits",
+        "details": [
+          "warm hardwood or light oak flooring",
+          "white or soft beige walls",
+          "natural daylight streaming from a window behind or beside the door",
+          "the room the camera is in is slightly dimmer, creating a subtle backlight silhouette on entry",
+          "minimal decor — clean, lived-in, not staged-looking",
+          "a glimpse of a potted plant or framed print on the hallway wall"
+        ],
+        "color_palette": [
+          "#FFFFFF",
+          "#F5F0E8",
+          "#C4A882",
+          "#3B3B3B",
+          "#D4C5B2",
+          "#8B7355"
+        ]
+      },
+      "camera": {
+        "shot": "low-angle, approximately 30cm off the ground, looking upward at a 20-degree angle toward the door and the approaching figure",
+        "rig_feel": "iPhone propped on the floor leaning against a wall or shoe, slightly tilted — raw UGC energy",
+        "movement": "completely locked, no movement — all motion comes from the subject",
+        "framing": "door fills the center of frame initially, then the subject dominates as she approaches and stops in a close-up",
+        "lens_feel": "wide-angle 24mm equivalent, slight natural barrel feel from the low iPhone position, moderate depth of field",
+        "focus": "auto-focus rack — starts sharp on the door, transitions to sharp on her face as she approaches the lens"
+      },
+      "lighting": {
+        "key": "bright natural daylight flooding through the doorway from behind the subject when the door opens — creating a backlit silhouette burst",
+        "fill": "ambient bounce from white walls and hardwood floor, softly illuminating her face as she gets closer",
+        "mood": "dramatic light burst on door open, settling into warm natural light as she approaches",
+        "color_temp": "5200K natural daylight backlight mixed with 4500K warm interior bounce",
+        "highlights": "strong rim light on her hair and shoulders from the backlight, golden light catching the doorknob, floor reflecting a wedge of light as the door opens"
+      },
+      "action_timeline": [
+        {
+          "time": "0.0-1.0s",
+          "beat": "static frame: closed door, quiet, still — anticipation builds"
+        },
+        {
+          "time": "1.0-2.0s",
+          "beat": "the door swings open fast and wide — daylight floods the frame, brief silhouette of the woman standing in the doorway"
+        },
+        {
+          "time": "2.0-4.0s",
+          "beat": "she steps through the doorway with excited energy, walking briskly straight toward the camera, her hair bouncing with the movement"
+        },
+        {
+          "time": "4.0-5.5s",
+          "beat": "she drops down into a squat or crouch right in front of the lens, her face filling the frame — the focus racks to sharp on her eyes"
+        },
+        {
+          "time": "5.5-7.0s",
+          "beat": "she looks directly into the lens, breaks into a confident smile, tilts her head slightly as if about to say something"
+        },
+        {
+          "time": "7.0-8.0s",
+          "beat": "she holds the close-up gaze, slight eyebrow raise — the moment freezes, perfect cut point for CapCut transition or text overlay"
+        }
+      ],
+      "spoken_lines": {
+        "dialogue": "none",
+        "ambient_sounds": [
+          "sharp door swing and thud against the wall (impactful, not jarring)",
+          "quick footsteps on hardwood floor",
+          "soft rustle of fabric from her sweatshirt",
+          "subtle shift in room tone as the door opens (quiet room to hallway ambience)"
+        ]
+      },
+      "no_text_no_graphics": {
+        "on_screen_text": "NONE",
+        "captions": "NONE",
+        "app_icons": "NONE",
+        "logos": "NONE",
+        "watermarks": "NONE",
+        "stickers": "NONE",
+        "screen_content": "N/A",
+        "note": "deliver a clean plate — all text, hooks, and graphics will be added later in CapCut"
+      },
+      "audio": {
+        "background_music": "none (clean audio for editor)",
+        "ambient": "door slam, footsteps on hardwood, fabric rustle, room tone shift"
+      },
+      "style_keywords": [
+        "door-slam-open",
+        "low-angle",
+        "pattern-interrupt",
+        "scroll-stopping",
+        "backlit-silhouette",
+        "approach-to-camera",
+        "UGC-hook",
+        "TikTok-opener",
+        "clean-plate",
+        "energetic-entry"
+      ],
+      "negative_prompt": [
+        "high angle or eye-level shot",
+        "slow or gentle door opening",
+        "any camera movement or shake",
+        "dark or moody interior with no backlight",
+        "visible brand logos on clothing or props",
+        "cluttered or messy hallway",
+        "warped hands or fingers",
+        "extra fingers",
+        "distorted face",
+        "overly sexualized framing",
+        "subject talking or mouthing words",
+        "jump cuts or multi-angle editing"
+      ]
+    }
+  },
+  {
+    "slug": "download-clint-bag-hook",
+    "title": "Bag Hook UGC: download clint ;)",
+    "description": "A TikTok-style bag hook UGC video promoting Clint — the expense tracker. Camera starts inside a dark handbag, opens to daylight, a Turkish creator pulls out a handwritten note reading 'download clint ;)' with a playful wink. Clean plate for CapCut editing.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Bag Hook format with a handwritten note CTA reveal. Camera starts inside a stylish handbag in near-darkness. The bag opens, daylight floods in, a chic Turkish woman reaches in and pulls out a small folded piece of white paper. She unfolds it and holds it up to the camera. The paper shows a short handwritten message in black marker. She smiles and winks. The note is the only text element — no digital overlays. Clean plate for CapCut editing.",
+      "format": {
+        "duration_seconds": 8,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "TikTok UGC hook / Instagram Reels"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age_range": "24-28",
+        "hair": "long loose dark brown waves with honey highlights, falling forward when she leans into bag, backlit by sun",
+        "skin": "warm fair-medium, natural dewy makeup, soft bronzer, glossy nude lip",
+        "expression": "playful and conspiratorial — searching look when reaching into bag, mischievous knowing smile when holding up the note, subtle wink at the end matching the ;) on the paper",
+        "vibe": "UGC creator / best friend sharing a secret / playful and genuine"
+      },
+      "wardrobe": {
+        "top": "fitted white baby tee or cream ribbed tank, no logos, clean simple",
+        "jewelry": "layered thin gold necklaces, small gold hoops, one thin gold ring",
+        "nails": "short almond, milky white or soft pink glaze — must look flawless in close-up when holding paper",
+        "bag": "medium structured leather tote in tan or camel, no visible brand logos",
+        "no_visible_brands": true
+      },
+      "the_handwritten_note": {
+        "CRITICAL_TEXT_ACCURACY": "THE TEXT ON THE PAPER MUST READ EXACTLY AS SPECIFIED BELOW. EVERY LETTER, EVERY CHARACTER MUST BE CORRECT. NO MISSPELLINGS.",
+        "exact_text": "download clint ;)",
+        "character_by_character_breakdown": [
+          "d (lowercase d)",
+          "o (lowercase o)",
+          "w (lowercase w)",
+          "n (lowercase n)",
+          "l (lowercase L)",
+          "o (lowercase o)",
+          "a (lowercase a)",
+          "d (lowercase d)",
+          " (single space)",
+          "c (lowercase c)",
+          "l (lowercase L)",
+          "i (lowercase i)",
+          "n (lowercase n)",
+          "t (lowercase t)",
+          " (single space)",
+          "; (semicolon)",
+          ") (closing parenthesis — together with the semicolon this forms a wink emoticon ;) )"
+        ],
+        "total_characters": "18 characters including spaces and punctuation",
+        "word_count": "exactly 2 words plus 1 emoticon: [download] [clint] [;)]",
+        "writing_instrument": "thick black felt-tip marker (chisel tip) — bold strokes with natural thick-thin variation",
+        "handwriting_style": "casual young-woman handwriting, slightly slanted right, natural and relaxed, clearly legible, lowercase throughout, no cursive connections between letters — each letter is distinct and separate",
+        "paper": "plain white paper, slightly textured, approximately 15x10cm, with one horizontal fold crease from being folded in the bag. Text centered on the paper with comfortable margins. NO other writing, doodles, drawings, or marks anywhere on the paper.",
+        "ink_appearance": "rich solid black, slightly glossy from fresh marker ink, no smudging, no bleeding"
+      },
+      "props": {
+        "the_note_paper": "a small piece of plain white paper with the handwritten text described above — this is a PHYSICAL PROP, not a digital overlay",
+        "inside_bag_visible": [
+          "faint shapes of everyday items — lip gloss tube, sunglasses, keys",
+          "the folded white paper visible among the items"
+        ]
+      },
+      "setting": {
+        "location": "bright outdoor — sunny café terrace, park, or clean urban sidewalk",
+        "details": [
+          "first 2 seconds: ONLY bag interior — dark, leather texture",
+          "when bag opens: bright warm daylight, blue sky",
+          "background: soft bokeh of outdoor setting, completely out of focus"
+        ],
+        "color_palette": [
+          "#0A0A0A",
+          "#3C2E20",
+          "#87CEEB",
+          "#FFFFFF",
+          "#F5EDE2",
+          "#D4A574"
+        ]
+      },
+      "camera": {
+        "shot_phase_1": "inside closed bag, looking up, dark (0-2s)",
+        "shot_phase_2": "bag opens, her face appears from above (2-4s)",
+        "shot_phase_3": "she pulls out folded paper, unfolds it (4-6s)",
+        "shot_phase_4": "paper held close to camera filling center of frame, her face behind it smiling (6-8s)",
+        "rig_feel": "camera at bottom of bag initially, then handheld after pickup",
+        "movement": "Phase 1-2: locked. Phase 3: organic lift. Phase 4: slight handheld micro-movement",
+        "framing_final": "the paper occupies the center 60% of the vertical frame. The handwritten text 'download clint ;)' is CLEARLY READABLE, in sharp focus, well-lit. Her face is visible above the paper with a playful smile.",
+        "lens_feel": "wide angle (24mm), deep DOF so paper text AND her face are both in acceptable focus",
+        "focus_critical": "in the final frame (6-8s), the handwritten text on the paper MUST be tack-sharp, maximum clarity, fully legible to the viewer"
+      },
+      "lighting": {
+        "key": "Phase 1: near darkness. Phase 2-4: bright natural outdoor daylight, sun behind her creating hair rim light",
+        "fill": "natural sky and ground bounce providing even light on the paper surface — the white paper must be well-lit with no shadows obscuring the text",
+        "mood": "dark mysterious → bright and playful",
+        "color_temp": "outdoor: 5500K clean daylight",
+        "highlights": "white paper catching maximum light, marker ink slightly glossy, her necklaces glinting, backlit hair halo"
+      },
+      "action_timeline": [
+        {
+          "time": "0.0-1.5s",
+          "beat": "DARKNESS: inside closed bag, near-black, faint leather texture. Zipper or clasp click sound."
+        },
+        {
+          "time": "1.5-2.5s",
+          "beat": "BAG OPENS: flap parts, bright daylight floods in. Her face appears above, looking down with playful searching expression. Hair backlit, glowing."
+        },
+        {
+          "time": "2.5-4.0s",
+          "beat": "THE REACH: her hand enters the bag toward camera. She rummages briefly, fingers find the folded white paper, pinches it and pulls it out."
+        },
+        {
+          "time": "4.0-5.5s",
+          "beat": "THE UNFOLD: she pulls paper out of the bag. Holds it in front of her, unfolds it with both hands in a deliberate gesture. Text not yet visible to camera — anticipation building."
+        },
+        {
+          "time": "5.5-7.0s",
+          "beat": "THE REVEAL: she turns the paper toward the camera and holds it up. The handwritten text 'download clint ;)' in bold black marker is clearly visible and readable. She peeks over the top edge of the paper with a mischievous grin."
+        },
+        {
+          "time": "7.0-8.0s",
+          "beat": "THE WINK: she lowers the paper slightly, more of her face visible. She gives a playful wink matching the ;) on the paper. Genuine conspiratorial smile. Frame holds — money shot."
+        }
+      ],
+      "spoken_lines": {
+        "dialogue": "none — the paper does all the talking",
+        "ambient_sounds": [
+          "bag clasp/zipper opening click",
+          "muffled outdoor sounds becoming clear as bag opens",
+          "rummaging inside bag",
+          "paper unfolding crinkle",
+          "outdoor ambient — birds, café hum, breeze",
+          "soft amused exhale or tiny laugh when holding up note"
+        ]
+      },
+      "no_text_no_graphics": {
+        "on_screen_text": "NONE — the ONLY text in the entire video is the handwritten text on the physical paper prop",
+        "captions": "NONE",
+        "app_icons": "NONE",
+        "logos": "NONE",
+        "watermarks": "NONE",
+        "stickers": "NONE",
+        "digital_overlays": "NONE",
+        "note": "The handwritten note is a PHYSICAL PAPER PROP held by the character, NOT a post-production text overlay. Additional CapCut text and music can be added later."
+      },
+      "audio": {
+        "background_music": "none (clean plate for editor)",
+        "ambient": "bag sounds, paper crinkle, outdoor ambient, subtle laugh"
+      },
+      "style_keywords": [
+        "bag hook",
+        "handwritten note CTA",
+        "felt-tip marker",
+        "physical prop text",
+        "UGC",
+        "dark-to-light reveal",
+        "pattern interrupt",
+        "playful wink",
+        "clean plate"
+      ],
+      "negative_prompt": [
+        "ANY misspelling of the note text",
+        "DO NOT write 'downlaod' — it must be 'download' (d-o-w-n-l-o-a-d)",
+        "DO NOT write 'clint' with capital C — all lowercase",
+        "DO NOT write 'klint' or 'clinte' or any variation — it must be 'clint' exactly",
+        "DO NOT add a period, comma, or any extra punctuation between 'download' and 'clint'",
+        "DO NOT add any extra text, words, or characters beyond 'download clint ;)'",
+        "DO NOT use printed/typed text — must be handwritten marker style",
+        "digital text overlay (text must be handwritten on physical paper)",
+        "illegible or blurry handwriting",
+        "brand logos on bag or clothing",
+        "camera movement during dark phase",
+        "bright bag interior at start (must begin dark)",
+        "multiple papers or cards",
+        "warped hands or fingers",
+        "extra fingers or limbs",
+        "distorted face",
+        "overly sexualized framing"
+      ]
+    }
+  },
+  {
+    "slug": "macos-photo-booth-aesthetic",
+    "title": "macOS Photo Booth Aesthetic",
+    "description": "A hyper-realistic downward POV shot of a MacBook screen showing a Photo Booth live preview with a candid, playful subject in a dim bedroom.",
+    "category": "Image Gen",
+    "model": "gpt image 2",
+    "prompt": {
+      "image_settings": {
+        "aspect_ratio": "3:4",
+        "resolution": {
+          "width": 1152,
+          "height": 1536
+        }
+      },
+      "prompt": {
+        "scene": {
+          "camera_angle": "high-angle downward POV shot",
+          "composition": "MacBook screen fills most of the frame, thin strip of physical keyboard visible at the bottom",
+          "screen_surface": [
+            "visible RGB pixel grid",
+            "subtle moire effect",
+            "micro dust on glass",
+            "faint fingerprints",
+            "soft ambient reflections"
+          ]
+        },
+        "digital_interface": {
+          "os": "macOS dark mode",
+          "background_app": {
+            "name": "Spotify",
+            "view": "Artist page - Gorillaz",
+            "visible_tracks": [
+              "Feel Good Inc.",
+              "Clint Eastwood",
+              "On Melancholy Hill",
+              "Dare",
+              "Rhinestone Eyes",
+              "Tomorrow Comes Today"
+            ]
+          },
+          "browser_window": {
+            "state": "partially visible behind Spotify",
+            "visible_element": "navbar only",
+            "site_url": "ardakaanozcan.com",
+            "navbar_style": "minimal dark navbar, small logo left, menu items right"
+          },
+          "foreground_app": {
+            "name": "Photo Booth",
+            "state": "live preview window",
+            "position": "floating, center-right"
+          }
+        },
+        "photo_booth_content": {
+          "environment": {
+            "room": "dim bedroom",
+            "background": "off-white wall, rumpled bedding",
+            "lighting": "low-light, nocturnal, cool screen glow mixed with warm skin tones"
+          },
+          "subject": {
+            "pose": "lying down, relaxed, candid",
+            "expression": "playful, tongue slightly sticking out",
+            "outfit": "light-colored tank top with a wider, lower neckline",
+            "accessory": {
+              "type": "necklace",
+              "pendant": "shooting star charm, small, delicate, silver"
+            },
+            "prop": {
+              "item": "iPhone 15 Pro",
+              "hand": "right hand"
+            }
+          }
+        },
+        "realism_rules": [
+          "this is a photo of a screen, not a screenshot",
+          "raw smartphone photo look",
+          "natural noise",
+          "imperfect glass",
+          "no studio lighting",
+          "no HD polish"
+        ]
+      },
+      "negative_prompt": [
+        "screenshot",
+        "flat UI",
+        "perfect screen",
+        "clean glass",
+        "studio lighting",
+        "beauty filter",
+        "cartoon",
+        "3d render",
+        "painting",
+        "watermark",
+        "blurred face"
+      ]
+    }
+  },
+  {
+    "slug": "mitte-ugc-raku-vase-reveal",
+    "title": "Small Business Raku Vase Reveal",
+    "description": "Pinterest-aesthetic Turkish creator presenting a handmade raku ceramic vase in a gallery-wall bedroom — clean plate 9:16 still for CapCut editing.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Pinterest-aesthetic Turkish creator captured in a single still frame, excitedly presenting a small handmade ceramic vase to the camera like a real content creator doing a small business product reveal. She holds the tiny vase up at chest-to-chin height with both hands cradling it gently, eyes bright with genuine excitement, lips parted in a soft 'oh my god look at this' smile. Her bedroom wall behind her is filled with a curated gallery of art posters, anchored by a large Japanese typography poster reading 楽 (raku) in elegant ink brush calligraphy. Clean plate composition with negative space around her so text, prices, or icons can be added later in CapCut.",
+      "format": {
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "orientation": "vertical portrait",
+        "platform_look": "Instagram Reels still / TikTok cover / Pinterest pin"
+      },
+      "character": {
+        "ethnicity": "Turkish, Mediterranean features but with a fair complexion",
+        "age_range": "22-26",
+        "hair": "long, loose beach waves, warm auburn-brown (kumral) with honey and caramel highlights catching the light, soft middle part, slightly tousled, flowing down past the shoulders, NO headband, NO bandana, NO hair accessory — hair worn completely free and natural",
+        "skin": "fair-light complexion with a subtle golden sun-kissed tan — like someone who spent a weekend at the beach, slightly bronzed across the nose, cheeks and shoulders but clearly naturally fair-skinned underneath, dewy 'clean girl' makeup, soft peachy blush across the cheeks, glossy nude-pink lip, subtle warm bronzer along cheekbones, fluttery natural lashes, no heavy contour",
+        "eyes": "warm hazel-brown, bright and lively, eyes slightly widened with genuine excitement, direct contact with the camera",
+        "expression": "excited, delighted, soft 'wow look at this' smile with lips slightly parted, eyebrows softly raised in genuine wonder, a hint of a real laugh about to escape — authentic enthusiasm, not performative",
+        "vibe": "Pinterest 'that girl' / sun-kissed Mediterranean / clean aesthetic, golden-hour glow"
+      },
+      "wardrobe": {
+        "top": "relaxed-fit navy blue button-up shirt in a rich deep navy tone (around #1B2A4E to #243B6B), soft cotton or lightweight linen-cotton blend with a natural slight texture, top one or two buttons left undone in a casual unbuttoned way revealing the collarbone, collar softly popped or laying naturally, sleeves rolled up to the forearm — completely plain, absolutely no logos, no text, no prints, no patterns, no embroidery",
+        "necklace": "dainty thin gold chain with a single small sun pendant — a stylized sun charm with a round center disc surrounded by short radiating sun rays, pendant rests softly at the base of the collarbone where the unbuttoned shirt opens, catches the natural window light with a warm gold glint, the navy shirt makes the gold sun pop beautifully",
+        "bracelet": "a delicate layered gold bracelet set on her wrist — two or three thin dainty gold chain bracelets stacked together, one with tiny hammered disc charms, one a simple fine snake chain, catching the light as she holds the vase, complementing the gold sun necklace and earrings",
+        "additional_jewelry": "small gold hoop earrings just visible through the hair, one thin gold ring and a delicate gold band stack on her fingers — kept minimal so the sun necklace remains the clear focal accessory",
+        "nails": "short almond shape, milky-white or soft chrome polish",
+        "no_visible_brands": true
+      },
+      "product_in_hand": {
+        "item": "small handmade ceramic vase, miniature scale — roughly the size of her palm, about 10-12 cm tall",
+        "style": "wabi-sabi raku-style pottery, organic hand-thrown silhouette with a slightly uneven rim and gentle finger-shaped indentations, bulbous bottom tapering to a slim neck",
+        "glaze": "matte cream-white base with natural raku crackle pattern, soft smoke-grey and warm terracotta blush along one side where the kiln kissed it, subtle metallic copper flecks catching the light",
+        "texture": "visibly handmade — you can see the slight throwing rings, the imperfect symmetry, the artisanal warmth",
+        "how_she_holds_it": "both hands cradling it gently — one hand cupped underneath the base for support, the other lightly wrapped around the body with fingers softly splayed, vase held up at chest-to-chin height, tilted very slightly toward the camera so the glaze and crackle texture are clearly visible, gold bracelet visible on the wrist of the hand wrapped around the vase",
+        "scale_emphasis": "the smallness of the vase is part of the charm — it should look genuinely tiny and precious in her hands"
+      },
+      "pose_and_body_language": {
+        "overall": "natural influencer posture mid-reveal — looks like a real content creator doing a small business haul, not a model holding a studio pose. Shoulders relaxed and slightly forward as she leans in toward the camera with her find. Subtle weight shift onto one hip creating a soft S-curve through the torso.",
+        "lean": "leaning forward just a touch from the waist, like she can't wait to show you, creating natural engagement with the lens",
+        "hands": "both hands occupied with the vase — one cradling the base, one softly wrapped around the body, fingers relaxed and natural, no stiffness, no white-knuckle grip, gold bracelets catching the light on her wrist",
+        "chin": "chin slightly tilted down and angled a few degrees off-center for a flattering angle, eyes still looking directly at the lens with bright excitement",
+        "head": "very slight, almost imperceptible head tilt to one side — adds to the 'oh my god isn't this cute' energy",
+        "energy": "genuine, warm, excited — the kind of candid moment you'd screenshot from a real Pinterest creator's small-batch haul reel"
+      },
+      "setting": {
+        "location": "her bedroom corner, transformed into a Pinterest-curated poster gallery wall",
+        "wall_treatment": "the wall behind her is densely decorated with a curated collage of framed and unframed art posters arranged in an organic, layered gallery-wall style — overlapping slightly in places, varied in size and orientation, all in a cohesive warm-neutral palette",
+        "hero_poster": "a large prominent Japanese typography poster centered behind and slightly above her shoulder, featuring the single kanji character 楽 (raku, meaning 'comfort, ease, pleasure' — also the name of the pottery tradition) rendered in bold elegant black sumi ink brush calligraphy on off-white washi paper, framed in a thin natural oak wood frame. The kanji should be rendered with authentic brush stroke texture — visible bristle marks, organic ink bleed, traditional shodo calligraphy style",
+        "supporting_posters": [
+          "a botanical line-art print of a single pampas grass stem",
+          "a vintage-style minimal Bauhaus geometric composition in muted terracotta and sage",
+          "a small black-and-white film photograph of a hand-thrown pottery wheel mid-spin",
+          "an abstract watercolor wash in warm earth tones",
+          "a small minimal Japanese-inspired ensō circle in black ink",
+          "a typography print with a single word in a serif font, blurred and unreadable",
+          "a postcard-sized print of dried wildflowers"
+        ],
+        "frames": "mix of thin natural oak, slim black metal, and a few unframed prints attached with small bulldog clips or washi tape — eclectic but curated, not chaotic",
+        "additional_details": [
+          "small wooden floating shelf with a tiny ceramic figurine and a trailing pothos plant",
+          "a string of warm fairy lights softly draped along the top edge of the gallery wall creating gentle bokeh dots",
+          "soft daylight from camera-left creating a gentle gradient across the poster wall",
+          "warm beige and off-white base wall paint visible in small gaps between posters"
+        ],
+        "color_palette": [
+          "#F5EDE2",
+          "#E8D5C4",
+          "#C9B79C",
+          "#A8B5A0",
+          "#D4A574",
+          "#1B2A4E",
+          "#243B6B"
+        ],
+        "depth": "the poster wall is softly blurred but still clearly readable as a gallery wall — the 楽 raku kanji poster should remain legible and recognizable even with the background blur"
+      },
+      "camera": {
+        "shot": "medium close-up, chest up to slightly above the head, shot from a slightly elevated angle — camera positioned about 15-20 degrees above eye level looking down at her",
+        "angle": "slightly high angle (above eye level) — this creates a more dynamic, engaging composition, makes her eyes appear larger and more expressive, adds a flattering perspective, and creates visual hook by breaking the typical eye-level selfie look. The downward angle also naturally draws the viewer's eye from her face down to the vase she's presenting.",
+        "lens_feel": "iPhone rear camera aesthetic held by a friend from slightly above, natural shallow depth of field, mild background blur — enough to soften the posters but not so much that the raku kanji becomes unreadable",
+        "focus": "sharp on her face AND the ceramic vase she's holding — both should be in clear focus since the vase is the product reveal. Poster wall softly blurred but the large 楽 kanji poster still legible.",
+        "headroom": "leave clean negative space around the vase for text, price tags, or product info to be added later in editing — the poster wall should not feel crowded around her face",
+        "composition": "shot from slightly above, her face occupies the upper-center area looking up at the camera with warm eyes, the ceramic vase sits in the lower-center of the frame at chest height, the 楽 raku poster is visible on the wall behind her — the high angle creates a natural visual flow from her face to the vase, making it feel like a peek into a real moment"
+      },
+      "lighting": {
+        "key": "soft natural window light from camera-left, golden hour warmth wrapping around her face and catching the curves of the ceramic vase, highlighting her subtle sun-kissed tan",
+        "fill": "subtle bounce from a white wall on camera-right softening any shadows",
+        "mood": "warm, glowy, airy, no harsh shadows, dewy skin highlights on fair sun-kissed skin, navy shirt deepens beautifully in the warm light",
+        "color_temp": "around 4500K with a gentle golden tint",
+        "highlight_note": "light creates a subtle sparkle on the gold sun pendant and wrist bracelets against the navy shirt, beautifully reveals the raku crackle texture and metallic flecks on the ceramic vase, warms the off-white washi paper of the 楽 poster in the background, and enhances the natural bronzed glow on her nose and cheeks"
+      },
+      "no_text_no_graphics": {
+        "on_screen_text": "NONE on the foreground — no captions, no UI overlays",
+        "background_text_allowed": "the 楽 (raku) kanji on the background poster IS allowed and intentional",
+        "captions": "NONE",
+        "app_icons": "NONE",
+        "logos": "NONE",
+        "watermarks": "NONE",
+        "stickers": "NONE",
+        "note": "deliver a clean plate — all foreground text, icons, prices, and graphics will be added later in CapCut"
+      },
+      "style_keywords": [
+        "Pinterest aesthetic",
+        "clean girl",
+        "fair-skinned sun-kissed brunette",
+        "kumral auburn hair",
+        "navy shirt clean look",
+        "gold sun necklace",
+        "gold wrist bracelets",
+        "small business product reveal",
+        "handmade ceramic vase",
+        "raku pottery",
+        "wabi-sabi",
+        "Japanese kanji poster",
+        "shodo calligraphy",
+        "gallery wall bedroom",
+        "natural light portrait",
+        "slightly high angle shot",
+        "dynamic camera angle",
+        "feminine minimal",
+        "excited product gush",
+        "clean plate still",
+        "9:16 vertical portrait"
+      ],
+      "negative_prompt": [
+        "any foreground on-screen text",
+        "any captions or subtitles",
+        "any logos or brand marks",
+        "any app icons or stickers",
+        "watermarks",
+        "harsh flash lighting",
+        "empty plain wall behind her",
+        "single poster behind her",
+        "neon colors",
+        "heavy makeup",
+        "dark or moody tones",
+        "low resolution",
+        "warped hands or fingers",
+        "extra fingers",
+        "distorted face",
+        "overly sexualized framing",
+        "stiff model posture",
+        "performative or exaggerated influencer pose",
+        "fake or staged-looking excitement",
+        "any headband",
+        "any bandana",
+        "any hair accessory",
+        "scarf or wrap on head",
+        "necklace with multiple charms",
+        "star pendant",
+        "shooting star pendant",
+        "moon pendant",
+        "any pendant that is not a sun",
+        "dark olive or deep tan skin",
+        "very dark brown or black hair",
+        "blurry face",
+        "blurry vase",
+        "motion blur",
+        "fisheye distortion",
+        "machine-perfect symmetrical vase",
+        "glossy mass-produced ceramic look",
+        "shirt with logos or text",
+        "shirt with patterns or prints",
+        "incorrect or distorted kanji",
+        "fake-looking Asian characters",
+        "Chinese characters instead of Japanese kanji",
+        "unreadable raku poster",
+        "eye-level flat angle",
+        "boring straight-on selfie composition"
+      ]
+    }
+  },
+  {
+    "slug": "mitte-ugc-selfie",
+    "title": "Candid UGC Selfie",
+    "description": "A candid UGC-style selfie photo of a young Turkish woman caught mid-laugh at her home office desk.",
+    "category": "Image Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Candid UGC-style selfie photo. A young Turkish woman in her late 20s caught mid-laugh at her home office desk. Authentic creator energy — not posed, not over-edited. The kind of natural moment that feels like a friend snapped it for her Instagram story.",
+      "format": {
+        "type": "still_photo",
+        "aspect_ratio": "9:16",
+        "platform_look": "Native iPhone front camera, slightly grainy",
+        "style": "candid UGC, not professional photography"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age_range": "27-29",
+        "hair": "messy bun, slightly loose strands framing the face, natural texture",
+        "skin": "natural skin texture with realistic pores, minimal makeup, slight natural flush from laughing",
+        "eyes": "slightly squinting from a genuine mid-laugh smile (Duchenne smile), warm and crinkled at the corners",
+        "expression": "genuine mid-laugh moment, not posed. Mouth open in a real smile showing some teeth, eyes squinting naturally, head slightly tilted"
+      },
+      "wardrobe": {
+        "top": "oversized cream knit sweater, soft chunky texture, slightly slouchy on shoulders, no logos",
+        "no_visible_brands": true
+      },
+      "setting": {
+        "location": "warmly lit home office, sitting at a wooden desk by a window",
+        "background_details": [
+          "MacBook screen slightly out of focus showing a content calendar / spreadsheet",
+          "a mug of Turkish tea on the desk",
+          "a small notebook with handwritten notes",
+          "a small green plant in the corner of frame",
+          "warm wooden desk surface visible",
+          "lived-in, cozy, not staged aesthetic"
+        ]
+      },
+      "camera": {
+        "shot": "selfie close-up, face and upper chest, desk visible behind",
+        "angle": "slightly above eye level (natural selfie arm extension)",
+        "lens_feel": "iPhone front camera, 1x, slight selfie lens distortion",
+        "framing": "slightly off-center, casual not perfectly composed"
+      },
+      "lighting": {
+        "key": "soft natural afternoon daylight from a nearby window",
+        "tone": "warm golden tones, soft shadows",
+        "mood": "cozy, lived-in, late-afternoon work-from-home vibe",
+        "catchlights": "soft window reflection in eyes"
+      },
+      "image_quality": {
+        "grain": "slight natural grain, like a real iPhone photo",
+        "sharpness": "soft natural focus on face, gentle background blur (not heavy bokeh)",
+        "color_grading": "warm, slightly desaturated, no heavy filter",
+        "editing": "minimal — no beauty filter, no over-smoothing, no HDR boost"
+      },
+      "pose_and_moment": {
+        "body_language": "relaxed, leaning slightly toward camera, one shoulder a bit lower, casual posture",
+        "energy": "mid-laugh, candid, caught in a natural happy second",
+        "authenticity_markers": [
+          "slightly imperfect framing",
+          "real skin with visible texture and minor unevenness",
+          "loose hair strands not perfectly placed",
+          "natural sweater wrinkles and slouch",
+          "no model-like posing"
+        ]
+      },
+      "no_text_no_graphics": {
+        "all_elements": "NONE",
+        "note": "Zero text overlays, zero logos, zero watermarks, zero UI elements. Pure clean photo."
+      },
+      "negative_prompt": [
+        "professional studio photography",
+        "heavy makeup",
+        "over-smoothed skin",
+        "beauty filter",
+        "instagram filter",
+        "HDR",
+        "perfect symmetry",
+        "model pose",
+        "fake smile",
+        "staged composition",
+        "uncanny valley",
+        "plastic skin",
+        "cartoonish features",
+        "text",
+        "logos",
+        "watermarks",
+        "heavy bokeh",
+        "DSLR look",
+        "overexposed",
+        "saturated colors"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-cozy-cat-moment",
+    "title": "Top-Down Cozy Moment (MacBook + Cat)",
+    "description": "Cinematic bird's-eye view of a chic Turkish woman curled on a low sofa scrolling her MacBook, while her cat slowly walks toward her across the rug. No talking, no overlays — just the moment.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "A quiet, cinematic 'moment' captured from a perfectly top-down overhead angle, as if a camera is mounted on the ceiling directly above her. A chic Turkish woman is curled up on a low sofa or daybed scrolling on her MacBook, half-covered by a small lightweight cotton pike (Turkish throw), wearing a tank top and cozy socks. On the floor below her, her cat slowly walks toward her with soft, deliberate steps. No talking, no overlays — just the moment.",
+      "format": {
+        "duration_seconds": 8,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "Pinterest / Instagram Reels cinematic moment"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age_range": "24-28",
+        "hair": "long, loose beach waves, honey blonde, fanned out softly across the cushion (since we're shooting from above)",
+        "skin": "warm fair-medium, glowy clean-girl makeup, dewy finish, soft blush, natural lashes, glossy nude lip",
+        "expression": "calm, focused on her laptop screen, faint soft smile",
+        "vibe": "Pinterest 'soft girl' / quiet luxury / cozy domestic moment"
+      },
+      "wardrobe": {
+        "top": "fitted ribbed tank top with thin spaghetti straps, plain cream or butter-yellow, no logos or text, hint of decolletage visible from the top-down angle",
+        "bottoms": "soft loose lounge shorts or cropped sweatpants, neutral tone (barely visible under blanket)",
+        "socks": "slouchy ribbed crew socks in cream or oat color, slightly bunched at the ankle, only the socked feet poking out from under the blanket",
+        "blanket": "small lightweight Turkish cotton pike (thin throw), waffle-textured, off-white with subtle beige stripes, draped casually over her lower body up to her waist",
+        "jewelry": "dainty gold layered necklaces, small gold hoops, one thin gold ring on her hand resting on the laptop",
+        "nails": "short almond, milky-white",
+        "no_visible_brands": true
+      },
+      "props": {
+        "laptop": "open Apple MacBook (silver or space gray), screen showing a softly glowing neutral interface with no readable text, logos, or brand marks (the Apple logo on the lid is hidden because the lid is open and away from camera)",
+        "near_her": [
+          "ceramic mug of latte on a small marble side table",
+          "a hardcover book with a plain cloth cover",
+          "a folded second pike at the foot of the sofa",
+          "a small linen pillow under her head"
+        ],
+        "on_the_floor": [
+          "soft beige boucle area rug",
+          "a single dried-flower stem in a small clay vase",
+          "a folded magazine"
+        ]
+      },
+      "cat": {
+        "breed_look": "fluffy domestic cat, soft cream or light grey fur, fluffy tail, calm posture",
+        "position_start": "lower-left of frame on the rug, a few feet away from the sofa",
+        "movement": "walks slowly and gracefully toward her, paws stepping softly, tail held in a relaxed upright curl",
+        "position_end": "reaches the side of the sofa near her hand and looks up briefly before pausing",
+        "no_sudden_movements": true
+      },
+      "setting": {
+        "location": "chic Pinterest-style living room corner",
+        "details": [
+          "low cream linen sofa or daybed with soft, deep cushions",
+          "wide-plank warm oak floor",
+          "soft beige boucle rug under the sofa",
+          "small marble side table with a ceramic latte mug",
+          "warm sunlight pooling diagonally across the floor and sofa from a tall window just out of frame",
+          "a few books and a candle visible at the edges of the frame",
+          "single dried pampas stem in a clay vase on the floor"
+        ],
+        "color_palette": [
+          "#F5EDE2",
+          "#E8D5C4",
+          "#C9B79C",
+          "#A8B5A0",
+          "#D4A574",
+          "#8C7A66"
+        ]
+      },
+      "camera": {
+        "shot": "perfect top-down overhead (bird's-eye view, 90 degrees straight down)",
+        "rig_feel": "as if a camera is mounted on the ceiling directly above her",
+        "movement": "completely locked off, no pan, no zoom, no drift",
+        "framing": "she occupies the upper two-thirds of the frame on the sofa, the rug and floor occupy the lower third, the cat enters from the bottom-left corner",
+        "lens_feel": "wide-ish lens to capture both her and the cat in one frame, gentle natural depth, everything mostly in focus",
+        "focus": "sharp on her face and hands, soft falloff at the frame edges"
+      },
+      "lighting": {
+        "key": "warm natural daylight from a tall window, casting a soft diagonal pool of light across her and part of the floor",
+        "fill": "ambient bounce from cream walls",
+        "mood": "warm, golden, calm, slightly hazy, like late morning",
+        "color_temp": "around 4500K with golden tint",
+        "highlights": "soft glow on her hair, on the marble side table, and a faint warm patch where the sunlight hits the rug"
+      },
+      "action_timeline": [
+        {
+          "time": "0.0-1.5s",
+          "beat": "static overhead shot of her curled on the sofa, scrolling slowly on the MacBook with one hand, the other hand resting on the blanket"
+        },
+        {
+          "time": "1.5-3.0s",
+          "beat": "the cat appears walking slowly into the bottom-left of frame on the rug, taking soft, deliberate steps toward her"
+        },
+        {
+          "time": "3.0-5.5s",
+          "beat": "the cat continues approaching, tail gently swaying, while she keeps gently scrolling, oblivious for a moment"
+        },
+        {
+          "time": "5.5-7.0s",
+          "beat": "she notices the cat in her peripheral vision, the corner of her mouth lifts in a small smile, her hand drifts off the laptop slightly toward the cat"
+        },
+        {
+          "time": "7.0-8.0s",
+          "beat": "the cat reaches the edge of the sofa next to her hand, looks up, and the moment holds — she smiles softly down at it"
+        }
+      ],
+      "spoken_lines": {
+        "dialogue": "none",
+        "ambient_sounds": [
+          "very soft keyboard click or two",
+          "barely audible page-scroll sound from the laptop",
+          "a faint distant birdsong outside the window",
+          "soft cat-paw padding (extremely subtle)"
+        ]
+      },
+      "no_text_no_graphics": {
+        "on_screen_text": "NONE",
+        "captions": "NONE",
+        "app_icons": "NONE",
+        "logos": "NONE (no Apple logo, no brand marks anywhere)",
+        "watermarks": "NONE",
+        "stickers": "NONE",
+        "screen_content": "MacBook screen shows a softly glowing neutral interface with no readable text or recognizable apps",
+        "note": "deliver a clean plate — all text and graphics will be added later in CapCut"
+      },
+      "audio": {
+        "background_music": "none (clean audio for editor)",
+        "ambient": "soft cozy room tone, faint birdsong, gentle keyboard taps"
+      },
+      "style_keywords": [
+        "top-down overhead",
+        "bird's eye view",
+        "cinematic moment",
+        "Pinterest aesthetic",
+        "soft girl",
+        "quiet luxury",
+        "cozy domestic",
+        "warm neutrals",
+        "natural light",
+        "slow living",
+        "calm",
+        "clean plate"
+      ],
+      "negative_prompt": [
+        "tilted or angled camera",
+        "any camera movement, pan, or zoom",
+        "Apple logo or any brand marks",
+        "readable screen content",
+        "any on-screen text or captions",
+        "logos on clothing",
+        "frantic or fast cat movement",
+        "cat jumping onto the sofa",
+        "harsh lighting",
+        "cluttered background",
+        "dark or moody tones",
+        "warped hands or fingers",
+        "extra fingers or limbs",
+        "distorted face",
+        "low resolution",
+        "overly sexualized framing"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-disgust-reaction",
+    "title": "Raw UGC Disgust Reaction",
+    "description": "A raw, front-camera selfie video of a young Korean girl reacting with genuine disgust to something on her phone.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Raw front-camera selfie video, pure UGC. A Korean girl in her early 20s reacts with genuine disgust to something on her phone — like she just saw a cursed comment or a gross video. Filmed in her bedroom, no setup, no lighting, just a phone propped up or held up. The kind of clip that ends up on someone's Close Friends story.",
+      "format": {
+        "duration_seconds": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "Raw iPhone front camera, slight compression artifacts, no color grading"
+      },
+      "character": {
+        "ethnicity": "Korean",
+        "age_range": "21-24",
+        "hair": "messy black hair pulled into a low ponytail with stray strands sticking out, looks like she didn't brush it",
+        "skin": "real skin texture — visible pores, a small blemish near the chin, no foundation, slight oiliness in t-zone, traces of yesterday's mascara",
+        "eyes": "dark brown eyes, no eye makeup, slightly tired looking",
+        "expression": "real disgust reaction — nose wrinkles, upper lip pulls up on one side, eyes squint, brief 'eww' face that holds for a second"
+      },
+      "wardrobe": {
+        "top": "old oversized hoodie in faded sage, slightly stretched neckline, no logos visible",
+        "nails": "chipped milky white polish, grown out at the cuticle",
+        "no_visible_brands": true
+      },
+      "setting": {
+        "location": "her bedroom, sitting on the bed or floor",
+        "details": [
+          "unmade bed visible behind her, white sheets bunched up",
+          "a poster slightly crooked on the wall",
+          "warm yellow bedside lamp light mixing with cool daylight from a window",
+          "phone charger cable visible draped somewhere",
+          "background is real, cluttered, lived-in"
+        ]
+      },
+      "camera": {
+        "shot": "selfie close-up, face and shoulders, slightly off-center",
+        "angle": "low angle from below (phone held in lap or propped up), creating a slight up-tilt",
+        "lens_feel": "iPhone front camera, 1x, real selfie distortion on nose and forehead",
+        "movement": "very slight handheld micro-shake, not a steady tripod look"
+      },
+      "lighting": {
+        "key": "mixed messy lighting — warm bedside lamp + dim window daylight, no key light, slight color cast",
+        "shadows": "soft uneven shadows on one side of face",
+        "mood": "evening-in-bedroom or late-afternoon-in-pajamas vibe"
+      },
+      "image_quality": {
+        "compression": "slight social media compression artifacts",
+        "grain": "low-light digital noise visible in shadows",
+        "focus": "soft auto-focus, occasionally hunts for a frame",
+        "color": "no grading, slight white balance imperfection (warm/cool mix)",
+        "no_filters": true
+      },
+      "micro_idle_before_reaction": "0.0-0.5s scrolling-on-phone neutral face, slight slack jaw of bored phone-watching",
+      "action_timeline": [
+        {
+          "time": "0.0-0.5s",
+          "beat": "Bored neutral face, eyes flicking like she's reading something on a screen below frame, slack mouth"
+        },
+        {
+          "time": "0.5-1.0s",
+          "beat": "Disgust hits: nose wrinkles sharply, top lip curls up showing slight teeth, eyes squint, head pulls back about an inch, says a quiet involuntary 'ew' or 'iyk' under breath"
+        },
+        {
+          "time": "1.0-4.0s",
+          "beat": "Holds the disgusted face for a beat, then mouth softens but eyes stay narrowed, looks back down at phone, shakes head once slowly. Whole thing feels caught, not performed."
+        }
+      ],
+      "gesture_rules": {
+        "movement_style": "Real human reflex. Imperfect timing — face doesn't perfectly sync, just real.",
+        "realism_ticks": [
+          "looking down at phone, not directly at camera",
+          "natural mouth movement (small word/sound)",
+          "real skin folds when nose wrinkles",
+          "no posing — body is slouched, casual"
+        ]
+      },
+      "no_text_no_graphics": {
+        "all_elements": "NONE",
+        "note": "Pure raw clip. Zero text, zero overlays, zero icons, zero watermarks, no UI."
+      },
+      "negative_prompt": [
+        "studio lighting",
+        "professional photography",
+        "model pose",
+        "perfect makeup",
+        "beauty filter",
+        "smooth skin",
+        "ring light",
+        "color graded",
+        "cinematic",
+        "tripod stability",
+        "looking directly at camera the whole time",
+        "uncanny valley",
+        "plastic skin",
+        "high production value",
+        "staged background",
+        "perfectly framed shot"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-eye-roll-reaction",
+    "title": "Dramatic Eye Roll Reaction",
+    "description": "An authentic, high-speed human reaction of a Latina creator doing a genuine, dramatic eye roll.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Authentic, high-speed human reaction. A beautiful Latin creator does a genuine, dramatic eye roll — the kind a real person does when they're done with someone's nonsense. Reflexive, not theatrical.",
+      "format": {
+        "duration_seconds": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "Native TikTok / iPhone Camera"
+      },
+      "character": {
+        "ethnicity": "Latina (Mexican/Spanish)",
+        "age_range": "24-28",
+        "hair": "dark brown wavy hair, shoulder length, voluminous with natural texture",
+        "skin": "warm olive skin tone, realistic texture with natural pores, soft bronzy makeup, subtle highlight on cheekbones",
+        "eyes": "deep brown eyes with thick natural lashes, locked on camera before rolling",
+        "expression": "dramatic done-with-it eye roll. Starts with a flat unimpressed stare, then eyes track upward slowly, head tilts back slightly, deep exhale through nose"
+      },
+      "wardrobe": {
+        "top": "deep burgundy ribbed turtleneck, high-quality fabric, no logos",
+        "nails": "long dark cherry red almond nails, glossy",
+        "no_visible_brands": true
+      },
+      "setting": {
+        "location": "indoor, soft-focus warm beige background",
+        "details": [
+          "subtle background blur",
+          "clean minimalist aesthetic",
+          "warm golden-hour-like daylight"
+        ]
+      },
+      "camera": {
+        "shot": "close-up, face and upper chest",
+        "angle": "eye level, handheld feel (slight micro-shakes)",
+        "lens_feel": "iPhone 15 Pro front camera, 1x zoom, sharp focus on eyes",
+        "headroom": "centered, ample space for overlays"
+      },
+      "lighting": {
+        "key": "warm natural light, golden catchlights in eyes",
+        "mood": "moody, slightly cinematic everyday lighting"
+      },
+      "micro_idle_before_reaction": "0.0-0.5s flat unimpressed stare directly at camera, one slow blink",
+      "action_timeline": [
+        {
+          "time": "0.0-0.5s",
+          "beat": "Flat, unimpressed stare directly at camera. One slow deliberate blink."
+        },
+        {
+          "time": "0.5-1.2s",
+          "beat": "Eye roll begins: eyes track upward and to one side smoothly, head tilts back about 10 degrees, audible 'tsk' or sigh through nose, shoulders rise slightly"
+        },
+        {
+          "time": "1.2-4.0s",
+          "beat": "Eyes return to camera with a 'really?' deadpan look, one eyebrow slightly raised, mouth in a tight flat line. Holds the 'I cannot with this' energy."
+        }
+      ],
+      "gesture_rules": {
+        "movement_style": "Smooth but deliberate. The eye roll itself is fluid, but the return to camera is sharp.",
+        "realism_ticks": [
+          "natural nostril flare during exhale",
+          "slight jaw clench when eyes return to camera",
+          "subtle shoulder rise and fall",
+          "micro head tilt"
+        ]
+      },
+      "no_text_no_graphics": {
+        "all_elements": "NONE",
+        "note": "Zero text, zero UI, zero watermarks. Pure raw footage."
+      },
+      "negative_prompt": [
+        "slow motion",
+        "robotic movement",
+        "uncanny valley",
+        "stiff face",
+        "morphing features",
+        "plastic skin",
+        "cartoonish eye roll",
+        "text",
+        "overlay",
+        "tiktok icons",
+        "exaggerated theater acting"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-f35-aegean-sortie",
+    "title": "Cinematic F-35 Aegean Sortie",
+    "description": "An IMAX-grade, high-speed aerial shot of an F-35 Lightning II jet flying low over the Greek Cyclades islands with a cinematic Top Gun aesthetic.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "shot": {
+        "type": "cockpit POV + external chase cam hybrid",
+        "subject": "F-35 Lightning II fighter jet",
+        "action": "extreme low-altitude high-speed sortie, banking aggressively between Greek islands",
+        "camera_movement": "dynamic tracking shot, rapid push-ins, wing-mounted POV transitions, 180° barrel roll follow",
+        "speed": "Mach 0.9, sea-skimming altitude (~150ft)",
+        "duration": "8 seconds"
+      },
+      "environment": {
+        "location": "Aegean Sea, Greek Cyclades islands",
+        "landmarks": "white-washed villages with blue domes, dramatic limestone cliffs, caldera formations, scattered fishing boats",
+        "sea": "deep cobalt blue with sun-glittered surface, jet wash rippling the water below",
+        "sky": "clear with scattered cumulus clouds, golden hour light",
+        "atmosphere": "heat shimmer, vapor cones forming on wing surfaces, salt spray haze"
+      },
+      "cinematography": {
+        "style": "Top Gun: Maverick aesthetic, IMAX-grade aerial photography",
+        "reference_directors": [
+          "Joseph Kosinski",
+          "Claudio Miranda"
+        ],
+        "lens": "anamorphic wide 35mm with shallow depth on cockpit shots",
+        "color_grade": "teal and orange, high contrast, sun-bleached highlights",
+        "lighting": "natural golden hour, lens flares from low sun angle, rim light on fuselage",
+        "frame_rate": "24fps with selective 120fps slow-motion on banking moments",
+        "motion_blur": "minimal, crisp high-speed action"
+      },
+      "sound_design_cue": {
+        "audio": "thunderous afterburner roar, sonic boom transitions, doppler shift as jet passes camera, low rumbling score"
+      },
+      "details": {
+        "aircraft": "F-35A in standard gray livery, weapons bay closed, full afterburner with visible heat distortion",
+        "effects": "wingtip vortices, condensation trails, sea spray kicked up at lowest passes, shadow racing across island terrain",
+        "ground_elements": "stunned tourists looking up, goats scattering, laundry blowing on village clotheslines"
+      },
+      "mood": "adrenaline-soaked, triumphant, cinematic blockbuster energy",
+      "negative_prompt": [
+        "cartoonish",
+        "low quality",
+        "pixelated",
+        "slow movement",
+        "static camera",
+        "daytime flat lighting",
+        "multiple aircraft",
+        "civilian airliner",
+        "CGI artifacts"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-fisheye-floor-pickup",
+    "title": "Fisheye Floor Pickup Reveal",
+    "description": "Dynamic ground-up fisheye shot — camera sits on the floor, a Turkish woman jogs toward it, picks it up, and brings it to her face in a scroll-stopping TikTok hook. 8-second clean plate.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "A dynamic fisheye floor-pickup shot. The camera sits on the ground, lens pointing straight up at a slight forward angle, with extreme barrel distortion. A chic Turkish woman is seen at a distance, then jogs toward the camera. She reaches it, bends down, picks it up, and brings it to her face — her smile filling the distorted wide frame. The perspective transforms from ground-up establishing shot to intimate handheld selfie. No talking, no overlays — just the approach and the reveal.",
+      "format": {
+        "duration_seconds": 8,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "TikTok hook / UGC pickup shot / viral Reels opener"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age_range": "24-28",
+        "hair": "long, loose, flowing freely — bounces and sways as she jogs, catching backlight, dark brown with warm highlights",
+        "skin": "warm fair-medium, natural sun-kissed glow, light natural makeup — soft bronzer, subtle mascara, tinted lip balm",
+        "expression": "starts neutral/determined while jogging, transitions to a bright genuine smile and playful energy as she picks up the camera and sees herself in it",
+        "vibe": "UGC creator energy / main character moment / playful and confident"
+      },
+      "wardrobe": {
+        "top": "fitted white baby tee or cropped tank top, clean and minimal, no logos — the fisheye distortion will stretch it so keep it simple and clean",
+        "bottoms": "high-waisted light-wash or cream wide-leg jeans, visible from the ground-up angle during approach",
+        "shoes": "clean white sneakers or minimal canvas shoes — these are the FIRST thing visible in frame since camera is on the ground",
+        "jewelry": "layered thin gold necklaces (will catch light when she leans toward camera), small gold hoop earrings, one or two thin gold bracelets",
+        "sunglasses": "tortoiseshell sunglasses pushed up on her head (not covering eyes)",
+        "nails": "short almond, soft pink or glazed nude",
+        "no_visible_brands": true
+      },
+      "props": {
+        "none_in_hands": "her hands are free — one hand reaches for the camera at the pickup moment",
+        "environment_props": [
+          "the ground surface the camera sits on (clean light concrete, pale stone, or sandy boardwalk)",
+          "background environment elements visible in the fisheye dome — sky, trees or architecture"
+        ]
+      },
+      "setting": {
+        "location": "bright outdoor location — a clean urban sidewalk, Mediterranean-style courtyard, boardwalk, or rooftop terrace",
+        "details": [
+          "the ground surface is light-toned (pale concrete, limestone, light wood deck) to bounce light upward onto her face during the pickup",
+          "the sky above is bright blue with a few soft clouds — visible in the fisheye dome of the background",
+          "warm sunlight creating a backlit rim on her hair and shoulders as she approaches",
+          "background shows either soft foliage (olive trees, bougainvillea) or clean architecture — all heavily distorted by the fisheye",
+          "the environment is clean and uncluttered — the focus is entirely on her approach and the camera pickup"
+        ],
+        "color_palette": [
+          "#87CEEB",
+          "#F5EDE2",
+          "#FFFFFF",
+          "#D4A574",
+          "#4A7C59",
+          "#E8D5C4"
+        ]
+      },
+      "camera": {
+        "shot": "PHASE 1 (0-5s): camera on the ground, pointing up at roughly 70-degree angle, completely static. PHASE 2 (5-8s): camera is picked up by her hand, becomes handheld, now pointing at her face from below at arm's length",
+        "rig_feel": "Phase 1: phone/camera lying flat on the ground, propped slightly to angle upward — as if she placed it down and walked away, now coming back. Phase 2: handheld selfie-style, slight natural hand movement",
+        "lens": "FISHEYE / extreme wide-angle (12-14mm equivalent) with strong barrel distortion throughout the entire shot. The fisheye bends straight lines, stretches the periphery, and creates a dome-like view of the sky and environment. Her body and face will have characteristic fisheye distortion — larger in the center, stretched at edges",
+        "movement": "Phase 1: ZERO camera movement, locked on the ground. Phase 2: organic handheld micro-movement as she lifts and holds it — slight wobble, natural and authentic, NOT stabilized",
+        "framing_phase_1": "ground-up wide angle: the frame shows the ground surface at the bottom edges, her approaching figure in the center (starting small, growing larger), sky and environment filling the upper dome of the fisheye. As she gets closer, her legs and torso fill more of the frame",
+        "framing_phase_2": "her face and upper body fill the frame from below — classic fisheye selfie look, chin slightly prominent due to the low angle and distortion, big eyes, sky behind her head",
+        "focus": "deep focus throughout (fisheye lenses have extreme depth of field) — everything from the ground texture to her face to the sky is in sharp focus"
+      },
+      "lighting": {
+        "key": "bright outdoor sunlight, sun positioned behind and above her — creating strong backlight rim on her hair and shoulders during the approach, then filling from above when she holds the camera up",
+        "fill": "light ground surface bouncing sunlight upward (critical: this provides under-fill on her face and body during the ground-up phase, preventing her from being a pure silhouette)",
+        "mood": "bright, energetic, outdoor, high-key, summery, confident",
+        "color_temp": "5500K clean daylight, slightly warm from the ground bounce",
+        "highlights": "strong backlit hair halo as she approaches (sun behind her), light catching her necklaces, bright sky in the fisheye dome, her sneakers and the ground texture catching direct light in the foreground"
+      },
+      "action_timeline": [
+        {
+          "time": "0.0-1.5s",
+          "beat": "GROUND PHASE: Camera on the ground, fisheye pointing up. She is visible about 8-10 meters away, a full-body figure against the bright sky and environment. The fisheye makes the sky dome dramatic and the ground surface stretch out. She starts jogging toward the camera. Her footsteps are audible."
+        },
+        {
+          "time": "1.5-3.5s",
+          "beat": "APPROACH: She jogs closer — her figure grows in the frame. The fisheye distortion makes her legs appear longer as they enter the wide periphery. Her hair bounces, backlight catches the movement. She's now 3-4 meters away, her body filling the center of the frame. Energy is building."
+        },
+        {
+          "time": "3.5-5.0s",
+          "beat": "ARRIVAL: She reaches the camera and slows down. She stands right above it for a split second — from this ultra-low angle her figure towers in the frame, legs dramatically foreshortened by the fisheye, sky visible between her arm and body. She bends down, her hand reaching toward the lens."
+        },
+        {
+          "time": "5.0-6.0s",
+          "beat": "PICKUP: Her hand grabs the camera/phone. The perspective WHIPS as she lifts it — the ground drops away, the world rotates, sky swings across the frame. A brief moment of motion blur and disorientation as the camera transitions from ground to handheld. This is the kinetic hook — the world flipping."
+        },
+        {
+          "time": "6.0-7.0s",
+          "beat": "FACE REVEAL: She brings the camera to arm's length in front of her face. Her face fills the fisheye frame — slightly distorted, chin a bit prominent from the below-angle, big expressive eyes. She looks into the lens and breaks into a genuine, bright smile. The sky is behind her head like a halo."
+        },
+        {
+          "time": "7.0-8.0s",
+          "beat": "HOLD: She holds the frame, smiling into the camera with playful confidence. Maybe a tiny head tilt or eyebrow raise. The handheld has slight natural micro-movement. The fisheye distortion makes her smile feel larger than life. Frame holds — this is where the CapCut text/hook will go."
+        }
+      ],
+      "spoken_lines": {
+        "dialogue": "none",
+        "ambient_sounds": [
+          "her sneakers on the ground surface — rhythmic jogging footsteps getting louder as she approaches",
+          "light outdoor ambient — breeze, distant sounds of life",
+          "the whoosh of the camera being picked up (brief wind-on-mic effect)",
+          "a soft laugh or exhale as she sees herself in the camera (very subtle, natural)",
+          "slight fabric rustle from her movement"
+        ]
+      },
+      "no_text_no_graphics": {
+        "on_screen_text": "NONE",
+        "captions": "NONE",
+        "app_icons": "NONE",
+        "logos": "NONE",
+        "watermarks": "NONE",
+        "stickers": "NONE",
+        "screen_content": "N/A",
+        "note": "deliver a clean plate — text hook, transitions, and music will be added in CapCut. The final 'hold' moment (7-8s) is specifically designed as the landing frame for text overlay."
+      },
+      "audio": {
+        "background_music": "none (clean audio for editor)",
+        "ambient": "footsteps approaching, outdoor breeze, pickup whoosh, subtle laugh"
+      },
+      "style_keywords": [
+        "fisheye",
+        "ultra-wide",
+        "barrel distortion",
+        "floor pickup",
+        "ground-up",
+        "approach shot",
+        "perspective shift",
+        "UGC energy",
+        "dynamic",
+        "bright outdoor",
+        "scroll-stopping hook",
+        "camera pickup reveal",
+        "TikTok hook format",
+        "clean plate"
+      ],
+      "negative_prompt": [
+        "normal lens (MUST be fisheye with visible barrel distortion)",
+        "camera already in hand (MUST start on the ground)",
+        "static shot (the pickup transition is essential)",
+        "indoor setting",
+        "dark or moody lighting",
+        "slow or lethargic movement",
+        "any on-screen text or overlays",
+        "brand logos on clothing or shoes",
+        "stabilized gimbal look during pickup (must feel raw and handheld)",
+        "warped hands or fingers",
+        "extra fingers or limbs",
+        "distorted face beyond natural fisheye effect",
+        "overly sexualized framing or low-angle exploitation"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-inside-bag-reveal",
+    "title": "Inside the Bag Reveal",
+    "description": "Camera starts INSIDE a chic handbag in near-darkness — the bag opens from above, bright daylight floods in, and a Turkish woman reaches in to pull the camera out. Dark-to-light pattern interrupt hook. 8-second clean plate.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "The camera starts INSIDE a stylish handbag, lens pointing upward. The frame is mostly dark — faint outlines of bag fabric, a zipper edge, the interior lining texture. Within the first 2 seconds, the bag opens from above and bright daylight floods in. A chic Turkish woman's face appears looking down into the bag from above. She reaches in, her hand coming toward the lens, and lifts the camera out of the bag. The perspective shifts from dark-enclosed to bright-open as she brings it to her face. No talking, no overlays — just the reveal.",
+      "format": {
+        "duration_seconds": 8,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "TikTok UGC hook / Instagram Reels opener"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age_range": "24-28",
+        "hair": "long loose waves, dark brown, falling forward as she leans down to look into the bag, backlit by the sky behind her",
+        "skin": "warm fair-medium, natural dewy makeup, soft bronzer, glossy nude lip",
+        "expression": "curious searching expression when looking into bag, transitioning to bright recognition smile when she 'finds' the camera",
+        "vibe": "UGC creator / chic everyday moment / playful"
+      },
+      "wardrobe": {
+        "top": "fitted cream or white ribbed top, no logos, clean neckline visible when she leans over the bag",
+        "jewelry": "layered gold necklaces dangling toward camera as she leans in, small gold hoops",
+        "nails": "short almond, soft pink glazed",
+        "bag": "medium-sized structured leather tote in tan or camel, clean and minimal, no visible brand logos — the interior lining is a muted fabric (cream or light pattern)",
+        "no_visible_brands": true
+      },
+      "props": {
+        "inside_bag_visible": [
+          "faint shapes of everyday items — a compact mirror catching a glint, a lip product, a pair of sunglasses",
+          "the bag's interior fabric lining texture visible in the dark opening seconds"
+        ]
+      },
+      "setting": {
+        "location": "bright outdoor — café terrace, park bench, or street setting (only visible once bag opens)",
+        "details": [
+          "the first 2 seconds show ONLY the bag interior — dark, textured, enclosed",
+          "when the bag opens, bright blue sky and warm daylight flood the frame from above",
+          "soft foliage or architecture visible in extreme bokeh behind her head",
+          "the environment is secondary — her face and the light reveal are the focus"
+        ],
+        "color_palette": [
+          "#0A0A0A",
+          "#3C2E20",
+          "#87CEEB",
+          "#F5EDE2",
+          "#D4A574",
+          "#FFFFFF"
+        ]
+      },
+      "camera": {
+        "shot": "PHASE 1 (0-2s): inside the closed bag, looking up, nearly dark. PHASE 2 (2-5s): bag opens, her face appears above, she reaches in. PHASE 3 (5-8s): camera lifted out, world revealed, brought to her face level",
+        "rig_feel": "camera placed at the bottom of a handbag, lens pointing straight up through the bag opening",
+        "movement": "Phase 1: static in darkness. Phase 2: static as bag opens above. Phase 3: camera is picked up — organic lift movement with slight rotation as the world comes into view",
+        "framing": "Phase 1: dark with fabric edges framing the shot. Phase 2: her face and the sky form a bright circle/rectangle of light above, framed by the bag edges. Phase 3: she fills the frame at arm's length, sky behind her",
+        "lens_feel": "wide angle (24mm equiv), slight barrel distortion, deep focus",
+        "focus": "sharp on her face throughout, bag interior details soft in foreground during dark phase"
+      },
+      "lighting": {
+        "key": "Phase 1: near darkness with only faint ambient light seeping through bag material. Phase 2: sudden bright daylight flooding in as the bag opens — strong overhead/backlight on her face. Phase 3: natural outdoor daylight, sun behind and above",
+        "fill": "once bag opens, the sky acts as a massive soft fill light from above",
+        "mood": "dramatic dark-to-light transition, then bright and energetic",
+        "color_temp": "dark phase: undefined. Light reveal: 5500K clean daylight",
+        "highlights": "her necklaces catching light as they dangle, the mirror in the bag creating a brief glint, bright sky halo behind her head"
+      },
+      "action_timeline": [
+        {
+          "time": "0.0-1.5s",
+          "beat": "DARKNESS: camera inside the closed bag. Near-black frame with faint fabric texture, a tiny glint from a compact mirror. Muffled exterior sounds. The viewer is disoriented — 'where am I?'"
+        },
+        {
+          "time": "1.5-3.0s",
+          "beat": "BAG OPENS: the clasp/zipper releases, the top of the bag parts open. Bright daylight floods in dramatically. Her face appears above, looking down into the bag, hair falling forward, backlit by the sky. Strong pattern interrupt — the dark frame suddenly becomes bright."
+        },
+        {
+          "time": "3.0-4.5s",
+          "beat": "REACH: she reaches her hand into the bag toward the camera. Her hand grows large in frame as it approaches. She smiles as she 'finds' what she's looking for (the camera/phone)."
+        },
+        {
+          "time": "4.5-6.0s",
+          "beat": "LIFT: she grabs the camera and lifts it out of the bag. The world rotates and the perspective transforms — sky swings across frame, we see treetops or buildings briefly, the bag drops away below."
+        },
+        {
+          "time": "6.0-8.0s",
+          "beat": "REVEAL: she brings the camera to face level. Her bright smile fills the frame against the blue sky. Slight handheld movement. She might do a small head tilt or playful expression. The moment holds — ready for CapCut text overlay."
+        }
+      ],
+      "spoken_lines": {
+        "dialogue": "none",
+        "ambient_sounds": [
+          "muffled exterior sounds during dark phase",
+          "bag clasp/zipper opening click",
+          "rush of ambient outdoor sound as bag opens",
+          "fabric rustle",
+          "a soft 'ah' or small laugh when she finds the camera"
+        ]
+      },
+      "no_text_no_graphics": {
+        "on_screen_text": "NONE",
+        "captions": "NONE",
+        "logos": "NONE",
+        "watermarks": "NONE",
+        "note": "clean plate — text and music added in CapCut"
+      },
+      "audio": {
+        "background_music": "none",
+        "ambient": "muffled-to-open outdoor transition, bag sounds"
+      },
+      "style_keywords": [
+        "bag hook",
+        "inside-out",
+        "dark-to-light",
+        "reveal",
+        "pattern interrupt",
+        "UGC",
+        "clean plate"
+      ],
+      "negative_prompt": [
+        "brand logos on bag",
+        "readable text",
+        "camera movement during dark phase",
+        "bright bag interior (must start dark)",
+        "warped hands",
+        "extra fingers",
+        "distorted face"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-joy-reaction",
+    "title": "Raw UGC Joy Reaction",
+    "description": "A raw selfie video of a young Italian girl reacting with explosive, genuine happiness and happy tears.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Raw selfie video of an Italian girl in her early 20s losing her mind with happiness. She just got news — like an acceptance email, a refund, a yes — and she's gasping and squealing into her front camera. Real joy, real shake, real UGC. The kind of clip you'd send to your group chat.",
+      "format": {
+        "duration_seconds": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "Raw iPhone front camera, untouched"
+      },
+      "character": {
+        "ethnicity": "Italian (Mediterranean)",
+        "age_range": "22-25",
+        "hair": "dark brown wavy hair, real day-old waves, frizzy at the crown, one strand falling over her face",
+        "skin": "olive skin with realistic texture, naturally flushed cheeks from the excitement (not blush), slight shine on nose, no foundation, just chapstick and faded mascara",
+        "eyes": "warm brown, getting watery from the joy, squinting from genuine smile",
+        "expression": "explosive real happiness — open-mouth gasping smile, eye crinkles, the kind of joy that makes you tear up"
+      },
+      "wardrobe": {
+        "top": "soft cream knit sweater, oversized, slightly pilled, slipping off one shoulder showing a bra strap, no logo",
+        "nails": "coral pink polish, slightly grown out",
+        "no_visible_brands": true
+      },
+      "setting": {
+        "location": "her bedroom or living room, sitting on the floor or bed",
+        "details": [
+          "unmade bed or messy couch behind her",
+          "laptop open nearby, slightly out of frame",
+          "warm lamp or window light, mid-afternoon",
+          "background is a real apartment, not staged",
+          "slight motion blur in background from her bouncing"
+        ]
+      },
+      "camera": {
+        "shot": "selfie close-up, face and upper chest, hands occasionally entering frame",
+        "angle": "phone held in one hand, slightly low angle, lots of natural shake from her excitement",
+        "lens_feel": "iPhone front camera, 1x, slight selfie distortion",
+        "movement": "actively shaky from her bouncing/squealing, not a smooth handheld"
+      },
+      "lighting": {
+        "key": "warm natural daylight from window or lamp",
+        "mood": "bright, alive, real-moment energy",
+        "catchlights": "real sparkle in watering eyes"
+      },
+      "image_quality": {
+        "grain": "slight grain, real selfie quality",
+        "compression": "social-tier compression",
+        "color": "ungraded, warm tones from natural lighting",
+        "no_filters": true,
+        "imperfections": "occasional slight focus shift from her movement"
+      },
+      "micro_idle_before_reaction": "0.0-0.3s lips already parted, eyes already wide, like she's been staring at a screen for 2 seconds processing",
+      "action_timeline": [
+        {
+          "time": "0.0-0.3s",
+          "beat": "Lips parted, eyes huge and locked off-camera (looking at her laptop), like she just read something. Pre-reaction tension."
+        },
+        {
+          "time": "0.3-0.9s",
+          "beat": "BURST: open-mouth gasp into a squealing laugh, head shakes side to side in disbelief, hands fly up into frame and shake/clap rapidly, body bounces"
+        },
+        {
+          "time": "0.9-2.5s",
+          "beat": "Peak joy: laughing-crying mix, voice cracks on 'oh my god' or 'olamaz!', tears welling, one hand presses to chest the other to mouth"
+        },
+        {
+          "time": "2.5-4.0s",
+          "beat": "Slowly settling but still glowing — wipes one happy tear, exhales a laugh, looks back at camera with overwhelmed huge smile, mouth still half open"
+        }
+      ],
+      "gesture_rules": {
+        "movement_style": "Full-body, bouncy, uncontrolled. Real joy isn't smooth.",
+        "realism_ticks": [
+          "real Duchenne smile with deep eye crinkles",
+          "actual welling tears",
+          "voice crack feel",
+          "messy hand movement, not choreographed",
+          "natural body bounce",
+          "real flushed cheeks",
+          "hair moving from her motion"
+        ]
+      },
+      "no_text_no_graphics": {
+        "all_elements": "NONE",
+        "note": "Pure raw clip. No overlays, no UI, no text, no logos, no watermarks."
+      },
+      "negative_prompt": [
+        "fake smile",
+        "non-Duchenne smile",
+        "studio lighting",
+        "ring light",
+        "professional photography",
+        "perfect makeup",
+        "smooth skin",
+        "beauty filter",
+        "color graded",
+        "cinematic",
+        "tripod",
+        "model pose",
+        "uncanny valley",
+        "plastic skin",
+        "choreographed hand movements",
+        "perfectly framed shot"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-lens-tap-transition",
+    "title": "Lens-tap Hand-cover Transition",
+    "description": "Chic Turkish woman taps the lens twice, then covers it completely. Perfect clean transition asset for CapCut.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Lens-tap into a hand-cover transition. Extreme close-up: the chic Turkish woman leans in, taps the lens twice with her index finger to grab your attention, then her open palm rises and completely covers the lens — frame goes fully black. (Editor will use this as a transition cut in CapCut to reveal a new scene/outfit on the other side.) Designed as a clean transition asset.",
+      "format": {
+        "duration_seconds": 3,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "Instagram Reels / TikTok transition hook"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age": "around 25-27",
+        "height_cm": 170,
+        "weight_kg": 55,
+        "build": "athletic and feminine — sporty toned shoulders and arms, slim waist, soft natural curves; sexy but strong",
+        "skin": "fair white skin, glowy, lightly sun-kissed warmth, subtle freckles",
+        "hair": "long soft wavy 'kumral' chestnut-brown with warm caramel highlights, middle part",
+        "makeup": "clean glowy makeup, dewy finish, soft blush, glossy nude-pink lip",
+        "eyes": "warm hazel-brown, confident eye contact",
+        "expression": "confident smirk, like 'watch this'"
+      },
+      "wardrobe": {
+        "top": "fitted ribbed tank top with thin spaghetti straps, butter yellow, plain (no logos)",
+        "jewelry": "dainty gold layered necklaces, small gold hoops, one thin gold ring",
+        "nails": "short almond, milky-white"
+      },
+      "setting": {
+        "location": "chic Pinterest bedroom",
+        "details": [
+          "softly blurred warm cream wall",
+          "tiny pearl fairy lights bokeh",
+          "warm beige and sage palette"
+        ],
+        "color_palette": [
+          "#F5EDE2",
+          "#E8D5C4",
+          "#C9B79C",
+          "#A8B5A0",
+          "#D4A574"
+        ]
+      },
+      "camera": {
+        "shot": "extreme close-up, her face fills most of the frame",
+        "angle": "eye level, dead-on with the lens",
+        "movement": "locked-off, perfectly still",
+        "lens_feel": "iPhone-shot look, shallow depth, sharp on her face and hand"
+      },
+      "lighting": {
+        "key": "warm soft daylight from camera-left",
+        "fill": "cream-wall bounce",
+        "mood": "warm, golden, flattering"
+      },
+      "action_timeline": [
+        {
+          "time": "0.0-0.4s",
+          "beat": "she holds eye contact with the lens, soft confident smirk"
+        },
+        {
+          "time": "0.4-0.7s",
+          "beat": "raises her index finger and taps the lens softly — TAP 1"
+        },
+        {
+          "time": "0.7-1.0s",
+          "beat": "TAP 2 — same spot"
+        },
+        {
+          "time": "1.0-1.4s",
+          "beat": "she opens her hand, palm forward, and slowly raises it toward the lens"
+        },
+        {
+          "time": "1.4-2.0s",
+          "beat": "her palm reaches the lens and completely covers it — frame transitions smoothly to FULL BLACK as the palm blocks all light, palm visible briefly as it approaches before the cover-out"
+        },
+        {
+          "time": "2.0-3.0s",
+          "beat": "FULL BLACK held — clean black frame for the editor to cut on, perfect transition point"
+        }
+      ],
+      "performance_notes": {
+        "cover_style": "smooth, deliberate, palm flat against the lens — should feel like a magician's reveal setup",
+        "transition_design": "the final 1 second of pure black is intentional so the editor can cut to a new scene in CapCut (outfit change, location change, etc.)",
+        "do_not": [
+          "slap the lens hard",
+          "leave gaps where light leaks through the palm",
+          "remove the hand on camera"
+        ]
+      },
+      "spoken_lines": {
+        "dialogue": "none",
+        "ambient_sounds": [
+          "two soft tap sounds",
+          "tiny palm-on-lens contact sound",
+          "warm room tone fading to silence"
+        ]
+      },
+      "no_text_no_graphics": {
+        "on_screen_text": "NONE",
+        "captions": "NONE",
+        "logos": "NONE",
+        "watermarks": "NONE",
+        "note": "clean plate — designed specifically as a transition asset for CapCut"
+      },
+      "audio": {
+        "background_music": "none",
+        "ambient": "tap, tap, palm contact, fade to silence"
+      },
+      "style_keywords": [
+        "lens-tap hook",
+        "hand cover transition",
+        "CapCut transition asset",
+        "fourth-wall break",
+        "Pinterest aesthetic",
+        "Turkish kumral",
+        "athletic feminine",
+        "confident smirk",
+        "extreme close-up",
+        "clean plate"
+      ],
+      "negative_prompt": [
+        "Asian or Korean features",
+        "very thin or skinny body",
+        "aggressive slap",
+        "light leaks through palm",
+        "fingerprint smudge",
+        "any on-screen text",
+        "logos on clothing",
+        "harsh lighting",
+        "dark moody tones",
+        "warped hands or fingers",
+        "extra fingers",
+        "distorted face",
+        "low resolution",
+        "overly sexualized framing"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-macbook-screen-light-reveal",
+    "title": "MacBook Screen Light Reveal",
+    "description": "Cinematic dark-room shot of a Turkish woman slowly opening her MacBook — the screen light gradually washes upward across her face from below in a dramatic reveal moment. 8-second clean plate.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "In a dim room, a chic Turkish woman slowly opens her MacBook lid. The screen light gradually illuminates her face from below — starting at her chin, then washing upward to reveal her full face emerging from darkness. Her eyes lock onto the screen, the cool-warm light reflecting in her pupils. A dramatic, cinematic 'reveal' moment. Behind her, the room remains dark with only faint silhouettes of objects. No talking, no overlays — just the light reveal.",
+      "format": {
+        "duration_seconds": 8,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "TikTok cinematic / aesthetic tech moment / moody Reels"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age_range": "24-28",
+        "hair": "down, dark, framing her face, catching the screen light on the side closest to camera",
+        "skin": "warm fair-medium, clean skin, the screen light creates dramatic under-lighting — illuminating her jawline, cheekbones, and brow from below",
+        "expression": "focused anticipation as the screen opens, eyes widening slightly with the light, a subtle curious micro-expression, then settling into calm engagement",
+        "vibe": "cinematic / late night creative / aesthetic tech moment"
+      },
+      "wardrobe": {
+        "top": "oversized dark charcoal or black crewneck sweatshirt — blends into the dark background, making her illuminated face the sole focus",
+        "visible": "upper body and face, everything else is dark",
+        "jewelry": "small gold stud earrings catching the screen light, a thin gold ring on her hand as it opens the laptop",
+        "nails": "short, dark or neutral — visible as she lifts the lid",
+        "no_visible_brands": true
+      },
+      "props": {
+        "laptop": "Apple MacBook (silver), closed at the start, she slowly opens the lid — the screen is the ONLY light source in the scene (no Apple logo glow visible from this angle since lid faces away)",
+        "screen_content": "a warm-toned, softly glowing abstract interface with no readable text, no logos, no recognizable apps — just a gentle luminous surface",
+        "background_silhouettes": [
+          "a lit candle with a very faint warm glow on a shelf behind her",
+          "silhouette of stacked books",
+          "the outline of a potted plant",
+          "faint shape of a window with drawn curtains"
+        ]
+      },
+      "setting": {
+        "location": "dim bedroom or home office, late evening or night",
+        "details": [
+          "room is intentionally dark — the laptop screen is the primary light source",
+          "a desk or table surface where the laptop sits",
+          "behind her: only dark silhouettes and one faint candle glow",
+          "the darkness creates a natural vignette around her illuminated face",
+          "intimate, focused, late-night-creative atmosphere"
+        ],
+        "color_palette": [
+          "#0A0A0A",
+          "#1A1A18",
+          "#E8D5C4",
+          "#7BA4C9",
+          "#D4A054",
+          "#2A2A28"
+        ]
+      },
+      "camera": {
+        "shot": "medium close-up, across the table from her, face-level, slightly below eye level to capture the under-lighting effect",
+        "rig_feel": "camera sitting on the desk surface across from her, looking up slightly at her face",
+        "movement": "completely locked — all movement comes from the laptop lid opening and the light gradually spreading",
+        "framing": "she fills the center and upper two-thirds of frame, the laptop lid edge visible at the bottom of frame (partially), dark room surrounding her",
+        "lens_feel": "85mm portrait, very shallow depth of field, her face in sharp focus, everything behind her is dark soft shapes",
+        "focus": "razor sharp on her eyes, the screen light reflection in her pupils, her illuminated skin texture"
+      },
+      "lighting": {
+        "key": "ONLY the MacBook screen — this is the entire lighting concept. As the lid opens, the cool-white screen light gradually washes upward across her face from below. Under-lighting creates dramatic shadows above her brow and nose",
+        "fill": "a single tiny candle flame far behind her providing the faintest warm counter-light on her hair edge — just enough to separate her from pure black",
+        "mood": "dramatic, cinematic, intimate, focused — like the opening shot of a film",
+        "color_temp": "screen light: 5500K cool white with slight warmth from the interface color, candle: 2200K deep amber",
+        "highlights": "screen light reflecting in both her pupils (two small bright points), gleam on her lower lip, light catching her earring, the screen glow washing across her jawline and cheekbones"
+      },
+      "action_timeline": [
+        {
+          "time": "0.0-1.0s",
+          "beat": "near-darkness — only the faint candle glow and her silhouette are barely visible. Her hands reach for the laptop lid."
+        },
+        {
+          "time": "1.0-3.0s",
+          "beat": "she begins to slowly open the MacBook lid. A thin line of light appears and expands, first illuminating her chin and lower face. The reveal begins."
+        },
+        {
+          "time": "3.0-5.0s",
+          "beat": "the lid opens further — the light washes up to her eyes, which catch the glow and reflect it. Her full face is now visible, dramatically lit from below. Her expression shifts from neutral to engaged."
+        },
+        {
+          "time": "5.0-6.5s",
+          "beat": "the lid is fully open. Her face is now bathed in the screen's glow. She settles in, her eyes scanning the screen, a subtle smile of recognition or interest forming."
+        },
+        {
+          "time": "6.5-8.0s",
+          "beat": "she tilts her head very slightly, the light shifting subtly across her features. Her eyes stay locked on the screen. The moment holds — her illuminated face floating in darkness."
+        }
+      ],
+      "spoken_lines": {
+        "dialogue": "none",
+        "ambient_sounds": [
+          "soft mechanical sound of the MacBook hinge opening",
+          "very faint startup chime or soft system sound (subtle)",
+          "quiet room tone — the silence of a focused late night",
+          "barely audible fabric rustle as she adjusts"
+        ]
+      },
+      "no_text_no_graphics": {
+        "on_screen_text": "NONE",
+        "captions": "NONE",
+        "app_icons": "NONE",
+        "logos": "NONE (no Apple logo visible)",
+        "watermarks": "NONE",
+        "stickers": "NONE",
+        "screen_content": "warm abstract luminous surface, no text, no recognizable UI",
+        "note": "deliver a clean plate — the light reveal is the hook"
+      },
+      "audio": {
+        "background_music": "none (clean audio for editor)",
+        "ambient": "laptop hinge sound, quiet room, faint system tone"
+      },
+      "style_keywords": [
+        "screen light",
+        "under-lighting",
+        "dark room reveal",
+        "dramatic",
+        "cinematic",
+        "face illumination",
+        "tech aesthetic",
+        "moody",
+        "portrait",
+        "visual hook",
+        "clean plate"
+      ],
+      "negative_prompt": [
+        "room lights on",
+        "bright environment",
+        "visible screen text or apps",
+        "Apple logo",
+        "any camera movement",
+        "harsh or flat lighting",
+        "multiple light sources",
+        "warped hands or fingers",
+        "distorted face",
+        "overly sexualized framing"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-mindblown-reaction",
+    "title": "Raw UGC Mind-Blown Reaction",
+    "description": "A raw selfie video of a young Lebanese girl having a genuine mind-blown moment while looking at her screen.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Raw selfie video of a Lebanese girl in her early 20s having a mind-blown moment. She just saw something insane on her phone or laptop and her brain literally cannot process. Hands fly to her head, eyes huge, silent 'whoa'. Pure raw UGC, like she accidentally kept the camera on.",
+      "format": {
+        "duration_seconds": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "Raw iPhone front camera, untouched"
+      },
+      "character": {
+        "ethnicity": "Lebanese (Middle Eastern)",
+        "age_range": "23-26",
+        "hair": "long dark brown wavy hair, slightly frizzy, second-day hair feel, one side falling forward",
+        "skin": "warm medium olive skin with realistic texture, real pores, traces of yesterday's mascara, slight oiliness on t-zone, no foundation, just chapstick and old eyeliner remnants",
+        "eyes": "deep dark brown, blowing wide open at the peak, real whites visible above iris",
+        "expression": "genuine mind-blown awe — eyes huge, mouth open in silent 'whoa', hands flying to head"
+      },
+      "wardrobe": {
+        "top": "warm taupe oversized t-shirt or hoodie, slightly stretched, no logo",
+        "nails": "plum nail polish, slightly chipped on a couple of fingers",
+        "no_visible_brands": true
+      },
+      "setting": {
+        "location": "her bedroom, sitting on the bed or floor",
+        "details": [
+          "unmade bed, pillows piled, blanket bunched",
+          "laptop or phone screen glow visible on her face from below",
+          "warm bedside lamp light + slight cool screen glow mix",
+          "wall with a print or photo slightly visible behind",
+          "very lived-in real bedroom"
+        ]
+      },
+      "camera": {
+        "shot": "selfie medium close-up, slightly wider so hands can enter frame on either side of head",
+        "angle": "phone held or propped, slight low-angle from below chest level",
+        "lens_feel": "iPhone front camera, 1x, real selfie distortion",
+        "movement": "noticeable handheld shake especially when she reacts"
+      },
+      "lighting": {
+        "key": "warm bedroom lamp + cool screen glow on her face, mixed temperatures",
+        "mood": "evening at home, late-scrolling vibe",
+        "catchlights": "screen glow reflected in wide eyes"
+      },
+      "image_quality": {
+        "grain": "noticeable low-light grain",
+        "compression": "social-tier",
+        "color": "ungraded, mixed warm/cool cast",
+        "no_filters": true,
+        "imperfections": "slight motion blur on hand movement"
+      },
+      "micro_idle_before_reaction": "0.0-0.4s eyes locked on screen below frame, lips just barely parted, you can see her processing",
+      "action_timeline": [
+        {
+          "time": "0.0-0.4s",
+          "beat": "Eyes locked downward at her phone or laptop screen, lips parting slightly, brows beginning to raise. The 'wait what' before the explosion."
+        },
+        {
+          "time": "0.4-1.0s",
+          "beat": "Boom: eyes fly fully open with whites visible above iris, mouth opens in a silent 'whoa', both hands snap up from below frame to either side of head, fingers spreading messily — not symmetric"
+        },
+        {
+          "time": "1.0-2.5s",
+          "beat": "Peak shock-awe: hands hold at head level with fingers spread, head shakes slowly side to side, says quietly 'no way' or 'olamaz' or just a breathy 'whaaat', eyes stay huge"
+        },
+        {
+          "time": "2.5-4.0s",
+          "beat": "Slow recovery: one hand drops to cheek, the other stays up, mouth half-closes, eyes still wide, looks slightly off-camera processing. 'I genuinely cannot' hold."
+        }
+      ],
+      "gesture_rules": {
+        "movement_style": "Sharp explosion outward, then slow uneven recovery. Hands aren't symmetric.",
+        "realism_ticks": [
+          "asymmetric finger spread between left and right hand",
+          "real eye widening with white above iris",
+          "subtle disbelieving head shake",
+          "silent gasp not a scream",
+          "real breath-driven shoulder rise",
+          "messy hair moving from her motion",
+          "looking at screen below frame, not at camera"
+        ]
+      },
+      "no_text_no_graphics": {
+        "all_elements": "NONE",
+        "note": "Raw clip only. No text, no overlays, no logos, no UI, no watermarks. No explosion graphics."
+      },
+      "negative_prompt": [
+        "explosion graphic effects",
+        "studio lighting",
+        "ring light",
+        "professional photography",
+        "perfect makeup",
+        "smooth skin",
+        "beauty filter",
+        "color graded",
+        "cinematic",
+        "tripod",
+        "model pose",
+        "uncanny valley",
+        "plastic skin",
+        "perfectly symmetric hand placement",
+        "theatrical overacting",
+        "looking directly at camera entire time"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-murat-131-space",
+    "title": "Murat 131 in Deep Space",
+    "description": "An epic and absurd cinematic 10-second shot of a vintage Turkish Murat 131 sedan drifting majestically through deep space.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "shot": {
+        "type": "wide cinematic tracking shot with cockpit cutaways",
+        "subject": "Murat 131, vintage Turkish sedan (Tofaş Murat 131), faded beige paint, slightly rusty bumper, one headlight crooked",
+        "action": "majestically drifting through deep space, rotating slowly on its axis as if in zero gravity",
+        "camera_movement": "slow orbital dolly around the car, occasional dramatic push-in on the hood ornament, Kubrick-style symmetrical framing",
+        "duration": "10 seconds"
+      },
+      "environment": {
+        "location": "deep space, somewhere between Jupiter and Saturn",
+        "background": "swirling nebulas in purple and magenta, distant stars, a small planet with rings in the corner",
+        "scale": "vast cosmic emptiness contrasting with the humble little sedan",
+        "atmosphere": "absolute silence of space, occasional cosmic dust drifting past"
+      },
+      "cinematography": {
+        "style": "2001: A Space Odyssey meets Yeşilçam comedy",
+        "reference_directors": [
+          "Stanley Kubrick",
+          "Wes Anderson",
+          "Ertem Eğilmez"
+        ],
+        "lens": "70mm wide, deep focus, slight fisheye on close-ups",
+        "color_grade": "deep cosmic blues and purples with warm tungsten glow from car's interior dome light",
+        "lighting": "key light from a distant sun creating long dramatic shadows, soft fill from nebula glow",
+        "frame_rate": "24fps, slow majestic pacing"
+      },
+      "comedic_details": {
+        "interior": "driver's seat empty but a worry bead (tespih) floats in zero-g near the rearview mirror, a half-eaten simit drifts past the dashboard",
+        "exterior_quirks": "Turkish license plate '34 MURAT 131', a small evil eye (nazar boncuğu) suction-cupped to the rear window, faded 'Maşallah' sticker on the back",
+        "physics_humor": "the car's antenna wobbles gently, exhaust pipe occasionally puffs out a tiny cartoon smoke ring",
+        "unexpected_element": "a single çay glass with steam still rising floats serenely beside the car, defying all logic"
+      },
+      "sound_design_cue": {
+        "audio": "Strauss-style orchestral swell (Also Sprach Zarathustra parody), then suddenly a faint Turkish folk arabesque song crackling from the car radio, distant engine sputter"
+      },
+      "mood": "epic and absurd, dignified yet ridiculous, cosmic loneliness with Anatolian soul",
+      "negative_prompt": [
+        "modern car",
+        "sports car",
+        "futuristic vehicle",
+        "sci-fi spaceship",
+        "damaged car",
+        "dark mood",
+        "horror elements",
+        "photorealistic astronaut",
+        "cartoonish style"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-ok-good-best",
+    "title": "Ok → Good → Best (Clean Plate UGC)",
+    "description": "Pinterest-aesthetic Turkish creator. Slow, deliberate three-pose B-roll. Holds each pose while saying one word. Clean plate for CapCut editing.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Pinterest-aesthetic Turkish creator films a slow, deliberate clean-plate B-roll. ONE pose per word, each pose held still for ~3 seconds. She calmly points to her LEFT and softly says 'ok' (HOLDS the pose), then points UP and says 'good' (HOLDS), then points to her RIGHT and says 'best' (HOLDS). No repeating, no extra hand movement, no waving, no frantic gestures. Clean plate so editor can add icons in CapCut over each held pose.",
+      "format": {
+        "duration_seconds": 10,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "Instagram Reels / TikTok"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age_range": "22-26",
+        "hair": "long, loose beach waves, honey blonde with subtle lighter highlights, soft middle part, slightly tousled",
+        "skin": "warm fair-medium, glowy 'clean girl' makeup, dewy finish, soft blush, glossy nude-pink lip, subtle bronzer, fluttery natural lashes",
+        "eyes": "light hazel, soft eye contact with camera",
+        "expression": "calm, confident, soft smile, micro-smirk on the final 'best'",
+        "vibe": "Pinterest 'that girl' / soft luxe / clean aesthetic"
+      },
+      "wardrobe": {
+        "top": "fitted ribbed tank top with thin spaghetti straps, soft pastel tone (butter yellow OR sage green OR powder blue), flattering neckline with a hint of decolletage, completely plain — absolutely no logos, no text, no prints",
+        "jewelry": "dainty gold layered necklaces, small gold hoops, one thin gold ring",
+        "nails": "short almond, milky-white or soft chrome",
+        "no_visible_brands": true
+      },
+      "setting": {
+        "location": "her bedroom corner, Pinterest-curated",
+        "details": [
+          "cream linen curtains with soft daylight diffusing through",
+          "rattan or cane headboard slightly out of focus behind her",
+          "neutral boucle accent chair",
+          "small marble nightstand with a glass vase of dried pampas grass and a stack of hardcover books",
+          "warm beige and off-white palette with terracotta and sage accents",
+          "framed minimal line-art print on the wall (no readable text)",
+          "soft fairy lights or warm lamp glow in the bokeh background"
+        ],
+        "color_palette": [
+          "#F5EDE2",
+          "#E8D5C4",
+          "#C9B79C",
+          "#A8B5A0",
+          "#D4A574"
+        ]
+      },
+      "camera": {
+        "shot": "medium close-up, chest up, phone-style front-camera framing",
+        "angle": "eye level, very slight low angle",
+        "movement": "locked-off, completely still tripod look",
+        "lens_feel": "iPhone selfie cam, natural depth of field, mild background blur",
+        "focus": "sharp on her face",
+        "headroom": "leave clean negative space above her head and on both sides of her face for icons to be added later in editing"
+      },
+      "lighting": {
+        "key": "soft natural window light from camera-left, golden hour warmth",
+        "fill": "subtle bounce from a white wall on camera-right",
+        "mood": "warm, glowy, airy, no harsh shadows",
+        "color_temp": "around 4500K with golden tint"
+      },
+      "action_timeline": [
+        {
+          "time": "0.0-0.5s",
+          "beat": "centered, hands relaxed at chest level, soft smile, calm eye contact"
+        },
+        {
+          "time": "0.5-1.0s",
+          "beat": "smoothly raises her right index finger and points to HER LEFT (camera-right side of frame), arm bent at elbow, finger extended at head height"
+        },
+        {
+          "time": "1.0-3.5s",
+          "beat": "HOLDS the left-pointing pose perfectly still, calmly says 'ok', soft smile, no other movement"
+        },
+        {
+          "time": "3.5-4.0s",
+          "beat": "smoothly transitions: brings hand up and points STRAIGHT UP above her head with index finger"
+        },
+        {
+          "time": "4.0-6.5s",
+          "beat": "HOLDS the upward-pointing pose perfectly still, calmly says 'good', soft smile, no other movement"
+        },
+        {
+          "time": "6.5-7.0s",
+          "beat": "smoothly transitions: lowers and crosses hand to point to HER RIGHT (camera-left side of frame), arm bent, finger at head height"
+        },
+        {
+          "time": "7.0-9.5s",
+          "beat": "HOLDS the right-pointing pose perfectly still, calmly says 'best', subtle smirk, no other movement"
+        },
+        {
+          "time": "9.5-10.0s",
+          "beat": "drops hand softly, closed-mouth smile, holds eye contact"
+        }
+      ],
+      "gesture_rules": {
+        "only_three_gestures_total": true,
+        "one_gesture_per_word": true,
+        "hold_each_pose_for_full_duration": "~2.5 seconds each",
+        "transitions_between_poses": "smooth and slow, ~0.5s each",
+        "do_not": [
+          "wave the finger",
+          "shake or jiggle the hand",
+          "make extra hand movements",
+          "repeat the sequence",
+          "tilt head dramatically",
+          "use both hands",
+          "do micro-gestures while holding"
+        ]
+      },
+      "spoken_lines": {
+        "language": "English",
+        "voice": "soft, warm, slightly girly, casual, unhurried",
+        "exact_words_in_order": [
+          "ok",
+          "good",
+          "best"
+        ],
+        "pacing": "one word per held pose, calm and clear, no repeating",
+        "no_other_dialogue": true
+      },
+      "no_text_no_graphics": {
+        "on_screen_text": "NONE",
+        "captions": "NONE",
+        "app_icons": "NONE",
+        "logos": "NONE",
+        "watermarks": "NONE",
+        "stickers": "NONE",
+        "note": "deliver a clean plate — all text, icons, and graphics will be added later in CapCut"
+      },
+      "audio": {
+        "background_music": "none (clean audio so editor can add music in CapCut)",
+        "ambient": "very subtle room tone, no traffic or background voices"
+      },
+      "style_keywords": [
+        "Pinterest aesthetic",
+        "clean girl",
+        "soft luxe",
+        "warm neutrals",
+        "natural light",
+        "cinematic phone-shot look",
+        "feminine minimal",
+        "cozy bedroom",
+        "calm and deliberate",
+        "clean plate"
+      ],
+      "negative_prompt": [
+        "frantic finger waving",
+        "shaky hand",
+        "multiple gestures per word",
+        "repeating the ok/good/best cycle",
+        "any on-screen text",
+        "any captions or subtitles",
+        "any logos or brand marks",
+        "any app icons or stickers",
+        "watermarks",
+        "harsh flash lighting",
+        "cluttered background",
+        "neon colors",
+        "heavy makeup",
+        "dark or moody tones",
+        "low resolution",
+        "warped hands or fingers",
+        "extra fingers",
+        "distorted face",
+        "overly sexualized framing"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-realization-reaction",
+    "title": "Raw UGC Realization Reaction",
+    "description": "A raw selfie video of a young Slavic girl slowly realizing she forgot to cancel a free trial, captured with real-life UGC energy.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Raw selfie video of a Russian/Slavic girl in her early 20s. She's sitting in her car or at her kitchen table and slowly realizes something — like she just remembered she forgot to cancel a free trial. The realization creeps in across 4 seconds. Pure UGC, captured-in-real-life energy.",
+      "format": {
+        "duration_seconds": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "Raw iPhone front camera, ungraded"
+      },
+      "character": {
+        "ethnicity": "Slavic (Russian/Ukrainian)",
+        "age_range": "22-25",
+        "hair": "ash blonde hair, slightly greasy at the roots like day-3 hair, half-up clip, frizzy strands at the temples",
+        "skin": "very fair skin with cool undertones, real texture with visible pores, faint redness around nose, dry patch on one cheek, no foundation, just chapstick",
+        "eyes": "pale grey-blue eyes, slightly tired, no mascara, faint dark circles",
+        "expression": "blank zoned-out face slowly transforms into 'oh no' realization, in stages"
+      },
+      "wardrobe": {
+        "top": "worn dove grey crewneck sweatshirt, slightly pilled fabric, sleeves pushed up unevenly",
+        "nails": "bare short nails, no polish, slightly bitten",
+        "no_visible_brands": true
+      },
+      "setting": {
+        "location": "either her car (driver's seat, parked) or kitchen table — choose car for stronger UGC feel",
+        "details": [
+          "if car: seatbelt visible, dashboard slightly out of focus, gray winter daylight outside windshield",
+          "if kitchen: cluttered counter behind, half-eaten food, mug, crumbs, real apartment mess",
+          "no decorative styling whatsoever"
+        ]
+      },
+      "camera": {
+        "shot": "selfie medium close-up, face and upper chest",
+        "angle": "phone held in one hand at chest height, slight tilt, not straight",
+        "lens_feel": "iPhone front camera, 1x, mild distortion",
+        "movement": "very subtle handheld drift, breathing-level shake"
+      },
+      "lighting": {
+        "key": "flat overcast daylight or dim apartment ambient — nothing flattering",
+        "mood": "everyday, unposed, slightly drained energy",
+        "catchlights": "faint, possibly just window or windshield reflection"
+      },
+      "image_quality": {
+        "grain": "slight low-light noise",
+        "compression": "social-tier compression",
+        "color": "ungraded, slight cool cast",
+        "no_filters": true,
+        "imperfections": "occasional minor focus drift"
+      },
+      "micro_idle_before_reaction": "0.0-1.2s genuine blank zone-out, no acting, slow involuntary blink, mouth slightly open",
+      "action_timeline": [
+        {
+          "time": "0.0-1.2s",
+          "beat": "Vacant, zoned-out stare. Eyes unfocused. One slow tired blink. Mouth slightly slack. She's not reacting yet — she's just existing."
+        },
+        {
+          "time": "1.2-2.4s",
+          "beat": "Something clicks: eyes sharpen, refocus, blink twice quickly, brows start to pull up. Lips move slightly like she's mouthing 'wait...'"
+        },
+        {
+          "time": "2.4-3.4s",
+          "beat": "Full realization: eyes widen, mouth opens about an inch, sharp inhale through nose, head pulls back slightly, says quietly 'oh no' or 'shit'"
+        },
+        {
+          "time": "3.4-4.0s",
+          "beat": "Hand comes up partially into frame to rub her forehead or cover her mouth, eyes go off-camera as she's now mentally calculating. Self-talks under breath."
+        }
+      ],
+      "gesture_rules": {
+        "movement_style": "Slow biological progression. Each beat lags slightly behind the last like a real cognitive process.",
+        "realism_ticks": [
+          "involuntary tired blink in idle",
+          "real lip movement of mouthing words",
+          "audible-feeling inhale at peak",
+          "hand drifts up unconsciously, not on a planned beat",
+          "looks away from camera at the end (real people don't perform to camera)"
+        ]
+      },
+      "no_text_no_graphics": {
+        "all_elements": "NONE",
+        "note": "Raw clip only. No overlays, no logos, no UI, no captions, no watermarks."
+      },
+      "negative_prompt": [
+        "fast reaction",
+        "jump scare",
+        "studio lighting",
+        "professional photography",
+        "ring light",
+        "model pose",
+        "perfect makeup",
+        "smooth skin",
+        "beauty filter",
+        "color graded",
+        "cinematic",
+        "tripod",
+        "perfectly framed",
+        "looking at camera entire time",
+        "uncanny valley",
+        "plastic skin"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-side-eye-reaction",
+    "title": "Raw UGC Side-Eye Reaction",
+    "description": "A raw selfie video of a young Turkish girl giving a skeptical side-eye reaction while listening to someone off-camera.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Raw selfie video of a Turkish girl in her early 20s. Someone (off-camera, like her friend or boyfriend) just said something sus and she gives them THE side-eye while her phone is rolling. Caught in the moment. Pure raw UGC — feels like a Snapchat clip her friend would send back to roast her.",
+      "format": {
+        "duration_seconds": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "Raw iPhone front camera, untouched"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age_range": "22-25",
+        "hair": "dark chestnut brown hair, half-up half-down with a claw clip, some flyaways, looks like she fixed it once and gave up",
+        "skin": "warm light olive skin, real texture, slight oiliness on forehead, faded eyebrow gel showing real brow hairs, no foundation, just lip balm and maybe leftover under-eye concealer",
+        "eyes": "hazel-brown, light traces of yesterday's eyeliner smudged, not freshly made up",
+        "expression": "skeptical sideways look, one brow up, small disbelieving smirk, like 'are you serious right now'"
+      },
+      "wardrobe": {
+        "top": "oversized warm camel sweatshirt or worn-in tee, slightly stretched neckline, no logo",
+        "nails": "wine red polish but slightly chipped on at least one nail",
+        "no_visible_brands": true
+      },
+      "setting": {
+        "location": "her room or a friend's couch, low-effort setting",
+        "details": [
+          "blanket bunched up next to her",
+          "phone charger or earphones visible somewhere",
+          "wall slightly visible with a print or random sticker",
+          "warm bedside or floor lamp lighting, dim",
+          "lived-in clutter, not styled"
+        ]
+      },
+      "camera": {
+        "shot": "selfie close-up, face and shoulders",
+        "angle": "phone held in one hand, slight tilt to one side",
+        "lens_feel": "iPhone front camera, 1x, real selfie distortion",
+        "movement": "noticeable handheld micro-shake, like she's holding it casually"
+      },
+      "lighting": {
+        "key": "warm dim apartment light, uneven on her face",
+        "mood": "evening at home, low-key",
+        "catchlights": "soft warm reflection in eyes"
+      },
+      "image_quality": {
+        "compression": "social media compression visible",
+        "grain": "slight low-light grain",
+        "color": "ungraded, warm yellow cast from lamp",
+        "no_filters": true
+      },
+      "micro_idle_before_reaction": "0.0-0.6s casually looking at camera with a small neutral 'mhm' face, like she's listening to someone talk",
+      "action_timeline": [
+        {
+          "time": "0.0-0.6s",
+          "beat": "Casual neutral face, looking semi-at the camera, slight head nod like she's listening to someone talk off-screen"
+        },
+        {
+          "time": "0.6-1.1s",
+          "beat": "Eyes snap sharply to the side without head moving much, one eyebrow lifts in skeptical arch, mouth pulls into a closed-lip smirk on one side"
+        },
+        {
+          "time": "1.1-2.5s",
+          "beat": "Holds side-eye, blinks slowly once, smirk twitches, says quietly under breath 'hmmm' or 'cidden mi?' or just an exhaled laugh"
+        },
+        {
+          "time": "2.5-4.0s",
+          "beat": "Eyes drift back toward camera but with the smirk still locked in, eyebrow stays up, gives a tiny 'I don't believe you' head shake. Holds the receipts-energy."
+        }
+      ],
+      "gesture_rules": {
+        "movement_style": "Eye-driven and slow-burn. The face is doing 90% of the work, the head barely moves.",
+        "realism_ticks": [
+          "asymmetric brows (one up, one normal)",
+          "real smirk twitch on one side",
+          "audible little exhale-laugh",
+          "head stays mostly forward",
+          "casual unfixed posture"
+        ]
+      },
+      "no_text_no_graphics": {
+        "all_elements": "NONE",
+        "note": "Raw selfie clip only. No overlays, no UI, no text, no logos."
+      },
+      "negative_prompt": [
+        "head fully turning sideways",
+        "studio lighting",
+        "ring light",
+        "professional makeup",
+        "perfect skin",
+        "beauty filter",
+        "color graded",
+        "cinematic",
+        "tripod stability",
+        "model pose",
+        "uncanny valley",
+        "plastic skin",
+        "both eyebrows up symmetrically",
+        "exaggerated theatrical face"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-that-girl-smoothie-prep",
+    "title": "That Girl Morning Smoothie Prep",
+    "description": "Cinematic over-the-shoulder shot of a chic Turkish woman slicing fresh fruit for a smoothie in a bright Scandinavian kitchen — 8-second clean plate for CapCut.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "A bright, cinematic over-the-shoulder shot looking down at a kitchen island where a chic Turkish woman is slicing fresh fruit for a smoothie. The camera peers just over her shoulder, capturing her hands, the cutting board with vibrant fruits, and the sunlit kitchen counter. Her face is partially visible in a three-quarter profile. Morning sunlight streams across the white countertop. No talking, no overlays — just the rhythm of the prep.",
+      "format": {
+        "duration_seconds": 8,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "TikTok / Pinterest 'that girl' morning routine"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age_range": "24-28",
+        "hair": "messy high bun, honey-brown, a few loose strands falling around her neck and ears",
+        "skin": "warm fair, fresh bare skin with a natural morning glow, no makeup",
+        "expression": "calm focus on the task, slight contentment visible in her three-quarter profile",
+        "vibe": "'that girl' / healthy morning / Pinterest kitchen goals"
+      },
+      "wardrobe": {
+        "top": "loose cropped white t-shirt, slightly sheer from the morning light, no logos or text",
+        "bottoms": "high-waisted sage-green linen lounge pants, partially visible",
+        "jewelry": "thin gold chain necklace, a simple hair claw clip in tortoiseshell holding the bun",
+        "nails": "short, clean, clear gloss",
+        "no_visible_brands": true
+      },
+      "props": {
+        "cutting_board": "large wooden cutting board with sliced strawberries, a halved banana, a small pile of blueberries, and a few mint leaves",
+        "knife": "simple chef's knife, ceramic or steel, no visible brand markings",
+        "on_counter": [
+          "a clear glass blender jar (no brand logo) waiting to be filled",
+          "a small glass bottle of oat milk",
+          "a ceramic bowl of whole strawberries",
+          "a folded linen kitchen towel in cream",
+          "a small potted herb (basil or mint) in a white ceramic pot"
+        ]
+      },
+      "setting": {
+        "location": "bright, minimal Scandinavian-Pinterest kitchen",
+        "details": [
+          "white marble or quartz kitchen island countertop",
+          "light oak open shelving with a few ceramic jars and plates",
+          "a window above the sink letting in bright morning sun",
+          "white subway tile backsplash",
+          "a trailing pothos plant on the shelf edge",
+          "everything clean, minimal, organized"
+        ],
+        "color_palette": [
+          "#FFFFFF",
+          "#F5F0E8",
+          "#A8B5A0",
+          "#E84B5C",
+          "#F5D26E",
+          "#4A6741"
+        ]
+      },
+      "camera": {
+        "shot": "over-the-shoulder, looking down at about 30-degree angle toward the cutting board and counter",
+        "rig_feel": "as if someone is standing just behind her right shoulder, looking over and down",
+        "movement": "completely locked, no movement",
+        "framing": "her right shoulder and partial profile in the left edge of frame (slightly soft), the cutting board and her hands centered, kitchen counter extends to the right",
+        "lens_feel": "50mm equivalent, natural perspective, moderate depth of field — hands and food in sharp focus, background kitchen softly out of focus",
+        "focus": "sharp on her hands and the fruit on the cutting board"
+      },
+      "lighting": {
+        "key": "bright morning sunlight streaming from a window to the right, casting crisp highlights on the white counter and the fruit",
+        "fill": "bounce from the white countertop and tiles illuminating from below",
+        "mood": "bright, fresh, energizing, clean morning light",
+        "color_temp": "5500K clean daylight with slight warmth",
+        "highlights": "vivid color pop on the red strawberries and green mint, bright gleam on the knife blade, sun catching the glass blender"
+      },
+      "action_timeline": [
+        {
+          "time": "0.0-2.0s",
+          "beat": "static shot: her hands place a strawberry on the cutting board, she picks up the knife"
+        },
+        {
+          "time": "2.0-4.5s",
+          "beat": "she slices the strawberry in smooth, deliberate cuts — satisfying ASMR-like precision, juice glistening"
+        },
+        {
+          "time": "4.5-6.0s",
+          "beat": "she sweeps the sliced strawberries off the board into the blender jar with the flat of the knife"
+        },
+        {
+          "time": "6.0-7.5s",
+          "beat": "she reaches for the blueberries, drops a handful into the blender, a few bouncing slightly"
+        },
+        {
+          "time": "7.5-8.0s",
+          "beat": "she pauses, her head tilts slightly as if admiring the colorful arrangement in the blender — moment holds"
+        }
+      ],
+      "spoken_lines": {
+        "dialogue": "none",
+        "ambient_sounds": [
+          "crisp knife-on-cutting-board sounds (satisfying, rhythmic)",
+          "soft thud of fruit being placed",
+          "gentle clink of the glass blender",
+          "faint birdsong from the open window"
+        ]
+      },
+      "no_text_no_graphics": {
+        "on_screen_text": "NONE",
+        "captions": "NONE",
+        "app_icons": "NONE",
+        "logos": "NONE (no brand marks on any kitchen items)",
+        "watermarks": "NONE",
+        "stickers": "NONE",
+        "screen_content": "N/A",
+        "note": "deliver a clean plate — all text and graphics will be added later in CapCut"
+      },
+      "audio": {
+        "background_music": "none (clean audio for editor)",
+        "ambient": "knife cuts, fruit sounds, birdsong, quiet kitchen tone"
+      },
+      "style_keywords": [
+        "over-the-shoulder",
+        "kitchen",
+        "morning routine",
+        "that girl",
+        "healthy living",
+        "fruit prep",
+        "ASMR cutting",
+        "bright minimal",
+        "Pinterest kitchen",
+        "clean plate"
+      ],
+      "negative_prompt": [
+        "front-facing shot",
+        "top-down overhead",
+        "any camera movement",
+        "brand logos on appliances",
+        "messy or cluttered kitchen",
+        "dark or moody lighting",
+        "fast or frantic movement",
+        "warped hands or fingers",
+        "extra fingers",
+        "distorted face",
+        "overly sexualized framing"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-ugc-good-morning",
+    "title": "UGC 'Good Morning' Wake Up Vlog",
+    "description": "Hyper-realistic UGC-style 'good morning' moment. Natural American blonde waking up in a coastal Pinterest bedroom. Propped iPhone feel.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Hyper-realistic UGC-style 'good morning' moment, shot like a real iPhone selfie video. The natural American blonde girl is waking up in her airy USA-coastal Pinterest bedroom. Her iPhone is propped up on the nightstand at a slightly imperfect angle — feels like she set it up herself for a casual morning vlog. She stirs under her white linen duvet, slowly opens her eyes, sits up, runs a hand through her tousled hair, and stretches with a sleepy smile. Looks like authentic iPhone footage, not a cinematic production.",
+      "format": {
+        "duration_seconds": 10,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "raw iPhone UGC / morning vlog Reel"
+      },
+      "shot_aesthetic": {
+        "device_simulation": "shot on iPhone 15/16 front or back camera, native iOS color science",
+        "look_and_feel": [
+          "vertical phone-held framing",
+          "natural iPhone lens compression and very mild barrel distortion",
+          "iPhone-style auto-exposure that subtly shifts as she moves into the light",
+          "iPhone auto-white-balance with slight cool morning shift",
+          "very mild lens flare from the window",
+          "natural iPhone sharpening — sharp on faces but with realistic skin texture",
+          "barely-there compression artifacts in shadows for authenticity",
+          "no cinema-grade color grade, no LUT, no film grain — just clean iPhone-native look"
+        ]
+      },
+      "character": {
+        "ethnicity": "American (white, Southern California / clean girl-next-door look)",
+        "age": "around 24-27",
+        "height_cm": 170,
+        "weight_kg": 55,
+        "build": "athletic and feminine — sporty toned shoulders and arms, defined collarbones, slim waist, soft natural curves; pilates-and-runs body",
+        "skin": "fair, naturally glowy with a hint of sun-kissed warmth, subtle freckles across the bridge of her nose and cheekbones, a tiny natural sleep-mark on one cheek, real visible pores and skin texture",
+        "hair": "long, natural beachy-wavy honey blonde with subtle lighter highlights, soft middle part, tousled and messy from sleep, falling past her shoulders",
+        "makeup": "barely-there 'just woke up' — clean bare skin, no visible makeup, soft naturally-pink lips, faint smudge of yesterday's mascara at the corner of one eye, full natural brows",
+        "eyes": "warm blue or soft hazel, sleepy and squinting in the morning light",
+        "face": "soft natural face — small natural imperfections (a tiny mole, faint freckles), real human texture, NOT airbrushed or AI-plastic",
+        "expression_arc": "still asleep → small stir → soft squint as eyes open → sleepy slow blink → small genuine sleepy smile",
+        "vibe": "authentic American girl-next-door, real and approachable — looks like a real person filming a real morning"
+      },
+      "wardrobe": {
+        "top": "soft oversized vintage-style white cotton t-shirt with a slightly stretched neckline, plain (no logos or text), the collar slipped a bit off one shoulder from sleep",
+        "bottoms": "barely visible under the duvet — soft cotton boy shorts or light grey lounge shorts",
+        "jewelry": "one thin gold necklace and a small gold ring she wore to bed (lived-in detail)",
+        "nails": "short oval, soft milky-pink, slightly chipped on one nail for realism",
+        "no_visible_brands": true
+      },
+      "setting": {
+        "location": "airy USA-coastal Pinterest bedroom (Southern California / Hamptons vibe)",
+        "details": [
+          "white-painted shiplap or smooth white walls",
+          "queen bed with crisp white linen bedding, soft cream waffle blanket folded at the foot, two stacked white linen pillows with one accent pillow in soft sage",
+          "light natural oak bed frame, low and modern",
+          "tall double-hung white window with sheer white linen curtains gently swaying, soft morning light filtering through",
+          "view through the window of soft green leaves and a hint of blue sky",
+          "light oak nightstand with: a clear glass of water with a lemon slice, a small stack of two paperback novels, a tortoiseshell hair clip, a tiny glass jar with one wildflower stem, a vintage analog alarm clock with a white face",
+          "soft beige jute rug on light wide-plank oak floors",
+          "a white-painted vintage dresser at the edge of frame with framed Polaroids casually leaning against the wall",
+          "warm-white fairy lights softly draped along the headboard",
+          "a tall snake plant or fiddle-leaf fig in a woven basket in the corner",
+          "an open paperback book face-down on the bed, like she fell asleep reading",
+          "color palette: cool whites, light oak, soft sage, hints of warm cream"
+        ],
+        "color_palette": [
+          "#FFFFFF",
+          "#F5F1EA",
+          "#E8E2D5",
+          "#D4C9B8",
+          "#A8B5A0",
+          "#7B8FA1"
+        ]
+      },
+      "camera": {
+        "device": "iPhone propped on the nightstand at a slightly imperfect angle, leaning against a book or the lamp",
+        "shot_type": "medium-wide static phone shot, framing her from the head down to mid-torso with the window and headboard behind her",
+        "framing_imperfection": "the framing is slightly off-center and tilts about 1-2 degrees, like a real person propped their phone up casually — NOT studio-perfect composition",
+        "angle": "slightly low angle from the nightstand, looking across the bed at her",
+        "movement": [
+          "the phone is technically static (propped up), but with very subtle micro-vibrations as someone breathes near it or the surface shifts slightly",
+          "barely perceptible drift, like a phone on a soft surface",
+          "absolutely no smooth gimbal motion — this should feel propped, not handheld and not on a tripod"
+        ],
+        "lens_feel": "iPhone wide lens look, mild natural compression, sharp focus on her face with iPhone's natural depth",
+        "auto_exposure": "exposure subtly adjusts as she moves — slight brightening on her face when she sits up into the light, very natural"
+      },
+      "lighting": {
+        "key": "soft cool morning daylight from the window, slightly cooler color temp — fresh real morning, not golden hour",
+        "fill": "soft white-wall bounce",
+        "rim": "subtle backlight halo on her hair from the window, with a tiny natural lens flare across the iPhone lens",
+        "mood": "fresh, dreamy, real morning",
+        "color_temp": "around 5500K with a faint cool blue tint, iPhone auto-white-balance correcting throughout"
+      },
+      "action_timeline": [
+        {
+          "time": "0.0-1.5s",
+          "beat": "she's curled on her side under the duvet, hair fanned across the pillow, eyes closed, peaceful and still"
+        },
+        {
+          "time": "1.5-2.5s",
+          "beat": "tiny natural stir — her head shifts slightly on the pillow, fingers twitch lightly"
+        },
+        {
+          "time": "2.5-3.8s",
+          "beat": "slow squint as she opens her eyes against the morning light, real sleepy slow blinks"
+        },
+        {
+          "time": "3.8-5.5s",
+          "beat": "she pushes the duvet down with one hand and slowly sits up, t-shirt collar slipping further off one shoulder, hair tumbling forward"
+        },
+        {
+          "time": "5.5-7.0s",
+          "beat": "she runs her fingers slowly through her tousled hair, pushing it back from her face"
+        },
+        {
+          "time": "7.0-8.5s",
+          "beat": "she stretches both arms upward and slightly back, small natural yawn (covered with the back of her wrist)"
+        },
+        {
+          "time": "8.5-10.0s",
+          "beat": "lowers her arms, turns her head softly toward the window, gives the smallest genuine sleepy smile"
+        }
+      ],
+      "performance_notes": {
+        "tone": "completely natural, unhurried, real — like candid iPhone footage of an actual morning",
+        "camera_awareness": "she does NOT acknowledge the camera, does NOT look at it directly — feels like the phone just happens to be there",
+        "realism_priority": "this should look like a real person filmed by their own propped iPhone, NOT a stylized cinematic production",
+        "do_not": [
+          "open eyes too quickly",
+          "give a wide camera-aware smile",
+          "look at the camera directly",
+          "have perfect TV-ready makeup",
+          "have perfectly styled hair",
+          "make energetic theatrical movements",
+          "yawn dramatically",
+          "look airbrushed",
+          "have cinematic gimbal-smooth camera movement",
+          "have professional studio lighting"
+        ]
+      },
+      "spoken_lines": {
+        "dialogue": "none",
+        "ambient_sounds": [
+          "very soft fabric rustle as she shifts",
+          "tiny natural exhale",
+          "barely-audible quiet yawn",
+          "faint distant birds outside",
+          "very soft morning room tone with iPhone-mic ambient noise floor (subtle realistic mic hiss)"
+        ]
+      },
+      "no_text_no_graphics": {
+        "on_screen_text": "NONE",
+        "captions": "NONE",
+        "logos": "NONE on any item",
+        "watermarks": "NONE",
+        "stickers": "NONE",
+        "iphone_ui_elements": "no time/battery overlay, no recording indicator, no zoom controls — just the clean image",
+        "note": "clean plate — all text and graphics will be added later in CapCut"
+      },
+      "audio": {
+        "background_music": "none",
+        "ambient": "soft fabric rustle, tiny exhale, distant birds, gentle morning room tone, subtle natural iPhone-mic ambience"
+      },
+      "style_keywords": [
+        "UGC iPhone footage",
+        "raw morning vlog",
+        "propped phone POV",
+        "hyper-realistic",
+        "authentic American girl",
+        "girl-next-door",
+        "USA coastal Pinterest bedroom",
+        "natural blonde",
+        "no-makeup clean girl",
+        "real skin texture",
+        "iPhone auto-exposure",
+        "natural morning light",
+        "candid documentary feel",
+        "clean plate"
+      ],
+      "negative_prompt": [
+        "cinematic film look",
+        "cinema camera or DSLR aesthetic",
+        "color-graded LUT",
+        "film grain",
+        "smooth gimbal movement",
+        "tripod-perfect framing",
+        "professional studio lighting",
+        "Asian or Korean features",
+        "Mediterranean look",
+        "very thin or skinny body",
+        "bulky muscular body",
+        "heavy makeup",
+        "perfectly styled hair",
+        "airbrushed AI-plastic skin",
+        "theatrical waking",
+        "direct eye contact with camera",
+        "warm Mediterranean color palette",
+        "beige terracotta tones",
+        "any on-screen text or captions",
+        "iPhone UI overlays",
+        "logos on clothing",
+        "Apple logos",
+        "watermarks",
+        "warped hands or fingers",
+        "extra fingers",
+        "distorted face",
+        "low resolution",
+        "overly sexualized framing"
+      ]
+    }
+  },
+  {
+    "slug": "seedance-video-inception-meta-reveal",
+    "title": "Video Inception Meta Reveal",
+    "description": "A TikTok viral meta-format: what looks like a standard selfie video slowly zooms out to reveal it's playing on a phone held by the SAME Turkish woman in a different setting — video-within-a-video perception break. 8-second clean plate.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "The video opens on what appears to be a standard selfie video — a chic Turkish woman waves at the camera with a friendly smile. For the first 3 seconds, it looks like a normal talking-head UGC video. Then, the camera slowly zooms out to reveal that this 'video' is actually playing on a phone screen being held by the SAME woman, sitting in a completely different setting. The video-within-a-video creates a meta perception break. No talking, no overlays — just the inception reveal.",
+      "format": {
+        "duration_seconds": 8,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "TikTok viral format / meta Reels hook"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age_range": "24-28",
+        "appearance_in_phone_video": {
+          "hair": "up in a clip, casual",
+          "makeup": "minimal, morning face",
+          "top": "plain white tee",
+          "setting": "simple bedroom background"
+        },
+        "appearance_in_real_world": {
+          "hair": "down, styled, different from the phone video version",
+          "makeup": "polished soft glam — showing a contrast to the casual phone version",
+          "top": "elevated outfit — fitted knit top in camel or olive, showing she's 'ready' vs the phone version's casual state",
+          "jewelry": "gold layered necklaces, hoops — more styled than the phone video version"
+        },
+        "expression": "phone version: friendly wave and casual smile. Real version: knowing smirk as she watches herself on the phone, then looks up at the real camera with a raised eyebrow or wink",
+        "vibe": "meta / self-aware creator / clever and playful"
+      },
+      "wardrobe": {
+        "phone_video_version": "casual white tee, hair up — intentionally 'basic' UGC look",
+        "real_world_version": "more elevated — fitted knit top, styled hair down, more jewelry — the contrast is part of the reveal",
+        "no_visible_brands": true
+      },
+      "props": {
+        "phone": "she holds an iPhone or smartphone in her hand, screen facing the camera, playing the 'selfie video' of herself. No brand logo visible on the phone — just the screen content",
+        "real_world_items": [
+          "she's sitting on a sofa or at a café table",
+          "a coffee cup beside her",
+          "warm, styled environment different from the plain bedroom in the phone video"
+        ]
+      },
+      "setting": {
+        "phone_video_setting": "simple bedroom, plain wall, basic ring-light look — intentionally normal and unremarkable",
+        "real_world_setting": {
+          "location": "stylish café or beautifully styled living room — visually richer than the phone video setting",
+          "details": [
+            "warm natural light from a window",
+            "styled environment with plants, warm textures, interesting background",
+            "the contrast between the 'basic' phone video environment and the 'elevated' real environment is part of the reveal's impact"
+          ]
+        },
+        "color_palette": [
+          "#F5EDE2",
+          "#D4A574",
+          "#4A6741",
+          "#FFFFFF",
+          "#8B6F4E",
+          "#C9A87C"
+        ]
+      },
+      "camera": {
+        "shot": "starts TIGHT on the phone screen — the phone screen fills 100% of the frame, making it look like the viewer is watching a normal selfie video. Then slowly zooms out to reveal the phone, her hand, and then her in the wider real-world setting.",
+        "rig_feel": "smooth dolly-out or optical zoom-out, steady and cinematic",
+        "movement": "slow, continuous zoom-out starting at around the 3-second mark. The zoom reveals progressively: phone screen edges → her hand holding the phone → her arm → her face watching the phone → the full café/living room setting",
+        "framing": "Phase 1: phone screen fills entire frame (the 'trick'). Phase 2: zoom-out gradually reveals the phone as an object in a larger scene. Phase 3: medium shot of her holding the phone, looking up at the real camera with a knowing expression.",
+        "lens_feel": "clean, sharp, cinematic — smooth zoom with no artifacts or shake",
+        "focus": "Phase 1: sharp on the phone screen content. Phase 2: focus transitions smoothly from the phone screen to her face in the real world."
+      },
+      "lighting": {
+        "key": "phone video: flat ring-light/selfie lighting (intentionally basic). Real world: warm natural side light from a window, more cinematic and dimensional",
+        "fill": "real world has more interesting lighting — the quality jump from the phone video's flat light to the real world's natural light is noticeable",
+        "mood": "the lighting shift from flat-basic to warm-cinematic reinforces the 'level up' feeling of the reveal",
+        "color_temp": "phone video: 5500K flat neutral. Real world: 4200K warm golden.",
+        "highlights": "phone screen glow on her face in the real world, warm window light catching her styled hair, the café/room environment warm and inviting"
+      },
+      "action_timeline": [
+        {
+          "time": "0.0-1.5s",
+          "beat": "THE TRICK: what appears to be a standard selfie video fills the entire screen. She (casual version) waves at the camera with a friendly smile. It looks completely like a normal UGC video. The viewer has no reason to suspect anything."
+        },
+        {
+          "time": "1.5-3.0s",
+          "beat": "She (in the phone video) continues to smile and maybe does a small gesture — a peace sign or head tilt. It still looks like a normal video. The viewer is settled into watching it."
+        },
+        {
+          "time": "3.0-4.5s",
+          "beat": "ZOOM-OUT BEGINS: the camera starts slowly pulling back. The edges of the phone screen become visible — the viewer realizes 'wait, this is a screen.' The phone bezel appears. The trick is revealed."
+        },
+        {
+          "time": "4.5-6.0s",
+          "beat": "THE REVEAL: zoom continues. Her hand holding the phone becomes visible. Then her arm. Then her face — the REAL her, styled differently, in a different setting. She's watching the video of herself on her phone. Two versions of her are now visible."
+        },
+        {
+          "time": "6.0-7.0s",
+          "beat": "FULL REVEAL: the zoom reaches a medium shot. She's sitting in the real-world setting (café/styled room), phone in hand with the video still playing on the small screen. She looks up from the phone directly at the REAL camera."
+        },
+        {
+          "time": "7.0-8.0s",
+          "beat": "DIRECT ADDRESS: she gives the real camera a knowing look — a smirk, a wink, or a raised eyebrow that says 'got you.' The contrast between her casual phone-video self and her elevated real self is clear. Frame holds. Meta moment complete."
+        }
+      ],
+      "spoken_lines": {
+        "dialogue": "none",
+        "ambient_sounds": [
+          "faint tinny audio from the phone video (her 'hello' muffled through phone speakers)",
+          "real-world ambient — café sounds or room tone",
+          "the contrast between tinny phone audio and rich real-world ambient reinforces the reveal"
+        ]
+      },
+      "no_text_no_graphics": {
+        "on_screen_text": "NONE",
+        "captions": "NONE",
+        "logos": "NONE",
+        "watermarks": "NONE",
+        "note": "clean plate — text hooks and music added in CapCut. The final 'knowing look' moment is designed for text overlay."
+      },
+      "audio": {
+        "background_music": "none",
+        "ambient": "tinny phone audio, real-world room tone, café ambient"
+      },
+      "style_keywords": [
+        "video inception",
+        "video within video",
+        "meta reveal",
+        "perception break",
+        "zoom-out",
+        "self-aware",
+        "two versions",
+        "fourth wall",
+        "UGC",
+        "clean plate"
+      ],
+      "negative_prompt": [
+        "visible phone brand logo",
+        "readable phone UI",
+        "shaky zoom-out (must be smooth)",
+        "same outfit in both versions (contrast is essential)",
+        "same setting in both versions",
+        "talking or dialogue",
+        "warped hands",
+        "extra fingers",
+        "distorted face"
+      ]
+    }
+  },
+  {
+    "slug": "turkish-creator-shock-reaction",
+    "title": "Authentic Turkish Creator Shock Reaction",
+    "description": "A high-speed, genuine 'shock' moment of a beautiful Turkish creator. Features fast reflex movement, realistic skin textures, and a clean plate look for social media.",
+    "category": "Video Gen",
+    "model": "seedance",
+    "prompt": {
+      "concept": "Authentic, high-speed human reaction. A beautiful Turkish creator has a genuine 'shock' moment. The movement is a fast reflex, not a staged pose. High-quality clean plate for social media.",
+      "format": {
+        "duration_seconds": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "platform_look": "Native TikTok / iPhone Camera"
+      },
+      "character": {
+        "ethnicity": "Turkish",
+        "age_range": "22-26",
+        "hair": "honey blonde, messy-chic, natural volume, slightly tousled as if she just moved her head",
+        "skin": "natural skin texture, realistic pores, soft glowy makeup, slightly flushed cheeks from the 'shock' adrenaline",
+        "eyes": "blue, wide-open, pupils dilated, eyebrows raised high in genuine surprise",
+        "expression": "dynamic shock. Starts with a sharp intake of breath (gasp), eyes widening instantly, followed by a reflexive hand cover"
+      },
+      "wardrobe": {
+        "top": "simple grey or beige ribbed turtleneck, high-quality fabric, no logos",
+        "nails": "vibrant cherry red nails, almond shape (matching the reference vibe)",
+        "no_visible_brands": true
+      },
+      "setting": {
+        "location": "indoor, soft-focus neutral background",
+        "details": [
+          "slight motion blur in the background to emphasize her quick movement",
+          "clean, minimalist aesthetic",
+          "warm, natural daylight"
+        ]
+      },
+      "camera": {
+        "shot": "close-up, face and upper chest",
+        "angle": "eye level, handheld feel for realism (slight, natural micro-shakes)",
+        "lens_feel": "iPhone 15 Pro front camera, 1x zoom, sharp focus on eyes",
+        "headroom": "centered, ample space for overlays"
+      },
+      "lighting": {
+        "key": "bright natural light, catching the 'sparkle' in her eyes (catchlights)",
+        "mood": "vibrant, real-life, everyday lighting"
+      },
+      "action_timeline": [
+        {
+          "time": "0.0-0.3s",
+          "beat": "Sudden gasp: her mouth snaps open, chest rises slightly, eyes pop wide in 0.1 seconds. Instant reaction."
+        },
+        {
+          "time": "0.3-0.8s",
+          "beat": "Reflexive movement: Her hand (with red nails) darts up from below the frame to her face. The movement is fast and slightly blurred, like a real human reflex."
+        },
+        {
+          "time": "0.8-4.0s",
+          "beat": "Impact and Hold: Her palm hits her mouth softly, fingers slightly spread. She blinks rapidly once or twice while looking at the camera, chest settling as she holds the 'I can't believe it' look."
+        }
+      ],
+      "gesture_rules": {
+        "movement_style": "Fast, jerky, and reflexive. Not a smooth 'dance' movement, but a sudden human twitch.",
+        "realism_ticks": [
+          "slight shoulder shrug during gasp",
+          "natural blinking",
+          "micro-expressions around the eyes (crows feet appearing during the gasp)",
+          "hand doesn't glide; it snaps to the face"
+        ]
+      },
+      "no_text_no_graphics": {
+        "all_elements": "NONE",
+        "note": "Zero text, zero UI, zero watermarks. Pure raw footage."
+      },
+      "negative_prompt": [
+        "slow motion",
+        "robotic movement",
+        "uncany valley",
+        "stiff face",
+        "sliding hand",
+        "morphing fingers",
+        "plastic skin",
+        "cartoonish eyes",
+        "text",
+        "overlay",
+        "tiktok icons",
+        "glitchy movement"
+      ]
+    }
+  }
+]

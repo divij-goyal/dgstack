@@ -14,7 +14,8 @@ polished summaries pretending to be scenes.
    scene, web-series scene, monologue, pitch video, or other.
 2. Read `../references/principles.md`.
 3. If the task involves AI video generation, read
-   `../brain/sources/video-prompts/README.md`.
+   `../brain/sources/video-prompts/README.md` and
+   `../brain/sources/promptbazaar/README.md`.
 4. Read `references/instructions.md`.
 5. Find the hook, emotional engine, characters, conflict, and visual situation.
 6. Generate raw premise branches before locking the structure.

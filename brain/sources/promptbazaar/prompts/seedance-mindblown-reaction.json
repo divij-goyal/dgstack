@@ -1,0 +1,111 @@
+{
+  "slug": "seedance-mindblown-reaction",
+  "title": "Raw UGC Mind-Blown Reaction",
+  "description": "A raw selfie video of a young Lebanese girl having a genuine mind-blown moment while looking at her screen.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "Raw selfie video of a Lebanese girl in her early 20s having a mind-blown moment. She just saw something insane on her phone or laptop and her brain literally cannot process. Hands fly to her head, eyes huge, silent 'whoa'. Pure raw UGC, like she accidentally kept the camera on.",
+    "format": {
+      "duration_seconds": 4,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "Raw iPhone front camera, untouched"
+    },
+    "character": {
+      "ethnicity": "Lebanese (Middle Eastern)",
+      "age_range": "23-26",
+      "hair": "long dark brown wavy hair, slightly frizzy, second-day hair feel, one side falling forward",
+      "skin": "warm medium olive skin with realistic texture, real pores, traces of yesterday's mascara, slight oiliness on t-zone, no foundation, just chapstick and old eyeliner remnants",
+      "eyes": "deep dark brown, blowing wide open at the peak, real whites visible above iris",
+      "expression": "genuine mind-blown awe — eyes huge, mouth open in silent 'whoa', hands flying to head"
+    },
+    "wardrobe": {
+      "top": "warm taupe oversized t-shirt or hoodie, slightly stretched, no logo",
+      "nails": "plum nail polish, slightly chipped on a couple of fingers",
+      "no_visible_brands": true
+    },
+    "setting": {
+      "location": "her bedroom, sitting on the bed or floor",
+      "details": [
+        "unmade bed, pillows piled, blanket bunched",
+        "laptop or phone screen glow visible on her face from below",
+        "warm bedside lamp light + slight cool screen glow mix",
+        "wall with a print or photo slightly visible behind",
+        "very lived-in real bedroom"
+      ]
+    },
+    "camera": {
+      "shot": "selfie medium close-up, slightly wider so hands can enter frame on either side of head",
+      "angle": "phone held or propped, slight low-angle from below chest level",
+      "lens_feel": "iPhone front camera, 1x, real selfie distortion",
+      "movement": "noticeable handheld shake especially when she reacts"
+    },
+    "lighting": {
+      "key": "warm bedroom lamp + cool screen glow on her face, mixed temperatures",
+      "mood": "evening at home, late-scrolling vibe",
+      "catchlights": "screen glow reflected in wide eyes"
+    },
+    "image_quality": {
+      "grain": "noticeable low-light grain",
+      "compression": "social-tier",
+      "color": "ungraded, mixed warm/cool cast",
+      "no_filters": true,
+      "imperfections": "slight motion blur on hand movement"
+    },
+    "micro_idle_before_reaction": "0.0-0.4s eyes locked on screen below frame, lips just barely parted, you can see her processing",
+    "action_timeline": [
+      {
+        "time": "0.0-0.4s",
+        "beat": "Eyes locked downward at her phone or laptop screen, lips parting slightly, brows beginning to raise. The 'wait what' before the explosion."
+      },
+      {
+        "time": "0.4-1.0s",
+        "beat": "Boom: eyes fly fully open with whites visible above iris, mouth opens in a silent 'whoa', both hands snap up from below frame to either side of head, fingers spreading messily — not symmetric"
+      },
+      {
+        "time": "1.0-2.5s",
+        "beat": "Peak shock-awe: hands hold at head level with fingers spread, head shakes slowly side to side, says quietly 'no way' or 'olamaz' or just a breathy 'whaaat', eyes stay huge"
+      },
+      {
+        "time": "2.5-4.0s",
+        "beat": "Slow recovery: one hand drops to cheek, the other stays up, mouth half-closes, eyes still wide, looks slightly off-camera processing. 'I genuinely cannot' hold."
+      }
+    ],
+    "gesture_rules": {
+      "movement_style": "Sharp explosion outward, then slow uneven recovery. Hands aren't symmetric.",
+      "realism_ticks": [
+        "asymmetric finger spread between left and right hand",
+        "real eye widening with white above iris",
+        "subtle disbelieving head shake",
+        "silent gasp not a scream",
+        "real breath-driven shoulder rise",
+        "messy hair moving from her motion",
+        "looking at screen below frame, not at camera"
+      ]
+    },
+    "no_text_no_graphics": {
+      "all_elements": "NONE",
+      "note": "Raw clip only. No text, no overlays, no logos, no UI, no watermarks. No explosion graphics."
+    },
+    "negative_prompt": [
+      "explosion graphic effects",
+      "studio lighting",
+      "ring light",
+      "professional photography",
+      "perfect makeup",
+      "smooth skin",
+      "beauty filter",
+      "color graded",
+      "cinematic",
+      "tripod",
+      "model pose",
+      "uncanny valley",
+      "plastic skin",
+      "perfectly symmetric hand placement",
+      "theatrical overacting",
+      "looking directly at camera entire time"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "seedance-inside-bag-reveal",
+  "title": "Inside the Bag Reveal",
+  "description": "Camera starts INSIDE a chic handbag in near-darkness — the bag opens from above, bright daylight floods in, and a Turkish woman reaches in to pull the camera out. Dark-to-light pattern interrupt hook. 8-second clean plate.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "The camera starts INSIDE a stylish handbag, lens pointing upward. The frame is mostly dark — faint outlines of bag fabric, a zipper edge, the interior lining texture. Within the first 2 seconds, the bag opens from above and bright daylight floods in. A chic Turkish woman's face appears looking down into the bag from above. She reaches in, her hand coming toward the lens, and lifts the camera out of the bag. The perspective shifts from dark-enclosed to bright-open as she brings it to her face. No talking, no overlays — just the reveal.",
+    "format": {
+      "duration_seconds": 8,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "TikTok UGC hook / Instagram Reels opener"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age_range": "24-28",
+      "hair": "long loose waves, dark brown, falling forward as she leans down to look into the bag, backlit by the sky behind her",
+      "skin": "warm fair-medium, natural dewy makeup, soft bronzer, glossy nude lip",
+      "expression": "curious searching expression when looking into bag, transitioning to bright recognition smile when she 'finds' the camera",
+      "vibe": "UGC creator / chic everyday moment / playful"
+    },
+    "wardrobe": {
+      "top": "fitted cream or white ribbed top, no logos, clean neckline visible when she leans over the bag",
+      "jewelry": "layered gold necklaces dangling toward camera as she leans in, small gold hoops",
+      "nails": "short almond, soft pink glazed",
+      "bag": "medium-sized structured leather tote in tan or camel, clean and minimal, no visible brand logos — the interior lining is a muted fabric (cream or light pattern)",
+      "no_visible_brands": true
+    },
+    "props": {
+      "inside_bag_visible": [
+        "faint shapes of everyday items — a compact mirror catching a glint, a lip product, a pair of sunglasses",
+        "the bag's interior fabric lining texture visible in the dark opening seconds"
+      ]
+    },
+    "setting": {
+      "location": "bright outdoor — café terrace, park bench, or street setting (only visible once bag opens)",
+      "details": [
+        "the first 2 seconds show ONLY the bag interior — dark, textured, enclosed",
+        "when the bag opens, bright blue sky and warm daylight flood the frame from above",
+        "soft foliage or architecture visible in extreme bokeh behind her head",
+        "the environment is secondary — her face and the light reveal are the focus"
+      ],
+      "color_palette": [
+        "#0A0A0A",
+        "#3C2E20",
+        "#87CEEB",
+        "#F5EDE2",
+        "#D4A574",
+        "#FFFFFF"
+      ]
+    },
+    "camera": {
+      "shot": "PHASE 1 (0-2s): inside the closed bag, looking up, nearly dark. PHASE 2 (2-5s): bag opens, her face appears above, she reaches in. PHASE 3 (5-8s): camera lifted out, world revealed, brought to her face level",
+      "rig_feel": "camera placed at the bottom of a handbag, lens pointing straight up through the bag opening",
+      "movement": "Phase 1: static in darkness. Phase 2: static as bag opens above. Phase 3: camera is picked up — organic lift movement with slight rotation as the world comes into view",
+      "framing": "Phase 1: dark with fabric edges framing the shot. Phase 2: her face and the sky form a bright circle/rectangle of light above, framed by the bag edges. Phase 3: she fills the frame at arm's length, sky behind her",
+      "lens_feel": "wide angle (24mm equiv), slight barrel distortion, deep focus",
+      "focus": "sharp on her face throughout, bag interior details soft in foreground during dark phase"
+    },
+    "lighting": {
+      "key": "Phase 1: near darkness with only faint ambient light seeping through bag material. Phase 2: sudden bright daylight flooding in as the bag opens — strong overhead/backlight on her face. Phase 3: natural outdoor daylight, sun behind and above",
+      "fill": "once bag opens, the sky acts as a massive soft fill light from above",
+      "mood": "dramatic dark-to-light transition, then bright and energetic",
+      "color_temp": "dark phase: undefined. Light reveal: 5500K clean daylight",
+      "highlights": "her necklaces catching light as they dangle, the mirror in the bag creating a brief glint, bright sky halo behind her head"
+    },
+    "action_timeline": [
+      {
+        "time": "0.0-1.5s",
+        "beat": "DARKNESS: camera inside the closed bag. Near-black frame with faint fabric texture, a tiny glint from a compact mirror. Muffled exterior sounds. The viewer is disoriented — 'where am I?'"
+      },
+      {
+        "time": "1.5-3.0s",
+        "beat": "BAG OPENS: the clasp/zipper releases, the top of the bag parts open. Bright daylight floods in dramatically. Her face appears above, looking down into the bag, hair falling forward, backlit by the sky. Strong pattern interrupt — the dark frame suddenly becomes bright."
+      },
+      {
+        "time": "3.0-4.5s",
+        "beat": "REACH: she reaches her hand into the bag toward the camera. Her hand grows large in frame as it approaches. She smiles as she 'finds' what she's looking for (the camera/phone)."
+      },
+      {
+        "time": "4.5-6.0s",
+        "beat": "LIFT: she grabs the camera and lifts it out of the bag. The world rotates and the perspective transforms — sky swings across frame, we see treetops or buildings briefly, the bag drops away below."
+      },
+      {
+        "time": "6.0-8.0s",
+        "beat": "REVEAL: she brings the camera to face level. Her bright smile fills the frame against the blue sky. Slight handheld movement. She might do a small head tilt or playful expression. The moment holds — ready for CapCut text overlay."
+      }
+    ],
+    "spoken_lines": {
+      "dialogue": "none",
+      "ambient_sounds": [
+        "muffled exterior sounds during dark phase",
+        "bag clasp/zipper opening click",
+        "rush of ambient outdoor sound as bag opens",
+        "fabric rustle",
+        "a soft 'ah' or small laugh when she finds the camera"
+      ]
+    },
+    "no_text_no_graphics": {
+      "on_screen_text": "NONE",
+      "captions": "NONE",
+      "logos": "NONE",
+      "watermarks": "NONE",
+      "note": "clean plate — text and music added in CapCut"
+    },
+    "audio": {
+      "background_music": "none",
+      "ambient": "muffled-to-open outdoor transition, bag sounds"
+    },
+    "style_keywords": [
+      "bag hook",
+      "inside-out",
+      "dark-to-light",
+      "reveal",
+      "pattern interrupt",
+      "UGC",
+      "clean plate"
+    ],
+    "negative_prompt": [
+      "brand logos on bag",
+      "readable text",
+      "camera movement during dark phase",
+      "bright bag interior (must start dark)",
+      "warped hands",
+      "extra fingers",
+      "distorted face"
+    ]
+  }
+}

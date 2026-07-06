@@ -1,0 +1,142 @@
+{
+  "slug": "seedance-lens-tap-transition",
+  "title": "Lens-tap Hand-cover Transition",
+  "description": "Chic Turkish woman taps the lens twice, then covers it completely. Perfect clean transition asset for CapCut.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "Lens-tap into a hand-cover transition. Extreme close-up: the chic Turkish woman leans in, taps the lens twice with her index finger to grab your attention, then her open palm rises and completely covers the lens — frame goes fully black. (Editor will use this as a transition cut in CapCut to reveal a new scene/outfit on the other side.) Designed as a clean transition asset.",
+    "format": {
+      "duration_seconds": 3,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "Instagram Reels / TikTok transition hook"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age": "around 25-27",
+      "height_cm": 170,
+      "weight_kg": 55,
+      "build": "athletic and feminine — sporty toned shoulders and arms, slim waist, soft natural curves; sexy but strong",
+      "skin": "fair white skin, glowy, lightly sun-kissed warmth, subtle freckles",
+      "hair": "long soft wavy 'kumral' chestnut-brown with warm caramel highlights, middle part",
+      "makeup": "clean glowy makeup, dewy finish, soft blush, glossy nude-pink lip",
+      "eyes": "warm hazel-brown, confident eye contact",
+      "expression": "confident smirk, like 'watch this'"
+    },
+    "wardrobe": {
+      "top": "fitted ribbed tank top with thin spaghetti straps, butter yellow, plain (no logos)",
+      "jewelry": "dainty gold layered necklaces, small gold hoops, one thin gold ring",
+      "nails": "short almond, milky-white"
+    },
+    "setting": {
+      "location": "chic Pinterest bedroom",
+      "details": [
+        "softly blurred warm cream wall",
+        "tiny pearl fairy lights bokeh",
+        "warm beige and sage palette"
+      ],
+      "color_palette": [
+        "#F5EDE2",
+        "#E8D5C4",
+        "#C9B79C",
+        "#A8B5A0",
+        "#D4A574"
+      ]
+    },
+    "camera": {
+      "shot": "extreme close-up, her face fills most of the frame",
+      "angle": "eye level, dead-on with the lens",
+      "movement": "locked-off, perfectly still",
+      "lens_feel": "iPhone-shot look, shallow depth, sharp on her face and hand"
+    },
+    "lighting": {
+      "key": "warm soft daylight from camera-left",
+      "fill": "cream-wall bounce",
+      "mood": "warm, golden, flattering"
+    },
+    "action_timeline": [
+      {
+        "time": "0.0-0.4s",
+        "beat": "she holds eye contact with the lens, soft confident smirk"
+      },
+      {
+        "time": "0.4-0.7s",
+        "beat": "raises her index finger and taps the lens softly — TAP 1"
+      },
+      {
+        "time": "0.7-1.0s",
+        "beat": "TAP 2 — same spot"
+      },
+      {
+        "time": "1.0-1.4s",
+        "beat": "she opens her hand, palm forward, and slowly raises it toward the lens"
+      },
+      {
+        "time": "1.4-2.0s",
+        "beat": "her palm reaches the lens and completely covers it — frame transitions smoothly to FULL BLACK as the palm blocks all light, palm visible briefly as it approaches before the cover-out"
+      },
+      {
+        "time": "2.0-3.0s",
+        "beat": "FULL BLACK held — clean black frame for the editor to cut on, perfect transition point"
+      }
+    ],
+    "performance_notes": {
+      "cover_style": "smooth, deliberate, palm flat against the lens — should feel like a magician's reveal setup",
+      "transition_design": "the final 1 second of pure black is intentional so the editor can cut to a new scene in CapCut (outfit change, location change, etc.)",
+      "do_not": [
+        "slap the lens hard",
+        "leave gaps where light leaks through the palm",
+        "remove the hand on camera"
+      ]
+    },
+    "spoken_lines": {
+      "dialogue": "none",
+      "ambient_sounds": [
+        "two soft tap sounds",
+        "tiny palm-on-lens contact sound",
+        "warm room tone fading to silence"
+      ]
+    },
+    "no_text_no_graphics": {
+      "on_screen_text": "NONE",
+      "captions": "NONE",
+      "logos": "NONE",
+      "watermarks": "NONE",
+      "note": "clean plate — designed specifically as a transition asset for CapCut"
+    },
+    "audio": {
+      "background_music": "none",
+      "ambient": "tap, tap, palm contact, fade to silence"
+    },
+    "style_keywords": [
+      "lens-tap hook",
+      "hand cover transition",
+      "CapCut transition asset",
+      "fourth-wall break",
+      "Pinterest aesthetic",
+      "Turkish kumral",
+      "athletic feminine",
+      "confident smirk",
+      "extreme close-up",
+      "clean plate"
+    ],
+    "negative_prompt": [
+      "Asian or Korean features",
+      "very thin or skinny body",
+      "aggressive slap",
+      "light leaks through palm",
+      "fingerprint smudge",
+      "any on-screen text",
+      "logos on clothing",
+      "harsh lighting",
+      "dark moody tones",
+      "warped hands or fingers",
+      "extra fingers",
+      "distorted face",
+      "low resolution",
+      "overly sexualized framing"
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "seedance-video-inception-meta-reveal",
+  "title": "Video Inception Meta Reveal",
+  "description": "A TikTok viral meta-format: what looks like a standard selfie video slowly zooms out to reveal it's playing on a phone held by the SAME Turkish woman in a different setting — video-within-a-video perception break. 8-second clean plate.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "The video opens on what appears to be a standard selfie video — a chic Turkish woman waves at the camera with a friendly smile. For the first 3 seconds, it looks like a normal talking-head UGC video. Then, the camera slowly zooms out to reveal that this 'video' is actually playing on a phone screen being held by the SAME woman, sitting in a completely different setting. The video-within-a-video creates a meta perception break. No talking, no overlays — just the inception reveal.",
+    "format": {
+      "duration_seconds": 8,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "TikTok viral format / meta Reels hook"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age_range": "24-28",
+      "appearance_in_phone_video": {
+        "hair": "up in a clip, casual",
+        "makeup": "minimal, morning face",
+        "top": "plain white tee",
+        "setting": "simple bedroom background"
+      },
+      "appearance_in_real_world": {
+        "hair": "down, styled, different from the phone video version",
+        "makeup": "polished soft glam — showing a contrast to the casual phone version",
+        "top": "elevated outfit — fitted knit top in camel or olive, showing she's 'ready' vs the phone version's casual state",
+        "jewelry": "gold layered necklaces, hoops — more styled than the phone video version"
+      },
+      "expression": "phone version: friendly wave and casual smile. Real version: knowing smirk as she watches herself on the phone, then looks up at the real camera with a raised eyebrow or wink",
+      "vibe": "meta / self-aware creator / clever and playful"
+    },
+    "wardrobe": {
+      "phone_video_version": "casual white tee, hair up — intentionally 'basic' UGC look",
+      "real_world_version": "more elevated — fitted knit top, styled hair down, more jewelry — the contrast is part of the reveal",
+      "no_visible_brands": true
+    },
+    "props": {
+      "phone": "she holds an iPhone or smartphone in her hand, screen facing the camera, playing the 'selfie video' of herself. No brand logo visible on the phone — just the screen content",
+      "real_world_items": [
+        "she's sitting on a sofa or at a café table",
+        "a coffee cup beside her",
+        "warm, styled environment different from the plain bedroom in the phone video"
+      ]
+    },
+    "setting": {
+      "phone_video_setting": "simple bedroom, plain wall, basic ring-light look — intentionally normal and unremarkable",
+      "real_world_setting": {
+        "location": "stylish café or beautifully styled living room — visually richer than the phone video setting",
+        "details": [
+          "warm natural light from a window",
+          "styled environment with plants, warm textures, interesting background",
+          "the contrast between the 'basic' phone video environment and the 'elevated' real environment is part of the reveal's impact"
+        ]
+      },
+      "color_palette": [
+        "#F5EDE2",
+        "#D4A574",
+        "#4A6741",
+        "#FFFFFF",
+        "#8B6F4E",
+        "#C9A87C"
+      ]
+    },
+    "camera": {
+      "shot": "starts TIGHT on the phone screen — the phone screen fills 100% of the frame, making it look like the viewer is watching a normal selfie video. Then slowly zooms out to reveal the phone, her hand, and then her in the wider real-world setting.",
+      "rig_feel": "smooth dolly-out or optical zoom-out, steady and cinematic",
+      "movement": "slow, continuous zoom-out starting at around the 3-second mark. The zoom reveals progressively: phone screen edges → her hand holding the phone → her arm → her face watching the phone → the full café/living room setting",
+      "framing": "Phase 1: phone screen fills entire frame (the 'trick'). Phase 2: zoom-out gradually reveals the phone as an object in a larger scene. Phase 3: medium shot of her holding the phone, looking up at the real camera with a knowing expression.",
+      "lens_feel": "clean, sharp, cinematic — smooth zoom with no artifacts or shake",
+      "focus": "Phase 1: sharp on the phone screen content. Phase 2: focus transitions smoothly from the phone screen to her face in the real world."
+    },
+    "lighting": {
+      "key": "phone video: flat ring-light/selfie lighting (intentionally basic). Real world: warm natural side light from a window, more cinematic and dimensional",
+      "fill": "real world has more interesting lighting — the quality jump from the phone video's flat light to the real world's natural light is noticeable",
+      "mood": "the lighting shift from flat-basic to warm-cinematic reinforces the 'level up' feeling of the reveal",
+      "color_temp": "phone video: 5500K flat neutral. Real world: 4200K warm golden.",
+      "highlights": "phone screen glow on her face in the real world, warm window light catching her styled hair, the café/room environment warm and inviting"
+    },
+    "action_timeline": [
+      {
+        "time": "0.0-1.5s",
+        "beat": "THE TRICK: what appears to be a standard selfie video fills the entire screen. She (casual version) waves at the camera with a friendly smile. It looks completely like a normal UGC video. The viewer has no reason to suspect anything."
+      },
+      {
+        "time": "1.5-3.0s",
+        "beat": "She (in the phone video) continues to smile and maybe does a small gesture — a peace sign or head tilt. It still looks like a normal video. The viewer is settled into watching it."
+      },
+      {
+        "time": "3.0-4.5s",
+        "beat": "ZOOM-OUT BEGINS: the camera starts slowly pulling back. The edges of the phone screen become visible — the viewer realizes 'wait, this is a screen.' The phone bezel appears. The trick is revealed."
+      },
+      {
+        "time": "4.5-6.0s",
+        "beat": "THE REVEAL: zoom continues. Her hand holding the phone becomes visible. Then her arm. Then her face — the REAL her, styled differently, in a different setting. She's watching the video of herself on her phone. Two versions of her are now visible."
+      },
+      {
+        "time": "6.0-7.0s",
+        "beat": "FULL REVEAL: the zoom reaches a medium shot. She's sitting in the real-world setting (café/styled room), phone in hand with the video still playing on the small screen. She looks up from the phone directly at the REAL camera."
+      },
+      {
+        "time": "7.0-8.0s",
+        "beat": "DIRECT ADDRESS: she gives the real camera a knowing look — a smirk, a wink, or a raised eyebrow that says 'got you.' The contrast between her casual phone-video self and her elevated real self is clear. Frame holds. Meta moment complete."
+      }
+    ],
+    "spoken_lines": {
+      "dialogue": "none",
+      "ambient_sounds": [
+        "faint tinny audio from the phone video (her 'hello' muffled through phone speakers)",
+        "real-world ambient — café sounds or room tone",
+        "the contrast between tinny phone audio and rich real-world ambient reinforces the reveal"
+      ]
+    },
+    "no_text_no_graphics": {
+      "on_screen_text": "NONE",
+      "captions": "NONE",
+      "logos": "NONE",
+      "watermarks": "NONE",
+      "note": "clean plate — text hooks and music added in CapCut. The final 'knowing look' moment is designed for text overlay."
+    },
+    "audio": {
+      "background_music": "none",
+      "ambient": "tinny phone audio, real-world room tone, café ambient"
+    },
+    "style_keywords": [
+      "video inception",
+      "video within video",
+      "meta reveal",
+      "perception break",
+      "zoom-out",
+      "self-aware",
+      "two versions",
+      "fourth wall",
+      "UGC",
+      "clean plate"
+    ],
+    "negative_prompt": [
+      "visible phone brand logo",
+      "readable phone UI",
+      "shaky zoom-out (must be smooth)",
+      "same outfit in both versions (contrast is essential)",
+      "same setting in both versions",
+      "talking or dialogue",
+      "warped hands",
+      "extra fingers",
+      "distorted face"
+    ]
+  }
+}

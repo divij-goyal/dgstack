@@ -1,0 +1,104 @@
+{
+  "slug": "seedance-disgust-reaction",
+  "title": "Raw UGC Disgust Reaction",
+  "description": "A raw, front-camera selfie video of a young Korean girl reacting with genuine disgust to something on her phone.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "Raw front-camera selfie video, pure UGC. A Korean girl in her early 20s reacts with genuine disgust to something on her phone — like she just saw a cursed comment or a gross video. Filmed in her bedroom, no setup, no lighting, just a phone propped up or held up. The kind of clip that ends up on someone's Close Friends story.",
+    "format": {
+      "duration_seconds": 4,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "Raw iPhone front camera, slight compression artifacts, no color grading"
+    },
+    "character": {
+      "ethnicity": "Korean",
+      "age_range": "21-24",
+      "hair": "messy black hair pulled into a low ponytail with stray strands sticking out, looks like she didn't brush it",
+      "skin": "real skin texture — visible pores, a small blemish near the chin, no foundation, slight oiliness in t-zone, traces of yesterday's mascara",
+      "eyes": "dark brown eyes, no eye makeup, slightly tired looking",
+      "expression": "real disgust reaction — nose wrinkles, upper lip pulls up on one side, eyes squint, brief 'eww' face that holds for a second"
+    },
+    "wardrobe": {
+      "top": "old oversized hoodie in faded sage, slightly stretched neckline, no logos visible",
+      "nails": "chipped milky white polish, grown out at the cuticle",
+      "no_visible_brands": true
+    },
+    "setting": {
+      "location": "her bedroom, sitting on the bed or floor",
+      "details": [
+        "unmade bed visible behind her, white sheets bunched up",
+        "a poster slightly crooked on the wall",
+        "warm yellow bedside lamp light mixing with cool daylight from a window",
+        "phone charger cable visible draped somewhere",
+        "background is real, cluttered, lived-in"
+      ]
+    },
+    "camera": {
+      "shot": "selfie close-up, face and shoulders, slightly off-center",
+      "angle": "low angle from below (phone held in lap or propped up), creating a slight up-tilt",
+      "lens_feel": "iPhone front camera, 1x, real selfie distortion on nose and forehead",
+      "movement": "very slight handheld micro-shake, not a steady tripod look"
+    },
+    "lighting": {
+      "key": "mixed messy lighting — warm bedside lamp + dim window daylight, no key light, slight color cast",
+      "shadows": "soft uneven shadows on one side of face",
+      "mood": "evening-in-bedroom or late-afternoon-in-pajamas vibe"
+    },
+    "image_quality": {
+      "compression": "slight social media compression artifacts",
+      "grain": "low-light digital noise visible in shadows",
+      "focus": "soft auto-focus, occasionally hunts for a frame",
+      "color": "no grading, slight white balance imperfection (warm/cool mix)",
+      "no_filters": true
+    },
+    "micro_idle_before_reaction": "0.0-0.5s scrolling-on-phone neutral face, slight slack jaw of bored phone-watching",
+    "action_timeline": [
+      {
+        "time": "0.0-0.5s",
+        "beat": "Bored neutral face, eyes flicking like she's reading something on a screen below frame, slack mouth"
+      },
+      {
+        "time": "0.5-1.0s",
+        "beat": "Disgust hits: nose wrinkles sharply, top lip curls up showing slight teeth, eyes squint, head pulls back about an inch, says a quiet involuntary 'ew' or 'iyk' under breath"
+      },
+      {
+        "time": "1.0-4.0s",
+        "beat": "Holds the disgusted face for a beat, then mouth softens but eyes stay narrowed, looks back down at phone, shakes head once slowly. Whole thing feels caught, not performed."
+      }
+    ],
+    "gesture_rules": {
+      "movement_style": "Real human reflex. Imperfect timing — face doesn't perfectly sync, just real.",
+      "realism_ticks": [
+        "looking down at phone, not directly at camera",
+        "natural mouth movement (small word/sound)",
+        "real skin folds when nose wrinkles",
+        "no posing — body is slouched, casual"
+      ]
+    },
+    "no_text_no_graphics": {
+      "all_elements": "NONE",
+      "note": "Pure raw clip. Zero text, zero overlays, zero icons, zero watermarks, no UI."
+    },
+    "negative_prompt": [
+      "studio lighting",
+      "professional photography",
+      "model pose",
+      "perfect makeup",
+      "beauty filter",
+      "smooth skin",
+      "ring light",
+      "color graded",
+      "cinematic",
+      "tripod stability",
+      "looking directly at camera the whole time",
+      "uncanny valley",
+      "plastic skin",
+      "high production value",
+      "staged background",
+      "perfectly framed shot"
+    ]
+  }
+}

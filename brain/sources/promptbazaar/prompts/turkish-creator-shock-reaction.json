@@ -1,0 +1,89 @@
+{
+  "slug": "turkish-creator-shock-reaction",
+  "title": "Authentic Turkish Creator Shock Reaction",
+  "description": "A high-speed, genuine 'shock' moment of a beautiful Turkish creator. Features fast reflex movement, realistic skin textures, and a clean plate look for social media.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "Authentic, high-speed human reaction. A beautiful Turkish creator has a genuine 'shock' moment. The movement is a fast reflex, not a staged pose. High-quality clean plate for social media.",
+    "format": {
+      "duration_seconds": 4,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "Native TikTok / iPhone Camera"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age_range": "22-26",
+      "hair": "honey blonde, messy-chic, natural volume, slightly tousled as if she just moved her head",
+      "skin": "natural skin texture, realistic pores, soft glowy makeup, slightly flushed cheeks from the 'shock' adrenaline",
+      "eyes": "blue, wide-open, pupils dilated, eyebrows raised high in genuine surprise",
+      "expression": "dynamic shock. Starts with a sharp intake of breath (gasp), eyes widening instantly, followed by a reflexive hand cover"
+    },
+    "wardrobe": {
+      "top": "simple grey or beige ribbed turtleneck, high-quality fabric, no logos",
+      "nails": "vibrant cherry red nails, almond shape (matching the reference vibe)",
+      "no_visible_brands": true
+    },
+    "setting": {
+      "location": "indoor, soft-focus neutral background",
+      "details": [
+        "slight motion blur in the background to emphasize her quick movement",
+        "clean, minimalist aesthetic",
+        "warm, natural daylight"
+      ]
+    },
+    "camera": {
+      "shot": "close-up, face and upper chest",
+      "angle": "eye level, handheld feel for realism (slight, natural micro-shakes)",
+      "lens_feel": "iPhone 15 Pro front camera, 1x zoom, sharp focus on eyes",
+      "headroom": "centered, ample space for overlays"
+    },
+    "lighting": {
+      "key": "bright natural light, catching the 'sparkle' in her eyes (catchlights)",
+      "mood": "vibrant, real-life, everyday lighting"
+    },
+    "action_timeline": [
+      {
+        "time": "0.0-0.3s",
+        "beat": "Sudden gasp: her mouth snaps open, chest rises slightly, eyes pop wide in 0.1 seconds. Instant reaction."
+      },
+      {
+        "time": "0.3-0.8s",
+        "beat": "Reflexive movement: Her hand (with red nails) darts up from below the frame to her face. The movement is fast and slightly blurred, like a real human reflex."
+      },
+      {
+        "time": "0.8-4.0s",
+        "beat": "Impact and Hold: Her palm hits her mouth softly, fingers slightly spread. She blinks rapidly once or twice while looking at the camera, chest settling as she holds the 'I can't believe it' look."
+      }
+    ],
+    "gesture_rules": {
+      "movement_style": "Fast, jerky, and reflexive. Not a smooth 'dance' movement, but a sudden human twitch.",
+      "realism_ticks": [
+        "slight shoulder shrug during gasp",
+        "natural blinking",
+        "micro-expressions around the eyes (crows feet appearing during the gasp)",
+        "hand doesn't glide; it snaps to the face"
+      ]
+    },
+    "no_text_no_graphics": {
+      "all_elements": "NONE",
+      "note": "Zero text, zero UI, zero watermarks. Pure raw footage."
+    },
+    "negative_prompt": [
+      "slow motion",
+      "robotic movement",
+      "uncany valley",
+      "stiff face",
+      "sliding hand",
+      "morphing fingers",
+      "plastic skin",
+      "cartoonish eyes",
+      "text",
+      "overlay",
+      "tiktok icons",
+      "glitchy movement"
+    ]
+  }
+}

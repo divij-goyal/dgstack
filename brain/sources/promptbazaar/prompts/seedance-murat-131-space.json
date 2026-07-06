@@ -1,0 +1,55 @@
+{
+  "slug": "seedance-murat-131-space",
+  "title": "Murat 131 in Deep Space",
+  "description": "An epic and absurd cinematic 10-second shot of a vintage Turkish Murat 131 sedan drifting majestically through deep space.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "shot": {
+      "type": "wide cinematic tracking shot with cockpit cutaways",
+      "subject": "Murat 131, vintage Turkish sedan (Tofaş Murat 131), faded beige paint, slightly rusty bumper, one headlight crooked",
+      "action": "majestically drifting through deep space, rotating slowly on its axis as if in zero gravity",
+      "camera_movement": "slow orbital dolly around the car, occasional dramatic push-in on the hood ornament, Kubrick-style symmetrical framing",
+      "duration": "10 seconds"
+    },
+    "environment": {
+      "location": "deep space, somewhere between Jupiter and Saturn",
+      "background": "swirling nebulas in purple and magenta, distant stars, a small planet with rings in the corner",
+      "scale": "vast cosmic emptiness contrasting with the humble little sedan",
+      "atmosphere": "absolute silence of space, occasional cosmic dust drifting past"
+    },
+    "cinematography": {
+      "style": "2001: A Space Odyssey meets Yeşilçam comedy",
+      "reference_directors": [
+        "Stanley Kubrick",
+        "Wes Anderson",
+        "Ertem Eğilmez"
+      ],
+      "lens": "70mm wide, deep focus, slight fisheye on close-ups",
+      "color_grade": "deep cosmic blues and purples with warm tungsten glow from car's interior dome light",
+      "lighting": "key light from a distant sun creating long dramatic shadows, soft fill from nebula glow",
+      "frame_rate": "24fps, slow majestic pacing"
+    },
+    "comedic_details": {
+      "interior": "driver's seat empty but a worry bead (tespih) floats in zero-g near the rearview mirror, a half-eaten simit drifts past the dashboard",
+      "exterior_quirks": "Turkish license plate '34 MURAT 131', a small evil eye (nazar boncuğu) suction-cupped to the rear window, faded 'Maşallah' sticker on the back",
+      "physics_humor": "the car's antenna wobbles gently, exhaust pipe occasionally puffs out a tiny cartoon smoke ring",
+      "unexpected_element": "a single çay glass with steam still rising floats serenely beside the car, defying all logic"
+    },
+    "sound_design_cue": {
+      "audio": "Strauss-style orchestral swell (Also Sprach Zarathustra parody), then suddenly a faint Turkish folk arabesque song crackling from the car radio, distant engine sputter"
+    },
+    "mood": "epic and absurd, dignified yet ridiculous, cosmic loneliness with Anatolian soul",
+    "negative_prompt": [
+      "modern car",
+      "sports car",
+      "futuristic vehicle",
+      "sci-fi spaceship",
+      "damaged car",
+      "dark mood",
+      "horror elements",
+      "photorealistic astronaut",
+      "cartoonish style"
+    ]
+  }
+}

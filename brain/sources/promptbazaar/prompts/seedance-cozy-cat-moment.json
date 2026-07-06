@@ -1,0 +1,167 @@
+{
+  "slug": "seedance-cozy-cat-moment",
+  "title": "Top-Down Cozy Moment (MacBook + Cat)",
+  "description": "Cinematic bird's-eye view of a chic Turkish woman curled on a low sofa scrolling her MacBook, while her cat slowly walks toward her across the rug. No talking, no overlays — just the moment.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "A quiet, cinematic 'moment' captured from a perfectly top-down overhead angle, as if a camera is mounted on the ceiling directly above her. A chic Turkish woman is curled up on a low sofa or daybed scrolling on her MacBook, half-covered by a small lightweight cotton pike (Turkish throw), wearing a tank top and cozy socks. On the floor below her, her cat slowly walks toward her with soft, deliberate steps. No talking, no overlays — just the moment.",
+    "format": {
+      "duration_seconds": 8,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "Pinterest / Instagram Reels cinematic moment"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age_range": "24-28",
+      "hair": "long, loose beach waves, honey blonde, fanned out softly across the cushion (since we're shooting from above)",
+      "skin": "warm fair-medium, glowy clean-girl makeup, dewy finish, soft blush, natural lashes, glossy nude lip",
+      "expression": "calm, focused on her laptop screen, faint soft smile",
+      "vibe": "Pinterest 'soft girl' / quiet luxury / cozy domestic moment"
+    },
+    "wardrobe": {
+      "top": "fitted ribbed tank top with thin spaghetti straps, plain cream or butter-yellow, no logos or text, hint of decolletage visible from the top-down angle",
+      "bottoms": "soft loose lounge shorts or cropped sweatpants, neutral tone (barely visible under blanket)",
+      "socks": "slouchy ribbed crew socks in cream or oat color, slightly bunched at the ankle, only the socked feet poking out from under the blanket",
+      "blanket": "small lightweight Turkish cotton pike (thin throw), waffle-textured, off-white with subtle beige stripes, draped casually over her lower body up to her waist",
+      "jewelry": "dainty gold layered necklaces, small gold hoops, one thin gold ring on her hand resting on the laptop",
+      "nails": "short almond, milky-white",
+      "no_visible_brands": true
+    },
+    "props": {
+      "laptop": "open Apple MacBook (silver or space gray), screen showing a softly glowing neutral interface with no readable text, logos, or brand marks (the Apple logo on the lid is hidden because the lid is open and away from camera)",
+      "near_her": [
+        "ceramic mug of latte on a small marble side table",
+        "a hardcover book with a plain cloth cover",
+        "a folded second pike at the foot of the sofa",
+        "a small linen pillow under her head"
+      ],
+      "on_the_floor": [
+        "soft beige boucle area rug",
+        "a single dried-flower stem in a small clay vase",
+        "a folded magazine"
+      ]
+    },
+    "cat": {
+      "breed_look": "fluffy domestic cat, soft cream or light grey fur, fluffy tail, calm posture",
+      "position_start": "lower-left of frame on the rug, a few feet away from the sofa",
+      "movement": "walks slowly and gracefully toward her, paws stepping softly, tail held in a relaxed upright curl",
+      "position_end": "reaches the side of the sofa near her hand and looks up briefly before pausing",
+      "no_sudden_movements": true
+    },
+    "setting": {
+      "location": "chic Pinterest-style living room corner",
+      "details": [
+        "low cream linen sofa or daybed with soft, deep cushions",
+        "wide-plank warm oak floor",
+        "soft beige boucle rug under the sofa",
+        "small marble side table with a ceramic latte mug",
+        "warm sunlight pooling diagonally across the floor and sofa from a tall window just out of frame",
+        "a few books and a candle visible at the edges of the frame",
+        "single dried pampas stem in a clay vase on the floor"
+      ],
+      "color_palette": [
+        "#F5EDE2",
+        "#E8D5C4",
+        "#C9B79C",
+        "#A8B5A0",
+        "#D4A574",
+        "#8C7A66"
+      ]
+    },
+    "camera": {
+      "shot": "perfect top-down overhead (bird's-eye view, 90 degrees straight down)",
+      "rig_feel": "as if a camera is mounted on the ceiling directly above her",
+      "movement": "completely locked off, no pan, no zoom, no drift",
+      "framing": "she occupies the upper two-thirds of the frame on the sofa, the rug and floor occupy the lower third, the cat enters from the bottom-left corner",
+      "lens_feel": "wide-ish lens to capture both her and the cat in one frame, gentle natural depth, everything mostly in focus",
+      "focus": "sharp on her face and hands, soft falloff at the frame edges"
+    },
+    "lighting": {
+      "key": "warm natural daylight from a tall window, casting a soft diagonal pool of light across her and part of the floor",
+      "fill": "ambient bounce from cream walls",
+      "mood": "warm, golden, calm, slightly hazy, like late morning",
+      "color_temp": "around 4500K with golden tint",
+      "highlights": "soft glow on her hair, on the marble side table, and a faint warm patch where the sunlight hits the rug"
+    },
+    "action_timeline": [
+      {
+        "time": "0.0-1.5s",
+        "beat": "static overhead shot of her curled on the sofa, scrolling slowly on the MacBook with one hand, the other hand resting on the blanket"
+      },
+      {
+        "time": "1.5-3.0s",
+        "beat": "the cat appears walking slowly into the bottom-left of frame on the rug, taking soft, deliberate steps toward her"
+      },
+      {
+        "time": "3.0-5.5s",
+        "beat": "the cat continues approaching, tail gently swaying, while she keeps gently scrolling, oblivious for a moment"
+      },
+      {
+        "time": "5.5-7.0s",
+        "beat": "she notices the cat in her peripheral vision, the corner of her mouth lifts in a small smile, her hand drifts off the laptop slightly toward the cat"
+      },
+      {
+        "time": "7.0-8.0s",
+        "beat": "the cat reaches the edge of the sofa next to her hand, looks up, and the moment holds — she smiles softly down at it"
+      }
+    ],
+    "spoken_lines": {
+      "dialogue": "none",
+      "ambient_sounds": [
+        "very soft keyboard click or two",
+        "barely audible page-scroll sound from the laptop",
+        "a faint distant birdsong outside the window",
+        "soft cat-paw padding (extremely subtle)"
+      ]
+    },
+    "no_text_no_graphics": {
+      "on_screen_text": "NONE",
+      "captions": "NONE",
+      "app_icons": "NONE",
+      "logos": "NONE (no Apple logo, no brand marks anywhere)",
+      "watermarks": "NONE",
+      "stickers": "NONE",
+      "screen_content": "MacBook screen shows a softly glowing neutral interface with no readable text or recognizable apps",
+      "note": "deliver a clean plate — all text and graphics will be added later in CapCut"
+    },
+    "audio": {
+      "background_music": "none (clean audio for editor)",
+      "ambient": "soft cozy room tone, faint birdsong, gentle keyboard taps"
+    },
+    "style_keywords": [
+      "top-down overhead",
+      "bird's eye view",
+      "cinematic moment",
+      "Pinterest aesthetic",
+      "soft girl",
+      "quiet luxury",
+      "cozy domestic",
+      "warm neutrals",
+      "natural light",
+      "slow living",
+      "calm",
+      "clean plate"
+    ],
+    "negative_prompt": [
+      "tilted or angled camera",
+      "any camera movement, pan, or zoom",
+      "Apple logo or any brand marks",
+      "readable screen content",
+      "any on-screen text or captions",
+      "logos on clothing",
+      "frantic or fast cat movement",
+      "cat jumping onto the sofa",
+      "harsh lighting",
+      "cluttered background",
+      "dark or moody tones",
+      "warped hands or fingers",
+      "extra fingers or limbs",
+      "distorted face",
+      "low resolution",
+      "overly sexualized framing"
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "door-slam-burst-hook",
+  "title": "Door Slam Burst Hook",
+  "description": "A dynamic, scroll-stopping UGC-style video shot from a low angle at door-handle height. A closed wooden door fills the frame — it suddenly swings open fast, and a young Turkish woman bursts through with excited energy, walking straight toward the camera.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "A dynamic, scroll-stopping UGC-style video shot from a low angle at door-handle height. A closed wooden door fills the frame — it suddenly swings open fast, and a young Turkish woman bursts through with excited energy, walking straight toward the camera. She stops close to the lens, looks directly into it, and breaks into a confident smile. Natural daylight floods in from behind her. iPhone-propped-on-floor energy. No talking, no overlays — just the burst.",
+    "format": {
+      "duration_seconds": 8,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "TikTok / Reels scroll-stopping hook opener"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age_range": "22-27",
+      "hair": "loose, dark brown, slightly tousled, natural texture falling past shoulders",
+      "skin": "warm olive, natural bare skin with a slight flush from movement, no makeup or minimal dewy look",
+      "expression": "excited burst energy on entry, settling into a confident knowing smile when she reaches the lens",
+      "vibe": "spontaneous / energetic / 'I have something to tell you' creator energy"
+    },
+    "wardrobe": {
+      "top": "oversized vintage-wash crewneck sweatshirt in off-white or cream, sleeves slightly pushed up, no logos or text",
+      "bottoms": "black biker shorts, mostly hidden by the oversized top",
+      "footwear": "barefoot on hardwood floor — adds to the casual at-home authenticity",
+      "jewelry": "small gold hoop earrings, a thin gold ring on index finger",
+      "nails": "short, clean, nude or clear",
+      "no_visible_brands": true
+    },
+    "props": {
+      "door": "standard interior wooden door, painted white or light oak, simple round brass doorknob",
+      "in_hallway": [
+        "a small console table partially visible against the wall behind her",
+        "a woven jute rug on the floor near the door",
+        "a hanging canvas tote bag on a wall hook beside the door"
+      ]
+    },
+    "setting": {
+      "location": "bright, minimal Pinterest-aesthetic apartment — the transition from hallway to the room where the camera sits",
+      "details": [
+        "warm hardwood or light oak flooring",
+        "white or soft beige walls",
+        "natural daylight streaming from a window behind or beside the door",
+        "the room the camera is in is slightly dimmer, creating a subtle backlight silhouette on entry",
+        "minimal decor — clean, lived-in, not staged-looking",
+        "a glimpse of a potted plant or framed print on the hallway wall"
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#F5F0E8",
+        "#C4A882",
+        "#3B3B3B",
+        "#D4C5B2",
+        "#8B7355"
+      ]
+    },
+    "camera": {
+      "shot": "low-angle, approximately 30cm off the ground, looking upward at a 20-degree angle toward the door and the approaching figure",
+      "rig_feel": "iPhone propped on the floor leaning against a wall or shoe, slightly tilted — raw UGC energy",
+      "movement": "completely locked, no movement — all motion comes from the subject",
+      "framing": "door fills the center of frame initially, then the subject dominates as she approaches and stops in a close-up",
+      "lens_feel": "wide-angle 24mm equivalent, slight natural barrel feel from the low iPhone position, moderate depth of field",
+      "focus": "auto-focus rack — starts sharp on the door, transitions to sharp on her face as she approaches the lens"
+    },
+    "lighting": {
+      "key": "bright natural daylight flooding through the doorway from behind the subject when the door opens — creating a backlit silhouette burst",
+      "fill": "ambient bounce from white walls and hardwood floor, softly illuminating her face as she gets closer",
+      "mood": "dramatic light burst on door open, settling into warm natural light as she approaches",
+      "color_temp": "5200K natural daylight backlight mixed with 4500K warm interior bounce",
+      "highlights": "strong rim light on her hair and shoulders from the backlight, golden light catching the doorknob, floor reflecting a wedge of light as the door opens"
+    },
+    "action_timeline": [
+      {
+        "time": "0.0-1.0s",
+        "beat": "static frame: closed door, quiet, still — anticipation builds"
+      },
+      {
+        "time": "1.0-2.0s",
+        "beat": "the door swings open fast and wide — daylight floods the frame, brief silhouette of the woman standing in the doorway"
+      },
+      {
+        "time": "2.0-4.0s",
+        "beat": "she steps through the doorway with excited energy, walking briskly straight toward the camera, her hair bouncing with the movement"
+      },
+      {
+        "time": "4.0-5.5s",
+        "beat": "she drops down into a squat or crouch right in front of the lens, her face filling the frame — the focus racks to sharp on her eyes"
+      },
+      {
+        "time": "5.5-7.0s",
+        "beat": "she looks directly into the lens, breaks into a confident smile, tilts her head slightly as if about to say something"
+      },
+      {
+        "time": "7.0-8.0s",
+        "beat": "she holds the close-up gaze, slight eyebrow raise — the moment freezes, perfect cut point for CapCut transition or text overlay"
+      }
+    ],
+    "spoken_lines": {
+      "dialogue": "none",
+      "ambient_sounds": [
+        "sharp door swing and thud against the wall (impactful, not jarring)",
+        "quick footsteps on hardwood floor",
+        "soft rustle of fabric from her sweatshirt",
+        "subtle shift in room tone as the door opens (quiet room to hallway ambience)"
+      ]
+    },
+    "no_text_no_graphics": {
+      "on_screen_text": "NONE",
+      "captions": "NONE",
+      "app_icons": "NONE",
+      "logos": "NONE",
+      "watermarks": "NONE",
+      "stickers": "NONE",
+      "screen_content": "N/A",
+      "note": "deliver a clean plate — all text, hooks, and graphics will be added later in CapCut"
+    },
+    "audio": {
+      "background_music": "none (clean audio for editor)",
+      "ambient": "door slam, footsteps on hardwood, fabric rustle, room tone shift"
+    },
+    "style_keywords": [
+      "door-slam-open",
+      "low-angle",
+      "pattern-interrupt",
+      "scroll-stopping",
+      "backlit-silhouette",
+      "approach-to-camera",
+      "UGC-hook",
+      "TikTok-opener",
+      "clean-plate",
+      "energetic-entry"
+    ],
+    "negative_prompt": [
+      "high angle or eye-level shot",
+      "slow or gentle door opening",
+      "any camera movement or shake",
+      "dark or moody interior with no backlight",
+      "visible brand logos on clothing or props",
+      "cluttered or messy hallway",
+      "warped hands or fingers",
+      "extra fingers",
+      "distorted face",
+      "overly sexualized framing",
+      "subject talking or mouthing words",
+      "jump cuts or multi-angle editing"
+    ]
+  }
+}

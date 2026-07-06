@@ -1,0 +1,56 @@
+{
+  "slug": "seedance-f35-aegean-sortie",
+  "title": "Cinematic F-35 Aegean Sortie",
+  "description": "An IMAX-grade, high-speed aerial shot of an F-35 Lightning II jet flying low over the Greek Cyclades islands with a cinematic Top Gun aesthetic.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "shot": {
+      "type": "cockpit POV + external chase cam hybrid",
+      "subject": "F-35 Lightning II fighter jet",
+      "action": "extreme low-altitude high-speed sortie, banking aggressively between Greek islands",
+      "camera_movement": "dynamic tracking shot, rapid push-ins, wing-mounted POV transitions, 180° barrel roll follow",
+      "speed": "Mach 0.9, sea-skimming altitude (~150ft)",
+      "duration": "8 seconds"
+    },
+    "environment": {
+      "location": "Aegean Sea, Greek Cyclades islands",
+      "landmarks": "white-washed villages with blue domes, dramatic limestone cliffs, caldera formations, scattered fishing boats",
+      "sea": "deep cobalt blue with sun-glittered surface, jet wash rippling the water below",
+      "sky": "clear with scattered cumulus clouds, golden hour light",
+      "atmosphere": "heat shimmer, vapor cones forming on wing surfaces, salt spray haze"
+    },
+    "cinematography": {
+      "style": "Top Gun: Maverick aesthetic, IMAX-grade aerial photography",
+      "reference_directors": [
+        "Joseph Kosinski",
+        "Claudio Miranda"
+      ],
+      "lens": "anamorphic wide 35mm with shallow depth on cockpit shots",
+      "color_grade": "teal and orange, high contrast, sun-bleached highlights",
+      "lighting": "natural golden hour, lens flares from low sun angle, rim light on fuselage",
+      "frame_rate": "24fps with selective 120fps slow-motion on banking moments",
+      "motion_blur": "minimal, crisp high-speed action"
+    },
+    "sound_design_cue": {
+      "audio": "thunderous afterburner roar, sonic boom transitions, doppler shift as jet passes camera, low rumbling score"
+    },
+    "details": {
+      "aircraft": "F-35A in standard gray livery, weapons bay closed, full afterburner with visible heat distortion",
+      "effects": "wingtip vortices, condensation trails, sea spray kicked up at lowest passes, shadow racing across island terrain",
+      "ground_elements": "stunned tourists looking up, goats scattering, laundry blowing on village clotheslines"
+    },
+    "mood": "adrenaline-soaked, triumphant, cinematic blockbuster energy",
+    "negative_prompt": [
+      "cartoonish",
+      "low quality",
+      "pixelated",
+      "slow movement",
+      "static camera",
+      "daytime flat lighting",
+      "multiple aircraft",
+      "civilian airliner",
+      "CGI artifacts"
+    ]
+  }
+}

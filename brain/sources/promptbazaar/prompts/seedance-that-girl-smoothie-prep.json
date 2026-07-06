@@ -1,0 +1,147 @@
+{
+  "slug": "seedance-that-girl-smoothie-prep",
+  "title": "That Girl Morning Smoothie Prep",
+  "description": "Cinematic over-the-shoulder shot of a chic Turkish woman slicing fresh fruit for a smoothie in a bright Scandinavian kitchen — 8-second clean plate for CapCut.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "A bright, cinematic over-the-shoulder shot looking down at a kitchen island where a chic Turkish woman is slicing fresh fruit for a smoothie. The camera peers just over her shoulder, capturing her hands, the cutting board with vibrant fruits, and the sunlit kitchen counter. Her face is partially visible in a three-quarter profile. Morning sunlight streams across the white countertop. No talking, no overlays — just the rhythm of the prep.",
+    "format": {
+      "duration_seconds": 8,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "TikTok / Pinterest 'that girl' morning routine"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age_range": "24-28",
+      "hair": "messy high bun, honey-brown, a few loose strands falling around her neck and ears",
+      "skin": "warm fair, fresh bare skin with a natural morning glow, no makeup",
+      "expression": "calm focus on the task, slight contentment visible in her three-quarter profile",
+      "vibe": "'that girl' / healthy morning / Pinterest kitchen goals"
+    },
+    "wardrobe": {
+      "top": "loose cropped white t-shirt, slightly sheer from the morning light, no logos or text",
+      "bottoms": "high-waisted sage-green linen lounge pants, partially visible",
+      "jewelry": "thin gold chain necklace, a simple hair claw clip in tortoiseshell holding the bun",
+      "nails": "short, clean, clear gloss",
+      "no_visible_brands": true
+    },
+    "props": {
+      "cutting_board": "large wooden cutting board with sliced strawberries, a halved banana, a small pile of blueberries, and a few mint leaves",
+      "knife": "simple chef's knife, ceramic or steel, no visible brand markings",
+      "on_counter": [
+        "a clear glass blender jar (no brand logo) waiting to be filled",
+        "a small glass bottle of oat milk",
+        "a ceramic bowl of whole strawberries",
+        "a folded linen kitchen towel in cream",
+        "a small potted herb (basil or mint) in a white ceramic pot"
+      ]
+    },
+    "setting": {
+      "location": "bright, minimal Scandinavian-Pinterest kitchen",
+      "details": [
+        "white marble or quartz kitchen island countertop",
+        "light oak open shelving with a few ceramic jars and plates",
+        "a window above the sink letting in bright morning sun",
+        "white subway tile backsplash",
+        "a trailing pothos plant on the shelf edge",
+        "everything clean, minimal, organized"
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#F5F0E8",
+        "#A8B5A0",
+        "#E84B5C",
+        "#F5D26E",
+        "#4A6741"
+      ]
+    },
+    "camera": {
+      "shot": "over-the-shoulder, looking down at about 30-degree angle toward the cutting board and counter",
+      "rig_feel": "as if someone is standing just behind her right shoulder, looking over and down",
+      "movement": "completely locked, no movement",
+      "framing": "her right shoulder and partial profile in the left edge of frame (slightly soft), the cutting board and her hands centered, kitchen counter extends to the right",
+      "lens_feel": "50mm equivalent, natural perspective, moderate depth of field — hands and food in sharp focus, background kitchen softly out of focus",
+      "focus": "sharp on her hands and the fruit on the cutting board"
+    },
+    "lighting": {
+      "key": "bright morning sunlight streaming from a window to the right, casting crisp highlights on the white counter and the fruit",
+      "fill": "bounce from the white countertop and tiles illuminating from below",
+      "mood": "bright, fresh, energizing, clean morning light",
+      "color_temp": "5500K clean daylight with slight warmth",
+      "highlights": "vivid color pop on the red strawberries and green mint, bright gleam on the knife blade, sun catching the glass blender"
+    },
+    "action_timeline": [
+      {
+        "time": "0.0-2.0s",
+        "beat": "static shot: her hands place a strawberry on the cutting board, she picks up the knife"
+      },
+      {
+        "time": "2.0-4.5s",
+        "beat": "she slices the strawberry in smooth, deliberate cuts — satisfying ASMR-like precision, juice glistening"
+      },
+      {
+        "time": "4.5-6.0s",
+        "beat": "she sweeps the sliced strawberries off the board into the blender jar with the flat of the knife"
+      },
+      {
+        "time": "6.0-7.5s",
+        "beat": "she reaches for the blueberries, drops a handful into the blender, a few bouncing slightly"
+      },
+      {
+        "time": "7.5-8.0s",
+        "beat": "she pauses, her head tilts slightly as if admiring the colorful arrangement in the blender — moment holds"
+      }
+    ],
+    "spoken_lines": {
+      "dialogue": "none",
+      "ambient_sounds": [
+        "crisp knife-on-cutting-board sounds (satisfying, rhythmic)",
+        "soft thud of fruit being placed",
+        "gentle clink of the glass blender",
+        "faint birdsong from the open window"
+      ]
+    },
+    "no_text_no_graphics": {
+      "on_screen_text": "NONE",
+      "captions": "NONE",
+      "app_icons": "NONE",
+      "logos": "NONE (no brand marks on any kitchen items)",
+      "watermarks": "NONE",
+      "stickers": "NONE",
+      "screen_content": "N/A",
+      "note": "deliver a clean plate — all text and graphics will be added later in CapCut"
+    },
+    "audio": {
+      "background_music": "none (clean audio for editor)",
+      "ambient": "knife cuts, fruit sounds, birdsong, quiet kitchen tone"
+    },
+    "style_keywords": [
+      "over-the-shoulder",
+      "kitchen",
+      "morning routine",
+      "that girl",
+      "healthy living",
+      "fruit prep",
+      "ASMR cutting",
+      "bright minimal",
+      "Pinterest kitchen",
+      "clean plate"
+    ],
+    "negative_prompt": [
+      "front-facing shot",
+      "top-down overhead",
+      "any camera movement",
+      "brand logos on appliances",
+      "messy or cluttered kitchen",
+      "dark or moody lighting",
+      "fast or frantic movement",
+      "warped hands or fingers",
+      "extra fingers",
+      "distorted face",
+      "overly sexualized framing"
+    ]
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "slug": "seedance-ugc-good-morning",
+  "title": "UGC 'Good Morning' Wake Up Vlog",
+  "description": "Hyper-realistic UGC-style 'good morning' moment. Natural American blonde waking up in a coastal Pinterest bedroom. Propped iPhone feel.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "Hyper-realistic UGC-style 'good morning' moment, shot like a real iPhone selfie video. The natural American blonde girl is waking up in her airy USA-coastal Pinterest bedroom. Her iPhone is propped up on the nightstand at a slightly imperfect angle — feels like she set it up herself for a casual morning vlog. She stirs under her white linen duvet, slowly opens her eyes, sits up, runs a hand through her tousled hair, and stretches with a sleepy smile. Looks like authentic iPhone footage, not a cinematic production.",
+    "format": {
+      "duration_seconds": 10,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "raw iPhone UGC / morning vlog Reel"
+    },
+    "shot_aesthetic": {
+      "device_simulation": "shot on iPhone 15/16 front or back camera, native iOS color science",
+      "look_and_feel": [
+        "vertical phone-held framing",
+        "natural iPhone lens compression and very mild barrel distortion",
+        "iPhone-style auto-exposure that subtly shifts as she moves into the light",
+        "iPhone auto-white-balance with slight cool morning shift",
+        "very mild lens flare from the window",
+        "natural iPhone sharpening — sharp on faces but with realistic skin texture",
+        "barely-there compression artifacts in shadows for authenticity",
+        "no cinema-grade color grade, no LUT, no film grain — just clean iPhone-native look"
+      ]
+    },
+    "character": {
+      "ethnicity": "American (white, Southern California / clean girl-next-door look)",
+      "age": "around 24-27",
+      "height_cm": 170,
+      "weight_kg": 55,
+      "build": "athletic and feminine — sporty toned shoulders and arms, defined collarbones, slim waist, soft natural curves; pilates-and-runs body",
+      "skin": "fair, naturally glowy with a hint of sun-kissed warmth, subtle freckles across the bridge of her nose and cheekbones, a tiny natural sleep-mark on one cheek, real visible pores and skin texture",
+      "hair": "long, natural beachy-wavy honey blonde with subtle lighter highlights, soft middle part, tousled and messy from sleep, falling past her shoulders",
+      "makeup": "barely-there 'just woke up' — clean bare skin, no visible makeup, soft naturally-pink lips, faint smudge of yesterday's mascara at the corner of one eye, full natural brows",
+      "eyes": "warm blue or soft hazel, sleepy and squinting in the morning light",
+      "face": "soft natural face — small natural imperfections (a tiny mole, faint freckles), real human texture, NOT airbrushed or AI-plastic",
+      "expression_arc": "still asleep → small stir → soft squint as eyes open → sleepy slow blink → small genuine sleepy smile",
+      "vibe": "authentic American girl-next-door, real and approachable — looks like a real person filming a real morning"
+    },
+    "wardrobe": {
+      "top": "soft oversized vintage-style white cotton t-shirt with a slightly stretched neckline, plain (no logos or text), the collar slipped a bit off one shoulder from sleep",
+      "bottoms": "barely visible under the duvet — soft cotton boy shorts or light grey lounge shorts",
+      "jewelry": "one thin gold necklace and a small gold ring she wore to bed (lived-in detail)",
+      "nails": "short oval, soft milky-pink, slightly chipped on one nail for realism",
+      "no_visible_brands": true
+    },
+    "setting": {
+      "location": "airy USA-coastal Pinterest bedroom (Southern California / Hamptons vibe)",
+      "details": [
+        "white-painted shiplap or smooth white walls",
+        "queen bed with crisp white linen bedding, soft cream waffle blanket folded at the foot, two stacked white linen pillows with one accent pillow in soft sage",
+        "light natural oak bed frame, low and modern",
+        "tall double-hung white window with sheer white linen curtains gently swaying, soft morning light filtering through",
+        "view through the window of soft green leaves and a hint of blue sky",
+        "light oak nightstand with: a clear glass of water with a lemon slice, a small stack of two paperback novels, a tortoiseshell hair clip, a tiny glass jar with one wildflower stem, a vintage analog alarm clock with a white face",
+        "soft beige jute rug on light wide-plank oak floors",
+        "a white-painted vintage dresser at the edge of frame with framed Polaroids casually leaning against the wall",
+        "warm-white fairy lights softly draped along the headboard",
+        "a tall snake plant or fiddle-leaf fig in a woven basket in the corner",
+        "an open paperback book face-down on the bed, like she fell asleep reading",
+        "color palette: cool whites, light oak, soft sage, hints of warm cream"
+      ],
+      "color_palette": [
+        "#FFFFFF",
+        "#F5F1EA",
+        "#E8E2D5",
+        "#D4C9B8",
+        "#A8B5A0",
+        "#7B8FA1"
+      ]
+    },
+    "camera": {
+      "device": "iPhone propped on the nightstand at a slightly imperfect angle, leaning against a book or the lamp",
+      "shot_type": "medium-wide static phone shot, framing her from the head down to mid-torso with the window and headboard behind her",
+      "framing_imperfection": "the framing is slightly off-center and tilts about 1-2 degrees, like a real person propped their phone up casually — NOT studio-perfect composition",
+      "angle": "slightly low angle from the nightstand, looking across the bed at her",
+      "movement": [
+        "the phone is technically static (propped up), but with very subtle micro-vibrations as someone breathes near it or the surface shifts slightly",
+        "barely perceptible drift, like a phone on a soft surface",
+        "absolutely no smooth gimbal motion — this should feel propped, not handheld and not on a tripod"
+      ],
+      "lens_feel": "iPhone wide lens look, mild natural compression, sharp focus on her face with iPhone's natural depth",
+      "auto_exposure": "exposure subtly adjusts as she moves — slight brightening on her face when she sits up into the light, very natural"
+    },
+    "lighting": {
+      "key": "soft cool morning daylight from the window, slightly cooler color temp — fresh real morning, not golden hour",
+      "fill": "soft white-wall bounce",
+      "rim": "subtle backlight halo on her hair from the window, with a tiny natural lens flare across the iPhone lens",
+      "mood": "fresh, dreamy, real morning",
+      "color_temp": "around 5500K with a faint cool blue tint, iPhone auto-white-balance correcting throughout"
+    },
+    "action_timeline": [
+      {
+        "time": "0.0-1.5s",
+        "beat": "she's curled on her side under the duvet, hair fanned across the pillow, eyes closed, peaceful and still"
+      },
+      {
+        "time": "1.5-2.5s",
+        "beat": "tiny natural stir — her head shifts slightly on the pillow, fingers twitch lightly"
+      },
+      {
+        "time": "2.5-3.8s",
+        "beat": "slow squint as she opens her eyes against the morning light, real sleepy slow blinks"
+      },
+      {
+        "time": "3.8-5.5s",
+        "beat": "she pushes the duvet down with one hand and slowly sits up, t-shirt collar slipping further off one shoulder, hair tumbling forward"
+      },
+      {
+        "time": "5.5-7.0s",
+        "beat": "she runs her fingers slowly through her tousled hair, pushing it back from her face"
+      },
+      {
+        "time": "7.0-8.5s",
+        "beat": "she stretches both arms upward and slightly back, small natural yawn (covered with the back of her wrist)"
+      },
+      {
+        "time": "8.5-10.0s",
+        "beat": "lowers her arms, turns her head softly toward the window, gives the smallest genuine sleepy smile"
+      }
+    ],
+    "performance_notes": {
+      "tone": "completely natural, unhurried, real — like candid iPhone footage of an actual morning",
+      "camera_awareness": "she does NOT acknowledge the camera, does NOT look at it directly — feels like the phone just happens to be there",
+      "realism_priority": "this should look like a real person filmed by their own propped iPhone, NOT a stylized cinematic production",
+      "do_not": [
+        "open eyes too quickly",
+        "give a wide camera-aware smile",
+        "look at the camera directly",
+        "have perfect TV-ready makeup",
+        "have perfectly styled hair",
+        "make energetic theatrical movements",
+        "yawn dramatically",
+        "look airbrushed",
+        "have cinematic gimbal-smooth camera movement",
+        "have professional studio lighting"
+      ]
+    },
+    "spoken_lines": {
+      "dialogue": "none",
+      "ambient_sounds": [
+        "very soft fabric rustle as she shifts",
+        "tiny natural exhale",
+        "barely-audible quiet yawn",
+        "faint distant birds outside",
+        "very soft morning room tone with iPhone-mic ambient noise floor (subtle realistic mic hiss)"
+      ]
+    },
+    "no_text_no_graphics": {
+      "on_screen_text": "NONE",
+      "captions": "NONE",
+      "logos": "NONE on any item",
+      "watermarks": "NONE",
+      "stickers": "NONE",
+      "iphone_ui_elements": "no time/battery overlay, no recording indicator, no zoom controls — just the clean image",
+      "note": "clean plate — all text and graphics will be added later in CapCut"
+    },
+    "audio": {
+      "background_music": "none",
+      "ambient": "soft fabric rustle, tiny exhale, distant birds, gentle morning room tone, subtle natural iPhone-mic ambience"
+    },
+    "style_keywords": [
+      "UGC iPhone footage",
+      "raw morning vlog",
+      "propped phone POV",
+      "hyper-realistic",
+      "authentic American girl",
+      "girl-next-door",
+      "USA coastal Pinterest bedroom",
+      "natural blonde",
+      "no-makeup clean girl",
+      "real skin texture",
+      "iPhone auto-exposure",
+      "natural morning light",
+      "candid documentary feel",
+      "clean plate"
+    ],
+    "negative_prompt": [
+      "cinematic film look",
+      "cinema camera or DSLR aesthetic",
+      "color-graded LUT",
+      "film grain",
+      "smooth gimbal movement",
+      "tripod-perfect framing",
+      "professional studio lighting",
+      "Asian or Korean features",
+      "Mediterranean look",
+      "very thin or skinny body",
+      "bulky muscular body",
+      "heavy makeup",
+      "perfectly styled hair",
+      "airbrushed AI-plastic skin",
+      "theatrical waking",
+      "direct eye contact with camera",
+      "warm Mediterranean color palette",
+      "beige terracotta tones",
+      "any on-screen text or captions",
+      "iPhone UI overlays",
+      "logos on clothing",
+      "Apple logos",
+      "watermarks",
+      "warped hands or fingers",
+      "extra fingers",
+      "distorted face",
+      "low resolution",
+      "overly sexualized framing"
+    ]
+  }
+}

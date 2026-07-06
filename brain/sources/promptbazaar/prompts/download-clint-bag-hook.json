@@ -1,0 +1,183 @@
+{
+  "slug": "download-clint-bag-hook",
+  "title": "Bag Hook UGC: download clint ;)",
+  "description": "A TikTok-style bag hook UGC video promoting Clint — the expense tracker. Camera starts inside a dark handbag, opens to daylight, a Turkish creator pulls out a handwritten note reading 'download clint ;)' with a playful wink. Clean plate for CapCut editing.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "Bag Hook format with a handwritten note CTA reveal. Camera starts inside a stylish handbag in near-darkness. The bag opens, daylight floods in, a chic Turkish woman reaches in and pulls out a small folded piece of white paper. She unfolds it and holds it up to the camera. The paper shows a short handwritten message in black marker. She smiles and winks. The note is the only text element — no digital overlays. Clean plate for CapCut editing.",
+    "format": {
+      "duration_seconds": 8,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "TikTok UGC hook / Instagram Reels"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age_range": "24-28",
+      "hair": "long loose dark brown waves with honey highlights, falling forward when she leans into bag, backlit by sun",
+      "skin": "warm fair-medium, natural dewy makeup, soft bronzer, glossy nude lip",
+      "expression": "playful and conspiratorial — searching look when reaching into bag, mischievous knowing smile when holding up the note, subtle wink at the end matching the ;) on the paper",
+      "vibe": "UGC creator / best friend sharing a secret / playful and genuine"
+    },
+    "wardrobe": {
+      "top": "fitted white baby tee or cream ribbed tank, no logos, clean simple",
+      "jewelry": "layered thin gold necklaces, small gold hoops, one thin gold ring",
+      "nails": "short almond, milky white or soft pink glaze — must look flawless in close-up when holding paper",
+      "bag": "medium structured leather tote in tan or camel, no visible brand logos",
+      "no_visible_brands": true
+    },
+    "the_handwritten_note": {
+      "CRITICAL_TEXT_ACCURACY": "THE TEXT ON THE PAPER MUST READ EXACTLY AS SPECIFIED BELOW. EVERY LETTER, EVERY CHARACTER MUST BE CORRECT. NO MISSPELLINGS.",
+      "exact_text": "download clint ;)",
+      "character_by_character_breakdown": [
+        "d (lowercase d)",
+        "o (lowercase o)",
+        "w (lowercase w)",
+        "n (lowercase n)",
+        "l (lowercase L)",
+        "o (lowercase o)",
+        "a (lowercase a)",
+        "d (lowercase d)",
+        " (single space)",
+        "c (lowercase c)",
+        "l (lowercase L)",
+        "i (lowercase i)",
+        "n (lowercase n)",
+        "t (lowercase t)",
+        " (single space)",
+        "; (semicolon)",
+        ") (closing parenthesis — together with the semicolon this forms a wink emoticon ;) )"
+      ],
+      "total_characters": "18 characters including spaces and punctuation",
+      "word_count": "exactly 2 words plus 1 emoticon: [download] [clint] [;)]",
+      "writing_instrument": "thick black felt-tip marker (chisel tip) — bold strokes with natural thick-thin variation",
+      "handwriting_style": "casual young-woman handwriting, slightly slanted right, natural and relaxed, clearly legible, lowercase throughout, no cursive connections between letters — each letter is distinct and separate",
+      "paper": "plain white paper, slightly textured, approximately 15x10cm, with one horizontal fold crease from being folded in the bag. Text centered on the paper with comfortable margins. NO other writing, doodles, drawings, or marks anywhere on the paper.",
+      "ink_appearance": "rich solid black, slightly glossy from fresh marker ink, no smudging, no bleeding"
+    },
+    "props": {
+      "the_note_paper": "a small piece of plain white paper with the handwritten text described above — this is a PHYSICAL PROP, not a digital overlay",
+      "inside_bag_visible": [
+        "faint shapes of everyday items — lip gloss tube, sunglasses, keys",
+        "the folded white paper visible among the items"
+      ]
+    },
+    "setting": {
+      "location": "bright outdoor — sunny café terrace, park, or clean urban sidewalk",
+      "details": [
+        "first 2 seconds: ONLY bag interior — dark, leather texture",
+        "when bag opens: bright warm daylight, blue sky",
+        "background: soft bokeh of outdoor setting, completely out of focus"
+      ],
+      "color_palette": [
+        "#0A0A0A",
+        "#3C2E20",
+        "#87CEEB",
+        "#FFFFFF",
+        "#F5EDE2",
+        "#D4A574"
+      ]
+    },
+    "camera": {
+      "shot_phase_1": "inside closed bag, looking up, dark (0-2s)",
+      "shot_phase_2": "bag opens, her face appears from above (2-4s)",
+      "shot_phase_3": "she pulls out folded paper, unfolds it (4-6s)",
+      "shot_phase_4": "paper held close to camera filling center of frame, her face behind it smiling (6-8s)",
+      "rig_feel": "camera at bottom of bag initially, then handheld after pickup",
+      "movement": "Phase 1-2: locked. Phase 3: organic lift. Phase 4: slight handheld micro-movement",
+      "framing_final": "the paper occupies the center 60% of the vertical frame. The handwritten text 'download clint ;)' is CLEARLY READABLE, in sharp focus, well-lit. Her face is visible above the paper with a playful smile.",
+      "lens_feel": "wide angle (24mm), deep DOF so paper text AND her face are both in acceptable focus",
+      "focus_critical": "in the final frame (6-8s), the handwritten text on the paper MUST be tack-sharp, maximum clarity, fully legible to the viewer"
+    },
+    "lighting": {
+      "key": "Phase 1: near darkness. Phase 2-4: bright natural outdoor daylight, sun behind her creating hair rim light",
+      "fill": "natural sky and ground bounce providing even light on the paper surface — the white paper must be well-lit with no shadows obscuring the text",
+      "mood": "dark mysterious → bright and playful",
+      "color_temp": "outdoor: 5500K clean daylight",
+      "highlights": "white paper catching maximum light, marker ink slightly glossy, her necklaces glinting, backlit hair halo"
+    },
+    "action_timeline": [
+      {
+        "time": "0.0-1.5s",
+        "beat": "DARKNESS: inside closed bag, near-black, faint leather texture. Zipper or clasp click sound."
+      },
+      {
+        "time": "1.5-2.5s",
+        "beat": "BAG OPENS: flap parts, bright daylight floods in. Her face appears above, looking down with playful searching expression. Hair backlit, glowing."
+      },
+      {
+        "time": "2.5-4.0s",
+        "beat": "THE REACH: her hand enters the bag toward camera. She rummages briefly, fingers find the folded white paper, pinches it and pulls it out."
+      },
+      {
+        "time": "4.0-5.5s",
+        "beat": "THE UNFOLD: she pulls paper out of the bag. Holds it in front of her, unfolds it with both hands in a deliberate gesture. Text not yet visible to camera — anticipation building."
+      },
+      {
+        "time": "5.5-7.0s",
+        "beat": "THE REVEAL: she turns the paper toward the camera and holds it up. The handwritten text 'download clint ;)' in bold black marker is clearly visible and readable. She peeks over the top edge of the paper with a mischievous grin."
+      },
+      {
+        "time": "7.0-8.0s",
+        "beat": "THE WINK: she lowers the paper slightly, more of her face visible. She gives a playful wink matching the ;) on the paper. Genuine conspiratorial smile. Frame holds — money shot."
+      }
+    ],
+    "spoken_lines": {
+      "dialogue": "none — the paper does all the talking",
+      "ambient_sounds": [
+        "bag clasp/zipper opening click",
+        "muffled outdoor sounds becoming clear as bag opens",
+        "rummaging inside bag",
+        "paper unfolding crinkle",
+        "outdoor ambient — birds, café hum, breeze",
+        "soft amused exhale or tiny laugh when holding up note"
+      ]
+    },
+    "no_text_no_graphics": {
+      "on_screen_text": "NONE — the ONLY text in the entire video is the handwritten text on the physical paper prop",
+      "captions": "NONE",
+      "app_icons": "NONE",
+      "logos": "NONE",
+      "watermarks": "NONE",
+      "stickers": "NONE",
+      "digital_overlays": "NONE",
+      "note": "The handwritten note is a PHYSICAL PAPER PROP held by the character, NOT a post-production text overlay. Additional CapCut text and music can be added later."
+    },
+    "audio": {
+      "background_music": "none (clean plate for editor)",
+      "ambient": "bag sounds, paper crinkle, outdoor ambient, subtle laugh"
+    },
+    "style_keywords": [
+      "bag hook",
+      "handwritten note CTA",
+      "felt-tip marker",
+      "physical prop text",
+      "UGC",
+      "dark-to-light reveal",
+      "pattern interrupt",
+      "playful wink",
+      "clean plate"
+    ],
+    "negative_prompt": [
+      "ANY misspelling of the note text",
+      "DO NOT write 'downlaod' — it must be 'download' (d-o-w-n-l-o-a-d)",
+      "DO NOT write 'clint' with capital C — all lowercase",
+      "DO NOT write 'klint' or 'clinte' or any variation — it must be 'clint' exactly",
+      "DO NOT add a period, comma, or any extra punctuation between 'download' and 'clint'",
+      "DO NOT add any extra text, words, or characters beyond 'download clint ;)'",
+      "DO NOT use printed/typed text — must be handwritten marker style",
+      "digital text overlay (text must be handwritten on physical paper)",
+      "illegible or blurry handwriting",
+      "brand logos on bag or clothing",
+      "camera movement during dark phase",
+      "bright bag interior at start (must begin dark)",
+      "multiple papers or cards",
+      "warped hands or fingers",
+      "extra fingers or limbs",
+      "distorted face",
+      "overly sexualized framing"
+    ]
+  }
+}

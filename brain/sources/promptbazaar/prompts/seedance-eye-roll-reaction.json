@@ -1,0 +1,89 @@
+{
+  "slug": "seedance-eye-roll-reaction",
+  "title": "Dramatic Eye Roll Reaction",
+  "description": "An authentic, high-speed human reaction of a Latina creator doing a genuine, dramatic eye roll.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "Authentic, high-speed human reaction. A beautiful Latin creator does a genuine, dramatic eye roll — the kind a real person does when they're done with someone's nonsense. Reflexive, not theatrical.",
+    "format": {
+      "duration_seconds": 4,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "Native TikTok / iPhone Camera"
+    },
+    "character": {
+      "ethnicity": "Latina (Mexican/Spanish)",
+      "age_range": "24-28",
+      "hair": "dark brown wavy hair, shoulder length, voluminous with natural texture",
+      "skin": "warm olive skin tone, realistic texture with natural pores, soft bronzy makeup, subtle highlight on cheekbones",
+      "eyes": "deep brown eyes with thick natural lashes, locked on camera before rolling",
+      "expression": "dramatic done-with-it eye roll. Starts with a flat unimpressed stare, then eyes track upward slowly, head tilts back slightly, deep exhale through nose"
+    },
+    "wardrobe": {
+      "top": "deep burgundy ribbed turtleneck, high-quality fabric, no logos",
+      "nails": "long dark cherry red almond nails, glossy",
+      "no_visible_brands": true
+    },
+    "setting": {
+      "location": "indoor, soft-focus warm beige background",
+      "details": [
+        "subtle background blur",
+        "clean minimalist aesthetic",
+        "warm golden-hour-like daylight"
+      ]
+    },
+    "camera": {
+      "shot": "close-up, face and upper chest",
+      "angle": "eye level, handheld feel (slight micro-shakes)",
+      "lens_feel": "iPhone 15 Pro front camera, 1x zoom, sharp focus on eyes",
+      "headroom": "centered, ample space for overlays"
+    },
+    "lighting": {
+      "key": "warm natural light, golden catchlights in eyes",
+      "mood": "moody, slightly cinematic everyday lighting"
+    },
+    "micro_idle_before_reaction": "0.0-0.5s flat unimpressed stare directly at camera, one slow blink",
+    "action_timeline": [
+      {
+        "time": "0.0-0.5s",
+        "beat": "Flat, unimpressed stare directly at camera. One slow deliberate blink."
+      },
+      {
+        "time": "0.5-1.2s",
+        "beat": "Eye roll begins: eyes track upward and to one side smoothly, head tilts back about 10 degrees, audible 'tsk' or sigh through nose, shoulders rise slightly"
+      },
+      {
+        "time": "1.2-4.0s",
+        "beat": "Eyes return to camera with a 'really?' deadpan look, one eyebrow slightly raised, mouth in a tight flat line. Holds the 'I cannot with this' energy."
+      }
+    ],
+    "gesture_rules": {
+      "movement_style": "Smooth but deliberate. The eye roll itself is fluid, but the return to camera is sharp.",
+      "realism_ticks": [
+        "natural nostril flare during exhale",
+        "slight jaw clench when eyes return to camera",
+        "subtle shoulder rise and fall",
+        "micro head tilt"
+      ]
+    },
+    "no_text_no_graphics": {
+      "all_elements": "NONE",
+      "note": "Zero text, zero UI, zero watermarks. Pure raw footage."
+    },
+    "negative_prompt": [
+      "slow motion",
+      "robotic movement",
+      "uncanny valley",
+      "stiff face",
+      "morphing features",
+      "plastic skin",
+      "cartoonish eye roll",
+      "text",
+      "overlay",
+      "tiktok icons",
+      "exaggerated theater acting"
+    ]
+  }
+}

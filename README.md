@@ -101,8 +101,9 @@ DG Stack includes a browsable reference brain for source-backed creative work:
 - YC startup records for taglines, one-liners, positioning, and landing-page references
 - Paul Graham essays for founder essay structure and plain contrarian reasoning
 - Lenny's public AI-friendly starter dataset for product/growth/operator writing
-- Dating-app conversation starter patterns from Reddit source review
-- AI video prompt templates and source links
+- Dating-app conversation starter lines and patterns
+- AI video prompt templates and pattern notes
+- Structured image and video prompt examples
 
 Refresh the corpus:
 

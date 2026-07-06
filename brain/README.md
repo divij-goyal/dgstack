@@ -19,6 +19,7 @@ source artifacts, normalized item indexes, and distilled style/pattern notes.
 - `sources/lenny-newsletter`: product/growth/operator writing examples.
 - `sources/dating-openers`: dating-app opener lines and reply-friendly patterns.
 - `sources/video-prompts`: video-generation prompt patterns and templates.
+- `sources/promptbazaar`: structured image and video prompt examples.
 
 ## Refresh
 

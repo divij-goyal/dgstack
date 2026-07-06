@@ -1,0 +1,107 @@
+{
+  "slug": "seedance-realization-reaction",
+  "title": "Raw UGC Realization Reaction",
+  "description": "A raw selfie video of a young Slavic girl slowly realizing she forgot to cancel a free trial, captured with real-life UGC energy.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "Raw selfie video of a Russian/Slavic girl in her early 20s. She's sitting in her car or at her kitchen table and slowly realizes something — like she just remembered she forgot to cancel a free trial. The realization creeps in across 4 seconds. Pure UGC, captured-in-real-life energy.",
+    "format": {
+      "duration_seconds": 4,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "Raw iPhone front camera, ungraded"
+    },
+    "character": {
+      "ethnicity": "Slavic (Russian/Ukrainian)",
+      "age_range": "22-25",
+      "hair": "ash blonde hair, slightly greasy at the roots like day-3 hair, half-up clip, frizzy strands at the temples",
+      "skin": "very fair skin with cool undertones, real texture with visible pores, faint redness around nose, dry patch on one cheek, no foundation, just chapstick",
+      "eyes": "pale grey-blue eyes, slightly tired, no mascara, faint dark circles",
+      "expression": "blank zoned-out face slowly transforms into 'oh no' realization, in stages"
+    },
+    "wardrobe": {
+      "top": "worn dove grey crewneck sweatshirt, slightly pilled fabric, sleeves pushed up unevenly",
+      "nails": "bare short nails, no polish, slightly bitten",
+      "no_visible_brands": true
+    },
+    "setting": {
+      "location": "either her car (driver's seat, parked) or kitchen table — choose car for stronger UGC feel",
+      "details": [
+        "if car: seatbelt visible, dashboard slightly out of focus, gray winter daylight outside windshield",
+        "if kitchen: cluttered counter behind, half-eaten food, mug, crumbs, real apartment mess",
+        "no decorative styling whatsoever"
+      ]
+    },
+    "camera": {
+      "shot": "selfie medium close-up, face and upper chest",
+      "angle": "phone held in one hand at chest height, slight tilt, not straight",
+      "lens_feel": "iPhone front camera, 1x, mild distortion",
+      "movement": "very subtle handheld drift, breathing-level shake"
+    },
+    "lighting": {
+      "key": "flat overcast daylight or dim apartment ambient — nothing flattering",
+      "mood": "everyday, unposed, slightly drained energy",
+      "catchlights": "faint, possibly just window or windshield reflection"
+    },
+    "image_quality": {
+      "grain": "slight low-light noise",
+      "compression": "social-tier compression",
+      "color": "ungraded, slight cool cast",
+      "no_filters": true,
+      "imperfections": "occasional minor focus drift"
+    },
+    "micro_idle_before_reaction": "0.0-1.2s genuine blank zone-out, no acting, slow involuntary blink, mouth slightly open",
+    "action_timeline": [
+      {
+        "time": "0.0-1.2s",
+        "beat": "Vacant, zoned-out stare. Eyes unfocused. One slow tired blink. Mouth slightly slack. She's not reacting yet — she's just existing."
+      },
+      {
+        "time": "1.2-2.4s",
+        "beat": "Something clicks: eyes sharpen, refocus, blink twice quickly, brows start to pull up. Lips move slightly like she's mouthing 'wait...'"
+      },
+      {
+        "time": "2.4-3.4s",
+        "beat": "Full realization: eyes widen, mouth opens about an inch, sharp inhale through nose, head pulls back slightly, says quietly 'oh no' or 'shit'"
+      },
+      {
+        "time": "3.4-4.0s",
+        "beat": "Hand comes up partially into frame to rub her forehead or cover her mouth, eyes go off-camera as she's now mentally calculating. Self-talks under breath."
+      }
+    ],
+    "gesture_rules": {
+      "movement_style": "Slow biological progression. Each beat lags slightly behind the last like a real cognitive process.",
+      "realism_ticks": [
+        "involuntary tired blink in idle",
+        "real lip movement of mouthing words",
+        "audible-feeling inhale at peak",
+        "hand drifts up unconsciously, not on a planned beat",
+        "looks away from camera at the end (real people don't perform to camera)"
+      ]
+    },
+    "no_text_no_graphics": {
+      "all_elements": "NONE",
+      "note": "Raw clip only. No overlays, no logos, no UI, no captions, no watermarks."
+    },
+    "negative_prompt": [
+      "fast reaction",
+      "jump scare",
+      "studio lighting",
+      "professional photography",
+      "ring light",
+      "model pose",
+      "perfect makeup",
+      "smooth skin",
+      "beauty filter",
+      "color graded",
+      "cinematic",
+      "tripod",
+      "perfectly framed",
+      "looking at camera entire time",
+      "uncanny valley",
+      "plastic skin"
+    ]
+  }
+}

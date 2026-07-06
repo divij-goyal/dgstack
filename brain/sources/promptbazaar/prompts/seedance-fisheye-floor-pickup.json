@@ -1,0 +1,156 @@
+{
+  "slug": "seedance-fisheye-floor-pickup",
+  "title": "Fisheye Floor Pickup Reveal",
+  "description": "Dynamic ground-up fisheye shot — camera sits on the floor, a Turkish woman jogs toward it, picks it up, and brings it to her face in a scroll-stopping TikTok hook. 8-second clean plate.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "A dynamic fisheye floor-pickup shot. The camera sits on the ground, lens pointing straight up at a slight forward angle, with extreme barrel distortion. A chic Turkish woman is seen at a distance, then jogs toward the camera. She reaches it, bends down, picks it up, and brings it to her face — her smile filling the distorted wide frame. The perspective transforms from ground-up establishing shot to intimate handheld selfie. No talking, no overlays — just the approach and the reveal.",
+    "format": {
+      "duration_seconds": 8,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "TikTok hook / UGC pickup shot / viral Reels opener"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age_range": "24-28",
+      "hair": "long, loose, flowing freely — bounces and sways as she jogs, catching backlight, dark brown with warm highlights",
+      "skin": "warm fair-medium, natural sun-kissed glow, light natural makeup — soft bronzer, subtle mascara, tinted lip balm",
+      "expression": "starts neutral/determined while jogging, transitions to a bright genuine smile and playful energy as she picks up the camera and sees herself in it",
+      "vibe": "UGC creator energy / main character moment / playful and confident"
+    },
+    "wardrobe": {
+      "top": "fitted white baby tee or cropped tank top, clean and minimal, no logos — the fisheye distortion will stretch it so keep it simple and clean",
+      "bottoms": "high-waisted light-wash or cream wide-leg jeans, visible from the ground-up angle during approach",
+      "shoes": "clean white sneakers or minimal canvas shoes — these are the FIRST thing visible in frame since camera is on the ground",
+      "jewelry": "layered thin gold necklaces (will catch light when she leans toward camera), small gold hoop earrings, one or two thin gold bracelets",
+      "sunglasses": "tortoiseshell sunglasses pushed up on her head (not covering eyes)",
+      "nails": "short almond, soft pink or glazed nude",
+      "no_visible_brands": true
+    },
+    "props": {
+      "none_in_hands": "her hands are free — one hand reaches for the camera at the pickup moment",
+      "environment_props": [
+        "the ground surface the camera sits on (clean light concrete, pale stone, or sandy boardwalk)",
+        "background environment elements visible in the fisheye dome — sky, trees or architecture"
+      ]
+    },
+    "setting": {
+      "location": "bright outdoor location — a clean urban sidewalk, Mediterranean-style courtyard, boardwalk, or rooftop terrace",
+      "details": [
+        "the ground surface is light-toned (pale concrete, limestone, light wood deck) to bounce light upward onto her face during the pickup",
+        "the sky above is bright blue with a few soft clouds — visible in the fisheye dome of the background",
+        "warm sunlight creating a backlit rim on her hair and shoulders as she approaches",
+        "background shows either soft foliage (olive trees, bougainvillea) or clean architecture — all heavily distorted by the fisheye",
+        "the environment is clean and uncluttered — the focus is entirely on her approach and the camera pickup"
+      ],
+      "color_palette": [
+        "#87CEEB",
+        "#F5EDE2",
+        "#FFFFFF",
+        "#D4A574",
+        "#4A7C59",
+        "#E8D5C4"
+      ]
+    },
+    "camera": {
+      "shot": "PHASE 1 (0-5s): camera on the ground, pointing up at roughly 70-degree angle, completely static. PHASE 2 (5-8s): camera is picked up by her hand, becomes handheld, now pointing at her face from below at arm's length",
+      "rig_feel": "Phase 1: phone/camera lying flat on the ground, propped slightly to angle upward — as if she placed it down and walked away, now coming back. Phase 2: handheld selfie-style, slight natural hand movement",
+      "lens": "FISHEYE / extreme wide-angle (12-14mm equivalent) with strong barrel distortion throughout the entire shot. The fisheye bends straight lines, stretches the periphery, and creates a dome-like view of the sky and environment. Her body and face will have characteristic fisheye distortion — larger in the center, stretched at edges",
+      "movement": "Phase 1: ZERO camera movement, locked on the ground. Phase 2: organic handheld micro-movement as she lifts and holds it — slight wobble, natural and authentic, NOT stabilized",
+      "framing_phase_1": "ground-up wide angle: the frame shows the ground surface at the bottom edges, her approaching figure in the center (starting small, growing larger), sky and environment filling the upper dome of the fisheye. As she gets closer, her legs and torso fill more of the frame",
+      "framing_phase_2": "her face and upper body fill the frame from below — classic fisheye selfie look, chin slightly prominent due to the low angle and distortion, big eyes, sky behind her head",
+      "focus": "deep focus throughout (fisheye lenses have extreme depth of field) — everything from the ground texture to her face to the sky is in sharp focus"
+    },
+    "lighting": {
+      "key": "bright outdoor sunlight, sun positioned behind and above her — creating strong backlight rim on her hair and shoulders during the approach, then filling from above when she holds the camera up",
+      "fill": "light ground surface bouncing sunlight upward (critical: this provides under-fill on her face and body during the ground-up phase, preventing her from being a pure silhouette)",
+      "mood": "bright, energetic, outdoor, high-key, summery, confident",
+      "color_temp": "5500K clean daylight, slightly warm from the ground bounce",
+      "highlights": "strong backlit hair halo as she approaches (sun behind her), light catching her necklaces, bright sky in the fisheye dome, her sneakers and the ground texture catching direct light in the foreground"
+    },
+    "action_timeline": [
+      {
+        "time": "0.0-1.5s",
+        "beat": "GROUND PHASE: Camera on the ground, fisheye pointing up. She is visible about 8-10 meters away, a full-body figure against the bright sky and environment. The fisheye makes the sky dome dramatic and the ground surface stretch out. She starts jogging toward the camera. Her footsteps are audible."
+      },
+      {
+        "time": "1.5-3.5s",
+        "beat": "APPROACH: She jogs closer — her figure grows in the frame. The fisheye distortion makes her legs appear longer as they enter the wide periphery. Her hair bounces, backlight catches the movement. She's now 3-4 meters away, her body filling the center of the frame. Energy is building."
+      },
+      {
+        "time": "3.5-5.0s",
+        "beat": "ARRIVAL: She reaches the camera and slows down. She stands right above it for a split second — from this ultra-low angle her figure towers in the frame, legs dramatically foreshortened by the fisheye, sky visible between her arm and body. She bends down, her hand reaching toward the lens."
+      },
+      {
+        "time": "5.0-6.0s",
+        "beat": "PICKUP: Her hand grabs the camera/phone. The perspective WHIPS as she lifts it — the ground drops away, the world rotates, sky swings across the frame. A brief moment of motion blur and disorientation as the camera transitions from ground to handheld. This is the kinetic hook — the world flipping."
+      },
+      {
+        "time": "6.0-7.0s",
+        "beat": "FACE REVEAL: She brings the camera to arm's length in front of her face. Her face fills the fisheye frame — slightly distorted, chin a bit prominent from the below-angle, big expressive eyes. She looks into the lens and breaks into a genuine, bright smile. The sky is behind her head like a halo."
+      },
+      {
+        "time": "7.0-8.0s",
+        "beat": "HOLD: She holds the frame, smiling into the camera with playful confidence. Maybe a tiny head tilt or eyebrow raise. The handheld has slight natural micro-movement. The fisheye distortion makes her smile feel larger than life. Frame holds — this is where the CapCut text/hook will go."
+      }
+    ],
+    "spoken_lines": {
+      "dialogue": "none",
+      "ambient_sounds": [
+        "her sneakers on the ground surface — rhythmic jogging footsteps getting louder as she approaches",
+        "light outdoor ambient — breeze, distant sounds of life",
+        "the whoosh of the camera being picked up (brief wind-on-mic effect)",
+        "a soft laugh or exhale as she sees herself in the camera (very subtle, natural)",
+        "slight fabric rustle from her movement"
+      ]
+    },
+    "no_text_no_graphics": {
+      "on_screen_text": "NONE",
+      "captions": "NONE",
+      "app_icons": "NONE",
+      "logos": "NONE",
+      "watermarks": "NONE",
+      "stickers": "NONE",
+      "screen_content": "N/A",
+      "note": "deliver a clean plate — text hook, transitions, and music will be added in CapCut. The final 'hold' moment (7-8s) is specifically designed as the landing frame for text overlay."
+    },
+    "audio": {
+      "background_music": "none (clean audio for editor)",
+      "ambient": "footsteps approaching, outdoor breeze, pickup whoosh, subtle laugh"
+    },
+    "style_keywords": [
+      "fisheye",
+      "ultra-wide",
+      "barrel distortion",
+      "floor pickup",
+      "ground-up",
+      "approach shot",
+      "perspective shift",
+      "UGC energy",
+      "dynamic",
+      "bright outdoor",
+      "scroll-stopping hook",
+      "camera pickup reveal",
+      "TikTok hook format",
+      "clean plate"
+    ],
+    "negative_prompt": [
+      "normal lens (MUST be fisheye with visible barrel distortion)",
+      "camera already in hand (MUST start on the ground)",
+      "static shot (the pickup transition is essential)",
+      "indoor setting",
+      "dark or moody lighting",
+      "slow or lethargic movement",
+      "any on-screen text or overlays",
+      "brand logos on clothing or shoes",
+      "stabilized gimbal look during pickup (must feel raw and handheld)",
+      "warped hands or fingers",
+      "extra fingers or limbs",
+      "distorted face beyond natural fisheye effect",
+      "overly sexualized framing or low-angle exploitation"
+    ]
+  }
+}

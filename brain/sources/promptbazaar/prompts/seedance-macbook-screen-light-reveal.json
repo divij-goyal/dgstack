@@ -1,0 +1,145 @@
+{
+  "slug": "seedance-macbook-screen-light-reveal",
+  "title": "MacBook Screen Light Reveal",
+  "description": "Cinematic dark-room shot of a Turkish woman slowly opening her MacBook — the screen light gradually washes upward across her face from below in a dramatic reveal moment. 8-second clean plate.",
+  "category": "Video Gen",
+  "model": "seedance",
+  "prompt": {
+    "concept": "In a dim room, a chic Turkish woman slowly opens her MacBook lid. The screen light gradually illuminates her face from below — starting at her chin, then washing upward to reveal her full face emerging from darkness. Her eyes lock onto the screen, the cool-warm light reflecting in her pupils. A dramatic, cinematic 'reveal' moment. Behind her, the room remains dark with only faint silhouettes of objects. No talking, no overlays — just the light reveal.",
+    "format": {
+      "duration_seconds": 8,
+      "aspect_ratio": "9:16",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "platform_look": "TikTok cinematic / aesthetic tech moment / moody Reels"
+    },
+    "character": {
+      "ethnicity": "Turkish",
+      "age_range": "24-28",
+      "hair": "down, dark, framing her face, catching the screen light on the side closest to camera",
+      "skin": "warm fair-medium, clean skin, the screen light creates dramatic under-lighting — illuminating her jawline, cheekbones, and brow from below",
+      "expression": "focused anticipation as the screen opens, eyes widening slightly with the light, a subtle curious micro-expression, then settling into calm engagement",
+      "vibe": "cinematic / late night creative / aesthetic tech moment"
+    },
+    "wardrobe": {
+      "top": "oversized dark charcoal or black crewneck sweatshirt — blends into the dark background, making her illuminated face the sole focus",
+      "visible": "upper body and face, everything else is dark",
+      "jewelry": "small gold stud earrings catching the screen light, a thin gold ring on her hand as it opens the laptop",
+      "nails": "short, dark or neutral — visible as she lifts the lid",
+      "no_visible_brands": true
+    },
+    "props": {
+      "laptop": "Apple MacBook (silver), closed at the start, she slowly opens the lid — the screen is the ONLY light source in the scene (no Apple logo glow visible from this angle since lid faces away)",
+      "screen_content": "a warm-toned, softly glowing abstract interface with no readable text, no logos, no recognizable apps — just a gentle luminous surface",
+      "background_silhouettes": [
+        "a lit candle with a very faint warm glow on a shelf behind her",
+        "silhouette of stacked books",
+        "the outline of a potted plant",
+        "faint shape of a window with drawn curtains"
+      ]
+    },
+    "setting": {
+      "location": "dim bedroom or home office, late evening or night",
+      "details": [
+        "room is intentionally dark — the laptop screen is the primary light source",
+        "a desk or table surface where the laptop sits",
+        "behind her: only dark silhouettes and one faint candle glow",
+        "the darkness creates a natural vignette around her illuminated face",
+        "intimate, focused, late-night-creative atmosphere"
+      ],
+      "color_palette": [
+        "#0A0A0A",
+        "#1A1A18",
+        "#E8D5C4",
+        "#7BA4C9",
+        "#D4A054",
+        "#2A2A28"
+      ]
+    },
+    "camera": {
+      "shot": "medium close-up, across the table from her, face-level, slightly below eye level to capture the under-lighting effect",
+      "rig_feel": "camera sitting on the desk surface across from her, looking up slightly at her face",
+      "movement": "completely locked — all movement comes from the laptop lid opening and the light gradually spreading",
+      "framing": "she fills the center and upper two-thirds of frame, the laptop lid edge visible at the bottom of frame (partially), dark room surrounding her",
+      "lens_feel": "85mm portrait, very shallow depth of field, her face in sharp focus, everything behind her is dark soft shapes",
+      "focus": "razor sharp on her eyes, the screen light reflection in her pupils, her illuminated skin texture"
+    },
+    "lighting": {
+      "key": "ONLY the MacBook screen — this is the entire lighting concept. As the lid opens, the cool-white screen light gradually washes upward across her face from below. Under-lighting creates dramatic shadows above her brow and nose",
+      "fill": "a single tiny candle flame far behind her providing the faintest warm counter-light on her hair edge — just enough to separate her from pure black",
+      "mood": "dramatic, cinematic, intimate, focused — like the opening shot of a film",
+      "color_temp": "screen light: 5500K cool white with slight warmth from the interface color, candle: 2200K deep amber",
+      "highlights": "screen light reflecting in both her pupils (two small bright points), gleam on her lower lip, light catching her earring, the screen glow washing across her jawline and cheekbones"
+    },
+    "action_timeline": [
+      {
+        "time": "0.0-1.0s",
+        "beat": "near-darkness — only the faint candle glow and her silhouette are barely visible. Her hands reach for the laptop lid."
+      },
+      {
+        "time": "1.0-3.0s",
+        "beat": "she begins to slowly open the MacBook lid. A thin line of light appears and expands, first illuminating her chin and lower face. The reveal begins."
+      },
+      {
+        "time": "3.0-5.0s",
+        "beat": "the lid opens further — the light washes up to her eyes, which catch the glow and reflect it. Her full face is now visible, dramatically lit from below. Her expression shifts from neutral to engaged."
+      },
+      {
+        "time": "5.0-6.5s",
+        "beat": "the lid is fully open. Her face is now bathed in the screen's glow. She settles in, her eyes scanning the screen, a subtle smile of recognition or interest forming."
+      },
+      {
+        "time": "6.5-8.0s",
+        "beat": "she tilts her head very slightly, the light shifting subtly across her features. Her eyes stay locked on the screen. The moment holds — her illuminated face floating in darkness."
+      }
+    ],
+    "spoken_lines": {
+      "dialogue": "none",
+      "ambient_sounds": [
+        "soft mechanical sound of the MacBook hinge opening",
+        "very faint startup chime or soft system sound (subtle)",
+        "quiet room tone — the silence of a focused late night",
+        "barely audible fabric rustle as she adjusts"
+      ]
+    },
+    "no_text_no_graphics": {
+      "on_screen_text": "NONE",
+      "captions": "NONE",
+      "app_icons": "NONE",
+      "logos": "NONE (no Apple logo visible)",
+      "watermarks": "NONE",
+      "stickers": "NONE",
+      "screen_content": "warm abstract luminous surface, no text, no recognizable UI",
+      "note": "deliver a clean plate — the light reveal is the hook"
+    },
+    "audio": {
+      "background_music": "none (clean audio for editor)",
+      "ambient": "laptop hinge sound, quiet room, faint system tone"
+    },
+    "style_keywords": [
+      "screen light",
+      "under-lighting",
+      "dark room reveal",
+      "dramatic",
+      "cinematic",
+      "face illumination",
+      "tech aesthetic",
+      "moody",
+      "portrait",
+      "visual hook",
+      "clean plate"
+    ],
+    "negative_prompt": [
+      "room lights on",
+      "bright environment",
+      "visible screen text or apps",
+      "Apple logo",
+      "any camera movement",
+      "harsh or flat lighting",
+      "multiple light sources",
+      "warped hands or fingers",
+      "distorted face",
+      "overly sexualized framing"
+    ]
+  }
+}
