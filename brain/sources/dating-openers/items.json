@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "category": "profile_specific",
+    "line": "Your [specific photo/detail] needs a backstory. What was happening there?",
+    "why_it_works": "It proves you looked at the profile and gives them an easy story to tell."
+  },
+  {
+    "id": 2,
+    "category": "profile_specific",
+    "line": "You look genuinely happy in the [specific photo]. What made that day so good?",
+    "why_it_works": "It is warm, specific, and invites a positive memory."
+  },
+  {
+    "id": 3,
+    "category": "profile_specific",
+    "line": "I have one serious question about your [hobby/photo/prompt]: how did that become a thing for you?",
+    "why_it_works": "It turns a profile detail into a real conversation."
+  },
+  {
+    "id": 4,
+    "category": "profile_specific",
+    "line": "Your [travel/photo/place] picture is doing a lot of work here. Worth the hype or overrated?",
+    "why_it_works": "It is specific and gives them two simple response paths."
+  },
+  {
+    "id": 5,
+    "category": "profile_specific",
+    "line": "I need the lore behind [specific detail].",
+    "why_it_works": "Short, playful, and asks for a story."
+  },
+  {
+    "id": 6,
+    "category": "profile_specific",
+    "line": "Your profile makes you seem like someone who has one unexpectedly good recommendation. What is it?",
+    "why_it_works": "It gives a flattering frame without being intense."
+  },
+  {
+    "id": 7,
+    "category": "profile_specific",
+    "line": "You mentioned [interest]. Beginner question: what is the best way to get into it?",
+    "why_it_works": "It lets them be the expert."
+  },
+  {
+    "id": 8,
+    "category": "profile_specific",
+    "line": "That [pet/food/travel/outfit] photo is the strongest evidence in your profile. What is the context?",
+    "why_it_works": "It is playful and grounded in something real."
+  },
+  {
+    "id": 9,
+    "category": "profile_specific",
+    "line": "Your [bio line] made me laugh. Is that a real belief or just excellent branding?",
+    "why_it_works": "It reacts to their writing and opens playful debate."
+  },
+  {
+    "id": 10,
+    "category": "profile_specific",
+    "line": "I was going to say something smooth, but I am more curious about [specific detail]. Explain.",
+    "why_it_works": "It disarms the opener and shifts to genuine curiosity."
+  },
+  {
+    "id": 11,
+    "category": "choice",
+    "line": "Important question: perfect dinner, chaotic road trip, or lazy Sunday?",
+    "why_it_works": "Choice questions are easy to answer and reveal personality."
+  },
+  {
+    "id": 12,
+    "category": "choice",
+    "line": "Are you more spontaneous plans or calendar invite energy?",
+    "why_it_works": "It is playful and hints at compatibility."
+  },
+  {
+    "id": 13,
+    "category": "choice",
+    "line": "First-date vibe: coffee walk, dive bar, or something mildly competitive?",
+    "why_it_works": "It naturally points toward meeting without being too direct."
+  },
+  {
+    "id": 14,
+    "category": "choice",
+    "line": "Pick one: great tacos, great bookstore, or great live music?",
+    "why_it_works": "It is low-pressure and can lead to concrete date ideas."
+  },
+  {
+    "id": 15,
+    "category": "choice",
+    "line": "Would you rather have a perfect local spot or be amazing at finding hidden places while traveling?",
+    "why_it_works": "It gives them room to talk about taste and lifestyle."
+  },
+  {
+    "id": 16,
+    "category": "choice",
+    "line": "Are you more 'plan the whole trip' or 'figure it out when we land'?",
+    "why_it_works": "It is practical, playful, and personality-revealing."
+  },
+  {
+    "id": 17,
+    "category": "choice",
+    "line": "Which is more you: making the playlist or judging the playlist?",
+    "why_it_works": "It creates an easy, lightly flirty role."
+  },
+  {
+    "id": 18,
+    "category": "choice",
+    "line": "Do you trust people who say they do not like dessert?",
+    "why_it_works": "It is silly, safe, and invites a quick opinion."
+  },
+  {
+    "id": 19,
+    "category": "choice",
+    "line": "Would you rather be known for your taste in restaurants, movies, or memes?",
+    "why_it_works": "It gives multiple easy entry points."
+  },
+  {
+    "id": 20,
+    "category": "choice",
+    "line": "Are you more sunrise ambition or midnight overthinking?",
+    "why_it_works": "It is short, slightly poetic, and easy to personalize."
+  },
+  {
+    "id": 21,
+    "category": "story_prompt",
+    "line": "What is the most unexpectedly fun date you have ever been on?",
+    "why_it_works": "It asks for a story and keeps the topic dating-relevant."
+  },
+  {
+    "id": 22,
+    "category": "story_prompt",
+    "line": "What is a tiny thing that instantly improves your day?",
+    "why_it_works": "It is positive and easy to answer."
+  },
+  {
+    "id": 23,
+    "category": "story_prompt",
+    "line": "What is something you are weirdly proud of?",
+    "why_it_works": "It invites personality without feeling invasive."
+  },
+  {
+    "id": 24,
+    "category": "story_prompt",
+    "line": "What is your best recent discovery?",
+    "why_it_works": "It can become food, music, travel, books, or a local place."
+  },
+  {
+    "id": 25,
+    "category": "story_prompt",
+    "line": "What is the most underrated thing about your week so far?",
+    "why_it_works": "It is better than asking how their week is."
+  },
+  {
+    "id": 26,
+    "category": "story_prompt",
+    "line": "What is a harmless opinion you will defend too strongly?",
+    "why_it_works": "It invites playful disagreement."
+  },
+  {
+    "id": 27,
+    "category": "story_prompt",
+    "line": "What is the last thing that made you laugh harder than expected?",
+    "why_it_works": "It starts with emotion instead of biography."
+  },
+  {
+    "id": 28,
+    "category": "story_prompt",
+    "line": "What is your most reliable way to make a boring day better?",
+    "why_it_works": "It reveals lifestyle and gives follow-up material."
+  },
+  {
+    "id": 29,
+    "category": "story_prompt",
+    "line": "What is a place you would happily go back to tomorrow?",
+    "why_it_works": "It opens travel, memories, and taste."
+  },
+  {
+    "id": 30,
+    "category": "story_prompt",
+    "line": "What is something you liked before everyone else caught on?",
+    "why_it_works": "It lets them flex taste without sounding boastful."
+  },
+  {
+    "id": 31,
+    "category": "playful",
+    "line": "I am giving your profile a strong opening score, but I need one more data point: what is your best personality trait?",
+    "why_it_works": "It is lightly teasing and invites self-description."
+  },
+  {
+    "id": 32,
+    "category": "playful",
+    "line": "You seem like trouble, but in a well-reviewed way.",
+    "why_it_works": "It is flirtatious without being explicit."
+  },
+  {
+    "id": 33,
+    "category": "playful",
+    "line": "There is something interesting about you, and I am trying to decide if it is a green flag or a scheduling problem.",
+    "why_it_works": "It creates intrigue and a playful hook."
+  },
+  {
+    "id": 34,
+    "category": "playful",
+    "line": "Your profile has 'fun side quest' energy.",
+    "why_it_works": "It is short, modern, and easy to respond to."
+  },
+  {
+    "id": 35,
+    "category": "playful",
+    "line": "I was told not to overthink openers, so here is my brave question: what are you excited about lately?",
+    "why_it_works": "It names the awkwardness and asks something real."
+  },
+  {
+    "id": 36,
+    "category": "playful",
+    "line": "On a scale from 'plans brunch' to 'accidentally starts an adventure,' where do you land?",
+    "why_it_works": "It is vivid and gives a playful scale."
+  },
+  {
+    "id": 37,
+    "category": "playful",
+    "line": "I have a feeling your camera roll is either food, travel, or deeply unexplainable screenshots. Which one?",
+    "why_it_works": "It is funny and easy to answer."
+  },
+  {
+    "id": 38,
+    "category": "playful",
+    "line": "You get one opener from me: charming question or mildly chaotic question?",
+    "why_it_works": "It invites them to choose the tone of the conversation."
+  },
+  {
+    "id": 39,
+    "category": "playful",
+    "line": "What is your most controversial food opinion? I need to know what I am dealing with.",
+    "why_it_works": "Food opinions are safe, quick, and often funny."
+  },
+  {
+    "id": 40,
+    "category": "playful",
+    "line": "Your profile seems normal, which is suspicious. What is the catch?",
+    "why_it_works": "It is teasing but not mean."
+  },
+  {
+    "id": 41,
+    "category": "soft_direct",
+    "line": "You seem interesting. What should I know about you that is not obvious from your profile?",
+    "why_it_works": "It is direct while giving them control."
+  },
+  {
+    "id": 42,
+    "category": "soft_direct",
+    "line": "I like your vibe. What is the best way to get to know you?",
+    "why_it_works": "It asks for their preferred style of connection."
+  },
+  {
+    "id": 43,
+    "category": "soft_direct",
+    "line": "What brings you here: curiosity, chaos, or actually meeting someone good?",
+    "why_it_works": "It updates a common opener with personality."
+  },
+  {
+    "id": 44,
+    "category": "soft_direct",
+    "line": "I would rather ask something real than say hey. What has your attention lately?",
+    "why_it_works": "It avoids the generic greeting and gives a broad answer path."
+  },
+  {
+    "id": 45,
+    "category": "soft_direct",
+    "line": "You seem like someone worth having an actual conversation with. What topic would prove me right?",
+    "why_it_works": "It compliments their substance, not just looks."
+  },
+  {
+    "id": 46,
+    "category": "soft_direct",
+    "line": "What are you hoping is different about the next person you meet from here?",
+    "why_it_works": "It is more serious but can create a high-quality conversation."
+  },
+  {
+    "id": 47,
+    "category": "soft_direct",
+    "line": "I am curious: what makes you say yes to a first date?",
+    "why_it_works": "It is practical and moves toward intent."
+  },
+  {
+    "id": 48,
+    "category": "soft_direct",
+    "line": "If we skipped the small talk, what would you actually want to talk about?",
+    "why_it_works": "It gives permission for a more interesting answer."
+  },
+  {
+    "id": 49,
+    "category": "soft_direct",
+    "line": "What is something that makes you instantly comfortable with someone new?",
+    "why_it_works": "It is warm and signals emotional intelligence."
+  },
+  {
+    "id": 50,
+    "category": "soft_direct",
+    "line": "I will start simple: what is one thing your profile gets right about you and one thing it leaves out?",
+    "why_it_works": "It creates a deeper answer without being too intense."
+  }
+]
