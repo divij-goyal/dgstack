@@ -17,7 +17,6 @@ source artifacts, normalized item indexes, and distilled style/pattern notes.
 - `sources/yc-startups`: startup one-liners, positioning, latest batch spreadsheets, and homepage HTML references.
 - `sources/paul-graham`: founder essay corpus and plain contrarian essay style.
 - `sources/lenny-newsletter`: product/growth/operator writing examples.
-- `sources/dating-openers`: dating-app conversation starter patterns.
 - `sources/video-prompts`: video-generation prompt patterns and templates.
 
 ## Refresh

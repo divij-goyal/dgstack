@@ -14,8 +14,7 @@ early. Stay in the possibility space long enough to find non-obvious angles.
 2. Read `../references/principles.md`.
 3. Read any relevant brain source in `../brain/sources/`:
    YC for startup positioning, Paul Graham for founder thinking, Lenny for
-   product/growth, dating-openers for conversation starters, or video-prompts
-   for generative video.
+   product/growth, or video-prompts for generative video.
 4. Read `references/instructions.md`.
 5. Adopt the relevant expert lens.
 6. State the strongest version of the user's idea.

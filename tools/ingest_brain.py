@@ -28,6 +28,12 @@ def fetch(url: str, timeout: int = 30) -> bytes:
         return response.read()
 
 
+def redact_sensitive(text: str) -> str:
+    text = re.sub(r"AIza[0-9A-Za-z_-]{20,}", "REDACTED_GOOGLE_API_KEY", text)
+    text = re.sub(r"(key=)REDACTED_GOOGLE_API_KEY", r"\1REDACTED_GOOGLE_API_KEY", text)
+    return text
+
+
 def write_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
@@ -175,7 +181,7 @@ def ingest_yc(homepage_limit: int) -> None:
             if not website:
                 continue
             try:
-                body = fetch(website, timeout=5)
+                body = redact_sensitive(fetch(website, timeout=5).decode("utf-8", errors="replace")).encode("utf-8")
                 filename = slugify(c.get("name", str(c.get("id")))) + ".html"
                 (home_dir / filename).parent.mkdir(parents=True, exist_ok=True)
                 (home_dir / filename).write_bytes(body)
@@ -289,60 +295,20 @@ https://lennysdata.com/.
 
 
 def ingest_static_reference_sets() -> None:
-    write_text(SOURCES / "dating-openers" / "README.md", """# Dating App Conversation Starter Brain
-
-Sources reviewed:
-
-- https://www.reddit.com/r/Tinder/comments/10z4oa7/hit_me_with_your_best_conversation_starter/
-- https://www.reddit.com/r/Tinder/comments/tbtn97/as_a_guy_is_saying_hey_hows_it_going_an_okay_way/
-- https://www.reddit.com/r/Tinder/comments/8sznkh/whats_a_good_conversation_opener_to_get_girls_to/
-- https://www.reddit.com/r/Tinder/comments/3ed4bl/whats_your_best_conversationstarter_for_tinder_no/
-
-Direct Reddit JSON fetching was blocked by network security during ingestion, so
-this file stores source-linked patterns rather than a scraped comment archive.
-
-## Patterns That Tend To Get Replies
-
-- Profile-specific question: mention one concrete photo, detail, place, hobby, or prompt.
-- Compliment plus curiosity: avoid generic appearance-only compliments; ask something answerable.
-- Low-pressure playful premise: an odd but easy question that invites a short answer.
-- Shared-choice opener: two options that reveal taste, e.g. "chaotic road trip or perfect dinner?"
-- Story prompt: ask for a tiny story, not a biography.
-
-## Reusable Templates
-
-- "You look genuinely happy in the [specific photo]. What was happening there?"
-- "Important question: are you more [option A] or [option B]?"
-- "Your [profile detail] raises a serious question: [playful specific question]?"
-- "I need the backstory on [specific detail]."
-- "What's the most underrated thing about [interest/place from profile]?"
-
-## Avoid
-
-- Copy-paste sexual lines.
-- "Hey" with no context.
-- Interview questions with no emotional hook.
-- Overly clever openers that give the other person no easy reply path.
-""")
-
     video_items = [
         {
-            "source": "https://gist.github.com/ruvnet/e20537eb50866b2d837d4d13b066bd88",
             "pattern": "cinematic_sora",
             "essence": "Subject + environment + camera movement + lens/lighting + mood + temporal action.",
         },
         {
-            "source": "https://github.com/geekjourneyx/awesome-ai-video-prompts",
             "pattern": "awesome_ai_video_prompting",
             "essence": "Prompt libraries should separate scene, motion, camera, style, audio, constraints, and negative space.",
         },
         {
-            "source": "https://github.com/Eric-Lautanen/seamless-ai-video-prompt-template",
             "pattern": "continuous_shot",
             "essence": "For seamless video, define one continuous camera move, stable subject identity, and no hard cuts.",
         },
         {
-            "source": "https://github.com/ai-boost/awesome-prompts/blob/main/prompts/video_gen_prompting.txt",
             "pattern": "video_generation_template",
             "essence": "Use model-aware syntax and describe physical motion, not only visual appearance.",
         },
@@ -373,9 +339,9 @@ Create a [duration/style] video of [subject] doing [specific action] in
 Mood is [emotion]. Maintain [continuity constraints]. Avoid [failure modes].
 ```
 
-## Sources
+## Local Pattern Records
 
-See `items.json` for source URLs and extracted pattern notes.
+See `items.json` for extracted pattern notes.
 """)
 
 
@@ -399,7 +365,6 @@ source artifacts, normalized item indexes, and distilled style/pattern notes.
 - `sources/yc-startups`: startup one-liners, positioning, and homepage HTML references.
 - `sources/paul-graham`: founder essay corpus and plain contrarian essay style.
 - `sources/lenny-newsletter`: product/growth/operator writing examples.
-- `sources/dating-openers`: dating-app conversation starter patterns.
 - `sources/video-prompts`: video-generation prompt patterns and templates.
 
 ## Refresh

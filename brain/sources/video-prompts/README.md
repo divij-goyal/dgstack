@@ -23,6 +23,6 @@ Create a [duration/style] video of [subject] doing [specific action] in
 Mood is [emotion]. Maintain [continuity constraints]. Avoid [failure modes].
 ```
 
-## Sources
+## Local Pattern Records
 
-See `items.json` for source URLs and extracted pattern notes.
+See `items.json` for extracted pattern notes.
